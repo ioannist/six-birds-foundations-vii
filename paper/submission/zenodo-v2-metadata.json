@@ -1,0 +1,178 @@
+{
+  "title": "Six Birds Foundations VII: Lawful Theory Interaction",
+  "description": "<p>When may two theories interact lawfully, and what must a joint theory show to count as more than its parts? This paper gives a typed certificate language for such claims and proves where mathematics backs its certificates. The language keeps apart claims that are easily conflated: that content is expressible, present, reachable or occurrent; that two theories touch or form a joint theory; that one enables another or determines it; that order matters or time has an arrow. Twenty-seven named countermodels in a finite reference world exhibit these separations.</p>\n\n<p>An observable of a join is strict, factoring on its image through neither parent nor their pairing, exactly when it has a split pair against each of the three maps. When admitting an item can only enable further admissions, every admission order reaches the same terminal state, by Newman's lemma, and one disabling guard produces two. As a soundness check, a semantic strict join satisfies the language's strictness certificate once it is also proved not to factor, on its image, through a declared refinement and schedule, which strictness alone does not give. Other entries are definitions or recorded refusals. The results are formalized in Lean 4, with the stated exceptions.</p>\n\n<p>The supplement is a separate file. It gives the source concordance, the certificate records and their fields, the record-level separations and definitional statements, the register of the catalog, the finite evidence, the formal status, and replay instructions. The Lean 4 development and the finite-model laboratories are in the linked repository.</p>\n\n<p><strong>Version 2.</strong> The paper is rewritten as a typed certificate language with a finite test suite and leads with new semantic theorems: strict joins as non-factorization, and confluence of admission orders via Newman's lemma, with a disabling counterexample. Several version-1 claims are restated at the strength the proofs support: the strict-join certificate is a recorded non-factorization assertion, the confluence biconditional is a reformulation, no categorical statement about products is made, and the eleven no-go fronts are refusals whose content is their escape routes. Catalog tables, the per-entry reference and the Lean surface move to the supplement.</p>",
+  "publication_date": "2026-10-06",
+  "version": "v2",
+  "keywords": [
+    "emergence calculus",
+    "lawful theory interaction",
+    "join of theories",
+    "strict join",
+    "factorization",
+    "split pair",
+    "confluence",
+    "Newman's lemma",
+    "certificate language",
+    "enablement",
+    "access coordinates",
+    "Lean 4",
+    "Six Birds Theory"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18365949",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19672278",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20124595",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20713187",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.22248767",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.22254289",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.18439737",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19187777",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.2307/1968867",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/B978-0-08-012975-4.50028-X",
+      "relation": "cites",
+      "resource_type": "publication-section"
+    },
+    {
+      "identifier": "10.1145/322217.322230",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/978-1-4757-4721-8",
+      "relation": "cites",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "10.1145/357073.357079",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1145/147508.147524",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/978-3-642-17336-3",
+      "relation": "cites",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "10.1145/503209.503226",
+      "relation": "cites",
+      "resource_type": "publication-conferencepaper"
+    },
+    {
+      "identifier": "10.1561/1000000053",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1145/151646.151649",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1017/S1755020316000186",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/978-3-030-64187-0_18",
+      "relation": "cites",
+      "resource_type": "publication-section"
+    },
+    {
+      "identifier": "10.1016/0020-0190(85)90056-0",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/978-3-319-10575-8",
+      "relation": "cites",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "10.1007/3-540-49059-0_14",
+      "relation": "cites",
+      "resource_type": "publication-conferencepaper"
+    },
+    {
+      "identifier": "10.1073/pnas.1708274114",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1145/1265530.1265535",
+      "relation": "cites",
+      "resource_type": "publication-conferencepaper"
+    },
+    {
+      "identifier": "10.1017/CBO9780511803161",
+      "relation": "cites",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "10.1016/j.jtbi.2015.02.029",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/978-3-030-79876-5_37",
+      "relation": "cites",
+      "resource_type": "publication-conferencepaper"
+    },
+    {
+      "identifier": "10.1093/oso/9780198501275.003.0013",
+      "relation": "cites",
+      "resource_type": "publication-section"
+    },
+    {
+      "identifier": "10.1098/rspa.1984.0023",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1103/PhysRevE.60.2721",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    }
+  ]
+}

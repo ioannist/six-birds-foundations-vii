@@ -1,7 +1,6 @@
 {
   "citation_policy": {
     "allowed_entries_without_identifiers": [
-      "TsiokosHolonomy",
       "TsiokosStrictTest"
     ]
   },
@@ -41,14 +40,17 @@
       "keywords": [
         "emergence calculus",
         "lawful theory interaction",
-        "theory join",
-        "admissibility regime",
+        "join of theories",
+        "strict join",
+        "factorization",
+        "split pair",
+        "confluence",
+        "Newman's lemma",
+        "certificate language",
         "enablement",
         "access coordinates",
-        "bootstrap obstruction",
-        "no-go with named escapes",
-        "bounded finite carriers",
-        "audited emergence"
+        "Lean 4",
+        "Six Birds Theory"
       ]
     }
   }

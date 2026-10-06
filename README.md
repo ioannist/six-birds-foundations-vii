@@ -6,20 +6,29 @@ This repository contains the manuscript and reproducibility package for:
 >
 > Ioannis Tsiokos
 >
-> Preprint v1.0, 2 September 2026. DOI: [10.5281/zenodo.22254857](https://doi.org/10.5281/zenodo.22254857)
+> Preprint v2.0, 6 October 2026. DOI (v2.0): [10.5281/zenodo.23187439](https://doi.org/10.5281/zenodo.23187439)
+>
+> DOI (all versions): [10.5281/zenodo.22254856](https://doi.org/10.5281/zenodo.22254856);
+> v1.0 (2 September 2026): [10.5281/zenodo.22254857](https://doi.org/10.5281/zenodo.22254857)
 
-The paper develops a typed calculus for access, admission, evidenced contact, theory joins,
-enablement, transport, and certified non-interaction. Its claims are deliberately scoped: finite
-enumerations establish results only on their declared carriers, and formal verification establishes
+The paper gives a typed certificate language for when two theories interact lawfully and what a
+joint theory must show to count as more than its parts. It proves that an observable of a join is
+strict exactly when it has a split pair against each parent and their pairing, and that admission
+orders are confluent, by Newman's lemma, when admission only enables. Its claims are
+deliberately scoped: finite enumerations establish results only on their declared carriers, and formal verification establishes
 the stated Lean declarations rather than the adequacy of a scientific interpretation.
 
-**Keywords:** emergence calculus; lawful theory interaction; theory join; admissibility regime;
-enablement; access coordinates; audited emergence; Lean 4.
+**Keywords:** emergence calculus; lawful theory interaction; join of theories; strict join;
+factorization; split pair; confluence; Newman's lemma; certificate language; enablement;
+access coordinates; Lean 4; Six Birds Theory.
 
 ## What this repository provides
 
-- The modular LaTeX manuscript under `paper/`, with the canonical 81-page PDF at
-  `paper/submission/artifacts/Tsiokos_2026_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf`.
+- The modular LaTeX manuscript and its supplement under `paper/`, with the release PDFs at
+  `paper/submission/artifacts/Tsiokos_2026_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf`
+  (24 pages) and
+  `paper/submission/artifacts/Tsiokos_2026_Supplement_to_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf`
+  (28 pages).
 - A Lean 4 formalization under `formalization/lean/`, pinned to
   `leanprover/lean4:v4.28.0`.
 - Independent Python finite-model laboratories under
@@ -73,14 +82,19 @@ A TeX installation with `latexmk`, `pdflatex`, and BibTeX is required:
 ```bash
 cd paper
 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error supplement.tex
+latexmk -g -pdf -interaction=nonstopmode -halt-on-error main.tex
+latexmk -g -pdf -interaction=nonstopmode -halt-on-error supplement.tex
 ```
 
-Build outputs are written under `paper/build/` and are intentionally ignored. The release PDF is
+Each document is built again so that its references into the other resolve.
+
+Build outputs are written under `paper/build/` and are intentionally ignored. The release PDFs are
 tracked separately under `paper/submission/artifacts/`.
 
 ## Repository layout
 
-- `paper/` — manuscript source, bibliography, generated tables, submission metadata, and release PDF.
+- `paper/` — manuscript source, bibliography, generated tables, submission metadata, and release PDFs.
 - `formalization/lean/` — Foundations VII Lean source and trust receipts.
 - `formalization/foundations_vii_lab/` — Python reference implementation and finite evidence.
 - `formalization/foundations_v_scaffold/` and `formalization/foundations_vi_scaffold/` — curated
