@@ -6,7 +6,7 @@ This repository contains the manuscript and reproducibility package for:
 >
 > Ioannis Tsiokos
 >
-> Preprint v2.0, 6 October 2026. DOI (v2.0): [10.5281/zenodo.23187439](https://doi.org/10.5281/zenodo.23187439)
+> Preprint v2.0, 6 October 2026. DOI (v2.0): [10.5281/zenodo.23187549](https://doi.org/10.5281/zenodo.23187549)
 >
 > DOI (all versions): [10.5281/zenodo.22254856](https://doi.org/10.5281/zenodo.22254856);
 > v1.0 (2 September 2026): [10.5281/zenodo.22254857](https://doi.org/10.5281/zenodo.22254857)

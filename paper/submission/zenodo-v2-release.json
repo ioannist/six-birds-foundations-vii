@@ -1,16 +1,16 @@
 {
   "action": "created new-version draft",
   "concept_record_id": "22254856",
-  "dashboard_url": "https://zenodo.org/uploads/23187439",
-  "doi": "10.5281/zenodo.23187439",
+  "dashboard_url": "https://zenodo.org/uploads/23187549",
+  "doi": "10.5281/zenodo.23187549",
   "doi_reservation": {
     "client": "datacite",
-    "identifier": "10.5281/zenodo.23187439",
+    "identifier": "10.5281/zenodo.23187549",
     "provider": "datacite",
     "verified_via": "rdm_pid_table"
   },
-  "draft_id": 23187439,
-  "recorded_at": "2026-10-06T11:54:42+00:00",
+  "draft_id": 23187549,
+  "recorded_at": "2026-10-06T12:01:32+00:00",
   "source_doi": "10.5281/zenodo.22254857",
   "source_record_id": 22254857,
   "source_title": "Six Birds Foundations VII: Lawful Theory Interaction"
