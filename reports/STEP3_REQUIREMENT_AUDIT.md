@@ -1,0 +1,24 @@
+# Step 3 requirement audit
+
+All **18** requirements pass.
+
+| ID | Requirement | Status | Evidence | Result |
+| --- | --- | --- | --- | --- |
+| S3-R01 | Re-read every supplied paper against the VII dependency graph | PASS | readiness/paper_reread_matrix.jsonl; readiness/paper_rereads/ | 58 source-hashed rereads; P039 explicitly abstract-only |
+| S3-R02 | Separate inherited results from genuinely new VII obligations | PASS | readiness/scope_inheritance.jsonl; readiness/SCOPE_INHERITANCE.md | 30 convergence-group rulings |
+| S3-R03 | Specify the minimal VII object model | PASS | readiness/object_model.jsonl; readiness/OBJECT_MODEL.md | 18 closed acyclic records; all candidates typed |
+| S3-R04 | Adjudicate every wish-list atom | PASS | wishlists/step3_adjudication.jsonl; wishlists/WISHLIST_ADJUDICATION_STEP3.md | 130/130 exactly once across seven dispositions |
+| S3-R05 | Prepare candidate law/schema dossiers without claiming proofs | PASS | readiness/candidate_index.jsonl; readiness/candidates/ | 36 specification-ready, unproved dossiers |
+| S3-R06 | Attach detector, null, falsifier, positive model, and countermodel to each candidate | PASS | readiness/candidate_index.jsonl | Complete candidate contract for all 36 |
+| S3-R07 | Create the scoped VII no-go program | PASS | readiness/no_go_program.jsonl; readiness/NO_GO_PROGRAM.md | 11 candidate no-gos with escape controls |
+| S3-R08 | Build an adversarial countermodel atlas | PASS | readiness/countermodel_atlas.jsonl; readiness/COUNTERMODEL_ATLAS.md | 27 named non-implication controls |
+| S3-R09 | Specify and execute the Two-Theory World | PASS | readiness/two_theory_world/; generated/step3_reference_model_results.json | 24/24 statuses and 29/29 assertions pass |
+| S3-R10 | Map later formalization to exact prior Lean assets | PASS | formalization/step3/formalization_targets.jsonl; formalization/step3/prior_reuse_matrix.jsonl | 20 targets; 30 exact reuse records across 29 unique inherited declarations |
+| S3-R11 | Preserve imported Lean and add no premature VII declarations | PASS | formalization/integration/cumulative_lean_declarations.csv; Step-3 validator | zero VII declarations; no Lean diff |
+| S3-R12 | Produce a chapter dependency DAG, not draft prose | PASS | readiness/chapter_dag.jsonl; readiness/CHAPTER_DAG.md | 12 acyclic nodes; every candidate assigned once |
+| S3-R13 | Make overclaim boundaries explicit | PASS | readiness/red_lines.jsonl; readiness/RED_LINES.md | 30 mechanically checked red lines |
+| S3-R14 | Expose unresolved choices as decisions rather than hidden assumptions | PASS | readiness/decision_points.jsonl; readiness/DECISION_POINTS.md | 15 evidence-gated decisions |
+| S3-R15 | Preserve exact candidate-to-source traceability | PASS | readiness/candidate_source_trace.jsonl; readiness/candidate_dependency_graph.graphml | 3,166 trace rows; closed 1,851-node/5,969-edge graph |
+| S3-R16 | Retain P039 and P040/P058 source/version boundaries | PASS | readiness/paper_rereads/P039.json; P040.json; P058.json | abstract-only block and non-independent family retained |
+| S3-R17 | Deliver deterministic rebuild and executable acceptance gate | PASS | scripts/rebuild_step3.sh; scripts/validate_step3.py | single-command rebuild and validation |
+| S3-R18 | Do not draft Foundations VII in Step 3 | PASS | readiness/READINESS_DOSSIER.md; STEP3_REPORT.md | explicit readiness-only/no-paper/no-new-theorem boundary |

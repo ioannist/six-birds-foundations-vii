@@ -1,0 +1,65 @@
+{
+  "all_claims_reconsidered": 15,
+  "anti_overread": [
+    "We do not claim a general reconstruction of non-Hilbert interference or a formalization of the full benchmark runtime.",
+    "The claim is narrower: these recombination phenomena arise on fixed support, can be audited exactly, and admit a partial formal backbone on the Six Birds substrate.",
+    "Discussion and Limitations: The paper establishes a substrate-level result. On a fixed-support Six Birds architecture, branchwise predictive structure and recombination-sensitive structure can be separated operationally, and that separation can be audited under exact finite controls. The benchmark suite shows that the same substrate supports a classical-mixture null regime, hidden predictive memory without additional recombination sensitivity, readable-route suppression, erased conditional recovery, bounded cyclic-family generalization, dissipative washout, and artifact controls based on protocol internalization and flattening/completion. The formal contribution is narrower. The Lean development proves an abstract refinement layer under detectability, a factorized no-interference regime in which the recombination quotient collapses to the branchwise quotient, and the corresponding obstruction result that strict refinement rules out global branchwise factorization. It also proves one theorem-backed concrete positive instance for an aligned Lean model of the promoted family n5_d1_w1of4_3of4 . These results support the interpretation of the benchmark suite but do not replace it.",
+    "It does not provide a reconstruction of quantum theory, and it does not claim to be the first general treatment of interference beyond Hilbert-space formalisms It does not prove the paired erasure benchmark in full runtime detail, the full cyclic-family generalization, or the dissipative control."
+  ],
+  "boundary_claim_ids": [
+    "P016-C0002",
+    "P016-C0003",
+    "P016-C0010",
+    "P016-C0011"
+  ],
+  "candidate_ids": [
+    "VII-C030",
+    "VII-C007",
+    "VII-C035",
+    "VII-C008",
+    "VII-C033",
+    "VII-C009",
+    "VII-C036",
+    "VII-C016"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 15 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P016",
+  "reading_order": "27",
+  "relevant_claim_ids": [
+    "P016-C0001",
+    "P016-C0002",
+    "P016-C0003",
+    "P016-C0004",
+    "P016-C0005",
+    "P016-C0006",
+    "P016-C0007",
+    "P016-C0008",
+    "P016-C0009",
+    "P016-C0010",
+    "P016-C0011",
+    "P016-C0012",
+    "P016-C0013",
+    "P016-C0014",
+    "P016-C0015"
+  ],
+  "root_sha256": "57bf45d9f903def51739d464985c7497022cd4ca06f800f3a35433b80ff021ca",
+  "source_path": "papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "2274c996906b981447fd890230ed7e9d3454344ebc878f51c33dd558178c244e",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Marking, Erasure, and Recombination on Fixed Support",
+  "top_convergence_groups": [
+    "CG13",
+    "CG06",
+    "CG07",
+    "CG08",
+    "CG11"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

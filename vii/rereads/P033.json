@@ -1,0 +1,39 @@
+{
+  "all_claims_reconsidered": 4,
+  "anti_overread": [
+    "We do not claim a general characterization of all nonequilibrium protocols"
+  ],
+  "boundary_claim_ids": [
+    "P033-C0002"
+  ],
+  "candidate_ids": [
+    "VII-C026",
+    "VII-C018"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 4 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P033",
+  "reading_order": "31",
+  "relevant_claim_ids": [
+    "P033-C0001",
+    "P033-C0002",
+    "P033-C0003",
+    "P033-C0004"
+  ],
+  "root_sha256": "b5e8faee7b92cb79aebe0912be922d6fdacc2531355ce239a062131f369eccbb",
+  "source_path": "papers/Tsiokos_2026_Six_Birds_Protocol_Trap_Holonomy_Without_Entropy_Production.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "2bee23d8151fa7bda5cb6fff848cf35603fc7f5fb0aa1c5a700841248819d5a4",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Protocol Trap: Holonomy without Entropy Production",
+  "top_convergence_groups": [
+    "CG12",
+    "CG18"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

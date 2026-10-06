@@ -1,0 +1,16 @@
+plan.md
+six-birds-papers
+lean/.lake/
+__pycache__/
+*.pyc
+.pytest_cache/
+six-birds-collatz_v*.zip
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.pdf
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz

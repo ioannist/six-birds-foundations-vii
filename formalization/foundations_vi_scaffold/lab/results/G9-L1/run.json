@@ -1,0 +1,510 @@
+{
+  "elapsed_seconds": 3.0076081860024715,
+  "length": 2000,
+  "max_steps": 8000,
+  "max_tau": 8,
+  "recurrence_windows": 128,
+  "results": [
+    {
+      "cars": 600,
+      "census_samples": [
+        {
+          "blocked_cars_11": 183,
+          "blocked_holes_00": 983,
+          "t": 0
+        },
+        {
+          "blocked_cars_11": 82,
+          "blocked_holes_00": 882,
+          "t": 1
+        },
+        {
+          "blocked_cars_11": 44,
+          "blocked_holes_00": 844,
+          "t": 2
+        },
+        {
+          "blocked_cars_11": 30,
+          "blocked_holes_00": 830,
+          "t": 3
+        },
+        {
+          "blocked_cars_11": 20,
+          "blocked_holes_00": 820,
+          "t": 4
+        },
+        {
+          "blocked_cars_11": 10,
+          "blocked_holes_00": 810,
+          "t": 5
+        },
+        {
+          "blocked_cars_11": 1,
+          "blocked_holes_00": 801,
+          "t": 9
+        },
+        {
+          "blocked_cars_11": 1,
+          "blocked_holes_00": 801,
+          "t": 10
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 11
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 12
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 13
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 20
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 50
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 100
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 800,
+          "t": 147
+        }
+      ],
+      "density_label": "3/10",
+      "evacuation_measure": "adjacent_11_blocked_cars",
+      "evacuation_step": 11,
+      "final_blocked_cars": 0,
+      "final_blocked_holes": 800,
+      "length": 2000,
+      "max_steps": 8000,
+      "realized_density": "600/2000",
+      "recurrence": {
+        "checked_windows": 128,
+        "displacement": 1,
+        "tau": 1
+      },
+      "regime": "subcritical",
+      "seed": 184,
+      "transporter": "cars"
+    },
+    {
+      "cars": 800,
+      "census_samples": [
+        {
+          "blocked_cars_11": 321,
+          "blocked_holes_00": 721,
+          "t": 0
+        },
+        {
+          "blocked_cars_11": 191,
+          "blocked_holes_00": 591,
+          "t": 1
+        },
+        {
+          "blocked_cars_11": 133,
+          "blocked_holes_00": 533,
+          "t": 2
+        },
+        {
+          "blocked_cars_11": 103,
+          "blocked_holes_00": 503,
+          "t": 3
+        },
+        {
+          "blocked_cars_11": 81,
+          "blocked_holes_00": 481,
+          "t": 4
+        },
+        {
+          "blocked_cars_11": 63,
+          "blocked_holes_00": 463,
+          "t": 5
+        },
+        {
+          "blocked_cars_11": 21,
+          "blocked_holes_00": 421,
+          "t": 10
+        },
+        {
+          "blocked_cars_11": 2,
+          "blocked_holes_00": 402,
+          "t": 20
+        },
+        {
+          "blocked_cars_11": 2,
+          "blocked_holes_00": 402,
+          "t": 24
+        },
+        {
+          "blocked_cars_11": 1,
+          "blocked_holes_00": 401,
+          "t": 25
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 26
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 27
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 28
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 50
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 100
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 400,
+          "t": 162
+        }
+      ],
+      "density_label": "2/5",
+      "evacuation_measure": "adjacent_11_blocked_cars",
+      "evacuation_step": 26,
+      "final_blocked_cars": 0,
+      "final_blocked_holes": 400,
+      "length": 2000,
+      "max_steps": 8000,
+      "realized_density": "800/2000",
+      "recurrence": {
+        "checked_windows": 128,
+        "displacement": 1,
+        "tau": 1
+      },
+      "regime": "subcritical",
+      "seed": 185,
+      "transporter": "cars"
+    },
+    {
+      "cars": 1000,
+      "census_samples": [
+        {
+          "blocked_cars_11": 510,
+          "blocked_holes_00": 510,
+          "t": 0
+        },
+        {
+          "blocked_cars_11": 376,
+          "blocked_holes_00": 376,
+          "t": 1
+        },
+        {
+          "blocked_cars_11": 310,
+          "blocked_holes_00": 310,
+          "t": 2
+        },
+        {
+          "blocked_cars_11": 263,
+          "blocked_holes_00": 263,
+          "t": 3
+        },
+        {
+          "blocked_cars_11": 238,
+          "blocked_holes_00": 238,
+          "t": 4
+        },
+        {
+          "blocked_cars_11": 215,
+          "blocked_holes_00": 215,
+          "t": 5
+        },
+        {
+          "blocked_cars_11": 148,
+          "blocked_holes_00": 148,
+          "t": 10
+        },
+        {
+          "blocked_cars_11": 102,
+          "blocked_holes_00": 102,
+          "t": 20
+        },
+        {
+          "blocked_cars_11": 63,
+          "blocked_holes_00": 63,
+          "t": 50
+        },
+        {
+          "blocked_cars_11": 28,
+          "blocked_holes_00": 28,
+          "t": 100
+        },
+        {
+          "blocked_cars_11": 2,
+          "blocked_holes_00": 2,
+          "t": 997
+        },
+        {
+          "blocked_cars_11": 1,
+          "blocked_holes_00": 1,
+          "t": 998
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 0,
+          "t": 999
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 0,
+          "t": 1000
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 0,
+          "t": 1001
+        },
+        {
+          "blocked_cars_11": 0,
+          "blocked_holes_00": 0,
+          "t": 1135
+        }
+      ],
+      "density_label": "1/2",
+      "evacuation_measure": "adjacent_11_plus_adjacent_00_alternation_defects",
+      "evacuation_step": 999,
+      "final_blocked_cars": 0,
+      "final_blocked_holes": 0,
+      "length": 2000,
+      "max_steps": 8000,
+      "realized_density": "1000/2000",
+      "recurrence": {
+        "checked_windows": 128,
+        "displacement": 1,
+        "tau": 1
+      },
+      "regime": "critical",
+      "seed": 186,
+      "transporter": "cars"
+    },
+    {
+      "cars": 1200,
+      "census_samples": [
+        {
+          "blocked_cars_11": 727,
+          "blocked_holes_00": 327,
+          "t": 0
+        },
+        {
+          "blocked_cars_11": 625,
+          "blocked_holes_00": 225,
+          "t": 1
+        },
+        {
+          "blocked_cars_11": 569,
+          "blocked_holes_00": 169,
+          "t": 2
+        },
+        {
+          "blocked_cars_11": 522,
+          "blocked_holes_00": 122,
+          "t": 3
+        },
+        {
+          "blocked_cars_11": 495,
+          "blocked_holes_00": 95,
+          "t": 4
+        },
+        {
+          "blocked_cars_11": 477,
+          "blocked_holes_00": 77,
+          "t": 5
+        },
+        {
+          "blocked_cars_11": 446,
+          "blocked_holes_00": 46,
+          "t": 10
+        },
+        {
+          "blocked_cars_11": 415,
+          "blocked_holes_00": 15,
+          "t": 20
+        },
+        {
+          "blocked_cars_11": 403,
+          "blocked_holes_00": 3,
+          "t": 50
+        },
+        {
+          "blocked_cars_11": 402,
+          "blocked_holes_00": 2,
+          "t": 60
+        },
+        {
+          "blocked_cars_11": 401,
+          "blocked_holes_00": 1,
+          "t": 61
+        },
+        {
+          "blocked_cars_11": 400,
+          "blocked_holes_00": 0,
+          "t": 62
+        },
+        {
+          "blocked_cars_11": 400,
+          "blocked_holes_00": 0,
+          "t": 63
+        },
+        {
+          "blocked_cars_11": 400,
+          "blocked_holes_00": 0,
+          "t": 64
+        },
+        {
+          "blocked_cars_11": 400,
+          "blocked_holes_00": 0,
+          "t": 100
+        },
+        {
+          "blocked_cars_11": 400,
+          "blocked_holes_00": 0,
+          "t": 198
+        }
+      ],
+      "density_label": "3/5",
+      "evacuation_measure": "adjacent_00_blocked_holes",
+      "evacuation_step": 62,
+      "final_blocked_cars": 400,
+      "final_blocked_holes": 0,
+      "length": 2000,
+      "max_steps": 8000,
+      "realized_density": "1200/2000",
+      "recurrence": {
+        "checked_windows": 128,
+        "displacement": -1,
+        "tau": 1
+      },
+      "regime": "supercritical",
+      "seed": 187,
+      "transporter": "holes"
+    },
+    {
+      "cars": 1400,
+      "census_samples": [
+        {
+          "blocked_cars_11": 980,
+          "blocked_holes_00": 180,
+          "t": 0
+        },
+        {
+          "blocked_cars_11": 881,
+          "blocked_holes_00": 81,
+          "t": 1
+        },
+        {
+          "blocked_cars_11": 851,
+          "blocked_holes_00": 51,
+          "t": 2
+        },
+        {
+          "blocked_cars_11": 831,
+          "blocked_holes_00": 31,
+          "t": 3
+        },
+        {
+          "blocked_cars_11": 823,
+          "blocked_holes_00": 23,
+          "t": 4
+        },
+        {
+          "blocked_cars_11": 815,
+          "blocked_holes_00": 15,
+          "t": 5
+        },
+        {
+          "blocked_cars_11": 804,
+          "blocked_holes_00": 4,
+          "t": 10
+        },
+        {
+          "blocked_cars_11": 802,
+          "blocked_holes_00": 2,
+          "t": 12
+        },
+        {
+          "blocked_cars_11": 801,
+          "blocked_holes_00": 1,
+          "t": 13
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 14
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 15
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 16
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 20
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 50
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 100
+        },
+        {
+          "blocked_cars_11": 800,
+          "blocked_holes_00": 0,
+          "t": 150
+        }
+      ],
+      "density_label": "7/10",
+      "evacuation_measure": "adjacent_00_blocked_holes",
+      "evacuation_step": 14,
+      "final_blocked_cars": 800,
+      "final_blocked_holes": 0,
+      "length": 2000,
+      "max_steps": 8000,
+      "realized_density": "1400/2000",
+      "recurrence": {
+        "checked_windows": 128,
+        "displacement": -1,
+        "tau": 1
+      },
+      "regime": "supercritical",
+      "seed": 188,
+      "transporter": "holes"
+    }
+  ],
+  "seed": 184
+}

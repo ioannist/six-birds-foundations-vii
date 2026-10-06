@@ -1,0 +1,76 @@
+\section{Finite evidence}
+\label{supp:evidence}
+
+\subsection{Scenarios, countermodels and the detector contract}
+
+Twenty-four scenarios and twenty-seven named countermodels are declared against the reference
+world (main paper, \Cref{sec:ttw}). A scenario exercises a certificate and carries the status it
+is expected to produce; a countermodel is built to refute one named inference and carries the
+reason it is rejected. The separations of \Cref{tab:separations} are the twenty-seven
+countermodels. A detector contract records append-only evidence, non-empty lists of signal, null
+and falsifier cases, non-empty lists of controls of four kinds (same source, no contact,
+rescheduling and relabelling) and a false-positive cost above the false-negative cost. Over the
+24 scenarios and 27 countermodels the contract is well formed and complete, and every scenario's
+and countermodel's expected status is decided by the finite evaluator; this is a decidable
+statement checked by evaluation. Canonical counts below are smaller than raw counts only where a
+declared symmetry, such as exchanging the two parents or renaming sources, is a genuine symmetry
+of the property checked; the accepted and rejected counts record what each carrier contains and
+are not evidence for or against a law.
+
+\subsection{The 43 assays}
+
+\Cref{tab:assays} lists every assay with its raw, canonical and accepted cardinalities
+and the family it enumerates. The totals are $284{,}524$ raw, $214{,}636$ canonical,
+$70{,}915$ accepted and $143{,}721$ rejected cases. Each count holds for its declared
+carrier only.
+
+\Cref{tab:assay-summary} groups the assays by cluster.
+
+\begin{table}[ht]
+\centering\small
+\caption{Finite assays by group. Each is exhaustive over its declared carrier only.}
+\label{tab:assay-summary}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Group} & \textbf{Assays} & \textbf{Raw} & \textbf{Canonical} & \textbf{Accepted} \\
+\midrule
+Access and admission & 9 & 1{,}332 & 1{,}076 & 470 \\
+Contact and join & 11 & 141{,}112 & 73{,}528 & 34{,}532 \\
+Enablement and dynamics & 12 & 55{,}168 & 55{,}168 & 14{,}832 \\
+Integration across clusters & 11 & \pfiverawcases & \pfivecanonicalcases & \pfiveacceptedcases \\
+\midrule
+Total & 43 & \rawcases & \canonicalcases & \acceptedcases \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The largest single assay enumerates omissions from the strict-join certificate: $131{,}072$
+raw cases, reducing to $65{,}536$
+canonical cases under exchange of the parents, of which $32{,}770$ satisfy the
+certificate. Most other assays are two or three orders of magnitude smaller, because the
+property checked has fewer degrees of freedom.
+
+\input{supplement/assay_table}
+
+\subsection{The named countermodels}
+
+\Cref{tab:countermodels} lists the 27 named countermodels of the reference world: the
+inference each refutes, and the scenario it is declared against. The scenario column names the reference scenario the countermodel is attached to; it
+is not a status of the countermodel itself.
+
+{\scriptsize
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{3.8cm}>{\raggedright\arraybackslash}p{5.6cm}l@{}}
+\caption{Named countermodels.}\label{tab:countermodels}\\
+\toprule
+\textbf{Id} & \textbf{Name} & \textbf{Shows} & \textbf{Scenario} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Id} & \textbf{Name} & \textbf{Shows} & \textbf{Scenario} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{supplement/countermodel_rows}
+\end{longtable}
+}

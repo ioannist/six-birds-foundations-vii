@@ -1,0 +1,2 @@
+family_id,members,status,canonical_member,evidence,step1_ruling
+VF-SAU-01,P040;P058,UNRESOLVED_VERSION_FAMILY,,five-word-shingle Jaccard 0.687845; same 73-section architecture; exact raw-TeX line alignment and unified diff recorded; distinct root hashes; filenames and internal titles crossed,retain both stable IDs and hashes; do not double-count claims; structural delta is recorded in reports/P040_P058_SECTION_DELTA.* and exact source-line control in reports/P040_P058_LINE_DELTA.* plus reports/P040_P058_RAW_TEX_DIFF.patch; defer theorem/claim canonicalization to Step 2

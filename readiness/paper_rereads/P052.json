@@ -1,0 +1,58 @@
+{
+  "all_claims_reconsidered": 12,
+  "anti_overread": [
+    "We emphasize that stronger claims (e.g., continuum-limit convergence to manifolds or exact curvature tensors) are not established here",
+    "For that reason we do not claim an intrinsic geometry independent of packaging",
+    "Importantly, this does not claim Euclidean geometry is fundamental",
+    "Robustness, failure modes, and limitations: SBT is falsification-first: a layer is not declared real because it is elegant but because it survives its own closure tests. In the geometry setting, this means we must treat ``space birth'' as conditional. The same pipeline that yields coherent metrics and curvature signatures in Sections – also provides knobs that can cause the layer to destabilize, disconnect, or become ambiguous. This section summarizes the main sensitivity findings and corresponding failure modes. All robustness sweeps are documented in an internal note (docs/notes/robustness_20260202.md) and are reproducible via sweep configuration files under experiments/configs/sweeps/. Here we summarize the outcomes at the level appropriate for the paper: what breaks, why it breaks in SBT terms, and what this implies for claims of emergent geometry.",
+    "The Pythagoras result does not assert that Euclidean geometry is fundamental",
+    "Limitations and non-claims: We emphasize what the results do not claim. Not a proof of Euclidean fundamentality. The Pythagoras result does not assert that Euclidean geometry is fundamental; it provides evidence that Euclidean structure is a stable higher-layer accounting law in an isotropic staged diffusion regime under our cost definition. Finite constructions. All substrates here are finite and all limits are operational: refinement ladders, staging ladders, and stability are tested by diagnostics rather than by asymptotic theorems. Lens dependence. Different lens families (different packaging strategies) can produce different macro points and therefore different induced geometries. This is expected in SBT: a geometry is layer-relative. Curvature estimation is diagnostic, not axiomatic. Holonomy is measured via local embedding and alignment; it is a robust separator in the canonical configuration but remains sensitive to neighborhood choices, as the sweeps document. Taken together, these limitations strengthen the SBT interpretation: a geometric layer is a conditional closure artifact. When it stabilizes across repetition and refinement, ``space'' becomes available as a reliable compression. When it does not, the diagnostics indicate which primitive (staging, packaging, constraints, accounting, or protocol coherence) has failed to support the intended layer."
+  ],
+  "boundary_claim_ids": [
+    "P052-C0002",
+    "P052-C0005",
+    "P052-C0009",
+    "P052-C0010",
+    "P052-C0011",
+    "P052-C0012"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 12 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P052-C0003",
+    "P052-C0007"
+  ],
+  "paper_id": "P052",
+  "reading_order": "57",
+  "relevant_claim_ids": [
+    "P052-C0001",
+    "P052-C0002",
+    "P052-C0003",
+    "P052-C0004",
+    "P052-C0005",
+    "P052-C0006",
+    "P052-C0007",
+    "P052-C0008",
+    "P052-C0009",
+    "P052-C0010",
+    "P052-C0011",
+    "P052-C0012"
+  ],
+  "root_sha256": "1a2c3387dd0e88cac8e88b2a7cb15311af0acc91429e941f60717e8818397975",
+  "source_path": "papers/Tsiokos_2026_To_Plot_a_Stone_with_Six_Birds_Constructing_and_Auditing_Emergent_Geometry_from_Markov_Dynamics.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "c8553b7ab20f89aa819c4ea642465a8e37108870baf1526ffea42808f9a1f014",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Constructing Emergent Geometry from Markov Dynamics",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

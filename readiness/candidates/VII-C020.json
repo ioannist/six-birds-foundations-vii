@@ -1,0 +1,1547 @@
+{
+  "candidate_id": "VII-C020",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG24"
+  ],
+  "countermodels": [
+    "CM-12",
+    "CM-18"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Bridge and semantic-withdrawal discipline.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Bridge and semantic-withdrawal discipline record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Every imported law or interaction claim carries source/target maps, hypotheses, audit path, nonclaims, and append-only failure or withdrawal records; citations alone never license transport.",
+  "formalization_targets": [
+    "FT05",
+    "FT17"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Every imported law or interaction claim carries source/target maps, hypotheses, audit path, nonclaims, and append-only failure or withdrawal records; citations alone never license transport.",
+  "kind": "INHERITED_PROTOCOL_PLUS_VII_ADAPTER",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Bridge and semantic-withdrawal discipline",
+  "nonclaims": [
+    "A bridge certificate does not strengthen its source theorem.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S12"
+  ],
+  "positive_model": [
+    "TTW-S23"
+  ],
+  "priority": "P0",
+  "proof_obligations": [
+    "Reuse the Step-2 bridge schema as VII's own citation rule.",
+    "Specify paraphrase and downstream-dependency sweeps for withdrawal.",
+    "Retain failed bridges as first-class records."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Every imported law or interaction claim carries source/target maps, hypotheses, audit path, nonclaims, and append-only failure or withdrawal records; citations alone never license transport.",
+  "recommended_chapter": "Ch01",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P054-C0002",
+      "P054-C0004",
+      "P009-C0004",
+      "P011-C0044",
+      "P009-C0012",
+      "P009-C0002",
+      "P009-C0003",
+      "P004-C0031",
+      "P004-C0033",
+      "P004-C0030",
+      "P009-C0029",
+      "P009-C0014",
+      "P042-C0002",
+      "P011-C0043",
+      "P011-C0042",
+      "P011-C0041",
+      "P004-C0029",
+      "P011-C0002"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0018",
+      "BR-CITE-0034",
+      "BR-CITE-0013",
+      "BR-CITE-0069",
+      "BR-CITE-0103",
+      "BR-CITE-0036",
+      "BR-CITE-0156",
+      "BR-CITE-0035",
+      "BR-CITE-0039"
+    ],
+    "law_or_no_go_ids": [],
+    "open_problem_ids": [
+      "P009-C0037"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0032",
+        "claim_type": "definition",
+        "conclusion": "A lawful transfer record is an exact bridge when the transport maps deliver currency-block congruences on the source and target legal quotients: T_L^*K^ tgt _ LL T_L=K^ src _ LL , T_D^*K^ tgt _ DD T_D=K^ src _ DD , and the residual-transport map T_Xi satisfies the adequacy-residual congruence T_Xi^* XiRes_ C_ tgt (D_ tgt L_ tgt ) T_Xi = XiRes_ C_ src (D_ src L_ src ).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Exact bridge: A lawful transfer record is an exact bridge when the transport maps deliver currency-block congruences on the source and target legal quotients: T_L^*K^ tgt _ LL T_L=K^ src _ LL , T_D^*K^ tgt _ DD T_D=K^ src _ DD , and the residual-transport map T_Xi satisfies the adequacy-residual congruence T_Xi^* XiRes_ C_ tgt (D_ tgt L_ tgt ) T_Xi = XiRes_ C_ src (D_ src L_ src ).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1778-L1795; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1778-L1795",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0011",
+        "claim_type": "definition",
+        "conclusion": "Let sigma be a computational substrate. An autonomous lift on sigma is a typed object L=(gen_ L ,sigma_ L ,replay_ L ) with the following components: gen_ L is a deterministic polynomial-time history-generation procedure. In plain terms, it is a deterministic polynomial-time algorithm that, given the substrate input and the prior trace data, extends the computation history by one audited step. sigma_ L :H_ sigma ^ L → S is the internal-state readout of the lift, where S is the lift's finite typed state space. The value sigma_ L (h) records the internal determining state of the procedure at the history h . replay_ L is the all-input replay record for gen_ L : an audited machine-index and time-certificate object that allows the same polynomial-time procedure to be reproduced on any input. This is the audit-side bookkeeping supplied by the FATCD discipline . The autonomous lift is realized in Lean by the autonomous-lift declaration listed in ; the Lean record exposes additional family-characterizing predicates beyond the components named in the definition above. The narrowing-disclosure discipline is recorded in .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Autonomous lift: Let sigma be a computational substrate. An autonomous lift on sigma is a typed object L=(gen_ L ,sigma_ L ,replay_ L ) with the following components: gen_ L is a deterministic polynomial-time history-generation procedure. In plain terms, it is a deterministic polynomial-time algorithm that, given the substrate input and the prior trace data, extends the computation history by one audited step. sigma_ L :H_ sigma ^ L → S is the internal-state readout of the lift, where S is the lift's finite typed state space. The value sigma_ L (h) records the internal determining state of the procedure at the history h . replay_ L is the all-input replay record for gen_ L : an audited machine-index and time-certificate object that allows the same polynomial-time procedure to be reproduced on any input. This is the audit-side bookkeeping supplied by the FATCD discipline . The autonomous lift is realized in Lean by the autonomous-lift declaration listed in ; the Lean record exposes additional family-characterizing predicates beyond the components named in the definition above. The narrowing-disclosure discipline is recorded in .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L436-L466; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L436-L466",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P009-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Many obstruction arguments exhibit a localized failure mode that appears irreducible at the layer where it is first visible; this paper studies one audited route by which such needle obstructions cease to be obstructions, namely passage to a higher layer where additional admissible dissolving probes are available. The framework is the formed-layer membrane setting: zero-energy directions are removed by a legal quotient, native probes are assigned a quadratic native currency, unexplained dissolving currency is measured by an adequacy residual, and predictive membranes, dissolving transport records, and the all-six taxonomy control the transfer. The layer-dissolving endpoint theorem shows that, under predictive native bounds, residual bounds, and transport hypotheses, the dissolving currency is bounded uniformly across accepted stages, so no layer-dissolving predictive needles exist within the declared scope. The complementary duality-confinement membrane theorem shows that, under a separating anti-invariant readout and a vanishing-trace sequence of domination records, visible object mass is confined to the fixed locus of the involution. These are framework-bound dissolution results, not a universal singularity-elimination theorem or a claim about any named external problem. The adequacy-residual calculus on which the layer-dissolving endpoint depends is developed in .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Many obstruction arguments exhibit a localized failure mode that appears irreducible at the layer where it is first visible; this paper studies one audited route by which such needle obstructions cease to be obstructions, namely passage to a higher layer where additional admissible dissolving probes are available. The framework is the formed-layer membrane setting: zero-energy directions are removed by a legal quotient, native probes are assigned a quadratic native currency, unexplained dissolving currency is measured by an adequacy residual, and predictive membranes, dissolving transport records, and the all-six taxonomy control the transfer. The layer-dissolving endpoint theorem shows that, under predictive native bounds, residual bounds, and transport hypotheses, the dissolving currency is bounded uniformly across accepted stages, so no layer-dissolving predictive needles exist within the declared scope. The complementary duality-confinement membrane theorem shows that, under a separating anti-invariant readout and a vanishing-trace sequence of domination records, visible object mass is confined to the fixed locus of the involution. These are framework-bound dissolution results, not a universal singularity-elimination theorem or a claim about any named external problem. The adequacy-residual calculus on which the layer-dissolving endpoint depends is developed in .",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0019",
+        "claim_type": "lemma",
+        "conclusion": "A_X=∈t_X \\|psi_-(x)\\|^2 dmu(x). Consequently, A_X=0 if and only if psi_-(x)=0 for mu -almost every visible object x",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If A_X is trace-class"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Trace identity: If A_X is trace-class , then A_X=∈t_X \\|psi_-(x)\\|^2 dmu(x). Consequently, A_X=0 if and only if psi_-(x)=0 for mu -almost every visible object x .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1191-L1198; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1191-L1198",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P004-C0016",
+        "claim_type": "theorem",
+        "conclusion": "Consequently, Xi_C(D L) is the Loewner-minimal residual currency among all attempts to factor D through L .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "For every linear map A: Y→ Z , (D_0-AL_0)C_0^ -1 (D_0-AL_0)^* = Xi_C(D L) +(A-A_*)K_ LL (A-A_*)^*."
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Optimal residual identity: For every linear map A: Y→ Z , (D_0-AL_0)C_0^ -1 (D_0-AL_0)^* = Xi_C(D L) +(A-A_*)K_ LL (A-A_*)^*. Consequently, Xi_C(D L) is the Loewner-minimal residual currency among all attempts to factor D through L .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L586-L598; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L586-L598",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0022",
+        "claim_type": "definition",
+        "conclusion": "A completed domination bridge from the object ledger to the carrier membrane is a record A_X K^-+E with E 0 a declared bridge defect. Equivalently, in the exact case E=0 , if A_X=V^*V, K^-=W^*W, then the bridge is exact precisely when there is a contraction T such that V=TW.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Completed domination bridge: A completed domination bridge from the object ledger to the carrier membrane is a record A_X K^-+E with E 0 a declared bridge defect. Equivalently, in the exact case E=0 , if A_X=V^*V, K^-=W^*W, then the bridge is exact precisely when there is a contraction T such that V=TW.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1276-L1292; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1276-L1292",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0020",
+        "claim_type": "theorem",
+        "conclusion": "mu(X (J))=0. If the ledger is finite with positive weights, every visible object with positive weight lies in Fix(J)",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume the anti-invariant readout separates the fixed locus. If A_X=0"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Separation implies fixed-locus confinement: Assume the anti-invariant readout separates the fixed locus. If A_X=0, then mu(X (J))=0. If the ledger is finite with positive weights, every visible object with positive weight lies in Fix(J) .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1210-L1221; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1210-L1221",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0033",
+        "claim_type": "definition",
+        "conclusion": "A lawful transfer record is a defective bridge with defect operator Delta 0 on the target dissolving block when the transport maps deliver T_L^*K^ tgt _ LL T_L=K^ src _ LL , together with the currency-block Loewner domination K^ tgt _ DD T_D K^ src _ DD T_D^*+Delta on the target dissolving block.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Defective bridge: A lawful transfer record is a defective bridge with defect operator Delta 0 on the target dissolving block when the transport maps deliver T_L^*K^ tgt _ LL T_L=K^ src _ LL , together with the currency-block Loewner domination K^ tgt _ DD T_D K^ src _ DD T_D^*+Delta on the target dissolving block.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1797-L1810; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1797-L1810",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0009",
+        "claim_type": "definition",
+        "conclusion": "The forget-witness map pi:M_ sigma ^ L _ sigma ^ L sends each predictive class to the unique current class containing it: pi(Mclass h )=Qclass h . It is well defined because every polynomial-time current observable is also a witness-augmented observable with the witness and continuation fields ignored.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Forget-witness map: The forget-witness map pi:M_ sigma ^ L _ sigma ^ L sends each predictive class to the unique current class containing it: pi(Mclass h )=Qclass h . It is well defined because every polynomial-time current observable is also a witness-augmented observable with the witness and continuation fields ignored.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L383-L396; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L383-L396",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P004-C0026",
+        "claim_type": "theorem",
+        "conclusion": "for every t>0 , Xi_ C' (D' L') (1+t)BXi_C(D L)B^* +(1+t^ -1 )Xi_ C' (R L')",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Decompose the target dissolving probe as D'_0 = D'_0 + R, D'_0 = BD_0U, and suppose the native bridge is exact and that the exact source probe D'_0 satisfies the hypotheses of : the bridge is reducing on the probe-image subspace, so that the transported-currency identities K'_ L'L' =AK_ LL A^* , K'_ D' L' =BK_ DL A^* , and K'_ D' D' =BK_ DD B^* hold"
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Defective dissolving bridge: Decompose the target dissolving probe as D'_0 = D'_0 + R, D'_0 = BD_0U, and suppose the native bridge is exact and that the exact source probe D'_0 satisfies the hypotheses of : the bridge is reducing on the probe-image subspace, so that the transported-currency identities K'_ L'L' =AK_ LL A^* , K'_ D' L' =BK_ DL A^* , and K'_ D' D' =BK_ DD B^* hold. Then for every t>0 , Xi_ C' (D' L') (1+t)BXi_C(D L)B^* +(1+t^ -1 )Xi_ C' (R L').",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1045-L1067; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1045-L1067",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0031",
+        "claim_type": "definition",
+        "conclusion": "A lawful transfer record between two exact packaged carriers E_ src and E_ tgt , with audit operators C_ src ,C_ tgt , native probe families L_ src ,L_ tgt , dissolving probe families D_ src ,D_ tgt , and adequacy residuals Xi^ src ,Xi^ tgt , consists of four transport maps T_E:E_ src → E_ tgt , T_L:Y_ src → Y_ tgt , T_D:Z_ src → Z_ tgt , T_Xi:Z_ src → Z_ tgt , each declaring its role under P_1, ,P_6 , together with the currency-block compatibility data declared in the next two definitions. The transport T_Xi carries the adequacy-residual budget on the dissolving response space.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Lawful transfer record: A lawful transfer record between two exact packaged carriers E_ src and E_ tgt , with audit operators C_ src ,C_ tgt , native probe families L_ src ,L_ tgt , dissolving probe families D_ src ,D_ tgt , and adequacy residuals Xi^ src ,Xi^ tgt , consists of four transport maps T_E:E_ src → E_ tgt , T_L:Y_ src → Y_ tgt , T_D:Z_ src → Z_ tgt , T_Xi:Z_ src → Z_ tgt , each declaring its role under P_1, ,P_6 , together with the currency-block compatibility data declared in the next two definitions. The transport T_Xi carries the adequacy-residual budget on the dissolving response space.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1758-L1776; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1758-L1776",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0027",
+        "claim_type": "definition",
+        "conclusion": "A defected duality-confinement record has the form A_X (1+t)( K^-_n+E_ src,n ) +(1+t^ -1 )E_ br,n for t>0 , where E_ br,n is bridge/domination defect and E_ src,n is source/membrane defect. In a collapse ladder one often has K^-_n Lambda_n^ -1 Theta_0^-. Then the budget is B_n(t) =(1+t)(Lambda_n^ -1 Theta_0^-+E_ src,n ) +(1+t^ -1 )E_ br,n .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "General obstruction budget: A defected duality-confinement record has the form A_X (1+t)( K^-_n+E_ src,n ) +(1+t^ -1 )E_ br,n for t>0 , where E_ br,n is bridge/domination defect and E_ src,n is source/membrane defect. In a collapse ladder one often has K^-_n Lambda_n^ -1 Theta_0^-. Then the budget is B_n(t) =(1+t)(Lambda_n^ -1 Theta_0^-+E_ src,n ) +(1+t^ -1 )E_ br,n .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1471-L1491; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1471-L1491",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P004-C0020",
+        "claim_type": "theorem",
+        "conclusion": "Xi_C(D L^+) = Xi_C(D L) - K_ DM L K_ MM L ^ K_ MD L . In particular, Xi_C(D L^+) Xi_C(D L).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Chain rule for adequacy residuals: Xi_C(D L^+) = Xi_C(D L) - K_ DM L K_ MM L ^ K_ MD L . In particular, Xi_C(D L^+) Xi_C(D L).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L793-L806; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L793-L806",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0034",
+        "claim_type": "proposition",
+        "conclusion": "A lawful transfer of a layer-dissolving membrane must transport energy, native probes, dissolving probes, and adequacy residuals. Exact bridges transfer the native and dissolving budgets by congruence. Defective bridges produce explicit residual currencies; these must be paid in the target budget.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Adequacy-aware transfer: A lawful transfer of a layer-dissolving membrane must transport energy, native probes, dissolving probes, and adequacy residuals. Exact bridges transfer the native and dissolving budgets by congruence. Defective bridges produce explicit residual currencies; these must be paid in the target budget.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1812-L1818; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1812-L1818",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0018",
+        "claim_type": "definition",
+        "conclusion": "Let E be an exact packaged carrier with audit C 0 on its legal quotient and anti-invariant native probe family L^-:E→ Y^-. The anti-invariant carrier currency is K^-:=L^-C^ (L^-)^*, with null-mode legality required. A budget record is a positive operator Theta^- with K^- Theta^-. A collapse ladder is a family of records K^-_n B_n, B_n→ 0, or a defected version with B_n replaced by a bridge budget as developed in the domination-bridges subsection.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Carrier-side anti-invariant membrane: Let E be an exact packaged carrier with audit C 0 on its legal quotient and anti-invariant native probe family L^-:E→ Y^-. The anti-invariant carrier currency is K^-:=L^-C^ (L^-)^*, with null-mode legality required. A budget record is a positive operator Theta^- with K^- Theta^-. A collapse ladder is a family of records K^-_n B_n, B_n→ 0, or a defected version with B_n replaced by a bridge budget as developed in the domination-bridges subsection.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1148-L1169; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1148-L1169",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P011-C0028",
+        "claim_type": "proposition",
+        "conclusion": "Within the typed substrate apparatus, the following four named substrates admit autonomous lifts of the indicated exposure type. BSD substrate. The Birch–Swinnerton-Dyer substrate , read here through elliptic-curve regulator content , admits autonomous lifts that are witness-content-exposing. NS substrate. The Navier–Stokes substrate , read here through weak-solution selection content , admits autonomous lifts that are witness-content-exposing. PvNP substrate. The P -versus- NP substrate , read here through satisfying-assignment witness content for 3 -SAT , admits autonomous lifts that are trace-state-exposing but not witness-content-exposing under the polynomial-time current instrument. RH substrate. The Riemann-hypothesis substrate , read here through zeta-zero certificate content , admits autonomous lifts that are trace-state-exposing but not witness-content-exposing under the polynomial-time current instrument. In each case the lift's existence and its classification are framework-internal facts about the substrate's adequacy-residual machinery. The classification records which exposure channel, witness-content or trace-state, is available under the framework's lawful instrument.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "V-Differential classification: Within the typed substrate apparatus, the following four named substrates admit autonomous lifts of the indicated exposure type. BSD substrate. The Birch–Swinnerton-Dyer substrate , read here through elliptic-curve regulator content , admits autonomous lifts that are witness-content-exposing. NS substrate. The Navier–Stokes substrate , read here through weak-solution selection content , admits autonomous lifts that are witness-content-exposing. PvNP substrate. The P -versus- NP substrate , read here through satisfying-assignment witness content for 3 -SAT , admits autonomous lifts that are trace-state-exposing but not witness-content-exposing under the polynomial-time current instrument. RH substrate. The Riemann-hypothesis substrate , read here through zeta-zero certificate content , admits autonomous lifts that are trace-state-exposing but not witness-content-exposing under the polynomial-time current instrument. In each case the lift's existence and its classification are framework-internal facts about the substrate's adequacy-residual machinery. The classification records which exposure channel, witness-content or trace-state, is available under the framework's lawful instrument.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1127-L1160; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1127-L1160",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0030",
+        "claim_type": "theorem",
+        "conclusion": "XiRes_C(D L^+) = XiRes_C(D L) -K_ DM L K_ MM L ^ K_ MD L XiRes_C(D L). Strict contraction occurs exactly in the directions seen by the new probes",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If a strict native extension adds probes L^+= L\\M , in the setting of the strict-extension chain rule of"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Strict-extension repair contraction: If a strict native extension adds probes L^+= L\\M , in the setting of the strict-extension chain rule of , then XiRes_C(D L^+) = XiRes_C(D L) -K_ DM L K_ MM L ^ K_ MD L XiRes_C(D L). Strict contraction occurs exactly in the directions seen by the new probes.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1619-L1634; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1619-L1634",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0023",
+        "claim_type": "theorem",
+        "conclusion": "A K if and only if there exists a contraction T with V=TW",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let A=V^*V and K=W^*W be bounded positive operators on the same response space"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Douglas domination: Let A=V^*V and K=W^*W be bounded positive operators on the same response space. Then A K if and only if there exists a contraction T with V=TW.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1294-L1304; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1294-L1304",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0026",
+        "claim_type": "theorem",
+        "conclusion": "A_X=0. Consequently, under readout separation, visible object mass is confined to Fix(J)",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If A_ X,n B_n and the moving ledger is vanishing-exhaustive for A_X"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Exhaustive ledger squeeze: If A_ X,n B_n and the moving ledger is vanishing-exhaustive for A_X , then A_X=0. Consequently, under readout separation, visible object mass is confined to Fix(J) .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1429-L1437; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1429-L1437",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P004-C0028",
+        "claim_type": "theorem",
+        "conclusion": "Xi_C(D L) Omega if and only if there exists z∈ Z such that z^* (Xi_C(D L)-Omega )z>0. Moreover, the maximum additive violation is lambda_ (Delta_Xi) , the largest eigenvalue of the adequacy defect.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Blind-spot witness: Xi_C(D L) Omega if and only if there exists z∈ Z such that z^* (Xi_C(D L)-Omega )z>0. Moreover, the maximum additive violation is lambda_ (Delta_Xi) , the largest eigenvalue of the adequacy defect.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1135-L1145; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1135-L1145",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P009-C0017",
+        "claim_type": "definition",
+        "conclusion": "The anti-invariant readout separates the fixed locus when psi_-(x)=0 Longleftrightarrow x∈Fix(J) on the visible support of mu . It is quantitatively separating if, for every >0 , there exists m( )>0 such that (x,Fix(J)) implies \\|psi_-(x)\\| m( ).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Separating anti-invariant readout: The anti-invariant readout separates the fixed locus when psi_-(x)=0 Longleftrightarrow x∈Fix(J) on the visible support of mu . It is quantitatively separating if, for every >0 , there exists m( )>0 such that (x,Fix(J)) implies \\|psi_-(x)\\| m( ).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1134-L1146; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1134-L1146",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0021",
+        "claim_type": "definition",
+        "conclusion": "Let sigma be a computational substrate, let L be an autonomous lift on sigma , and write sigma_ L :H_ sigma ^ L → S for its internal-state readout. The visibility coupling predicate Exposure(L,sigma) holds if and only if there exist an observable codomain O , a declared polynomial-time current observable _ Q :H_ sigma ^ L → O, and a polynomial-time function f:S→ O such that ( h,h'∈H_ sigma ^ L , f(sigma_ L (h))≠ f(sigma_ L (h')) ) and ( h∈H_ sigma ^ L , _ Q (h)=f(sigma_ L (h)) ).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Visibility coupling / exposure: Let sigma be a computational substrate, let L be an autonomous lift on sigma , and write sigma_ L :H_ sigma ^ L → S for its internal-state readout. The visibility coupling predicate Exposure(L,sigma) holds if and only if there exist an observable codomain O , a declared polynomial-time current observable _ Q :H_ sigma ^ L → O, and a polynomial-time function f:S→ O such that ( h,h'∈H_ sigma ^ L , f(sigma_ L (h))≠ f(sigma_ L (h')) ) and ( h∈H_ sigma ^ L , _ Q (h)=f(sigma_ L (h)) ).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L675-L695; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L675-L695",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0015",
+        "claim_type": "definition",
+        "conclusion": "An autonomous lift L on sigma is in Lift C if gen_ L uses an internal seed to inject randomness into instance generation, while the seed is not visible to current observation. Equivalently, the apparent randomness is controlled by a state variable seen by sigma_ L , not by an external oracle; the current observation channel cannot read that seed directly.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Lift C—Internally-seeded random: An autonomous lift L on sigma is in Lift C if gen_ L uses an internal seed to inject randomness into instance generation, while the seed is not visible to current observation. Equivalently, the apparent randomness is controlled by a state variable seen by sigma_ L , not by an external oracle; the current observation channel cannot read that seed directly.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L530-L538; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L530-L538",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0013",
+        "claim_type": "definition",
+        "conclusion": "An autonomous lift L on sigma is in Lift A if gen_ L generates substrate instances internally from the lift's own state, without an external instance feed. In plain terms, the lift is itself the instance generator: for example, a deterministic algorithm that, given only its current internal state, emits a new bounded 3-SAT instance and then attempts to decide it.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Lift A—Self-generating substrate: An autonomous lift L on sigma is in Lift A if gen_ L generates substrate instances internally from the lift's own state, without an external instance feed. In plain terms, the lift is itself the instance generator: for example, a deterministic algorithm that, given only its current internal state, emits a new bounded 3-SAT instance and then attempts to decide it.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L508-L517; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L508-L517",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0013",
+        "claim_type": "theorem",
+        "conclusion": "S_jK^D_jS_j^* Theta^D. Consequently, for every layer-dissolving recombination z∈ Z , _j Capacity_ C_j (z^*S_jD_j;E_j) z^*Theta^Dz. There are no layer-dissolving predictive needles within the declared scope",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume a formed closure/layer with exact package, null-mode legality, declared native and dissolving probe families, accepted predictive transport, all-six records, and nonclaim boundary. If K^L_j Theta^Y_j, Xi_j Xi^Z_j, and after transport S_j:Z_j→ Z , S_j(A_jTheta^Y_jA_j^*+Xi^Z_j)S_j^* Theta^D"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Layer-dissolving membrane master theorem: Assume a formed closure/layer with exact package, null-mode legality, declared native and dissolving probe families, accepted predictive transport, all-six records, and nonclaim boundary. If K^L_j Theta^Y_j, Xi_j Xi^Z_j, and after transport S_j:Z_j→ Z , S_j(A_jTheta^Y_jA_j^*+Xi^Z_j)S_j^* Theta^D, then S_jK^D_jS_j^* Theta^D. Consequently, for every layer-dissolving recombination z∈ Z , _j Capacity_ C_j (z^*S_jD_j;E_j) z^*Theta^Dz. There are no layer-dissolving predictive needles within the declared scope.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L975-L998; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L975-L998",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0024",
+        "claim_type": "theorem",
+        "conclusion": "mu(X (J))=0",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X=(X,J,mu,psi,Y, J) be an involutive object ledger with separating anti-invariant readout, as in . Suppose there is a sequence of completed domination records A_X B_n (n=1,2, ) where B_n 0 and B_n→ 0"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Duality-confinement membrane theorem: Let X=(X,J,mu,psi,Y, J) be an involutive object ledger with separating anti-invariant readout, as in . Suppose there is a sequence of completed domination records A_X B_n (n=1,2, ) where B_n 0 and B_n→ 0. Then mu(X (J))=0.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1355-L1371; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1355-L1371",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0006",
+        "claim_type": "definition",
+        "conclusion": "Let sigma be a computational substrate and let L be an autonomous lift on sigma . The history space H_ sigma ^ L is the finite typed set of bounded polynomial-time computation histories generated by L on sigma . Each history h∈H_ sigma ^ L records: the substrate input instance; the solver-prefix trace generated under L ; the autonomous-lift internal-state record sigma_ L (h) ; the declared predictive continuations available from h ; the audit bookkeeping attached to h .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "History space: Let sigma be a computational substrate and let L be an autonomous lift on sigma . The history space H_ sigma ^ L is the finite typed set of bounded polynomial-time computation histories generated by L on sigma . Each history h∈H_ sigma ^ L records: the substrate input instance; the solver-prefix trace generated under L ; the autonomous-lift internal-state record sigma_ L (h) ; the declared predictive continuations available from h ; the audit bookkeeping attached to h .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L313-L327; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L313-L327",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P042-C0006",
+        "claim_type": "definition",
+        "conclusion": "A packaging Pi is tau -closed if for every x,x' ∈ X with Pi(x)=Pi(x') , one has p_x^ (tau) = p_ x' ^ (tau) as distributions on Y.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "tau -closed packaging: A packaging Pi is tau -closed if for every x,x' ∈ X with Pi(x)=Pi(x') , one has p_x^ (tau) = p_ x' ^ (tau) as distributions on Y.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L242-L249; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L242-L249",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P042-C0007",
+        "claim_type": "proposition",
+        "conclusion": "Pi is tau -closed",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If Pi is tau -closed, then CD_tau(Pi)=0 . Conversely, if pi(x)>0 for every x ∈ X and CD_tau(Pi)=0"
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Closure, sufficiency, and vanishing deficit: If Pi is tau -closed, then CD_tau(Pi)=0 . Conversely, if pi(x)>0 for every x ∈ X and CD_tau(Pi)=0 , then Pi is tau -closed.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L251-L253; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L251-L253",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P009-C0009",
+        "claim_type": "result_summary",
+        "conclusion": "In many applications the native data is not accepted all at once. It is assembled stage by stage: by refinement, enlargement, or passage to an accepted stage. At an accepted stage j , we have a stage-local instance of the framework from : a carrier, an audit energy C_j , an exact package Gamma_j , a native probe family L_j with its response space, and a routing map R_j into a common response target. The predictive currency at stage j is the packaged native currency for these data, transported by R_j . Informally, the predictive currency is K_j =R_jL_jGamma_j(Gamma_j^*C_jGamma_j)^ Gamma_j^*L_j^*R_j^*. The middle block L_jGamma_j(Gamma_j^*C_jGamma_j)^ Gamma_j^*L_j^* is the stage-local instance of the packaged native currency K_ C_j,Gamma_j (L_j) from ; the outer conjugation by R_j places that currency in the common response space. As before, this expression is variationally meaningful only when L_jGamma_j is null-legal for the packaged audit Gamma_j^*C_jGamma_j , which is the legal-quotient discipline of applied at stage j .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Predictive currency and the membrane criterion: In many applications the native data is not accepted all at once. It is assembled stage by stage: by refinement, enlargement, or passage to an accepted stage. At an accepted stage j , we have a stage-local instance of the framework from : a carrier, an audit energy C_j , an exact package Gamma_j , a native probe family L_j with its response space, and a routing map R_j into a common response target. The predictive currency at stage j is the packaged native currency for these data, transported by R_j . Informally, the predictive currency is K_j =R_jL_jGamma_j(Gamma_j^*C_jGamma_j)^ Gamma_j^*L_j^*R_j^*. The middle block L_jGamma_j(Gamma_j^*C_jGamma_j)^ Gamma_j^*L_j^* is the stage-local instance of the packaged native currency K_ C_j,Gamma_j (L_j) from ; the outer conjugation by R_j places that currency in the common response space. As before, this expression is variationally meaningful only when L_jGamma_j is null-legal for the packaged audit Gamma_j^*C_jGamma_j , which is the legal-quotient discipline of applied at stage j .",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L761-L823; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L761-L823",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0004",
+        "claim_type": "definition",
+        "conclusion": "A computational substrate sigma is a typed bounded polynomial-time computation context . It consists of: an instance family X_ sigma ; a size function on instances together with a bound N_ sigma , so that only instances of size at most N_ sigma belong to the bounded carrier considered here; a declared solver-prefix family, assigning to each bounded instance the finite trace shape that a polynomial-time computation may generate before the history is audited. A substrate is therefore the typed context in which instances, scale, and trace formation have all been fixed, rather than a language or a set of inputs.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Computational substrate: A computational substrate sigma is a typed bounded polynomial-time computation context . It consists of: an instance family X_ sigma ; a size function on instances together with a bound N_ sigma , so that only instances of size at most N_ sigma belong to the bounded carrier considered here; a declared solver-prefix family, assigning to each bounded instance the finite trace shape that a polynomial-time computation may generate before the history is audited. A substrate is therefore the typed context in which instances, scale, and trace formation have all been fixed, rather than a language or a set of inputs.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L274-L291; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L274-L291",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0020",
+        "claim_type": "definition",
+        "conclusion": "The pair (sigma,L) exhibits an M-vs-Q loop-action asymmetry if there exist ∈L_ traceFP and h∈H_ sigma ^ L such that the loop action is trivial on the current class but non-trivial on the predictive class: LoopActionQ h =Qclass h and LoopActionM h ≠Mclass h . Equivalently, there is a structural rewrite that current observation cannot detect, because it leaves the Q -class fixed, while predictive observation can detect it, because it moves the M -class.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "M-vs-Q loop-action asymmetry: The pair (sigma,L) exhibits an M-vs-Q loop-action asymmetry if there exist ∈L_ traceFP and h∈H_ sigma ^ L such that the loop action is trivial on the current class but non-trivial on the predictive class: LoopActionQ h =Qclass h and LoopActionM h ≠Mclass h . Equivalently, there is a structural rewrite that current observation cannot detect, because it leaves the Q -class fixed, while predictive observation can detect it, because it moves the M -class.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L620-L636; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L620-L636",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P011-C0033",
+        "claim_type": "proposition",
+        "conclusion": "The projection pi_ MNP is not a bijection from M_ sigma ^ L onto the standard class NP . The obstruction is witness identity: M_ sigma ^ L can distinguish different satisfying witnesses for the same instance, through witness-trace features such as Hamming-distance fingerprints, satisfaction-fraction sequences, and partial-assignment branching records . Standard NP -membership is existential; it retains only that some witness exists, not which witness or which witness trace was observed.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "pi_ MNP is not a bijection onto NP: The projection pi_ MNP is not a bijection from M_ sigma ^ L onto the standard class NP . The obstruction is witness identity: M_ sigma ^ L can distinguish different satisfying witnesses for the same instance, through witness-trace features such as Hamming-distance fingerprints, satisfaction-fraction sequences, and partial-assignment branching records . Standard NP -membership is existential; it retains only that some witness exists, not which witness or which witness trace was observed.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1325-L1335; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1325-L1335",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P042-C0012",
+        "claim_type": "result_summary",
+        "conclusion": "evaluate the resulting packaged sequence by held-out first- and second-order predictive log loss and by the empirical conditional mutual information I(X_t;Y_ t+1 Y_t), computed from the joint sequence of hidden microstates and learned packaged labels. In this appendix we report the raw empirical conditional mutual information, not the normalized version used only for diagnostics during development",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "This appendix records the representation-learning result that we treat as auxiliary rather than core evidence . The experiment asks whether increasing representational budget, measured by the number of learned clusters k , automatically reduces predictive non-closure when packaging is learned from observations rather than supplied by construction. It does not. We generate observation sequences from the hidden-type process used earlier and learn k -means partitions on those observations for k ∈ \\ 2,4,8\\ . For each learned packaging we"
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Auxiliary Clustering Result: This appendix records the representation-learning result that we treat as auxiliary rather than core evidence . The experiment asks whether increasing representational budget, measured by the number of learned clusters k , automatically reduces predictive non-closure when packaging is learned from observations rather than supplied by construction. It does not. We generate observation sequences from the hidden-type process used earlier and learn k -means partitions on those observations for k ∈ \\ 2,4,8\\ . For each learned packaging we then evaluate the resulting packaged sequence by held-out first- and second-order predictive log loss and by the empirical conditional mutual information I(X_t;Y_ t+1 Y_t), computed from the joint sequence of hidden microstates and learned packaged labels. In this appendix we report the raw empirical conditional mutual information, not the normalized version used only for diagnostics during development.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L490-L519; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L490-L519",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P042-C0010",
+        "claim_type": "result_summary",
+        "conclusion": "The controlled Markov benchmark established what unresolved closure is. The complementary question is what it costs to buy the missing distinctions back once the current package has already failed to stabilize them. To expose that accounting side directly, we fix the strongest hidden-type benchmark and measure the budgeted randomness curve Rand_B empirically using packaged predictors of increasing memory order. The empirical curve is reported in the feasible-class sense of : at budget B=L , we plot the best held-out log loss available among predictors of order at most L . This matters because sparse higher-order contexts can make the raw loss of a particular order- L fit fluctuate upward in finite data, whereas the feasible-class quantity itself should never worsen when the admissible predictor class strictly expands.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Budgeted Prediction: The controlled Markov benchmark established what unresolved closure is. The complementary question is what it costs to buy the missing distinctions back once the current package has already failed to stabilize them. To expose that accounting side directly, we fix the strongest hidden-type benchmark and measure the budgeted randomness curve Rand_B empirically using packaged predictors of increasing memory order. The empirical curve is reported in the feasible-class sense of : at budget B=L , we plot the best held-out log loss available among predictors of order at most L . This matters because sparse higher-order contexts can make the raw loss of a particular order- L fit fluctuate upward in finite data, whereas the feasible-class quantity itself should never worsen when the admissible predictor class strictly expands.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L416-L433; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L416-L433",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0019",
+        "claim_type": "definition",
+        "conclusion": "Let ∈L_ traceFP and let Mclass h ∈M_ sigma ^ L . The loop action on M is LoopActionM h =Mclass .h . This is well defined because the loop class is compatible with M-equivalence: if Mclass h =Mclass h' , then Mclass .h =Mclass .h' .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Loop action on M: Let ∈L_ traceFP and let Mclass h ∈M_ sigma ^ L . The loop action on M is LoopActionM h =Mclass .h . This is well defined because the loop class is compatible with M-equivalence: if Mclass h =Mclass h' , then Mclass .h =Mclass .h' .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L608-L618; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L608-L618",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P011-C0018",
+        "claim_type": "definition",
+        "conclusion": "Let ∈L_ traceFP and let Qclass h ∈Q_ sigma ^ L . The loop action on Q is LoopActionQ h =Qclass .h . This is well defined because the loop class is compatible with Q-equivalence: if Qclass h =Qclass h' , then Qclass .h =Qclass .h' .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P011-C0002",
+          "P011-C0003",
+          "P011-C0029",
+          "P011-C0035",
+          "P011-C0036",
+          "P011-C0041",
+          "P011-C0042",
+          "P011-C0043",
+          "P011-C0044"
+        ],
+        "normalized_claim": "Loop action on Q: Let ∈L_ traceFP and let Qclass h ∈Q_ sigma ^ L . The loop action on Q is LoopActionQ h =Qclass .h . This is well defined because the loop class is compatible with Q-equivalence: if Qclass h =Qclass h' , then Qclass .h =Qclass .h' .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L596-L606; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L596-L606",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P004-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Given two probe families on the same finite-dimensional carrier, this paper asks what a dissolving family D measures beyond what a native family L can explain under an audit energy C . Under the standing legal-energy quotient and null-mode legality hypotheses, the adequacy residual _C(D L) is the Schur-complement leftover built from the block currencies K_ LL , K_ DD , K_ DL , and K_ LD . We develop this residual as a calculus: the projection identity identifies it with T_D(I-P_L)T_D^* in energy-scaled coordinates; optimality and exact adequacy characterize Loewner minimality and zero residual; promotion combines native and residual budgets into a dissolving budget; and chain-rule, data-processing, and transfer laws describe native extension, post-processing, coarsening, and exact or defective bridges. The blind-spot witness theorem turns failure of a declared residual budget into an explicit recombination vector with positive excess. The paper does not claim exact adequacy generically, does not classify all probe-family pairs, and does not claim novelty for the classical operator-theoretic constructions it packages. A layer-dissolving use of the calculus is given in .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Given two probe families on the same finite-dimensional carrier, this paper asks what a dissolving family D measures beyond what a native family L can explain under an audit energy C . Under the standing legal-energy quotient and null-mode legality hypotheses, the adequacy residual _C(D L) is the Schur-complement leftover built from the block currencies K_ LL , K_ DD , K_ DL , and K_ LD . We develop this residual as a calculus: the projection identity identifies it with T_D(I-P_L)T_D^* in energy-scaled coordinates; optimality and exact adequacy characterize Loewner minimality and zero residual; promotion combines native and residual budgets into a dissolving budget; and chain-rule, data-processing, and transfer laws describe native extension, post-processing, coarsening, and exact or defective bridges. The blind-spot witness theorem turns failure of a declared residual budget into an explicit recombination vector with positive excess. The paper does not claim exact adequacy generically, does not classify all probe-family pairs, and does not claim novelty for the classical operator-theoretic constructions it packages. A layer-dissolving use of the calculus is given in .",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L105-L125; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L105-L125",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P042-C0005",
+        "claim_type": "proposition",
+        "conclusion": "The micro-closure deficit can be written as CD_tau(Pi) = _ x ∈ X pi(x) D_ KL ( p_x^ (tau) \\| p_ Pi(x) ^ (tau) ), where, in the finite case, D_ KL (p\\|q) := _ y' ∈ Y p(y') p(y') q(y') , with the convention 0 (0/q)=0 .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Expected KL form: The micro-closure deficit can be written as CD_tau(Pi) = _ x ∈ X pi(x) D_ KL ( p_x^ (tau) \\| p_ Pi(x) ^ (tau) ), where, in the finite case, D_ KL (p\\|q) := _ y' ∈ Y p(y') p(y') q(y') , with the convention 0 (0/q)=0 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L217-L236; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L217-L236",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P009-C0007",
+        "claim_type": "theorem",
+        "conclusion": "Cost_C(z;L,Gamma) =z^*K_ C,Gamma (L)^ z when z∈Ran L_ Gamma,0 =RanK_ C,Gamma (L), and Cost_C(z;L,Gamma)=+∈fty otherwise",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "For a desired response z , define Cost_C(z;L,Gamma) :=∈f\\ a^*C_Gamma a: L_Gamma a=z\\ . Let L_ Gamma,0 denote L_Gamma restricted to the legal subspace of C_Gamma , after quotienting by Ker C_Gamma"
+          }
+        ],
+        "nonclaims": [
+          "P009-C0002",
+          "P009-C0003",
+          "P009-C0004",
+          "P009-C0012",
+          "P009-C0014",
+          "P009-C0029",
+          "P009-C0035",
+          "P009-C0036"
+        ],
+        "normalized_claim": "Minimum-spend duality: For a desired response z , define Cost_C(z;L,Gamma) :=∈f\\ a^*C_Gamma a: L_Gamma a=z\\ . Let L_ Gamma,0 denote L_Gamma restricted to the legal subspace of C_Gamma , after quotienting by Ker C_Gamma . Then Cost_C(z;L,Gamma) =z^*K_ C,Gamma (L)^ z when z∈Ran L_ Gamma,0 =RanK_ C,Gamma (L), and Cost_C(z;L,Gamma)=+∈fty otherwise.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L447-L465; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L447-L465",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P054-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim to have formalized every layer transition or every scientific use of a currency.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim to have formalized every layer transition or every scientific use of a currency.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L135; derived/expanded/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L135",
+        "source_paper": "P054",
+        "source_title": "Currency, Constraint Duality, and Shadow Prices",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P054-C0004",
+        "claim_type": "nonclaim",
+        "conclusion": "and it does not prove that every higher-layer shadow price arises from every lower-layer ledger.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "and it does not prove that every higher-layer shadow price arises from every lower-layer ledger.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L508; derived/expanded/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L508",
+        "source_paper": "P054",
+        "source_title": "Currency, Constraint Duality, and Shadow Prices",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P009-C0004",
+        "claim_type": "nonclaim",
+        "conclusion": "it is not a universal singularity-elimination theorem and does not claim that every mathematical obstruction can be removed by moving to a higher layer.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "it is not a universal singularity-elimination theorem and does not claim that every mathematical obstruction can be removed by moving to a higher layer.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L278-L287; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L278-L287",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P011-C0044",
+        "claim_type": "nonclaim",
+        "conclusion": "it does not claim a bridge from that framework-internal projection to a standard P -vs- NP implication.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "it does not claim a bridge from that framework-internal projection to a standard P -vs- NP implication.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1764-L1780; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1764-L1780",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P009-C0012",
+        "claim_type": "scope_boundary",
+        "conclusion": "The diffuse terminal region depicts the dissolved obstruction: no layer-dissolving predictive needle survives within the declared scope ( ).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The diffuse terminal region depicts the dissolved obstruction: no layer-dissolving predictive needle survives within the declared scope ( ).",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L952-L973; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L952-L973",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P009-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "These are framework-bound dissolution results, not a universal singularity-elimination theorem or a claim about any named external problem.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "These are framework-bound dissolution results, not a universal singularity-elimination theorem or a claim about any named external problem.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P009-C0003",
+        "claim_type": "scope_boundary",
+        "conclusion": "The layer-dissolving endpoint theorem shows that, under predictive native bounds, residual bounds, and transport hypotheses, the dissolving currency is bounded uniformly across accepted stages, so no layer-dissolving predictive needles exist within the declared scope.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The layer-dissolving endpoint theorem shows that, under predictive native bounds, residual bounds, and transport hypotheses, the dissolving currency is bounded uniformly across accepted stages, so no layer-dissolving predictive needles exist within the declared scope.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L113-L135",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0031",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not assert that every raw substrate sees every dissolving probe, and it does not assert that Xi_C(D L)=0 generically Finally, it does not claim novelty for Schur complements, pseudoinverses, projection identities, or Douglas-style factorization.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not assert that every raw substrate sees every dissolving probe, and it does not assert that Xi_C(D L)=0 generically Finally, it does not claim novelty for Schur complements, pseudoinverses, projection identities, or Douglas-style factorization.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1277-L1285; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1277-L1285",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P004-C0033",
+        "claim_type": "scope_boundary",
+        "conclusion": "the full identity proof is paper-side. thm:xi:exact-adequacy partial needs-strengthening Lean proves the easy implication chain and records hard directions as hypotheses. thm:xi:adequacy-promotion partial narrowed-surrogate Lean proves promotion conditional on the upstream adequacy-interface algebraic hypotheses. thm:xi:chain-rule partial needs-strengthening Lean proves the Loewner consequence under an elevated Schur chain-rule identity. cor:xi:same-family-saturation partial narrowed-surrogate Lean proves saturation under the chain-rule identity and an elevated zero cross-currency hypothesis. thm:xi:dissolving-post-processing theorem faithful Lean proves the faithful finite data-processing identity. thm:xi:native-coarsening partial narrowed-surrogate Lean proves the Schur-complement difference under the explicit Moore–Penrose comparison hypothesis. thm:xi:exact-reducing-bridge partial narrowed-surrogate Lean proves the final residual equality from transported block and Schur-correction identities. thm:xi:defective-bridge partial narrowed-surrogate Lean proves the bound from a residual decomposition plus PSD hypotheses for source and defect residuals. thm:xi:blind-spot-witness partial needs-strengthening Lean proves the Loewner-violation witness equivalence",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the full identity proof is paper-side. thm:xi:exact-adequacy partial needs-strengthening Lean proves the easy implication chain and records hard directions as hypotheses. thm:xi:adequacy-promotion partial narrowed-surrogate Lean proves promotion conditional on the upstream adequacy-interface algebraic hypotheses. thm:xi:chain-rule partial needs-strengthening Lean proves the Loewner consequence under an elevated Schur chain-rule identity. cor:xi:same-family-saturation partial narrowed-surrogate Lean proves saturation under the chain-rule identity and an elevated zero cross-currency hypothesis. thm:xi:dissolving-post-processing theorem faithful Lean proves the faithful finite data-processing identity. thm:xi:native-coarsening partial narrowed-surrogate Lean proves the Schur-complement difference under the explicit Moore–Penrose comparison hypothesis. thm:xi:exact-reducing-bridge partial narrowed-surrogate Lean proves the final residual equality from transported block and Schur-correction identities. thm:xi:defective-bridge partial narrowed-surrogate Lean proves the bound from a residual decomposition plus PSD hypotheses for source and defect residuals. thm:xi:blind-spot-witness partial needs-strengthening Lean proves the Loewner-violation witness equivalence",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1411-L1437; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1411-L1437",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0030",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim novelty for those operator-theoretic ingredients.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim novelty for those operator-theoretic ingredients.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1234-L1247; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1234-L1247",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P009-C0029",
+        "claim_type": "nonclaim",
+        "conclusion": "retests the same block",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "A repair is lawful if it excludes the offending recombination by a declared nonclaim, weakens the claim by raising the relevant budget, strengthens or rewrites the carrier and audit so that the legal quotient has changed, adds native probes that see the residual direction, or completes the missing protocol or transport family and"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "A repair is lawful if it excludes the offending recombination by a declared nonclaim, weakens the claim by raising the relevant budget, strengthens or rewrites the carrier and audit so that the legal quotient has changed, adds native probes that see the residual direction, or completes the missing protocol or transport family and then retests the same block.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1604-L1617; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1604-L1617",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P009-C0014",
+        "claim_type": "nonclaim",
+        "conclusion": "and the nonclaim boundary records that the theorem asserts only this audited endpoint, not a universal singularity-removal principle.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "and the nonclaim boundary records that the theorem asserts only this audited endpoint, not a universal singularity-removal principle.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1000-L1009; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1000-L1009",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P042-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim that all randomness is reducible to hidden microstructure, nor do we identify route mismatch with genuine irreversibility.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim that all randomness is reducible to hidden microstructure, nor do we identify route mismatch with genuine irreversibility.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L118; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L118",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P011-C0043",
+        "claim_type": "nonclaim",
+        "conclusion": "The three nonclaim rows carry no Lean coverage.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The three nonclaim rows carry no Lean coverage.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1756-L1762; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1756-L1762",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P011-C0042",
+        "claim_type": "nonclaim",
+        "conclusion": "the broader claim is paper-side with narrowing disclosed here'' The structural shape is mechanized, with explicit premises or finite witnesses exposed. definition / faithful ``realized in Lean as Module.name'' The Lean declaration is the paper definition's typed realization. definition / narrowed surrogate ``realized in Lean with the parameter or scope exposed'' The Lean definition exposes an extra structural field or predicate. not mechanized No Lean citation The row is a nonclaim",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the broader claim is paper-side with narrowing disclosed here'' The structural shape is mechanized, with explicit premises or finite witnesses exposed. definition / faithful ``realized in Lean as Module.name'' The Lean declaration is the paper definition's typed realization. definition / narrowed surrogate ``realized in Lean with the parameter or scope exposed'' The Lean definition exposes an extra structural field or predicate. not mechanized No Lean citation The row is a nonclaim",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1688-L1703; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1688-L1703",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P011-C0041",
+        "claim_type": "nonclaim",
+        "conclusion": "does not claim a standard-ZFC unconditional proof of P≠ NP . It does not claim circumvention of the natural-proofs, algebrization, or relativization barriers in their native senses. It also does not claim resolutions of the host problems named by the V-Differential classification",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The present paper"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "The present paper therefore does not claim a standard-ZFC unconditional proof of P≠ NP . It does not claim circumvention of the natural-proofs, algebrization, or relativization barriers in their native senses. It also does not claim resolutions of the host problems named by the V-Differential classification.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1656-L1662; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L1656-L1662",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0029",
+        "claim_type": "nonclaim",
+        "conclusion": "Nonclaim or gating narrows the scope of the claim by excluding the offending response direction instead of proving adequacy for it.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Nonclaim or gating narrows the scope of the claim by excluding the offending response direction instead of proving adequacy for it.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1193-L1202; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1193-L1202",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P011-C0002",
+        "claim_type": "scope_boundary",
+        "conclusion": "This paper gives a typed structural answer: within the scope, predictive content collapses when an upstream determining state is exposed to current observation.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This paper gives a typed structural answer: within the scope, predictive content collapses when an upstream determining state is exposed to current observation.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L130-L149; derived/expanded/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex:L130-L149",
+        "source_paper": "P011",
+        "source_title": "Hiddenness as a Structural Law of Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C020",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P009-C0037",
+        "claim_type": "open_problem",
+        "conclusion": "Future work that aims the framework at a specific external problem must supply its own application-specific records, scope fence, and formalization disclosure.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work that aims the framework at a specific external problem must supply its own application-specific records, scope fence, and formalization disclosure.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1982-L1987; derived/expanded/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex:L1982-L1987",
+        "source_paper": "P009",
+        "source_title": "Emergence IS the Needle Killer",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P009-C0032",
+      "P011-C0011",
+      "P009-C0001",
+      "P009-C0019",
+      "P004-C0016",
+      "P009-C0022",
+      "P009-C0020",
+      "P009-C0033",
+      "P011-C0009",
+      "P004-C0026",
+      "P009-C0031",
+      "P009-C0027",
+      "P004-C0020",
+      "P009-C0034",
+      "P009-C0018",
+      "P011-C0028",
+      "P009-C0030",
+      "P009-C0023",
+      "P009-C0026",
+      "P004-C0028",
+      "P009-C0017",
+      "P011-C0021",
+      "P011-C0015",
+      "P011-C0013",
+      "P009-C0013",
+      "P009-C0024",
+      "P011-C0006",
+      "P042-C0006",
+      "P042-C0007",
+      "P009-C0009",
+      "P011-C0004",
+      "P011-C0020",
+      "P011-C0033",
+      "P042-C0012",
+      "P042-C0010",
+      "P011-C0019",
+      "P011-C0018",
+      "P004-C0001",
+      "P042-C0005",
+      "P009-C0007"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "INHERITED_PROTOCOL_WITH_VII_ADAPTER",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O01",
+    "VII-O03"
+  ],
+  "wishlist_atoms": [
+    "ARC-S1",
+    "MM-BRIDGE",
+    "MM-WITHDRAW",
+    "MED-D5",
+    "MED-M1",
+    "MED-M2",
+    "MED-M3"
+  ]
+}

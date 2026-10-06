@@ -1,0 +1,41 @@
+\section{Formalization}
+\label{sec:lean}
+
+The results are accompanied by a development in Lean~4.28.0 that uses no external library.
+It has two parts.
+
+\paragraph{The certificate library.} The certificate language and its reference world
+comprise \publicdecls{} public declarations, of which \publicthms{} are theorems. An axiom
+report was recorded for every one of these theorems. None depends on the axiom of choice
+or on an unfinished proof; the others use at most propositional extensionality and
+quotient soundness, and the counts are in \Cref{supp:status}. Most of these theorems
+concern records and are short consequences of their definitions, as
+\Cref{sec:sep-definitional} describes; the kernel confirms that each follows, not that it
+is deep. One record-level construction, a commuting square used to record faithful
+transmission between layers, is stated for types in Lean's lowest universe only.
+
+\paragraph{The semantic modules.} \Cref{sec:strict-join,sec:admission} are formalized in
+three further modules, and the propositions of \Cref{sec:sep-semantic} in five of six further modules; their axiom
+reports are listed in \Cref{supp:status}. Newman's
+lemma and the uniqueness of normal forms depend on no axioms. The axiom of choice enters
+in four places: in choosing a representative of each fibre in
+\Cref{thm:split-criterion}; in choosing a successor when a terminating relation reaches a
+normal state; in the proof of the finite reachability check (\Cref{prop:finite-peaks}),
+which uses the set of reachable states classically although the check itself is
+computable; and through the standard library's lemmas on removing an element from a
+list. The flags in \Cref{thm:bridge} are truth values of propositions and are defined
+classically. These modules are universe-polymorphic; they contain no unfinished proof, no
+added axiom and no proof by compiled evaluation. The library builds with them included.
+
+\paragraph{What is not formalized.} Two statements are argued on paper only: that
+$a\oplus b$ factors on its image through the pairing but through neither parent
+(\Cref{sec:strict-join}), and the relation of this work to the external literature
+(\Cref{sec:related}). The formalization also cannot
+establish that the definitions capture what they are meant to capture. The kernel checks
+that each encoded statement follows from its encoded hypotheses
+\citep{DeMouraUllrich2021,Pollack1998}; whether a certificate is the right record of an
+interaction is argued in the paper.
+
+The supplement gives the Lean counterpart of every numbered item
+(\Cref{supp:concordance}), the axiom reports (\Cref{supp:status}) and the commands that
+rebuild the library, the finite evidence and the reports (\Cref{supp:replay}).

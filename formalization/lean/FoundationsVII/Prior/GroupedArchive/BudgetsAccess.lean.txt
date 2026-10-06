@@ -1,0 +1,31 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Laws.E6E9PricedAccess
+import SixBirdsFoundationsV.Laws.E15OfflineReclosure
+
+#check SixBirdsFoundationsV.SharedBudgetAllocationRecord
+#check SixBirdsFoundationsV.BudgetFeasible
+#check SixBirdsFoundationsV.BindingExposureBudget
+#check SixBirdsFoundationsV.PositiveAccessMoveCosts
+
+namespace FoundationsVII.Prior
+
+/-- FT04, FT09, FT16: inherited budget and positive-cost access surfaces. -/
+def ft04ft09ft16BudgetsAccess : AdapterContract :=
+  { adapterId := "ADAPTER-FT04-FT09-FT16-BUDGETS-ACCESS"
+    formalizationTargetIds := ["FT04", "FT09", "FT16"]
+    sourceModule := "SixBirdsFoundationsV.Laws.E6E9PricedAccess; SixBirdsFoundationsV.Laws.E15OfflineReclosure"
+    sourceDeclarations := [
+      "SixBirdsFoundationsV.SharedBudgetAllocationRecord",
+      "SixBirdsFoundationsV.BudgetFeasible",
+      "SixBirdsFoundationsV.BindingExposureBudget",
+      "SixBirdsFoundationsV.PositiveAccessMoveCosts"]
+    sourceTypes := ["shared allocation record", "budget feasibility", "binding budget", "positive move costs"]
+    targetTypes := ["FoundationsVII.BudgetLedger", "FoundationsVII.ProspectiveCommitment", "FoundationsVII.ObserverOccupancyRecord"]
+    preservedHypotheses := ["typed finite budgets", "positive-cost conditions", "declared allocation"]
+    addedHypotheses := ["refund and occupancy entries", "append-only audit", "timestamped commitment"]
+    lostHypotheses := ["Optimization or scalar conservation is not imported."]
+    trustDependencies := []
+    nonclaims := ["The VII ledger is typed and need not reduce to one scalar currency."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

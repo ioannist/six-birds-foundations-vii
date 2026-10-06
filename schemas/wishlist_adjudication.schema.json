@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://six-birds.local/schemas/wishlist_adjudication.schema.json",
+  "title": "Foundations VII Step-3 Wishlist Adjudication",
+  "type": "object",
+  "required": [
+    "request_id", "source_file", "source_line", "source_anchor", "atomic_request",
+    "convergence_group", "final_status", "rationale", "scope_modifier",
+    "required_artifact", "acceptance_or_red_line", "candidate_ids",
+    "supporting_claim_ids", "boundary_claim_ids", "open_problem_ids",
+    "bridge_ids", "law_or_no_go_ids", "countermodel_requirement"
+  ],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 2},
+    "source_file": {"type": "string", "minLength": 1},
+    "source_line": {"type": ["string", "integer"]},
+    "source_anchor": {"type": "string", "minLength": 1},
+    "atomic_request": {"type": "string", "minLength": 3},
+    "convergence_group": {"type": "string", "pattern": "^CG[0-9]{2}$"},
+    "final_status": {
+      "enum": [
+        "INHERITED_RESULT",
+        "COROLLARY_WITH_EXPLICIT_BRIDGE",
+        "CANDIDATE_VII_SCHEMA_OR_DEFINITION",
+        "CANDIDATE_VII_THEOREM",
+        "COUNTERMODEL_OR_NO_GO_NEEDED",
+        "EXPERIMENTAL_OR_CALIBRATION_OBLIGATION",
+        "DEFERRED_TO_LATER_FOUNDATION"
+      ]
+    },
+    "rationale": {"type": "string", "minLength": 20},
+    "scope_modifier": {"type": "string", "minLength": 10},
+    "required_artifact": {"type": "string", "minLength": 2},
+    "acceptance_or_red_line": {"type": "string", "minLength": 3},
+    "candidate_ids": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^VII-C[0-9]{3}$"}
+    },
+    "supporting_claim_ids": {"$ref": "#/$defs/claimIds"},
+    "boundary_claim_ids": {"$ref": "#/$defs/claimIds"},
+    "open_problem_ids": {"$ref": "#/$defs/claimIds"},
+    "bridge_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^BR-"}},
+    "law_or_no_go_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "countermodel_requirement": {"enum": ["YES", "NO"]}
+  },
+  "$defs": {
+    "claimIds": {
+      "type": "array", "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^P[0-9]{3}-C[0-9]{4}$"}
+    }
+  },
+  "additionalProperties": true
+}

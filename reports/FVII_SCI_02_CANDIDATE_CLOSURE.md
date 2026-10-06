@@ -1,0 +1,15 @@
+# FVII-SCI-02 candidate closure
+
+All nine assigned candidates end with a terminal source asset rather than Step-3 specification grade. Kernel status remains separately recorded.
+
+| Candidate | Name | Grade | Targets | Positive | Null | Countermodels | Nonclaim |
+|---|---|---|---|---|---|---|---|
+| VII-C001 | Accessible-domain state normal form | DEFINITION_AND_THEOREM_SET_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT01, FT02 | TTW-S19 | TTW-S20, TTW-S21 | CM-08, CM-09, CM-12 | The Boolean normal form is a typed finite representation, not a universal claim that all access phenomena reduce to seven bits. |
+| VII-C002 | Lawful admission transition system | TRANSITION_CALCULUS_AND_REPLAY_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT01, FT02, FT17 | TTW-S19 | TTW-S20, TTW-S21 | CM-08, CM-09, CM-18 | A well-typed transition calculus does not establish soundness of an undeclared domain-specific rule. |
+| VII-C003 | Bootstrap obstruction theorem | NO_GO_AND_ESCAPE_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT03, FT18 | TTW-S01 | TTW-S02 | CM-19, CM-20 | The bootstrap obstruction is scoped to a declared closed family and permits admitted seeds, reachable generators, and explicit external provision. |
+| VII-C004 | Neutral seed and provisioning certificate | CERTIFICATE_SCHEMA_AND_ANTI_LAUNDERING_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT04, FT05 | TTW-S02 | TTW-S05 | CM-01, CM-19 | Neutral credit requires prospective, task-blind, outcome-independent provision; post-hoc stocking and system-generated laundering are excluded. |
+| VII-C005 | Common-origin non-transfer law | NONTRANSFER_THEOREMS_AND_FINITE_COUNTERMODELS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT05, FT17 | TTW-S05 | TTW-S23 | CM-01, CM-12, CM-26 | Common origin, carrier, or instrument does not establish shared access or source independence; adapter theorems remain necessary. |
+| VII-C006 | Prospective commitment certificate | RELATIONAL_PRECEDENCE_AND_SETTLEMENT_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT04, FT16 | TTW-S03 | TTW-S04 | CM-20, CM-09 | The precedence certificate does not assume or construct a universal global clock. |
+| VII-C021 | Reachability, guard activity, and horizon law | REACHABILITY_SEPARATION_AND_NEGATIVE_FORCE_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT02, FT17 | TTW-S19 | TTW-S20, TTW-S21 | CM-08, CM-09, CM-18 | A bounded null remains horizon-qualified unless family closure and detector power are certified. |
+| VII-C022 | Exposure, recoverability, admissibility, and rigidity calculus | ACCESS_SEPARATION_AND_RIGIDITY_CALCULUS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT01, FT17 | TTW-S15 | TTW-S19 | CM-03, CM-12 | No total order among exposure, recoverability, and admissibility is asserted. |
+| VII-C029 | Observer and instrument occupancy law | OBSERVER_OCCUPANCY_NO_GO_AND_LEDGER_THEOREMS_SOURCE_COMPLETE_EXTERNAL_KERNEL_REPLAY_PENDING | FT16 | TTW-S22 | TTW-S12 | CM-11, CM-21 | Observer costs are ledger-relative; omitted resources falsify native/endogenous or zero-cost credit. |

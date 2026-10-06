@@ -1,0 +1,31 @@
+claim_id: P000-C000
+source_paper: P000
+source_location: ""
+source_wording_digest: ""
+normalized_claim: ""
+claim_type: theorem
+claim_grade: ""
+typed_objects: []
+hypotheses: []
+conclusion: ""
+proof_status: ""
+formalization:
+  status: NOT_CHECKED
+  modules: []
+  declarations: []
+  paper_reported_declarations: []
+  source_files: []
+  exact_hypothesis_match: null
+  exact_conclusion_match: null
+  statement_delta: []
+  trust_base: []
+  elaboration_status: NOT_RUN
+  lab_or_test_evidence: []
+  caveats: []
+dependencies: []
+bridge_requirements: []
+escape_routes: []
+nonclaims: []
+nearest_countermodel: null
+vii_links: []
+review_status: OPEN

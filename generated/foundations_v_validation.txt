@@ -1,0 +1,23 @@
+Foundations V theorem-base integration validation
+=================================================
+PASS  required-artifacts: 37 Foundations V integration artifacts present
+PASS  archive-provenance: sha256=7d88998a856a6cb5019ee01d39925ec9b42deb1cf3ab74862067627d27de3a4a; upstream commit=d548b834481ffe9160194907df61e6e247defc8e
+PASS  immutable-import: 372 curated upstream files (including every Lean source) verify byte-for-byte
+PASS  curated-selection: review correspondence, packaging-only script, and external symlink excluded from active scaffold
+PASS  lean-index: 70 modules; 1,758 declarations; exact 1,261/187 authored V declaration/theorem census; no placeholders or new trust
+PASS  theorem-index: 187 unique authored Foundations V theorem declarations are available as direct Step-2 lookup rows
+PASS  import-closure: all 196 Foundations V archive import edges resolve locally
+PASS  manifest-completion: upstream 1,141-row manifest reconciled; all 120 existing E16 declarations added to a 1,261-row VII completion manifest
+PASS  completed-manifest: completed TOML manifest contains 1,261 unique authored declarations
+PASS  complete-import-surface: VII-owned declaration-free wrapper repairs the upstream root's sole omission: existing E16
+PASS  e-law-traceability: E1--E16 link paper grade, theorem ledger, Lean, gates, examples, predictions, results, and executable evidence
+PASS  shared-foundations-iii: all 27 shared vendored Foundations III files are byte-identical across the V and VI archives
+PASS  coverage-reconciliation: all 16 E laws are now represented as locally present, statically indexed, import-resolved modules without upgrading paper grades
+INFO  dependency-relocation: 51 upstream absolute-path inventory entries mapped locally at exact-string reconnaissance depth: 46 full, 4 partial, 1 none
+PASS  runtime-baseline: 202 Python files compile; 317 non-E15 tests pass; E16 sweep reports 69/69 comparisons passing
+INFO  e15-replay-limit: 74 tests collected; Exceeded 900 seconds on 2026-07-26 and was terminated by the execution timeout.
+INFO  lean-kernel-replay: Lean/Lake 4.28.0 unavailable locally; R1--R3 static checks pass, but no R4 kernel replay is claimed
+PASS  cumulative-lean-index: 123 unique active modules / 2,587 declarations / 793 theorem declarations across V, VI, prior dependencies, and the declaration-free VII shell; 297 imports resolve
+PASS  cumulative-lake-wiring: active VII project exposes complete V and VI libraries plus their prior/support dependencies
+
+VALIDATION: PASS (16 checks; 3 recorded limitations)

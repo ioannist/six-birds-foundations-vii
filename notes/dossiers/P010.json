@@ -1,0 +1,83 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [],
+    "outbound_or_import_bridge_ids": [
+      "BR-LAW-0004"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": []
+  },
+  "canonical_claim_file": "claims/by_paper/P010.jsonl",
+  "claim_count": 18,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 4,
+    "NAMED_RESULT_OR_GATE_SURFACE": 4,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 4,
+    "SCOPE_OR_LIMITATION_RECORD": 5
+  },
+  "claim_ids": [
+    "P010-C0001",
+    "P010-C0002",
+    "P010-C0003",
+    "P010-C0004",
+    "P010-C0005",
+    "P010-C0006",
+    "P010-C0007",
+    "P010-C0008",
+    "P010-C0009",
+    "P010-C0010",
+    "P010-C0011",
+    "P010-C0012",
+    "P010-C0013",
+    "P010-C0014",
+    "P010-C0015",
+    "P010-C0016",
+    "P010-C0017",
+    "P010-C0018"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 4,
+    "paper_thesis": 1,
+    "result_summary": 8,
+    "scope_boundary": 5
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 18
+  },
+  "foundations_vii_groups": [],
+  "foundations_vii_hook": "predictive quotient residue, memory, and hidden route information",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P010.md",
+  "nonclaim_scope_ids": [
+    "P010-C0003",
+    "P010-C0004",
+    "P010-C0007",
+    "P010-C0009",
+    "P010-C0011",
+    "P010-C0012",
+    "P010-C0016",
+    "P010-C0017",
+    "P010-C0018"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P010",
+  "reading_order": 29,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Glass_Is_an_Unclosed_Layer_Kovacs_Memory_as_Predictive_Quotient_Residue/main.tex",
+  "source_root_sha256": "630bb3c2775bd240a1180b756ada45ffe4da93c7c9ce7b7f3592b7d032ef0c58",
+  "source_tree_sha256": "64e6a0cdaabaa06bf1adad13b976518091f9d404b8e1ccc88ad9943cf5f58627",
+  "status": "BRIDGED",
+  "title": "Glass Is an Unclosed Layer: Kovacs Memory"
+}

@@ -1,0 +1,41 @@
+{
+  "E_laws": 16,
+  "F_laws": 52,
+  "G_laws": 13,
+  "clusters": {
+    "A_CANONICAL_SPINE": 7,
+    "B_VII_NEAR_INTERACTION_ACCESS": 24,
+    "C_PHILOSOPHY_METATHEORY": 9,
+    "D_COGNITION_SOCIAL": 4,
+    "E_DOMAIN_PRESSURE_TESTS": 14
+  },
+  "coverage_states": {
+    "DEEP_READ": 20,
+    "SURVEYED": 38
+  },
+  "deep_notes": 20,
+  "delivery": "foundations-vii-read-01-canonical-map.zip",
+  "full_text_blocks": [
+    "P039"
+  ],
+  "git_tag": "read-step-01",
+  "glossary_terms": 44,
+  "no_go_theorems": 8,
+  "paper_dependency_file_references": 71,
+  "paper_roots": 58,
+  "paper_source_bytes": 7145644,
+  "primitive_roles": 6,
+  "recovered_plain_words": 827682,
+  "source_exceptions": 2,
+  "source_files_frozen": 85,
+  "survey_cards": 58,
+  "version_families": 1,
+  "wishlist_atoms": 130,
+  "wishlist_convergence_groups": 30,
+  "wishlist_source_counts": {
+    "ARC": 40,
+    "CLD": 26,
+    "MED": 45,
+    "MM": 19
+  }
+}

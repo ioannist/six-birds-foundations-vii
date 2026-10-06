@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Terminal disposition census. Kernel verification does not alter disposition.}
+\label{tab:E1_disposition_census}
+\begin{tabular}{lr}
+\toprule
+\textbf{Disposition} & \textbf{Count} \\
+\midrule
+Conditional Theorem & 15 \\
+Formal Schema & 15 \\
+Refuted Candidate & 2 \\
+Closed Deferral & 2 \\
+Constructive Countermodel & 1 \\
+Lean Decidable Finite & 1 \\
+Lean Kernel Proved & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

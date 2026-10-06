@@ -1,0 +1,97 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0049",
+      "BR-CITE-0121",
+      "BR-CITE-0133",
+      "BR-CITE-0169"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0201",
+      "BR-CITE-0202"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H13",
+      "ARC-H22",
+      "ARC-H23",
+      "ARC-H25",
+      "ARC-H27",
+      "ARC-H6",
+      "ARC-NG3",
+      "ARC-S1",
+      "CLD-A3",
+      "CLD-A5",
+      "CLD-E1",
+      "CLD-E4",
+      "MED-D5",
+      "MED-H1",
+      "MED-H2",
+      "MED-M1",
+      "MED-M2",
+      "MED-M3",
+      "MED-NG4",
+      "MED-NG5",
+      "MM-BRIDGE",
+      "MM-OP1",
+      "MM-OP2",
+      "MM-WITHDRAW"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P054.jsonl",
+  "claim_count": 4,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 1
+  },
+  "claim_ids": [
+    "P054-C0001",
+    "P054-C0002",
+    "P054-C0003",
+    "P054-C0004"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 2,
+    "paper_thesis": 1,
+    "prose_definition": 1
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P054-C0003"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 4
+  },
+  "foundations_vii_groups": [
+    "CG04",
+    "CG10",
+    "CG19",
+    "CG24"
+  ],
+  "foundations_vii_hook": "cost, budget, constraints, shadow prices, and join/commitment pricing",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P054.md",
+  "nonclaim_scope_ids": [
+    "P054-C0002",
+    "P054-C0004"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P054",
+  "reading_order": 20,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex",
+  "source_root_sha256": "30044f965044b2b1f0d2d476f17ba68ec691cb9e0ec6335baec05923a39122f6",
+  "source_tree_sha256": "6366b510d617be79fa377b423cba6490499827cabaadd8b9da80096e1bb3d3fc",
+  "status": "BRIDGED",
+  "title": "Currency, Constraint Duality, and Shadow Prices"
+}

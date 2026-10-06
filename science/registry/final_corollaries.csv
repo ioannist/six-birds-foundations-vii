@@ -1,0 +1,145 @@
+candidate_ids,corollary_id,declaration,escape_routes,exact_hypotheses,formal_statement,kernel_status,line,module,name,nonclaim,path,proof_grade,source_block_sha256,statement_sha256
+"[""VII-C002"",""VII-C006"",""VII-C009"",""VII-C011""]",FVII-COR-001,FoundationsVII.ProspectiveJoinAdmission.certified_has_temporal_source_join_and_payment,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_has_temporal_source_join_and_payment
+    {α : Type u} {before : α → α → Prop} {registered evidence : α}
+    {profile : ProspectiveJoinAdmission before registered evidence}
+    (h : Certified profile) :
+    before registered evidence ∧
+      TypedAdmissionStep.SourceAuthorized profile.admission ∧
+      profile.joinEvidence.sourceIndependent = true ∧
+      profile.joinEvidence.budgetSettled = true ∧
+      profile.payment.audit.entries ≠ [] ∧
+      profile.admission.transition.sourceId =
+        profile.commitmentUse.commitment.sourceId",PASS_LOCAL_REPLAY,40,FoundationsVII.Corollaries.ProspectiveJoin,certified_has_temporal_source_join_and_payment,"Prospective timing, lawful admission, strictness, source alignment, and payment remain separate certificates; none is inferred from the others.",formalization/lean/FoundationsVII/Corollaries/ProspectiveJoin.lean,LEAN_KERNEL_REPLAY_PASS,824ceb50f09a4429507a1b9a4542bc05043035431825b8bedeadba256fb3af18,69897e7756a6988f8210ed9943465221df0c5fd59d4cc75cb3ba1fd8485fd55a
+"[""VII-C002"",""VII-C006"",""VII-C009"",""VII-C011""]",FVII-COR-002,FoundationsVII.ProspectiveJoinAdmission.retrospective_registration_blocks_prospective_join_credit,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem retrospective_registration_blocks_prospective_join_credit
+    {α : Type u} {before : α → α → Prop} {registered evidence : α}
+    {profile : ProspectiveJoinAdmission before registered evidence}
+    (hNotBefore : ¬ before registered evidence) :
+    ¬ Certified profile",PASS_LOCAL_REPLAY,59,FoundationsVII.Corollaries.ProspectiveJoin,retrospective_registration_blocks_prospective_join_credit,"Prospective timing, lawful admission, strictness, source alignment, and payment remain separate certificates; none is inferred from the others.",formalization/lean/FoundationsVII/Corollaries/ProspectiveJoin.lean,LEAN_KERNEL_REPLAY_PASS,13073e708bbaad74949768a5b46a85019c57223f1197ed029c2a3c526512ad57,edaa25fc3b1f2ec210a3cc488f4475889a561ddabe016a8698e5001d0ad75a28
+"[""VII-C002"",""VII-C006"",""VII-C009"",""VII-C011""]",FVII-COR-003,FoundationsVII.ProspectiveJoinAdmission.certified_preserves_declared_source_alignment,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_preserves_declared_source_alignment
+    {α : Type u} {before : α → α → Prop} {registered evidence : α}
+    {profile : ProspectiveJoinAdmission before registered evidence}
+    (_h : Certified profile) :
+    profile.admission.transition.sourceId =
+      profile.commitmentUse.commitment.sourceId",PASS_LOCAL_REPLAY,70,FoundationsVII.Corollaries.ProspectiveJoin,certified_preserves_declared_source_alignment,"Prospective timing, lawful admission, strictness, source alignment, and payment remain separate certificates; none is inferred from the others.",formalization/lean/FoundationsVII/Corollaries/ProspectiveJoin.lean,LEAN_KERNEL_REPLAY_PASS,225cacf4afaffea927ecf945d39ba78d05e2988c63b74a356e12240b111ab92e,85d4987a3d5dd3682176439b351c6d1cce0fc1e0a97306dc9d7d5e5de8aa7c98
+"[""VII-C009"",""VII-C010"",""VII-C011"",""VII-C029""]",FVII-COR-004,FoundationsVII.IndependentBudgetedJoin.certified_has_independence_payment_and_capacity_bound,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_has_independence_payment_and_capacity_bound
+    {profile : IndependentBudgetedJoin}
+    (h : Certified profile) :
+    profile.evidence.sourceIndependent = true ∧
+      profile.evidence.budgetSettled = true ∧
+      (∀ entry, entry ∈ profile.payment.entries → JoinCostEntry.Credited entry) ∧
+      profile.capacity.liveJoinCount ≤ profile.capacity.capacity",PASS_LOCAL_REPLAY,24,FoundationsVII.Corollaries.SourceBudget,certified_has_independence_payment_and_capacity_bound,"Finite capacity is a declared local resource bound, not a universal conserved interaction currency.",formalization/lean/FoundationsVII/Corollaries/SourceBudget.lean,LEAN_KERNEL_REPLAY_PASS,f329bb604f7475ff9b8fd6cb8524769dbc0a5ddf220ed349f39a151d0c3f88f8,28d92958a9f6556251107251f4ec1a8aafaf253973f0baec88615092e35f0efc
+"[""VII-C009"",""VII-C010"",""VII-C011"",""VII-C029""]",FVII-COR-005,FoundationsVII.IndependentBudgetedJoin.source_and_payment_gates_remain_distinct,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem source_and_payment_gates_remain_distinct
+    {profile : IndependentBudgetedJoin}
+    (h : Certified profile) :
+    profile.evidence.sourceIndependent = true ∧
+      JoinPaymentLedger.FullyPaid profile.payment",PASS_LOCAL_REPLAY,39,FoundationsVII.Corollaries.SourceBudget,source_and_payment_gates_remain_distinct,"Finite capacity is a declared local resource bound, not a universal conserved interaction currency.",formalization/lean/FoundationsVII/Corollaries/SourceBudget.lean,LEAN_KERNEL_REPLAY_PASS,40de5bcce2ac18d6ce880b465c08cc22e3cf9d1190c5d7ebb72bd26975a59e6e,027a242427cbd2c7c894357f6116a2cdc5fe656445a95813b260658c87e722ae
+"[""VII-C008"",""VII-C033""]",FVII-COR-006,FoundationsVII.JoinClaimUnderCoverage.certified_noninteraction_excludes_strict_join,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_noninteraction_excludes_strict_join
+    {profile : JoinClaimUnderCoverage}
+    (hCoverage : ContactCoverageCertificate.Certified profile.coverage) :
+    profile.strictJoinCredit = false",PASS_LOCAL_REPLAY,19,FoundationsVII.Corollaries.NonInteraction,certified_noninteraction_excludes_strict_join,The exclusion applies only inside the exact covered family and preserves explicit outside-family escape routes.,formalization/lean/FoundationsVII/Corollaries/NonInteraction.lean,LEAN_KERNEL_REPLAY_PASS,21673165a1fd0f49e48b9b9c1d94e4a432d14a967b9d875340c68623de72f07d,920ff02ac303f13e7e1ebe7617ca1a246b71b2123e08d916ffe57532d271d705
+"[""VII-C008"",""VII-C033""]",FVII-COR-007,FoundationsVII.JoinClaimUnderCoverage.certified_noninteraction_retains_escape_routes,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_noninteraction_retains_escape_routes
+    {profile : JoinClaimUnderCoverage}
+    (hCoverage : ContactCoverageCertificate.Certified profile.coverage) :
+    profile.coverage.escapeRoutes ≠ []",PASS_LOCAL_REPLAY,35,FoundationsVII.Corollaries.NonInteraction,certified_noninteraction_retains_escape_routes,The exclusion applies only inside the exact covered family and preserves explicit outside-family escape routes.,formalization/lean/FoundationsVII/Corollaries/NonInteraction.lean,LEAN_KERNEL_REPLAY_PASS,ae40598d41ab133b463a9f3ce9375dd6342b6ee6ccf6b0b29d63ed7b20220cc7,8f27c2f75def89a0aeb9288568cb73fd35093a3b0b07b15b38d69a742fd79d56
+"[""VII-C019"",""VII-C027"",""VII-C036""]",FVII-COR-008,FoundationsVII.ResidualAwareEnablementChain.certified_accumulates_resources_and_preserves_residuals,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_accumulates_resources_and_preserves_residuals
+    {profile : ResidualAwareEnablementChain}
+    (h : Certified profile) :
+    (EnablementLink.compose profile.first profile.second).delta.cost =
+        profile.first.delta.cost + profile.second.delta.cost ∧
+      (EnablementLink.compose profile.first profile.second).delta.residualDebt =
+        profile.first.delta.residualDebt + profile.second.delta.residualDebt ∧
+      profile.retainedEntry ∈ profile.after.entries ∧
+      0 < (EnablementLink.compose profile.first profile.second).delta.residualDebt",PASS_LOCAL_REPLAY,28,FoundationsVII.Corollaries.EnablementResidual,certified_accumulates_resources_and_preserves_residuals,Residual debt is typed bookkeeping for the declared chain and does not establish a universal scalar residual law.,formalization/lean/FoundationsVII/Corollaries/EnablementResidual.lean,LEAN_KERNEL_REPLAY_PASS,ed4318a98d54a0e1cb4c1d8497764c2b1d8fdfc4bd878adbcb6455f8fa81ce58,74c1db1635d9cdfaa1ac6e51775226d14034f87fc80f9530c3cfbbc02918acbb
+"[""VII-C019"",""VII-C027"",""VII-C036""]",FVII-COR-009,FoundationsVII.ResidualAwareEnablementChain.join_created_needle_blocks_zero_residual_reading,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem join_created_needle_blocks_zero_residual_reading
+    {profile : ResidualAwareEnablementChain}
+    {needle : CrossTermNeedle}
+    (h : Certified profile)
+    (hNeedle : CrossTermNeedle.Valid needle) :
+    needle.entry.kind = ResidualKind.crossTerm ∧
+      (EnablementLink.compose profile.first profile.second).delta.residualDebt ≠ 0",PASS_LOCAL_REPLAY,44,FoundationsVII.Corollaries.EnablementResidual,join_created_needle_blocks_zero_residual_reading,Residual debt is typed bookkeeping for the declared chain and does not establish a universal scalar residual law.,formalization/lean/FoundationsVII/Corollaries/EnablementResidual.lean,LEAN_KERNEL_REPLAY_PASS,28a1f30b5ef25413faf8abbe7fab5c0efde839ff120728a615e0191703e8092d,36cf48d6fa0862a4304482780142caec32ef63b582851fd986529ba2a012c7ae
+"[""VII-C015"",""VII-C030"",""VII-C034""]",FVII-COR-010,FoundationsVII.RefinedDescentPackage.preserving_refinement_with_valid_descent_preserves_three_gates,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem preserving_refinement_with_valid_descent_preserves_three_gates
+    {profile : RefinedDescentPackage}
+    (h : Certified profile)
+    (hPreserves : profile.refinement.effect = RefinementEffect.preserves) :
+    profile.refinement.strictnessPreserved = true ∧
+      profile.fidelity.sourcePreserved = true ∧
+      profile.fidelity.budgetPreserved = true",PASS_LOCAL_REPLAY,22,FoundationsVII.Corollaries.RefinementDescent,preserving_refinement_with_valid_descent_preserves_three_gates,A valid descent certificate does not repair a refinement that destroys compatibility or strictness.,formalization/lean/FoundationsVII/Corollaries/RefinementDescent.lean,LEAN_KERNEL_REPLAY_PASS,888a8b572151b4020c13264fca46f7e06d5ecc8ca38d07dea391f865c46dea49,c9fce0b773b8f8d7dc691f0721960e54b907b0bcc7602b7d8fcccc3a900c4563
+"[""VII-C015"",""VII-C030"",""VII-C034""]",FVII-COR-011,FoundationsVII.RefinedDescentPackage.destroying_refinement_exhibits_a_failed_join_gate,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem destroying_refinement_exhibits_a_failed_join_gate
+    {profile : RefinedDescentPackage}
+    (h : Certified profile)
+    (hDestroys : profile.refinement.effect = RefinementEffect.destroys) :
+    profile.refinement.compatibilityPreserved = false ∨
+      profile.refinement.strictnessPreserved = false",PASS_LOCAL_REPLAY,36,FoundationsVII.Corollaries.RefinementDescent,destroying_refinement_exhibits_a_failed_join_gate,A valid descent certificate does not repair a refinement that destroys compatibility or strictness.,formalization/lean/FoundationsVII/Corollaries/RefinementDescent.lean,LEAN_KERNEL_REPLAY_PASS,238834efd618919f8717a186771570936935ede5c188d050103b921a5384810d,26b5cbb6b02cdccec724189bd2b50424017c0ee3a7edaa53c93c2038dd5dc4c3
+"[""VII-C015"",""VII-C030"",""VII-C034""]",FVII-COR-012,FoundationsVII.RefinedDescentPackage.valid_descent_does_not_erase_refinement_obstruction,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem valid_descent_does_not_erase_refinement_obstruction
+    {profile : RefinedDescentPackage}
+    (h : Certified profile)
+    (hDestroys : profile.refinement.effect = RefinementEffect.destroys) :
+    (profile.refinement.compatibilityPreserved = false ∨
+      profile.refinement.strictnessPreserved = false) ∧
+      profile.fidelity.squareCommutes = true",PASS_LOCAL_REPLAY,45,FoundationsVII.Corollaries.RefinementDescent,valid_descent_does_not_erase_refinement_obstruction,A valid descent certificate does not repair a refinement that destroys compatibility or strictness.,formalization/lean/FoundationsVII/Corollaries/RefinementDescent.lean,LEAN_KERNEL_REPLAY_PASS,461af40415ed5692ee6c69176d9d0fe4898f7354b539ce3bd7b6ec515cacdaad,898bc2a9dc2c9cac933b94c1abdd24745286843fe0b3349c6bd3310972bbc154
+"[""VII-C003"",""VII-C011"",""VII-C035""]",FVII-COR-013,FoundationsVII.no_free_first_join_two_gate_obstruction,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem no_free_first_join_two_gate_obstruction
+    {regime : AdmissionRegime}
+    (hClosed : regime.closedFamily = true)
+    (hNoSeed : ¬ AdmissionRegime.HasAdmittedSeed regime)
+    (hNoGenerator : ¬ AdmissionRegime.HasReachableGenerator regime)
+    (transitionId : TransitionId)
+    (payment : NoGo.PaymentJoinCredit)
+    (hUnpaid : NoGo.PaymentJoinCredit.PositiveUnpaid payment) :
+    (¬ AdmissionRegime.LawfulFirstExtension regime transitionId) ∧
+      (¬ NoGo.PaymentJoinCredit.Eligible payment)",PASS_LOCAL_REPLAY,12,FoundationsVII.Corollaries.NoFreeJoin,no_free_first_join_two_gate_obstruction,"The obstruction is relative to the declared seed, generator, external-provision, payment, and certified-zero-cost channels.",formalization/lean/FoundationsVII/Corollaries/NoFreeJoin.lean,LEAN_KERNEL_REPLAY_PASS,b7efa652955d63dd014862eec52b1d2b3d51af0a32f19192d3e5aac6d0053117,c7850a790a2c842eeba5cd31bfdc779475bf6129c2304b7a335368b0022ad418
+"[""VII-C003"",""VII-C011"",""VII-C035""]",FVII-COR-014,FoundationsVII.seeded_and_paid_first_join_escape,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem seeded_and_paid_first_join_escape
+    {regime : AdmissionRegime} {transitionId : TransitionId}
+    (hPermitted : transitionId ∈ regime.permittedFirstExtensions)
+    (hSeed : AdmissionRegime.HasAdmittedSeed regime)
+    {payment : NoGo.PaymentJoinCredit}
+    (hPayment : NoGo.PaymentJoinCredit.Eligible payment) :
+    AdmissionRegime.LawfulFirstExtension regime transitionId ∧
+      NoGo.PaymentJoinCredit.Eligible payment",PASS_LOCAL_REPLAY,29,FoundationsVII.Corollaries.NoFreeJoin,seeded_and_paid_first_join_escape,"The obstruction is relative to the declared seed, generator, external-provision, payment, and certified-zero-cost channels.",formalization/lean/FoundationsVII/Corollaries/NoFreeJoin.lean,LEAN_KERNEL_REPLAY_PASS,5cce5121041828db42c7c3917b57a40a0fb53022ada5e1b52272b5a375b20598,4f6c92ddf8acb70d48fac063fa9bf4d09973a1c671ac73a925e07bbd012d533d
+"[""VII-C009"",""VII-C017"",""VII-C032""]",FVII-COR-015,FoundationsVII.strict_join_and_holonomy_do_not_replace_drive,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem strict_join_and_holonomy_do_not_replace_drive
+    {join : StrictJoinEvidence} {claim : ArrowClaim}
+    (hJoin : StrictJoinEvidence.Certified join)
+    (hHolonomy : RouteComparison.Holonomy claim.comparison)
+    (hDriveInvalid : ¬ DriveCertificate.Valid claim.drive) :
+    StrictJoinEvidence.Certified join ∧
+      RouteComparison.Holonomy claim.comparison ∧
+      ¬ ArrowClaim.Eligible claim",PASS_LOCAL_REPLAY,12,FoundationsVII.Corollaries.HolonomyArrow,strict_join_and_holonomy_do_not_replace_drive,Strict join and holonomy do not supply directionality without an independent drive certificate.,formalization/lean/FoundationsVII/Corollaries/HolonomyArrow.lean,LEAN_KERNEL_REPLAY_PASS,3cd5374e1740ba2edf3130aee3e17d6a0aa58817b8c9e3bb9b54610475f29f44,c4fd62a0ac28769ce2fb0e9e6e099cc97183cca8b0b624b5713420fe54be332d
+"[""VII-C009"",""VII-C017"",""VII-C032""]",FVII-COR-016,FoundationsVII.holonomy_with_independent_drive_supports_arrow,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem holonomy_with_independent_drive_supports_arrow
+    {claim : ArrowClaim}
+    (hHolonomy : RouteComparison.Holonomy claim.comparison)
+    (hDrive : DriveCertificate.Valid claim.drive)
+    (hCredit : claim.arrowCredit = true) :
+    RouteComparison.Holonomy claim.comparison ∧ ArrowClaim.Eligible claim",PASS_LOCAL_REPLAY,26,FoundationsVII.Corollaries.HolonomyArrow,holonomy_with_independent_drive_supports_arrow,Strict join and holonomy do not supply directionality without an independent drive certificate.,formalization/lean/FoundationsVII/Corollaries/HolonomyArrow.lean,LEAN_KERNEL_REPLAY_PASS,e7e63036d34cacf88e45c84f8282989f8e723e9f219856bdc4be4854c4658d22,ebb854efd7013cd03c5566759915109b4857901b368c61decb28b1dc7e3274b6
+"[""VII-C021"",""VII-C023"",""VII-C033""]",FVII-COR-017,FoundationsVII.ScopedNegativePackage.certified_excludes_contact_and_occurrence_at_declared_scope,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_excludes_contact_and_occurrence_at_declared_scope
+    {profile : ScopedNegativePackage}
+    (h : Certified profile) :
+    profile.contact.observedContact = false ∧
+      profile.occurrence.occurrenceWithinHorizon = false ∧
+      profile.occurrence.occurrenceAfterHorizon = false",PASS_LOCAL_REPLAY,23,FoundationsVII.Corollaries.NegativeForce,certified_excludes_contact_and_occurrence_at_declared_scope,"Negative force is coverage-, detector-, budget-, family-, and horizon-qualified; bounded nulls are not silently globalized.",formalization/lean/FoundationsVII/Corollaries/NegativeForce.lean,LEAN_KERNEL_REPLAY_PASS,6c9471651a7f3b36640ee2c4b087c35bbe08393b1c5df94b06d05ff4bb1bae0d,6ec2b22fcbaeef1836c2fabd9ff1af72c4dab4b5d9591860154b4604b9451fc0
+"[""VII-C021"",""VII-C023"",""VII-C033""]",FVII-COR-018,FoundationsVII.ScopedNegativePackage.point_null_plus_bounded_horizon_is_not_automatically_global,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem point_null_plus_bounded_horizon_is_not_automatically_global
+    {contact : ContactNullProfile} {occurrence : HorizonObservation}
+    (hContact : ContactNullProfile.NoEvidencedContact contact)
+    (hBounded : HorizonObservation.BoundedNull occurrence)
+    (hOpen : occurrence.familyClosed = false) :
+    ContactNullProfile.NoEvidencedContact contact ∧
+      HorizonObservation.BoundedNull occurrence ∧
+      ¬ HorizonObservation.ClosedFamilyNegativeCertificate occurrence",PASS_LOCAL_REPLAY,36,FoundationsVII.Corollaries.NegativeForce,point_null_plus_bounded_horizon_is_not_automatically_global,"Negative force is coverage-, detector-, budget-, family-, and horizon-qualified; bounded nulls are not silently globalized.",formalization/lean/FoundationsVII/Corollaries/NegativeForce.lean,LEAN_KERNEL_REPLAY_PASS,5ec179637c2cec956c91b8ccaa27f1e5aa79d408a789db0ed9d70f4aa4ddac48,6ebc6d52a01e59fd6208072ba858eda2c1dfdb05b4c5e333a2b2bee5197254c9
+"[""VII-C013"",""VII-C029""]",FVII-COR-019,FoundationsVII.ObserverEndogenyPackage.certified_requires_pricing_and_internal_execution,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem certified_requires_pricing_and_internal_execution
+    {profile : ObserverEndogenyPackage}
+    (h : Certified profile) :
+    profile.observer.charged = profile.observer.occupied ∧
+      profile.endogeny.carried = true ∧
+      profile.endogeny.reachable = true ∧
+      profile.endogeny.executed = true ∧
+      profile.endogeny.hiddenObserver = false",PASS_LOCAL_REPLAY,22,FoundationsVII.Corollaries.ObserverEndogeny,certified_requires_pricing_and_internal_execution,"Endogenous credit does not mean environmentally isolated or uncaused, and observer pricing remains a separate obligation.",formalization/lean/FoundationsVII/Corollaries/ObserverEndogeny.lean,LEAN_KERNEL_REPLAY_PASS,1984a2f922fc2113fb2b2147f3707b5c88ca2b2823366118dca013afa114da1e,4fb417d24b300bd9d902e1036736ba32bbe7f8337afca6b8924cb444b6b4d576
+"[""VII-C013"",""VII-C029""]",FVII-COR-020,FoundationsVII.ObserverEndogenyPackage.unpriced_observer_blocks_joint_native_endogenous_credit,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem unpriced_observer_blocks_joint_native_endogenous_credit
+    {profile : ObserverEndogenyPackage}
+    (hHidden : profile.observer.charged < profile.observer.occupied) :
+    ¬ Certified profile",PASS_LOCAL_REPLAY,38,FoundationsVII.Corollaries.ObserverEndogeny,unpriced_observer_blocks_joint_native_endogenous_credit,"Endogenous credit does not mean environmentally isolated or uncaused, and observer pricing remains a separate obligation.",formalization/lean/FoundationsVII/Corollaries/ObserverEndogeny.lean,LEAN_KERNEL_REPLAY_PASS,dba72c6d6021ed04f9e12eaca250a21cf46f7c078e8d01499ce7f1e3ade0a12f,cf9f4c06eb80bb2f9675fe1526ef5c3698d65829788b9a1bfb6023e2988e1a96
+"[""VII-C013"",""VII-C029""]",FVII-COR-021,FoundationsVII.ObserverEndogenyPackage.zero_occupancy_escape_preserves_endogenous_credit,"[""Change an explicit typed hypothesis or move outside the declared carrier, source, budget, coverage, or temporal scope.""]",AS_ENCODED_IN_FORMAL_STATEMENT,"theorem zero_occupancy_escape_preserves_endogenous_credit
+    {profile : ObserverEndogenyPackage}
+    (hWellFormed : ObserverOccupancyRecord.WellFormed profile.observer)
+    (hNative : ObserverOccupancyRecord.NativeOrEndogenous profile.observer)
+    (hOccupied : profile.observer.occupied = 0)
+    (hCharged : profile.observer.charged = 0)
+    (hEndogenous : EndogenousEnablementProfile.Eligible profile.endogeny) :
+    Certified profile",PASS_LOCAL_REPLAY,48,FoundationsVII.Corollaries.ObserverEndogeny,zero_occupancy_escape_preserves_endogenous_credit,"Endogenous credit does not mean environmentally isolated or uncaused, and observer pricing remains a separate obligation.",formalization/lean/FoundationsVII/Corollaries/ObserverEndogeny.lean,LEAN_KERNEL_REPLAY_PASS,7ce71ea4f32f48b00a035e3a82f2b39e54b0775b96424a1f96ce40fac4055248,2f34c9227bcb7970bbc8f6a827f19dff3cc1bc853a3a635783a171d9e219b971

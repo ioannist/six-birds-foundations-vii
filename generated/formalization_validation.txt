@@ -1,0 +1,21 @@
+Foundations VII pre-Step-2 complete formal scaffold validation
+====================================================
+PASS  required-artifacts: 21 present
+PASS  archive-provenance: sha256=a595687d1ebccac4407aa5131f6ee03df349131c0cace236f1ae91f6d6a86ad4; upstream commit=220b45879d8e63f1a75573145e0be6bb3f52567c
+PASS  immutable-import: 282 imported files verify byte-for-byte
+PASS  curated-selection: operational prompts, review history, and freeform Collatz idea files excluded from active scaffold
+PASS  lean-index: 74 modules, 1,106 declarations, 125 resolved imports, zero sorry/admit
+PASS  import-closure: every imported Lean module edge resolves locally
+PASS  trust-base: one inherited F13a axiom and five inherited opaque constants are explicitly ledgered
+PASS  law-coverage: 14 imported F modules, all 16 E laws, and all 13 G modules are locally indexed
+PASS  g-traceability: 13 G laws link theorem ledger, Lean, gates, examples, labs/results, and paper source
+PASS  dependency-audit: Foundations dependency audit passed: 10 entries checked, 0 violations.
+PASS  vii-import-shell: active VII project resolves the full prior import surface and introduces zero VII declarations
+PASS  vii-lake-project: one VII library plus nine inherited/support libraries are wired through existing source directories
+PASS  local-baseline: VI dependency/syntax/62-test baseline and V syntax/317-test/E16-69-of-69 baseline pass
+INFO  lean-build: not run locally: Lean/Lake toolchain unavailable; this is recorded, not counted as a proof check
+INFO  vi-lab-dependency: lab/tests/test_g11_symmetry.py (requires python-sat/PySAT)
+INFO  v-long-replay: tests/test_e15_offline_reclosure_sweep.py (74 tests; local full-file attempt exceeded 900 seconds)
+INFO  v-e15-replay: 74 tests: Exceeded 900 seconds on 2026-07-26 and was terminated by the execution timeout.
+
+VALIDATION: PASS (13 checks; 4 recorded limitations)

@@ -1,0 +1,65 @@
+{
+  "all_claims_reconsidered": 28,
+  "anti_overread": [
+    "We are explicit that we do not establish a universal physical substrate or continuum limit: our conclusions are semantic and rest on exact finite-state audits and controlled constructions rather than empirical natural-system data."
+  ],
+  "boundary_claim_ids": [
+    "P050-C0002"
+  ],
+  "candidate_ids": [
+    "VII-C013",
+    "VII-C014",
+    "VII-C011",
+    "VII-C029"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 28 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P050",
+  "reading_order": "38",
+  "relevant_claim_ids": [
+    "P050-C0001",
+    "P050-C0002",
+    "P050-C0003",
+    "P050-C0004",
+    "P050-C0005",
+    "P050-C0006",
+    "P050-C0007",
+    "P050-C0008",
+    "P050-C0009",
+    "P050-C0010",
+    "P050-C0011",
+    "P050-C0012",
+    "P050-C0013",
+    "P050-C0014",
+    "P050-C0015",
+    "P050-C0016",
+    "P050-C0017",
+    "P050-C0018",
+    "P050-C0019",
+    "P050-C0020",
+    "P050-C0021",
+    "P050-C0022",
+    "P050-C0023",
+    "P050-C0024",
+    "P050-C0025",
+    "P050-C0026",
+    "P050-C0027",
+    "P050-C0028"
+  ],
+  "root_sha256": "e80408e4aac95948419e5516a90eadb27252ed26a375905c21914419f54ce972",
+  "source_path": "papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "7b896ced2085308448a13bb224108e2d2a4bc85dc3b8d2f5d071e3b3ce7e5a54",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Finite-State Semantics for Packaging and Directionality",
+  "top_convergence_groups": [
+    "CG15",
+    "CG23"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

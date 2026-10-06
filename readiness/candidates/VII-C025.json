@@ -1,0 +1,1179 @@
+{
+  "candidate_id": "VII-C025",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG28"
+  ],
+  "countermodels": [
+    "CM-01",
+    "CM-02",
+    "CM-03",
+    "CM-04",
+    "CM-05",
+    "CM-06",
+    "CM-07",
+    "CM-08",
+    "CM-09",
+    "CM-10",
+    "CM-11",
+    "CM-12",
+    "CM-13",
+    "CM-14",
+    "CM-15",
+    "CM-16",
+    "CM-17",
+    "CM-18",
+    "CM-19",
+    "CM-20",
+    "CM-21",
+    "CM-22",
+    "CM-23",
+    "CM-24",
+    "CM-25",
+    "CM-26",
+    "CM-27"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Two-Theory World detector contract.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Two-Theory World detector contract record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Every interaction law is paired with append-only evidence, signal, null, falsifier, same-source/no-contact/scheduling/relabeling controls, and asymmetric false-positive costs in a finite reference world.",
+  "formalization_targets": [
+    "FT20"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Every interaction law is paired with append-only evidence, signal, null, falsifier, same-source/no-contact/scheduling/relabeling controls, and asymmetric false-positive costs in a finite reference world.",
+  "kind": "FINITE_REFERENCE_SPECIFICATION",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Two-Theory World detector contract",
+  "nonclaims": [
+    "Passing finite scenarios does not prove universal laws.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S02",
+    "TTW-S03",
+    "TTW-S04",
+    "TTW-S05",
+    "TTW-S06",
+    "TTW-S07",
+    "TTW-S08",
+    "TTW-S09",
+    "TTW-S10",
+    "TTW-S11",
+    "TTW-S12",
+    "TTW-S13",
+    "TTW-S14",
+    "TTW-S15",
+    "TTW-S16",
+    "TTW-S17",
+    "TTW-S18",
+    "TTW-S19",
+    "TTW-S20",
+    "TTW-S21",
+    "TTW-S22",
+    "TTW-S23",
+    "TTW-S24"
+  ],
+  "positive_model": [
+    "TTW-S01"
+  ],
+  "priority": "P0",
+  "proof_obligations": [
+    "Implement deterministic scenario evaluation.",
+    "Freeze expected statuses before later experiments.",
+    "Treat the lab as an assay, never a substitute for proof."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Every interaction law is paired with append-only evidence, signal, null, falsifier, same-source/no-contact/scheduling/relabeling controls, and asymmetric false-positive costs in a finite reference world.",
+  "recommended_chapter": "Ch11",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P026-C0281",
+      "P026-C0005",
+      "P026-C0033",
+      "P032-C0011",
+      "P030-C0109",
+      "P032-C0009",
+      "P032-C0007",
+      "P032-C0019",
+      "P026-C0272",
+      "P026-C0271",
+      "P026-C0246",
+      "P026-C0244",
+      "P026-C0094",
+      "P026-C0090",
+      "P026-C0088",
+      "P026-C0086",
+      "P026-C0083",
+      "P026-C0067",
+      "P032-C0013",
+      "P032-C0017",
+      "P032-C0015",
+      "P032-C0005",
+      "P026-C0022"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0058",
+      "BR-CITE-0099",
+      "BR-CITE-0016",
+      "BR-CITE-0124",
+      "BR-CITE-0126",
+      "BR-CITE-0127",
+      "BR-CITE-0128",
+      "BR-CITE-0129",
+      "BR-CITE-0130",
+      "BR-CITE-0131",
+      "BR-CITE-0132",
+      "BR-CITE-0135",
+      "BR-CITE-0046"
+    ],
+    "law_or_no_go_ids": [
+      "NG_FORCE_FOREST",
+      "NG_FORCE_NULL",
+      "NG_LADDER_BOUNDED_INTERFACE",
+      "NG_PROTOCOL_TRAP",
+      "NG_ARROW_DPI",
+      "NG_LADDER_IDEM",
+      "NG_MACRO_CLOSURE_DEFICIT",
+      "NG_OBJECT_CONTRACTIVE"
+    ],
+    "open_problem_ids": [
+      "P029-C0023",
+      "P029-C0017",
+      "P026-C0284"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "PAPER_STATED_RESULT_SUMMARY",
+        "claim_id": "P026-C0070",
+        "claim_type": "result_summary",
+        "conclusion": "for every n 1",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Theorem 11 (IdempotentSaturation; theorem-grade). Let X be a finite set on H_ fin , and let E:X→ X be a finite self-map. If E^2=E"
+          }
+        ],
+        "nonclaims": [
+          "P026-C0002",
+          "P026-C0003",
+          "P026-C0004",
+          "P026-C0005",
+          "P026-C0011",
+          "P026-C0012",
+          "P026-C0013",
+          "P026-C0014",
+          "P026-C0015",
+          "P026-C0017",
+          "P026-C0018",
+          "P026-C0019",
+          "P026-C0020",
+          "P026-C0021",
+          "P026-C0022",
+          "P026-C0023",
+          "P026-C0024",
+          "P026-C0025",
+          "P026-C0026",
+          "P026-C0027",
+          "P026-C0028",
+          "P026-C0029",
+          "P026-C0030",
+          "P026-C0031",
+          "P026-C0032",
+          "P026-C0033",
+          "P026-C0034",
+          "P026-C0035",
+          "P026-C0036",
+          "P026-C0037",
+          "P026-C0038",
+          "P026-C0039",
+          "P026-C0040",
+          "P026-C0041",
+          "P026-C0042",
+          "P026-C0043",
+          "P026-C0044",
+          "P026-C0046",
+          "P026-C0047",
+          "P026-C0048"
+        ],
+        "normalized_claim": "Theorem 11 (IdempotentSaturation; theorem-grade). Let X be a finite set on H_ fin , and let E:X→ X be a finite self-map. If E^2=E , then for every n 1 ,",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3254; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3254",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P026-C0280",
+        "claim_type": "result_summary",
+        "conclusion": "The theorem build order is the topological order in which the paper's theorems and supporting records are introduced and proved. It is the order under which every consumer of a record is preceded by its producer. The nine-stage build order is:",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P026-C0002",
+          "P026-C0003",
+          "P026-C0004",
+          "P026-C0005",
+          "P026-C0011",
+          "P026-C0012",
+          "P026-C0013",
+          "P026-C0014",
+          "P026-C0015",
+          "P026-C0017",
+          "P026-C0018",
+          "P026-C0019",
+          "P026-C0020",
+          "P026-C0021",
+          "P026-C0022",
+          "P026-C0023",
+          "P026-C0024",
+          "P026-C0025",
+          "P026-C0026",
+          "P026-C0027",
+          "P026-C0028",
+          "P026-C0029",
+          "P026-C0030",
+          "P026-C0031",
+          "P026-C0032",
+          "P026-C0033",
+          "P026-C0034",
+          "P026-C0035",
+          "P026-C0036",
+          "P026-C0037",
+          "P026-C0038",
+          "P026-C0039",
+          "P026-C0040",
+          "P026-C0041",
+          "P026-C0042",
+          "P026-C0043",
+          "P026-C0044",
+          "P026-C0046",
+          "P026-C0047",
+          "P026-C0048"
+        ],
+        "normalized_claim": "Theorem Build Order: The theorem build order is the topological order in which the paper's theorems and supporting records are introduced and proved. It is the order under which every consumer of a record is preceded by its producer. The nine-stage build order is:",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9519-L9550; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9519-L9550",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0048",
+        "claim_type": "proposition",
+        "conclusion": "every strictly increasing chain of distinct elements of S has length at most |S|",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If S is a finite set"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Finite strictly increasing chains are bounded: If S is a finite set, then every strictly increasing chain of distinct elements of S has length at most |S| .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1296-L1298; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1296-L1298",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0011",
+        "claim_type": "theorem",
+        "conclusion": "for every closed walk v_0, ,v_k=v_0 , _ i=0 ^ k-1 a(v_i,v_ i+1 ) = 0",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume a(u,v)=phi(v)-phi(u) on oriented edges of a finite graph"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_FORCE_NULL: Assume a(u,v)=phi(v)-phi(u) on oriented edges of a finite graph. Then for every closed walk v_0, ,v_k=v_0 , _ i=0 ^ k-1 a(v_i,v_ i+1 ) = 0.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L403-L405; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L403-L405",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0047",
+        "claim_type": "proposition",
+        "conclusion": "a(u,v)=phi(v)-phi(u) for every oriented edge (u,v)∈ E",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let G=(V,E) be a finite tree with root r , and let a: E→R be antisymmetric. Define phi(r)=0 and, for v≠ r , phi(v)=phi(par(v))+a(par(v),v)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Potential construction on a rooted tree: Let G=(V,E) be a finite tree with root r , and let a: E→R be antisymmetric. Define phi(r)=0 and, for v≠ r , phi(v)=phi(par(v))+a(par(v),v). Then a(u,v)=phi(v)-phi(u) for every oriented edge (u,v)∈ E .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1144-L1151; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1144-L1151",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0009",
+        "claim_type": "theorem",
+        "conclusion": "there exists a potential phi:V→R such that for every oriented edge (u,v) , a(u,v)=phi(v)-phi(u)",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let G=(V,E) be a finite undirected forest. Let a be an antisymmetric function on oriented edges, so that a(u,v)=-a(v,u) and a(u,v)=0 whenever \\ u,v\\ E"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_FORCE_FOREST: Let G=(V,E) be a finite undirected forest. Let a be an antisymmetric function on oriented edges, so that a(u,v)=-a(v,u) and a(u,v)=0 whenever \\ u,v\\ E . Then there exists a potential phi:V→R such that for every oriented edge (u,v) , a(u,v)=phi(v)-phi(u).",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L391-L393; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L391-L393",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P032-C0030",
+        "claim_type": "definition",
+        "conclusion": "Let c(G) be the number of connected components of G . The cycle rank (first Betti number) of G is beta_1(G) = |E|-|V|+c(G). In particular, beta_1(G)=0 if and only if every component of G is a tree. These cycle-space facts are standard in graph theory; see .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Cycle rank: Let c(G) be the number of connected components of G . The cycle rank (first Betti number) of G is beta_1(G) = |E|-|V|+c(G). In particular, beta_1(G)=0 if and only if every component of G is a tree. These cycle-space facts are standard in graph theory; see .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L602-L610; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L602-L610",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0007",
+        "claim_type": "theorem",
+        "conclusion": "for every horizon T 1 , (rev_T)_ # P^ (T) _ pi, P =P^ (T) _ pi, P implies KLBig(P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # P^ (T) _ pi, P Big)=0. Moreover, for every deterministic observation : →Y , KLBig(( ^ (T) )_ # P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ pi, P Big)=0",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let be finite, let P: × →[0,1] be row-stochastic, and let pi be a stationary distribution satisfying detailed balance pi(x) P(x,x')= pi(x') P(x',x) for all x,x'∈"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_PROTOCOL_TRAP: Let be finite, let P: × →[0,1] be row-stochastic, and let pi be a stationary distribution satisfying detailed balance pi(x) P(x,x')= pi(x') P(x',x) for all x,x'∈ . Then for every horizon T 1 , (rev_T)_ # P^ (T) _ pi, P =P^ (T) _ pi, P implies KLBig(P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # P^ (T) _ pi, P Big)=0. Moreover, for every deterministic observation : →Y , KLBig(( ^ (T) )_ # P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ pi, P Big)=0.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L379-L381; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L379-L381",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0034",
+        "claim_type": "lemma",
+        "conclusion": "for every probability law Q on Omega , _ i∈ I w_i D_ KL (P_i \\| Q ) = _ i∈ I w_i D_ KL (P_i \\| R ) + W D_ KL (R \\| Q ). In particular, Q=R is a minimizer, and the minimum value is _ i∈ I w_i D_ KL (P_i \\| R )",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let (w_i)_ i∈ I be nonnegative weights on a finite index set I , not all zero, and let (P_i)_ i∈ I be probability laws on a finite set Omega . Define W := _ i∈ I w_i, R := 1 W _ i∈ I w_i P_i"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "KL mixture decomposition: Let (w_i)_ i∈ I be nonnegative weights on a finite index set I , not all zero, and let (P_i)_ i∈ I be probability laws on a finite set Omega . Define W := _ i∈ I w_i, R := 1 W _ i∈ I w_i P_i. Then for every probability law Q on Omega , _ i∈ I w_i D_ KL (P_i \\| Q ) = _ i∈ I w_i D_ KL (P_i \\| R ) + W D_ KL (R \\| Q ). In particular, Q=R is a minimizer, and the minimum value is _ i∈ I w_i D_ KL (P_i \\| R ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L695-L716; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L695-L716",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0022",
+        "claim_type": "lemma",
+        "conclusion": "Let Omega be a finite set and let g:Omega→Omega' be deterministic. For any probability laws P,Q∈Delta(Omega) , D_ KL (g_ # P \\| g_ # Q) D_ KL (P \\| Q).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Deterministic DPI for KL: Let Omega be a finite set and let g:Omega→Omega' be deterministic. For any probability laws P,Q∈Delta(Omega) , D_ KL (g_ # P \\| g_ # Q) D_ KL (P \\| Q).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L476-L482; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L476-L482",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P030-C0016",
+        "claim_type": "proposition",
+        "conclusion": "Every D4 lawful repair step entails detection, gate permission, a kernel transition, and re-audit. Removing any one of those four records makes the same candidate step unlawful.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P030-C0012",
+          "P030-C0020",
+          "P030-C0024",
+          "P030-C0028",
+          "P030-C0033",
+          "P030-C0038",
+          "P030-C0044",
+          "P030-C0055",
+          "P030-C0058",
+          "P030-C0063",
+          "P030-C0065",
+          "P030-C0074",
+          "P030-C0082",
+          "P030-C0090",
+          "P030-C0108",
+          "P030-C0109",
+          "P030-C0110",
+          "P030-C0111",
+          "P030-C0112",
+          "P030-C0114",
+          "P030-C0117",
+          "P030-C0121",
+          "P030-C0122",
+          "P030-C0123",
+          "P030-C0124",
+          "P030-C0126"
+        ],
+        "normalized_claim": "Repair-step conjuncts are necessary: Every D4 lawful repair step entails detection, gate permission, a kernel transition, and re-audit. Removing any one of those four records makes the same candidate step unlawful.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L688-L692; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L688-L692",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P032-C0027",
+        "claim_type": "definition",
+        "conclusion": "An antisymmetric edge labelling on G is a function a: E→ R such that a(v,u)=-a(u,v) for all (u,v)∈ E .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Antisymmetric edge labelling / 1 -form: An antisymmetric edge labelling on G is a function a: E→ R such that a(v,u)=-a(u,v) for all (u,v)∈ E .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L577-L580; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L577-L580",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P030-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "The structural laws of the Six Birds corpus through Foundations IV are stated from the standpoint of an external theorist: the theorist declares a lens, detects an obstruction, installs a repair, prices a residual, and runs the audit. This paper makes the closure apparatus part of the carrier. An endogenous closure system carries its own instruments, ledgers, repair generator, boundary records, and re-audit loop, and its claims of self-repair are admitted only when the relevant records are produced by its own transitions under a closed-loop source policy. Six definitions (D1–D6) and sixteen laws (E1–E16) give the resulting catalog: endogenous repair, bounded reflexivity, self-maintenance, repair compilation and collapse; priced exposure, alarm, control prices, and probe acquisition; stack rewrite, individuation, and repair transport; and reconsolidation, offline reclosure, and adaptability. The laws are carrier-side and substrate-independent. Living, cognitive, and social systems therefore enter on equal terms: physiological regulation and organismal maintenance, agent-side learning and control, and institutional reproduction and rewrite are distinct realizations of the same typed hypotheses, not metaphors for one another. Each law is stated in the six-part normal form inherited from Foundations IV, with an obstruction or falsifier, an exactly-one status partition where applicable, a proof spine, interaction discipline, and explicit nonclaims. D1–D6 and the core E1–E16 laws are represented in the companion Lean 4 development and finite Repair-World/law-specific campaign; two named interpretive corollaries, Alarm Fatigue and Operational Selfhood, remain unformalized and are marked accordingly. The finite campaign contains 348 preregistered comparisons across fifteen law-specific result artifacts, all passing. Existing particle and neural substrate experiments supply life-facing null, drive, maintenance, motif, and intervention evidence under explicit nonclaims, while an unrun planarian-regeneration protocol states a concrete biological promotion target and its falsifiers. No definition of biological life, consciousness, death, welfare, or autonomous evolution is claimed.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P030-C0012",
+          "P030-C0020",
+          "P030-C0024",
+          "P030-C0028",
+          "P030-C0033",
+          "P030-C0038",
+          "P030-C0044",
+          "P030-C0055",
+          "P030-C0058",
+          "P030-C0063",
+          "P030-C0065",
+          "P030-C0074",
+          "P030-C0082",
+          "P030-C0090",
+          "P030-C0108",
+          "P030-C0109",
+          "P030-C0110",
+          "P030-C0111",
+          "P030-C0112",
+          "P030-C0114",
+          "P030-C0117",
+          "P030-C0121",
+          "P030-C0122",
+          "P030-C0123",
+          "P030-C0124",
+          "P030-C0126"
+        ],
+        "normalized_claim": "The structural laws of the Six Birds corpus through Foundations IV are stated from the standpoint of an external theorist: the theorist declares a lens, detects an obstruction, installs a repair, prices a residual, and runs the audit. This paper makes the closure apparatus part of the carrier. An endogenous closure system carries its own instruments, ledgers, repair generator, boundary records, and re-audit loop, and its claims of self-repair are admitted only when the relevant records are produced by its own transitions under a closed-loop source policy. Six definitions (D1–D6) and sixteen laws (E1–E16) give the resulting catalog: endogenous repair, bounded reflexivity, self-maintenance, repair compilation and collapse; priced exposure, alarm, control prices, and probe acquisition; stack rewrite, individuation, and repair transport; and reconsolidation, offline reclosure, and adaptability. The laws are carrier-side and substrate-independent. Living, cognitive, and social systems therefore enter on equal terms: physiological regulation and organismal maintenance, agent-side learning and control, and institutional reproduction and rewrite are distinct realizations of the same typed hypotheses, not metaphors for one another. Each law is stated in the six-part normal form inherited from Foundations IV, with an obstruction or falsifier, an exactly-one status partition where applicable, a proof spine, interaction discipline, and explicit nonclaims. D1–D6 and the core E1–E16 laws are represented in the companion Lean 4 development and finite Repair-World/law-specific campaign; two named interpretive corollaries, Alarm Fatigue and Operational Selfhood, remain unformalized and are marked accordingly. The finite campaign contains 348 preregistered comparisons across fifteen law-specific result artifacts, all passing. Existing particle and neural substrate experiments supply life-facing null, drive, maintenance, motif, and intervention evidence under explicit nonclaims, while an unrun planarian-regeneration protocol states a concrete biological promotion target and its falsifiers. No definition of biological life, consciousness, death, welfare, or autonomous evolution is claimed.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L107-L139; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L107-L139",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0040",
+        "claim_type": "lemma",
+        "conclusion": "there exists a unique distribution pi∈Delta(Y) with pi P=pi . Moreover, for every mu∈Delta(Y) and every integer t 0 , d_ TV (mu P^t,pi) lambda(P)^t d_ TV (mu,pi)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume lambda(P)<1"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Strict contraction gives a unique fixed distribution: Assume lambda(P)<1 . Then there exists a unique distribution pi∈Delta(Y) with pi P=pi . Moreover, for every mu∈Delta(Y) and every integer t 0 , d_ TV (mu P^t,pi) lambda(P)^t d_ TV (mu,pi).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L846-L853; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L846-L853",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0025",
+        "claim_type": "lemma",
+        "conclusion": "for every T 0 , P_T^ pi,K = P_T^ pi,K,rev",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume pi∈Delta(X) is stationary for K and satisfies detailed balance: pi(x) K(x,x') = pi(x') K(x',x) for all x,x'∈ X"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Detailed balance implies path-law reversal invariance: Assume pi∈Delta(X) is stationary for K and satisfies detailed balance: pi(x) K(x,x') = pi(x') K(x',x) for all x,x'∈ X. Then for every T 0 , P_T^ pi,K = P_T^ pi,K,rev .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L531-L541; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L531-L541",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0045",
+        "claim_type": "lemma",
+        "conclusion": "The map A⊆ im(f) \\1_A f is a bijection between P(im(f)) and Def(f) . Consequently, |Def(f)| = 2^ |im(f)| .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "The map A⊆ im(f) \\1_A f is a bijection between P(im(f)) and Def(f) . Consequently, |Def(f)| = 2^ |im(f)| .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L937-L946; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L937-L946",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0044",
+        "claim_type": "lemma",
+        "conclusion": "e^ n =e for all integers n 1",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If e e = e"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "If e e = e , then e^ n =e for all integers n 1 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L911-L913; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L911-L913",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0039",
+        "claim_type": "lemma",
+        "conclusion": "For all mu,nu∈Delta(Y) , d_ TV (mu P,nu P) lambda(P) d_ TV (mu,nu).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Dobrushin contraction in total variation: For all mu,nu∈Delta(Y) , d_ TV (mu P,nu P) lambda(P) d_ TV (mu,nu).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L835-L840; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L835-L840",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P032-C0002",
+        "claim_type": "result_summary",
+        "conclusion": "All results are stated for finite systems and deterministic lenses. The theorem statements are collected in Section , and the later theorem-front sections refer back to those labels. In one line each, the fronts are: Arrow/DPI: deterministic observation cannot increase forward–reverse path-space KL; equality holds for identity observation. ( ) Protocol trap: holonomy can produce apparent protocol structure without honest entropy production, under a stationary initialization scope. ( ) Force implies cycles: nontrivial force-like structure requires non-forest support (positive cycle rank). ( ) Null force under exactness: if the log-ratio 1-form is exact (potential), cycle affinities vanish. ( ) Closure deficit: coarse closure deficit is a conditional-information obstruction characterized by a finite variational best macro kernel. ( ) Objecthood (bounded): strict contraction implies at most one fixed distribution; the theorem front addresses uniqueness and separation in the contractive total-variation regime. ( ) Idempotence no-ladder: idempotent packaging stabilizes after one step (no iterate ladder). ( ) Bounded-interface no-ladder: with a fixed finite interface, definability is bounded by 2^ |im(f)| and no unbounded predicate ladder can arise without leaving the interface scope. ( )",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Main results (eight fronts).: All results are stated for finite systems and deterministic lenses. The theorem statements are collected in Section , and the later theorem-front sections refer back to those labels. In one line each, the fronts are: Arrow/DPI: deterministic observation cannot increase forward–reverse path-space KL; equality holds for identity observation. ( ) Protocol trap: holonomy can produce apparent protocol structure without honest entropy production, under a stationary initialization scope. ( ) Force implies cycles: nontrivial force-like structure requires non-forest support (positive cycle rank). ( ) Null force under exactness: if the log-ratio 1-form is exact (potential), cycle affinities vanish. ( ) Closure deficit: coarse closure deficit is a conditional-information obstruction characterized by a finite variational best macro kernel. ( ) Objecthood (bounded): strict contraction implies at most one fixed distribution; the theorem front addresses uniqueness and separation in the contractive total-variation regime. ( ) Idempotence no-ladder: idempotent packaging stabilizes after one step (no iterate ladder). ( ) Bounded-interface no-ladder: with a fixed finite interface, definability is bounded by 2^ |im(f)| and no unbounded predicate ladder can arise without leaving the interface scope. ( )",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L167-L182; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L167-L182",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0031",
+        "claim_type": "lemma",
+        "conclusion": "Let G=(V,E) be a finite tree and fix a root r∈ V . For each vertex v≠ r there exists a unique neighbor par(v) of v lying on the unique simple path from r to v .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Rooted parent map on a tree: Let G=(V,E) be a finite tree and fix a root r∈ V . For each vertex v≠ r there exists a unique neighbor par(v) of v lying on the unique simple path from r to v .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L618-L622; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L618-L622",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0019",
+        "claim_type": "theorem",
+        "conclusion": "|Def(f)| = 2^ |im(f)| . Consequently, if |im(f)|<∈fty , there is no infinite strictly increasing sequence of pairwise distinct f -definable predicates",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let f:X→Y be deterministic with finite image im(f) . Define Def(f):=\\ g f : g:Y→\\ 0,1\\ \\"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_LADDER_BOUNDED_INTERFACE: Let f:X→Y be deterministic with finite image im(f) . Define Def(f):=\\ g f : g:Y→\\ 0,1\\ \\ . Then |Def(f)| = 2^ |im(f)| . Consequently, if |im(f)|<∈fty , there is no infinite strictly increasing sequence of pairwise distinct f -definable predicates.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L451-L453; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L451-L453",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0013",
+        "claim_type": "theorem",
+        "conclusion": "CD_tau(Pi)>0",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let (X,P) be a finite Markov chain, let mu∈Delta(X) , let Pi:X→Y be deterministic, and fix tau 1 . For each x∈X , define the packaged future law p_x^ (tau) (y') := Pr_ mu,P [Pi(X_ t+tau )=y' X_t=x]. For a candidate macro kernel K:Y×Y→[0,1] , define L_tau(K) := _ x∈ X mu(x) KL (p_x^ (tau) K_ Pi(x) ). Define the closure deficit by CD_tau(Pi) := I (X_t;Pi(X_ t+tau ) | Pi(X_t) ). Then the kernel K^ _y(y') := Pr_ mu,P [Pi(X_ t+tau )=y' Pi(X_t)=y] satisfies CD_tau(Pi)= _K L_tau(K)=L_tau(K^ ). Moreover, if there exist x,x'∈X with Pi(x)=Pi(x') , mu(x)>0 , mu(x')>0 , and p_x^ (tau) ≠ p_ x' ^ (tau)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_MACRO_CLOSURE_DEFICIT: Let (X,P) be a finite Markov chain, let mu∈Delta(X) , let Pi:X→Y be deterministic, and fix tau 1 . For each x∈X , define the packaged future law p_x^ (tau) (y') := Pr_ mu,P [Pi(X_ t+tau )=y' X_t=x]. For a candidate macro kernel K:Y×Y→[0,1] , define L_tau(K) := _ x∈ X mu(x) KL (p_x^ (tau) K_ Pi(x) ). Define the closure deficit by CD_tau(Pi) := I (X_t;Pi(X_ t+tau ) | Pi(X_t) ). Then the kernel K^ _y(y') := Pr_ mu,P [Pi(X_ t+tau )=y' Pi(X_t)=y] satisfies CD_tau(Pi)= _K L_tau(K)=L_tau(K^ ). Moreover, if there exist x,x'∈X with Pi(x)=Pi(x') , mu(x)>0 , mu(x')>0 , and p_x^ (tau) ≠ p_ x' ^ (tau) , then CD_tau(Pi)>0 .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L415-L417; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L415-L417",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P032-C0004",
+        "claim_type": "result_summary",
+        "conclusion": "KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "We state the eight no-go theorems. Each theorem is followed by a brief remark clarifying scope. [NG_ARROW_DPI] Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T))"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Main Results: We state the eight no-go theorems. Each theorem is followed by a brief remark clarifying scope. [NG_ARROW_DPI] Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T)) . Then KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big).",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L364-L466; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L364-L466",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "CONDITIONAL_THEOREM",
+        "claim_id": "P032-C0036",
+        "claim_type": "lemma",
+        "conclusion": "In this finite deterministic setting, I(X_t;Y_ t+tau Y_t) = _ x∈ X mu(x) D_ KL (p_x^ (tau) \\| p_ Pi(x) ^ (tau) ).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Conditional mutual information identity: In this finite deterministic setting, I(X_t;Y_ t+tau Y_t) = _ x∈ X mu(x) D_ KL (p_x^ (tau) \\| p_ Pi(x) ^ (tau) ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L740-L747; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L740-L747",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0281",
+        "claim_type": "nonclaim",
+        "conclusion": "The build order does not claim closure under any larger dependency closure",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The build order does not claim closure under any larger dependency closure",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9548; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9548",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0005",
+        "claim_type": "nonclaim",
+        "conclusion": "a finite nonclaim register N that records the negative boundary of every admissible claim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "a finite nonclaim register N that records the negative boundary of every admissible claim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L182-L199; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L182-L199",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0033",
+        "claim_type": "nonclaim",
+        "conclusion": "N_I : the finite nonclaim record of I .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "N_I : the finite nonclaim record of I .",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L1121-L1147; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L1121-L1147",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P030-C0109",
+        "claim_type": "scope_boundary",
+        "conclusion": "It is the finite-inventory limitation that prevents the paper from claiming robustness against every latent variable.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "It is the finite-inventory limitation that prevents the paper from claiming robustness against every latent variable.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L5147-L5156; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L5147-L5156",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0272",
+        "claim_type": "nonclaim",
+        "conclusion": "it records the completion-noncommutation phenomenon at the level of H_ DC and does not assert that every completion-related fact reduces to a decorated square.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "it records the completion-noncommutation phenomenon at the level of H_ DC and does not assert that every completion-related fact reduces to a decorated square.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9198; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9198",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0271",
+        "claim_type": "nonclaim",
+        "conclusion": "This recovery is representational: it records the descent data handled by Theorem 30 inside H_ DC and does not assert that every descent fact in the core calculus reduces to a decorated square.",
+        "formalization_status": "PLAUSIBLE_IMPORTED_MATCH_REQUIRES_STATEMENT_REVIEW",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This recovery is representational: it records the descent data handled by Theorem 30 inside H_ DC and does not assert that every descent fact in the core calculus reduces to a decorated square.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9171; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9171",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0246",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-11 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-11 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L8363; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L8363",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0244",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-10 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-10 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L8321; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L8321",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0094",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-13 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-13 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3910; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3910",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0090",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-14 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-14 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3794; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3794",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0088",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-12 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-12 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3740; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3740",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0086",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-7 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-7 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3698; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3698",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0083",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-12 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-12 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3597-L3598; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3597-L3598",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0067",
+        "claim_type": "nonclaim",
+        "conclusion": "NC-7 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "NC-7 of Subsection 2.4.3 records the corresponding nonclaim.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3156; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L3156",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0017",
+        "claim_type": "theorem",
+        "conclusion": "for all integers n 1 , e^ n =e",
+        "formalization_status": "MATCHED_IMPORTED_ABSTRACT_CORE_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let e:S→ S satisfy e e=e"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_LADDER_IDEM: Let e:S→ S satisfy e e=e . Then for all integers n 1 , e^ n =e.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L439-L441; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L439-L441",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0015",
+        "claim_type": "theorem",
+        "conclusion": "TV(nu,nu') 2 1-lambda(P) . In particular, if =0 , the stationary distribution is unique",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let P be a stochastic matrix on finite Y . Let T_P:Delta(Y)→Delta(Y) be the operator nu↦ nu P , and let lambda(P) be the Dobrushin contraction coefficient in total variation. Assume lambda(P)<1 . If nu,nu'∈Delta(Y) satisfy the -stability bounds TV(nu,nu P) , TV(nu',nu'P)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_OBJECT_CONTRACTIVE: Let P be a stochastic matrix on finite Y . Let T_P:Delta(Y)→Delta(Y) be the operator nu↦ nu P , and let lambda(P) be the Dobrushin contraction coefficient in total variation. Assume lambda(P)<1 . If nu,nu'∈Delta(Y) satisfy the -stability bounds TV(nu,nu P) , TV(nu',nu'P) , then TV(nu,nu') 2 1-lambda(P) . In particular, if =0 , the stationary distribution is unique.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L427-L429; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L427-L429",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0005",
+        "claim_type": "theorem",
+        "conclusion": "KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T))"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_ARROW_DPI: Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T)) . Then KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big).",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L367-L369; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L367-L369",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P026-C0022",
+        "claim_type": "nonclaim",
+        "conclusion": "with Gamma a finite typed context, T an admissible theory package, I an instrument, and a claim whose use-set has been audited against the visibility, threshold, audit, and nonclaim records attached to the judgment.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "with Gamma a finite typed context, T an admissible theory package, I an instrument, and a claim whose use-set has been audited against the visibility, threshold, audit, and nonclaim records attached to the judgment.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L735; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L735",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0023",
+        "claim_type": "open_problem",
+        "conclusion": "The highway conjecture — that every finite initial configuration reaches the 104 -step highway — remains open",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The highway conjecture — that every finite initial configuration reaches the 104 -step highway — remains open",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1707-L1730; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1707-L1730",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0017",
+        "claim_type": "open_problem",
+        "conclusion": "For base 10, no analogous certificate is known: 196 remains open, and finite searches, however deep, are bounded evidence only .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "For base 10, no analogous certificate is known: 196 remains open, and finite searches, however deep, are bounded evidence only .",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1105-L1131; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1105-L1131",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C025",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P026-C0284",
+        "claim_type": "open_problem",
+        "conclusion": "This subsection records the deferred claims by future-paper group, mirroring the six classes of future work in Subsection 16.3.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This subsection records the deferred claims by future-paper group, mirroring the six classes of future work in Subsection 16.3.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9603; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_III_A_Finite_Audited_Interaction_Calculus_for_SBT.tex:L9603",
+        "source_paper": "P026",
+        "source_title": "Foundations III: Finite Audited Interaction Calculus",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P026-C0070",
+      "P026-C0280",
+      "P032-C0048",
+      "P032-C0011",
+      "P032-C0047",
+      "P032-C0009",
+      "P032-C0030",
+      "P032-C0007",
+      "P032-C0034",
+      "P032-C0022",
+      "P030-C0016",
+      "P032-C0027",
+      "P030-C0001",
+      "P032-C0040",
+      "P032-C0025",
+      "P032-C0045",
+      "P032-C0044",
+      "P032-C0039",
+      "P032-C0002",
+      "P032-C0031",
+      "P032-C0019",
+      "P032-C0013",
+      "P032-C0004",
+      "P032-C0036"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O11"
+  ],
+  "wishlist_atoms": [
+    "ARC-LAB",
+    "MED-I1",
+    "MED-I2",
+    "MED-I4",
+    "MED-S2"
+  ]
+}

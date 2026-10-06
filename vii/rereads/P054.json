@@ -1,0 +1,49 @@
+{
+  "all_claims_reconsidered": 4,
+  "anti_overread": [
+    "We do not claim to have formalized every layer transition or every scientific use of a currency.",
+    "and it does not prove that every higher-layer shadow price arises from every lower-layer ledger."
+  ],
+  "boundary_claim_ids": [
+    "P054-C0002",
+    "P054-C0004"
+  ],
+  "candidate_ids": [
+    "VII-C020",
+    "VII-C006",
+    "VII-C011",
+    "VII-C029",
+    "VII-C035",
+    "VII-C017",
+    "VII-C032",
+    "VII-C036"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 4 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P054",
+  "reading_order": "20",
+  "relevant_claim_ids": [
+    "P054-C0001",
+    "P054-C0002",
+    "P054-C0003",
+    "P054-C0004"
+  ],
+  "root_sha256": "30044f965044b2b1f0d2d476f17ba68ec691cb9e0ec6335baec05923a39122f6",
+  "source_path": "papers/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "6366b510d617be79fa377b423cba6490499827cabaadd8b9da80096e1bb3d3fc",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Currency, Constraint Duality, and Shadow Prices",
+  "top_convergence_groups": [
+    "CG24",
+    "CG04",
+    "CG10",
+    "CG19"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

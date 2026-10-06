@@ -1,0 +1,71 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "UNKNOWN_REQUIRES_PROOF": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0038",
+      "BR-CITE-0059",
+      "BR-CITE-0100",
+      "BR-CITE-0181"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0136"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 1,
+    "wishlist_request_ids": [
+      "ARC-H24",
+      "CLD-A2",
+      "CLD-B1",
+      "CLD-B3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P033.jsonl",
+  "claim_count": 4,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1
+  },
+  "claim_ids": [
+    "P033-C0001",
+    "P033-C0002",
+    "P033-C0003",
+    "P033-C0004"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 1,
+    "paper_thesis": 1,
+    "result_summary": 2
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "NO_MATCH": 4
+  },
+  "foundations_vii_groups": [
+    "CG12",
+    "CG18"
+  ],
+  "foundations_vii_hook": "holonomy/arrow separation, protocol artifacts, and null controls",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P033.md",
+  "nonclaim_scope_ids": [
+    "P033-C0002"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P033",
+  "reading_order": 31,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Six_Birds_Protocol_Trap_Holonomy_Without_Entropy_Production.tex",
+  "source_root_sha256": "b5e8faee7b92cb79aebe0912be922d6fdacc2531355ce239a062131f369eccbb",
+  "source_tree_sha256": "2bee23d8151fa7bda5cb6fff848cf35603fc7f5fb0aa1c5a700841248819d5a4",
+  "status": "BRIDGED",
+  "title": "Protocol Trap: Holonomy without Entropy Production"
+}

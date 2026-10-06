@@ -1,0 +1,23 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Laws.E11InstitutionalRewrite
+
+#check SixBirdsFoundationsV.E11_NCTDObstruction
+
+namespace FoundationsVII.Prior
+
+/-- FT10 dedicated institutional obstruction adapter. -/
+def ft10InstitutionalObstruction : AdapterContract :=
+  { adapterId := "ADAPTER-FT10-INSTITUTIONAL-OBSTRUCTION"
+    formalizationTargetIds := ["FT10"]
+    sourceModule := "SixBirdsFoundationsV.Laws.E11InstitutionalRewrite"
+    sourceDeclarations := ["SixBirdsFoundationsV.E11_NCTDObstruction"]
+    sourceTypes := ["Foundations V institutional rewrite obstruction"]
+    targetTypes := ["FoundationsVII.JoinObstruction", "FoundationsVII.NegativeResult"]
+    preservedHypotheses := ["the exact institutional carrier and theorem hypotheses"]
+    addedHypotheses := ["VII quantifier scope and escape-route record"]
+    lostHypotheses := ["No transfer to unrelated interaction carriers."]
+    trustDependencies := []
+    nonclaims := ["The adapter does not universalize the institutional result."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

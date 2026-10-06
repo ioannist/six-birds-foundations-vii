@@ -1,0 +1,247 @@
+\section{What the certificates separate and refuse}
+\label{sec:separations}
+
+The catalog has 36 entries. This section states what they establish, sorted by kind:
+separations exhibited in the reference world, statements that follow from the definitions,
+refusals of credit, two refuted proposals and two deferred questions. The supplement
+states each entry (\Cref{supp:register}).
+
+\subsection{Separations}
+\label{sec:sep-separations}
+
+The main use of the language is to keep apart properties that are easily conflated. For 27
+such pairs --- sound versus reachable, contact versus strict join, enablement versus descent,
+route residue versus an arrow, and so on --- the finite reference world of \Cref{sec:ttw}
+contains a record that has the first property and lacks the second. These separations hold
+between certificate fields, so they show only that the fields are independent as records;
+\Cref{tab:separations} lists them.
+
+Four of them have semantic counterparts proved in this paper.
+\Cref{prop:refinement} explains why an observable that factors globally through the pairing gains
+nothing from a common refinement, and \Cref{rem:refinement-limit} states what strictness
+leaves open.
+\Cref{prop:strict-not-cheap} explains why relabelling produces no strict content.
+The seed-partition row is a record that stipulates two seed partitions and stores unequal
+terminal-package fields. It is a different statement from \Cref{ex:disabling}, which proves
+that two admission orders from the same initial state reach different terminal states
+because one admission disables another. When admission only enables,
+\Cref{thm:admission} gives a unique terminal state from each state. The enablement row also
+has a semantic counterpart (\Cref{prop:enablement-model}).
+
+\subsection{Semantic models}
+\label{sec:sep-semantic}
+
+Four of the entries above are also proved about explicit transition systems rather than about
+records.
+
+\begin{proposition}[Enablement without descent]
+\label{prop:enablement-model}
+Let the lower theory have states $\{0,1,2\}$ and a step $a\to a'$ whenever $a<a'$. Form an upper
+state from each lower state $a$ as the vector of states reachable from $a$, and let the upper
+theory have a step between two formed states exactly when a lower step joins their seeds. Then
+\begin{enumerate}
+  \item the three formed states are distinct, and an upper step exists exactly when a lower step
+        supplies it; in particular the formed state of $0$ steps to the formed state of $1$;
+  \item the observable ``$0$ is reachable'' does not factor on its image through the quotient
+        ``$1$ is reachable'': the formed states of $0$ and $1$ agree on the quotient and differ
+        on the observable.
+\end{enumerate}
+An observable that is constant on the fibres of a quotient does factor through it.
+\end{proposition}
+
+\begin{proof}
+Formation is injective because the vector of $a$ has first true entry at $a$; an upper step
+between formed states is by definition a lower step between their seeds. The formed states of
+$0$ and $1$ are $(1,1,1)$ and $(0,1,1)$, a split pair for the quotient and the observable, so
+\Cref{thm:split-criterion} applies. The last sentence is the converse direction of the same
+theorem.
+\end{proof}
+
+\Cref{fig:enablement} shows the two layers and the split pair.
+
+\input{figures/fig_enablement}
+
+The model is small, but it separates the two properties as statements about transitions, not
+as independent record fields: the upper step is enabled by the lower dynamics, and what the
+upper theory observes is still not a function of the lower quotient.
+
+\begin{proposition}[No free join]
+\label{prop:no-free-join}
+Consider events that require and produce capabilities, and call a finite sequence of events
+lawful when every capability an event requires is initially available or produced by an earlier
+event. If a join $j$ requires a capability $c$ that is not initially available, and $j$ is the
+only event that produces $c$, then $j$ occurs in no lawful sequence. If every capability that $j$
+requires is initially available, the sequence consisting of $j$ alone is lawful.
+\end{proposition}
+
+\begin{proof}
+Induction on the lawful sequence. When $j$ is appended, $c$ must be initially available, which
+it is not, or produced by an earlier event, which would be an earlier occurrence of $j$; the
+induction hypothesis excludes that. The second statement is immediate from the definition of a
+lawful sequence; the formal development checks it for a one-event system in which the join's
+capability is initially supplied.
+\end{proof}
+
+\begin{proposition}[Selection creates no fact]
+\label{prop:selection}
+Let a state be a set of lower facts, and let a selection step replace a state $S$ by
+$S \cap K$ for some set $K$. After any finite sequence of selection steps, every fact present
+was present at the start. A step that inserts a fact into the empty state is not a selection
+step.
+\end{proposition}
+
+\begin{proof}
+$S \cap K \subseteq S$, and inclusion is transitive along the sequence.
+\end{proof}
+
+The proposition is immediate once selection is modelled as intersection; its use is to fix what
+a pure downward selection is allowed to do.
+
+\begin{proposition}[Bounded search]
+\label{prop:search}
+Let a finite list of states be scanned for a decidable target, and let the reachable set be the
+states reachable from a start within $h$ steps.
+\begin{enumerate}
+  \item If every listed state is reachable within $h$ steps and the scan finds the target, some
+        state reachable within $h$ steps satisfies it.
+  \item If every state reachable within $h$ steps is listed and the scan finds nothing, no state
+        reachable within $h$ steps satisfies the target; if moreover every reachable state is
+        reachable within $h$ steps, no reachable state does.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+Both parts compare what the scan inspects with what is reachable: the first uses that every listed state is
+reachable, the second that every reachable state is listed.
+(1) The scan returns a listed state satisfying the target. (2) A reachable target state would
+be listed, so the scan would find it.
+\end{proof}
+
+A negative search result is thus exactly as strong as the coverage of its list and the
+closure of its horizon. For two Boolean components that each step from false to true, one step
+at a time, the joint state $(\text{true},\text{true})$ is not reachable within one step and is
+reachable within two; this is a rendezvous threshold, not yet a model of a channel carrying
+contact between two theories.
+
+\subsection{Statements that follow from the definitions}
+\label{sec:sep-definitional}
+
+The following catalog entries are definitions, or statements that follow in a line from
+the definition of the certificate they concern. The first is stated as a proposition
+because the later refusals use it.
+
+\begin{proposition}[Bootstrap]
+\label{prop:bootstrap}
+In a closed admission regime with no admitted seed and no reachable generator, no first
+extension is authorized. Each of the three routes to authorization (an admitted seed, a
+reachable generator, open external provision) authorizes a first extension in some
+regime.
+\end{proposition}
+
+\begin{proof}
+Authorization is defined as the disjunction of the three routes, and open external
+provision requires the family to be open. The escapes are exhibited by three regimes, one
+for each route.
+\end{proof}
+
+The content of the proposition is the list of routes, which fixes exactly what a first
+extension in a closed regime needs. The other entries of this kind --- neutral seeds, endogenous
+enablement, downward selection, horizons, certified non-interaction, composition of enablement,
+confluence at a declared scope, join status, order residue, the join-created residual and the
+cross-family corollaries --- are stated in \Cref{supp:definitional}; the four with semantic
+counterparts are \Cref{prop:enablement-model,prop:no-free-join,prop:selection,prop:search}.
+
+\subsection{Refusals}
+\label{sec:sep-refusals}
+
+Eleven entries are refusals: a credit is withheld when a field its definition requires is
+absent, and named routes restore it. \Cref{tab:refusals} lists them. In each case the
+eligibility condition for the credit contains the missing field, so the refusal is
+immediate from the definition. The content is the list of escape routes, each of which is
+exhibited by a configuration that earns the credit. One refusal, occurrence from
+reachability, is also accompanied by an explicit counterprofile.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{5.2cm}>{\raggedright\arraybackslash}p{5.3cm}@{}}
+\caption{Refusals of credit and their escape routes.}
+\label{tab:refusals}\\
+\toprule
+\textbf{Refused credit} & \textbf{Missing field} & \textbf{Escape routes} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Refused credit} & \textbf{Missing field} & \textbf{Escape routes} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+first extension in a closed regime & seed or reachable generator & admitted seed; reachable generator; open external provision \\
+independence-sensitive join from resemblance & witnessed independent contact & witnessed independent contact \\
+retrospective self-certification & prospective certificate & prospective certificate \\
+total-lens transfer to a partial target & certified adapter & certified adapter \\
+native credit with an unpriced observer & charged occupancy & external observer; zero occupancy \\
+join from contact alone & composite, retention and anti-product witness & complete strict-join certificate \\
+strictness from a product or common refinement & anti-product witness & anti-product witness \\
+source independence from one lineage & disjoint roots & disjoint-root certificate \\
+positive-cost join without payment & payment & paid channel (a certified zero-cost channel credits only a join of amount zero) \\
+arrow from route residue & drive certificate & independently driven arrow \\
+occurrence from reachability & firing & a fired occurrence \\
+\end{longtable}
+}
+
+Three further refusals are worth recording with them. A join cannot create the first
+capability needed to execute itself, cannot manufacture strict content by relabelling, and
+cannot receive positive-cost formation for nothing. The second follows from
+\Cref{prop:strict-not-cheap} and the third is the payment refusal above. The first is
+\Cref{prop:no-free-join}: a capability that only the join produces cannot authorize the
+join's own execution.
+
+An observer or instrument that uses bounded shared capacity cannot certify native or
+endogenous formation while its occupancy is under-charged or its source role or cost is
+off the ledger. Observation is not refused; unrecorded observation is.
+
+\subsection{Two refuted proposals}
+
+\begin{remark}[Refinement monotonicity is false]
+\label{rem:refinement-refuted}
+The unconditional claim that refining a parent preserves the join is refuted at the
+level of records. A refinement record carries an effect label (preserve, strengthen, weaken
+or destroy) and preservation flags. A well-formed record labelled \emph{destroys} exists,
+so the certificate language does not permit the unconditional claim. What survives is a
+classification of refinement records by their label, and all four labels have well-formed record
+witnesses. As a contrast in observable factorization, not a model of refinement acting on a join,
+the three-bit join shows both behaviours: the pairing, a coarse common refinement, loses the
+observable $h$, while the identity refinement retains it (\Cref{rem:refinement-limit}). No model of refinement acting on a join is given.
+\end{remark}
+
+\begin{remark}[Two contact quantities disagree]
+\label{rem:degree-refuted}
+One might expect contact to carry a conserved scalar degree. A contact quantity records five
+coordinates: access, retention, novelty, observer occupancy and residual. For the vector
+$(1,1,1,0,1)$ the plain sum is $4$, while the sum that weights novelty by $2$ and residual by
+$3$ is $7$, so the two plausible degrees disagree. An apparent conservation that
+omits the observer's occupancy fails the accounting certificate, while an exact scoped
+conservation certificate, with every coordinate included, is available. No universal
+statement about conserved quantities is proved in either direction: the two scalars
+disagree, and the accounting stays local.
+\end{remark}
+
+\subsection{Two deferred questions}
+
+\begin{remark}[Categorical reduction]
+\label{rem:deferral-categorical}
+Whether a join of theories reduces to a product, pullback or pushout
+\citep{MacLane1998} is not settled here. The catalog's categorical certificate is a
+checklist of flags (identities checked, composition closed, associativity checked, a
+universal property recorded) with no morphisms or composition, so it supports no
+categorical statement. What is proved is the set-level fact of \Cref{thm:strict-split}: a
+strict observable does not factor, on its image, through the pairing $J\to A\times B$, which is the map
+into the product of sets. A categorical treatment would need hom-sets, composition and a
+universal property quantified over mediating maps.
+\end{remark}
+
+\begin{remark}[Primitive-operation algebra]
+\label{rem:deferral-algebra}
+A generators-and-relations presentation of the primitive operations is not attempted. The
+part the paper uses is the monoid of resource deltas described above.
+\end{remark}

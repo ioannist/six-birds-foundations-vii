@@ -1,0 +1,16 @@
+decision_id,question,current_ruling,blocking_candidates,evidence_needed
+DP01,Is contact surface primitive or reducible to inherited interface mediation?,Keep it as a candidate record; require a reduction proof before calling it derived.,"[""VII-C007"", ""VII-C016""]",Exact source/target interface category and equivalence theorem.
+DP02,Are join statuses complete?,Treat the list as scoped to the declared finite interface family.,"[""VII-C008""]",Completeness theorem or explicit counterexample outside the family.
+DP03,Is source independence required for every join?,Require it only for independence-sensitive claims; preserve non-independent joins as separately typed.,"[""VII-C009"", ""VII-C010""]",Claim-by-claim source sensitivity criterion.
+DP04,Can categorical products or pullbacks represent the join?,Defer unconditional reduction; permit special-case theorems.,"[""VII-C026""]","Category, morphisms, universal property, and countermodels."
+DP05,Is there one scalar join currency?,No; retain typed ledgers unless a representation theorem is proved.,"[""VII-C011""]",Additivity/duality theorem across all declared costs.
+DP06,"Is there a conserved contact degree, including observer/instrument occupancy?",Do not posit one; retain an explicit test program.,"[""VII-C031"", ""VII-C029""]",Candidate invariant and nontrivial conservation proof.
+DP07,How is simultaneous contact defined for incommensurable internal times?,Use explicit synchronization/order witnesses; no unique simultaneity assumption.,"[""VII-C032""]",Clock/interface model and invariance under admissible reparameterization.
+DP08,When is enablement endogenous?,"Use carried, reachable, executed, audited, and budgeted generator criteria.","[""VII-C013""]",Proof that each condition is necessary or a revised grade.
+DP09,Can contact create new participants or only a relation?,Keep both cases typed and require an objecthood witness for created participants.,"[""VII-C014""]",Finite birth models and closure proof.
+DP10,Does parent refinement preserve joins?,No monotonicity assumption; classify preserve/strengthen/weaken/destroy cases.,"[""VII-C030""]",Refinement transport theorems and countermodels.
+DP11,Does interaction holonomy imply an arrow?,No; require a separate drive/path-asymmetry certificate.,"[""VII-C017"", ""VII-C032""]",Null-versus-driven theorem and reversal assay.
+DP12,Should primitive generators and relations be developed in VII?,Defer until categorical and operational composition are fixed.,"[""VII-C028""]",Nonredundant primitive list and composition laws.
+DP13,Which P040/P058 member is canonical?,Keep both non-independent and unresolved.,"[""VII-C020"", ""VII-C024""]",Theorem-level source reconciliation and owner ruling.
+DP14,Can P039 contribute body-level results?,No; abstract-only until missing source files are supplied.,"[""VII-C024""]",The eighteen included TeX files and bibliography.
+DP15,How strong may certified non-interaction be?,"Only as strong as the covered family, detector power, budget, and horizon.","[""VII-C033""]",Closed-family audit or theorem-grade impossibility.

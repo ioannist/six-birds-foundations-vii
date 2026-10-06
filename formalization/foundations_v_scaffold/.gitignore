@@ -1,0 +1,18 @@
+# Lean build artifacts
+.lake/
+**/.lake/
+*.olean
+*.ilean
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# External review zips — disposable, rebuilt by scripts/make_review_zip.sh from HEAD.
+# The review_requests/*.md request docs ARE committed; the zip itself is not.
+six-birds-cognition_v*.zip
+
+# OS/editor cruft
+.DS_Store

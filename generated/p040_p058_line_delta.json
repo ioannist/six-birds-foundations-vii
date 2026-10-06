@@ -1,0 +1,23 @@
+{
+  "alignment_block_count": 505,
+  "canonical_member": null,
+  "changed_p040_lines": 994,
+  "changed_p058_lines": 977,
+  "delete_blocks": 18,
+  "equal_blocks": 253,
+  "equal_p040_lines": 4781,
+  "equal_p058_lines": 4781,
+  "inference_boundary": "raw source delta only; claim-level equivalence and canonicalization deferred to Step 2",
+  "insert_blocks": 13,
+  "p040_line_count": 5775,
+  "p040_path": "source/papers/Tsiokos_2026_The_Usefulness_of_Non_Descending_Objects_A_Six_Birds_Theory_of_Mathematical_Applicability.tex",
+  "p040_sha256": "ed6ca456595366976b575dae6376fabeda8f6a715172575cb0d092197208c143",
+  "p058_line_count": 5758,
+  "p058_path": "source/papers/Tsiokos_2026_Why_Mathematics_Even_Works.tex",
+  "p058_sha256": "826e7c826dedd5a5185793527b48a05218b6ddd705a4217772450bf7a42fc122",
+  "replace_blocks": 221,
+  "sequence_match_ratio": 0.8290991069106044,
+  "step2_started": false,
+  "unified_diff_line_count": 3240,
+  "version_family": "VF-SAU-01"
+}

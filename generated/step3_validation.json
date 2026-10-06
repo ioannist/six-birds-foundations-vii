@@ -1,0 +1,279 @@
+{
+  "check_count": 54,
+  "checks": [
+    {
+      "check": "required Step-3 products exist",
+      "detail": "51 products present",
+      "status": "PASS"
+    },
+    {
+      "check": "Step-2 claim corpus remains complete",
+      "detail": "claims=2821 unique=2821",
+      "status": "PASS"
+    },
+    {
+      "check": "Step-2 bridge atlas remains complete",
+      "detail": "bridges=374 unique=374",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 paper roots remain represented",
+      "detail": "catalog=58 claim_papers=58",
+      "status": "PASS"
+    },
+    {
+      "check": "expected scope-inheritance groups",
+      "detail": "actual=30 expected=30",
+      "status": "PASS"
+    },
+    {
+      "check": "expected minimal object records",
+      "detail": "actual=18 expected=18",
+      "status": "PASS"
+    },
+    {
+      "check": "expected candidate dossiers",
+      "detail": "actual=36 expected=36",
+      "status": "PASS"
+    },
+    {
+      "check": "expected wishlist adjudications",
+      "detail": "actual=130 expected=130",
+      "status": "PASS"
+    },
+    {
+      "check": "expected finite reference scenarios",
+      "detail": "actual=24 expected=24",
+      "status": "PASS"
+    },
+    {
+      "check": "expected countermodels",
+      "detail": "actual=27 expected=27",
+      "status": "PASS"
+    },
+    {
+      "check": "expected candidate no-go fronts",
+      "detail": "actual=11 expected=11",
+      "status": "PASS"
+    },
+    {
+      "check": "expected formalization targets",
+      "detail": "actual=20 expected=20",
+      "status": "PASS"
+    },
+    {
+      "check": "expected exact prior-declaration reuse links",
+      "detail": "actual=30 expected=30",
+      "status": "PASS"
+    },
+    {
+      "check": "expected chapter nodes",
+      "detail": "actual=12 expected=12",
+      "status": "PASS"
+    },
+    {
+      "check": "expected red lines",
+      "detail": "actual=30 expected=30",
+      "status": "PASS"
+    },
+    {
+      "check": "expected decision points",
+      "detail": "actual=15 expected=15",
+      "status": "PASS"
+    },
+    {
+      "check": "expected candidate/source trace rows",
+      "detail": "actual=3166 expected=3166",
+      "status": "PASS"
+    },
+    {
+      "check": "expected dependency graph nodes",
+      "detail": "actual=1851 expected=1851",
+      "status": "PASS"
+    },
+    {
+      "check": "expected dependency graph edges",
+      "detail": "actual=5969 expected=5969",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate dossiers satisfy schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "object records satisfy schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "countermodels satisfy schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "wishlist adjudications satisfy schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate IDs are complete and unique",
+      "detail": "unique=36 missing=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate references close over all typed registries",
+      "detail": "all references close",
+      "status": "PASS"
+    },
+    {
+      "check": "every candidate has typing, proof, detector, model, countermodel, formalization, and nonclaim obligations",
+      "detail": "all 36 complete",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate/source traces resolve exactly to Step-2 claims, bridges, and laws",
+      "detail": "all source dependencies resolve",
+      "status": "PASS"
+    },
+    {
+      "check": "minimal object model is closed and acyclic",
+      "detail": "objects=18 definition_edges=27 bad=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "all 130 wishlist atoms are adjudicated exactly once",
+      "detail": "rows=130 unique=130 source_atoms=130",
+      "status": "PASS"
+    },
+    {
+      "check": "wishlist adjudication uses all seven final dispositions",
+      "detail": "statuses={'CANDIDATE_VII_SCHEMA_OR_DEFINITION': 27, 'CANDIDATE_VII_THEOREM': 40, 'COROLLARY_WITH_EXPLICIT_BRIDGE': 11, 'COUNTERMODEL_OR_NO_GO_NEEDED': 24, 'DEFERRED_TO_LATER_FOUNDATION': 3, 'EXPERIMENTAL_OR_CALIBRATION_OBLIGATION': 19, 'INHERITED_RESULT': 6}",
+      "status": "PASS"
+    },
+    {
+      "check": "wishlist evidence and candidate references are closed",
+      "detail": "all references and rationales present",
+      "status": "PASS"
+    },
+    {
+      "check": "reference evaluator covers every declared scenario",
+      "detail": "results=24 scenarios=24",
+      "status": "PASS"
+    },
+    {
+      "check": "all scenario statuses and assertions pass",
+      "detail": "summary={'all_pass': True, 'assertion_count': 29, 'assertions_passing': 29, 'evidence_grade': 'FINITE_REFERENCE_ASSAY_NOT_UNIVERSAL_PROOF', 'scenario_count': 24, 'status_matches': 24}",
+      "status": "PASS"
+    },
+    {
+      "check": "finite assay includes all required positive, null, obstruction, arrow, observer, and reachability controls",
+      "detail": "statuses=24 missing=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "countermodel atlas references close and covers all required non-implications",
+      "detail": "bad_refs=[] missing_topics=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate no-go program is scoped and has failure/escape assays",
+      "detail": "all 11 are scoped candidate no-gos",
+      "status": "PASS"
+    },
+    {
+      "check": "all Step-3 formal targets name exact inherited Lean declarations",
+      "detail": "exact_declarations=29 bad=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "formal-target candidate references close",
+      "detail": "targets=20",
+      "status": "PASS"
+    },
+    {
+      "check": "inherited formal spine still contains zero Foundations VII declarations",
+      "detail": "foundations_vii_declarations=0",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 3 adds or modifies no Lean source",
+      "detail": "tracked_diff=none untracked=none",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 3 adds or modifies no paper TeX source",
+      "detail": "tracked_diff=none untracked=none",
+      "status": "PASS"
+    },
+    {
+      "check": "chapter dependency graph is closed and acyclic",
+      "detail": "chapters=12 edges=21",
+      "status": "PASS"
+    },
+    {
+      "check": "every candidate is assigned to exactly one later chapter",
+      "detail": "assignments=36 unique=36",
+      "status": "PASS"
+    },
+    {
+      "check": "red-line register preserves all required anti-overread boundaries",
+      "detail": "all required boundaries present",
+      "status": "PASS"
+    },
+    {
+      "check": "decision register exposes the remaining foundational choices",
+      "detail": "all decision classes present",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 paper rereads are source-local and candidate-linked",
+      "detail": "rereads=58 bad=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "P039 remains abstract-only and body-level blocked",
+      "detail": "status=BLOCKED_BODY_LEVEL_SOURCE; ABSTRACT_ONLY claims=2",
+      "status": "PASS"
+    },
+    {
+      "check": "P040/P058 remain one unresolved non-independent family",
+      "detail": "P040=UNRESOLVED_NONINDEPENDENT_VF-SAU-01 P058=UNRESOLVED_NONINDEPENDENT_VF-SAU-01",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate dependency graph IDs are unique and every edge closes",
+      "detail": "nodes=1851 unique=1851 bad_edges=0",
+      "status": "PASS"
+    },
+    {
+      "check": "canonical Step-2 claims, bridges, sources, synthesis, and inherited formalization are unchanged",
+      "detail": "tracked_diff=none untracked=none",
+      "status": "PASS"
+    },
+    {
+      "check": "Step-3 summary matches the rebuilt repositories",
+      "detail": "mismatches=none stage=STEP3_READINESS_COMPLETE_NO_PAPER_DRAFT blockers=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "paper coverage closes at 57 CLOSED plus P039 BLOCKED",
+      "detail": "states={'CLOSED': 57, 'BLOCKED': 1}",
+      "status": "PASS"
+    },
+    {
+      "check": "repository explicitly marks Step 3 as readiness, not theorem proof or paper drafting",
+      "detail": "stage boundary statements present",
+      "status": "PASS"
+    },
+    {
+      "check": "all Step-3 Python programs compile",
+      "detail": "all compile",
+      "status": "PASS"
+    }
+  ],
+  "fail_count": 0,
+  "pass_count": 54,
+  "passed": true,
+  "stage": "STEP3_READINESS_EXIT_GATE"
+}

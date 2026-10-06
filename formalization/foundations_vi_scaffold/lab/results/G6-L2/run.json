@@ -1,0 +1,20 @@
+{
+  "even_jump": {
+    "all_even": true,
+    "final_value": 4114328,
+    "max_value": 11892252,
+    "odd_violations": [],
+    "steps": 1000000,
+    "unique_visited": 736749
+  },
+  "unit_jump": {
+    "final_value": 1000000,
+    "first_identity_failure": null,
+    "first_missing_or_extra": null,
+    "identity_holds": true,
+    "max_value": 1000000,
+    "steps": 1000000,
+    "unique_visited": 1000001,
+    "visited_set_exact": true
+  }
+}

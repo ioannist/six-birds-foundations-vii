@@ -1,0 +1,219 @@
+{
+  "checks": 42,
+  "date": "2026-07-26",
+  "failed": 0,
+  "passed": 42,
+  "results": [
+    {
+      "check": "required Step-2 products exist",
+      "detail": "31 required products present",
+      "status": "PASS"
+    },
+    {
+      "check": "paper catalog is complete and unique",
+      "detail": "papers=58 unique=58",
+      "status": "PASS"
+    },
+    {
+      "check": "canonical claim count and ID uniqueness",
+      "detail": "claims=2821 unique_ids=2821",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 papers occur in the canonical claim corpus",
+      "detail": "represented=58 missing=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "every claim satisfies the claim-record schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "claim IDs are sequential and stable within each paper",
+      "detail": "all sequential",
+      "status": "PASS"
+    },
+    {
+      "check": "per-paper JSONL files exactly match the canonical corpus",
+      "detail": "all 58 match",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 Markdown dossiers index every canonical claim",
+      "detail": "all dossiers complete",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 canonical dossier JSON files match claim IDs, status, and bridge completion",
+      "detail": "all dossier JSON files canonical",
+      "status": "PASS"
+    },
+    {
+      "check": "claim provenance resolves to immutable source and expanded TeX",
+      "detail": "all source paths/ranges/hashes resolve",
+      "status": "PASS"
+    },
+    {
+      "check": "all claim-level nonclaim and scope pointers resolve",
+      "detail": "all cross-claim boundaries resolve",
+      "status": "PASS"
+    },
+    {
+      "check": "all explicit formal TeX environments are represented exactly once",
+      "detail": "expected_envs=1356 claim_envs=1356 unmatched=0 extra=0",
+      "status": "PASS"
+    },
+    {
+      "check": "claim extraction lanes are complete and non-overlapping",
+      "detail": "lanes={'SOURCE_EXTRACTED_COMPOSITE': 58, 'SOURCE_EXTRACTED_FORMAL_SURFACE': 1356, 'SOURCE_EXTRACTED_NAMED_SECTION_SURFACE': 532, 'SOURCE_EXTRACTED_EXPLICIT_PROSE_SURFACE': 875}",
+      "status": "PASS"
+    },
+    {
+      "check": "all 58 papers have exactly one source-located composite abstract thesis",
+      "detail": "theses=58 missing=[] duplicates=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "all explicit abstract nonclaims, scope boundaries, and open obligations are component records",
+      "detail": "expected_components=48 actual_components=48 missing_surfaces=[] missing=[] extra=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "boilerplate and checklist text is excluded from claims",
+      "detail": "no boilerplate markers",
+      "status": "PASS"
+    },
+    {
+      "check": "P039 is the sole source-package blocker and remains abstract-only",
+      "detail": "blocked_claims=2 P039_claims=2",
+      "status": "PASS"
+    },
+    {
+      "check": "coverage has advanced to 57 BRIDGED papers with P039 blocked",
+      "detail": "states={'BRIDGED': 57, 'BLOCKED': 1} P039=BLOCKED",
+      "status": "PASS"
+    },
+    {
+      "check": "claim-level formalization status preserves statement and kernel boundaries",
+      "detail": "all formalization records conservative",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 2 introduces no Foundations VII Lean declarations or Lean-source changes",
+      "detail": "formalization/lean unchanged from Step 1",
+      "status": "PASS"
+    },
+    {
+      "check": "all 52 F, 16 E, 13 G and 8 no-go rows resolve to canonical claims",
+      "detail": "registry=52/16/13/8 resolved_laws=81 resolved_ng=8",
+      "status": "PASS"
+    },
+    {
+      "check": "bridge atlas count and IDs are canonical",
+      "detail": "bridges=374 unique_ids=374",
+      "status": "PASS"
+    },
+    {
+      "check": "every bridge satisfies the bridge schema",
+      "detail": "no schema errors",
+      "status": "PASS"
+    },
+    {
+      "check": "bridge claim references, classes, and audit paths close",
+      "detail": "all bridge references valid",
+      "status": "PASS"
+    },
+    {
+      "check": "all 240 in-corpus paper invocations have a bridge row",
+      "detail": "dependency_edges=240 citation_bridges=240 signature_delta=0",
+      "status": "PASS"
+    },
+    {
+      "check": "named-law source audit is complete and rejects known local-label collisions",
+      "detail": "candidates=2022 accepted_occurrences=217 accepted_pairs=45 audit_errors=[] false_bridges=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "every accepted named prior-law occurrence has exactly one grouped bridge",
+      "detail": "accepted_occurrences=217 grouped_bridges=45 pair_delta=0 coverage_delta=0",
+      "status": "PASS"
+    },
+    {
+      "check": "all prior F/E/G/no-go rows have a future-reuse contract",
+      "detail": "contracts=89 expected_ids=89 missing=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "all eight no-go results retain exact statements, carrier, hypotheses, scope, non-scope, and escape",
+      "detail": "rows=8 errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "no-go results are conservatively aligned to the inherited Lean scaffold",
+      "detail": "rows=8 errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "invalid-transfer report covers recurrent SBT role collapses",
+      "detail": "rows=20 missing_fragments=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "interaction/access/enablement taxonomy is complete",
+      "detail": "14 matrices verified",
+      "status": "PASS"
+    },
+    {
+      "check": "all 14 domain applications have concrete carrier/interface/audit maps or a source block",
+      "detail": "applications=14 errors=[] P039=BLOCKED_SOURCE",
+      "status": "PASS"
+    },
+    {
+      "check": "example/carrier registry is populated and source-grounded",
+      "detail": "rows=24 kinds={'APPLICATION_PRESSURE_CARRIER': 14, 'SOURCE_NAMED_EXAMPLE_OR_MODEL': 10} errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "all 130 wishlist atoms link to source claims, boundaries, and bridge obligations",
+      "detail": "atoms=130 errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "P040/P058 claim-level delta is complete and non-independent",
+      "detail": "delta_rows=223 bad_refs=0 conflict_status=NON_INDEPENDENT_UNRESOLVED_VERSION_FAMILY",
+      "status": "PASS"
+    },
+    {
+      "check": "all unresolved conflicts are typed and source-grounded",
+      "detail": "conflicts=6 errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "claim/dependency graph is closed and excludes unaudited lexical law edges",
+      "detail": "nodes=3040 edges=35276 bad_endpoints=0 lexical_law_edges=0",
+      "status": "PASS"
+    },
+    {
+      "check": "generated summaries match canonical artifacts",
+      "detail": "claim_summary=2821 bridge_summary=374 carriers=24 graph=3040/35276",
+      "status": "PASS"
+    },
+    {
+      "check": "Step-2 requirement audit closes every planned delivery obligation",
+      "detail": "rows=16 ids=16 errors=[]",
+      "status": "PASS"
+    },
+    {
+      "check": "obsolete competing-ID/prototype outputs are absent",
+      "detail": "no stale prototype outputs",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 3 has not started",
+      "detail": "no Step-3 artifacts",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

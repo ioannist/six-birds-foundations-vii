@@ -1,0 +1,19 @@
+Foundations VII formalization-aware Step-1 baseline
+===================================================
+Foundations VI dependency audit: PASS — Foundations dependency audit passed: 10 entries checked, 0 violations.
+Foundations VI Python syntax: PASS — 70 files
+Foundations VI lab tests: PASS — ..............................................................           [100%]
+62 passed
+Foundations V Python syntax: PASS — 202 files
+Foundations V pytest replay (excluding E15): PASS — ........................................................................ [ 22%]
+........................................................................ [ 45%]
+........................................................................ [ 68%]
+........................................................................ [ 90%]
+.............................                                            [100%]
+317 passed
+Foundations V E16 standalone sweep: PASS — E16 adaptability sweep: 69/69 comparisons PASS
+Foundations V E15 pytest replay: NOT_REPLAYED_LONG_RUNNING — 74 tests; local attempt exceeded 900 seconds
+Lean build: NOT_RUN_TOOLCHAIN_UNAVAILABLE — toolchain leanprover/lean4:v4.28.0
+Foundations VI lab exclusions: lab/tests/test_g11_symmetry.py (requires python-sat/PySAT)
+Foundations V lab exclusions: tests/test_e15_offline_reclosure_sweep.py (74 tests; local full-file attempt exceeded 900 seconds)
+No local Lean/Lake executable is installed; imported source and import closure were checked statically.

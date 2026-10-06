@@ -1,0 +1,33 @@
+FVII-SCI-02 VALIDATION: PASS
+Checks: 31/31
+PASS phase1_base_tag: 4b6469169067adac48af304cb8918922d51b9f6f
+PASS science_plan_phase2_state: PHASE_02_EXECUTED_PHASES_03_TO_05_PENDING
+PASS phase2_public_declaration_registry: rows=237
+PASS phase2_theorem_registry: rows=130
+PASS theorem_registry_subset: all theorem names are public declarations
+PASS stable_phase2_asset_ids: rows=237
+PASS source_statement_hashes: all declarations hashed
+PASS nine_terminal_candidates: ids=['VII-C001', 'VII-C002', 'VII-C003', 'VII-C004', 'VII-C005', 'VII-C006', 'VII-C021', 'VII-C022', 'VII-C029']
+PASS candidate_terminal_grades: all terminal with theorem surface
+PASS candidate_dossiers: nine dossiers
+PASS five_no_go_fronts: ids=['NGVII-01', 'NGVII-03', 'NGVII-04', 'NGVII-05', 'NGVII-11']
+PASS no_go_escapes_and_controls: all no-gos have theorem, escape, positive control
+PASS no_go_dossiers: five dossiers
+PASS formalization_target_set: ids=['FT01', 'FT02', 'FT03', 'FT04', 'FT05', 'FT16', 'FT17', 'FT18']
+PASS ft18_admission_half_only: ADMISSION_HALF_COMPLETE_JOIN_HALF_RESERVED_FOR_FVII_SCI_03
+PASS nine_finite_envelopes: ids=['P2-E01', 'P2-E02', 'P2-E03', 'P2-E04', 'P2-E05', 'P2-E06', 'P2-E07', 'P2-E08', 'P2-E09']
+PASS bounded_envelope_cardinalities: raw=1332 canonical=1076 accepted=470 rejected=606
+PASS fifteen_canonical_witnesses: ids=15
+PASS primary_fixture_python_replay: 10 scenarios and 9 countermodels pass
+PASS phase2_summary_closure: COMPLETE_SOURCE_LEVEL_EXTERNAL_LEAN_REPLAY_PENDING
+PASS asset_trace_closure: rows=404
+PASS statement_hash_ledger: rows=130
+PASS python_protocol_and_model_tests: tests=34 returncode=0
+PASS static_lean_source_audit: STATIC_SOURCE_AUDIT_NOT_KERNEL_ELABORATION
+PASS python_source_compilation: seven source files
+PASS shell_syntax: files=2
+PASS deterministic_phase2_regeneration: sha256=923c3b8fc083adfbd5fadbb3a1ff2cdb9d6a2ac453691c5b9abbba15e18e46fb
+PASS phase1_and_inherited_immutability: changed=[]
+PASS no_paper_work: changed=[]
+PASS phases_3_4_5_not_executed: no later science directories
+PASS lean_boundary_truthfully_recorded: NOT_RUN_LOCAL_ENVIRONMENT

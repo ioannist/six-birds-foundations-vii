@@ -1,0 +1,183 @@
+{
+  "declared_extension": {
+    "carrier_id": "gt9_resettable_label_reactive_extension_v1",
+    "extended_strategy_class": {
+      "base_catalog": "the 32 deterministic memory-1 reactive gt1 automata",
+      "catalog_size": 96,
+      "computability_rationale": "The catalog remains 96 strategies and 9216 ordered pairs over horizon 9. Each simulated action checks at most two public profiles plus one base response, so exact enumeration stays within the gt5/gt6/gt8 budget class.",
+      "controlled_comparison_to_prior_attempts": "The base catalog, prior, games, horizon, and reported grid are unchanged from gt6/gt8. gt9 changes the label to resettable r=2 and uses stateless label-reactive templates.",
+      "mechanism_breaks": {
+        "gt7_condition_1_label_staticity": "broken by resettable r=2 label",
+        "gt8_spent_trigger": "broken because triggers can reappear at later comparison interfaces",
+        "r1_base_expressibility_trap": "preempted because r=2 is not Pi_0-definable"
+      },
+      "ordered_pair_count": 9216,
+      "state_semantics": "No phase bit is used. Reactive members need the last two public profiles to evaluate the label and the last profile to feed the base rule when the label is 0.",
+      "templates": [
+        {
+          "description": "Ignore the public label and play the gt1 base rule.",
+          "template_id": "blind"
+        },
+        {
+          "description": "At any round where the current resettable label is 1, play D; otherwise play the gt1 base memory-1 response.",
+          "template_id": "reactD"
+        },
+        {
+          "description": "At any round where the current resettable label is 1, play C; otherwise play the gt1 base memory-1 response.",
+          "template_id": "reactC"
+        }
+      ]
+    },
+    "matched_baseline": {
+      "carrier_id": "gt1_full_memory1_reactive_v1",
+      "comparison_protocol": "C and C+ are compared at the same games, interfaces, Pi_1 lens, and play-on windows used in gt6 and gt8.",
+      "embedding": "The blind template copies are behaviorally identical to the gt1 base catalog."
+    },
+    "prior": {
+      "probability_arithmetic": "fractions.Fraction",
+      "type": "uniform_ordered_extended_catalog_product",
+      "weight_per_pair": "1/9216"
+    },
+    "provenance": "The manager derived the r=2 resettable-label trap and live-trigger condition from gt7/gt8; Codex fixed the exact label convention and stateless react-X semantics before computation.",
+    "public_label": {
+      "definition": "For a public prefix h at the next-decision interface, label=1 iff at least one of the last min(2, |h|) completed joint profiles contains D. The empty prefix has label=0; at t=1 the one completed profile is the whole window.",
+      "gt7_condition_broken": "Breaks gt7 selected-fiber structural condition 1: the label is not per-path static and can reset after two clean rounds.",
+      "manager_trap_preempted": "The r=1 last-round deviation label is Pi_0-definable because it depends only on the last profile; r=2 reads the second-to-last profile and is not Pi_0-definable on the declared carrier.",
+      "no_smuggling_property": "The label is computed from the public play prefix only and never reads ordered automaton identities or posterior support membership.",
+      "primary_id": "last_two_rounds_contain_D",
+      "resettable_window": 2
+    }
+  },
+  "declared_grid": {
+    "formed_interfaces": [
+      5,
+      6
+    ],
+    "games": [
+      "pd",
+      "stag_hunt"
+    ],
+    "horizon": 9,
+    "old_vocabulary": "Pi_1 current readout plus one-step transported class law; the public label and last-two label state are not vocabulary coordinates.",
+    "reported_interfaces": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "taus": [
+      1,
+      2,
+      3
+    ]
+  },
+  "forbidden_overclaim_phrases": [
+    "unconditionally",
+    "for all games",
+    "all finite games",
+    "all repeated games",
+    "resolves equilibrium selection",
+    "solves the selection problem",
+    "proves the institution theorem",
+    "establishes T3 in full",
+    "human behavior",
+    "human subjects",
+    "Nobel"
+  ],
+  "forcing_tests": {
+    "born_split_pairs": "Find Pi_1 stage-signature split pairs on C+ for which the matched C baseline has a nonempty same-signature class with no split.",
+    "causal_load_bearing": "Compare exact realized Pi_1 readout laws on C+ against matched C at every reported locus.",
+    "closure": "Test exact autonomy of the C+ old-vocabulary fixed point at formed interfaces and tau in {1,2,3}.",
+    "kernel_cross_section": "Recompute gt7-style common-history kernel rows and selected/new mixed-fiber component laws.",
+    "new_strata": "Compute the old-vocabulary fixed point on C+ and compare it to matched C P_star on common reachable histories."
+  },
+  "input_artifacts": {
+    "base_carrier_id": "gt1_full_memory1_reactive_v1",
+    "gt1_artifact_dir": "six-birds-game-theory/emergence_lab/steps/gt1_substrate_quotients_artifacts",
+    "gt1_substrate_spec": "six-birds-game-theory/emergence_lab/steps/gt1_substrate_quotients_artifacts/substrate_spec.json",
+    "gt5_artifact_dir": "six-birds-game-theory/emergence_lab/steps/gt5_material_forcing_artifacts",
+    "gt6_artifact_dir": "six-birds-game-theory/emergence_lab/steps/gt6_institutional_label_forcing_artifacts",
+    "gt7_artifact_dir": "six-birds-game-theory/emergence_lab/steps/gt7_washout_lemma_artifacts",
+    "gt8_artifact_dir": "six-birds-game-theory/emergence_lab/steps/gt8_template_forcing_artifacts",
+    "read_only": true
+  },
+  "pre_registered_mechanism_checks": {
+    "all_passed": true,
+    "label_non_Pi0_definability": {
+      "history_a": [
+        "DD",
+        "CC"
+      ],
+      "history_b": [
+        "CC",
+        "CC"
+      ],
+      "label_a": "1",
+      "label_b": "0",
+      "labels_differ": true,
+      "passed": true,
+      "same_last_profile": true
+    },
+    "live_trigger": {
+      "current_label": "0",
+      "future_labels_through_tau": [
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      "history": [
+        "CC"
+      ],
+      "history_common_to_C_and_C_plus": true,
+      "interface_t": 1,
+      "label_changes_within_tau": true,
+      "pair_id": "blind:AllC|reactC:R_C_DCCC",
+      "passed": true,
+      "player1_template": "blind",
+      "player2_template": "reactC"
+    },
+    "r1_trap_rationale": {
+      "claim": "A last-1-round deviation label would be Pi_0-definable: label=1 iff the last profile contains D.",
+      "gt9_response": "Use r=2 so the second-to-last profile can affect the current label while Pi_0 is fixed."
+    },
+    "reactive_class_non_memory1": {
+      "passed": true,
+      "reactC_witness": {
+        "action_label0": "D",
+        "action_label1": "C",
+        "base_aliases": [],
+        "base_id": "R_C_DCCC",
+        "history_label0": [
+          "CC",
+          "CC"
+        ],
+        "history_label1": [
+          "DD",
+          "CC"
+        ]
+      },
+      "reactD_witness": {
+        "action_label0": "C",
+        "action_label1": "D",
+        "base_aliases": [
+          "AllC"
+        ],
+        "base_id": "AllC",
+        "history_label0": [
+          "CC",
+          "CC"
+        ],
+        "history_label1": [
+          "DD",
+          "CC"
+        ]
+      },
+      "shared_last_profile": "CC"
+    }
+  },
+  "status": "frozen_before_resettable_label_forcing_computation",
+  "step": "gt9_resettable_label_forcing"
+}

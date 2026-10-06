@@ -1,0 +1,25 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Definitional.CarriedRecord
+import SixBirdsFoundationsV.Laws.E13RepairTransport
+
+#check SixBirdsFoundationsV.CarriedSource
+#check SixBirdsFoundationsV.TransportTokenRecord
+
+namespace FoundationsVII.Prior
+
+/-- FT05: carried-source and transport-token reuse. -/
+def ft05CarriedTransport : AdapterContract :=
+  { adapterId := "ADAPTER-FT05-CARRIED-TRANSPORT"
+    formalizationTargetIds := ["FT05"]
+    sourceModule := "SixBirdsFoundationsV.Definitional.CarriedRecord; SixBirdsFoundationsV.Laws.E13RepairTransport"
+    sourceDeclarations := ["SixBirdsFoundationsV.CarriedSource", "SixBirdsFoundationsV.TransportTokenRecord"]
+    sourceTypes := ["carried source predicate", "typed transport token"]
+    targetTypes := ["FoundationsVII.SourceLedger", "FoundationsVII.BridgeContract", "FoundationsVII.ContactWitness"]
+    preservedHypotheses := ["source tag", "generated-by-system flag", "scope", "transport token provenance"]
+    addedHypotheses := ["ancestry list", "withdrawal disposition", "semantic sweep audit"]
+    lostHypotheses := ["The adapter does not identify transport with contact or join."]
+    trustDependencies := []
+    nonclaims := ["A carried source or token alone does not certify strict join."]
+    fidelity := .exactReusableCore }
+
+end FoundationsVII.Prior

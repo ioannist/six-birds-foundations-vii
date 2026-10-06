@@ -1,0 +1,138 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "UNKNOWN_REQUIRES_PROOF": 6
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0003",
+      "BR-CITE-0025",
+      "BR-CITE-0146",
+      "BR-CITE-0206"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0019",
+      "BR-CITE-0020",
+      "BR-CITE-0021",
+      "BR-CITE-0022",
+      "BR-CITE-0023",
+      "BR-CITE-0024"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 6,
+    "wishlist_request_ids": [
+      "ARC-H17",
+      "CLD-B2",
+      "CLD-O4",
+      "MED-D4",
+      "MED-NG3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P007.jsonl",
+  "claim_count": 32,
+  "claim_grade_counts": {
+    "DEFINITION": 3,
+    "EXPLICIT_NONCLAIM": 4,
+    "INTERPRETIVE_REMARK": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 10,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 2,
+    "SCOPE_OR_LIMITATION_RECORD": 9,
+    "THEOREM_GRADE": 1
+  },
+  "claim_ids": [
+    "P007-C0001",
+    "P007-C0002",
+    "P007-C0003",
+    "P007-C0004",
+    "P007-C0005",
+    "P007-C0006",
+    "P007-C0007",
+    "P007-C0008",
+    "P007-C0009",
+    "P007-C0010",
+    "P007-C0011",
+    "P007-C0012",
+    "P007-C0013",
+    "P007-C0014",
+    "P007-C0015",
+    "P007-C0016",
+    "P007-C0017",
+    "P007-C0018",
+    "P007-C0019",
+    "P007-C0020",
+    "P007-C0021",
+    "P007-C0022",
+    "P007-C0023",
+    "P007-C0024",
+    "P007-C0025",
+    "P007-C0026",
+    "P007-C0027",
+    "P007-C0028",
+    "P007-C0029",
+    "P007-C0030",
+    "P007-C0031",
+    "P007-C0032"
+  ],
+  "claim_type_counts": {
+    "definition": 3,
+    "nonclaim": 4,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "proposition": 1,
+    "prose_definition": 2,
+    "remark": 1,
+    "result_summary": 10,
+    "scope_boundary": 9
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P007-C0020",
+    "P007-C0021",
+    "P007-C0022",
+    "P007-C0028",
+    "P007-C0030"
+  ],
+  "formal_claim_ids": [
+    "P007-C0024"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 32
+  },
+  "foundations_vii_groups": [
+    "CG17"
+  ],
+  "foundations_vii_hook": "promotion-to-carrier bridge, exactification, and audit inheritance",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P007.md",
+  "nonclaim_scope_ids": [
+    "P007-C0002",
+    "P007-C0004",
+    "P007-C0005",
+    "P007-C0008",
+    "P007-C0009",
+    "P007-C0010",
+    "P007-C0011",
+    "P007-C0012",
+    "P007-C0013",
+    "P007-C0014",
+    "P007-C0017",
+    "P007-C0027",
+    "P007-C0032"
+  ],
+  "open_problem_ids": [
+    "P007-C0003"
+  ],
+  "paper_id": "P007",
+  "reading_order": 24,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Carrier_Exactification_after_Promotion_on_Fixed_Support_in_Six_Birds_Theory.tex",
+  "source_root_sha256": "16839bc4c1f1d8fe91799fa8b641f81166943962d26440c5a12c8818b88eb8a3",
+  "source_tree_sha256": "c2f0df52fe77b849d549d19d113dc300210b6d0e7d3566acf5df9fa2f5a6fddc",
+  "status": "BRIDGED",
+  "title": "Carrier Exactification after Promotion"
+}

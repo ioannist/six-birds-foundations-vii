@@ -1,0 +1,70 @@
+name = "SixBirdsFoundationsVII"
+version = "0.1.0"
+defaultTargets = ["FoundationsVII", "fvii_reference_world", "fvii_phase2_envelopes", "fvii_phase3_envelopes", "fvii_phase4_envelopes", "fvii_phase5_envelopes"]
+
+[[lean_lib]]
+name = "FoundationsVII"
+# The bounded finite carriers are checked by kernel evaluation, which needs a
+# larger worker stack than the default. Elaboration resources only: no
+# assumption is added and no theorem statement changes.
+moreLeanArgs = ["-s", "1048576"]
+
+# Exact, read-only Foundations V library plus its dedicated Xi/Main and
+# HolonomyMemory dependencies.  SixBirdsIII is supplied once below from the
+# Foundations VI scaffold; the two vendored copies are byte-identical.
+[[lean_lib]]
+name = "SixBirdsFoundationsV"
+srcDir = "../foundations_v_scaffold/lean"
+
+[[lean_lib]]
+name = "Xi"
+srcDir = "../foundations_v_scaffold/lean/vendor/foundations/xi"
+
+[[lean_lib]]
+name = "Main"
+srcDir = "../foundations_v_scaffold/lean/vendor/foundations/xi"
+
+[[lean_lib]]
+name = "HolonomyMemory"
+srcDir = "../foundations_v_scaffold/lean/vendor/foundations/holonomy-memory"
+
+# Exact, read-only prior libraries imported from the vendored Foundations VI scaffold.
+[[lean_lib]]
+name = "SixBirdsFoundationsVI"
+srcDir = "../foundations_vi_scaffold/lean"
+
+[[lean_lib]]
+name = "ClosureLadder"
+srcDir = "../foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal"
+
+[[lean_lib]]
+name = "SixBirds"
+srcDir = "../foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full"
+
+[[lean_lib]]
+name = "SixBirdsIII"
+srcDir = "../foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full"
+
+[[lean_lib]]
+name = "SixBirdsMetaMath"
+srcDir = "../foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean"
+
+[[lean_exe]]
+name = "fvii_reference_world"
+root = "FoundationsVII.Models.Finite.Runner"
+
+[[lean_exe]]
+name = "fvii_phase2_envelopes"
+root = "FoundationsVII.Models.Finite.Phase2.Runner"
+
+[[lean_exe]]
+name = "fvii_phase3_envelopes"
+root = "FoundationsVII.Models.Finite.Phase3.Runner"
+
+[[lean_exe]]
+name = "fvii_phase4_envelopes"
+root = "FoundationsVII.Models.Finite.Phase4.Runner"
+
+[[lean_exe]]
+name = "fvii_phase5_envelopes"
+root = "FoundationsVII.Models.Finite.Phase5.Runner"

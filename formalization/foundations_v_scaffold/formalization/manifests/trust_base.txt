@@ -1,0 +1,11 @@
+# Foundations V allowed-axiom ledger.
+#
+# Convention: every axiom admitted by a Foundations-V-authored Lean declaration
+# must be listed here with a short justification and source.
+#
+# Phase 0.3 vendored-axiom check:
+#   rg -n "^\s*axiom\s|^\s*constant\s|^\s*opaque\s|^\s*unsafe\s|^\s*admit\b|sorry" lean/vendor/foundations
+#
+# Result: no axiom/constant/opaque/unsafe declarations and no admit/sorry were
+# found in the vendored FIII/Xi tree. The file is therefore header-only until
+# future Foundations V declarations introduce an allowed trust-base dependency.

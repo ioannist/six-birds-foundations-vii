@@ -1,0 +1,138 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "record-stability, contextuality, and operational closure audits",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "quantum operational carrier with measurement contexts and records",
+      "forbidden_back_transfer": "Operational closure does not license an ontological hidden-variable claim or erase context dependence.",
+      "interface_or_lens": "contextual measurement/readout interfaces",
+      "missing_vii_primitive_or_pressure": "measurement context and operational closure",
+      "nonclaims_or_open_boundaries": [
+        "P002-C0018",
+        "P002-C0016",
+        "P002-C0015"
+      ],
+      "paper_id": "P002",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P002-C0001",
+        "P002-C0011",
+        "P002-C0008",
+        "P002-C0013",
+        "P002-C0012",
+        "P002-C0007",
+        "P002-C0006"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "A Six Birds Eye View of Quantum Theory",
+      "what_the_application_distinguishes_or_falsifies": "contextual access and stable records versus hidden-value overread"
+    },
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0056",
+      "BR-CITE-0204",
+      "BR-CITE-0234"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0002"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS",
+      "ARC-S5",
+      "CLD-DISC"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P002.jsonl",
+  "claim_count": 19,
+  "claim_grade_counts": {
+    "DECLARED_METHOD_PRINCIPLE": 1,
+    "EXPLICIT_NONCLAIM": 4,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 2,
+    "PROSE_DEFINITION": 3,
+    "SCOPE_OR_LIMITATION_RECORD": 2,
+    "THEOREM_GRADE": 3
+  },
+  "claim_ids": [
+    "P002-C0001",
+    "P002-C0002",
+    "P002-C0003",
+    "P002-C0004",
+    "P002-C0005",
+    "P002-C0006",
+    "P002-C0007",
+    "P002-C0008",
+    "P002-C0009",
+    "P002-C0010",
+    "P002-C0011",
+    "P002-C0012",
+    "P002-C0013",
+    "P002-C0014",
+    "P002-C0015",
+    "P002-C0016",
+    "P002-C0017",
+    "P002-C0018",
+    "P002-C0019"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 4,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "principle": 1,
+    "prose_definition": 3,
+    "result_summary": 4,
+    "scope_boundary": 2,
+    "theorem": 3
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P002-C0005",
+    "P002-C0009",
+    "P002-C0010"
+  ],
+  "formal_claim_ids": [
+    "P002-C0004",
+    "P002-C0006",
+    "P002-C0007",
+    "P002-C0012"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 19
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "contextual access, measurement, records, and operational closure",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P002.md",
+  "nonclaim_scope_ids": [
+    "P002-C0002",
+    "P002-C0003",
+    "P002-C0014",
+    "P002-C0015",
+    "P002-C0016",
+    "P002-C0017"
+  ],
+  "open_problem_ids": [
+    "P002-C0018"
+  ],
+  "paper_id": "P002",
+  "reading_order": 52,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_A_Six_Birds_Eye_View_of_Quantum_Theory_Operational_Closure_Semantics_for_Measurement_Contextuality_and_Record_Stability.tex",
+  "source_root_sha256": "67c1e4de307db8c534a228a98ed72be4e6c25d124029100ff463eae21a93efc9",
+  "source_tree_sha256": "38a8ae88dc89955671a03e86e52b51fd12e10df9a79ebe125aa74108bb6208b8",
+  "status": "BRIDGED",
+  "title": "A Six Birds Eye View of Quantum Theory"
+}

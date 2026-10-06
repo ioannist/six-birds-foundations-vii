@@ -1,0 +1,94 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0164",
+      "BR-CITE-0179",
+      "BR-CITE-0228"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0195"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H22",
+      "ARC-H24",
+      "ARC-H27",
+      "ARC-H6",
+      "ARC-NG3",
+      "CLD-A2",
+      "CLD-B1",
+      "CLD-B3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P051.jsonl",
+  "claim_count": 15,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 5,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 5,
+    "SCOPE_OR_LIMITATION_RECORD": 2
+  },
+  "claim_ids": [
+    "P051-C0001",
+    "P051-C0002",
+    "P051-C0003",
+    "P051-C0004",
+    "P051-C0005",
+    "P051-C0006",
+    "P051-C0007",
+    "P051-C0008",
+    "P051-C0009",
+    "P051-C0010",
+    "P051-C0011",
+    "P051-C0012",
+    "P051-C0013",
+    "P051-C0014",
+    "P051-C0015"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 2,
+    "paper_thesis": 1,
+    "result_summary": 10,
+    "scope_boundary": 2
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 15
+  },
+  "foundations_vii_groups": [
+    "CG04",
+    "CG12",
+    "CG18"
+  ],
+  "foundations_vii_hook": "order, measure, arrow, and theory-relative temporal structure",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P051.md",
+  "nonclaim_scope_ids": [
+    "P051-C0002",
+    "P051-C0003",
+    "P051-C0011",
+    "P051-C0015"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P051",
+  "reading_order": 39,
+  "resolved_dependency_papers": [
+    "P031"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Notch_a_Stone_with_Six_Birds_Time_as_a_Theory_Artifact_of_Order_Measure_and_Arrow.tex",
+  "source_root_sha256": "8faf363af72d054e8c8817808b112acaef8dbc0277d45c2931c5d994315d6e78",
+  "source_tree_sha256": "5f12f2883aa66819d410973e8a7f265ed0d1ba6513236867e533e01298801fad",
+  "status": "BRIDGED",
+  "title": "Time as a Theory Artifact"
+}

@@ -1,0 +1,103 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "support, readout, and stability comparisons",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "common-support neutrino mass model under alternative lenses",
+      "forbidden_back_transfer": "The example is a domain model, not a general proof that arbitrary lens swaps preserve objecthood.",
+      "interface_or_lens": "lens-swap and staging interfaces",
+      "missing_vii_primitive_or_pressure": "lens-swap stability",
+      "nonclaims_or_open_boundaries": [
+        "P036-C0008",
+        "P036-C0007"
+      ],
+      "paper_id": "P036",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P036-C0001",
+        "P036-C0004",
+        "P036-C0005"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Six Birds for Neutrino Mass",
+      "what_the_application_distinguishes_or_falsifies": "lens-relative description versus support-stable content"
+    },
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0219"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0143",
+      "BR-CITE-0144"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS",
+      "ARC-S5",
+      "CLD-DISC",
+      "MM-NONGOAL"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P036.jsonl",
+  "claim_count": 8,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 1
+  },
+  "claim_ids": [
+    "P036-C0001",
+    "P036-C0002",
+    "P036-C0003",
+    "P036-C0004",
+    "P036-C0005",
+    "P036-C0006",
+    "P036-C0007",
+    "P036-C0008"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 2,
+    "paper_thesis": 1,
+    "prose_definition": 1,
+    "result_summary": 3,
+    "scope_boundary": 1
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P036-C0003"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "NO_MATCH": 8
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "lens swap, stability, packaging, and physics audit",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P036.md",
+  "nonclaim_scope_ids": [
+    "P036-C0002",
+    "P036-C0007",
+    "P036-C0008"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P036",
+  "reading_order": 53,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Six_Birds_for_Neutrino_Mass_Lens_Swap_Stability_and_Packaging_Audits.tex",
+  "source_root_sha256": "d6b775f32ac68eb285296a07b0e6888b73a265f3e67d7d7798712994eaaf48b0",
+  "source_tree_sha256": "adfc0ae1cee123dad74a9e7bdfab1ec6adb4d8b8da31251b37fc2ce8766230ab",
+  "status": "BRIDGED",
+  "title": "Six Birds for Neutrino Mass"
+}

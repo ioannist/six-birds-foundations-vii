@@ -1,0 +1,6 @@
+status,definition,certificate,boundary,source_claims
+SOUND_RULE,"Whenever the rule fires under its hypotheses, its conclusion is correct.",proof or soundness certificate,Does not imply the rule is implemented or reachable.,"[""P026-C0290"", ""P028-C0011"", ""P040-C0055"", ""P058-C0049"", ""P011-C0042"", ""P026-C0149""]"
+IMPLEMENTED_OPERATION,A typed operation exists in the runtime/carrier.,implementation/source record,Does not imply a live guard or path.,"[""P015-C0013"", ""P006-C0018"", ""P015-C0012"", ""P019-C0084"", ""P028-C0019"", ""P017-C0054""]"
+REACHABLE_OPERATION,A finite admissible path reaches a state in which the operation can fire.,path and resource witness,Does not imply that any actual run takes the path.,"[""P017-C0016"", ""P026-C0170"", ""P031-C0008"", ""P032-C0019"", ""P032-C0009"", ""P026-C0229""]"
+OCCURRENT_OPERATION,A run record shows that the operation fired.,event timestamp and subject binding,One occurrence does not imply robustness or necessity.,"[""P015-C0013"", ""P026-C0108"", ""P015-C0012"", ""P056-C0005"", ""P026-C0289"", ""P026-C0149""]"
+ROBUSTLY_RECURRENT,Occurrence persists across declared perturbations or repetitions.,replication/ablation/robustness audit,Robust recurrence still does not establish universality.,"[""P030-C0008"", ""P026-C0243"", ""P034-C0038"", ""P021-C0020"", ""P030-C0117"", ""P030-C0050""]"

@@ -1,0 +1,30 @@
+\section{Replay}
+\label{supp:replay}
+
+All commands run from the repository root.
+
+\paragraph{Lean library, including the semantic modules.}
+\begin{verbatim}
+cd formalization/lean
+lake build FoundationsVII
+\end{verbatim}
+
+\paragraph{Finite evidence, registries and reports.}
+\begin{verbatim}
+bash scripts/rebuild_fvii_sci05.sh
+bash scripts/run_fvii_sci05_external_lean.sh
+\end{verbatim}
+The first command regenerates the finite evidence from the Python reference
+implementation and rebuilds the registries and reports. The second runs the Lean kernel
+build, the axiom reports and the comparisons between the Lean and Python implementations.
+
+\paragraph{Supplement tables and papers.}
+\begin{verbatim}
+python3 paper/supplement/build_supp.py
+cd paper
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build supplement.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
+\end{verbatim}
+The main paper and the supplement cite each other's numbered items, so the main paper is
+built a second time after the supplement.

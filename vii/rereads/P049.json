@@ -1,0 +1,87 @@
+{
+  "all_claims_reconsidered": 24,
+  "anti_overread": [
+    "We claim no frame-transfer: the results are conditional, toy-level structural facts ( n=2 on universality), offered as a proof of principle and placed before the community to test.",
+    "and there is no universal reduction claim — the calculus does not assert that all of physics decomposes into six primitives.",
+    "SELECT — the machinery picks a structure out of a space, on declared conditions (e.g., the SM gauge algebra, conditional on clean-separation).",
+    "Non-circularity has a computed control: a product parent satisfying the same bare requirement yields 3/23 , so the value 3/8 genuinely depends on the declared source rather than being baked in (GROUND, conditional on that source).",
+    "The fork is conditional on the common-carrier premise — that QM and GR may be modeled as access quotients of one carrier at all.",
+    "conditional on the grounded premise of §5.3",
+    "conditional on the grounded premise of §5.3",
+    "frame-transfer-limited — this does not prove the physical proton stable."
+  ],
+  "boundary_claim_ids": [
+    "P049-C0002",
+    "P049-C0003",
+    "P049-C0005",
+    "P049-C0006",
+    "P049-C0009",
+    "P049-C0012",
+    "P049-C0014",
+    "P049-C0016",
+    "P049-C0017",
+    "P049-C0018",
+    "P049-C0024"
+  ],
+  "candidate_ids": [
+    "VII-C005",
+    "VII-C004",
+    "VII-C010",
+    "VII-C024",
+    "VII-C016",
+    "VII-C030"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 24 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P049-C0007",
+    "P049-C0019",
+    "P049-C0020"
+  ],
+  "paper_id": "P049",
+  "reading_order": "58",
+  "relevant_claim_ids": [
+    "P049-C0001",
+    "P049-C0002",
+    "P049-C0003",
+    "P049-C0004",
+    "P049-C0005",
+    "P049-C0006",
+    "P049-C0007",
+    "P049-C0008",
+    "P049-C0009",
+    "P049-C0010",
+    "P049-C0011",
+    "P049-C0012",
+    "P049-C0013",
+    "P049-C0014",
+    "P049-C0015",
+    "P049-C0016",
+    "P049-C0017",
+    "P049-C0018",
+    "P049-C0019",
+    "P049-C0020",
+    "P049-C0021",
+    "P049-C0022",
+    "P049-C0023",
+    "P049-C0024"
+  ],
+  "root_sha256": "77bb9347536539ce3e68049e3d46df3d28a84dbf8b8c418be2b5326c16de1eb3",
+  "source_path": "papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "f908ad543d4b62be0f39a37967fc374ffdd213638c9f30e393e5fbbb0dcbc979",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "A Common Grammar for the SM, QM, and GR",
+  "top_convergence_groups": [
+    "CG05",
+    "CG09",
+    "CG27",
+    "CG11",
+    "CG13"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

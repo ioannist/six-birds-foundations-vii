@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SBT Paper Card",
+  "type": "object",
+  "required": [
+    "paper_id",
+    "title",
+    "source_path",
+    "reading_state",
+    "problem",
+    "principal_results",
+    "nonclaims",
+    "foundations_vii_relevance"
+  ],
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_hash": {
+      "type": "string"
+    },
+    "reading_state": {
+      "enum": [
+        "INVENTORIED",
+        "SURVEYED",
+        "DEEP_READ",
+        "CLAIM_EXTRACTED",
+        "BRIDGED",
+        "VII_ADJUDICATED",
+        "CLOSED"
+      ]
+    },
+    "problem": {
+      "type": "string"
+    },
+    "principal_results": {
+      "type": "array"
+    },
+    "nonclaims": {
+      "type": "array"
+    },
+    "foundations_vii_relevance": {
+      "type": "array"
+    },
+    "source_locations": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

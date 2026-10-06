@@ -1,0 +1,33 @@
+import SixBirdsIII
+import SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair
+import SixBirdsMetaMath.FoundationsIV.Transport.HolonomyMemoryRepair
+import SixBirdsMetaMath.FoundationsIV.Transport.LocalGlobalObstruction
+import SixBirdsMetaMath.FoundationsIV.Stability.NoNeedles
+import SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm
+import SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence
+import SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ConservationAsOrbitDescent
+import SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.InformationLoss
+import SixBirdsMetaMath.FoundationsIV.Symmetry.Anomaly
+import SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.CommonSourceNonlocal
+import SixBirdsFoundationsVI.Laws.G1HiddenAmortizedSolvency
+import SixBirdsFoundationsVI.Laws.G2TransfiniteEscrow
+import SixBirdsFoundationsVI.Laws.G3AmortizedCurrency
+import SixBirdsFoundationsVI.Laws.G4MovingCoverExhaustion
+import SixBirdsFoundationsVI.Laws.G5CarryHorizonConfinement
+import SixBirdsFoundationsVI.Laws.G6EndogenousNeedleGeneration
+import SixBirdsFoundationsVI.Laws.G7AdversarialMobilityConfinement
+import SixBirdsFoundationsVI.Laws.G9DefectEvacuationTransport
+import SixBirdsFoundationsVI.Laws.G10LossfulPersistence
+import SixBirdsFoundationsVI.Laws.G11GlobalAntiSymmetry
+import SixBirdsFoundationsVI.Laws.G12FiniteWitnessRadiation
+import SixBirdsFoundationsVI.Laws.G13ThinOrbitSaturation
+import SixBirdsFoundationsVI.Laws.G8OdometerAbelianization
+
+/-!
+Root import surface for the Foundations VI Lean scaffold.
+
+This Mathlib-free project vendors the Foundations III BirdInt calculus
+wholesale and the Foundations IV F-series rows cited by the Phase 1
+G-law catalog. No G-law-specific Lean statements live here yet; this
+file only verifies that the imported dependency surface builds.
+-/

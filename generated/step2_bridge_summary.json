@@ -1,0 +1,48 @@
+{
+  "application_rows": 14,
+  "bridge_classifications": {
+    "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 30,
+    "AVAILABLE_AFTER_EXACT_HYPOTHESIS_AND_STATEMENT_MATCH": 72,
+    "BLOCKED_SOURCE": 1,
+    "EXACT_INHERITED_INSTANCE_CLAIMED_BY_TARGET": 1,
+    "PAPER_RESULT_AVAILABLE_LOCAL_FORMAL_ASSET_ABSENT_OR_PARTIAL": 39,
+    "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 92,
+    "SOURCE_RESULT_AVAILABLE_FORMAL_MATCH_REQUIRES_AUDIT": 7,
+    "UNKNOWN_REQUIRES_PROOF": 86,
+    "VALID_AFTER_ADDED_HYPOTHESES": 46
+  },
+  "bridge_kinds": {
+    "NAMED_LAW_IMPORT": 45,
+    "PAPER_INVOCATION": 240,
+    "PRIOR_LAW_REUSE_CONTRACT": 89
+  },
+  "canonical_claims": 2821,
+  "citation_bridge_rows": 240,
+  "conflict_rows": 6,
+  "example_carrier_rows": 24,
+  "graph_edges": 35276,
+  "graph_nodes": 3040,
+  "invalid_transfer_rows": 20,
+  "named_law_accepted_occurrences": 217,
+  "named_law_candidate_occurrences": 2022,
+  "named_law_import_rows": 45,
+  "no_go_scope_rows": 8,
+  "papers": 58,
+  "prior_law_reuse_contracts": 89,
+  "source_blockers": [
+    "P039"
+  ],
+  "step3_started": false,
+  "taxonomy_rows": {
+    "access_state_matrix": 8,
+    "admission_kind_matrix": 8,
+    "contact_join_status_matrix": 9,
+    "currency_budget_matrix": 7,
+    "enablement_attribution_matrix": 7,
+    "order_holonomy_matrix": 7,
+    "retention_absorption_matrix": 5
+  },
+  "total_bridge_rows": 374,
+  "version_delta_rows": 223,
+  "wishlist_atoms": 130
+}

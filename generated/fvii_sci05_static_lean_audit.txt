@@ -1,0 +1,26 @@
+FVII-SCI-05 static Lean audit: PASS
+checks: 23/23
+boundary: External Lean kernel build and executed #print axioms are recorded as PASS.
+PASS lexical_balance: files=125
+PASS vii_owned_no_proof_shortcuts: no sorry/admit/new axiom/opaque/unsafe
+PASS public_import_closure: modules=165 unresolved=[]
+PASS module_import_graph_acyclic: modules=165 imports=305
+PASS final_registry_source_parity: source=1477 registry=1477
+PASS public_declarations_unique: declarations=1477 duplicates=0
+PASS print_axioms_exact_public_theorem_surface: printed=732 theorems=732
+PASS phase5_public_surface_census: declarations=163 theorems=76
+PASS twenty_one_cross_family_corollaries: rows=21
+PASS terminal_candidate_dispositions: {'FORMAL_SCHEMA': 15, 'CONDITIONAL_THEOREM': 15, 'LEAN_DECIDABLE_FINITE': 1, 'CONSTRUCTIVE_COUNTERMODEL': 1, 'REFUTED_CANDIDATE': 2, 'CLOSED_DEFERRAL': 2, 'LEAN_KERNEL_PROVED': 0}
+PASS all_eighteen_objects_terminal: rows=18
+PASS terminal_release_registries: 36 candidates / 18 objects / 20 targets / 11 no-gos / 15 decisions / 21 corollaries
+PASS phase5_eleven_envelopes: rows=11
+PASS phase5_cardinality_census: raw=86912 canonical=84864 accepted=21081 rejected=63783
+PASS final_public_and_executable_wiring: corollaries/release/Phase5 runner/public root
+PASS no_phase6_implementation: no unplanned later phase
+PASS graphml_valid_final_theorem_dependency_graph: science/traceability/final_theorem_dependency_graph.graphml
+PASS graphml_valid_final_module_import_graph: science/traceability/final_module_import_graph.graphml
+PASS prior_science_and_inherited_surfaces_immutable: public_release_sanitation=['formalization/_provenance/README.md', 'formalization/_provenance/six-birds-cognition_v45_2.zip', 'formalization/_provenance/six-birds-collatz_v19.zip'] unexpected=[]
+PASS no_paper_or_paper_prep_work: writing_open=True changed=[]
+PASS trust_registry_and_static_core_complete: trust=732 core=625
+PASS phase_declarations_rebound_to_current_sources: rows=1315 phase_declarations=1315
+PASS kernel_boundary_explicit: PASS

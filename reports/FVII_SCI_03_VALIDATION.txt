@@ -1,0 +1,38 @@
+FVII-SCI-03 VALIDATION: PASS
+Checks: 36/36
+PASS phase2_base_tag: 14fcd7f291f573fd7f8a3f6dcb9957ecf270b00b
+PASS science_plan_phase3_state: PHASE_03_EXECUTED_PHASES_04_TO_05_PENDING
+PASS phase3_public_declaration_registry: rows=363
+PASS phase3_theorem_registry: rows=183
+PASS theorem_registry_subset: all theorem names are public declarations
+PASS stable_phase3_asset_ids: rows=363
+PASS source_statement_hashes: every declaration has statement and source-block hashes
+PASS no_source_level_trust_shortcuts: kinds=[]
+PASS thirteen_terminal_candidates: ids=['VII-C007', 'VII-C008', 'VII-C009', 'VII-C010', 'VII-C011', 'VII-C016', 'VII-C019', 'VII-C026', 'VII-C030', 'VII-C031', 'VII-C033', 'VII-C035', 'VII-C036']
+PASS candidate_terminal_grades_and_boundaries: all terminal with theorem surface and nonclaim
+PASS candidate_finite_or_structural_controls: every candidate has a formal or bounded control
+PASS candidate_source_trace_counts: every candidate retains Step-3 source support or boundary provenance
+PASS candidate_dossiers: thirteen terminal dossiers
+PASS five_no_go_fronts: ids=['NGVII-02', 'NGVII-06', 'NGVII-07', 'NGVII-08', 'NGVII-09']
+PASS no_go_dossiers: five scoped dossiers
+PASS formalization_target_closure: ids=['FT05', 'FT06', 'FT07', 'FT08', 'FT09', 'FT10', 'FT16', 'FT18', 'FT19', 'FT20']
+PASS eight_terminal_scope_decisions: ids=['DP01', 'DP02', 'DP03', 'DP04', 'DP05', 'DP06', 'DP10', 'DP15']
+PASS decision_dossier: terminal rulings collected
+PASS eleven_finite_envelopes: raw=141112 canonical=73528 accepted=34532 rejected=38996
+PASS finite_envelope_nonclaims: bounded evidence grades and nonclaims retained
+PASS twenty_seven_canonical_witnesses: ids=27
+PASS primary_fixture_python_replay: 12 scenarios and 14 countermodels pass
+PASS phase3_summary_closure: COMPLETE_SOURCE_LEVEL_EXTERNAL_LEAN_REPLAY_PENDING
+PASS seven_status_partition_counts: {'NO_EVIDENCED_CONTACT': 4, 'EVIDENCED_CONTACT': 4, 'COMMON_REFINEMENT': 8, 'LAWFUL_COMPOSITE': 64, 'STRICT_JOIN': 2, 'OBSTRUCTED': 80, 'CERTIFIED_NONINTERACTION': 8}
+PASS asset_trace_closure: rows=525
+PASS statement_hash_ledger: rows=183
+PASS five_finite_no_go_controls: rows=5
+PASS python_protocol_and_model_tests: tests=48 returncode=0
+PASS static_lean_source_audit: STATIC_SOURCE_AUDIT_NOT_KERNEL_ELABORATION
+PASS python_source_compilation: files=7
+PASS shell_syntax: files=2
+PASS deterministic_phase3_regeneration: sha256=bdeb828ab9a04e559b351c7048ee96c5965fedce7df8cd8648a320c68aa9f190
+PASS phase2_and_inherited_immutability: changed=[]
+PASS no_paper_work: changed=[]
+PASS phases_4_and_5_not_executed: no later science directories
+PASS lean_boundary_truthfully_recorded: NOT_RUN_LOCAL_ENVIRONMENT

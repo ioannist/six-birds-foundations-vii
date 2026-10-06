@@ -1,0 +1,55 @@
+{
+  "all_claims_reconsidered": 12,
+  "anti_overread": [
+    "We do not claim that all randomness is reducible to hidden microstructure, nor do we identify route mismatch with genuine irreversibility."
+  ],
+  "boundary_claim_ids": [
+    "P042-C0002"
+  ],
+  "candidate_ids": [
+    "VII-C006",
+    "VII-C011",
+    "VII-C029",
+    "VII-C035",
+    "VII-C017",
+    "VII-C032",
+    "VII-C036",
+    "VII-C020"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 12 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P042",
+  "reading_order": "40",
+  "relevant_claim_ids": [
+    "P042-C0001",
+    "P042-C0002",
+    "P042-C0003",
+    "P042-C0004",
+    "P042-C0005",
+    "P042-C0006",
+    "P042-C0007",
+    "P042-C0008",
+    "P042-C0009",
+    "P042-C0010",
+    "P042-C0011",
+    "P042-C0012"
+  ],
+  "root_sha256": "a44677097ba1600d1dba9e6cb423d5c9896b00ab79f8c5b5d8f0a750b6f0e139",
+  "source_path": "papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "9f91408548be6758726b88db801f2c40e7e62777cb00020ced7e4f8d23bacc3c",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Randomness under Packaging and Budget",
+  "top_convergence_groups": [
+    "CG04",
+    "CG10",
+    "CG19",
+    "CG24"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

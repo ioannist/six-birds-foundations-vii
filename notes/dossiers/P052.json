@@ -1,0 +1,122 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "closure deficit, geometry, and route audit",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "Markov geometry with macro kernels, prototypes, distances, and route data",
+      "forbidden_back_transfer": "Nonzero geometric holonomy does not establish P6 directionality.",
+      "interface_or_lens": "macro-state and transport/holonomy interfaces",
+      "missing_vii_primitive_or_pressure": "geometry formation and order-sensitive memory",
+      "nonclaims_or_open_boundaries": [
+        "P052-C0012",
+        "P052-C0009",
+        "P052-C0005",
+        "P052-C0011",
+        "P052-C0007",
+        "P052-C0010"
+      ],
+      "paper_id": "P052",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P052-C0001",
+        "P052-C0006",
+        "P052-C0004",
+        "P052-C0008"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Constructing Emergent Geometry from Markov Dynamics",
+      "what_the_application_distinguishes_or_falsifies": "birth of macro geometry and holonomy without automatic arrow"
+    },
+    "classification_counts": {
+      "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0168",
+      "BR-CITE-0229"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0196",
+      "BR-CITE-0197"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 2,
+    "wishlist_request_ids": [
+      "CLD-DISC",
+      "MED-S3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P052.jsonl",
+  "claim_count": 12,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 4,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCHEMA": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 2
+  },
+  "claim_ids": [
+    "P052-C0001",
+    "P052-C0002",
+    "P052-C0003",
+    "P052-C0004",
+    "P052-C0005",
+    "P052-C0006",
+    "P052-C0007",
+    "P052-C0008",
+    "P052-C0009",
+    "P052-C0010",
+    "P052-C0011",
+    "P052-C0012"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 4,
+    "open_problem": 2,
+    "paper_thesis": 1,
+    "result_summary": 2,
+    "schema": 1,
+    "scope_boundary": 2
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [
+    "P052-C0004"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 12
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "observable geometry, Markov carriers, and construction audits",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P052.md",
+  "nonclaim_scope_ids": [
+    "P052-C0002",
+    "P052-C0005",
+    "P052-C0009",
+    "P052-C0010",
+    "P052-C0011",
+    "P052-C0012"
+  ],
+  "open_problem_ids": [
+    "P052-C0003",
+    "P052-C0007"
+  ],
+  "paper_id": "P052",
+  "reading_order": 57,
+  "resolved_dependency_papers": [
+    "P031",
+    "P046"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Plot_a_Stone_with_Six_Birds_Constructing_and_Auditing_Emergent_Geometry_from_Markov_Dynamics.tex",
+  "source_root_sha256": "1a2c3387dd0e88cac8e88b2a7cb15311af0acc91429e941f60717e8818397975",
+  "source_tree_sha256": "c8553b7ab20f89aa819c4ea642465a8e37108870baf1526ffea42808f9a1f014",
+  "status": "BRIDGED",
+  "title": "Constructing Emergent Geometry from Markov Dynamics"
+}

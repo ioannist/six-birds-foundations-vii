@@ -1,0 +1,7 @@
+$out_dir = 'build';
+$aux_dir = 'build';
+
+# After successful build, flatten .tex into a single file in build/
+# Flattening is a submission convenience, not a build requirement: don't fail the
+# PDF because latexpand is absent.
+$success_cmd = 'command -v latexpand >/dev/null && latexpand %S -o %Y/%R_flat.tex || true';

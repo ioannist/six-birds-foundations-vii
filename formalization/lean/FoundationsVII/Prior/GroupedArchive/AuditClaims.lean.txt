@@ -1,0 +1,28 @@
+import FoundationsVII.Prior.Contract
+import SixBirds.Admissibility
+
+#check SixBirds.ClaimRecord
+#check SixBirds.AdmissibleClaim
+#check SixBirds.NonclaimRecord
+
+namespace FoundationsVII.Prior
+
+abbrev PriorClaimRecord := SixBirds.ClaimRecord
+abbrev PriorNonclaimRecord := SixBirds.NonclaimRecord
+
+/-- FT17: claim admissibility and nonclaim bookkeeping. -/
+def ft17AuditClaims : AdapterContract :=
+  { adapterId := "ADAPTER-FT17-AUDIT-CLAIMS"
+    formalizationTargetIds := ["FT17"]
+    sourceModule := "SixBirds.Admissibility"
+    sourceDeclarations := ["SixBirds.ClaimRecord", "SixBirds.AdmissibleClaim", "SixBirds.NonclaimRecord"]
+    sourceTypes := ["Foundations II claim and nonclaim records"]
+    targetTypes := ["FoundationsVII.GradedClaim", "FoundationsVII.AuditRecord", "FoundationsVII.ScienceAssetRecord"]
+    preservedHypotheses := ["honest bookkeeping", "typed admissibility", "explicit nonclaims"]
+    addedHypotheses := ["VII claim grade", "append-only audit trace", "finite-evidence separation"]
+    lostHypotheses := ["No inherited admissibility theorem is automatically asserted for a VII record."]
+    trustDependencies := []
+    nonclaims := ["A VII graded claim is not an inherited AdmissibleClaim without a separately proved bridge."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

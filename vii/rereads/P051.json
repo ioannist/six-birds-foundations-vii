@@ -1,0 +1,58 @@
+{
+  "all_claims_reconsidered": 15,
+  "anti_overread": [
+    "We do not derive physical spacetime here",
+    "P2 asserts that causation is always conditional on feasibility.",
+    "Together, these results reinforce the SBT view that time is conditional on closure and feasibility.",
+    "First, we do not claim that the laboratory's Phi is ``physical time'' Second, we do not claim that entropy production is the unique arrow"
+  ],
+  "boundary_claim_ids": [
+    "P051-C0002",
+    "P051-C0003",
+    "P051-C0011",
+    "P051-C0015"
+  ],
+  "candidate_ids": [
+    "VII-C018",
+    "VII-C006",
+    "VII-C026"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 15 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P051",
+  "reading_order": "39",
+  "relevant_claim_ids": [
+    "P051-C0001",
+    "P051-C0002",
+    "P051-C0003",
+    "P051-C0004",
+    "P051-C0005",
+    "P051-C0006",
+    "P051-C0007",
+    "P051-C0008",
+    "P051-C0009",
+    "P051-C0010",
+    "P051-C0011",
+    "P051-C0012",
+    "P051-C0013",
+    "P051-C0014",
+    "P051-C0015"
+  ],
+  "root_sha256": "8faf363af72d054e8c8817808b112acaef8dbc0277d45c2931c5d994315d6e78",
+  "source_path": "papers/Tsiokos_2026_To_Notch_a_Stone_with_Six_Birds_Time_as_a_Theory_Artifact_of_Order_Measure_and_Arrow.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "5f12f2883aa66819d410973e8a7f265ed0d1ba6513236867e533e01298801fad",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Time as a Theory Artifact",
+  "top_convergence_groups": [
+    "CG18",
+    "CG04",
+    "CG12"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

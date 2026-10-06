@@ -1,0 +1,22 @@
+name = "SixBirdsFoundationsV"
+version = "0.1.0"
+defaultTargets = ["SixBirdsFoundationsV", "SixBirdsIII", "Main", "Xi", "HolonomyMemory"]
+
+[[lean_lib]]
+name = "SixBirdsFoundationsV"
+
+[[lean_lib]]
+name = "SixBirdsIII"
+srcDir = "vendor/foundations/six-birds-foundations-iii/lean/full"
+
+[[lean_lib]]
+name = "Xi"
+srcDir = "vendor/foundations/xi"
+
+[[lean_lib]]
+name = "HolonomyMemory"
+srcDir = "vendor/foundations/holonomy-memory"
+
+[[lean_lib]]
+name = "Main"
+srcDir = "vendor/foundations/xi"

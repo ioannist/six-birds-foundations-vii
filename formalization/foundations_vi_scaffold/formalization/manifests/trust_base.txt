@@ -1,0 +1,21 @@
+# Foundations VI trust-base ledger.
+#
+# These trust-base items are inherited from the vendored
+# `six-birds-meta-math` F13a Hiddenness file. Foundations VI did not introduce
+# them, and `design/06_FORMALIZATION.md` §3b says to inherit them honestly
+# rather than attempting to discharge or remove them.
+#
+# Standing audit command:
+#   grep -rn "sorry\|admit\b" lean/vendor/ lean/SixBirdsFoundationsVI* 2>/dev/null
+#   grep -rln "^axiom " lean/vendor/ lean/SixBirdsFoundationsVI* 2>/dev/null
+#   grep -rln "^opaque " lean/vendor/ 2>/dev/null
+
+inherited axiom:
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.hiddenness_pending
+
+inherited opaque constants:
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.Paper7SaturatedSATLayer
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.Paper7CurrentQuotient
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.Paper7PredictiveQuotient
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.Paper7UpstreamState
+- SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm.Paper7SaturatedSATInstance

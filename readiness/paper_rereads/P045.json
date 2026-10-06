@@ -1,0 +1,62 @@
+{
+  "all_claims_reconsidered": 11,
+  "anti_overread": [
+    "We do not claim stabilized universality exponents.",
+    "The paper does not claim that these observables exhaust every possible diagnosis of birth",
+    "the point is that the confirmed claim belongs specifically to the canonical manual channel, and that this limitation should be carried honestly into the paper.",
+    "That limitation does not weaken the present paper.",
+    "Their canonical confirmation is therefore restricted to the manual channel, and their non-manual-lens behavior is carried as a quantified caveat. This is a limitation, but it is also a substantive measurement result: staging-anomalous births appear to be empirically more fragile under lens changes than the two lower-complexity classes."
+  ],
+  "boundary_claim_ids": [
+    "P045-C0002",
+    "P045-C0004",
+    "P045-C0005",
+    "P045-C0008",
+    "P045-C0011"
+  ],
+  "candidate_ids": [
+    "VII-C013",
+    "VII-C014",
+    "VII-C002",
+    "VII-C012",
+    "VII-C034"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 11 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P045-C0003",
+    "P045-C0006",
+    "P045-C0009"
+  ],
+  "paper_id": "P045",
+  "reading_order": "35",
+  "relevant_claim_ids": [
+    "P045-C0001",
+    "P045-C0002",
+    "P045-C0003",
+    "P045-C0004",
+    "P045-C0005",
+    "P045-C0006",
+    "P045-C0007",
+    "P045-C0008",
+    "P045-C0009",
+    "P045-C0010",
+    "P045-C0011"
+  ],
+  "root_sha256": "af2f3febe80942b103551286a34d684667ca3bad4ed3e64ee1b5aaa6d6b9d537",
+  "source_path": "papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "984b3d2456eda266d89d6c06ddcfa10c6c0e2062db8a214e9915f2bc77e8b4e6",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Primitive Activation and Layer-Birth Classes",
+  "top_convergence_groups": [
+    "CG15",
+    "CG02",
+    "CG14"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

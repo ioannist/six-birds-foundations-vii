@@ -1,0 +1,170 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "abstract no-Zeno theorem, legality checks, and finite tests",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "dyadic shell/energy-flux carrier for a no-Zeno regularity program",
+      "forbidden_back_transfer": "The abstract/Lean no-Zeno result does not certify that Navier–Stokes supplies every legality hypothesis.",
+      "interface_or_lens": "shell-localization and positive-work/capacity interfaces",
+      "missing_vii_primitive_or_pressure": "no-Zeno and legal localization",
+      "nonclaims_or_open_boundaries": [
+        "P035-C0036",
+        "P035-C0002"
+      ],
+      "paper_id": "P035",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P035-C0001",
+        "P035-C0021",
+        "P035-C0031",
+        "P035-C0029",
+        "P035-C0018",
+        "P035-C0010",
+        "P035-C0007",
+        "P035-C0013",
+        "P035-C0026",
+        "P035-C0034"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Six Birds for Navier–Stokes: Mechanized No-Zeno Scaffold",
+      "what_the_application_distinguishes_or_falsifies": "localization legality versus a true PDE regularity bridge"
+    },
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0218"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0142"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS",
+      "ARC-S5",
+      "CLD-DISC",
+      "MED-S3",
+      "MM-NONGOAL"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P035.jsonl",
+  "claim_count": 38,
+  "claim_grade_counts": {
+    "DEFINITION": 5,
+    "EXPLICIT_NONCLAIM": 8,
+    "INTERPRETIVE_REMARK": 7,
+    "NAMED_RESULT_OR_GATE_SURFACE": 8,
+    "NEGATIVE_RESULT_THEOREM": 1,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 1,
+    "PROSE_DEFINITION_SECTION": 1,
+    "THEOREM_GRADE": 5
+  },
+  "claim_ids": [
+    "P035-C0001",
+    "P035-C0002",
+    "P035-C0003",
+    "P035-C0004",
+    "P035-C0005",
+    "P035-C0006",
+    "P035-C0007",
+    "P035-C0008",
+    "P035-C0009",
+    "P035-C0010",
+    "P035-C0011",
+    "P035-C0012",
+    "P035-C0013",
+    "P035-C0014",
+    "P035-C0015",
+    "P035-C0016",
+    "P035-C0017",
+    "P035-C0018",
+    "P035-C0019",
+    "P035-C0020",
+    "P035-C0021",
+    "P035-C0022",
+    "P035-C0023",
+    "P035-C0024",
+    "P035-C0025",
+    "P035-C0026",
+    "P035-C0027",
+    "P035-C0028",
+    "P035-C0029",
+    "P035-C0030",
+    "P035-C0031",
+    "P035-C0032",
+    "P035-C0033",
+    "P035-C0034",
+    "P035-C0035",
+    "P035-C0036",
+    "P035-C0037",
+    "P035-C0038"
+  ],
+  "claim_type_counts": {
+    "definition": 5,
+    "lemma": 1,
+    "nonclaim": 8,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "prose_definition": 1,
+    "remark": 7,
+    "result_summary": 9,
+    "theorem": 5
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P035-C0005",
+    "P035-C0006",
+    "P035-C0008",
+    "P035-C0023",
+    "P035-C0024",
+    "P035-C0030"
+  ],
+  "formal_claim_ids": [
+    "P035-C0007",
+    "P035-C0009",
+    "P035-C0010",
+    "P035-C0013",
+    "P035-C0019",
+    "P035-C0026"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 38
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "mechanized liveness scaffolds, no-Zeno obligations, and claim grades",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P035.md",
+  "nonclaim_scope_ids": [
+    "P035-C0002",
+    "P035-C0003",
+    "P035-C0004",
+    "P035-C0016",
+    "P035-C0022",
+    "P035-C0033",
+    "P035-C0035",
+    "P035-C0036"
+  ],
+  "open_problem_ids": [
+    "P035-C0037"
+  ],
+  "paper_id": "P035",
+  "reading_order": 49,
+  "resolved_dependency_papers": [
+    "P031"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Six_Birds_for_Navier_Stokes_A_Mechanized_No_Zeno_Scaffold.tex",
+  "source_root_sha256": "663d5af2687f7786d06016a6b59d2e8c9f2e6a29b56d653ae2116c57e2043999",
+  "source_tree_sha256": "ced907b33aa0c2495e052057ebcf01c783a1cc2913587a41046c234050065255",
+  "status": "BRIDGED",
+  "title": "Six Birds for Navier–Stokes: Mechanized No-Zeno Scaffold"
+}

@@ -1,0 +1,9 @@
+import FoundationsVII.Corollaries.ProspectiveJoin
+import FoundationsVII.Corollaries.SourceBudget
+import FoundationsVII.Corollaries.NonInteraction
+import FoundationsVII.Corollaries.EnablementResidual
+import FoundationsVII.Corollaries.RefinementDescent
+import FoundationsVII.Corollaries.NoFreeJoin
+import FoundationsVII.Corollaries.HolonomyArrow
+import FoundationsVII.Corollaries.NegativeForce
+import FoundationsVII.Corollaries.ObserverEndogeny

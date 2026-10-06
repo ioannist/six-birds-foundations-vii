@@ -1,0 +1,58 @@
+{
+  "all_claims_reconsidered": 12,
+  "anti_overread": [
+    "The paper does not claim that every nearby exact-finite case in the same broad region is positive.",
+    "Discussion and Limitations: The paper establishes a positive result inside the fixed-support recombination layer of Six Birds theory: the isolation of a control-stable intrinsic exact-finite family, carried by two matched flagship anchors in a relative-cycle regime, together with a nearby exact breadth surface in the same family and a finite formal kernel for the flagship witness structure. Relative to the neighboring literature, the present result is narrower than a general theory of behavioral equivalence, predictive-state reconstruction, or state aggregation, and more concrete than a generic machine-checked quotient theorem. Its quotient language is closest to behavioral and probabilistic equivalence ; its future-sufficiency layer is closest to causal-state, observable-operator, and predictive-state models ; and its factorized comparison theorem sits closest to exact rather than approximate finite aggregation . The paper’s contribution is not a new generic quotient theory in those areas, but their composition inside a fixed-support recombination framework with matched controls and a concrete flagship family.",
+    "Nearby breadth exists within the same relative-cycle family, and the erasure side remains useful empirical support, but the paper does not claim a global classification of all recombination-positive families."
+  ],
+  "boundary_claim_ids": [
+    "P022-C0009",
+    "P022-C0010",
+    "P022-C0011"
+  ],
+  "candidate_ids": [
+    "VII-C007",
+    "VII-C035",
+    "VII-C008",
+    "VII-C033",
+    "VII-C009",
+    "VII-C036",
+    "VII-C030"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 12 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P022",
+  "reading_order": "28",
+  "relevant_claim_ids": [
+    "P022-C0001",
+    "P022-C0002",
+    "P022-C0003",
+    "P022-C0004",
+    "P022-C0005",
+    "P022-C0006",
+    "P022-C0007",
+    "P022-C0008",
+    "P022-C0009",
+    "P022-C0010",
+    "P022-C0011",
+    "P022-C0012"
+  ],
+  "root_sha256": "54ca8715102dd43cc95e10eaa1e618ef7d58db8f4bb0f362e9ab619c57bda858",
+  "source_path": "papers/Tsiokos_2026_Recombination_Witnesses_on_Fixed_Support_Control_Stable_Anchors_and_a_Formal_Kernel_in_Six_Birds_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "efa90205c1a101aca77159e86b2ed430fa0afd8bcffeb2dc20f05368a0f50668",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Recombination Witnesses on Fixed Support",
+  "top_convergence_groups": [
+    "CG06",
+    "CG07",
+    "CG08",
+    "CG13"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

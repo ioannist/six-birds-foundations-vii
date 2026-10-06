@@ -1,0 +1,28 @@
+{
+  "all_lean_sources_included": true,
+  "archive": "formalization/_provenance/six-birds-cognition_v45_2.zip",
+  "archive_sha256": "7d88998a856a6cb5019ee01d39925ec9b42deb1cf3ab74862067627d27de3a4a",
+  "excluded_top_level": [
+    "review_requests/",
+    "scripts/make_review_zip.sh",
+    "six-birds-papers (external symlink)"
+  ],
+  "policy": "Imported files are immutable upstream baseline assets; VII-authored adapters and extensions live outside this subtree.",
+  "selected_bytes": 10693226,
+  "selected_exact_files": [
+    ".gitignore",
+    "LANDING_PLAN.md",
+    "THEOREMS.md",
+    "scripts/audit_foundations_dependencies.py"
+  ],
+  "selected_file_count": 372,
+  "selected_prefixes": [
+    ".github/",
+    "formalization/",
+    "kb/",
+    "lab/",
+    "lean/"
+  ],
+  "target": "formalization/foundations_v_scaffold",
+  "upstream_commit_from_zip_comment": "d548b834481ffe9160194907df61e6e247defc8e"
+}

@@ -1,0 +1,30 @@
+bridge_id: B0000
+source_claim: P000-C000
+target_claim_or_context: ""
+source_object: ""
+target_object: ""
+map_or_interface: ""
+inherited_hypotheses: []
+added_hypotheses: []
+lost_hypotheses: []
+source_of_truth: ""
+audit_path: []
+formalization:
+  source_modules: []
+  source_declarations: []
+  paper_reported_declarations: []
+  source_match_status: NOT_CHECKED
+  target_declarations: []
+  adapter_declarations: []
+  statement_delta: []
+  exact_hypothesis_match: null
+  exact_conclusion_match: null
+  caveats: []
+  inherited_trust_base: []
+  added_trust_base: []
+  machine_check_status: NOT_RUN
+licensed_conclusion: ""
+classification: UNKNOWN
+nonclaims: []
+nearest_countermodel: null
+review_status: OPEN

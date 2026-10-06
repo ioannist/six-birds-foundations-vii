@@ -1,0 +1,1 @@
+{"authorization":"USER_AUTHORIZED_EXTERNAL_REPLAY_DEFERRAL","blocking":false,"nonclaim":"No Phase-4 Lean kernel elaboration or Lean/Python differential is claimed until external replay passes.","required_script":"scripts/run_fvii_sci04_external_lean.sh","status":"NOT_RUN_LOCAL_ENVIRONMENT"}

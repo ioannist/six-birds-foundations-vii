@@ -1,0 +1,69 @@
+{
+  "all_claims_reconsidered": 23,
+  "anti_overread": [
+    "We are explicit that Reflexive SBT is not proven here to universally drive capacities to zero",
+    "What this paper does not claim.",
+    "We emphasize that we do not claim a general theorem of the form ``small symmetry defect implies approximately constant diagonal'' without additional hypotheses",
+    "We do not claim that all packaging families admit such a canonicalizer, nor that canonicalization is unique"
+  ],
+  "boundary_claim_ids": [
+    "P023-C0002",
+    "P023-C0003",
+    "P023-C0012",
+    "P023-C0018"
+  ],
+  "candidate_ids": [
+    "VII-C005",
+    "VII-C019",
+    "VII-C036",
+    "VII-C028"
+  ],
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "findings": [
+    "All 23 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P023-C0023"
+  ],
+  "paper_id": "P023",
+  "reading_order": "9",
+  "relevant_claim_ids": [
+    "P023-C0001",
+    "P023-C0002",
+    "P023-C0003",
+    "P023-C0004",
+    "P023-C0005",
+    "P023-C0006",
+    "P023-C0007",
+    "P023-C0008",
+    "P023-C0009",
+    "P023-C0010",
+    "P023-C0011",
+    "P023-C0012",
+    "P023-C0013",
+    "P023-C0014",
+    "P023-C0015",
+    "P023-C0016",
+    "P023-C0017",
+    "P023-C0018",
+    "P023-C0019",
+    "P023-C0020",
+    "P023-C0021",
+    "P023-C0022",
+    "P023-C0023"
+  ],
+  "root_sha256": "ae9878f2887b0bfcc19a63b510505b37be9c4627468d114865aa5a716b8f9c10",
+  "source_path": "papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "5f26edf3aa25f0e56ceae7bca751fc47a10591952123f62e776e30a485218c99",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Reflexive SBT and Anti-Localization",
+  "top_convergence_groups": [
+    "CG05",
+    "CG22",
+    "CG29"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

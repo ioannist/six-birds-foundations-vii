@@ -1,0 +1,103 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "closure, residual, and thermodynamic diagnostics",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "stochastic substrate with coarse-grained geometric and thermodynamic observables",
+      "forbidden_back_transfer": "A successful finite stochastic construction does not establish a universal physical substrate theory.",
+      "interface_or_lens": "Markov/coarse-graining lens",
+      "missing_vii_primitive_or_pressure": "stochastic emergence and diagnostic closure",
+      "nonclaims_or_open_boundaries": [
+        "P047-C0005",
+        "P047-C0007"
+      ],
+      "paper_id": "P047",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P047-C0001"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Emergent Geometric and Thermodynamic Regimes",
+      "what_the_application_distinguishes_or_falsifies": "emergent geometry/thermodynamics under a declared package"
+    },
+    "classification_counts": {
+      "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0141",
+      "BR-CITE-0157",
+      "BR-CITE-0163",
+      "BR-CITE-0166",
+      "BR-CITE-0182",
+      "BR-CITE-0202",
+      "BR-CITE-0226",
+      "BR-CITE-0237"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0185"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 1,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS",
+      "MED-S3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P047.jsonl",
+  "claim_count": 7,
+  "claim_grade_counts": {
+    "NAMED_RESULT_OR_GATE_SURFACE": 1,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 3
+  },
+  "claim_ids": [
+    "P047-C0001",
+    "P047-C0002",
+    "P047-C0003",
+    "P047-C0004",
+    "P047-C0005",
+    "P047-C0006",
+    "P047-C0007"
+  ],
+  "claim_type_counts": {
+    "open_problem": 2,
+    "paper_thesis": 1,
+    "result_summary": 1,
+    "scope_boundary": 3
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "NO_MATCH": 7
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "geometry/thermodynamics from a stochastic substrate and arrow audits",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P047.md",
+  "nonclaim_scope_ids": [
+    "P047-C0003",
+    "P047-C0004",
+    "P047-C0005"
+  ],
+  "open_problem_ids": [
+    "P047-C0006",
+    "P047-C0007"
+  ],
+  "paper_id": "P047",
+  "reading_order": 56,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Create_a_Stone_with_Six_Birds_Emergent_Geometric_and_Thermodynamic_Regimes_from_a_Minimal_Stochastic_Substrate.tex",
+  "source_root_sha256": "155b52411fddaf30c683e37d7e1d00a57a8e99ae8281d3fb6ffc607002784855",
+  "source_tree_sha256": "9b53611d771df0fcb58196de713469f6999036b588742c49130881996456daee",
+  "status": "BRIDGED",
+  "title": "Emergent Geometric and Thermodynamic Regimes"
+}

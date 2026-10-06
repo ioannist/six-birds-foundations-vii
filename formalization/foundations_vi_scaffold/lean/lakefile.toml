@@ -1,0 +1,22 @@
+name = "SixBirdsFoundationsVI"
+version = "0.1.0"
+defaultTargets = ["SixBirdsFoundationsVI"]
+
+[[lean_lib]]
+name = "SixBirdsFoundationsVI"
+
+[[lean_lib]]
+name = "ClosureLadder"
+srcDir = "vendor/foundations/six-birds-theory/formal"
+
+[[lean_lib]]
+name = "SixBirds"
+srcDir = "vendor/foundations/six-birds-foundations-ii/lean/full"
+
+[[lean_lib]]
+name = "SixBirdsIII"
+srcDir = "vendor/foundations/six-birds-foundations-iii/lean/full"
+
+[[lean_lib]]
+name = "SixBirdsMetaMath"
+srcDir = "vendor/foundations/six-birds-meta-math/lean"

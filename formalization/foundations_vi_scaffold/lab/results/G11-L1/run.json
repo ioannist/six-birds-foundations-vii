@@ -1,0 +1,179 @@
+{
+  "control": {
+    "assignment": [
+      [
+        0
+      ]
+    ],
+    "clauses": 6,
+    "cols": 1,
+    "dimacs_path": "results/G11-L1/dimacs/control_1x1.cnf",
+    "name": "control_1x1",
+    "rows": 1,
+    "status": "SAT",
+    "variables": 2
+  },
+  "jeandel_rao": [
+    {
+      "assignment": null,
+      "clauses": 230,
+      "cols": 1,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_1x1.cnf",
+      "name": "jeandel_rao_1x1",
+      "rows": 1,
+      "status": "UNSAT",
+      "variables": 11
+    },
+    {
+      "assignment": null,
+      "clauses": 460,
+      "cols": 2,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_1x2.cnf",
+      "name": "jeandel_rao_1x2",
+      "rows": 1,
+      "status": "UNSAT",
+      "variables": 22
+    },
+    {
+      "assignment": null,
+      "clauses": 690,
+      "cols": 3,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_1x3.cnf",
+      "name": "jeandel_rao_1x3",
+      "rows": 1,
+      "status": "UNSAT",
+      "variables": 33
+    },
+    {
+      "assignment": null,
+      "clauses": 920,
+      "cols": 4,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_1x4.cnf",
+      "name": "jeandel_rao_1x4",
+      "rows": 1,
+      "status": "UNSAT",
+      "variables": 44
+    },
+    {
+      "assignment": null,
+      "clauses": 460,
+      "cols": 1,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_2x1.cnf",
+      "name": "jeandel_rao_2x1",
+      "rows": 2,
+      "status": "UNSAT",
+      "variables": 22
+    },
+    {
+      "assignment": null,
+      "clauses": 920,
+      "cols": 2,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_2x2.cnf",
+      "name": "jeandel_rao_2x2",
+      "rows": 2,
+      "status": "UNSAT",
+      "variables": 44
+    },
+    {
+      "assignment": null,
+      "clauses": 1380,
+      "cols": 3,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_2x3.cnf",
+      "name": "jeandel_rao_2x3",
+      "rows": 2,
+      "status": "UNSAT",
+      "variables": 66
+    },
+    {
+      "assignment": null,
+      "clauses": 1840,
+      "cols": 4,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_2x4.cnf",
+      "name": "jeandel_rao_2x4",
+      "rows": 2,
+      "status": "UNSAT",
+      "variables": 88
+    },
+    {
+      "assignment": null,
+      "clauses": 690,
+      "cols": 1,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_3x1.cnf",
+      "name": "jeandel_rao_3x1",
+      "rows": 3,
+      "status": "UNSAT",
+      "variables": 33
+    },
+    {
+      "assignment": null,
+      "clauses": 1380,
+      "cols": 2,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_3x2.cnf",
+      "name": "jeandel_rao_3x2",
+      "rows": 3,
+      "status": "UNSAT",
+      "variables": 66
+    },
+    {
+      "assignment": null,
+      "clauses": 2070,
+      "cols": 3,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_3x3.cnf",
+      "name": "jeandel_rao_3x3",
+      "rows": 3,
+      "status": "UNSAT",
+      "variables": 99
+    },
+    {
+      "assignment": null,
+      "clauses": 2760,
+      "cols": 4,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_3x4.cnf",
+      "name": "jeandel_rao_3x4",
+      "rows": 3,
+      "status": "UNSAT",
+      "variables": 132
+    },
+    {
+      "assignment": null,
+      "clauses": 920,
+      "cols": 1,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_4x1.cnf",
+      "name": "jeandel_rao_4x1",
+      "rows": 4,
+      "status": "UNSAT",
+      "variables": 44
+    },
+    {
+      "assignment": null,
+      "clauses": 1840,
+      "cols": 2,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_4x2.cnf",
+      "name": "jeandel_rao_4x2",
+      "rows": 4,
+      "status": "UNSAT",
+      "variables": 88
+    },
+    {
+      "assignment": null,
+      "clauses": 2760,
+      "cols": 3,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_4x3.cnf",
+      "name": "jeandel_rao_4x3",
+      "rows": 4,
+      "status": "UNSAT",
+      "variables": 132
+    },
+    {
+      "assignment": null,
+      "clauses": 3680,
+      "cols": 4,
+      "dimacs_path": "results/G11-L1/dimacs/jeandel_rao_4x4.cnf",
+      "name": "jeandel_rao_4x4",
+      "rows": 4,
+      "status": "UNSAT",
+      "variables": 176
+    }
+  ],
+  "period_bound": 4
+}

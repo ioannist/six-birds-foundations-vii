@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Automorph Inc.",
+        "name": "Tsiokos, Ioannis",
+        "orcid": "0009-0009-7659-5964"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/ioannist/six-birds-foundations-vii",
+      "code:programmingLanguage": [
+        {
+          "id": "lean",
+          "title": {
+            "en": "Lean"
+          }
+        },
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        },
+        {
+          "id": "tex",
+          "title": {
+            "en": "TeX"
+          }
+        }
+      ]
+    },
+    "description": "<p><strong>Six Birds Foundations VII: Lawful Theory Interaction</strong> asks when interaction across the boundaries of two theory packages is admissible. It closes a catalog of 36 entries covering access and admission, contact and join, enablement and descent, and dynamics and residue, while separating contact from join, strictness from directionality, enablement from descent, and source independence from behavioral non-factorization.</p>\n\n<p>The paper gives eleven scoped obstructions with named escape routes, two refuted proposed laws with surviving conditional content, and two formally closed deferrals. Its central object is a join of theories relative to a declared admissibility regime; the construction is neither assumed to exist nor treated as free.</p>\n\n<p>An accompanying Mathlib-free Lean 4 development contains 1,477 public declarations and 732 theorems, each with an executed axiom receipt. The finite evidence is exhaustive only over explicitly declared bounded carriers. Per-result provenance distinguishes recovered, sharpened, externally sourced, and new content.</p>",
+    "imprint_publisher": "Zenodo",
+    "keywords": [
+      "emergence calculus",
+      "lawful theory interaction",
+      "theory join",
+      "admissibility regime",
+      "enablement",
+      "access coordinates",
+      "bootstrap obstruction",
+      "no-go with named escapes",
+      "bounded finite carriers",
+      "audited emergence"
+    ],
+    "language": "eng",
+    "license": "cc-by-4.0",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.22254857",
+      "recid": 22254857
+    },
+    "publication_date": "2026-09-02",
+    "publication_type": "preprint",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.18365949",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.19672278",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.20124595",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.20713187",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.22248767",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.22254289",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.18439737",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.19187777",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.20713713",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.19061345",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.18495363",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.19047665",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.20713688",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.2307/1968867",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/B978-0-08-012975-4.50028-X",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1145/322217.322230",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/978-1-4757-4721-8",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "https://lean-lang.org/doc/reference/latest/Axioms/",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.1145/357073.357079",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1145/147508.147524",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/978-3-642-17336-3",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1145/503209.503226",
+        "relation": "cites",
+        "resource_type": "publication-conferencepaper"
+      },
+      {
+        "identifier": "10.1561/1000000053",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1145/151646.151649",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1017/S1755020316000186",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/978-3-030-64187-0_18",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1016/0020-0190(85)90056-0",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/978-3-319-10575-8",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1007/3-540-49059-0_14",
+        "relation": "cites",
+        "resource_type": "publication-conferencepaper"
+      },
+      {
+        "identifier": "10.1073/pnas.1708274114",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1145/1265530.1265535",
+        "relation": "cites",
+        "resource_type": "publication-conferencepaper"
+      },
+      {
+        "identifier": "10.1017/CBO9780511803161",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1016/j.jtbi.2015.02.029",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1147/rd.53.0183",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/BF02084158",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1098/rspa.1984.0023",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevE.60.2721",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/978-3-030-79876-5_37",
+        "relation": "cites",
+        "resource_type": "publication-conferencepaper"
+      },
+      {
+        "identifier": "10.1093/oso/9780198501275.003.0013",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      }
+    ],
+    "title": "Six Birds Foundations VII: Lawful Theory Interaction",
+    "upload_type": "publication"
+  }
+}

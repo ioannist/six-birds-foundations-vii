@@ -1,0 +1,34 @@
+{
+  "archive": "foundations-vii-science-assets-final.zip",
+  "counts": {
+    "adapter_count": 30,
+    "candidate_count": 36,
+    "corollary_count": 21,
+    "countermodel_registry_count": 38,
+    "decision_count": 15,
+    "finite_assay_count": 43,
+    "formalization_target_count": 20,
+    "no_go_count": 11,
+    "object_count": 18,
+    "public_declaration_count": 1477,
+    "public_module_count": 111,
+    "public_theorem_count": 732
+  },
+  "date": "2026-07-26",
+  "external_replay": "scripts/run_fvii_sci05_external_lean.sh",
+  "git_tag": "vii-science-final",
+  "kernel_build_status": "PASS",
+  "nonclaim": "Source completion and finite exhaustiveness over declared carriers do not imply universal interaction laws. The Lean kernel replay and axiom receipts have executed.",
+  "paper_work": false,
+  "phase5_finite": {
+    "accepted_cases": 21081,
+    "bounded_witness_count": 33,
+    "canonical_cases": 84864,
+    "cross_family_control_count": 12,
+    "envelope_count": 11,
+    "raw_cases": 86912,
+    "rejected_cases": 63783
+  },
+  "release_id": "foundations-vii-science-final",
+  "status": "FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS"
+}

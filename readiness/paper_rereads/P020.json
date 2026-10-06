@@ -1,0 +1,72 @@
+{
+  "all_claims_reconsidered": 37,
+  "anti_overread": [
+    "We are explicit that stronger claims—PDE smoothing, physical entropy production, or emergent learning of channel maps—are not established here"
+  ],
+  "boundary_claim_ids": [
+    "P020-C0002"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 37 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P020-C0037"
+  ],
+  "paper_id": "P020",
+  "reading_order": "51",
+  "relevant_claim_ids": [
+    "P020-C0001",
+    "P020-C0002",
+    "P020-C0003",
+    "P020-C0004",
+    "P020-C0005",
+    "P020-C0006",
+    "P020-C0007",
+    "P020-C0008",
+    "P020-C0009",
+    "P020-C0010",
+    "P020-C0011",
+    "P020-C0012",
+    "P020-C0013",
+    "P020-C0014",
+    "P020-C0015",
+    "P020-C0016",
+    "P020-C0017",
+    "P020-C0018",
+    "P020-C0019",
+    "P020-C0020",
+    "P020-C0021",
+    "P020-C0022",
+    "P020-C0023",
+    "P020-C0024",
+    "P020-C0025",
+    "P020-C0026",
+    "P020-C0027",
+    "P020-C0028",
+    "P020-C0029",
+    "P020-C0030",
+    "P020-C0031",
+    "P020-C0032",
+    "P020-C0033",
+    "P020-C0034",
+    "P020-C0035",
+    "P020-C0036",
+    "P020-C0037"
+  ],
+  "root_sha256": "fc28a6fa4b2fe0d2bec45864b3327d43d7fc4b729d898884dab10d503aa72924",
+  "source_path": "papers/Tsiokos_2026_Persistence_of_SPT_Legality_from_Channelized_Feasibility_in_a_Multiscale_Hilbert_Cell_Model.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "888547dcf211ba5ad1e429bef171f824f117031887fde1ad9279a05c7f662d84",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Persistence of SPT Legality from Channelized Feasibility",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

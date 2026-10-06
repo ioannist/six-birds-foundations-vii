@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="kind" for="edge" attr.name="kind" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="ClosureLadder.Basic"><data key="label">ClosureLadder.Basic</data></node>
+    <node id="FoundationsVII.Access.All"><data key="label">FoundationsVII.Access.All</data></node>
+    <node id="FoundationsVII.Access.Bootstrap"><data key="label">FoundationsVII.Access.Bootstrap</data></node>
+    <node id="FoundationsVII.Access.Commitment"><data key="label">FoundationsVII.Access.Commitment</data></node>
+    <node id="FoundationsVII.Access.Domain"><data key="label">FoundationsVII.Access.Domain</data></node>
+    <node id="FoundationsVII.Access.Observer"><data key="label">FoundationsVII.Access.Observer</data></node>
+    <node id="FoundationsVII.Access.Origin"><data key="label">FoundationsVII.Access.Origin</data></node>
+    <node id="FoundationsVII.Access.Reachability"><data key="label">FoundationsVII.Access.Reachability</data></node>
+    <node id="FoundationsVII.Access.Replay"><data key="label">FoundationsVII.Access.Replay</data></node>
+    <node id="FoundationsVII.Access.Transitions"><data key="label">FoundationsVII.Access.Transitions</data></node>
+    <node id="FoundationsVII.All"><data key="label">FoundationsVII.All</data></node>
+    <node id="FoundationsVII.Contact.All"><data key="label">FoundationsVII.Contact.All</data></node>
+    <node id="FoundationsVII.Contact.Transport"><data key="label">FoundationsVII.Contact.Transport</data></node>
+    <node id="FoundationsVII.Core.Admission"><data key="label">FoundationsVII.Core.Admission</data></node>
+    <node id="FoundationsVII.Core.All"><data key="label">FoundationsVII.Core.All</data></node>
+    <node id="FoundationsVII.Core.Audit"><data key="label">FoundationsVII.Core.Audit</data></node>
+    <node id="FoundationsVII.Core.Contact"><data key="label">FoundationsVII.Core.Contact</data></node>
+    <node id="FoundationsVII.Core.Domain"><data key="label">FoundationsVII.Core.Domain</data></node>
+    <node id="FoundationsVII.Core.Enablement"><data key="label">FoundationsVII.Core.Enablement</data></node>
+    <node id="FoundationsVII.Core.Grades"><data key="label">FoundationsVII.Core.Grades</data></node>
+    <node id="FoundationsVII.Core.Identifiers"><data key="label">FoundationsVII.Core.Identifiers</data></node>
+    <node id="FoundationsVII.Core.Join"><data key="label">FoundationsVII.Core.Join</data></node>
+    <node id="FoundationsVII.Core.Ledgers"><data key="label">FoundationsVII.Core.Ledgers</data></node>
+    <node id="FoundationsVII.Core.Observer"><data key="label">FoundationsVII.Core.Observer</data></node>
+    <node id="FoundationsVII.Core.Protocols"><data key="label">FoundationsVII.Core.Protocols</data></node>
+    <node id="FoundationsVII.Core.Reachability"><data key="label">FoundationsVII.Core.Reachability</data></node>
+    <node id="FoundationsVII.Core.Structural"><data key="label">FoundationsVII.Core.Structural</data></node>
+    <node id="FoundationsVII.Corollaries.All"><data key="label">FoundationsVII.Corollaries.All</data></node>
+    <node id="FoundationsVII.Corollaries.EnablementResidual"><data key="label">FoundationsVII.Corollaries.EnablementResidual</data></node>
+    <node id="FoundationsVII.Corollaries.HolonomyArrow"><data key="label">FoundationsVII.Corollaries.HolonomyArrow</data></node>
+    <node id="FoundationsVII.Corollaries.NegativeForce"><data key="label">FoundationsVII.Corollaries.NegativeForce</data></node>
+    <node id="FoundationsVII.Corollaries.NoFreeJoin"><data key="label">FoundationsVII.Corollaries.NoFreeJoin</data></node>
+    <node id="FoundationsVII.Corollaries.NonInteraction"><data key="label">FoundationsVII.Corollaries.NonInteraction</data></node>
+    <node id="FoundationsVII.Corollaries.ObserverEndogeny"><data key="label">FoundationsVII.Corollaries.ObserverEndogeny</data></node>
+    <node id="FoundationsVII.Corollaries.ProspectiveJoin"><data key="label">FoundationsVII.Corollaries.ProspectiveJoin</data></node>
+    <node id="FoundationsVII.Corollaries.RefinementDescent"><data key="label">FoundationsVII.Corollaries.RefinementDescent</data></node>
+    <node id="FoundationsVII.Corollaries.SourceBudget"><data key="label">FoundationsVII.Corollaries.SourceBudget</data></node>
+    <node id="FoundationsVII.Dynamics.All"><data key="label">FoundationsVII.Dynamics.All</data></node>
+    <node id="FoundationsVII.Dynamics.Confluence"><data key="label">FoundationsVII.Dynamics.Confluence</data></node>
+    <node id="FoundationsVII.Dynamics.CrossTime"><data key="label">FoundationsVII.Dynamics.CrossTime</data></node>
+    <node id="FoundationsVII.Dynamics.Holonomy"><data key="label">FoundationsVII.Dynamics.Holonomy</data></node>
+    <node id="FoundationsVII.Dynamics.PrimitiveAlgebra"><data key="label">FoundationsVII.Dynamics.PrimitiveAlgebra</data></node>
+    <node id="FoundationsVII.Dynamics.ResidualFlow"><data key="label">FoundationsVII.Dynamics.ResidualFlow</data></node>
+    <node id="FoundationsVII.Dynamics.Transmission"><data key="label">FoundationsVII.Dynamics.Transmission</data></node>
+    <node id="FoundationsVII.Enablement.All"><data key="label">FoundationsVII.Enablement.All</data></node>
+    <node id="FoundationsVII.Enablement.Attribution"><data key="label">FoundationsVII.Enablement.Attribution</data></node>
+    <node id="FoundationsVII.Enablement.Birth"><data key="label">FoundationsVII.Enablement.Birth</data></node>
+    <node id="FoundationsVII.Enablement.Composition"><data key="label">FoundationsVII.Enablement.Composition</data></node>
+    <node id="FoundationsVII.Enablement.Endogenous"><data key="label">FoundationsVII.Enablement.Endogenous</data></node>
+    <node id="FoundationsVII.Enablement.Separation"><data key="label">FoundationsVII.Enablement.Separation</data></node>
+    <node id="FoundationsVII.Join.All"><data key="label">FoundationsVII.Join.All</data></node>
+    <node id="FoundationsVII.Join.Budget"><data key="label">FoundationsVII.Join.Budget</data></node>
+    <node id="FoundationsVII.Join.Categorical"><data key="label">FoundationsVII.Join.Categorical</data></node>
+    <node id="FoundationsVII.Join.Degree"><data key="label">FoundationsVII.Join.Degree</data></node>
+    <node id="FoundationsVII.Join.Entry"><data key="label">FoundationsVII.Join.Entry</data></node>
+    <node id="FoundationsVII.Join.NonInteraction"><data key="label">FoundationsVII.Join.NonInteraction</data></node>
+    <node id="FoundationsVII.Join.Objecthood"><data key="label">FoundationsVII.Join.Objecthood</data></node>
+    <node id="FoundationsVII.Join.Retention"><data key="label">FoundationsVII.Join.Retention</data></node>
+    <node id="FoundationsVII.Join.Source"><data key="label">FoundationsVII.Join.Source</data></node>
+    <node id="FoundationsVII.Join.Status"><data key="label">FoundationsVII.Join.Status</data></node>
+    <node id="FoundationsVII.Join.Strictness"><data key="label">FoundationsVII.Join.Strictness</data></node>
+    <node id="FoundationsVII.Models.Finite.All"><data key="label">FoundationsVII.Models.Finite.All</data></node>
+    <node id="FoundationsVII.Models.Finite.Countermodels"><data key="label">FoundationsVII.Models.Finite.Countermodels</data></node>
+    <node id="FoundationsVII.Models.Finite.Detector"><data key="label">FoundationsVII.Models.Finite.Detector</data></node>
+    <node id="FoundationsVII.Models.Finite.Evaluator"><data key="label">FoundationsVII.Models.Finite.Evaluator</data></node>
+    <node id="FoundationsVII.Models.Finite.Flags"><data key="label">FoundationsVII.Models.Finite.Flags</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase2.AdmissionEnvelope"><data key="label">FoundationsVII.Models.Finite.Phase2.AdmissionEnvelope</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase2.All"><data key="label">FoundationsVII.Models.Finite.Phase2.All</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase3.All"><data key="label">FoundationsVII.Models.Finite.Phase3.All</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase3.ContactJoinEnvelope"><data key="label">FoundationsVII.Models.Finite.Phase3.ContactJoinEnvelope</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase3.ScenarioChecks"><data key="label">FoundationsVII.Models.Finite.Phase3.ScenarioChecks</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase4.All"><data key="label">FoundationsVII.Models.Finite.Phase4.All</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase4.DynamicsEnvelope"><data key="label">FoundationsVII.Models.Finite.Phase4.DynamicsEnvelope</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase4.ScenarioChecks"><data key="label">FoundationsVII.Models.Finite.Phase4.ScenarioChecks</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase5.All"><data key="label">FoundationsVII.Models.Finite.Phase5.All</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase5.ClosureEnvelope"><data key="label">FoundationsVII.Models.Finite.Phase5.ClosureEnvelope</data></node>
+    <node id="FoundationsVII.Models.Finite.Phase5.ScenarioChecks"><data key="label">FoundationsVII.Models.Finite.Phase5.ScenarioChecks</data></node>
+    <node id="FoundationsVII.Models.Finite.Regression"><data key="label">FoundationsVII.Models.Finite.Regression</data></node>
+    <node id="FoundationsVII.Models.Finite.Scenarios"><data key="label">FoundationsVII.Models.Finite.Scenarios</data></node>
+    <node id="FoundationsVII.Models.Finite.Serialization"><data key="label">FoundationsVII.Models.Finite.Serialization</data></node>
+    <node id="FoundationsVII.NoGo.Admission"><data key="label">FoundationsVII.NoGo.Admission</data></node>
+    <node id="FoundationsVII.NoGo.All"><data key="label">FoundationsVII.NoGo.All</data></node>
+    <node id="FoundationsVII.NoGo.Dynamics"><data key="label">FoundationsVII.NoGo.Dynamics</data></node>
+    <node id="FoundationsVII.NoGo.Join"><data key="label">FoundationsVII.NoGo.Join</data></node>
+    <node id="FoundationsVII.Prior.All"><data key="label">FoundationsVII.Prior.All</data></node>
+    <node id="FoundationsVII.Prior.Contract"><data key="label">FoundationsVII.Prior.Contract</data></node>
+    <node id="FoundationsVII.Prior.FT01"><data key="label">FoundationsVII.Prior.FT01</data></node>
+    <node id="FoundationsVII.Prior.FT02"><data key="label">FoundationsVII.Prior.FT02</data></node>
+    <node id="FoundationsVII.Prior.FT03"><data key="label">FoundationsVII.Prior.FT03</data></node>
+    <node id="FoundationsVII.Prior.FT04"><data key="label">FoundationsVII.Prior.FT04</data></node>
+    <node id="FoundationsVII.Prior.FT05"><data key="label">FoundationsVII.Prior.FT05</data></node>
+    <node id="FoundationsVII.Prior.FT06"><data key="label">FoundationsVII.Prior.FT06</data></node>
+    <node id="FoundationsVII.Prior.FT07"><data key="label">FoundationsVII.Prior.FT07</data></node>
+    <node id="FoundationsVII.Prior.FT08"><data key="label">FoundationsVII.Prior.FT08</data></node>
+    <node id="FoundationsVII.Prior.FT09"><data key="label">FoundationsVII.Prior.FT09</data></node>
+    <node id="FoundationsVII.Prior.FT10"><data key="label">FoundationsVII.Prior.FT10</data></node>
+    <node id="FoundationsVII.Prior.FT11"><data key="label">FoundationsVII.Prior.FT11</data></node>
+    <node id="FoundationsVII.Prior.FT12"><data key="label">FoundationsVII.Prior.FT12</data></node>
+    <node id="FoundationsVII.Prior.FT13"><data key="label">FoundationsVII.Prior.FT13</data></node>
+    <node id="FoundationsVII.Prior.FT14"><data key="label">FoundationsVII.Prior.FT14</data></node>
+    <node id="FoundationsVII.Prior.FT15"><data key="label">FoundationsVII.Prior.FT15</data></node>
+    <node id="FoundationsVII.Prior.FT16"><data key="label">FoundationsVII.Prior.FT16</data></node>
+    <node id="FoundationsVII.Prior.FT17"><data key="label">FoundationsVII.Prior.FT17</data></node>
+    <node id="FoundationsVII.Prior.FT18"><data key="label">FoundationsVII.Prior.FT18</data></node>
+    <node id="FoundationsVII.Prior.FT19"><data key="label">FoundationsVII.Prior.FT19</data></node>
+    <node id="FoundationsVII.Prior.FT20"><data key="label">FoundationsVII.Prior.FT20</data></node>
+    <node id="FoundationsVII.Prior.FoundationalObjects"><data key="label">FoundationsVII.Prior.FoundationalObjects</data></node>
+    <node id="FoundationsVII.Prior.Metadata"><data key="label">FoundationsVII.Prior.Metadata</data></node>
+    <node id="FoundationsVII.Release.All"><data key="label">FoundationsVII.Release.All</data></node>
+    <node id="FoundationsVII.Release.Terminal"><data key="label">FoundationsVII.Release.Terminal</data></node>
+    <node id="FoundationsVII.Residuals.All"><data key="label">FoundationsVII.Residuals.All</data></node>
+    <node id="FoundationsVII.Residuals.Ledger"><data key="label">FoundationsVII.Residuals.Ledger</data></node>
+    <node id="HolonomyMemory.Asymmetry"><data key="label">HolonomyMemory.Asymmetry</data></node>
+    <node id="HolonomyMemory.Basic"><data key="label">HolonomyMemory.Basic</data></node>
+    <node id="HolonomyMemory.Equivalences"><data key="label">HolonomyMemory.Equivalences</data></node>
+    <node id="HolonomyMemory.Interfaces"><data key="label">HolonomyMemory.Interfaces</data></node>
+    <node id="HolonomyMemory.Loops"><data key="label">HolonomyMemory.Loops</data></node>
+    <node id="HolonomyMemory.Transport"><data key="label">HolonomyMemory.Transport</data></node>
+    <node id="Main.CriticalPair"><data key="label">Main.CriticalPair</data></node>
+    <node id="Main.LegalQuotient"><data key="label">Main.LegalQuotient</data></node>
+    <node id="Main.XiInterface"><data key="label">Main.XiInterface</data></node>
+    <node id="SixBirds.Admissibility"><data key="label">SixBirds.Admissibility</data></node>
+    <node id="SixBirds.FATCD"><data key="label">SixBirds.FATCD</data></node>
+    <node id="SixBirds.Roles"><data key="label">SixBirds.Roles</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.CarriedRecord"><data key="label">SixBirdsFoundationsV.Definitional.CarriedRecord</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.ClosedLoopScope"><data key="label">SixBirdsFoundationsV.Definitional.ClosedLoopScope</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.ESystem"><data key="label">SixBirdsFoundationsV.Definitional.ESystem</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.PredictiveSurplus"><data key="label">SixBirdsFoundationsV.Definitional.PredictiveSurplus</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.ProbeEconomy"><data key="label">SixBirdsFoundationsV.Definitional.ProbeEconomy</data></node>
+    <node id="SixBirdsFoundationsV.Definitional.RepairJoin"><data key="label">SixBirdsFoundationsV.Definitional.RepairJoin</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E11InstitutionalRewrite"><data key="label">SixBirdsFoundationsV.Laws.E11InstitutionalRewrite</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E13RepairTransport"><data key="label">SixBirdsFoundationsV.Laws.E13RepairTransport</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E14Reconsolidation"><data key="label">SixBirdsFoundationsV.Laws.E14Reconsolidation</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E15OfflineReclosure"><data key="label">SixBirdsFoundationsV.Laws.E15OfflineReclosure</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E1Internalization"><data key="label">SixBirdsFoundationsV.Laws.E1Internalization</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E2BoundedReflexivity"><data key="label">SixBirdsFoundationsV.Laws.E2BoundedReflexivity</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure"><data key="label">SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E4RepairCompilation"><data key="label">SixBirdsFoundationsV.Laws.E4RepairCompilation</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E5ReclosureCollapse"><data key="label">SixBirdsFoundationsV.Laws.E5ReclosureCollapse</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="label">SixBirdsFoundationsV.Laws.E6E9PricedAccess</data></node>
+    <node id="SixBirdsFoundationsV.Laws.E7Alarm"><data key="label">SixBirdsFoundationsV.Laws.E7Alarm</data></node>
+    <node id="SixBirdsFoundationsVI.Laws.G8OdometerAbelianization"><data key="label">SixBirdsFoundationsVI.Laws.G8OdometerAbelianization</data></node>
+    <node id="SixBirdsIII.Basic"><data key="label">SixBirdsIII.Basic</data></node>
+    <node id="SixBirdsIII.CompletionExamples"><data key="label">SixBirdsIII.CompletionExamples</data></node>
+    <node id="SixBirdsIII.Defects"><data key="label">SixBirdsIII.Defects</data></node>
+    <node id="SixBirdsIII.Domain"><data key="label">SixBirdsIII.Domain</data></node>
+    <node id="SixBirdsIII.FiniteMaps"><data key="label">SixBirdsIII.FiniteMaps</data></node>
+    <node id="SixBirdsIII.FiniteProbability"><data key="label">SixBirdsIII.FiniteProbability</data></node>
+    <node id="SixBirdsIII.HighStructure"><data key="label">SixBirdsIII.HighStructure</data></node>
+    <node id="SixBirdsIII.InstrumentClaims"><data key="label">SixBirdsIII.InstrumentClaims</data></node>
+    <node id="SixBirdsIII.Promotion"><data key="label">SixBirdsIII.Promotion</data></node>
+    <node id="SixBirdsIII.Records"><data key="label">SixBirdsIII.Records</data></node>
+    <node id="SixBirdsIII.RotatingAudit"><data key="label">SixBirdsIII.RotatingAudit</data></node>
+    <node id="SixBirdsIII.Status"><data key="label">SixBirdsIII.Status</data></node>
+    <node id="SixBirdsIII.Strictness"><data key="label">SixBirdsIII.Strictness</data></node>
+    <node id="SixBirdsIII.TopDownChannel"><data key="label">SixBirdsIII.TopDownChannel</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.Adequacy"><data key="label">SixBirdsMetaMath.FoundationsIV.Access.Adequacy</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction"><data key="label">SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.Quotientality"><data key="label">SixBirdsMetaMath.FoundationsIV.Access.Quotientality</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure"><data key="label">SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence"><data key="label">SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence</data></node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair"><data key="label">SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair</data></node>
+    <node id="Xi.AdequacyResidual"><data key="label">Xi.AdequacyResidual</data></node>
+    <node id="Xi.Obstruction"><data key="label">Xi.Obstruction</data></node>
+    <node id="Xi.StrictExtension"><data key="label">Xi.StrictExtension</data></node>
+    <edge id="e0" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Bootstrap"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e1" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Commitment"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e2" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e3" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Observer"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e4" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Origin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e5" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e6" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Replay"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e7" source="FoundationsVII.Access.All" target="FoundationsVII.Access.Transitions"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e8" source="FoundationsVII.Access.Bootstrap" target="FoundationsVII.Access.Transitions"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e9" source="FoundationsVII.Access.Commitment" target="FoundationsVII.Access.Bootstrap"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e10" source="FoundationsVII.Access.Domain" target="FoundationsVII.Core.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e11" source="FoundationsVII.Access.Observer" target="FoundationsVII.Access.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e12" source="FoundationsVII.Access.Observer" target="FoundationsVII.Core.Observer"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e13" source="FoundationsVII.Access.Origin" target="FoundationsVII.Access.Commitment"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e14" source="FoundationsVII.Access.Reachability" target="FoundationsVII.Access.Origin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e15" source="FoundationsVII.Access.Reachability" target="FoundationsVII.Core.Protocols"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e16" source="FoundationsVII.Access.Replay" target="FoundationsVII.Access.Transitions"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e17" source="FoundationsVII.Access.Replay" target="FoundationsVII.Core.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e18" source="FoundationsVII.Access.Transitions" target="FoundationsVII.Access.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e19" source="FoundationsVII.Access.Transitions" target="FoundationsVII.Core.Ledgers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e20" source="FoundationsVII.Access.Transitions" target="FoundationsVII.Core.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e21" source="FoundationsVII.All" target="FoundationsVII.Access.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e22" source="FoundationsVII.All" target="FoundationsVII.Contact.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e23" source="FoundationsVII.All" target="FoundationsVII.Core.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e24" source="FoundationsVII.All" target="FoundationsVII.Corollaries.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e25" source="FoundationsVII.All" target="FoundationsVII.Dynamics.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e26" source="FoundationsVII.All" target="FoundationsVII.Enablement.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e27" source="FoundationsVII.All" target="FoundationsVII.Join.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e28" source="FoundationsVII.All" target="FoundationsVII.Models.Finite.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e29" source="FoundationsVII.All" target="FoundationsVII.NoGo.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e30" source="FoundationsVII.All" target="FoundationsVII.Prior.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e31" source="FoundationsVII.All" target="FoundationsVII.Release.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e32" source="FoundationsVII.All" target="FoundationsVII.Residuals.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e33" source="FoundationsVII.Contact.All" target="FoundationsVII.Contact.Transport"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e34" source="FoundationsVII.Contact.Transport" target="FoundationsVII.Core.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e35" source="FoundationsVII.Core.Admission" target="FoundationsVII.Core.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e36" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Admission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e37" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Audit"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e38" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Contact"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e39" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e40" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Enablement"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e41" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Grades"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e42" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Identifiers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e43" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Join"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e44" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Ledgers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e45" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Observer"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e46" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Protocols"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e47" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e48" source="FoundationsVII.Core.All" target="FoundationsVII.Core.Structural"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e49" source="FoundationsVII.Core.Audit" target="FoundationsVII.Core.Identifiers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e50" source="FoundationsVII.Core.Contact" target="FoundationsVII.Core.Admission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e51" source="FoundationsVII.Core.Contact" target="FoundationsVII.Core.Ledgers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e52" source="FoundationsVII.Core.Domain" target="FoundationsVII.Core.Audit"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e53" source="FoundationsVII.Core.Enablement" target="FoundationsVII.Core.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e54" source="FoundationsVII.Core.Enablement" target="FoundationsVII.Core.Ledgers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e55" source="FoundationsVII.Core.Grades" target="FoundationsVII.Core.Identifiers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e56" source="FoundationsVII.Core.Join" target="FoundationsVII.Core.Contact"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e57" source="FoundationsVII.Core.Ledgers" target="FoundationsVII.Core.Audit"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e58" source="FoundationsVII.Core.Observer" target="FoundationsVII.Core.Ledgers"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e59" source="FoundationsVII.Core.Protocols" target="FoundationsVII.Core.Enablement"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e60" source="FoundationsVII.Core.Protocols" target="FoundationsVII.Core.Grades"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e61" source="FoundationsVII.Core.Protocols" target="FoundationsVII.Core.Join"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e62" source="FoundationsVII.Core.Protocols" target="FoundationsVII.Core.Observer"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e63" source="FoundationsVII.Core.Protocols" target="FoundationsVII.Core.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e64" source="FoundationsVII.Core.Reachability" target="FoundationsVII.Core.Admission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e65" source="FoundationsVII.Core.Structural" target="FoundationsVII.Core.Protocols"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e66" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.EnablementResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e67" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.HolonomyArrow"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e68" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.NegativeForce"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e69" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.NoFreeJoin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e70" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.NonInteraction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e71" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.ObserverEndogeny"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e72" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.ProspectiveJoin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e73" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.RefinementDescent"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e74" source="FoundationsVII.Corollaries.All" target="FoundationsVII.Corollaries.SourceBudget"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e75" source="FoundationsVII.Corollaries.EnablementResidual" target="FoundationsVII.Enablement.Composition"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e76" source="FoundationsVII.Corollaries.EnablementResidual" target="FoundationsVII.Residuals.Ledger"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e77" source="FoundationsVII.Corollaries.HolonomyArrow" target="FoundationsVII.Dynamics.Holonomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e78" source="FoundationsVII.Corollaries.HolonomyArrow" target="FoundationsVII.Join.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e79" source="FoundationsVII.Corollaries.NegativeForce" target="FoundationsVII.Access.Reachability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e80" source="FoundationsVII.Corollaries.NegativeForce" target="FoundationsVII.Join.NonInteraction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e81" source="FoundationsVII.Corollaries.NoFreeJoin" target="FoundationsVII.NoGo.Admission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e82" source="FoundationsVII.Corollaries.NoFreeJoin" target="FoundationsVII.NoGo.Join"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e83" source="FoundationsVII.Corollaries.NonInteraction" target="FoundationsVII.Join.NonInteraction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e84" source="FoundationsVII.Corollaries.ObserverEndogeny" target="FoundationsVII.Access.Observer"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e85" source="FoundationsVII.Corollaries.ObserverEndogeny" target="FoundationsVII.Enablement.Endogenous"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e86" source="FoundationsVII.Corollaries.ProspectiveJoin" target="FoundationsVII.Access.Commitment"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e87" source="FoundationsVII.Corollaries.ProspectiveJoin" target="FoundationsVII.Access.Transitions"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e88" source="FoundationsVII.Corollaries.ProspectiveJoin" target="FoundationsVII.Join.Budget"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e89" source="FoundationsVII.Corollaries.ProspectiveJoin" target="FoundationsVII.Join.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e90" source="FoundationsVII.Corollaries.RefinementDescent" target="FoundationsVII.Dynamics.Transmission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e91" source="FoundationsVII.Corollaries.RefinementDescent" target="FoundationsVII.Join.Retention"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e92" source="FoundationsVII.Corollaries.SourceBudget" target="FoundationsVII.Join.Budget"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e93" source="FoundationsVII.Corollaries.SourceBudget" target="FoundationsVII.Join.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e94" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.Confluence"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e95" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.CrossTime"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e96" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.Holonomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e97" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.PrimitiveAlgebra"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e98" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.ResidualFlow"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e99" source="FoundationsVII.Dynamics.All" target="FoundationsVII.Dynamics.Transmission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e100" source="FoundationsVII.Dynamics.Confluence" target="FoundationsVII.Dynamics.Transmission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e101" source="FoundationsVII.Dynamics.Confluence" target="FoundationsVII.Prior.FT14"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e102" source="FoundationsVII.Dynamics.CrossTime" target="FoundationsVII.Dynamics.Holonomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e103" source="FoundationsVII.Dynamics.Holonomy" target="FoundationsVII.Dynamics.Confluence"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e104" source="FoundationsVII.Dynamics.Holonomy" target="FoundationsVII.Prior.FT15"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e105" source="FoundationsVII.Dynamics.PrimitiveAlgebra" target="FoundationsVII.Dynamics.CrossTime"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e106" source="FoundationsVII.Dynamics.PrimitiveAlgebra" target="FoundationsVII.Enablement.Composition"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e107" source="FoundationsVII.Dynamics.ResidualFlow" target="FoundationsVII.Dynamics.PrimitiveAlgebra"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e108" source="FoundationsVII.Dynamics.ResidualFlow" target="FoundationsVII.Prior.FT20"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e109" source="FoundationsVII.Dynamics.Transmission" target="FoundationsVII.Enablement.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e110" source="FoundationsVII.Dynamics.Transmission" target="FoundationsVII.Join.Retention"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e111" source="FoundationsVII.Dynamics.Transmission" target="FoundationsVII.Prior.FT13"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e112" source="FoundationsVII.Dynamics.Transmission" target="FoundationsVII.Prior.FT19"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e113" source="FoundationsVII.Enablement.All" target="FoundationsVII.Enablement.Attribution"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e114" source="FoundationsVII.Enablement.All" target="FoundationsVII.Enablement.Birth"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e115" source="FoundationsVII.Enablement.All" target="FoundationsVII.Enablement.Composition"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e116" source="FoundationsVII.Enablement.All" target="FoundationsVII.Enablement.Endogenous"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e117" source="FoundationsVII.Enablement.All" target="FoundationsVII.Enablement.Separation"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e118" source="FoundationsVII.Enablement.Attribution" target="FoundationsVII.Core.Enablement"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e119" source="FoundationsVII.Enablement.Attribution" target="FoundationsVII.Prior.FT11"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e120" source="FoundationsVII.Enablement.Birth" target="FoundationsVII.Contact.Transport"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e121" source="FoundationsVII.Enablement.Birth" target="FoundationsVII.Enablement.Endogenous"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e122" source="FoundationsVII.Enablement.Composition" target="FoundationsVII.Enablement.Separation"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e123" source="FoundationsVII.Enablement.Composition" target="FoundationsVII.Residuals.Ledger"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e124" source="FoundationsVII.Enablement.Endogenous" target="FoundationsVII.Enablement.Attribution"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e125" source="FoundationsVII.Enablement.Endogenous" target="FoundationsVII.Prior.FT12"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e126" source="FoundationsVII.Enablement.Endogenous" target="FoundationsVII.Prior.FT16"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e127" source="FoundationsVII.Enablement.Separation" target="FoundationsVII.Enablement.Birth"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e128" source="FoundationsVII.Enablement.Separation" target="FoundationsVII.Prior.FT13"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e129" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Budget"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e130" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Categorical"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e131" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Degree"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e132" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Entry"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e133" source="FoundationsVII.Join.All" target="FoundationsVII.Join.NonInteraction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e134" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Objecthood"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e135" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Retention"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e136" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Source"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e137" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Status"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e138" source="FoundationsVII.Join.All" target="FoundationsVII.Join.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e139" source="FoundationsVII.Join.Budget" target="FoundationsVII.Join.Source"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e140" source="FoundationsVII.Join.Categorical" target="FoundationsVII.Residuals.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e141" source="FoundationsVII.Join.Degree" target="FoundationsVII.Join.Categorical"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e142" source="FoundationsVII.Join.Entry" target="FoundationsVII.Contact.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e143" source="FoundationsVII.Join.NonInteraction" target="FoundationsVII.Residuals.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e144" source="FoundationsVII.Join.Objecthood" target="FoundationsVII.Join.Entry"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e145" source="FoundationsVII.Join.Retention" target="FoundationsVII.Join.Budget"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e146" source="FoundationsVII.Join.Source" target="FoundationsVII.Join.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e147" source="FoundationsVII.Join.Status" target="FoundationsVII.Join.Entry"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e148" source="FoundationsVII.Join.Strictness" target="FoundationsVII.Join.Status"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e149" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Countermodels"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e150" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Evaluator"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e151" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Flags"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e152" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Phase2.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e153" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Phase3.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e154" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Phase4.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e155" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Phase5.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e156" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Regression"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e157" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Scenarios"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e158" source="FoundationsVII.Models.Finite.All" target="FoundationsVII.Models.Finite.Serialization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e159" source="FoundationsVII.Models.Finite.Countermodels" target="FoundationsVII.Models.Finite.Scenarios"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e160" source="FoundationsVII.Models.Finite.Detector" target="FoundationsVII.Models.Finite.Countermodels"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e161" source="FoundationsVII.Models.Finite.Evaluator" target="FoundationsVII.Models.Finite.Flags"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e162" source="FoundationsVII.Models.Finite.Flags" target="FoundationsVII.Core.Protocols"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e163" source="FoundationsVII.Models.Finite.Phase2.AdmissionEnvelope" target="FoundationsVII.NoGo.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e164" source="FoundationsVII.Models.Finite.Phase2.All" target="FoundationsVII.Models.Finite.Phase2.AdmissionEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e165" source="FoundationsVII.Models.Finite.Phase3.All" target="FoundationsVII.Models.Finite.Phase3.ContactJoinEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e166" source="FoundationsVII.Models.Finite.Phase3.All" target="FoundationsVII.Models.Finite.Phase3.ScenarioChecks"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e167" source="FoundationsVII.Models.Finite.Phase3.ContactJoinEnvelope" target="FoundationsVII.NoGo.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e168" source="FoundationsVII.Models.Finite.Phase3.ScenarioChecks" target="FoundationsVII.Models.Finite.Phase3.ContactJoinEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e169" source="FoundationsVII.Models.Finite.Phase4.All" target="FoundationsVII.Models.Finite.Phase4.DynamicsEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e170" source="FoundationsVII.Models.Finite.Phase4.All" target="FoundationsVII.Models.Finite.Phase4.ScenarioChecks"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e171" source="FoundationsVII.Models.Finite.Phase4.DynamicsEnvelope" target="FoundationsVII.NoGo.Dynamics"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e172" source="FoundationsVII.Models.Finite.Phase4.ScenarioChecks" target="FoundationsVII.Models.Finite.Phase4.DynamicsEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e173" source="FoundationsVII.Models.Finite.Phase5.All" target="FoundationsVII.Models.Finite.Phase5.ClosureEnvelope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e174" source="FoundationsVII.Models.Finite.Phase5.All" target="FoundationsVII.Models.Finite.Phase5.ScenarioChecks"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e175" source="FoundationsVII.Models.Finite.Phase5.ClosureEnvelope" target="FoundationsVII.Corollaries.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e176" source="FoundationsVII.Models.Finite.Phase5.ScenarioChecks" target="FoundationsVII.Models.Finite.Regression"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e177" source="FoundationsVII.Models.Finite.Regression" target="FoundationsVII.Models.Finite.Detector"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e178" source="FoundationsVII.Models.Finite.Regression" target="FoundationsVII.Models.Finite.Serialization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e179" source="FoundationsVII.Models.Finite.Scenarios" target="FoundationsVII.Models.Finite.Evaluator"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e180" source="FoundationsVII.Models.Finite.Serialization" target="FoundationsVII.Models.Finite.Countermodels"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e181" source="FoundationsVII.NoGo.Admission" target="FoundationsVII.Access.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e182" source="FoundationsVII.NoGo.All" target="FoundationsVII.NoGo.Admission"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e183" source="FoundationsVII.NoGo.All" target="FoundationsVII.NoGo.Dynamics"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e184" source="FoundationsVII.NoGo.All" target="FoundationsVII.NoGo.Join"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e185" source="FoundationsVII.NoGo.Dynamics" target="FoundationsVII.Dynamics.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e186" source="FoundationsVII.NoGo.Join" target="FoundationsVII.Join.NonInteraction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e187" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.Contract"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e188" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT01"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e189" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT02"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e190" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT03"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e191" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT04"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e192" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT05"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e193" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT06"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e194" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT07"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e195" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT08"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e196" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT09"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e197" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT10"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e198" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT11"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e199" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT12"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e200" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT13"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e201" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT14"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e202" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT15"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e203" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT16"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e204" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT17"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e205" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT18"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e206" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT19"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e207" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FT20"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e208" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.FoundationalObjects"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e209" source="FoundationsVII.Prior.All" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e210" source="FoundationsVII.Prior.Contract" target="FoundationsVII.Core.Grades"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e211" source="FoundationsVII.Prior.FT01" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e212" source="FoundationsVII.Prior.FT01" target="SixBirds.Admissibility"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e213" source="FoundationsVII.Prior.FT01" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e214" source="FoundationsVII.Prior.FT02" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e215" source="FoundationsVII.Prior.FT02" target="SixBirdsFoundationsV.Laws.E5ReclosureCollapse"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e216" source="FoundationsVII.Prior.FT03" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e217" source="FoundationsVII.Prior.FT03" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e218" source="FoundationsVII.Prior.FT04" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e219" source="FoundationsVII.Prior.FT04" target="SixBirdsFoundationsV.Laws.E15OfflineReclosure"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e220" source="FoundationsVII.Prior.FT05" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e221" source="FoundationsVII.Prior.FT05" target="SixBirdsFoundationsV.Definitional.CarriedRecord"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e222" source="FoundationsVII.Prior.FT05" target="SixBirdsFoundationsV.Laws.E13RepairTransport"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e223" source="FoundationsVII.Prior.FT06" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e224" source="FoundationsVII.Prior.FT06" target="SixBirdsIII.InstrumentClaims"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e225" source="FoundationsVII.Prior.FT07" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e226" source="FoundationsVII.Prior.FT07" target="SixBirdsFoundationsV.Definitional.RepairJoin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e227" source="FoundationsVII.Prior.FT08" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e228" source="FoundationsVII.Prior.FT08" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e229" source="FoundationsVII.Prior.FT09" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e230" source="FoundationsVII.Prior.FT09" target="SixBirdsFoundationsV.Laws.E4RepairCompilation"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e231" source="FoundationsVII.Prior.FT09" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e232" source="FoundationsVII.Prior.FT10" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e233" source="FoundationsVII.Prior.FT10" target="SixBirdsFoundationsV.Laws.E11InstitutionalRewrite"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e234" source="FoundationsVII.Prior.FT11" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e235" source="FoundationsVII.Prior.FT11" target="SixBirdsFoundationsV.Laws.E5ReclosureCollapse"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e236" source="FoundationsVII.Prior.FT12" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e237" source="FoundationsVII.Prior.FT12" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e238" source="FoundationsVII.Prior.FT13" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e239" source="FoundationsVII.Prior.FT13" target="SixBirdsIII.HighStructure"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e240" source="FoundationsVII.Prior.FT14" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e241" source="FoundationsVII.Prior.FT14" target="SixBirdsFoundationsVI.Laws.G8OdometerAbelianization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e242" source="FoundationsVII.Prior.FT15" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e243" source="FoundationsVII.Prior.FT15" target="HolonomyMemory.Asymmetry"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e244" source="FoundationsVII.Prior.FT16" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e245" source="FoundationsVII.Prior.FT16" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e246" source="FoundationsVII.Prior.FT17" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e247" source="FoundationsVII.Prior.FT17" target="SixBirds.Admissibility"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e248" source="FoundationsVII.Prior.FT18" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e249" source="FoundationsVII.Prior.FT18" target="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e250" source="FoundationsVII.Prior.FT19" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e251" source="FoundationsVII.Prior.FT19" target="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e252" source="FoundationsVII.Prior.FT20" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e253" source="FoundationsVII.Prior.FT20" target="SixBirdsFoundationsV.Laws.E5ReclosureCollapse"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e254" source="FoundationsVII.Prior.FT20" target="Xi.Obstruction"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e255" source="FoundationsVII.Prior.FoundationalObjects" target="ClosureLadder.Basic"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e256" source="FoundationsVII.Prior.FoundationalObjects" target="FoundationsVII.Prior.Metadata"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e257" source="FoundationsVII.Prior.FoundationalObjects" target="SixBirds.Admissibility"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e258" source="FoundationsVII.Prior.FoundationalObjects" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e259" source="FoundationsVII.Prior.FoundationalObjects" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e260" source="FoundationsVII.Release.All" target="FoundationsVII.Release.Terminal"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e261" source="FoundationsVII.Release.Terminal" target="FoundationsVII.Corollaries.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e262" source="FoundationsVII.Release.Terminal" target="FoundationsVII.Models.Finite.Phase5.All"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e263" source="FoundationsVII.Residuals.All" target="FoundationsVII.Residuals.Ledger"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e264" source="FoundationsVII.Residuals.Ledger" target="FoundationsVII.Join.Retention"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e265" source="HolonomyMemory.Asymmetry" target="HolonomyMemory.Loops"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e266" source="HolonomyMemory.Equivalences" target="HolonomyMemory.Interfaces"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e267" source="HolonomyMemory.Interfaces" target="HolonomyMemory.Basic"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e268" source="HolonomyMemory.Loops" target="HolonomyMemory.Transport"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e269" source="HolonomyMemory.Transport" target="HolonomyMemory.Equivalences"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e270" source="Main.CriticalPair" target="Main.LegalQuotient"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e271" source="Main.CriticalPair" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e272" source="Main.XiInterface" target="Main.LegalQuotient"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e273" source="Main.XiInterface" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e274" source="SixBirds.Admissibility" target="SixBirds.FATCD"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e275" source="SixBirds.FATCD" target="SixBirds.Roles"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e276" source="SixBirdsFoundationsV.Definitional.CarriedRecord" target="SixBirdsIII.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e277" source="SixBirdsFoundationsV.Definitional.ClosedLoopScope" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e278" source="SixBirdsFoundationsV.Definitional.ESystem" target="SixBirdsFoundationsV.Definitional.CarriedRecord"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e279" source="SixBirdsFoundationsV.Definitional.PredictiveSurplus" target="SixBirdsIII.FiniteProbability"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e280" source="SixBirdsFoundationsV.Definitional.PredictiveSurplus" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e281" source="SixBirdsFoundationsV.Definitional.PredictiveSurplus" target="Xi.StrictExtension"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e282" source="SixBirdsFoundationsV.Definitional.ProbeEconomy" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e283" source="SixBirdsFoundationsV.Definitional.ProbeEconomy" target="SixBirdsFoundationsV.Definitional.PredictiveSurplus"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e284" source="SixBirdsFoundationsV.Laws.E11InstitutionalRewrite" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e285" source="SixBirdsFoundationsV.Laws.E11InstitutionalRewrite" target="SixBirdsIII.TopDownChannel"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e286" source="SixBirdsFoundationsV.Laws.E13RepairTransport" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e287" source="SixBirdsFoundationsV.Laws.E13RepairTransport" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e288" source="SixBirdsFoundationsV.Laws.E14Reconsolidation" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e289" source="SixBirdsFoundationsV.Laws.E14Reconsolidation" target="SixBirdsFoundationsV.Definitional.RepairJoin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e290" source="SixBirdsFoundationsV.Laws.E14Reconsolidation" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e291" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="SixBirdsFoundationsV.Laws.E14Reconsolidation"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e292" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="SixBirdsFoundationsV.Laws.E5ReclosureCollapse"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e293" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e294" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="SixBirdsFoundationsV.Laws.E7Alarm"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e295" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="SixBirdsIII.Basic"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e296" source="SixBirdsFoundationsV.Laws.E15OfflineReclosure" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e297" source="SixBirdsFoundationsV.Laws.E1Internalization" target="SixBirdsFoundationsV.Definitional.ClosedLoopScope"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e298" source="SixBirdsFoundationsV.Laws.E1Internalization" target="SixBirdsFoundationsV.Definitional.RepairJoin"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e299" source="SixBirdsFoundationsV.Laws.E2BoundedReflexivity" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e300" source="SixBirdsFoundationsV.Laws.E2BoundedReflexivity" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e301" source="SixBirdsFoundationsV.Laws.E2BoundedReflexivity" target="SixBirdsIII.InstrumentClaims"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e302" source="SixBirdsFoundationsV.Laws.E2BoundedReflexivity" target="SixBirdsIII.RotatingAudit"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e303" source="SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e304" source="SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e305" source="SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure" target="SixBirdsFoundationsV.Laws.E2BoundedReflexivity"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e306" source="SixBirdsFoundationsV.Laws.E4RepairCompilation" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e307" source="SixBirdsFoundationsV.Laws.E4RepairCompilation" target="SixBirdsFoundationsV.Definitional.ProbeEconomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e308" source="SixBirdsFoundationsV.Laws.E4RepairCompilation" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e309" source="SixBirdsFoundationsV.Laws.E4RepairCompilation" target="SixBirdsIII.Promotion"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e310" source="SixBirdsFoundationsV.Laws.E4RepairCompilation" target="SixBirdsIII.TopDownChannel"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e311" source="SixBirdsFoundationsV.Laws.E5ReclosureCollapse" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e312" source="SixBirdsFoundationsV.Laws.E5ReclosureCollapse" target="SixBirdsFoundationsV.Definitional.ProbeEconomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e313" source="SixBirdsFoundationsV.Laws.E5ReclosureCollapse" target="SixBirdsFoundationsV.Laws.E1Internalization"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e314" source="SixBirdsFoundationsV.Laws.E5ReclosureCollapse" target="SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e315" source="SixBirdsFoundationsV.Laws.E5ReclosureCollapse" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e316" source="SixBirdsFoundationsV.Laws.E6E9PricedAccess" target="SixBirdsFoundationsV.Definitional.ESystem"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e317" source="SixBirdsFoundationsV.Laws.E6E9PricedAccess" target="SixBirdsFoundationsV.Definitional.ProbeEconomy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e318" source="SixBirdsFoundationsV.Laws.E7Alarm" target="SixBirdsFoundationsV.Laws.E6E9PricedAccess"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e319" source="SixBirdsIII.Defects" target="SixBirdsIII.FiniteMaps"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e320" source="SixBirdsIII.Defects" target="SixBirdsIII.Strictness"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e321" source="SixBirdsIII.Domain" target="SixBirdsIII.Status"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e322" source="SixBirdsIII.HighStructure" target="SixBirdsIII.CompletionExamples"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e323" source="SixBirdsIII.HighStructure" target="SixBirdsIII.Defects"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e324" source="SixBirdsIII.HighStructure" target="SixBirdsIII.FiniteMaps"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e325" source="SixBirdsIII.InstrumentClaims" target="SixBirdsIII.Status"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e326" source="SixBirdsIII.Promotion" target="SixBirdsIII.Defects"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e327" source="SixBirdsIII.Promotion" target="SixBirdsIII.Status"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e328" source="SixBirdsIII.Records" target="SixBirdsIII.Domain"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e329" source="SixBirdsIII.Status" target="SixBirdsIII.Basic"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e330" source="SixBirdsIII.Strictness" target="SixBirdsIII.FiniteMaps"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e331" source="SixBirdsIII.TopDownChannel" target="SixBirdsIII.Records"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e332" source="SixBirdsMetaMath.FoundationsIV.Access.Adequacy" target="SixBirdsMetaMath.FoundationsIV.Access.Quotientality"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e333" source="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction" target="SixBirdsMetaMath.FoundationsIV.Access.Adequacy"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e334" source="SixBirdsMetaMath.FoundationsIV.Access.Quotientality" target="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e335" source="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e336" source="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e337" source="Xi.AdequacyResidual" target="Main.LegalQuotient"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e338" source="Xi.Obstruction" target="Main.LegalQuotient"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e339" source="Xi.Obstruction" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e340" source="Xi.StrictExtension" target="Main.CriticalPair"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e341" source="Xi.StrictExtension" target="Main.LegalQuotient"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e342" source="Xi.StrictExtension" target="Main.XiInterface"><data key="kind">LEAN_IMPORT</data></edge>
+    <edge id="e343" source="Xi.StrictExtension" target="Xi.AdequacyResidual"><data key="kind">LEAN_IMPORT</data></edge>
+  </graph>
+</graphml>

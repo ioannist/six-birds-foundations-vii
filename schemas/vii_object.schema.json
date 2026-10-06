@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://six-birds.local/schemas/vii_object.schema.json",
+  "title": "Foundations VII Minimal Object Record",
+  "type": "object",
+  "required": ["object_id", "name", "signature", "status", "defined_from", "irreducibility", "candidate_ids", "nonclaims"],
+  "properties": {
+    "object_id": {"type": "string", "pattern": "^VII-O[0-9]{2}$"},
+    "name": {"type": "string", "minLength": 2},
+    "signature": {"type": "string", "minLength": 3},
+    "status": {"enum": ["INHERITED", "NEW_CANDIDATE", "ADAPTER_OR_REFINEMENT"]},
+    "defined_from": {
+      "type": "array", "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^VII-O[0-9]{2}$"}
+    },
+    "irreducibility": {"type": "string", "minLength": 3},
+    "candidate_ids": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^VII-C[0-9]{3}$"}
+    },
+    "nonclaims": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "string", "minLength": 3}
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,102 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+.lake/
+.pytest_cache/
+formalization/foundations_vi_scaffold/lean/.lake/
+formalization/lean/.lake/
+# Machine-local AI-assisted workflow state. These files are intentionally kept
+# outside the public repository while remaining available to local maintainers.
+.codex/
+
+# Private research-discovery material; the verified citations and placement
+# decisions are retained in paper/references.bib and docs/EXTERNAL_ANCHORS.md.
+docs/MANUS_EXTERNAL_CITATION_RESEARCH_PROMPT.md
+docs/external_literature_corpus/
+docs/PRESHIP_PHASE_LOG.md
+
+# Locally retained planning inputs whose normalized, adjudicated outputs are
+# committed under wishlists/ and readiness/.
+source/WISHLIST*.md
+
+# Original supplied archives may contain operational review material. The
+# curated extracted trees, import manifests, archive digests, and upstream
+# commit identities remain tracked.
+formalization/_provenance/six-birds-cognition_v45_2.zip
+formalization/_provenance/six-birds-collatz_v19.zip
+source/_provenance/six-birds-foundations-vii_v0.zip
+
+# Regenerable extraction diagnostics and superseded manuscript scaffolding.
+derived/logs/
+derived/plain/*.err
+paper/external_citation_bibliography.md
+paper/figures/fig_*_template.tex
+paper/notes/*-template.md
+paper/submission/*-template.*
+paper/tables/tab_*_template.tex
+
+# Planning records, wish lists and the source-paper corpus (kept on disk)
+/STEP*_REPORT.md
+/STEP1_COMPLETION_REPORT.md
+/PRESTEP*_REPORT.md
+/SCIENCE_PLAN*.md
+/science_plan/
+/paper_prep/
+/wishlists/
+/scripts/build_wishlist_registry.py
+/docs/PLAN.md
+/docs/PRESHIP_*.md
+/docs/READABILITY_*.md
+/docs/STEP*_METHOD.md
+/docs/PRESTEP*_ADDENDUM.md
+/docs/WISHLIST_*.md
+/source/papers/
+/derived/
+/formalization/foundations_v_scaffold/LANDING_PLAN.md
+/formalization/foundations_v_scaffold/kb/
+/formalization/foundations_vi_scaffold/design/
+
+# Build output and editor noise
+paper/build/
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local secrets and credentials (keep only an explicit example file)
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.pypirc
+credentials*.json
+*secret*
+*token*.txt
+
+# Local agent, prompt, transcript and session state (any depth)
+**/.agents/
+**/.codex/
+**/.claude/
+**/.cursor/
+**/.aider*
+**/.continue/
+**/.specstory/
+**/.windsurf/
+**/.codex_thread_id*
+/memory/
+/prompts/
+/skills/
+**/transcripts/
+**/rollout-*.jsonl
+**/*.transcript*
+**/CLAUDE.local.md
+**/.claude.json
+/paper/notation_and_terminology.md
+/config/wishlist_catalog.csv
+/config/planning_input_hashes.sha256

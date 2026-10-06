@@ -1,0 +1,29 @@
+import FoundationsVII.Prior.Contract
+import ClosureLadder.Basic
+import SixBirdsFoundationsV.Laws.E6E9PricedAccess
+
+#check ClosureLadder.ClosureOp
+#check ClosureLadder.ClosureLadder
+#check SixBirdsFoundationsV.AccessPolicy
+
+namespace FoundationsVII.Prior
+
+abbrev PriorClosureOp := ClosureLadder.ClosureOp
+abbrev PriorClosureLadder := ClosureLadder.ClosureLadder
+
+/-- FT01: theory/interface/access-policy reuse. -/
+def ft01TheoryInterface : AdapterContract :=
+  { adapterId := "ADAPTER-FT01-THEORY-INTERFACE"
+    formalizationTargetIds := ["FT01"]
+    sourceModule := "ClosureLadder.Basic; SixBirdsFoundationsV.Laws.E6E9PricedAccess"
+    sourceDeclarations := ["ClosureLadder.ClosureOp", "ClosureLadder.ClosureLadder", "SixBirdsFoundationsV.AccessPolicy"]
+    sourceTypes := ["closure operator and closure ladder", "priced access policy over probes and Xi families"]
+    targetTypes := ["FoundationsVII.DomainState", "FoundationsVII.AdmissionTransition"]
+    preservedHypotheses := ["declared carrier", "closure law", "typed probe/access family"]
+    addedHypotheses := ["explicit VII scope and timestamp", "separate reachability and occurrence fields"]
+    lostHypotheses := []
+    trustDependencies := []
+    nonclaims := ["The adapter does not identify the inherited closure carrier with every VII domain state."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

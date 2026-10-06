@@ -1,0 +1,1751 @@
+{
+  "candidate_id": "VII-C019",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG22"
+  ],
+  "countermodels": [
+    "CM-22",
+    "CM-25"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Access/join residual and obstruction-dissolution ledger.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Access/join residual and obstruction-dissolution ledger record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Inaccessible, unadmitted, expired, failed, or join-created distinctions remain typed residuals; ascent, peer join, refinement, or declared termination may discharge them, with cross-terms recorded explicitly.",
+  "formalization_targets": [
+    "FT09",
+    "FT20"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Inaccessible, unadmitted, expired, failed, or join-created distinctions remain typed residuals; ascent, peer join, refinement, or declared termination may discharge them, with cross-terms recorded explicitly.",
+  "kind": "DEFINITION_AND_CANDIDATE_LAWS",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Access/join residual and obstruction-dissolution ledger",
+  "nonclaims": [
+    "Access growth need not monotonically reduce all obstructions.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S24"
+  ],
+  "positive_model": [
+    "TTW-S10"
+  ],
+  "priority": "P1",
+  "proof_obligations": [
+    "Define residual addition and cross-term conditions.",
+    "Construct peer-removable and join-manufactured needles.",
+    "Prove no silent deletion under scope changes."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Inaccessible, unadmitted, expired, failed, or join-created distinctions remain typed residuals; ascent, peer join, refinement, or declared termination may discharge them, with cross-terms recorded explicitly.",
+  "recommended_chapter": "Ch10",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P015-C0020",
+      "P023-C0018",
+      "P034-C0054",
+      "P034-C0049",
+      "P034-C0055",
+      "P025-C0019",
+      "P023-C0002",
+      "P034-C0003",
+      "P034-C0046",
+      "P034-C0041",
+      "P034-C0053",
+      "P032-C0005",
+      "P032-C0019",
+      "P032-C0013",
+      "P034-C0050",
+      "P032-C0017",
+      "P032-C0015",
+      "P032-C0011",
+      "P032-C0009",
+      "P032-C0007"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0090",
+      "BR-CITE-0127",
+      "BR-CITE-0137",
+      "BR-CITE-0138",
+      "BR-CITE-0139",
+      "BR-CITE-0140",
+      "BR-CITE-0141",
+      "BR-CITE-0037",
+      "BR-CITE-0058",
+      "BR-CITE-0059",
+      "BR-CITE-0217",
+      "BR-CITE-0007",
+      "BR-CITE-0056",
+      "BR-CITE-0057",
+      "BR-CITE-0052",
+      "BR-CITE-0107",
+      "BR-CITE-0097",
+      "BR-CITE-0046"
+    ],
+    "law_or_no_go_ids": [
+      "NG_ARROW_DPI",
+      "NG_LADDER_BOUNDED_INTERFACE",
+      "NG_MACRO_CLOSURE_DEFICIT",
+      "NG_FORCE_NULL",
+      "NG_LADDER_IDEM",
+      "NG_OBJECT_CONTRACTIVE",
+      "NG_FORCE_FOREST",
+      "NG_PROTOCOL_TRAP"
+    ],
+    "open_problem_ids": [
+      "P025-C0002",
+      "P025-C0021",
+      "P025-C0020",
+      "P023-C0023"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P015-C0009",
+        "claim_type": "proposition",
+        "conclusion": "Variation of the outer mechanism or control-space point may change which contexts or package families are available, but it does not by itself imply that two contexts form incompatible record algebras on one fixed support object.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Mechanism change does not by itself imply lens incompatibility: Variation of the outer mechanism or control-space point may change which contexts or package families are available, but it does not by itself imply that two contexts form incompatible record algebras on one fixed support object.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L272-L274; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L272-L274",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P015-C0008",
+        "claim_type": "result_summary",
+        "conclusion": "The three-axis hierarchy is a disciplined account of how contexts are generated and what kind of claim each comparison may support. The resulting implications and non-implications can be stated compactly. [Mechanism change does not by itself imply lens incompatibility] Variation of the outer mechanism or control-space point may change which contexts or package families are available, but it does not by itself imply that two contexts form incompatible record algebras on one fixed support object.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Proposition layer: The three-axis hierarchy is a disciplined account of how contexts are generated and what kind of claim each comparison may support. The resulting implications and non-implications can be stated compactly. [Mechanism change does not by itself imply lens incompatibility] Variation of the outer mechanism or control-space point may change which contexts or package families are available, but it does not by itself imply that two contexts form incompatible record algebras on one fixed support object.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L268-L296; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L268-L296",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P023-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Accounting-style inequalities are central in Six Birds Theory, but they do not by themselves rule out catastrophic extremes: highly localized ``needle'' probes can satisfy global budgets while producing large peaks. We ask when packaging plus accounting forces anti-localization, and propose Reflexive SBT: a capacity-based audit of the packaged artifacts (subspaces, feasibility dictionaries, and route ladders). We define a localization metric _j at cell scale 2^ -j , compute it via an eigenvalue method, and upper-bound it using three auditable capacities: subspace trace/diagonal dispersion, sparse feasibility conditioning on small supports, and a route-union ledger charging multi-route inflation. We find three controlled separations: (i) shift-invariant channels (Fourier/circulant) have uniform projector diagonals and _j follows the deterministic m/2^j bound, while diagonal disorder drives _j rapidly toward 1 compared with full-noise perturbations; (ii) feasibility-level needles arise exactly when small-support conditioning collapses ( sigma_ → 0 ) and are absent in random baselines; (iii) for spectral packaging, route mismatch spikes only at degenerate cutoffs and is eliminated by a canonical tie-break, with remaining route effects captured by the union ledger. This turns the anti-localization hinge into a reproducible checklist and yields a conditional theorem: vanishing capacity implies _j→ 0 along a ladder. We are explicit that Reflexive SBT is not proven here to universally drive capacities to zero; we prove the capacity implies anti-localization implications and provide auditable closure evidence on canonical failure and repair modes.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Accounting-style inequalities are central in Six Birds Theory, but they do not by themselves rule out catastrophic extremes: highly localized ``needle'' probes can satisfy global budgets while producing large peaks. We ask when packaging plus accounting forces anti-localization, and propose Reflexive SBT: a capacity-based audit of the packaged artifacts (subspaces, feasibility dictionaries, and route ladders). We define a localization metric _j at cell scale 2^ -j , compute it via an eigenvalue method, and upper-bound it using three auditable capacities: subspace trace/diagonal dispersion, sparse feasibility conditioning on small supports, and a route-union ledger charging multi-route inflation. We find three controlled separations: (i) shift-invariant channels (Fourier/circulant) have uniform projector diagonals and _j follows the deterministic m/2^j bound, while diagonal disorder drives _j rapidly toward 1 compared with full-noise perturbations; (ii) feasibility-level needles arise exactly when small-support conditioning collapses ( sigma_ → 0 ) and are absent in random baselines; (iii) for spectral packaging, route mismatch spikes only at degenerate cutoffs and is eliminated by a canonical tie-break, with remaining route effects captured by the union ledger. This turns the anti-localization hinge into a reproducible checklist and yields a conditional theorem: vanishing capacity implies _j→ 0 along a ladder. We are explicit that Reflexive SBT is not proven here to universally drive capacities to zero; we prove the capacity implies anti-localization implications and provide auditable closure evidence on canonical failure and repair modes.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L76-L81; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L76-L81",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PAPER_STATED_RESULT_SUMMARY",
+        "claim_id": "P034-C0038",
+        "claim_type": "result_summary",
+        "conclusion": "Theorem is the key comparative transfer result. It shows that efficiency belongs, on a frozen slice, not to an arbitrary syntactic representative but to the cone-equivalence class that the slice can actually see.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Theorem is the key comparative transfer result. It shows that efficiency belongs, on a frozen slice, not to an arbitrary syntactic representative but to the cone-equivalence class that the slice can actually see.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L528; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L528",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P034-C0027",
+        "claim_type": "proposition",
+        "conclusion": "for every x∈ X and every n∈ N , op^ [n+1] (x)=op(x). Equivalently, once the fixed package has acted once, further self-iteration does not move the result any farther",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let pkg=(X,op) be a closure package"
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "One-step saturation: Let pkg=(X,op) be a closure package. Then for every x∈ X and every n∈ N , op^ [n+1] (x)=op(x). Equivalently, once the fixed package has acted once, further self-iteration does not move the result any farther.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L348-L354; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L348-L354",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0034",
+        "claim_type": "lemma",
+        "conclusion": "for every probability law Q on Omega , _ i∈ I w_i D_ KL (P_i \\| Q ) = _ i∈ I w_i D_ KL (P_i \\| R ) + W D_ KL (R \\| Q ). In particular, Q=R is a minimizer, and the minimum value is _ i∈ I w_i D_ KL (P_i \\| R )",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let (w_i)_ i∈ I be nonnegative weights on a finite index set I , not all zero, and let (P_i)_ i∈ I be probability laws on a finite set Omega . Define W := _ i∈ I w_i, R := 1 W _ i∈ I w_i P_i"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "KL mixture decomposition: Let (w_i)_ i∈ I be nonnegative weights on a finite index set I , not all zero, and let (P_i)_ i∈ I be probability laws on a finite set Omega . Define W := _ i∈ I w_i, R := 1 W _ i∈ I w_i P_i. Then for every probability law Q on Omega , _ i∈ I w_i D_ KL (P_i \\| Q ) = _ i∈ I w_i D_ KL (P_i \\| R ) + W D_ KL (R \\| Q ). In particular, Q=R is a minimizer, and the minimum value is _ i∈ I w_i D_ KL (P_i \\| R ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L695-L716; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L695-L716",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0013",
+        "claim_type": "theorem",
+        "conclusion": "localization is bounded at scale j by a constant of order salpha/ ^2",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Fix a support S with |S| s . For any nonzero v=D_S a , _ B∈B_j \\|v_B\\|_2^2 \\|v\\|_2^2 _ B∈B_j \\|D_ S,B \\|_ op ^2 sigma_ (D_S)^2 . In particular, if sigma_ (D_S) >0 for all |S| s and each atom has bounded cell energy _ B \\|d_i\\|_ B ^2 alpha"
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Conditioning controls cancellation-based localization (informal): Fix a support S with |S| s . For any nonzero v=D_S a , _ B∈B_j \\|v_B\\|_2^2 \\|v\\|_2^2 _ B∈B_j \\|D_ S,B \\|_ op ^2 sigma_ (D_S)^2 . In particular, if sigma_ (D_S) >0 for all |S| s and each atom has bounded cell energy _ B \\|d_i\\|_ B ^2 alpha , then localization is bounded at scale j by a constant of order salpha/ ^2 .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L574-L581; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L574-L581",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0019",
+        "claim_type": "theorem",
+        "conclusion": "for all m_1<m_2 , the sequential and direct routes agree: P_ seq,can = P_ direct,can",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Define Pkg_ can (A,m) to be spectral packaging with a canonical tie-break inside any near-degenerate cutoff block (e.g.\\ select the m -subspace minimizing a symmetry-defect proxy)"
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Degenerate case with canonical tie-break: Define Pkg_ can (A,m) to be spectral packaging with a canonical tie-break inside any near-degenerate cutoff block (e.g.\\ select the m -subspace minimizing a symmetry-defect proxy). Then for all m_1<m_2 , the sequential and direct routes agree: P_ seq,can = P_ direct,can .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L862-L868; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L862-L868",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P015-C0016",
+        "claim_type": "theorem",
+        "conclusion": "every context atom is covered by some omega∈Omega ; every context event is realized as an inverse image under the corresponding pi_c ; every accepted shared-event identification is globally respected; every exact admissible backend built from the realized global atoms is feasible. In particular, no accepted-proposal exact obstruction can occur when an admissible global realization exists",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let E=(C,\\ BoolAlg c \\ _ c∈C , ,A) be an event package. If E admits an admissible global realization (Omega,\\ pi_c\\ _ c∈C )"
+          }
+        ],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Admissible global realization: Let E=(C,\\ BoolAlg c \\ _ c∈C , ,A) be an event package. If E admits an admissible global realization (Omega,\\ pi_c\\ _ c∈C ) , then: every context atom is covered by some omega∈Omega ; every context event is realized as an inverse image under the corresponding pi_c ; every accepted shared-event identification is globally respected; every exact admissible backend built from the realized global atoms is feasible. In particular, no accepted-proposal exact obstruction can occur when an admissible global realization exists.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L340-L353; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L340-L353",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P015-C0019",
+        "claim_type": "proposition",
+        "conclusion": "Route-sensitive noncommutation diagnostics such as route mismatch, closure deficit, or control-path dependence do not by themselves certify global obstruction. They become formal evidence only when they are realized as failure of global realization for one event package on one fixed comparison base and survive the package's control discipline, including hidden-record and flattening/completion checks where meaningful .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Protocol-trap exclusion and control principle: Route-sensitive noncommutation diagnostics such as route mismatch, closure deficit, or control-path dependence do not by themselves certify global obstruction. They become formal evidence only when they are realized as failure of global realization for one event package on one fixed comparison base and survive the package's control discipline, including hidden-record and flattening/completion checks where meaningful .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L377-L379; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L377-L379",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P034-C0045",
+        "claim_type": "result_summary",
+        "conclusion": "Theorem is the theorem-bearing summit of the paper. It is conditional, not unconditional. It does not claim a global canonical-collapse theorem, and it does not assert that every possible ledger or support regime selects the same representative family. It says only that once the comparison domain, support cone, and frozen ledger have been fixed, and once the explicit external contract has been granted, frontier-efficient growth admits a canonical representative on the relevant cone. The section also fixes the proof boundary. The internal theorem package carries the saturation, package-change, and restricted-alignment work. The external contract carries the remaining arithmetic burden. No vendor-backed evidence appears in the proof route. That material remains supportive and disciplinary, not proof-carrying. Section returns to that distinction explicitly.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Boundary of the theorem: Theorem is the theorem-bearing summit of the paper. It is conditional, not unconditional. It does not claim a global canonical-collapse theorem, and it does not assert that every possible ledger or support regime selects the same representative family. It says only that once the comparison domain, support cone, and frozen ledger have been fixed, and once the explicit external contract has been granted, frontier-efficient growth admits a canonical representative on the relevant cone. The section also fixes the proof boundary. The internal theorem package carries the saturation, package-change, and restricted-alignment work. The external contract carries the remaining arithmetic burden. No vendor-backed evidence appears in the proof route. That material remains supportive and disciplinary, not proof-carrying. Section returns to that distinction explicitly.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L641-L646; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L641-L646",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PROSE_DEFINITION_SECTION",
+        "claim_id": "P034-C0015",
+        "claim_type": "prose_definition",
+        "conclusion": "A comparison domain is a subset D⊆ E of operators admissible for comparison on the frozen slice s . The paper keeps D explicit because efficiency claims are always relative both to a ledger and to a chosen admissible domain.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Definition (comparison domain).: A comparison domain is a subset D⊆ E of operators admissible for comparison on the frozen slice s . The paper keeps D explicit because efficiency claims are always relative both to a ledger and to a chosen admissible domain.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L240-L247; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L240-L247",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PROSE_DEFINITION",
+        "claim_id": "P034-C0014",
+        "claim_type": "prose_definition",
+        "conclusion": "Definition (comparison domain). A comparison domain is a subset D⊆ E of operators admissible for comparison on the frozen slice s . The paper keeps D explicit because efficiency claims are always relative both to a ledger and to a chosen admissible domain.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Definition (comparison domain). A comparison domain is a subset D⊆ E of operators admissible for comparison on the frozen slice s . The paper keeps D explicit because efficiency claims are always relative both to a ledger and to a chosen admissible domain.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L240-L245; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L240-L245",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0047",
+        "claim_type": "proposition",
+        "conclusion": "a(u,v)=phi(v)-phi(u) for every oriented edge (u,v)∈ E",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let G=(V,E) be a finite tree with root r , and let a: E→R be antisymmetric. Define phi(r)=0 and, for v≠ r , phi(v)=phi(par(v))+a(par(v),v)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Potential construction on a rooted tree: Let G=(V,E) be a finite tree with root r , and let a: E→R be antisymmetric. Define phi(r)=0 and, for v≠ r , phi(v)=phi(par(v))+a(par(v),v). Then a(u,v)=phi(v)-phi(u) for every oriented edge (u,v)∈ E .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1144-L1151; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L1144-L1151",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0005",
+        "claim_type": "theorem",
+        "conclusion": "KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T))"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_ARROW_DPI: Let mu∈Delta(X) , let P:X×X→[0,1] be row-stochastic, and let T 1 . Define the micro path law on X^ T+1 by P^ (T) _ mu,P (x_ 0:T )=mu(x_0) _ t=0 ^ T-1 P(x_t,x_ t+1 ). Let rev_T(x_ 0:T )=(x_T, ,x_0) and let :X→Y be deterministic with pointwise extension ^ (T) (x_ 0:T )=( (x_0), , (x_T)) . Then KLBig(( ^ (T) )_ # P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ mu,P Big)\\ \\ KLBig(P^ (T) _ mu,P \\ Big\\|\\ (rev_T)_ # P^ (T) _ mu,P Big).",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L367-L369; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L367-L369",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0016",
+        "claim_type": "theorem",
+        "conclusion": "for every route r , _j(U_ j,r ) → 0",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume along a refinement ladder j→∈fty that the union capacity in tends to 0"
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Route-union ledger implies anti-localization for all routes: Assume along a refinement ladder j→∈fty that the union capacity in tends to 0 . Then for every route r , _j(U_ j,r ) → 0 .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L788-L791; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L788-L791",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0019",
+        "claim_type": "theorem",
+        "conclusion": "|Def(f)| = 2^ |im(f)| . Consequently, if |im(f)|<∈fty , there is no infinite strictly increasing sequence of pairwise distinct f -definable predicates",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let f:X→Y be deterministic with finite image im(f) . Define Def(f):=\\ g f : g:Y→\\ 0,1\\ \\"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_LADDER_BOUNDED_INTERFACE: Let f:X→Y be deterministic with finite image im(f) . Define Def(f):=\\ g f : g:Y→\\ 0,1\\ \\ . Then |Def(f)| = 2^ |im(f)| . Consequently, if |im(f)|<∈fty , there is no infinite strictly increasing sequence of pairwise distinct f -definable predicates.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L451-L453; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L451-L453",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P034-C0030",
+        "claim_type": "theorem",
+        "conclusion": "the fixed-package description fails. Equivalently, any genuine persistent strict-growth witness forces package change",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Suppose a persistent growth witness is claimed for what is being treated as a single fixed closure package"
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Strict growth requires package change: Suppose a persistent growth witness is claimed for what is being treated as a single fixed closure package. Then the fixed-package description fails. Equivalently, any genuine persistent strict-growth witness forces package change.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L390-L392; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L390-L392",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0006",
+        "claim_type": "lemma",
+        "conclusion": "_ X = ∈t_X \\|psi_ - (x)\\|^2 dmu(x)",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let A_ X be the anti-invariant ledger of an involutive object ledger X , with anti-invariant readout psi_ -"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Trace identity Recorded in the Lean formalization by constructor unfolding from the typed anti-invariant-ledger field; see App .: Let A_ X be the anti-invariant ledger of an involutive object ledger X , with anti-invariant readout psi_ - . Then _ X = ∈t_X \\|psi_ - (x)\\|^2 dmu(x).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L636-L645; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L636-L645",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P034-C0039",
+        "claim_type": "definition",
+        "conclusion": "Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆E , let K⊆ D , and let e∈ D . One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K such that AgreeOnCone_ C_s (e,c).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Representative alignment target: Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆E , let K⊆ D , and let e∈ D . One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K such that AgreeOnCone_ C_s (e,c).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L534-L539; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L534-L539",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PROSE_DEFINITION",
+        "claim_id": "P034-C0024",
+        "claim_type": "prose_definition",
+        "conclusion": "Definition (representative alignment target). Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E be a comparison domain, let K⊆ E be a canonical representative family, and let e∈ D . One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K D such that AgreeOnCone_ C_s (e,c). This target is the body-level form of the alignment condition later used in the restricted alignment lemma and in the conditional arithmetic lift.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Definition (representative alignment target). Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E be a comparison domain, let K⊆ E be a canonical representative family, and let e∈ D . One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K D such that AgreeOnCone_ C_s (e,c). This target is the body-level form of the alignment condition later used in the restricted alignment lemma and in the conditional arithmetic lift.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L303-L308; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L303-L308",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P015-C0018",
+        "claim_type": "corollary",
+        "conclusion": "E is globally obstructed on Sigma",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let Sigma be a comparison base for a selected family of contexts, and let Q_Sigma be the finite Leibniz quotient of the support by indistinguishability under those contexts. If no family of quotient classes realizes all context atoms while respecting the accepted shared-event relation"
+          }
+        ],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Quotient-backed obstruction on fixed support: Let Sigma be a comparison base for a selected family of contexts, and let Q_Sigma be the finite Leibniz quotient of the support by indistinguishability under those contexts. If no family of quotient classes realizes all context atoms while respecting the accepted shared-event relation, then E is globally obstructed on Sigma .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L367-L369; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L367-L369",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0022",
+        "claim_type": "theorem",
+        "conclusion": "_j(U_ j,r )→ 0 for every route r",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Fix a refinement ladder j→∈fty . (Subspace artifact) If U_j is the feasible subspace at depth j and Cap_ sym (j)→ 0 , then _j(U_j)→ 0 . (Dictionary feasibility) If feasibility at depth j is s -sparse synthesis in dictionary D_j and Cap_ cancel (j)→ 0 , then every feasible v satisfies Loc_j(v)→ 0 uniformly; equivalently, the feasible class is anti-localizing at scale j . (Multi-route system) If the feasible family is \\ U_ j,r \\ and Cap_ union (j)→ 0"
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Capacity functional implies anti-localization: Fix a refinement ladder j→∈fty . (Subspace artifact) If U_j is the feasible subspace at depth j and Cap_ sym (j)→ 0 , then _j(U_j)→ 0 . (Dictionary feasibility) If feasibility at depth j is s -sparse synthesis in dictionary D_j and Cap_ cancel (j)→ 0 , then every feasible v satisfies Loc_j(v)→ 0 uniformly; equivalently, the feasible class is anti-localizing at scale j . (Multi-route system) If the feasible family is \\ U_ j,r \\ and Cap_ union (j)→ 0 , then _j(U_ j,r )→ 0 for every route r .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L1069-L1079; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L1069-L1079",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PROSE_DEFINITION_SECTION",
+        "claim_id": "P034-C0025",
+        "claim_type": "prose_definition",
+        "conclusion": "One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K D such that AgreeOnCone_ C_s (e,c). This target is the body-level form of the alignment condition later used in the restricted alignment lemma and in the conditional arithmetic lift. At this stage no arithmetic interpretation is required. The point is only that, once comparison is performed on a frozen slice, the correct target is not global equality with a canonical object but agreement with a representative from the designated family on the support cone the slice actually tracks.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E be a comparison domain, let K⊆ E be a canonical representative family, and let e∈ D ."
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Definition (representative alignment target).: Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E be a comparison domain, let K⊆ E be a canonical representative family, and let e∈ D . One says that e satisfies the representative alignment target relative to (s,D,K) if there exists c∈ K D such that AgreeOnCone_ C_s (e,c). This target is the body-level form of the alignment condition later used in the restricted alignment lemma and in the conditional arithmetic lift. At this stage no arithmetic interpretation is required. The point is only that, once comparison is performed on a frozen slice, the correct target is not global equality with a canonical object but agreement with a representative from the designated family on the support cone the slice actually tracks.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L303-L312; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L303-L312",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P034-C0034",
+        "claim_type": "definition",
+        "conclusion": "Let C⊆ X , and let e,f∈E . One says that e and f agree on the cone C , written AgreeOnCone_C(e,f), if e(x)=f(x) for all x∈ C.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Agreement on the support cone: Let C⊆ X , and let e,f∈E . One says that e and f agree on the cone C , written AgreeOnCone_C(e,f), if e(x)=f(x) for all x∈ C.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L448-L457; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L448-L457",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P015-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Previous demonstrations of contextuality-type obstruction start from quantum mechanics or from externally specified measurement scenarios. We show that the same locally-Boolean-but-globally-obstructed structure can arise from an autonomous emergence framework—Six Birds Theory—without importing Hilbert space, amplitudes, or the Born rule. The formal vehicle is a finite event package: a family of stable-record contexts, each carrying a finite Boolean event algebra, together with a layer-relative shared-event identification and an audit layer. Obstruction is the failure of admissible global realization for that package. The computational framework combines exact and quotient-backed feasibility, structural and statistical deficits, provenance auditing, and false-positive controls. The evidence base includes a classical control, a boundary-case epistemic calibration, an explicit finite parity/context witness, and autonomous discovery organized by mechanism, lens, and packaging axes. The results are stratified: mechanism variation yields package-sensitive structure with a quotient-backed witness under a weaker claim ceiling; lens variation closes with a cross-resolution strict extension obstruction on fixed support; and packaging variation produces the strongest current obstruction, subject to a package conflict caveat. Where applicable, the principal cases persist under bounded robustness checks. The paper therefore provides the first computationally explicit evidence that contextuality-type obstruction can emerge from a system's own packaging structure rather than from quantum theory or an externally imposed scenario.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Previous demonstrations of contextuality-type obstruction start from quantum mechanics or from externally specified measurement scenarios. We show that the same locally-Boolean-but-globally-obstructed structure can arise from an autonomous emergence framework—Six Birds Theory—without importing Hilbert space, amplitudes, or the Born rule. The formal vehicle is a finite event package: a family of stable-record contexts, each carrying a finite Boolean event algebra, together with a layer-relative shared-event identification and an audit layer. Obstruction is the failure of admissible global realization for that package. The computational framework combines exact and quotient-backed feasibility, structural and statistical deficits, provenance auditing, and false-positive controls. The evidence base includes a classical control, a boundary-case epistemic calibration, an explicit finite parity/context witness, and autonomous discovery organized by mechanism, lens, and packaging axes. The results are stratified: mechanism variation yields package-sensitive structure with a quotient-backed witness under a weaker claim ceiling; lens variation closes with a cross-resolution strict extension obstruction on fixed support; and packaging variation produces the strongest current obstruction, subject to a package conflict caveat. Where applicable, the principal cases persist under bounded robustness checks. The paper therefore provides the first computationally explicit evidence that contextuality-type obstruction can emerge from a system's own packaging structure rather than from quantum theory or an externally imposed scenario.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L93-L95; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L93-L95",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P034-C0032",
+        "claim_type": "definition",
+        "conclusion": "Let s=(Y_s,K_s,C_s) be a frozen slice, and let e,f∈ D . One says that e dominates f on s , written FrontierDominates_s(e,f), if Y_s(e) Y_s(f), K_s(e) K_s(f), and at least one of these inequalities is strict.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Frontier dominance: Let s=(Y_s,K_s,C_s) be a frozen slice, and let e,f∈ D . One says that e dominates f on s , written FrontierDominates_s(e,f), if Y_s(e) Y_s(f), K_s(e) K_s(f), and at least one of these inequalities is strict.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L428-L438; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L428-L438",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0004",
+        "claim_type": "proposition",
+        "conclusion": "For a subspace U = range(Psi) , _j(U) = _ B ∈ B_j lambda_ (Psi_B^ Psi_B ), where Psi_B^ Psi_B is Hermitian positive semidefinite.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Eigenvalue characterization: For a subspace U = range(Psi) , _j(U) = _ B ∈ B_j lambda_ (Psi_B^ Psi_B ), where Psi_B^ Psi_B is Hermitian positive semidefinite.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L225-L231; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L225-L231",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P015-C0004",
+        "claim_type": "definition",
+        "conclusion": "A frozen-slice/shared-support object is a finite comparison base Sigma = (S,prep,prot,reg), where S is a finite support index set and (prep,prot,reg) record the fixed preparation, protocol, and evaluation regime under which the support is being compared.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Frozen-slice/shared-support object: A frozen-slice/shared-support object is a finite comparison base Sigma = (S,prep,prot,reg), where S is a finite support index set and (prep,prot,reg) record the fixed preparation, protocol, and evaluation regime under which the support is being compared.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L186-L192; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L186-L192",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0013",
+        "claim_type": "definition",
+        "conclusion": "An exhaustive moving ledger over an involutive object ledger X consists of a sequence of positive cone elements A_ X,n , inclusion transports _n , and positive tails T_n with 0 T_n , such that, for every n , A_ X _n A_ X,n _n^*+T_n. It is vanishing-exhaustive when there are positive bounds B_n satisfying A_ X,n B_n and ( _n B_n _n^*)+ T_n→0 (n→∈fty).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Exhaustive moving ledger: An exhaustive moving ledger over an involutive object ledger X consists of a sequence of positive cone elements A_ X,n , inclusion transports _n , and positive tails T_n with 0 T_n , such that, for every n , A_ X _n A_ X,n _n^*+T_n. It is vanishing-exhaustive when there are positive bounds B_n satisfying A_ X,n B_n and ( _n B_n _n^*)+ T_n→0 (n→∈fty).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L976-L995; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L976-L995",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0004",
+        "claim_type": "definition",
+        "conclusion": "The anti-invariant object ledger of X is the positive cone element A_ X := ∈t_X psi_ - (x)psi_ - (x)^* dmu(x), psi_ - (x)=P_ - psi(x). Equivalently, A_ X is the Gram-type positive element generated by integrating the anti-invariant readout against the object-ledger measure mu .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Anti-invariant object ledger Realized in the Lean formalization; see App .: The anti-invariant object ledger of X is the positive cone element A_ X := ∈t_X psi_ - (x)psi_ - (x)^* dmu(x), psi_ - (x)=P_ - psi(x). Equivalently, A_ X is the Gram-type positive element generated by integrating the anti-invariant readout against the object-ledger measure mu .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L562-L576; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L562-L576",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0014",
+        "claim_type": "theorem",
+        "conclusion": "mu (X Fix(J) )=0",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X be an involutive object ledger with anti-invariant ledger A_ X . If X admits a vanishing-exhaustive moving ledger, then A_ X =0 . If, moreover, the anti-invariant readout psi_ - is qualitatively separating"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Exhaustive ledger squeeze Checked in the Lean formalization; the ambient bound is supplied as a moving-ledger field. See App .: Let X be an involutive object ledger with anti-invariant ledger A_ X . If X admits a vanishing-exhaustive moving ledger, then A_ X =0 . If, moreover, the anti-invariant readout psi_ - is qualitatively separating, then mu (X Fix(J) )=0.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1009-L1018; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1009-L1018",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0008",
+        "claim_type": "theorem",
+        "conclusion": "for every >0 , mu (\\ x∈ X: (x,Fix(J))≥ \\ ) ≤ _ X m( )^2",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X be an involutive object ledger with anti-invariant ledger A_ X and quantitatively separating anti-invariant readout psi_ - with modulus m"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Quantitative confinement Checked in the Lean formalization by typed-bridge composition with a Markov-step hypothesis; see App .: Let X be an involutive object ledger with anti-invariant ledger A_ X and quantitatively separating anti-invariant readout psi_ - with modulus m . Then, for every >0 , mu (\\ x∈ X: (x,Fix(J))≥ \\ ) ≤ _ X m( )^2 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L716-L727; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L716-L727",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PROSE_DEFINITION_SECTION",
+        "claim_id": "P034-C0009",
+        "claim_type": "prose_definition",
+        "conclusion": "A point x∈ X is a persistent growth witness for pkg if there exists n 1 such that op^ [n+1] (x)≠ op^ [n] (x), where op^ [m] denotes the m -fold iterate of op . This is the internal notion of strict growth used in the base and bridge theorems. It is deliberately narrow: it asks only whether self-iteration of a fixed package continues to create genuinely new stages.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "Let pkg=(X,op) be a closure package."
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Definition (persistent growth witness).: Let pkg=(X,op) be a closure package. A point x∈ X is a persistent growth witness for pkg if there exists n 1 such that op^ [n+1] (x)≠ op^ [n] (x), where op^ [m] denotes the m -fold iterate of op . This is the internal notion of strict growth used in the base and bridge theorems. It is deliberately narrow: it asks only whether self-iteration of a fixed package continues to create genuinely new stages.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L196-L205; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L196-L205",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P015-C0003",
+        "claim_type": "definition",
+        "conclusion": "An event package is a quadruple E = ( C,\\ B_c\\ _ c∈ C , , A), where C is a finite set of contexts, for each c∈ C , B_c= P(A_c) is the finite Boolean event algebra of c , is a cross-context shared-event relation, A is the audit layer, including the admissibility and defect diagnostics used to decide whether the package is well-formed and globally realizable.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Event package: An event package is a quadruple E = ( C,\\ B_c\\ _ c∈ C , , A), where C is a finite set of contexts, for each c∈ C , B_c= P(A_c) is the finite Boolean event algebra of c , is a cross-context shared-event relation, A is the audit layer, including the admissibility and defect diagnostics used to decide whether the package is well-formed and globally realizable.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L146-L158; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L146-L158",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P032-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Six Birds theory studies finite systems observed through deterministic coarse-grainings (``lenses'') using a small audited vocabulary of primitives. This paper proves eight no-go theorems that constrain when common emergence narratives can be made honest in a finite, checkable setting. For a finite Markov system and horizon T , define an arrow audit as the Kullback–Leibler divergence between the observed path law and its time reversal. We prove a deterministic data-processing inequality: observation cannot increase arrow. As a consequence, any reversible system started in stationarity has zero observed arrow, even when the observation supports nontrivial protocol structure. Further results give graph-theoretic obstructions for force-like antisymmetric drives (exactness on forests and zero cycle sums), a finite variational identity for best macro-kernels and closure deficit, and a bounded-interface saturation theorem that prevents unbounded laddering. Together these theorems delimit what can and cannot be certified as emergent from audited primitives in finite models.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Six Birds theory studies finite systems observed through deterministic coarse-grainings (``lenses'') using a small audited vocabulary of primitives. This paper proves eight no-go theorems that constrain when common emergence narratives can be made honest in a finite, checkable setting. For a finite Markov system and horizon T , define an arrow audit as the Kullback–Leibler divergence between the observed path law and its time reversal. We prove a deterministic data-processing inequality: observation cannot increase arrow. As a consequence, any reversible system started in stationarity has zero observed arrow, even when the observation supports nontrivial protocol structure. Further results give graph-theoretic obstructions for force-like antisymmetric drives (exactness on forests and zero cycle sums), a finite variational identity for best macro-kernels and closure deficit, and a bounded-interface saturation theorem that prevents unbounded laddering. Together these theorems delimit what can and cannot be certified as emergent from audited primitives in finite models.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L125-L133; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L125-L133",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P034-C0026",
+        "claim_type": "result_summary",
+        "conclusion": "With the definitions now in place, the primitive-role assignment used by the paper can be stated without ambiguity. P5 is the fixed-package object: it appears here as the closure package pkg=(X,op) . The base theorem concerns exactly this object under idempotent self-iteration.",
+        "formalization_status": "PLAUSIBLE_IMPORTED_MATCH_REQUIRES_STATEMENT_REVIEW",
+        "hypotheses": [],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Primitive roles in the theorem setup: With the definitions now in place, the primitive-role assignment used by the paper can be stated without ambiguity. P5 is the fixed-package object: it appears here as the closure package pkg=(X,op) . The base theorem concerns exactly this object under idempotent self-iteration.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L312-L326; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L312-L326",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P015-C0013",
+        "claim_type": "result_summary",
+        "conclusion": "This section states the formal core. The proofs are deferred to ; here we isolate the structural statements that later computational sections instantiate in finite form. The central object is the event package E , and the central question is whether it admits a global realization.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P015-C0020",
+          "P015-C0022"
+        ],
+        "normalized_claim": "Obstruction Language and Theorem Spine: This section states the formal core. The proofs are deferred to ; here we isolate the structural statements that later computational sections instantiate in finite form. The central object is the event package E , and the central question is whether it admits a global realization.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L300-L303; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L300-L303",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0009",
+        "claim_type": "definition",
+        "conclusion": "A completed domination bridge from A_ X to a carrier-side anti-invariant currency K^ - consists of a positive defect E in the typed positive cone, with 0 E, together with the domination relation A_ X K^ - +E. The bridge is exact when E=0 and defected when the defect term is retained. A sequence of bridges A_ X Kminus_ n +E_n is a domination-record sequence when the associated positive bounds B_n=Kminus_ n +E_n satisfy B_n→0 (n→∈fty).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Completed domination bridge: A completed domination bridge from A_ X to a carrier-side anti-invariant currency K^ - consists of a positive defect E in the typed positive cone, with 0 E, together with the domination relation A_ X K^ - +E. The bridge is exact when E=0 and defected when the defect term is retained. A sequence of bridges A_ X Kminus_ n +E_n is a domination-record sequence when the associated positive bounds B_n=Kminus_ n +E_n satisfy B_n→0 (n→∈fty).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L774-L801; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L774-L801",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P025-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "When must an operator-valued obstruction associated with an involutive system vanish? This paper answers that question inside the Six Birds framework by naming Self-Dual Trace Confinement (SDTC) as the recognition source for formed closures with genuine involutive self-duality. The mechanism is the duality-confinement membrane theorem: for an involutive object ledger with separating anti-invariant readout, a sequence of positive domination records B_n with B_n 0 forces the anti-invariant ledger to vanish and confines visible mass to the fixed locus of the duality. The supporting apparatus develops the involutive object ledger, the anti-invariant ledger and trace identity, direct qualitative and quantitative confinement, completed-domination bridges, Douglas factorization in typed-cone form, exhaustive moving ledgers, and optimized scalar trace budgets. Operator-theoretic realization over trace-class operators is an open extension, as is a derivation of the AM–GM step inside a typed real-arithmetic structure. The development is formalized in Lean as a mathlib-free mechanization at the typed positive-cone level (Appendix ). Cross-substrate generalizations such as CPT symmetry, gauge invariance, quantum self-adjointness, and function-field RH are presented as structural predictions, not theorems; the paper develops the abstract apparatus layer and names the hypotheses any substrate-specific application must supply.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "When must an operator-valued obstruction associated with an involutive system vanish? This paper answers that question inside the Six Birds framework by naming Self-Dual Trace Confinement (SDTC) as the recognition source for formed closures with genuine involutive self-duality. The mechanism is the duality-confinement membrane theorem: for an involutive object ledger with separating anti-invariant readout, a sequence of positive domination records B_n with B_n 0 forces the anti-invariant ledger to vanish and confines visible mass to the fixed locus of the duality. The supporting apparatus develops the involutive object ledger, the anti-invariant ledger and trace identity, direct qualitative and quantitative confinement, completed-domination bridges, Douglas factorization in typed-cone form, exhaustive moving ledgers, and optimized scalar trace budgets. Operator-theoretic realization over trace-class operators is an open extension, as is a derivation of the AM–GM step inside a typed real-arithmetic structure. The development is formalized in Lean as a mathlib-free mechanization at the typed positive-cone level (Appendix ). Cross-substrate generalizations such as CPT symmetry, gauge invariance, quantum self-adjointness, and function-field RH are presented as structural predictions, not theorems; the paper develops the abstract apparatus layer and names the hypotheses any substrate-specific application must supply.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L117-L143; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L117-L143",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "CONDITIONAL_THEOREM",
+        "claim_id": "P034-C0043",
+        "claim_type": "theorem",
+        "conclusion": "there exists c∈ K such that ArithmeticCanonicalityTarget(s,D,C_s,K,c)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume (A1) – (A6) . If FrontierEfficient_ s,D (e)"
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Conditional arithmetic lift: Assume (A1) – (A6) . If FrontierEfficient_ s,D (e), then there exists c∈ K such that ArithmeticCanonicalityTarget(s,D,C_s,K,c).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L607-L616; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L607-L616",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "CONDITIONAL_THEOREM",
+        "claim_id": "P032-C0036",
+        "claim_type": "lemma",
+        "conclusion": "In this finite deterministic setting, I(X_t;Y_ t+tau Y_t) = _ x∈ X mu(x) D_ KL (p_x^ (tau) \\| p_ Pi(x) ^ (tau) ).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Conditional mutual information identity: In this finite deterministic setting, I(X_t;Y_ t+tau Y_t) = _ x∈ X mu(x) D_ KL (p_x^ (tau) \\| p_ Pi(x) ^ (tau) ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L740-L747; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L740-L747",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0011",
+        "claim_type": "theorem",
+        "conclusion": "for every closed walk v_0, ,v_k=v_0 , _ i=0 ^ k-1 a(v_i,v_ i+1 ) = 0",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume a(u,v)=phi(v)-phi(u) on oriented edges of a finite graph"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_FORCE_NULL: Assume a(u,v)=phi(v)-phi(u) on oriented edges of a finite graph. Then for every closed walk v_0, ,v_k=v_0 , _ i=0 ^ k-1 a(v_i,v_ i+1 ) = 0.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L403-L405; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L403-L405",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P023-C0008",
+        "claim_type": "corollary",
+        "conclusion": "Equivalently, trace_bound_j(U)=m/2^j .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "Assume U is shift-invariant."
+          },
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "For the uniform partition B_j (cell size b=N/2^j ), _ B∈B_j _ i∈ B P_ ii = _ i∈ B P_ ii = m N |B| = m 2^j ."
+          }
+        ],
+        "nonclaims": [
+          "P023-C0002",
+          "P023-C0003",
+          "P023-C0012",
+          "P023-C0018"
+        ],
+        "normalized_claim": "Trace uniformity on uniform cells: Assume U is shift-invariant. For the uniform partition B_j (cell size b=N/2^j ), _ B∈B_j _ i∈ B P_ ii = _ i∈ B P_ ii = m N |B| = m 2^j . Equivalently, trace_bound_j(U)=m/2^j .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L358-L368; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L358-L368",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0040",
+        "claim_type": "lemma",
+        "conclusion": "there exists a unique distribution pi∈Delta(Y) with pi P=pi . Moreover, for every mu∈Delta(Y) and every integer t 0 , d_ TV (mu P^t,pi) lambda(P)^t d_ TV (mu,pi)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume lambda(P)<1"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Strict contraction gives a unique fixed distribution: Assume lambda(P)<1 . Then there exists a unique distribution pi∈Delta(Y) with pi P=pi . Moreover, for every mu∈Delta(Y) and every integer t 0 , d_ TV (mu P^t,pi) lambda(P)^t d_ TV (mu,pi).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L846-L853; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L846-L853",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0025",
+        "claim_type": "lemma",
+        "conclusion": "for every T 0 , P_T^ pi,K = P_T^ pi,K,rev",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume pi∈Delta(X) is stationary for K and satisfies detailed balance: pi(x) K(x,x') = pi(x') K(x',x) for all x,x'∈ X"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Detailed balance implies path-law reversal invariance: Assume pi∈Delta(X) is stationary for K and satisfies detailed balance: pi(x) K(x,x') = pi(x') K(x',x) for all x,x'∈ X. Then for every T 0 , P_T^ pi,K = P_T^ pi,K,rev .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L531-L541; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L531-L541",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P034-C0037",
+        "claim_type": "theorem",
+        "conclusion": "FrontierEfficient_ s,D (e')",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E , and let e,e'∈ D . Assume: FrontierEfficient_ s,D (e) , AgreeOnCone_ C_s (e,e') , s is invariant on its cone"
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Efficiency transfers to a cone-equivalent representative: Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E , and let e,e'∈ D . Assume: FrontierEfficient_ s,D (e) , AgreeOnCone_ C_s (e,e') , s is invariant on its cone. Then FrontierEfficient_ s,D (e').",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L503-L514; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L503-L514",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P034-C0036",
+        "claim_type": "proposition",
+        "conclusion": "FrontierDominates_s(e,f')",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E , and let e,f,f'∈ D . Assume: FrontierDominates_s(e,f) , AgreeOnCone_ C_s (f,f') , s is invariant on its cone"
+          }
+        ],
+        "nonclaims": [
+          "P034-C0002",
+          "P034-C0003",
+          "P034-C0004",
+          "P034-C0041",
+          "P034-C0046",
+          "P034-C0047",
+          "P034-C0049",
+          "P034-C0050",
+          "P034-C0053",
+          "P034-C0054",
+          "P034-C0055"
+        ],
+        "normalized_claim": "Dominance is stable under cone-equivalent replacement: Let s=(Y_s,K_s,C_s) be a frozen slice, let D⊆ E , and let e,f,f'∈ D . Assume: FrontierDominates_s(e,f) , AgreeOnCone_ C_s (f,f') , s is invariant on its cone. Then FrontierDominates_s(e,f').",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L476-L487; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L476-L487",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P015-C0020",
+        "claim_type": "scope_boundary",
+        "conclusion": "This limitation does not downgrade the accepted lens and packaging obstructions to mere suggestions.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This limitation does not downgrade the accepted lens and packaging obstructions to mere suggestions.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L655; derived/expanded/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex:L655",
+        "source_paper": "P015",
+        "source_title": "Locally Boolean, Globally Obstructed",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P023-C0018",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim that all packaging families admit such a canonicalizer, nor that canonicalization is unique",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim that all packaging families admit such a canonicalizer, nor that canonicalization is unique",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L855-L860; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L855-L860",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0054",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not prove an unconditional global canonicality theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not prove an unconditional global canonicality theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L987; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L987",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0049",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not prove an unconditional global canonicality theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not prove an unconditional global canonicality theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L835-L840; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L835-L840",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0055",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim to have internally discharged the full arithmetic literature boundary.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim to have internally discharged the full arithmetic literature boundary.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L995; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L995",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P025-C0019",
+        "claim_type": "nonclaim",
+        "conclusion": "This is a scope statement on the typed-scalar abstraction, not a math nonclaim about AM–GM itself.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This is a scope statement on the typed-scalar abstraction, not a math nonclaim about AM–GM itself.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1158-L1166; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1158-L1166",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P023-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We are explicit that Reflexive SBT is not proven here to universally drive capacities to zero",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We are explicit that Reflexive SBT is not proven here to universally drive capacities to zero",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L76-L81; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L76-L81",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P034-C0003",
+        "claim_type": "scope_boundary",
+        "conclusion": "Vendor-backed PICA evidence is used only to discipline primitive roles and scope, not as proof support.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Vendor-backed PICA evidence is used only to discipline primitive roles and scope, not as proof support.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L76-L78; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L76-L78",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0046",
+        "claim_type": "nonclaim",
+        "conclusion": "It does not claim a global canonical-collapse theorem, and it does not assert that every possible ledger or support regime selects the same representative family.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "It does not claim a global canonical-collapse theorem, and it does not assert that every possible ledger or support regime selects the same representative family.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L643; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L643",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0041",
+        "claim_type": "nonclaim",
+        "conclusion": "It does not claim that every efficient object is globally identical to a canonical representative, nor that every possible ledger collapses to the same family.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "It does not claim that every efficient object is globally identical to a canonical representative, nor that every possible ledger collapses to the same family.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L562; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L562",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0053",
+        "claim_type": "nonclaim",
+        "conclusion": "This appendix records the claims that remain outside the scope of the manuscript.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This appendix records the claims that remain outside the scope of the manuscript.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L985; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L985",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0013",
+        "claim_type": "theorem",
+        "conclusion": "CD_tau(Pi)>0",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let (X,P) be a finite Markov chain, let mu∈Delta(X) , let Pi:X→Y be deterministic, and fix tau 1 . For each x∈X , define the packaged future law p_x^ (tau) (y') := Pr_ mu,P [Pi(X_ t+tau )=y' X_t=x]. For a candidate macro kernel K:Y×Y→[0,1] , define L_tau(K) := _ x∈ X mu(x) KL (p_x^ (tau) K_ Pi(x) ). Define the closure deficit by CD_tau(Pi) := I (X_t;Pi(X_ t+tau ) | Pi(X_t) ). Then the kernel K^ _y(y') := Pr_ mu,P [Pi(X_ t+tau )=y' Pi(X_t)=y] satisfies CD_tau(Pi)= _K L_tau(K)=L_tau(K^ ). Moreover, if there exist x,x'∈X with Pi(x)=Pi(x') , mu(x)>0 , mu(x')>0 , and p_x^ (tau) ≠ p_ x' ^ (tau)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_MACRO_CLOSURE_DEFICIT: Let (X,P) be a finite Markov chain, let mu∈Delta(X) , let Pi:X→Y be deterministic, and fix tau 1 . For each x∈X , define the packaged future law p_x^ (tau) (y') := Pr_ mu,P [Pi(X_ t+tau )=y' X_t=x]. For a candidate macro kernel K:Y×Y→[0,1] , define L_tau(K) := _ x∈ X mu(x) KL (p_x^ (tau) K_ Pi(x) ). Define the closure deficit by CD_tau(Pi) := I (X_t;Pi(X_ t+tau ) | Pi(X_t) ). Then the kernel K^ _y(y') := Pr_ mu,P [Pi(X_ t+tau )=y' Pi(X_t)=y] satisfies CD_tau(Pi)= _K L_tau(K)=L_tau(K^ ). Moreover, if there exist x,x'∈X with Pi(x)=Pi(x') , mu(x)>0 , mu(x')>0 , and p_x^ (tau) ≠ p_ x' ^ (tau) , then CD_tau(Pi)>0 .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L415-L417; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L415-L417",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P034-C0050",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper also does not claim that the full Six-Birds or PICA interaction space has been reduced to one theorem-bearing summary.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper also does not claim that the full Six-Birds or PICA interaction space has been reduced to one theorem-bearing summary.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L842-L847; derived/expanded/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex:L842-L847",
+        "source_paper": "P034",
+        "source_title": "Six Birds for Incompleteness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0017",
+        "claim_type": "theorem",
+        "conclusion": "for all integers n 1 , e^ n =e",
+        "formalization_status": "MATCHED_IMPORTED_ABSTRACT_CORE_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let e:S→ S satisfy e e=e"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_LADDER_IDEM: Let e:S→ S satisfy e e=e . Then for all integers n 1 , e^ n =e.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L439-L441; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L439-L441",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0015",
+        "claim_type": "theorem",
+        "conclusion": "TV(nu,nu') 2 1-lambda(P) . In particular, if =0 , the stationary distribution is unique",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let P be a stochastic matrix on finite Y . Let T_P:Delta(Y)→Delta(Y) be the operator nu↦ nu P , and let lambda(P) be the Dobrushin contraction coefficient in total variation. Assume lambda(P)<1 . If nu,nu'∈Delta(Y) satisfy the -stability bounds TV(nu,nu P) , TV(nu',nu'P)"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_OBJECT_CONTRACTIVE: Let P be a stochastic matrix on finite Y . Let T_P:Delta(Y)→Delta(Y) be the operator nu↦ nu P , and let lambda(P) be the Dobrushin contraction coefficient in total variation. Assume lambda(P)<1 . If nu,nu'∈Delta(Y) satisfy the -stability bounds TV(nu,nu P) , TV(nu',nu'P) , then TV(nu,nu') 2 1-lambda(P) . In particular, if =0 , the stationary distribution is unique.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L427-L429; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L427-L429",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0009",
+        "claim_type": "theorem",
+        "conclusion": "there exists a potential phi:V→R such that for every oriented edge (u,v) , a(u,v)=phi(v)-phi(u)",
+        "formalization_status": "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let G=(V,E) be a finite undirected forest. Let a be an antisymmetric function on oriented edges, so that a(u,v)=-a(v,u) and a(u,v)=0 whenever \\ u,v\\ E"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_FORCE_FOREST: Let G=(V,E) be a finite undirected forest. Let a be an antisymmetric function on oriented edges, so that a(u,v)=-a(v,u) and a(u,v)=0 whenever \\ u,v\\ E . Then there exists a potential phi:V→R such that for every oriented edge (u,v) , a(u,v)=phi(v)-phi(u).",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L391-L393; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L391-L393",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P032-C0007",
+        "claim_type": "theorem",
+        "conclusion": "for every horizon T 1 , (rev_T)_ # P^ (T) _ pi, P =P^ (T) _ pi, P implies KLBig(P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # P^ (T) _ pi, P Big)=0. Moreover, for every deterministic observation : →Y , KLBig(( ^ (T) )_ # P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ pi, P Big)=0",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let be finite, let P: × →[0,1] be row-stochastic, and let pi be a stationary distribution satisfying detailed balance pi(x) P(x,x')= pi(x') P(x',x) for all x,x'∈"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "NG_PROTOCOL_TRAP: Let be finite, let P: × →[0,1] be row-stochastic, and let pi be a stationary distribution satisfying detailed balance pi(x) P(x,x')= pi(x') P(x',x) for all x,x'∈ . Then for every horizon T 1 , (rev_T)_ # P^ (T) _ pi, P =P^ (T) _ pi, P implies KLBig(P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # P^ (T) _ pi, P Big)=0. Moreover, for every deterministic observation : →Y , KLBig(( ^ (T) )_ # P^ (T) _ pi, P \\ Big\\|\\ (rev_T)_ # ( ^ (T) )_ # P^ (T) _ pi, P Big)=0.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L379-L381; derived/expanded/Tsiokos_2026_Six_Birds_No_Go_Theorems_for_Audited_Emergence.tex:L379-L381",
+        "source_paper": "P032",
+        "source_title": "No-Go Theorems for Audited Emergence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0002",
+        "claim_type": "open_problem",
+        "conclusion": "Cross-substrate examples such as CPT symmetry, gauge invariance, particle–antiparticle duality, quantum self-adjointness, and function-field analogues are structural predictions and validation targets for future work, not theorems established here.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Cross-substrate examples such as CPT symmetry, gauge invariance, particle–antiparticle duality, quantum self-adjointness, and function-field analogues are structural predictions and validation targets for future work, not theorems established here.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L271-L274; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L271-L274",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0021",
+        "claim_type": "open_problem",
+        "conclusion": "The first extension target is an operator-theoretic realization of the typed cone. One would instantiate the cone with positive trace-class operators on a Hilbert space, prove the trace identity and positivity-to-zero inside that setting, and connect the Douglas factorization carrier used here to the usual range inclusion theorem for bounded Hilbert-space operators. The second extension target is scalar arithmetic. The optimized trace budget currently tracks the AM–GM step through a typed-scalar hypothesis. A stronger treatment would introduce enough typed real-arithmetic structure to express ( a - b )^2≥0 and derive AM–GM internally rather than using it as a supplied scalar fact.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work.: The first extension target is an operator-theoretic realization of the typed cone. One would instantiate the cone with positive trace-class operators on a Hilbert space, prove the trace identity and positivity-to-zero inside that setting, and connect the Douglas factorization carrier used here to the usual range inclusion theorem for bounded Hilbert-space operators. The second extension target is scalar arithmetic. The optimized trace budget currently tracks the AM–GM step through a typed-scalar hypothesis. A stronger treatment would introduce enough typed real-arithmetic structure to express ( a - b )^2≥0 and derive AM–GM internally rather than using it as a supplied scalar fact.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1332; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1332",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0020",
+        "claim_type": "open_problem",
+        "conclusion": "Future work.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1302; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1302",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C019",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P023-C0023",
+        "claim_type": "open_problem",
+        "conclusion": "Discussion and future work",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Discussion and future work",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L1089-L1093; derived/expanded/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex:L1089-L1093",
+        "source_paper": "P023",
+        "source_title": "Reflexive SBT and Anti-Localization",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P015-C0009",
+      "P015-C0008",
+      "P023-C0001",
+      "P034-C0038",
+      "P034-C0027",
+      "P032-C0034",
+      "P023-C0013",
+      "P023-C0019",
+      "P015-C0016",
+      "P015-C0019",
+      "P034-C0045",
+      "P034-C0015",
+      "P034-C0014",
+      "P032-C0047",
+      "P032-C0005",
+      "P023-C0016",
+      "P032-C0019",
+      "P034-C0030",
+      "P025-C0006",
+      "P034-C0039",
+      "P034-C0024",
+      "P015-C0018",
+      "P023-C0022",
+      "P034-C0025",
+      "P034-C0034",
+      "P015-C0001",
+      "P034-C0032",
+      "P023-C0004",
+      "P015-C0004",
+      "P025-C0013",
+      "P025-C0004",
+      "P025-C0014",
+      "P025-C0008",
+      "P034-C0009",
+      "P015-C0003",
+      "P032-C0001",
+      "P034-C0026",
+      "P015-C0013",
+      "P025-C0009",
+      "P025-C0001",
+      "P034-C0043",
+      "P032-C0036",
+      "P032-C0011",
+      "P023-C0008",
+      "P032-C0040",
+      "P032-C0025",
+      "P034-C0037",
+      "P034-C0036"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O14"
+  ],
+  "wishlist_atoms": [
+    "ARC-H26",
+    "ARC-H28",
+    "MED-N1",
+    "MED-N2",
+    "MED-N3",
+    "MED-N4"
+  ]
+}

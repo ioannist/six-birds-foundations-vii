@@ -1,0 +1,102 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "operational diagnostics and packaging audit",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "finite controlled systems, bits, gates, and Boolean readouts",
+      "forbidden_back_transfer": "A local gate representation does not by itself yield a global event package or universal computational claim.",
+      "interface_or_lens": "control and compositional gate interfaces",
+      "missing_vii_primitive_or_pressure": "local/global packaging and operational Booleanity",
+      "nonclaims_or_open_boundaries": [],
+      "paper_id": "P057",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P057-C0001",
+        "P057-C0009",
+        "P057-C0010",
+        "P057-C0007",
+        "P057-C0003"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Closure Diagnostics for Emergent Bits, Gates, and Booleanity",
+      "what_the_application_distinguishes_or_falsifies": "local Boolean control versus global lawful packaging"
+    },
+    "classification_counts": {
+      "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 4
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0232"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0234",
+      "BR-CITE-0235",
+      "BR-CITE-0236",
+      "BR-CITE-0237"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 4,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P057.jsonl",
+  "claim_count": 10,
+  "claim_grade_counts": {
+    "DEFINITION": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 6,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION": 2
+  },
+  "claim_ids": [
+    "P057-C0001",
+    "P057-C0002",
+    "P057-C0003",
+    "P057-C0004",
+    "P057-C0005",
+    "P057-C0006",
+    "P057-C0007",
+    "P057-C0008",
+    "P057-C0009",
+    "P057-C0010"
+  ],
+  "claim_type_counts": {
+    "definition": 1,
+    "paper_thesis": 1,
+    "prose_definition": 2,
+    "result_summary": 6
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P057-C0002",
+    "P057-C0004",
+    "P057-C0005"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 10
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "logic/Booleanity emergence, gates, and operational diagnostics",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P057.md",
+  "nonclaim_scope_ids": [],
+  "open_problem_ids": [],
+  "paper_id": "P057",
+  "reading_order": 50,
+  "resolved_dependency_papers": [
+    "P046",
+    "P047"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_XOR_a_Stone_with_Six_Birds_Closure_Diagnostics_for_Emergent_Bits_Gates_and_Booleanity.tex",
+  "source_root_sha256": "e6978e4ddf83e9653296c5bb2057417c9824fac67fc963ebca346c83990fc065",
+  "source_tree_sha256": "cc8cbc1c4ef5b575054cd60c9dcea7b877bc4c755cc0be9b6cec3932b0813367",
+  "status": "BRIDGED",
+  "title": "Closure Diagnostics for Emergent Bits, Gates, and Booleanity"
+}

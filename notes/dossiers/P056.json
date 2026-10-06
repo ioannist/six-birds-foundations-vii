@@ -1,0 +1,128 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "BLOCKED_SOURCE": 1,
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 17,
+      "UNKNOWN_REQUIRES_PROOF": 12,
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0203",
+      "BR-CITE-0204",
+      "BR-CITE-0205",
+      "BR-CITE-0206",
+      "BR-CITE-0207",
+      "BR-CITE-0208",
+      "BR-CITE-0209",
+      "BR-CITE-0210",
+      "BR-CITE-0211",
+      "BR-CITE-0212",
+      "BR-CITE-0213",
+      "BR-CITE-0214",
+      "BR-CITE-0215",
+      "BR-CITE-0216",
+      "BR-CITE-0217",
+      "BR-CITE-0218",
+      "BR-CITE-0219",
+      "BR-CITE-0220",
+      "BR-CITE-0221",
+      "BR-CITE-0222",
+      "BR-CITE-0223",
+      "BR-CITE-0224",
+      "BR-CITE-0225",
+      "BR-CITE-0226",
+      "BR-CITE-0227",
+      "BR-CITE-0228",
+      "BR-CITE-0229",
+      "BR-CITE-0230",
+      "BR-CITE-0231",
+      "BR-CITE-0232",
+      "BR-CITE-0233"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 13,
+    "wishlist_request_ids": [
+      "ARC-S2",
+      "ARC-S4",
+      "CLD-C4",
+      "MED-S5",
+      "MED-S6",
+      "MM-NG4"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P056.jsonl",
+  "claim_count": 10,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 3,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 4,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 1
+  },
+  "claim_ids": [
+    "P056-C0001",
+    "P056-C0002",
+    "P056-C0003",
+    "P056-C0004",
+    "P056-C0005",
+    "P056-C0006",
+    "P056-C0007",
+    "P056-C0008",
+    "P056-C0009",
+    "P056-C0010"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 3,
+    "open_problem": 4,
+    "paper_thesis": 1,
+    "prose_definition": 1,
+    "scope_boundary": 1
+  },
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "definition_claim_ids": [
+    "P056-C0006"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 10
+  },
+  "foundations_vii_groups": [
+    "CG16",
+    "CG25",
+    "CG26"
+  ],
+  "foundations_vii_hook": "closure ontology, records, observers, reality, and meta-emergence",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P056.md",
+  "nonclaim_scope_ids": [
+    "P056-C0002",
+    "P056-C0004",
+    "P056-C0005",
+    "P056-C0007"
+  ],
+  "open_problem_ids": [
+    "P056-C0003",
+    "P056-C0008",
+    "P056-C0009",
+    "P056-C0010"
+  ],
+  "paper_id": "P056",
+  "reading_order": 16,
+  "resolved_dependency_papers": [
+    "P030",
+    "P035",
+    "P049",
+    "P052",
+    "P053"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex",
+  "source_root_sha256": "10cd0fcf24f8674892a92d547478619acc2ec3089a10316a7d83906d4cebf4c7",
+  "source_tree_sha256": "056ca113aebb55c570a26523028fbef1f34b577aa25c4ff0dfd163592693634f",
+  "status": "BRIDGED",
+  "title": "Reality as Closure"
+}

@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Executed \texttt{\#print axioms} census over all 732 public theorems.}
+\label{tab:E3_axiom_receipt}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Axiom dependency} & \textbf{Theorems} & \textbf{Share (\%)} \\
+\midrule
+no axioms & 625 & 85.4 \\
+propext & 97 & 13.3 \\
+propext, Quot.sound & 10 & 1.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

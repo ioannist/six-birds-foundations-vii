@@ -1,0 +1,55 @@
+{
+  "citation_policy": {
+    "allowed_entries_without_identifiers": [
+      "TsiokosHolonomy",
+      "TsiokosStrictTest"
+    ]
+  },
+  "paper": {
+    "title": "Six Birds Foundations VII: Lawful Theory Interaction"
+  },
+  "profile": "ioannis-tsiokos",
+  "release_policy": {
+    "expected_remote": "https://github.com/ioannist/six-birds-foundations-vii"
+  },
+  "schema_version": 1,
+  "zenodo": {
+    "metadata": {
+      "custom": {
+        "code:codeRepository": "https://github.com/ioannist/six-birds-foundations-vii",
+        "code:programmingLanguage": [
+          {
+            "id": "lean",
+            "title": {
+              "en": "Lean"
+            }
+          },
+          {
+            "id": "python",
+            "title": {
+              "en": "Python"
+            }
+          },
+          {
+            "id": "tex",
+            "title": {
+              "en": "TeX"
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "emergence calculus",
+        "lawful theory interaction",
+        "theory join",
+        "admissibility regime",
+        "enablement",
+        "access coordinates",
+        "bootstrap obstruction",
+        "no-go with named escapes",
+        "bounded finite carriers",
+        "audited emergence"
+      ]
+    }
+  }
+}

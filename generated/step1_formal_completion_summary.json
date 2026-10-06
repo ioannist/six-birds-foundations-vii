@@ -1,0 +1,17 @@
+{
+  "spine_papers": 7,
+  "f_rows": 52,
+  "f_local_modules": 14,
+  "e_rows": 16,
+  "e_local_modules": 16,
+  "g_rows": 13,
+  "g_local_modules": 13,
+  "formal_deep_supplements": 7,
+  "survey_disclosure_rows": 58,
+  "dependency_summary_rows": 58,
+  "dependency_edges": 240,
+  "dependency_unresolved_internal_keys": 2,
+  "version_slots": 73,
+  "version_line_alignment_blocks": 505,
+  "step2_started": false
+}

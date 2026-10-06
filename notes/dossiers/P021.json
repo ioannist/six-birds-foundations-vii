@@ -1,0 +1,139 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 4
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0009",
+      "BR-CITE-0023",
+      "BR-CITE-0030",
+      "BR-CITE-0054",
+      "BR-CITE-0152",
+      "BR-CITE-0172",
+      "BR-CITE-0212"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0083",
+      "BR-CITE-0084",
+      "BR-CITE-0085",
+      "BR-CITE-0086"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H11",
+      "ARC-H9",
+      "CLD-A4",
+      "CLD-O2",
+      "MED-D1",
+      "MED-I5",
+      "MED-NG1",
+      "MED-T1",
+      "MM-JOINNF"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P021.jsonl",
+  "claim_count": 28,
+  "claim_grade_counts": {
+    "DEFINITION": 10,
+    "EXPLICIT_NONCLAIM": 4,
+    "INTERPRETIVE_REMARK": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 2,
+    "SCOPE_OR_LIMITATION_RECORD": 2,
+    "THEOREM_GRADE": 4
+  },
+  "claim_ids": [
+    "P021-C0001",
+    "P021-C0002",
+    "P021-C0003",
+    "P021-C0004",
+    "P021-C0005",
+    "P021-C0006",
+    "P021-C0007",
+    "P021-C0008",
+    "P021-C0009",
+    "P021-C0010",
+    "P021-C0011",
+    "P021-C0012",
+    "P021-C0013",
+    "P021-C0014",
+    "P021-C0015",
+    "P021-C0016",
+    "P021-C0017",
+    "P021-C0018",
+    "P021-C0019",
+    "P021-C0020",
+    "P021-C0021",
+    "P021-C0022",
+    "P021-C0023",
+    "P021-C0024",
+    "P021-C0025",
+    "P021-C0026",
+    "P021-C0027",
+    "P021-C0028"
+  ],
+  "claim_type_counts": {
+    "definition": 10,
+    "nonclaim": 4,
+    "paper_thesis": 1,
+    "proposition": 4,
+    "prose_definition": 2,
+    "remark": 2,
+    "result_summary": 3,
+    "scope_boundary": 2
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P021-C0005",
+    "P021-C0006",
+    "P021-C0007",
+    "P021-C0008",
+    "P021-C0009",
+    "P021-C0019",
+    "P021-C0020",
+    "P021-C0021",
+    "P021-C0022",
+    "P021-C0023",
+    "P021-C0024",
+    "P021-C0026"
+  ],
+  "formal_claim_ids": [
+    "P021-C0010",
+    "P021-C0011",
+    "P021-C0013",
+    "P021-C0025"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 28
+  },
+  "foundations_vii_groups": [
+    "CG06",
+    "CG08"
+  ],
+  "foundations_vii_hook": "promotion gates, object survival, defects, and nonclaims",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P021.md",
+  "nonclaim_scope_ids": [
+    "P021-C0002",
+    "P021-C0003",
+    "P021-C0012",
+    "P021-C0017",
+    "P021-C0018",
+    "P021-C0028"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P021",
+  "reading_order": 22,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Promotion_Criteria_and_Surviving_Packages_on_Fixed_Support_in_Six_Birds_Theory.tex",
+  "source_root_sha256": "c2ab76b3fe6b57ea1f639b459294910aa4ea3e2f5e2a8f4c8370a240dcca7ec9",
+  "source_tree_sha256": "ed991cf10e0e641a437b87f45cadca714ce85ae9d6203dd1d00e401a8421570b",
+  "status": "BRIDGED",
+  "title": "Promotion Criteria and Surviving Packages"
+}

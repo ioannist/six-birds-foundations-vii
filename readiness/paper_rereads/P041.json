@@ -1,0 +1,53 @@
+{
+  "all_claims_reconsidered": 9,
+  "anti_overread": [
+    "We do not derive continuum theories or prove analytic bounds",
+    "Discussion, limitations, and what breaks: This paper argues that several familiar ``theory transitions'' in physics can be fruitfully organized using the Six-Birds dictionary: a layer is specified by a lens Lens (what is retained), a completion Uf (how missing information is filled in), and a timescale evolution operator T_tau , inducing a packaging operator Etauf = Uf Qf T_tau . The goal is not to replace domain knowledge, but to provide a shared language for comparing closures across domains. This section makes explicit what we are and are not claiming, and records the main failure regimes that prevent overclaiming.",
+    "We do not claim to derive fluid models from particle mechanics, classicality from quantum theory, or backreaction corrections in GR.",
+    "Domain-specific limitations: Each instantiation is intentionally minimal; this is a feature (clarity) and a limitation (fidelity). Quantum. Dephasing is a clean closure, but it is not ``the'' quantum-to-classical limit; basis choice matters, and semiclassical limits involve additional structure. Our point is the closure template (exact idempotence + audit monotonicity + route mismatch with coherent dynamics), not a foundational claim. Kinetic/fluid. The BGK-like discrete model is a minimal model: it demonstrates moment-lens closure behavior and failure regimes, but it is not a derivation of Navier–Stokes.",
+    "this is a feature (clarity) and a limitation (fidelity)."
+  ],
+  "boundary_claim_ids": [
+    "P041-C0002",
+    "P041-C0005",
+    "P041-C0006",
+    "P041-C0007",
+    "P041-C0008"
+  ],
+  "candidate_ids": [
+    "VII-C002",
+    "VII-C021"
+  ],
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "findings": [
+    "All 9 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P041-C0009"
+  ],
+  "paper_id": "P041",
+  "reading_order": "13",
+  "relevant_claim_ids": [
+    "P041-C0001",
+    "P041-C0002",
+    "P041-C0003",
+    "P041-C0004",
+    "P041-C0005",
+    "P041-C0006",
+    "P041-C0007",
+    "P041-C0008",
+    "P041-C0009"
+  ],
+  "root_sha256": "0e7f0a26760eabd794ad6f0c38ff5d2925b2c4f9afaedc15a56f9900324eb4ca",
+  "source_path": "papers/Tsiokos_2026_To_Become_a_Stone_with_Six_Birds_A_Physics_is_A_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "a5eb76a48edd6e85621e0e4f74070b721e76ba15644e527472e9be7d273331a2",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "A Physics Is a Theory",
+  "top_convergence_groups": [
+    "CG25"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

@@ -1,0 +1,199 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [
+        "F23",
+        "F26",
+        "F27",
+        "F34",
+        "F37",
+        "F39",
+        "F43",
+        "F47",
+        "F48",
+        "F49",
+        "F50",
+        "F51"
+      ],
+      "audit_or_certificate": "translation and applicability audits",
+      "bridge_classification": "VALID_AFTER_ADDED_HYPOTHESES",
+      "bridge_ids": [
+        "BR-LAW-0034",
+        "BR-LAW-0035",
+        "BR-LAW-0036",
+        "BR-LAW-0037",
+        "BR-LAW-0038",
+        "BR-LAW-0039",
+        "BR-LAW-0040",
+        "BR-LAW-0041",
+        "BR-LAW-0042",
+        "BR-LAW-0043",
+        "BR-LAW-0044",
+        "BR-LAW-0045"
+      ],
+      "concrete_carrier": "Standard Model, quantum-mechanical, and relativistic theory packages",
+      "forbidden_back_transfer": "The shared grammar does not by itself derive a unified physical theory or make applications independent evidence for SBT.",
+      "interface_or_lens": "cross-theory completion, common-refinement, and demarcation interfaces",
+      "missing_vii_primitive_or_pressure": "true common refinement and strict join pressure",
+      "nonclaims_or_open_boundaries": [
+        "P049-C0009",
+        "P049-C0017",
+        "P049-C0020"
+      ],
+      "paper_id": "P049",
+      "pressure_test_ruling": "CONCRETE DOMAIN MAP RECORDED; EXACT LAW REUSE REMAINS HYPOTHESIS-BOUND",
+      "principal_claims": [
+        "P049-C0001",
+        "P049-C0010",
+        "P049-C0015",
+        "P049-C0021",
+        "P049-C0011",
+        "P049-C0013"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "A Common Grammar for the SM, QM, and GR",
+      "what_the_application_distinguishes_or_falsifies": "genuine common refinement versus verbal unification"
+    },
+    "classification_counts": {
+      "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 5,
+      "VALID_AFTER_ADDED_HYPOTHESES": 12
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0227"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0189",
+      "BR-CITE-0190",
+      "BR-CITE-0191",
+      "BR-CITE-0192",
+      "BR-CITE-0193",
+      "BR-LAW-0034",
+      "BR-LAW-0035",
+      "BR-LAW-0036",
+      "BR-LAW-0037",
+      "BR-LAW-0038",
+      "BR-LAW-0039",
+      "BR-LAW-0040",
+      "BR-LAW-0041",
+      "BR-LAW-0042",
+      "BR-LAW-0043",
+      "BR-LAW-0044",
+      "BR-LAW-0045"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 5,
+    "wishlist_request_ids": [
+      "ARC-H19",
+      "ARC-H20",
+      "ARC-H5",
+      "ARC-NG2",
+      "ARC-NG4",
+      "CLD-DISC",
+      "MED-D3",
+      "MED-NG2",
+      "MED-S3",
+      "MED-T2",
+      "MED-T4",
+      "MM-LOCAL",
+      "MM-NG2",
+      "MM-NONGOAL",
+      "MM-OP3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P049.jsonl",
+  "claim_count": 24,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 5,
+    "NAMED_RESULT_OR_GATE_SURFACE": 8,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 6
+  },
+  "claim_ids": [
+    "P049-C0001",
+    "P049-C0002",
+    "P049-C0003",
+    "P049-C0004",
+    "P049-C0005",
+    "P049-C0006",
+    "P049-C0007",
+    "P049-C0008",
+    "P049-C0009",
+    "P049-C0010",
+    "P049-C0011",
+    "P049-C0012",
+    "P049-C0013",
+    "P049-C0014",
+    "P049-C0015",
+    "P049-C0016",
+    "P049-C0017",
+    "P049-C0018",
+    "P049-C0019",
+    "P049-C0020",
+    "P049-C0021",
+    "P049-C0022",
+    "P049-C0023",
+    "P049-C0024"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 5,
+    "open_problem": 3,
+    "paper_thesis": 1,
+    "prose_definition": 1,
+    "result_summary": 8,
+    "scope_boundary": 6
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P049-C0022"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 24
+  },
+  "foundations_vii_groups": [
+    "CG05",
+    "CG09",
+    "CG11",
+    "CG13",
+    "CG27"
+  ],
+  "foundations_vii_hook": "cross-theory common refinement, unification, and bridge limits",
+  "lexical_prior_law_candidates": [
+    "F37",
+    "F43",
+    "F50",
+    "F51"
+  ],
+  "markdown_dossier": "notes/dossiers/P049.md",
+  "nonclaim_scope_ids": [
+    "P049-C0002",
+    "P049-C0003",
+    "P049-C0005",
+    "P049-C0006",
+    "P049-C0009",
+    "P049-C0012",
+    "P049-C0014",
+    "P049-C0016",
+    "P049-C0017",
+    "P049-C0018",
+    "P049-C0024"
+  ],
+  "open_problem_ids": [
+    "P049-C0007",
+    "P049-C0019",
+    "P049-C0020"
+  ],
+  "paper_id": "P049",
+  "reading_order": 58,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex",
+  "source_root_sha256": "77bb9347536539ce3e68049e3d46df3d28a84dbf8b8c418be2b5326c16de1eb3",
+  "source_tree_sha256": "f908ad543d4b62be0f39a37967fc374ffdd213638c9f30e393e5fbbb0dcbc979",
+  "status": "BRIDGED",
+  "title": "A Common Grammar for the SM, QM, and GR"
+}

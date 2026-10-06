@@ -1,0 +1,25 @@
+\section{Source concordance}
+\label{supp:concordance}
+
+\Cref{tab:concordance} lists every numbered item of the main paper with its catalog
+identifier, where it has one, and its Lean declarations with their kind, file and line.
+Items marked \emph{new} have no catalog identifier; their declarations are in the semantic
+modules, except where the row states that the item is argued on paper only. Items marked \emph{semantic} give the semantic counterpart of the catalog entry
+named.
+
+{\scriptsize
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{10.6cm}@{}}
+\caption{Source concordance.}\label{tab:concordance}\\
+\toprule
+\textbf{Item} & \textbf{Catalog} & \textbf{Lean declarations} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Item} & \textbf{Catalog} & \textbf{Lean declarations} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{supplement/concordance_rows}
+\end{longtable}
+}

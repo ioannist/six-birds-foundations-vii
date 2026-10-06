@@ -1,0 +1,75 @@
+\section{Certificate fields}
+\label{supp:fields}
+
+The main paper summarizes the certificates by cluster (main paper,
+\Cref{sec:certificates}). \Cref{tab:certificates} lists each certificate with what it
+records and its validity predicate. \Cref{tab:fields} lists the Lean structure that
+carries each one, the number of its fields and their names, read from the Lean sources.
+Validity predicates are separate definitions next to each structure.
+
+{\footnotesize
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{5.6cm}>{\raggedright\arraybackslash}p{6.2cm}@{}}
+\caption{The certificates of the catalog. ``Valid when'' states the validity predicate of
+the corresponding Lean structure; an audit is required only where listed. The
+definitions cited are in the main paper.}
+\label{tab:certificates}\\
+\toprule
+\textbf{Certificate} & \textbf{What it records} & \textbf{Valid when} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Certificate} & \textbf{What it records} & \textbf{Valid when} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\multicolumn{3}{@{}l}{\emph{Access and admission}}\\
+Access record & theory, interface, scope, time; seven access coordinates; audit (\Cref{def:access}) & the implication spine holds and the audit is non-empty \\
+Admission step & one of five operations (admit, expire, revoke, retract, roll back), a transition between access records, source, budget and history before and after & the transition is well formed, its guard holds, the source is authorized, the ledgers and history extend, the cost is covered, and the effect on admissibility is the typed one \\
+Admission regime & closure of the family, admitted seeds, reachable generators, externally provisioned and permitted first extensions, audit & the four lists have no repetitions and the audit is non-empty \\
+Neutral provisioning & source, prospective commitment, task-blindness, outcome independence, symmetry, control, audit & the source is external, accepted and not system-generated; the commitment is accepted, well formed, registered before the observation and active at it; the four flags are set; the audit is non-empty \\
+Prospective commitment & registration, validity window, expiry, future transition, reserved budget, source and permitted source kinds, preregistration, disposition, audit & registration precedes the window, the window is ordered, permitted source kinds are listed, it is preregistered and the audit is non-empty \\
+Bridge contract & source and target declarations, types and maps; hypotheses preserved, added and lost; trust dependencies; non-implications; disposition; audit & declarations, types and maps are named, non-implications are listed and the audit is non-empty; transport is licensed only by an accepted well-formed bridge, never by a citation \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{Contact and join}}\\
+Contact surface & two theories, their interfaces, a crossing relation, an admissibility flag (\Cref{def:contact}) & the theories differ and the crossing relation is named \\
+Contact witness & a surface, an event, a source, a crossing flag, a payload description, audit & the surface is well formed and admissible, the crossing occurred, the payload is described and the audit is non-empty \\
+Join entry & parents, surface, contact state and optional witness, source and budget ledgers, observers, obstructions, status, audit & at least two parents, a well-formed surface, well-formed ledgers, a status consistent with the contact state, and a non-empty audit \\
+Join status & one of seven statuses (\Cref{def:join-status}) & assigned by the classifier \\
+Strict-join certificate & candidate, objecthood, retention of each parent, anti-product witness, source independence, budget settlement, directionality, audit (\Cref{def:strict-certificate}) & the candidate is well formed, the objecthood, retention, independence and budget flags are set, the witness is valid and the audit is non-empty \\
+Source-independence gate & the ancestries of the two sides, behavioural non-factorization, ancestry witnessed, honest bridge & for credit: independent ancestries, a witnessed ancestry, an honest bridge and behavioural non-factorization \\
+Join cost entry and ledger & per entry: resource, kind, amount, paid, refunded, zero-cost certification, disposition; the ledger adds an audit & each entry has amount zero on a certified zero-cost channel, or amount at most paid plus refunded; the ledger has an entry and an audit \\
+Observer occupancy & observer, source kind, visible interfaces, capacity, occupied and charged amounts, audit & occupancy within capacity, some interface visible, audit non-empty; native credit additionally needs charged equal to occupied \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{Enablement and descent}}\\
+Enablement record & operation made available, source, execution flag, target before and after, budgets, attribution, audit (\Cref{def:enablement}) & the operation is named, the target is one theory not moving back in time, the audit is non-empty; attributed enablement also needs valid attribution evidence, execution and a matching source \\
+Transmission record & direction, source and target theories, payload, source, typing and budget flags, loss and ambiguity descriptions, lower-layer fact before and after, external insertion, causal certificate, audit & distinct theories, a named payload, a typed and budgeted source, described loss and ambiguity, and a non-empty audit \\
+Operational profile & sound, executable, guard active, reachable, fired, occurrent & executable implies sound, reachable implies guard active and executable, fired implies reachable, occurrent implies fired \\
+Negative evidence & grade, scope, carrier, family, family closure, search bound, detector power, escape routes, audit & carrier, family and detector power described, escape routes listed, a closed family for an exhaustive grade, and a non-empty audit \\
+Coverage certificate & covered channels, exact coverage, family closure, detector power, budget, horizon, observed contact, escape routes, audit & channels listed, the five coverage flags set, no contact observed, escape routes listed, audit non-empty \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{Dynamics and residue}}\\
+Route comparison & two route results, each with target, members, order and bracketing codes, predictive and audit values and a legality flag (\Cref{def:route}) & residue: both legal, same target and members, a changed code, and a different predictive or audit value \\
+Drive certificate & drive, path asymmetry, failed reversal, budgeted flag, audited flag (\Cref{def:drive}) & all five flags set \\
+Residual entry and ledger & per entry: kind, parents, description, activity, discharge route, cross-term and relabelling flags, audit; the ledger adds an audit & every entry has parents, a description and an audit, cross-terms have two parents and are not relabellings, dissolved entries are inactive; the ledger is non-empty and audited \\
+Contact quantity & before and after vectors, a named scalar with its two values, observer, instrument and residual inclusion flags, equality check, audit & named scalar, all three coordinates included, equal values, equality checked, audit non-empty \\
+\end{longtable}
+}
+
+
+{\scriptsize
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{5.2cm}r>{\raggedright\arraybackslash}p{8.0cm}@{}}
+\caption{Certificate structures and their fields.}\label{tab:fields}\\
+\toprule
+\textbf{Structure} & \textbf{Fields} & \textbf{Field names} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Structure} & \textbf{Fields} & \textbf{Field names} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{supplement/field_rows}
+\end{longtable}
+}

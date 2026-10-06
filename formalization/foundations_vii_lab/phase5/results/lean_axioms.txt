@@ -1,0 +1,732 @@
+'FoundationsVII.AdmissionRegime.admitted_seed_authorizes_first_extension' does not depend on any axioms
+'FoundationsVII.AdmissionRegime.bootstrap_no_go_applies_implies_no_first_extension' does not depend on any axioms
+'FoundationsVII.AdmissionRegime.no_first_extension_without_seed_or_reachable_generator' does not depend on any axioms
+'FoundationsVII.AdmissionRegime.open_external_provision_authorizes_first_extension' does not depend on any axioms
+'FoundationsVII.AdmissionRegime.open_family_is_not_covered_by_closed_bootstrap_hypotheses' does not depend on any axioms
+'FoundationsVII.AdmissionRegime.reachable_generator_authorizes_first_extension' does not depend on any axioms
+'FoundationsVII.AdmissionReplay.append' does not depend on any axioms
+'FoundationsVII.AdmissionReplay.two_step' does not depend on any axioms
+'FoundationsVII.AdmissionTransition.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.AdmissionTransition.fired_implies_executable' does not depend on any axioms
+'FoundationsVII.AntiProductWitness.coarsening_only_fails' does not depend on any axioms
+'FoundationsVII.AntiProductWitness.relabel_only_fails' does not depend on any axioms
+'FoundationsVII.AntiProductWitness.scheduling_only_fails' does not depend on any axioms
+'FoundationsVII.AntiProductWitness.valid_is_nonfactorizing' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.hidden_execution_defeats_attribution' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.wellFormed_has_audit_accounting' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.wellFormed_has_budget_accounting' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.wellFormed_has_execution_witness' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.wellFormed_has_no_hidden_executor' does not depend on any axioms
+'FoundationsVII.AttributedEnablement.wellFormed_has_typed_source' does not depend on any axioms
+'FoundationsVII.AttributionEvidence.honest_refinement_preserves_source_root' does not depend on any axioms
+'FoundationsVII.AttributionEvidence.valid_has_no_hidden_executor' does not depend on any axioms
+'FoundationsVII.AttributionRefinement.stable_preserves_attribution_root' does not depend on any axioms
+'FoundationsVII.AuditRecord.append_contains_new' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.append_extends' does not depend on any axioms
+'FoundationsVII.AuditRecord.append_preserves_old' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.extend_extends' does not depend on any axioms
+'FoundationsVII.AuditRecord.extends_refl' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.extends_trans' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.failed_entry_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.refunded_entry_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.revoked_entry_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.AuditRecord.withdrawn_entry_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BirthRecord.participant_credit_requires_closure_survival' does not depend on any axioms
+'FoundationsVII.BirthRecord.participant_credit_requires_objecthood' does not depend on any axioms
+'FoundationsVII.BirthRecord.relation_only_has_no_participant_credit' does not depend on any axioms
+'FoundationsVII.BridgeContract.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.BridgeLedger.append_extends' does not depend on any axioms
+'FoundationsVII.BridgeLedger.audit_mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.BridgeLedger.failed_bridge_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BridgeLedger.mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.BridgeLedger.withdrawn_bridge_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BridgeLedger.withdrawn_entry_requires_sweeps' does not depend on any axioms
+'FoundationsVII.BudgetEntry.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.BudgetEntry.entryFeasible_of_wellFormed' does not depend on any axioms
+'FoundationsVII.BudgetEntry.failed_admission_conservation_accounting' does not depend on any axioms
+'FoundationsVII.BudgetEntry.failed_unused_admission_full_refund_is_conserved' depends on axioms: [propext]
+'FoundationsVII.BudgetEntry.settled_failure_refund_equation' does not depend on any axioms
+'FoundationsVII.BudgetLedger.allocations_projection_consistent' does not depend on any axioms
+'FoundationsVII.BudgetLedger.append_allocations' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.append_extends' does not depend on any axioms
+'FoundationsVII.BudgetLedger.append_resourceIds' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.audit_extends_of_ledger_extends' does not depend on any axioms
+'FoundationsVII.BudgetLedger.audit_mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.BudgetLedger.entry_wellFormed' does not depend on any axioms
+'FoundationsVII.BudgetLedger.failed_budget_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.occupancies_projection_consistent' does not depend on any axioms
+'FoundationsVII.BudgetLedger.refunded_budget_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.refunds_projection_consistent' does not depend on any axioms
+'FoundationsVII.BudgetLedger.resourceIds_projection_consistent' does not depend on any axioms
+'FoundationsVII.BudgetLedger.revoked_budget_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.BudgetLedger.spends_projection_consistent' does not depend on any axioms
+'FoundationsVII.BudgetLedger.withdrawn_budget_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.CommitmentUse.SameNeutralSeedClass.refl' does not depend on any axioms
+'FoundationsVII.CommitmentUse.SameNeutralSeedClass.symm' does not depend on any axioms
+'FoundationsVII.CommitmentUse.SameNeutralSeedClass.trans' does not depend on any axioms
+'FoundationsVII.CommitmentUse.expired_commitment_is_not_active' does not depend on any axioms
+'FoundationsVII.CommitmentUse.prospectively_certified_has_temporal_precedence' does not depend on any axioms
+'FoundationsVII.CommitmentUse.prospectively_certified_is_neutral_seed_equivalent' does not depend on any axioms
+'FoundationsVII.CommitmentUse.retrospective_predicate_cannot_discharge_prospective_certificate' does not depend on any axioms
+'FoundationsVII.CommitmentUse.unused_reserved_budget_is_refunded' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.certified_has_objecthood' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.certified_of_proof_carrying_witness' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.certified_retains_both_parents' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.left_retention_from_embedding' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.objecthood_from_fixed_point' does not depend on any axioms
+'FoundationsVII.CompositeClosureWitness.right_retention_from_embedding' does not depend on any axioms
+'FoundationsVII.ContactChannelEvidence.mediation_licensed' does not depend on any axioms
+'FoundationsVII.ContactChannelEvidence.rendezvous_licensed' does not depend on any axioms
+'FoundationsVII.ContactChannelEvidence.sequential_licensed' does not depend on any axioms
+'FoundationsVII.ContactChannelEvidence.shared_budget_licensed' does not depend on any axioms
+'FoundationsVII.ContactChannelEvidence.shared_carrier_licensed' does not depend on any axioms
+'FoundationsVII.ContactCoverageCertificate.certified_has_no_observed_contact' does not depend on any axioms
+'FoundationsVII.ContactCoverageCertificate.certified_records_escape_routes' does not depend on any axioms
+'FoundationsVII.ContactNullProfile.certifiedNull_is_certified' does not depend on any axioms
+'FoundationsVII.ContactNullProfile.certified_noninteraction_implies_no_evidenced_contact' does not depend on any axioms
+'FoundationsVII.ContactNullProfile.no_evidenced_contact_is_weaker_than_certified_noninteraction' does not depend on any axioms
+'FoundationsVII.ContactNullProfile.openNull_has_no_evidenced_contact' does not depend on any axioms
+'FoundationsVII.ContactNullProfile.openNull_is_not_certified' does not depend on any axioms
+'FoundationsVII.ContactProfile.compatibility_does_not_imply_evidenced_contact' depends on axioms: [propext]
+'FoundationsVII.ContactProfile.compatibleWithoutContact_coherent' does not depend on any axioms
+'FoundationsVII.ContactProfile.contactWithoutComposite_coherent' does not depend on any axioms
+'FoundationsVII.ContactProfile.evidenced_contact_does_not_imply_composite' depends on axioms: [propext]
+'FoundationsVII.ContactQuantityTransformation.exact_certificate_licenses_scoped_conservation' does not depend on any axioms
+'FoundationsVII.ContactSurface.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.ContactWitness.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.CriticalPair.resolved_of_joinable_audit_equivalent' does not depend on any axioms
+'FoundationsVII.CrossTimeContact.valid_under_admissible_reparameterization' does not depend on any axioms
+'FoundationsVII.DeclaredContactCase.exhaustive_declared_family_excludes_contact' does not depend on any axioms
+'FoundationsVII.DeclaredContactCase.outside_family_is_an_explicit_escape' does not depend on any axioms
+'FoundationsVII.DescentSquare.fidelity_is_commuting_square' does not depend on any axioms
+'FoundationsVII.DomainState.AccessRigid.refl' does not depend on any axioms
+'FoundationsVII.DomainState.AccessRigid.symm' does not depend on any axioms
+'FoundationsVII.DomainState.AccessRigid.trans' does not depend on any axioms
+'FoundationsVII.DomainState.AuxiliaryRecoveryCertificate.absent_operation_blocks_valid_recovery' does not depend on any axioms
+'FoundationsVII.DomainState.AuxiliaryRecoveryCertificate.spurious_rigidity_is_not_a_recovery_certificate' does not depend on any axioms
+'FoundationsVII.DomainState.AuxiliaryRecoveryCertificate.valid_recovery_has_present_operation_and_adapter' does not depend on any axioms
+'FoundationsVII.DomainState.ScopeChange.preserves_theory_and_interface' does not depend on any axioms
+'FoundationsVII.DomainState.admissibility_does_not_imply_reachability' does not depend on any axioms
+'FoundationsVII.DomainState.admissibility_does_not_imply_recoverability' does not depend on any axioms
+'FoundationsVII.DomainState.admissibility_implies_presence' does not depend on any axioms
+'FoundationsVII.DomainState.constructed_coherent' does not depend on any axioms
+'FoundationsVII.DomainState.exposure_does_not_imply_recoverability' does not depend on any axioms
+'FoundationsVII.DomainState.exposure_implies_presence' does not depend on any axioms
+'FoundationsVII.DomainState.expressibility_does_not_imply_presence' does not depend on any axioms
+'FoundationsVII.DomainState.normalForm_eq' does not depend on any axioms
+'FoundationsVII.DomainState.normalForm_idempotent' does not depend on any axioms
+'FoundationsVII.DomainState.occurrence_implies_reachability' does not depend on any axioms
+'FoundationsVII.DomainState.presence_does_not_imply_exposure' does not depend on any axioms
+'FoundationsVII.DomainState.presence_implies_expressibility' does not depend on any axioms
+'FoundationsVII.DomainState.reachability_does_not_imply_occurrence' does not depend on any axioms
+'FoundationsVII.DomainState.reachability_implies_admissibility' does not depend on any axioms
+'FoundationsVII.DomainState.recoverability_and_admissibility_are_incomparable' does not depend on any axioms
+'FoundationsVII.DomainState.recoverability_does_not_imply_admissibility' does not depend on any axioms
+'FoundationsVII.DomainState.recoverability_implies_exposure' does not depend on any axioms
+'FoundationsVII.DomainState.same_determination_can_have_different_exposure' does not depend on any axioms
+'FoundationsVII.DomainState.statusVector_withStatusVector' does not depend on any axioms
+'FoundationsVII.DomainState.withStatusVector_statusVector' does not depend on any axioms
+'FoundationsVII.EnablementLink.composable_chain_associates' depends on axioms: [propext]
+'FoundationsVII.EnablementLink.compose_accumulates_cost' does not depend on any axioms
+'FoundationsVII.EnablementLink.compose_accumulates_residual_debt' does not depend on any axioms
+'FoundationsVII.EnablementLink.compose_associative_data' depends on axioms: [propext]
+'FoundationsVII.EnablementRecord.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_iff_exact_criterion' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_requires_audit' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_requires_budget' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_requires_carried_generator' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_requires_execution' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.eligible_requires_reachable_generator' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.hidden_observer_execution_defeats_endogenous_credit' does not depend on any axioms
+'FoundationsVII.EndogenousEnablementProfile.hidden_theorist_execution_defeats_endogenous_credit' does not depend on any axioms
+'FoundationsVII.FiniteAdmissionSystem.finite_critical_pair_criterion_iff_confluent' does not depend on any axioms
+'FoundationsVII.FiniteEvidenceEnvelope.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.FinitePackageCategory.wellFormed_has_checked_category_laws' does not depend on any axioms
+'FoundationsVII.HonestBridgeRecord.certified_preserves_kind_metadata' does not depend on any axioms
+'FoundationsVII.HonestBridgeRecord.certified_records_bridged_kind' does not depend on any axioms
+'FoundationsVII.HonestBridgeRecord.certified_records_declared_origin' does not depend on any axioms
+'FoundationsVII.HorizonObservation.bounded_null_does_not_imply_unrestricted_nonoccurrence' does not depend on any axioms
+'FoundationsVII.HorizonObservation.closed_family_detector_power_and_complete_null_are_sufficient' does not depend on any axioms
+'FoundationsVII.HorizonObservation.detector_weakness_blocks_closed_family_negative_certificate' does not depend on any axioms
+'FoundationsVII.HorizonObservation.finite_horizon_null_is_only_horizon_qualified' does not depend on any axioms
+'FoundationsVII.HorizonObservation.open_family_cannot_receive_closed_family_negative_certificate' does not depend on any axioms
+'FoundationsVII.IndependentBudgetedJoin.certified_has_independence_payment_and_capacity_bound' depends on axioms: [propext]
+'FoundationsVII.IndependentBudgetedJoin.source_and_payment_gates_remain_distinct' does not depend on any axioms
+'FoundationsVII.InteractionRecord.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.InteractionRecord.strict_join_status_requires_contact' does not depend on any axioms
+'FoundationsVII.JoinAssessment.commonRefinement_ne_strictJoin' does not depend on any axioms
+'FoundationsVII.JoinAssessment.contact_ne_strictJoin' does not depend on any axioms
+'FoundationsVII.JoinAssessment.contact_refinement_and_composite_axes_may_overlap' does not depend on any axioms
+'FoundationsVII.JoinAssessment.noContact_ne_contact' does not depend on any axioms
+'FoundationsVII.JoinAssessment.noninteraction_status_constructor' depends on axioms: [propext]
+'FoundationsVII.JoinAssessment.obstructed_ne_certifiedNoninteraction' does not depend on any axioms
+'FoundationsVII.JoinAssessment.obstruction_status_constructor' depends on axioms: [propext]
+'FoundationsVII.JoinAssessment.overlapping_axes_classify_as_lawful_composite' does not depend on any axioms
+'FoundationsVII.JoinAssessment.strictEligibleB_eq_true_iff' depends on axioms: [propext]
+'FoundationsVII.JoinAssessment.strict_status_constructor' depends on axioms: [propext]
+'FoundationsVII.JoinCandidate.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.JoinCertificate.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.JoinClaimUnderCoverage.certified_noninteraction_excludes_strict_join' does not depend on any axioms
+'FoundationsVII.JoinClaimUnderCoverage.certified_noninteraction_retains_escape_routes' does not depend on any axioms
+'FoundationsVII.JoinCostEntry.certified_zero_cost_channel_is_credited' does not depend on any axioms
+'FoundationsVII.JoinCostEntry.paid_entry_is_credited' does not depend on any axioms
+'FoundationsVII.JoinCostEntry.positive_cost_without_payment_or_zero_channel_is_not_credited' does not depend on any axioms
+'FoundationsVII.JoinCostEntry.positive_observer_cost_cannot_be_hidden' does not depend on any axioms
+'FoundationsVII.JoinDescentCertificate.valid_accounts_for_all_parents' does not depend on any axioms
+'FoundationsVII.JoinEntryFieldProfile.weak_status_checker_has_budget_false_positive' does not depend on any axioms
+'FoundationsVII.JoinEntryFieldProfile.weak_status_checker_has_contact_false_positive' does not depend on any axioms
+'FoundationsVII.JoinEntryFieldProfile.weak_status_checker_has_source_false_positive' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.completed_has_no_recorded_obstruction' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.completed_has_witnessed_contact' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.failed_ne_completed' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.obstructed_has_obstruction' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.obstructed_ne_completed' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.pending_ne_completed' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.wellFormed_has_append_only_audit_surface' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.wellFormed_has_budget_ledger' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.wellFormed_has_source_ledger' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.wellFormed_has_two_parents' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.wellFormed_has_typed_contact_surface' does not depend on any axioms
+'FoundationsVII.JoinEntryRecord.witnessed_state_has_contact' does not depend on any axioms
+'FoundationsVII.JoinObstruction.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.JoinPaymentLedger.fullyPaid_entries_are_credited' does not depend on any axioms
+'FoundationsVII.JoinPaymentLedger.fullyPaid_has_audit' does not depend on any axioms
+'FoundationsVII.JoinPaymentLedger.typed_cost_projection_preserves_kinds' does not depend on any axioms
+'FoundationsVII.LensTransferCase.certified_adapter_licenses_totality_transfer' does not depend on any axioms
+'FoundationsVII.LensTransferCase.no_automatic_total_lens_transfer' does not depend on any axioms
+'FoundationsVII.LensTransferCase.nonpartial_target_licenses_totality_transfer' does not depend on any axioms
+'FoundationsVII.LiveJoinCapacity.finite_live_join_bound' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.DerivedKey.mem_all' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase2.access_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.bootstrap_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.bootstrap_law_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.bootstrap_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.coherent_access_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.coherent_access_cases_respect_implication_spine' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.coherent_transition_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.coherent_transitions_respect_operational_spine' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.commitment_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.commitment_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.horizon_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.horizon_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.native_credit_requires_priced_occupancy' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.negative_force_requires_closed_powerful_complete_null' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.no_retrospective_self_certification_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.observer_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.observer_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.origin_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.origin_canonical_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.origin_raw_labelled_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.settled_failures_conserve_declared_budget' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.settlement_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.settlement_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.source_independence_is_complementary_to_same_origin_in_canonical_family' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.totality_admissible_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.totality_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.totality_transfer_requires_adapter_on_partial_targets' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase2.transition_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.active_residuals_nonconservation_control' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.all_phase3_countermodels_pass' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase3.all_phase3_scenarios_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.capacity_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.capacity_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.categorical_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.categorical_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.certified_noninteraction_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.common_refinement_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.contact_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.contact_transport_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.contact_transport_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.contact_transport_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.contacts_nonconservation_control' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.directionless_strict_case_exists' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.Models.Finite.Phase3.exactly_one_certified_noninteraction_profile' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.join_status_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.join_status_canonical_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.join_status_raw_labelled_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.lawful_composite_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.live_joins_nonconservation_control' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.measure_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.measure_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.no_contact_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.noninteraction_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.noninteraction_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.obstructed_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.paid_cost_nonconservation_control' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.payment_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.payment_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.phase3_countermodel_count' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase3.phase3_scenario_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.phase3_source_control_22_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.refinement_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.refinement_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.residual_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.residual_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.retained_parents_nonconservation_control' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.source_lineage_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.source_lineage_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.status_partition_complete' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.strict_join_status_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.strict_join_without_listed_universal_construction_exists' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase3.strictness_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.strictness_canonical_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase3.strictness_raw_labelled_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.algebra_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.algebra_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.algebra_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.all_phase4_countermodels_pass' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase4.all_phase4_scenarios_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.arrow_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.arrow_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.arrow_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.attribution_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.attribution_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.attribution_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.birth_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.birth_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.birth_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.composition_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.composition_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.composition_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.confluence_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.confluence_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.confluence_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.cross_time_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.cross_time_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.cross_time_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.endogenous_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.endogenous_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.endogenous_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.finite_driven_arrow_exists' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase4.finite_holonomy_zero_arrow_exists' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase4.holonomy_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.holonomy_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.holonomy_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.phase4_countermodel_count' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.Phase4.phase4_scenario_count' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.seed_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.seed_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.seed_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.separation_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.separation_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.separation_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.transmission_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.transmission_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase4.transmission_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.certifiedNoninteraction_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.certifiedNoninteraction_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.certifiedNoninteraction_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_all_countermodels_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_all_scenarios_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_canonical_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_fixture_identifiers_are_unique' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_frozen_countermodel_census' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_frozen_scenario_census' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.final_rejected_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.holonomyArrow_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.holonomyArrow_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.holonomyArrow_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.integratedDomain_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.integratedDomain_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.integratedDomain_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.negativeForce_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.negativeForce_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.negativeForce_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.noFreeJoin_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.noFreeJoin_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.noFreeJoin_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.observerEndogeny_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.observerEndogeny_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.observerEndogeny_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.prospectiveJoin_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.prospectiveJoin_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.prospectiveJoin_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.refinementDescent_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.refinementDescent_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.refinementDescent_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.residualEnablement_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.residualEnablement_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.residualEnablement_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.sourceBudgetCapacity_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.sourceBudgetCapacity_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.sourceBudgetCapacity_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.threeDomainConfluence_accepted_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.threeDomainConfluence_canonical_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.threeDomainConfluence_exhaustive' does not depend on any axioms
+'FoundationsVII.Models.Finite.Phase5.threeDomainConfluence_raw_cardinality' does not depend on any axioms
+'FoundationsVII.Models.Finite.ScenarioStatus.all_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.Models.Finite.ScenarioStatus.mem_all' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.all_countermodels_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.all_scenario_statuses_are_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.Models.Finite.all_scenarios_pass' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel01_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel02_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel03_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel04_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel05_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel06_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel07_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel08_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel09_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel10_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel11_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel12_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel13_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel14_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel15_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel16_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel17_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel18_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel19_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel20_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel21_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel22_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel23_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel24_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel25_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel26_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.countermodel27_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.decodeFlags_encodeFlags' depends on axioms: [propext]
+'FoundationsVII.Models.Finite.decodeStatus_statusCode' does not depend on any axioms
+'FoundationsVII.Models.Finite.detector_covers_entire_frozen_family' does not depend on any axioms
+'FoundationsVII.Models.Finite.frozen_countermodel_assay_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.frozen_countermodel_census' does not depend on any axioms
+'FoundationsVII.Models.Finite.frozen_scenario_assay_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.frozen_scenario_census' does not depend on any axioms
+'FoundationsVII.Models.Finite.frozen_status_regression_has_24_distinct_expected_statuses' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_contract_wellFormed' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_false_positive_cost_exceeds_false_negative' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_false_positive_cost_is_asymmetric' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_frozen_complete' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_has_24_scenarios' does not depend on any axioms
+'FoundationsVII.Models.Finite.phase1_detector_has_27_countermodels' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario01_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario02_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario03_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario04_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario05_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario06_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario07_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario08_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario09_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario10_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario11_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario12_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario13_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario14_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario15_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario16_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario17_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario18_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario19_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario20_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario21_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario22_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario23_passes' does not depend on any axioms
+'FoundationsVII.Models.Finite.scenario24_passes' does not depend on any axioms
+'FoundationsVII.NegativeEvidenceRecord.bounded_search_does_not_license_unrestricted' depends on axioms: [propext]
+'FoundationsVII.NegativeEvidenceRecord.exhaustive_closed_finite_licenses_its_closed_family' depends on axioms: [propext]
+'FoundationsVII.NegativeEvidenceRecord.exhaustive_finite_does_not_license_unrestricted' depends on axioms: [propext]
+'FoundationsVII.NegativeEvidenceRecord.point_null_does_not_license_unrestricted' depends on axioms: [propext]
+'FoundationsVII.NegativeEvidenceRecord.theorem_impossibility_licenses_under_unrestricted_declared_scope' depends on axioms: [propext]
+'FoundationsVII.NeutralProvisioningCertificate.neutral_provisioning_authorizes_first_extension' does not depend on any axioms
+'FoundationsVII.NeutralProvisioningCertificate.retrospective_stocking_cannot_earn_neutral_credit' does not depend on any axioms
+'FoundationsVII.NeutralProvisioningCertificate.source_laundering_through_system_generation_fails' does not depend on any axioms
+'FoundationsVII.NeutralProvisioningCertificate.system_generated_source_cannot_earn_neutral_credit' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_01_escape_admitted_seed' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_01_escape_open_external_provision' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_01_escape_reachable_generator' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_01_no_first_extension_without_seed_or_generator' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_02_escape_witnessed_independent_contact' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_02_no_resemblance_only_independence_join' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_03_escape_prospective_certificate' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_03_no_retrospective_self_certification' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_04_escape_certified_adapter' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_04_no_automatic_total_lens_transfer' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_05_escape_external_observer' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_05_escape_zero_occupancy' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_05_no_unpriced_observer_native_credit' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_06_escape_complete_strict_join_certificate' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_06_no_join_from_contact_alone' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_07_escape_anti_product_witness' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_07_no_product_common_refinement_strictness_credit' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_08_escape_disjoint_root_certificate' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_08_no_one_lineage_source_independence_credit' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_09_escape_certified_zero_cost_channel' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_09_escape_paid_channel' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_09_no_positive_cost_join_credit_without_payment' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_10_escape_independent_driven_arrow' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_10_holonomy_zero_arrow_control' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_10_no_arrow_from_holonomy_alone' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_11_escape_fired_occurrence' does not depend on any axioms
+'FoundationsVII.NoGo.NGVII_11_no_occurrence_from_reachability_alone' does not depend on any axioms
+'FoundationsVII.NoGo.no_self_bootstrapping_join_without_seed_or_bridge' does not depend on any axioms
+'FoundationsVII.NoGo.self_bootstrap_escape_external_seed' does not depend on any axioms
+'FoundationsVII.NonInteractionCertificate.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.NonInteractionCertificate.wellFormed_implies_no_observed_contact' does not depend on any axioms
+'FoundationsVII.ObserverEndogenyPackage.certified_requires_pricing_and_internal_execution' does not depend on any axioms
+'FoundationsVII.ObserverEndogenyPackage.unpriced_observer_blocks_joint_native_endogenous_credit' does not depend on any axioms
+'FoundationsVII.ObserverEndogenyPackage.zero_occupancy_escape_preserves_endogenous_credit' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.certified_external_observer_is_a_lawful_escape' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.certified_zero_occupancy_is_fully_priced' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.hidden_occupancy_is_not_fully_priced' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.unpriced_observer_invalidates_native_formation_credit' does not depend on any axioms
+'FoundationsVII.ObserverOccupancyRecord.zero_occupancy_native_credit' does not depend on any axioms
+'FoundationsVII.OperationalProfile.firing_requires_reachability' does not depend on any axioms
+'FoundationsVII.OperationalProfile.no_occurrence_from_reachability_alone' does not depend on any axioms
+'FoundationsVII.OperationalProfile.occurrence_requires_firing' does not depend on any axioms
+'FoundationsVII.OperationalProfile.reachability_does_not_imply_firing_or_occurrence' does not depend on any axioms
+'FoundationsVII.OperationalProfile.reachability_requires_active_guard_and_execution' does not depend on any axioms
+'FoundationsVII.OperationalProfile.soundness_does_not_imply_reachability' does not depend on any axioms
+'FoundationsVII.PackageAccess.certified_peer_transport_is_sufficient_for_shared_access' does not depend on any axioms
+'FoundationsVII.PackageAccess.common_origin_countermodel' does not depend on any axioms
+'FoundationsVII.PackageAccess.common_origin_does_not_imply_shared_access' does not depend on any axioms
+'FoundationsVII.PackageAccess.shared_access_does_not_imply_source_independence' does not depend on any axioms
+'FoundationsVII.ParentRetentionMap.erased_parent_is_not_recoverable' does not depend on any axioms
+'FoundationsVII.ParentRetentionMap.full_retention_is_recoverable' does not depend on any axioms
+'FoundationsVII.PeerTransport.wellFormed_preserves_destination_ownership' does not depend on any axioms
+'FoundationsVII.PeerTransport.wellFormed_preserves_payload_source' does not depend on any axioms
+'FoundationsVII.PeerTransport.wellFormed_preserves_provenance' does not depend on any axioms
+'FoundationsVII.PeerTransport.wellFormed_targets_declared_destination' does not depend on any axioms
+'FoundationsVII.PeerTransport.withoutJoin_does_not_form_composite' does not depend on any axioms
+'FoundationsVII.PeerTransport.withoutJoin_is_certified_transport' does not depend on any axioms
+'FoundationsVII.PrecedenceCertificate.impossible_when_not_precedent' does not depend on any axioms
+'FoundationsVII.ProspectiveCommitment.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.ProspectiveJoinAdmission.certified_has_temporal_source_join_and_payment' does not depend on any axioms
+'FoundationsVII.ProspectiveJoinAdmission.certified_preserves_declared_source_alignment' does not depend on any axioms
+'FoundationsVII.ProspectiveJoinAdmission.retrospective_registration_blocks_prospective_join_credit' does not depend on any axioms
+'FoundationsVII.ReachabilityWitness.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.ReachabilityWitness.operationallyCertified_includes_execution' does not depend on any axioms
+'FoundationsVII.ReachabilityWitness.operationallyCertified_is_wellFormed' depends on axioms: [propext]
+'FoundationsVII.ReachabilityWitness.replay_has_nonempty_trace' depends on axioms: [propext]
+'FoundationsVII.ReachabilityWitness.replay_starts_at_initial' does not depend on any axioms
+'FoundationsVII.ReachabilityWitness.replay_transitions_are_wellFormed' does not depend on any axioms
+'FoundationsVII.ReachableBirthEvidence.valid_requires_reachable_generator' does not depend on any axioms
+'FoundationsVII.RefinedDescentPackage.destroying_refinement_exhibits_a_failed_join_gate' does not depend on any axioms
+'FoundationsVII.RefinedDescentPackage.preserving_refinement_with_valid_descent_preserves_three_gates' does not depend on any axioms
+'FoundationsVII.RefinedDescentPackage.valid_descent_does_not_erase_refinement_obstruction' does not depend on any axioms
+'FoundationsVII.Release.final_candidate_census' does not depend on any axioms
+'FoundationsVII.Release.final_candidate_ids_unique' does not depend on any axioms
+'FoundationsVII.Release.final_corollary_census' does not depend on any axioms
+'FoundationsVII.Release.final_corollary_ids_unique' does not depend on any axioms
+'FoundationsVII.Release.final_decision_census' does not depend on any axioms
+'FoundationsVII.Release.final_decision_ids_unique' does not depend on any axioms
+'FoundationsVII.Release.final_no_go_census' does not depend on any axioms
+'FoundationsVII.Release.final_no_go_ids_unique' does not depend on any axioms
+'FoundationsVII.Release.final_target_census' does not depend on any axioms
+'FoundationsVII.Release.final_target_ids_unique' does not depend on any axioms
+'FoundationsVII.Release.kernel_replay_state_is_explicit_for_every_corollary' does not depend on any axioms
+'FoundationsVII.Release.no_candidate_remains_specification_ready_unclosed' does not depend on any axioms
+'FoundationsVII.ResidualAwareEnablementChain.certified_accumulates_resources_and_preserves_residuals' depends on axioms: [propext]
+'FoundationsVII.ResidualAwareEnablementChain.join_created_needle_blocks_zero_residual_reading' does not depend on any axioms
+'FoundationsVII.ResidualFlow.accounted_balance' does not depend on any axioms
+'FoundationsVII.ResidualFlow.composed_debt_accumulates' does not depend on any axioms
+'FoundationsVII.ResidualFlow.settled_debt_bounded' does not depend on any axioms
+'FoundationsVII.ResidualLedger.append_extends' does not depend on any axioms
+'FoundationsVII.ResidualLedger.mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.ResidualLedger.no_silent_residual_deletion_under_scope_change' depends on axioms: [propext]
+'FoundationsVII.ResourceDelta.combine_assoc' depends on axioms: [propext]
+'FoundationsVII.ResourceDelta.combine_cost' does not depend on any axioms
+'FoundationsVII.ResourceDelta.combine_residualDebt' does not depend on any axioms
+'FoundationsVII.ResourceDelta.zero_left' depends on axioms: [propext]
+'FoundationsVII.ResourceDelta.zero_right' depends on axioms: [propext]
+'FoundationsVII.ScienceAssetRecord.constructed_gradeFaithful' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.corollary_grade_requires_formal_declaration' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.external_finite_evidence_does_not_upgrade_to_corollary' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.external_finite_evidence_does_not_upgrade_to_theorem' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.lean_finite_evidence_does_not_upgrade_to_corollary' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.lean_finite_evidence_does_not_upgrade_to_theorem' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.normative_specification_requires_payload' does not depend on any axioms
+'FoundationsVII.ScienceAssetRecord.theorem_grade_requires_formal_declaration' does not depend on any axioms
+'FoundationsVII.ScopedNegativePackage.certified_excludes_contact_and_occurrence_at_declared_scope' does not depend on any axioms
+'FoundationsVII.ScopedNegativePackage.point_null_plus_bounded_horizon_is_not_automatically_global' does not depend on any axioms
+'FoundationsVII.SourceAncestry.independence_excludes_same_lineage' does not depend on any axioms
+'FoundationsVII.SourceAncestry.same_lineage_excludes_independence' does not depend on any axioms
+'FoundationsVII.SourceEntry.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.SourceIndependenceGate.behavioral_nonfactorization_alone_is_insufficient' does not depend on any axioms
+'FoundationsVII.SourceIndependenceGate.certified_gate_separates_source_and_behavior' does not depend on any axioms
+'FoundationsVII.SourceIndependenceGate.same_lineage_fails_independence_sensitive_credit' does not depend on any axioms
+'FoundationsVII.SourceLedger.append_extends' does not depend on any axioms
+'FoundationsVII.SourceLedger.append_sourceIds' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.append_sourceKinds' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.audit_extends_of_ledger_extends' does not depend on any axioms
+'FoundationsVII.SourceLedger.audit_mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.constructed_wellFormed' does not depend on any axioms
+'FoundationsVII.SourceLedger.entry_wellFormed' does not depend on any axioms
+'FoundationsVII.SourceLedger.failed_source_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.mem_of_extends' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.refunded_source_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.revoked_source_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.SourceLedger.sourceIds_projection_consistent' does not depend on any axioms
+'FoundationsVII.SourceLedger.sourceKinds_projection_consistent' does not depend on any axioms
+'FoundationsVII.SourceLedger.withdrawn_source_not_silently_deleted' depends on axioms: [propext]
+'FoundationsVII.StrictJoinEvidence.certified_does_not_supply_directionality' depends on axioms: [propext]
+'FoundationsVII.StrictJoinEvidence.certified_has_anti_product_novelty' does not depend on any axioms
+'FoundationsVII.StrictJoinEvidence.certified_has_objecthood' does not depend on any axioms
+'FoundationsVII.StrictJoinEvidence.certified_has_source_and_budget_gates' does not depend on any axioms
+'FoundationsVII.StrictJoinEvidence.certified_retains_both_parents' does not depend on any axioms
+'FoundationsVII.StrictJoinProfile.anti_product_does_not_imply_objecthood' does not depend on any axioms
+'FoundationsVII.StrictJoinProfile.directionless_strict_profile_exists' does not depend on any axioms
+'FoundationsVII.StrictJoinProfile.strictness_does_not_imply_parent_retention' does not depend on any axioms
+'FoundationsVII.TransitionTrace.trace_head' does not depend on any axioms
+'FoundationsVII.TransitionTrace.trace_ne_nil' depends on axioms: [propext]
+'FoundationsVII.TransitionTrace.transitions_wellFormed' does not depend on any axioms
+'FoundationsVII.TransmissionFidelity.valid_preserves_budget' does not depend on any axioms
+'FoundationsVII.TransmissionFidelity.valid_preserves_source' does not depend on any axioms
+'FoundationsVII.TransmissionFidelity.valid_records_ambiguity' does not depend on any axioms
+'FoundationsVII.TransmissionFidelity.valid_records_loss' does not depend on any axioms
+'FoundationsVII.TransmissionRecord.pure_downward_selection_cannot_create_absent_lower_fact' does not depend on any axioms
+'FoundationsVII.TransmissionRecord.pure_downward_selection_preserves_present_lower_facts' does not depend on any axioms
+'FoundationsVII.TransportAuthorization.accepted_bridge_is_licensed' depends on axioms: [propext]
+'FoundationsVII.TransportAuthorization.accepted_complete_bridge_is_licensed' depends on axioms: [propext]
+'FoundationsVII.TransportAuthorization.accepted_wellFormed_bridge_is_licensed' depends on axioms: [propext]
+'FoundationsVII.TransportAuthorization.citation_only_is_not_licensed' does not depend on any axioms
+'FoundationsVII.TransportAuthorization.failed_bridge_is_not_licensed' depends on axioms: [propext]
+'FoundationsVII.TransportAuthorization.incomplete_bridge_is_not_licensed' depends on axioms: [propext]
+'FoundationsVII.TransportAuthorization.withdrawn_bridge_is_not_licensed' depends on axioms: [propext]
+'FoundationsVII.TypedAdmissionStep.Lawful.authorized_source_entry_exists' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.Lawful.executable_is_sound' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.Lawful.fired_is_executable' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.Lawful.occurrence_is_fired' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.Lawful.old_audit_entry_survives' depends on axioms: [propext]
+'FoundationsVII.TypedAdmissionStep.Lawful.old_budget_entry_survives' depends on axioms: [propext]
+'FoundationsVII.TypedAdmissionStep.Lawful.old_source_entry_survives' depends on axioms: [propext]
+'FoundationsVII.TypedAdmissionStep.Lawful.sourced_financed_and_audited' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.admit_sets_admissible' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.expiry_clears_admissible' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.retraction_clears_admissible' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.revocation_clears_admissible' does not depend on any axioms
+'FoundationsVII.TypedAdmissionStep.revocation_clears_current_admissibility_but_preserves_history' depends on axioms: [propext]
+'FoundationsVII.TypedAdmissionStep.rollback_clears_current_admissibility_but_preserves_history' depends on axioms: [propext]
+'FoundationsVII.UniversalConstructionCertificate.representation_preserves_declared_parents' does not depend on any axioms
+'FoundationsVII.UniversalConstructionCertificate.representation_requires_explicit_universal_property' does not depend on any axioms
+'FoundationsVII.UniversalConstructionCertificate.represents_strict_join_iff_valid_and_independently_novel' does not depend on any axioms
+'FoundationsVII.accounted_environmental_input_is_compatible_with_endogeny' does not depend on any axioms
+'FoundationsVII.all_three_transmission_directions_have_positive_controls' does not depend on any axioms
+'FoundationsVII.attribution_does_not_imply_descent_sufficiency_causation_or_endogeny' does not depend on any axioms
+'FoundationsVII.auditDisposition_mem_all' depends on axioms: [propext]
+'FoundationsVII.bounded_horizon_ne_universal' does not depend on any axioms
+'FoundationsVII.bridgeDisposition_mem_all' depends on axioms: [propext]
+'FoundationsVII.claimGrade_mem_all' depends on axioms: [propext]
+'FoundationsVII.claim_grades_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.closure_performed_and_closure_undergone_are_distinct' does not depend on any axioms
+'FoundationsVII.composed_enablement_without_transitive_causation_exists' does not depend on any axioms
+'FoundationsVII.composite_formation_does_not_imply_parent_retention' does not depend on any axioms
+'FoundationsVII.composite_formed_ne_strict_join' does not depend on any axioms
+'FoundationsVII.constructive_enablement_without_descent' does not depend on any axioms
+'FoundationsVII.constructive_endogenous_enablement_exists' does not depend on any axioms
+'FoundationsVII.constructive_interaction_holonomy' does not depend on any axioms
+'FoundationsVII.constructive_join_created_cross_term_needle' does not depend on any axioms
+'FoundationsVII.constructive_necessary_but_insufficient_enablement' does not depend on any axioms
+'FoundationsVII.contactMode_mem_all' depends on axioms: [propext]
+'FoundationsVII.contact_can_remain_relation_only' does not depend on any axioms
+'FoundationsVII.contact_surface_primitive_scoped_ruling' does not depend on any axioms
+'FoundationsVII.current_full_primitive_algebra_is_not_ready' does not depend on any axioms
+'FoundationsVII.driven_arrow_positive_control' does not depend on any axioms
+'FoundationsVII.driven_arrow_requires_independent_drive_certificate' does not depend on any axioms
+'FoundationsVII.enablementSource_mem_all' depends on axioms: [propext]
+'FoundationsVII.enablement_chain_can_be_order_sensitive' does not depend on any axioms
+'FoundationsVII.enablement_without_descent_need_not_be_causal' does not depend on any axioms
+'FoundationsVII.endogenous_does_not_mean_environmentally_isolated_or_uncaused' does not depend on any axioms
+'FoundationsVII.every_inherited_birth_class_activates_packaging' does not depend on any axioms
+'FoundationsVII.evidenceGrade_mem_all' depends on axioms: [propext]
+'FoundationsVII.evidence_grades_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.exact_scoped_contact_conservation_is_available' does not depend on any axioms
+'FoundationsVII.executable_ne_fired' does not depend on any axioms
+'FoundationsVII.executable_ne_occurrent' does not depend on any axioms
+'FoundationsVII.executable_ne_reachable' does not depend on any axioms
+'FoundationsVII.finite_carrier_ne_universal' does not depend on any axioms
+'FoundationsVII.finite_composite_objecthood_control' depends on axioms: [propext]
+'FoundationsVII.finite_confluent_positive_model' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.finite_external_ne_theorem_backed' does not depend on any axioms
+'FoundationsVII.finite_lean_ne_theorem_backed' does not depend on any axioms
+'FoundationsVII.finite_nonconfluent_countermodel' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.finite_package_category_control_is_well_formed' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.fired_ne_occurrent' does not depend on any axioms
+'FoundationsVII.full_algebra_reopen_condition_is_exact' does not depend on any axioms
+'FoundationsVII.full_and_partial_retention_are_explicit' does not depend on any axioms
+'FoundationsVII.full_generators_relations_program_deferred_with_formal_reopen_condition' does not depend on any axioms
+'FoundationsVII.hidden_observer_enablement_is_not_endogenous' does not depend on any axioms
+'FoundationsVII.holonomy_with_independent_drive_supports_arrow' does not depend on any axioms
+'FoundationsVII.holonomy_with_zero_arrow_witness' does not depend on any axioms
+'FoundationsVII.incommensurable_times_require_explicit_order_witness' does not depend on any axioms
+'FoundationsVII.incompatible_order_blocks_composition_credit' does not depend on any axioms
+'FoundationsVII.inheritedBirthClass_mem_all' depends on axioms: [propext]
+'FoundationsVII.inherited_activation_class_does_not_by_itself_create_participant' does not depend on any axioms
+'FoundationsVII.inherited_birth_class_signatures_are_injective' depends on axioms: [propext]
+'FoundationsVII.interactionStatus_mem_all' depends on axioms: [propext]
+'FoundationsVII.interaction_statuses_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.join_can_dissolve_and_create_residuals_simultaneously' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.join_descent_certificate_accounts_for_retained_parents' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.joining_is_not_monotonically_obstruction_reducing' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.mediation_special_case_exists' does not depend on any axioms
+'FoundationsVII.mere_product_is_not_strict_join_credit' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.necessary_enablement_does_not_imply_sufficiency' does not depend on any axioms
+'FoundationsVII.necessary_ne_sufficient' does not depend on any axioms
+'FoundationsVII.negativeEvidenceGrade_mem_all' depends on axioms: [propext]
+'FoundationsVII.negativeScope_mem_all' depends on axioms: [propext]
+'FoundationsVII.negative_evidence_grades_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.negative_scopes_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.no_free_first_join_two_gate_obstruction' does not depend on any axioms
+'FoundationsVII.no_unconditional_join_monotonicity_under_refinement' does not depend on any axioms
+'FoundationsVII.no_unqualified_contact_degree_from_bookkeeping_alone' does not depend on any axioms
+'FoundationsVII.normative_ne_illustrative' does not depend on any axioms
+'FoundationsVII.obstructed_ne_certifiedNoninteraction' does not depend on any axioms
+'FoundationsVII.omitted_observer_occupancy_invalidates_conservation_credit' does not depend on any axioms
+'FoundationsVII.one_commuting_square_does_not_establish_global_confluence' does not depend on any axioms
+'FoundationsVII.operationalStatus_mem_all' depends on axioms: [propext]
+'FoundationsVII.operational_statuses_pairwise_distinct' does not depend on any axioms
+'FoundationsVII.parentRetentionStatus_mem_all' depends on axioms: [propext]
+'FoundationsVII.partial_order_contact_survives_clock_reparameterization' does not depend on any axioms
+'FoundationsVII.partial_order_cross_time_contact_exists' does not depend on any axioms
+'FoundationsVII.participant_creation_is_conditional_not_automatic' does not depend on any axioms
+'FoundationsVII.peer_contact_can_transport_without_join' does not depend on any axioms
+'FoundationsVII.plausible_contact_quantities_disagree' does not depend on any axioms
+'FoundationsVII.presentation_difference_is_not_seed_dependence' does not depend on any axioms
+'FoundationsVII.reachable_ne_fired' does not depend on any axioms
+'FoundationsVII.reachable_ne_occurrent' does not depend on any axioms
+'FoundationsVII.refinementEffect_mem_all' depends on axioms: [propext]
+'FoundationsVII.refinement_effects_have_all_four_controls' does not depend on any axioms
+'FoundationsVII.refinement_may_preserve_or_destroy_join_evidence' does not depend on any axioms
+'FoundationsVII.relabeling_does_not_count_as_new_cross_term' does not depend on any axioms
+'FoundationsVII.rendezvous_special_case_exists' does not depend on any axioms
+'FoundationsVII.residualKind_mem_all' depends on axioms: [propext]
+'FoundationsVII.resource_delta_fragment_has_left_identity' depends on axioms: [propext]
+'FoundationsVII.resource_delta_fragment_has_right_identity' depends on axioms: [propext]
+'FoundationsVII.resource_delta_fragment_is_associative' depends on axioms: [propext]
+'FoundationsVII.reversal_null_and_driven_controls_are_distinct' does not depend on any axioms
+'FoundationsVII.seed_partition_can_change_terminal_package' does not depend on any axioms
+'FoundationsVII.seeded_and_paid_first_join_escape' does not depend on any axioms
+'FoundationsVII.sequential_special_case_exists' does not depend on any axioms
+'FoundationsVII.shared_budget_special_case_exists' does not depend on any axioms
+'FoundationsVII.shared_carrier_special_case_exists' does not depend on any axioms
+'FoundationsVII.sound_ne_executable' does not depend on any axioms
+'FoundationsVII.sound_ne_fired' does not depend on any axioms
+'FoundationsVII.sound_ne_occurrent' does not depend on any axioms
+'FoundationsVII.sound_ne_reachable' does not depend on any axioms
+'FoundationsVII.sourceKind_mem_all' depends on axioms: [propext]
+'FoundationsVII.special_case_categorical_representation_is_conditional' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.strict_join_and_holonomy_do_not_replace_drive' does not depend on any axioms
+'FoundationsVII.structural_downward_selection_is_not_automatically_causal' does not depend on any axioms
+'FoundationsVII.synchronization_does_not_require_equal_local_clock_readings' does not depend on any axioms
+'FoundationsVII.synchronized_cross_time_contact_exists' does not depend on any axioms
+'FoundationsVII.system_performed_birth_control' does not depend on any axioms
+'FoundationsVII.system_underwent_birth_control' does not depend on any axioms
+'FoundationsVII.theoremBacked_ne_exhaustiveFiniteExternal' does not depend on any axioms
+'FoundationsVII.theoremBacked_ne_exhaustiveFiniteLean' does not depend on any axioms
+'FoundationsVII.theorem_ne_calibration' does not depend on any axioms
+'FoundationsVII.theorem_ne_conjecture' does not depend on any axioms
+'FoundationsVII.theorem_ne_nonclaim' does not depend on any axioms
+'FoundationsVII.theorem_ne_philosophy' does not depend on any axioms
+'FoundationsVII.theorem_ne_schema' does not depend on any axioms
+'FoundationsVII.theorist_triggered_enablement_is_not_endogenous' does not depend on any axioms
+'FoundationsVII.transmissionDirection_mem_all' depends on axioms: [propext]
+'FoundationsVII.unconditional_categorical_reduction_countermodel' depends on axioms: [propext, Quot.sound]
+'FoundationsVII.witnessedContact_ne_strictJoin' does not depend on any axioms
+'FoundationsVII.witnessed_contact_ne_strict_join' does not depend on any axioms

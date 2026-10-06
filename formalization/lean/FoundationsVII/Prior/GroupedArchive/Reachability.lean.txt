@@ -1,0 +1,31 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Laws.E1Internalization
+import SixBirdsFoundationsV.Laws.E5ReclosureCollapse
+
+#check SixBirdsFoundationsV.RepairGeneratorReachabilityRecord
+#check SixBirdsFoundationsV.RepairGeneratorReachabilityCertified
+#check SixBirdsFoundationsV.NoReachableRepairGenerator
+#check SixBirdsFoundationsV.NoReachableRepairGeneratorExcludesEndogenousFamily
+
+namespace FoundationsVII.Prior
+
+/-- FT02, FT03, FT11, FT12: inherited repair-generator reachability family. -/
+def ft02ft03ft11ft12Reachability : AdapterContract :=
+  { adapterId := "ADAPTER-FT02-FT03-FT11-FT12-REACHABILITY"
+    formalizationTargetIds := ["FT02", "FT03", "FT11", "FT12"]
+    sourceModule := "SixBirdsFoundationsV.Laws.E1Internalization; SixBirdsFoundationsV.Laws.E5ReclosureCollapse"
+    sourceDeclarations := [
+      "SixBirdsFoundationsV.RepairGeneratorReachabilityRecord",
+      "SixBirdsFoundationsV.RepairGeneratorReachabilityCertified",
+      "SixBirdsFoundationsV.NoReachableRepairGenerator",
+      "SixBirdsFoundationsV.NoReachableRepairGeneratorExcludesEndogenousFamily"]
+    sourceTypes := ["repair-generator reachability and bounded exclusion records"]
+    targetTypes := ["FoundationsVII.ReachabilityWitness", "FoundationsVII.AdmissionTransition"]
+    preservedHypotheses := ["finite executable path", "declared generator family", "bounded horizon"]
+    addedHypotheses := ["VII domain-state trace", "explicit source, budget, and audit ledgers"]
+    lostHypotheses := ["No universal bootstrap no-go is imported."]
+    trustDependencies := []
+    nonclaims := ["A bounded unavailable generator is not a universal impossibility result."]
+    fidelity := .exactReusableCore }
+
+end FoundationsVII.Prior

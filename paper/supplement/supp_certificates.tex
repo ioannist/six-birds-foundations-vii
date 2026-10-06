@@ -1,0 +1,116 @@
+\section{The certificate records}
+\label{supp:certificates}
+
+This section defines the certificate records that the main paper summarizes in its section on
+the certificate language (main paper, \Cref{sec:certificates}). The strict-join certificate is
+defined there.
+
+\subsection{Access and admission}
+
+The access record is defined in the main paper (\Cref{def:access}).
+
+Admission is modelled as a typed transition system with five operations: admission,
+expiry, revocation, retraction and rollback. Each requires source, budget, guard and audit
+witnesses and has a typed effect on the admissibility coordinate. The four non-admitting
+transitions matter as much as admission: a system that can only admit cannot distinguish
+a claim that was withdrawn from one that was never made. An admission regime records
+whether its family of extensions is closed, which seeds it has admitted, which generators
+are reachable and which extensions are provisioned from outside. A first extension is
+\emph{authorized} when there is an admitted seed, a reachable generator or open external
+provision; \Cref{prop:bootstrap} is the resulting refusal.
+
+\subsection{Contact and join}
+
+\begin{definition}[Contact surface and contact witness]
+\label{def:contact}
+A \emph{contact surface} records two theories, their interfaces, a crossing relation and
+an admissibility flag; it is well formed when the two theories differ and the crossing
+relation is named. A \emph{contact witness} records a surface, an event, a source, whether
+the crossing occurred, a description of the payload and an audit; it is well formed when
+its surface is well formed and admissible, the crossing occurred, the payload is described
+and the audit is non-empty. Separately, channel evidence licenses one of five contact
+modes (rendezvous, mediation, sequential, shared carrier, shared budget) by a direct
+endpoint match, a certified mediator, a recorded sequence, a certified shared carrier or a
+certified shared budget.
+\end{definition}
+
+Contact is weaker than join. Two theories may share a carrier, exchange a record or
+transport a payload without any joint theory coming into existence.
+
+\begin{definition}[Join status]
+\label{def:join-status}
+Within a declared finite family of interfaces, a join attempt receives one of seven
+statuses: no evidenced contact, evidenced contact, common refinement, lawful composite,
+strict join, typed obstruction, or certified non-interaction.
+\end{definition}
+
+The classifier assigns exactly one status to every attempt in the declared family, which is
+checked by enumeration over its carriers. Nothing is claimed about attempts outside the
+declared family.
+
+The join budget prices interface access, parent retention, joint novelty, observer and
+instrument occupancy, and cross-costs, with refunds. An entry is credited when its amount
+is covered by payments and refunds, or when its amount is zero on a certified zero-cost
+channel. A formation earns \emph{native} credit, credit as a product of the
+join's own sources rather than of bridged or external ones, only when every observer's
+occupancy is charged in full. The ledger is local
+accounting over declared resources, not a conservation law.
+
+\subsection{Enablement and descent}
+
+\begin{definition}[Enablement record]
+\label{def:enablement}
+An \emph{enablement record} identifies an operation made available, its source, whether it
+was executed, the target before and after, budgets, an attribution and an audit. An
+\emph{attributed} enablement adds attribution evidence (a typed source, a witnessed
+execution, accounted budget and audit, and no hidden executor), requires execution, and
+requires the record's source to match the evidence. Enablement is \emph{endogenous} when
+the enabling generator is carried, reachable, executed, audited and budgeted within a
+closed boundary, neither a theorist nor an observer executor is hidden, and any
+environmental input is accounted.
+\end{definition}
+
+An \emph{enablement separation profile} stores independent Boolean flags. Two of them
+record claims: that an enablement is \emph{load-bearing}, that is, the record asserts that
+the enabled operation depends on it; and that \emph{descent} holds, that is, the record
+asserts that the enabled content descends from the enabling theory, which then also
+determines it. No semantic definition of dependence or descent is formalized; the flags
+are recorded assertions. \Cref{tab:separations} contains a profile whose load-bearing flag
+is set and whose descent flag is clear.
+
+A transmission record carries a direction (upward, downward or peer), a payload, what was
+lost, what is ambiguous and a source. An operational profile records whether a rule is
+sound, executable, guard-active, reachable, fired and occurrent; it is coherent when an
+executable rule is sound, a reachable one is guard-active and executable, a fired one is
+reachable and an occurrent one has fired. A negative-evidence record states the force of a negative result: a point null, a
+bounded search, an exhaustive search of a finite family, and an unrestricted universal
+claim have four different forces, and the record states which one is claimed.
+
+\subsection{Dynamics and residue}
+
+\begin{definition}[Route comparison and holonomy]
+\label{def:route}
+A \emph{route comparison} records two route results, each with a target, a list of
+members, order and bracketing codes, a predictive value, an audit value and a legality
+flag. It has \emph{route residue} when both results are legal, they share target and
+members, their order or bracketing codes differ, and their predictive or audit values
+differ. The catalog calls residue with differing predictive values \emph{interaction
+holonomy}. The name is used in a declared structural sense; no bundle, connection or
+geometric phase is involved \citep{Berry1984}.
+\end{definition}
+
+\begin{definition}[Drive certificate]
+\label{def:drive}
+A \emph{drive certificate} records five flags: a drive, a path asymmetry, a failed
+reversal, budgeting and auditing. It is valid when all five are set. An \emph{arrow claim} is eligible only with a valid drive certificate.
+Cross-time contact additionally requires a synchronization or partial-order witness.
+\end{definition}
+
+The fluctuation theorem relates forward and reverse path probabilities to entropy
+production for stochastic, microscopically reversible dynamics \citep{Crooks1999}; it is a
+comparison for the drive and reversal fields, not an interpretation of them.
+
+The residual ledger types what an interaction leaves undischarged: inaccessible,
+unadmitted, expired, failed and join-created residuals. Each entry may record a discharge
+route (ascent, peer join, refinement or declared termination), and the ledger is
+append-only, so no residual disappears silently.

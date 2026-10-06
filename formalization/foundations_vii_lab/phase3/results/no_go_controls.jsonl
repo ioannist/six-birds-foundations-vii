@@ -1,0 +1,5 @@
+{"escape_scenarios":["TTW-S08"],"failure_scenarios":["TTW-S05","TTW-S15"],"no_go_id":"NGVII-02","theorem_asset":"FoundationsVII.NoGo.NGVII_02_no_resemblance_only_independence_join"}
+{"escape_scenarios":["TTW-S08"],"failure_scenarios":["TTW-S06"],"no_go_id":"NGVII-06","theorem_asset":"FoundationsVII.NoGo.NGVII_06_no_join_from_contact_alone"}
+{"escape_scenarios":["TTW-S08"],"failure_scenarios":["TTW-S07","TTW-S14","TTW-S15"],"no_go_id":"NGVII-07","theorem_asset":"FoundationsVII.NoGo.NGVII_07_no_product_common_refinement_strictness_credit"}
+{"escape_scenarios":["TTW-S08"],"failure_scenarios":["TTW-S05","TTW-S11"],"no_go_id":"NGVII-08","theorem_asset":"FoundationsVII.NoGo.NGVII_08_no_one_lineage_source_independence_credit"}
+{"escape_scenarios":["TTW-S08"],"failure_scenarios":["TTW-S10"],"no_go_id":"NGVII-09","theorem_asset":"FoundationsVII.NoGo.NGVII_09_no_positive_cost_join_credit_without_payment"}

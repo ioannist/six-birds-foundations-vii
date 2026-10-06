@@ -1,0 +1,531 @@
+# Phase 0.1 apparatus-citation audit for Foundations V.
+# Each entry records the actual source text inspected, not planning tickets or kb files.
+entries:
+  - object_name: Theory package
+    exact_citation: "Foundations I, Definition 1 (Finite theory package), label def:tk-theory-package"
+    source_path: six-birds-theory/manuscript/paper.tex
+    status: verified_correct
+    identifiers:
+      - "def:tk-theory-package"
+      - "finite theory package"
+      - "\\mathcal T \\;=\\; (Z,\\ f,\\ \\Sigma_f,\\ E,\\ \\mathcal A)"
+
+  - object_name: Six primitives
+    exact_citation: "Foundations I Section 10.1 (Definitions of P1--P6); Foundations II Section 2 (primitive role architecture)"
+    source_paths:
+      - six-birds-theory/manuscript/paper.tex
+      - six-birds-foundations-ii/paper/sections/02_primitive_role_architecture.tex
+    status: verified_correct
+    identifiers:
+      - "Definitions of P1--P6"
+      - "P1 is a rewrite"
+      - "P6 is an accounting/audit structure"
+      - "\\label{def:primitive-roles}"
+
+  - object_name: Six primitives repaired role meanings
+    exact_citation: "Foundations II Section 2, repaired alignments for P1--P6"
+    source_path: six-birds-foundations-ii/paper/sections/02_primitive_role_architecture.tex
+    status: verified_correct
+    identifiers:
+      - "P1  update-vs-quotient compatibility / descent obstruction"
+      - "P6  audit/bookkeeping/provenance/replay/checkability"
+
+  - object_name: Split-pair obstruction
+    exact_citation: "Foundations IV Theorem 5.2, thm:F2 (Descent-Repair Normal Form)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_05_primary_results.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F2}"
+      - "\\splitObs(q,F,r)=\\emptyset"
+      - "canonical repairs are: source"
+
+  - object_name: Current vs predictive quotient
+    exact_citation: "Holonomy with Memory Sections 2.2 and 3.3; Foundations IV Theorems thm:F3 and thm:F13a"
+    source_paths:
+      - six-birds-papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_05_primary_results.tex
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_03_problem_setup.tex
+    status: verified_correct
+    identifiers:
+      - "current quotient"
+      - "predictive quotient"
+      - "MaxFiber"
+      - "\\Delta_i^{\\max}"
+      - "\\label{thm:F3}"
+      - "\\label{thm:F13a}"
+
+  - object_name: Closure deficit
+    exact_citation: "Foundations III Theorem 8 (FiniteMarkovClosureDeficit), Section 7.3; Institutions notation table and carrier use"
+    source_paths:
+      - six-birds-foundations-iii/paper/sections/07-descent-packaging-completion-strictness.tex
+      - six-birds-game-theory/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex
+    status: corrected
+    identifiers:
+      - "Theorem 8: Markov Closure-Deficit Theorem"
+      - "FiniteMarkovClosureDeficit"
+      - "I\\bigl(X_t\\,;\\,\\Pi(X_{t+\\tau})\\,\\big|\\,\\Pi(X_t)\\bigr)"
+      - "closure deficit is a conditional mutual"
+    audit_note: "The actual built FIII paper has Theorem 8 as closure deficit. The stale dependency ticket calls closure deficit T6 and idempotent saturation T8; THEOREMS.md now cites the built-paper theorem and notes the stale ticket discrepancy."
+
+  - object_name: Hiddenness / exposure
+    exact_citation: "Hiddenness paper Definition def:visibility-coupling; Foundations IV Theorems thm:F13a/thm:F13b"
+    source_paths:
+      - six-birds-hiddenness/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_03_problem_setup.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{def:visibility-coupling}"
+      - "\\Exposure(\\Lift,\\Substrate)"
+      - "exposure dissolves"
+      - "\\label{thm:F13a}"
+      - "\\label{thm:F13b}"
+
+  - object_name: Adequacy residual
+    exact_citation: "Xi companion Definition def:xi:adequacy-residual; Theorem thm:xi:chain-rule; Corollary cor:xi:same-family-saturation; Theorem thm:xi:blind-spot-witness"
+    source_path: six-birds-needles/paper/xi/xi_companion.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{def:xi:adequacy-residual}"
+      - "\\label{thm:xi:chain-rule}"
+      - "\\label{cor:xi:same-family-saturation}"
+      - "\\label{thm:xi:blind-spot-witness}"
+
+  - object_name: Currency-constraint duality
+    exact_citation: "To Spend a Stone Sections 2--4: C1--C4 currency roles, shadow price, slack regime, proxy ablation, budget enforcement/idempotence"
+    source_paths:
+      - six-birds-currency/paper/sections/02_framework.tex
+      - six-birds-currency/paper/sections/03_methods.tex
+      - six-birds-currency/paper/sections/04_results.tex
+    status: verified_correct
+    identifiers:
+      - "Constraint currency (C1)"
+      - "Ledger currency (C2)"
+      - "Potential currency (C3)"
+      - "Dual currency (C4)"
+      - "\\lambda_i=\\frac{\\partial \\Phi^\\star}{\\partial b_i}"
+      - "If the budget is slack"
+      - "When the cost is merely a proxy"
+      - "Budgets do not merely trade off motion against expenditure"
+
+  - object_name: Currency slack collapse and proxy failure
+    exact_citation: "To Spend a Stone Sections 3.3 and 4"
+    source_paths:
+      - six-birds-currency/paper/sections/03_methods.tex
+      - six-birds-currency/paper/sections/04_results.tex
+    status: verified_correct
+    identifiers:
+      - "If the budget is slack"
+      - "the solver returns \\(\\lambda=0\\) exactly"
+      - "shadow price appears only when the budget binds"
+      - "When the cost is merely a proxy"
+
+  - object_name: No-needles / membranes
+    exact_citation: "Emergence IS the Needle Killer, definition of needle obstruction and Theorem thm:main:layer-dissolving-master"
+    source_paths:
+      - six-birds-needles/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_04_methods.tex
+    status: verified_correct
+    identifiers:
+      - "needle obstruction"
+      - "\\label{thm:main:layer-dissolving-master}"
+      - "There are no layer-dissolving predictive needles"
+      - "\\label{thm:F6}"
+
+  - object_name: Viability
+    exact_citation: "Foundations IV Theorem 7.3, thm:F19 (Object Persistence); Agents Section 3.2 viability kernel"
+    source_paths:
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+      - six-birds-agent/paper/sections/03_packaging_engine.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F19}"
+      - "Viability kernel as a greatest fixed point"
+      - "greatest fixed point"
+      - "ledger-gated constraints"
+
+  - object_name: FIV object persistence viability hooks
+    exact_citation: "Foundations IV Theorem 7.3, thm:F19 (Object Persistence)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F19}"
+      - "\\operatorname{ViablePersistence}"
+      - "dissolution obstruction"
+
+  - object_name: FIV F6 No-Needles Stability
+    exact_citation: "Foundations IV Theorem thm:F6 (No-Needles Stability)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_04_methods.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F6}"
+      - "No-Needles Stability"
+
+  - object_name: FIV F7 Sufficiency Closure
+    exact_citation: "Foundations IV Theorem thm:F7 (Sufficiency Closure)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_04_methods.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F7}"
+      - "Sufficiency Closure"
+
+  - object_name: FIV F9 No Unstatused Residual
+    exact_citation: "Foundations IV Theorem thm:F9 (No Unstatused Residual)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_04_methods.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F9}"
+      - "No Unstatused Residual"
+
+  - object_name: FIV F10 Quotientality
+    exact_citation: "Foundations IV Theorem thm:F10 (Quotientality)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_03_problem_setup.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F10}"
+      - "Quotientality"
+
+  - object_name: FIV F13a Hiddenness Normal Form
+    exact_citation: "Foundations IV Theorem thm:F13a (Hiddenness Normal Form)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_03_problem_setup.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F13a}"
+      - "Hiddenness Normal Form"
+
+  - object_name: FIV F13b CSL Formed-Closure Law
+    exact_citation: "Foundations IV Theorem thm:F13b (CSL Formed-Closure Law)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_03_problem_setup.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F13b}"
+      - "CSL Formed-Closure Law"
+
+  - object_name: FIV F17 Objectivity as Common Quotient
+    exact_citation: "Foundations IV Theorem thm:F17 (Objectivity as Common Quotient)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F17}"
+      - "Objectivity as Common Quotient"
+
+  - object_name: FIV F20 Fact / Record Formation
+    exact_citation: "Foundations IV Theorem thm:F20 (Fact / Record Formation)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F20}"
+      - "Fact / Record Formation"
+
+  - object_name: FIV F21 Reflexive Nonclosure
+    exact_citation: "Foundations IV Theorem thm:F21 (Reflexive Nonclosure)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F21}"
+      - "Reflexive Nonclosure"
+
+  - object_name: FIV F25 Causality as Stable Intervention Transport
+    exact_citation: "Foundations IV Theorem thm:F25 (Causality as Stable Intervention Transport)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F25}"
+      - "Causality as Stable Intervention Transport"
+
+  - object_name: FIV F29 Presentation Invariance
+    exact_citation: "Foundations IV Theorem thm:F29 (Presentation Invariance)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F29}"
+      - "Presentation Invariance"
+
+  - object_name: FIV F30 Explanation as Compression with Descent
+    exact_citation: "Foundations IV Theorem thm:F30 (Explanation as Compression with Descent)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F30}"
+      - "Explanation as Compression with Descent"
+
+  - object_name: FIV F31 Counterfactual Legitimacy
+    exact_citation: "Foundations IV Theorem thm:F31 (Counterfactual Legitimacy)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F31}"
+      - "Counterfactual Legitimacy"
+
+  - object_name: FIV F35 Scale Descent / Renormalization
+    exact_citation: "Foundations IV Theorem thm:F35 (Scale Descent / Renormalization)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_08_formal_framework.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F35}"
+      - "Scale Descent / Renormalization"
+
+  - object_name: FIV F47 Fine-Tuning as Small Selector Region
+    exact_citation: "Foundations IV Theorem thm:F47 (Fine-Tuning as Small Selector Region)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_08_formal_framework.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F47}"
+      - "Fine-Tuning as Small Selector Region"
+
+  - object_name: FIV F52 Closure Completeness Boundary
+    exact_citation: "Foundations IV Theorem thm:F52 (Closure Completeness Boundary)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_08_formal_framework.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F52}"
+      - "Closure Completeness Boundary"
+
+  - object_name: FIV F53 Closure-Reality Boundary resolution
+    exact_citation: "Foundations IV Proposition prop:F53 (Closure--Reality Boundary resolution)"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_09_synthesis.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{prop:F53}"
+      - "Closure--Reality Boundary resolution"
+
+  - object_name: Agent split
+    exact_citation: "Agents paper Sections 3, 5, and 11: agenthood as enablement, agency as difference-making, schedule trap null"
+    source_paths:
+      - six-birds-agent/paper/sections/03_packaging_engine.tex
+      - six-birds-agent/paper/sections/05_exhibit_nulls.tex
+      - six-birds-agent/paper/sections/11_discussion.tex
+    status: verified_correct
+    identifiers:
+      - "Agenthood"
+      - "enablement claim"
+      - "Agency"
+      - "difference-making"
+      - "schedule trap"
+
+  - object_name: Institution
+    exact_citation: "Institutions paper propositions carrier-nondefinability, saturation-fixed-point, washout-mechanism, material-forcing, coercion-null-probe"
+    source_path: six-birds-game-theory/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{prop:carrier-nondefinability}"
+      - "\\label{prop:saturation-fixed-point}"
+      - "\\label{prop:washout-mechanism}"
+      - "\\label{prop:material-forcing}"
+      - "\\label{prop:coercion-null-probe}"
+
+  - object_name: Reflexive nonclosure
+    exact_citation: "Foundations IV Theorem 7.6, thm:F21; Foundations III Theorem 24 and Theorem 25"
+    source_paths:
+      - six-birds-meta-math/paper/foundations_iv/sections/sec_07_analysis.tex
+      - six-birds-foundations-iii/paper/sections/11-instruments-visibility-rotating-audit.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F21}"
+      - "Theorem 24 (SameLevelSelfAuditFailure"
+      - "Theorem 25: Finite Rotating-Audit Theorem"
+      - "no final self-certifying instrument"
+
+  - object_name: Top-down channel
+    exact_citation: "Foundations III Section 4.7, Top-down channel record and top-down channel gate soundness propositions; NC-TD"
+    source_path: six-birds-foundations-iii/paper/sections/04-central-object-birdint.tex
+    status: verified_correct
+    identifiers:
+      - "Top-down channel record"
+      - "Top-down channel gate soundness"
+      - "at least two admissible macro interventions"
+      - "Structural downward influence is insufficient"
+
+  - object_name: Source-of-truth classes
+    exact_citation: "Foundations III Section 4.8.1, Source record / SourceOfTruth family; Strict-Tests source-policy profile"
+    source_paths:
+      - six-birds-foundations-iii/paper/sections/04-central-object-birdint.tex
+      - six-birds-tests/Tsiokos_2026_Accepted_New_Layer_Strict_Tests_on_Fixed_Support_in_Six_Birds_Theory.tex
+    status: verified_correct
+    identifiers:
+      - "\\mathsf{SourceOfTruth}"
+      - "\\texttt{committed\\_state}"
+      - "\\texttt{audited\\_cell\\_records}"
+      - "\\texttt{fallback}"
+      - "Source-policy profile"
+      - "layer-indexed policies"
+
+  - object_name: Promotion gates
+    exact_citation: "Foundations III Section 10.2 promotion gates and Theorem 19 (PromotionGateSoundness), Section 10.3; Strict-Tests control panel"
+    source_paths:
+      - six-birds-foundations-iii/paper/sections/10-promotion-and-stacking.tex
+      - six-birds-tests/Tsiokos_2026_Accepted_New_Layer_Strict_Tests_on_Fixed_Support_in_Six_Birds_Theory.tex
+    status: corrected
+    identifiers:
+      - "Promotion Gates"
+      - "Theorem 19: Promotion Gate Soundness"
+      - "PromotionGateSoundness"
+      - "every required core gate exists"
+      - "control panel"
+      - "memory-only comparator"
+    audit_note: "E1 proof spine changed from bare T19 to FIII Theorem 19 (PromotionGateSoundness), Section 10.3. The built paper resolves this theorem number."
+
+  - object_name: Strict-Tests control panel
+    exact_citation: "Accepted New Layer Strict Tests paper, secondary-results control panel"
+    source_path: six-birds-tests/Tsiokos_2026_Accepted_New_Layer_Strict_Tests_on_Fixed_Support_in_Six_Birds_Theory.tex
+    status: verified_correct
+    identifiers:
+      - "control panel"
+      - "null baseline"
+      - "memory-only comparator"
+
+  - object_name: D1 repair join source basis
+    exact_citation: "Foundations IV Theorem 5.2, thm:F2, source-refinement repair; join symbol is Foundations V-local"
+    source_path: six-birds-meta-math/paper/foundations_iv/sections/sec_05_primary_results.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{thm:F2}"
+      - "source repair"
+      - "least such repair"
+
+  - object_name: D2 predictive surplus source basis
+    exact_citation: "Foundations III Theorem 8 closure deficit; Xi companion adequacy residual and chain rule"
+    source_paths:
+      - six-birds-foundations-iii/paper/sections/07-descent-packaging-completion-strictness.tex
+      - six-birds-needles/paper/xi/xi_companion.tex
+    status: verified_correct
+    identifiers:
+      - "FiniteMarkovClosureDeficit"
+      - "minimum predictive closure loss"
+      - "\\label{def:xi:adequacy-residual}"
+      - "\\label{thm:xi:chain-rule}"
+
+  - object_name: D3 carried record source basis
+    exact_citation: "Foundations III Section 4.8.1 source records and Section 13.2.8 fallback/default source discipline"
+    source_paths:
+      - six-birds-foundations-iii/paper/sections/04-central-object-birdint.tex
+      - six-birds-foundations-iii/paper/sections/13-model-realizations.md
+    status: verified_correct
+    identifiers:
+      - "Source record"
+      - "\\texttt{committed\\_state}"
+      - "\\texttt{audited\\_cell\\_records}"
+      - "\\texttt{fallback}"
+      - "### 13.2.8 Provenance Discipline"
+      - "Fallback-default cap"
+
+  - object_name: D4 E-system source basis
+    exact_citation: "Foundations I def:tk-theory-package plus FIII carried instruments/source records and Spend carried ledgers"
+    source_paths:
+      - six-birds-theory/manuscript/paper.tex
+      - six-birds-foundations-iii/paper/sections/04-central-object-birdint.tex
+      - six-birds-currency/paper/sections/02_framework.tex
+    status: verified_correct
+    identifiers:
+      - "def:tk-theory-package"
+      - "completion/packaging endomap"
+      - "audit functional"
+      - "Instrument-indexed claims"
+      - "Source record"
+      - "Ledger currency (C2)"
+
+  - object_name: D5 closed-loop scope source basis
+    exact_citation: "Foundations III source-policy/fallback discipline, especially SourceOfTruth family and fallback cap"
+    source_path: six-birds-foundations-iii/paper/sections/04-central-object-birdint.tex
+    status: verified_correct
+    identifiers:
+      - "\\mathsf{SourceOfTruth}"
+      - "\\texttt{fallback}$ supports at most provisional pair-observable acceptance"
+
+  - object_name: D6 exposure cost / probe economy source basis
+    exact_citation: "Hiddenness def:visibility-coupling; Xi cor:xi:same-family-saturation; Spend C1--C4 and shadow price"
+    source_paths:
+      - six-birds-hiddenness/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex
+      - six-birds-needles/paper/xi/xi_companion.tex
+      - six-birds-currency/paper/sections/02_framework.tex
+    status: verified_correct
+    identifiers:
+      - "\\label{def:visibility-coupling}"
+      - "binary exposure predicate"
+      - "finite-carrier testable"
+      - "\\label{cor:xi:same-family-saturation}"
+      - "Constraint currency (C1)"
+      - "shadow price"
+
+  - object_name: Recognition source - Institutions
+    exact_citation: "Institutions Are Strict Extensions of the Game: canonical institution Pstar, material forcing, washout, coercion-null, within-agent acquisition open problem"
+    source_path: six-birds-game-theory/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex
+    status: verified_correct
+    identifiers:
+      - "canonical institutional state"
+      - "\\Pstar"
+      - "material forcing"
+      - "coercion-null"
+      - "within-agent learning or acquisition"
+
+  - object_name: Recognition source - Agents
+    exact_citation: "To Throw a Stone with Six Birds: viability kernel, feasible empowerment, agenthood/agency split, schedule trap"
+    source_path: six-birds-agent/paper/agency.tex
+    status: verified_correct
+    identifiers:
+      - "viability kernels"
+      - "agenthood"
+      - "agency"
+      - "schedule trap"
+
+  - object_name: Recognition source - Hiddenness
+    exact_citation: "Hiddenness as a Structural Law of Emergence: Exposure predicate and exposure/non-exposure law"
+    source_path: six-birds-hiddenness/Tsiokos_2026_Hiddenness_as_a_Structural_Law_of_Emergence.tex
+    status: verified_correct
+    identifiers:
+      - "\\Exposure"
+      - "dissolution under exposure"
+      - "preservation under non-exposure"
+
+  - object_name: Recognition source - Xi adequacy residual
+    exact_citation: "Adequacy Residuals and Blind-Spot Currency: residual definition, chain rule, same-family saturation, blind-spot witness"
+    source_path: six-birds-needles/paper/xi/xi_companion.tex
+    status: verified_correct
+    identifiers:
+      - "Adequacy residual"
+      - "Chain rule for adequacy residuals"
+      - "Same-family saturation"
+      - "Blind-spot witness"
+
+  - object_name: Recognition source - To Spend a Stone
+    exact_citation: "To Spend a Stone: C1--C4 currency roles, shadow prices, slack collapse, proxy failure, budget-enforcement/idempotence"
+    source_paths:
+      - six-birds-currency/paper/sections/02_framework.tex
+      - six-birds-currency/paper/sections/03_methods.tex
+      - six-birds-currency/paper/sections/04_results.tex
+    status: verified_correct
+    identifiers:
+      - "Constraint currency (C1)"
+      - "shadow price"
+      - "When budgets are loose"
+      - "When the cost is merely a proxy"
+      - "Budgets do not merely trade off motion against expenditure"
+
+  - object_name: Recognition source - Needle Killer
+    exact_citation: "Emergence IS the Needle Killer: needle obstruction, predictive native membrane, layer-dissolving membrane master theorem"
+    source_path: six-birds-needles/Tsiokos_2026_Emergence_IS_the_Needle_Killer.tex
+    status: verified_correct
+    identifiers:
+      - "needle obstruction"
+      - "Predictive native membrane"
+      - "Layer-dissolving membrane master theorem"
+
+  - object_name: Recognition source - Reflexive SBT
+    exact_citation: "Reflexive SBT and Anti-Localization abstract/introduction: capacity audit and auditable closure evidence"
+    source_paths:
+      - six-birds-meta/paper/sections/01_abstract.tex
+      - six-birds-meta/paper/sections/02_introduction.tex
+    status: verified_correct
+    identifiers:
+      - "Reflexive SBT"
+      - "capacity-based audit"
+      - "auditable closure evidence"
+      - "Reflexive SBT and the closure loop"
+
+  - object_name: Reflexive SBT conjecture F3
+    exact_citation: "Reflexive SBT discussion, paragraph (F3) Reflexive capacity contraction theorems"
+    source_path: six-birds-meta/paper/sections/10_discussion_future.tex
+    status: verified_correct
+    identifiers:
+      - "(F3) Reflexive capacity contraction theorems"
+      - "Closure pressure"
+      - "capacity functional"

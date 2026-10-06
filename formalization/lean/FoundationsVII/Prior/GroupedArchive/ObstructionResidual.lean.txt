@@ -1,0 +1,33 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Laws.E4RepairCompilation
+import SixBirdsFoundationsV.Laws.E5ReclosureCollapse
+import SixBirdsFoundationsV.Laws.E11InstitutionalRewrite
+import Xi.Obstruction
+
+#check SixBirdsFoundationsV.ObstructionStatusRecord
+#check SixBirdsFoundationsV.ResidualStatusRecord
+#check SixBirdsFoundationsV.E11_NCTDObstruction
+#check SixBirdsMetaMath.Xi.Obstruction.blindSpotWitness
+
+namespace FoundationsVII.Prior
+
+/-- FT09, FT10, and FT20: obstruction and residual surfaces. -/
+def ft09ft10ft20ObstructionResidual : AdapterContract :=
+  { adapterId := "ADAPTER-FT09-FT10-FT20-OBSTRUCTION-RESIDUAL"
+    formalizationTargetIds := ["FT09", "FT10", "FT20"]
+    sourceModule := "SixBirdsFoundationsV.Laws.E4RepairCompilation; SixBirdsFoundationsV.Laws.E5ReclosureCollapse; SixBirdsFoundationsV.Laws.E11InstitutionalRewrite; Xi.Obstruction"
+    sourceDeclarations := [
+      "SixBirdsFoundationsV.ObstructionStatusRecord",
+      "SixBirdsFoundationsV.ResidualStatusRecord",
+      "SixBirdsFoundationsV.E11_NCTDObstruction",
+      "SixBirdsMetaMath.Xi.Obstruction.blindSpotWitness"]
+    sourceTypes := ["typed obstruction status", "residual status", "institutional obstruction theorem", "adequacy blind-spot witness"]
+    targetTypes := ["FoundationsVII.JoinObstruction", "FoundationsVII.NonInteractionCertificate", "FoundationsVII.NegativeResult"]
+    preservedHypotheses := ["declared obstruction carrier", "explicit witness", "scope-qualified negative surface"]
+    addedHypotheses := ["VII escape routes", "coverage, detector power, budget, and horizon", "append-only audit"]
+    lostHypotheses := ["No obstruction is generalized outside its source carrier."]
+    trustDependencies := ["Xi obstruction matrix substrate where invoked"]
+    nonclaims := ["A finite obstruction is not a universal no-go."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

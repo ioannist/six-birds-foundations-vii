@@ -1,0 +1,120 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 3
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0010",
+      "BR-CITE-0024",
+      "BR-CITE-0031",
+      "BR-CITE-0055",
+      "BR-CITE-0086",
+      "BR-CITE-0153",
+      "BR-CITE-0173"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0087",
+      "BR-CITE-0088",
+      "BR-CITE-0089"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H10",
+      "ARC-H11",
+      "ARC-H21",
+      "ARC-H9",
+      "CLD-A1",
+      "CLD-E3",
+      "CLD-O2",
+      "MED-D1",
+      "MED-D2",
+      "MED-I5",
+      "MED-NG1",
+      "MED-T1",
+      "MED-T2",
+      "MED-T3",
+      "MED-T6",
+      "MED-T7"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P022.jsonl",
+  "claim_count": 12,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 1,
+    "THEOREM_GRADE": 6
+  },
+  "claim_ids": [
+    "P022-C0001",
+    "P022-C0002",
+    "P022-C0003",
+    "P022-C0004",
+    "P022-C0005",
+    "P022-C0006",
+    "P022-C0007",
+    "P022-C0008",
+    "P022-C0009",
+    "P022-C0010",
+    "P022-C0011",
+    "P022-C0012"
+  ],
+  "claim_type_counts": {
+    "corollary": 2,
+    "nonclaim": 2,
+    "paper_thesis": 1,
+    "prose_definition": 1,
+    "result_summary": 1,
+    "scope_boundary": 1,
+    "theorem": 4
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P022-C0012"
+  ],
+  "formal_claim_ids": [
+    "P022-C0003",
+    "P022-C0004",
+    "P022-C0005",
+    "P022-C0006",
+    "P022-C0007",
+    "P022-C0008"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 12
+  },
+  "foundations_vii_groups": [
+    "CG06",
+    "CG07",
+    "CG08",
+    "CG13"
+  ],
+  "foundations_vii_hook": "control-stable recombination witnesses and formal kernels",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P022.md",
+  "nonclaim_scope_ids": [
+    "P022-C0009",
+    "P022-C0010",
+    "P022-C0011"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P022",
+  "reading_order": 28,
+  "resolved_dependency_papers": [
+    "P012",
+    "P015",
+    "P016"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Recombination_Witnesses_on_Fixed_Support_Control_Stable_Anchors_and_a_Formal_Kernel_in_Six_Birds_Theory.tex",
+  "source_root_sha256": "54ca8715102dd43cc95e10eaa1e618ef7d58db8f4bb0f362e9ab619c57bda858",
+  "source_tree_sha256": "efa90205c1a101aca77159e86b2ed430fa0afd8bcffeb2dc20f05368a0f50668",
+  "status": "BRIDGED",
+  "title": "Recombination Witnesses on Fixed Support"
+}

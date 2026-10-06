@@ -1,0 +1,197 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "translation theorem and AOR-instance audit",
+      "bridge_classification": "ANALOGY_ONLY_OR_LOCAL_DOMAIN_RESULT",
+      "bridge_ids": [],
+      "concrete_carrier": "spectral/trace carrier with involutive self-duality",
+      "forbidden_back_transfer": "The structural membrane does not independently prove the analytic bridge hypotheses or RH.",
+      "interface_or_lens": "trace, zero-set, and confinement readouts",
+      "missing_vii_primitive_or_pressure": "conditional theorem transport",
+      "nonclaims_or_open_boundaries": [
+        "P024-C0019",
+        "P024-C0002",
+        "P024-C0003",
+        "P024-C0033",
+        "P024-C0039",
+        "P024-C0040",
+        "P024-C0025",
+        "P024-C0037"
+      ],
+      "paper_id": "P024",
+      "pressure_test_ruling": "CONCRETE PRESSURE-TEST MAP RECORDED; NO NAMED PRIOR-LAW TRANSFER CLAIMED",
+      "principal_claims": [
+        "P024-C0018",
+        "P024-C0001",
+        "P024-C0010",
+        "P024-C0030",
+        "P024-C0011",
+        "P024-C0017",
+        "P024-C0012",
+        "P024-C0034",
+        "P024-C0014",
+        "P024-C0013"
+      ],
+      "source_completeness": "FULL_SUPPLIED_SOURCE_TREE",
+      "title": "Riemann Hypothesis via Self-Dual Trace Confinement",
+      "what_the_application_distinguishes_or_falsifies": "conditional transfer from trace confinement to RH"
+    },
+    "classification_counts": {
+      "ANALOGY_ONLY_OR_DOMAIN_MAP_REQUIRED": 2,
+      "VALID_AFTER_ADDED_HYPOTHESES": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0072",
+      "BR-CITE-0106"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0091",
+      "BR-CITE-0092",
+      "BR-CITE-0093",
+      "BR-CITE-0094"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 2,
+    "wishlist_request_ids": [
+      "ARC-NONGOALS",
+      "ARC-S5",
+      "CLD-DISC",
+      "MED-S3",
+      "MM-NONGOAL"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P024.jsonl",
+  "claim_count": 41,
+  "claim_grade_counts": {
+    "CONDITIONAL_THEOREM": 1,
+    "DEFINITION": 7,
+    "EXPLICIT_NONCLAIM": 6,
+    "INTERPRETIVE_REMARK": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 4,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 4,
+    "THEOREM_GRADE": 13
+  },
+  "claim_ids": [
+    "P024-C0001",
+    "P024-C0002",
+    "P024-C0003",
+    "P024-C0004",
+    "P024-C0005",
+    "P024-C0006",
+    "P024-C0007",
+    "P024-C0008",
+    "P024-C0009",
+    "P024-C0010",
+    "P024-C0011",
+    "P024-C0012",
+    "P024-C0013",
+    "P024-C0014",
+    "P024-C0015",
+    "P024-C0016",
+    "P024-C0017",
+    "P024-C0018",
+    "P024-C0019",
+    "P024-C0020",
+    "P024-C0021",
+    "P024-C0022",
+    "P024-C0023",
+    "P024-C0024",
+    "P024-C0025",
+    "P024-C0026",
+    "P024-C0027",
+    "P024-C0028",
+    "P024-C0029",
+    "P024-C0030",
+    "P024-C0031",
+    "P024-C0032",
+    "P024-C0033",
+    "P024-C0034",
+    "P024-C0035",
+    "P024-C0036",
+    "P024-C0037",
+    "P024-C0038",
+    "P024-C0039",
+    "P024-C0040",
+    "P024-C0041"
+  ],
+  "claim_type_counts": {
+    "definition": 7,
+    "nonclaim": 6,
+    "open_problem": 3,
+    "paper_thesis": 1,
+    "remark": 1,
+    "result_summary": 5,
+    "scope_boundary": 4,
+    "theorem": 14
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [
+    "P024-C0005",
+    "P024-C0006",
+    "P024-C0007",
+    "P024-C0008",
+    "P024-C0009",
+    "P024-C0015",
+    "P024-C0020"
+  ],
+  "formal_claim_ids": [
+    "P024-C0011",
+    "P024-C0013",
+    "P024-C0014",
+    "P024-C0016",
+    "P024-C0017",
+    "P024-C0018",
+    "P024-C0021",
+    "P024-C0022",
+    "P024-C0023",
+    "P024-C0024",
+    "P024-C0026",
+    "P024-C0027",
+    "P024-C0029",
+    "P024-C0031"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 41
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "conditional transfer, self-duality, and proof-scope discipline",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P024.md",
+  "nonclaim_scope_ids": [
+    "P024-C0002",
+    "P024-C0003",
+    "P024-C0004",
+    "P024-C0019",
+    "P024-C0025",
+    "P024-C0028",
+    "P024-C0033",
+    "P024-C0036",
+    "P024-C0037",
+    "P024-C0041"
+  ],
+  "open_problem_ids": [
+    "P024-C0038",
+    "P024-C0039",
+    "P024-C0040"
+  ],
+  "paper_id": "P024",
+  "reading_order": 47,
+  "resolved_dependency_papers": [
+    "P006",
+    "P025"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Riemann_Hypothesis_via_Self_Dual_Trace_Confinement_A_Conditional_Closure.tex",
+  "source_root_sha256": "1c93b221e5731412d10d23ed3be526ddf7e77c2127c1402e6fbd7309d534f808",
+  "source_tree_sha256": "d58a667aaef110a04f07c19a63431095c883f4a55475b6ead432be10f5b2c753",
+  "status": "BRIDGED",
+  "title": "Riemann Hypothesis via Self-Dual Trace Confinement"
+}

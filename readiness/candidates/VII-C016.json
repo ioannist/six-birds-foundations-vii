@@ -1,0 +1,1370 @@
+{
+  "candidate_id": "VII-C016",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG11"
+  ],
+  "countermodels": [
+    "CM-02",
+    "CM-19"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Peer contact and transport without join.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Peer contact and transport without join record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Certified content may become available to a peer through a typed contact/transport record without forming a joint theory; destination ownership and provenance remain explicit.",
+  "formalization_targets": [
+    "FT05",
+    "FT06"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Certified content may become available to a peer through a typed contact/transport record without forming a joint theory; destination ownership and provenance remain explicit.",
+  "kind": "DEFINITION_AND_CANDIDATE_THEOREM",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Peer contact and transport without join",
+  "nonclaims": [
+    "Peer transport is not joint objecthood or strict novelty.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S12"
+  ],
+  "positive_model": [
+    "TTW-S06"
+  ],
+  "priority": "P0",
+  "proof_obligations": [
+    "Classify rendezvous, mediation, sequential transport, shared carrier, and shared budget.",
+    "Prove contact-before-connection under local-interface hypotheses.",
+    "Distinguish sequential composition from interaction of composites."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Certified content may become available to a peer through a typed contact/transport record without forming a joint theory; destination ownership and provenance remain explicit.",
+  "recommended_chapter": "Ch04",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P012-C0021",
+      "P012-C0017",
+      "P016-C0011",
+      "P012-C0016",
+      "P016-C0010",
+      "P025-C0019",
+      "P016-C0002",
+      "P048-C0032",
+      "P049-C0006",
+      "P049-C0024",
+      "P049-C0018",
+      "P049-C0014",
+      "P049-C0012",
+      "P049-C0005",
+      "P016-C0003"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0125",
+      "BR-CITE-0008",
+      "BR-CITE-0029",
+      "BR-CITE-0062",
+      "BR-CITE-0063",
+      "BR-CITE-0085",
+      "BR-LAW-0035",
+      "BR-LAW-0036",
+      "BR-LAW-0041",
+      "BR-LAW-0042",
+      "BR-LAW-0044",
+      "BR-LAW-0045",
+      "BR-CITE-0053",
+      "BR-CITE-0051",
+      "BR-CITE-0114",
+      "BR-CITE-0037",
+      "BR-CITE-0038",
+      "BR-CITE-0040",
+      "BR-CITE-0188",
+      "BR-CITE-0120",
+      "BR-CITE-0019",
+      "BR-CITE-0039",
+      "BR-CITE-0097",
+      "BR-CITE-0073",
+      "BR-CITE-0227",
+      "BR-LAW-0037",
+      "BR-CITE-0092",
+      "BR-CITE-0095",
+      "BR-CITE-0096",
+      "BR-CITE-0026",
+      "BR-CITE-0148",
+      "BR-CITE-0083",
+      "BR-CITE-0107"
+    ],
+    "law_or_no_go_ids": [
+      "F26",
+      "F27",
+      "F47",
+      "F48",
+      "F50",
+      "F51",
+      "F34"
+    ],
+    "open_problem_ids": [
+      "P049-C0020",
+      "P025-C0002",
+      "P025-C0021",
+      "P049-C0019",
+      "P049-C0007",
+      "P025-C0020"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P012-C0010",
+        "claim_type": "theorem",
+        "conclusion": "It also descends to a mixed map T^ M→Q _ gamma : PredictiveQ_i → CurrentQ_j, [h]_ FutureEquiv_i [push_ gamma h]_ CurrentEquiv_j , and these maps form the commutation triangle pi_j T^ M _ gamma = T^ M→Q _ gamma . For a fixed source interface i , current-event equivalence is stable under every outgoing push if and only if i is flat: (hCurrentEquiv_i h' implies hFutureEquiv_i h' ) for all h,h'∈Histories_i. Thus current-quotient transport induced by representative push along every outgoing continuation is available exactly in the flat case, not as part of an arbitrary route transport package.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "For every admissible continuation gamma∈C_ i→ j , pushing representatives along gamma descends to a well-defined predictive transport T^ M _ gamma : PredictiveQ_i → PredictiveQ_j."
+          }
+        ],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "For every admissible continuation gamma∈C_ i→ j , pushing representatives along gamma descends to a well-defined predictive transport T^ M _ gamma : PredictiveQ_i → PredictiveQ_j. It also descends to a mixed map T^ M→Q _ gamma : PredictiveQ_i → CurrentQ_j, [h]_ FutureEquiv_i [push_ gamma h]_ CurrentEquiv_j , and these maps form the commutation triangle pi_j T^ M _ gamma = T^ M→Q _ gamma . For a fixed source interface i , current-event equivalence is stable under every outgoing push if and only if i is flat: (hCurrentEquiv_i h' implies hFutureEquiv_i h' ) for all h,h'∈Histories_i. Thus current-quotient transport induced by representative push along every outgoing continuation is available exactly in the flat case, not as part of an arbitrary route transport package.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L317-L342; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L317-L342",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P048-C0007",
+        "claim_type": "definition",
+        "conclusion": "Let sigma be a generating 2 -cell with source x and one-step branches to y_ and y_r . Its boundary data consist of x → y_ and x → y_r. A filler for sigma is a common descendant w together with directed paths y_ →^* w and y_r →^* w. When such a filler exists, we call w a join witness for sigma .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Boundary data and fillers: Let sigma be a generating 2 -cell with source x and one-step branches to y_ and y_r . Its boundary data consist of x → y_ and x → y_r. A filler for sigma is a common descendant w together with directed paths y_ →^* w and y_r →^* w. When such a filler exists, we call w a join witness for sigma .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L255-L270; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L255-L270",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0009",
+        "claim_type": "definition",
+        "conclusion": "A completed domination bridge from A_ X to a carrier-side anti-invariant currency K^ - consists of a positive defect E in the typed positive cone, with 0 E, together with the domination relation A_ X K^ - +E. The bridge is exact when E=0 and defected when the defect term is retained. A sequence of bridges A_ X Kminus_ n +E_n is a domination-record sequence when the associated positive bounds B_n=Kminus_ n +E_n satisfy B_n→0 (n→∈fty).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Completed domination bridge: A completed domination bridge from A_ X to a carrier-side anti-invariant currency K^ - consists of a positive defect E in the typed positive cone, with 0 E, together with the domination relation A_ X K^ - +E. The bridge is exact when E=0 and defected when the defect term is retained. A sequence of bridges A_ X Kminus_ n +E_n is a domination-record sequence when the associated positive bounds B_n=Kminus_ n +E_n satisfy B_n→0 (n→∈fty).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L774-L801; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L774-L801",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P016-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "We study recombination-sensitive branch structure on a fixed-support substrate in Six Birds Theory. Building on prior work on event packaging and predictive holonomy, we introduce branch assemblages and two quotient levels at an interface: a branchwise predictive quotient ( K_i ), which captures independent predictive treatment of the branches, and a recombination quotient ( R_i ), which captures admissible recombination observables on branch families. On this architecture we exhibit a benchmark suite separating classical mixture, hidden predictive memory without recombination sensitivity, route-marked suppression, erasure-conditioned recovery, cyclic-family generalization, dissipative washout, and artifact controls based on protocol internalization and flattening/completion. A supporting theorem layer proves the abstract factorized no-interference regime and its obstruction by strict refinement, and one promoted positive family is connected to a theorem-backed concrete witness in an aligned Lean model. We do not claim a general reconstruction of non-Hilbert interference or a formalization of the full benchmark runtime. The claim is narrower: these recombination phenomena arise on fixed support, can be audited exactly, and admit a partial formal backbone on the Six Birds substrate.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P016-C0002",
+          "P016-C0003",
+          "P016-C0010",
+          "P016-C0011"
+        ],
+        "normalized_claim": "We study recombination-sensitive branch structure on a fixed-support substrate in Six Birds Theory. Building on prior work on event packaging and predictive holonomy, we introduce branch assemblages and two quotient levels at an interface: a branchwise predictive quotient ( K_i ), which captures independent predictive treatment of the branches, and a recombination quotient ( R_i ), which captures admissible recombination observables on branch families. On this architecture we exhibit a benchmark suite separating classical mixture, hidden predictive memory without recombination sensitivity, route-marked suppression, erasure-conditioned recovery, cyclic-family generalization, dissipative washout, and artifact controls based on protocol internalization and flattening/completion. A supporting theorem layer proves the abstract factorized no-interference regime and its obstruction by strict refinement, and one promoted positive family is connected to a theorem-backed concrete witness in an aligned Lean model. We do not claim a general reconstruction of non-Hilbert interference or a formalization of the full benchmark runtime. The claim is narrower: these recombination phenomena arise on fixed support, can be audited exactly, and admit a partial formal backbone on the Six Birds substrate.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "PROSE_DEFINITION_SECTION",
+        "claim_id": "P016-C0012",
+        "claim_type": "prose_definition",
+        "conclusion": "This appendix records the formal objects and theorem statements used in the main text. It is not a replacement for the Lean development and does not reproduce full proofs; it is included to keep the formal vocabulary explicit and scoped.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P016-C0002",
+          "P016-C0003",
+          "P016-C0010",
+          "P016-C0011"
+        ],
+        "normalized_claim": "Formal Definitions and Theorem Statements: This appendix records the formal objects and theorem statements used in the main text. It is not a replacement for the Lean development and does not reproduce full proofs; it is included to keep the formal vocabulary explicit and scoped.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L471-L475; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L471-L475",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P049-C0008",
+        "claim_type": "result_summary",
+        "conclusion": "[] @ lll@ →prule [b] 0.28 question [b] 0.31 verdict (grade) [b] 0.34 basis [t] 0.28 exclude 99.3% of chiral gauge structures [t] 0.31 COMPUTE, unconditional [t] 0.34 closure chain on 11 , 990 structures [t] 0.28 select su(2) (3) (1) [t] 0.31 SELECT, on clean separation [t] 0.34 Delta_ fact = [t] 0.28 proton stability + no monopole + color separation [t] 0.31 COMPUTE [t] 0.34 one object: the X/Y coset, absent [t] 0.28 ^2 _W = 3/8 , k_Y = 5/3 [t] 0.31 GROUND (minimal-simple parent) [t] 0.34 trace ratios; product control 3/23 [t] 0.28 clean separation itself [t] 0.31 GROUND (record-stability) [t] 0.34 0/11 , 990 counterexamples; non-circular [t] 0.28 single-factor exclusion, all N [t] 0.31 COMPUTE (constructed theorem) [t] 0.34 symbolic proof [t] 0.28 N_ gen , content, measured values [t] 0.31 PROVE-BLIND / observed-input [t] 0.34 all- N theorem; three blind shadows [t] 0.28 measured ^2 _W , couplings, masses, EW scale [t] 0.31 not landed (out of scope) [t] 0.34 need running/scale = experiment",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P049-C0002",
+          "P049-C0003",
+          "P049-C0005",
+          "P049-C0006",
+          "P049-C0009",
+          "P049-C0012",
+          "P049-C0014",
+          "P049-C0016",
+          "P049-C0017",
+          "P049-C0018",
+          "P049-C0024"
+        ],
+        "normalized_claim": "Summary table: [] @ lll@ →prule [b] 0.28 question [b] 0.31 verdict (grade) [b] 0.34 basis [t] 0.28 exclude 99.3% of chiral gauge structures [t] 0.31 COMPUTE, unconditional [t] 0.34 closure chain on 11 , 990 structures [t] 0.28 select su(2) (3) (1) [t] 0.31 SELECT, on clean separation [t] 0.34 Delta_ fact = [t] 0.28 proton stability + no monopole + color separation [t] 0.31 COMPUTE [t] 0.34 one object: the X/Y coset, absent [t] 0.28 ^2 _W = 3/8 , k_Y = 5/3 [t] 0.31 GROUND (minimal-simple parent) [t] 0.34 trace ratios; product control 3/23 [t] 0.28 clean separation itself [t] 0.31 GROUND (record-stability) [t] 0.34 0/11 , 990 counterexamples; non-circular [t] 0.28 single-factor exclusion, all N [t] 0.31 COMPUTE (constructed theorem) [t] 0.34 symbolic proof [t] 0.28 N_ gen , content, measured values [t] 0.31 PROVE-BLIND / observed-input [t] 0.34 all- N theorem; three blind shadows [t] 0.28 measured ^2 _W , couplings, masses, EW scale [t] 0.31 not landed (out of scope) [t] 0.34 need running/scale = experiment",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L635-L710; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L635-L710",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P016-C0008",
+        "claim_type": "corollary",
+        "conclusion": "no global branchwise factorization layer can hold. In particular, under detectability, failure of quotient collapse rules out the no-interference regime",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If there exist assemblages B and B' at interface i such that B _i^ bw B' but B _i^ rec B'"
+          }
+        ],
+        "nonclaims": [
+          "P016-C0002",
+          "P016-C0003",
+          "P016-C0010",
+          "P016-C0011"
+        ],
+        "normalized_claim": "Strict refinement obstructs factorization: If there exist assemblages B and B' at interface i such that B _i^ bw B' but B _i^ rec B', then no global branchwise factorization layer can hold. In particular, under detectability, failure of quotient collapse rules out the no-interference regime.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L428-L436; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L428-L436",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0015",
+        "claim_type": "definition",
+        "conclusion": "A defected obstruction budget at level n is a domination record of the form A_ X (1+t) (Kminus_ n +E_ src,n ) +(1+t^ -1 )E_ br,n , where t>0 , where E_ src,n is a source defect, and where E_ br,n is a bridge defect. Both defects are positive cone elements. The unparameterized budget is obtained by setting t=1 , which adds the two defect contributions without optimization.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Defected obstruction budget: A defected obstruction budget at level n is a domination record of the form A_ X (1+t) (Kminus_ n +E_ src,n ) +(1+t^ -1 )E_ br,n , where t>0 , where E_ src,n is a source defect, and where E_ br,n is a bridge defect. Both defects are positive cone elements. The unparameterized budget is obtained by setting t=1 , which adds the two defect contributions without optimization.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1050-L1065; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1050-L1065",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P012-C0006",
+        "claim_type": "definition",
+        "conclusion": "A predictive witness at interface i is a pair of histories h,h'∈Histories_i such that h CurrentEquiv_i h' and (h FutureEquiv_i h' ).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Predictive witness: A predictive witness at interface i is a pair of histories h,h'∈Histories_i such that h CurrentEquiv_i h' and (h FutureEquiv_i h' ).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L229-L237; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L229-L237",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P012-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "We introduce a fixed-support route-transport framework in which histories can be equivalent at a current event interface yet differ as predictors of later admissible observations. For each interface, we define a current quotient by present-event indistinguishability and a predictive quotient by equality of all later admissible event statistics under continuation. Standard quotient-algebraic results then apply in this setting: future-predictive equivalence refines current-event equivalence, admissible continuations induce well-defined transport on , and the current class after transport is determined by the source predictive class through a canonical mixed map _i _j . Generic transport on along all outgoing continuations exists precisely at flat interfaces, where current equivalence already determines all future observations. The predictive quotient is future-sufficient, and every future-sufficient state abstraction factors uniquely through on the reachable image. Strict refinement of is equivalent to existence of a pair of histories that are current-equivalent but future-distinct. For endo-continuations, representative push can preserve the current class of every history while moving a predictive class. The contribution of the paper is the framework itself and the demonstration that it is non-vacuous: an axiom-audited finite memory-wheel instance in Lean and exact finite fixed-support benchmarks instantiate strict refinement and the loop asymmetry, while the computational suite separates artifact, flattenable, explicit-latent, dissipative, and coherent-candidate regimes with bounded robustness under perturbation. Small discovery searches recover additional coherent candidates beyond the hand-built examples while a control search space remains all-flat.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "We introduce a fixed-support route-transport framework in which histories can be equivalent at a current event interface yet differ as predictors of later admissible observations. For each interface, we define a current quotient by present-event indistinguishability and a predictive quotient by equality of all later admissible event statistics under continuation. Standard quotient-algebraic results then apply in this setting: future-predictive equivalence refines current-event equivalence, admissible continuations induce well-defined transport on , and the current class after transport is determined by the source predictive class through a canonical mixed map _i _j . Generic transport on along all outgoing continuations exists precisely at flat interfaces, where current equivalence already determines all future observations. The predictive quotient is future-sufficient, and every future-sufficient state abstraction factors uniquely through on the reachable image. Strict refinement of is equivalent to existence of a pair of histories that are current-equivalent but future-distinct. For endo-continuations, representative push can preserve the current class of every history while moving a predictive class. The contribution of the paper is the framework itself and the demonstration that it is non-vacuous: an axiom-audited finite memory-wheel instance in Lean and exact finite fixed-support benchmarks instantiate strict refinement and the loop asymmetry, while the computational suite separates artifact, flattenable, explicit-latent, dissipative, and coherent-candidate regimes with bounded robustness under perturbation. Small discovery searches recover additional coherent candidates beyond the hand-built examples while a control search space remains all-flat.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L95-L97; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L95-L97",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P048-C0012",
+        "claim_type": "definition",
+        "conclusion": "A state n ∈ X is a normal form if there is no state m ∈ X such that n → m .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Normal forms: A state n ∈ X is a normal form if there is no state m ∈ X such that n → m .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L343-L346; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L343-L346",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P048-C0019",
+        "claim_type": "proposition",
+        "conclusion": "for every a ∈ X there exists a unique normal form n such that a →^* n",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume that (X,→) is confluent and normalizing"
+          }
+        ],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Confluence and normalization give a unique normal form: Assume that (X,→) is confluent and normalizing. Then for every a ∈ X there exists a unique normal form n such that a →^* n .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L424-L427; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L424-L427",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P048-C0018",
+        "claim_type": "definition",
+        "conclusion": "The rewriting system (X,→) is confluent if for all a,b,c ∈ X , a →^* b and a →^* c implies b and c are joinable. It is normalizing if for every a ∈ X there exists some normal form n such that a →^* n.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Confluence and normalization: The rewriting system (X,→) is confluent if for all a,b,c ∈ X , a →^* b and a →^* c implies b and c are joinable. It is normalizing if for every a ∈ X there exists some normal form n such that a →^* n.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L408-L422; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L408-L422",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P048-C0003",
+        "claim_type": "proposition",
+        "conclusion": "The graph-only surrogates above do not diagnose confluence, even in the small terminating finite-ARS regime explored in this paper.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Bare graph surrogates are not diagnostic for confluence: The graph-only surrogates above do not diagnose confluence, even in the small terminating finite-ARS regime explored in this paper.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L206-L209; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L206-L209",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P025-C0016",
+        "claim_type": "proposition",
+        "conclusion": "the optimized trace budget tends to zero",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "For a defected obstruction budget at level n , set a_n= (Kminus_ n +E_ src,n ), b_n= E_ br,n , with a_n,b_n≥0 . Then ∈f_ t>0 = ( a_n + b_n )^2. In particular, if a_n→0 and b_n→0"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Optimized scalar trace budget Tracked by the formalization harness; the AM–GM step is supplied as a typed-scalar hypothesis. See App .: For a defected obstruction budget at level n , set a_n= (Kminus_ n +E_ src,n ), b_n= E_ br,n , with a_n,b_n≥0 . Then ∈f_ t>0 = ( a_n + b_n )^2. In particular, if a_n→0 and b_n→0 , then the optimized trace budget tends to zero.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1073-L1090; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1073-L1090",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0010",
+        "claim_type": "theorem",
+        "conclusion": "A K Longleftrightarrow T\\ a contraction such that\\ V=TW",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let A=V^*V and K=W^*W be bounded positive operators on the same response space, represented as positive elements of the typed positive cone"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Douglas factorization, typed-cone form Packaged in the Lean formalization through the typed Douglas-data carrier; see App .: Let A=V^*V and K=W^*W be bounded positive operators on the same response space, represented as positive elements of the typed positive cone. Then A K Longleftrightarrow T\\ a contraction such that\\ V=TW.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L828-L838; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L828-L838",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P048-C0013",
+        "claim_type": "definition",
+        "conclusion": "The rewriting system (X,→) is locally confluent if for all a,b,c ∈ X , a → b and a → c implies b and c are joinable.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Local confluence: The rewriting system (X,→) is locally confluent if for all a,b,c ∈ X , a → b and a → c implies b and c are joinable.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L348-L358; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L348-L358",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P048-C0026",
+        "claim_type": "proposition",
+        "conclusion": "In the explicit string pair E007 – E008 and the explicit term-rewriting pair TRS003 – TRS004 , the added rule leaves the local generator intact while eliminating its defect. In both cases: the relevant local branching source persists; the generating 2 -cell changes from nontrivial elementary holonomy to trivial elementary holonomy; the local defect counts drop to zero; the explored system changes from nonconfluent to confluent.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Completion as holonomy elimination in the explicit before/after pairs: In the explicit string pair E007 – E008 and the explicit term-rewriting pair TRS003 – TRS004 , the added rule leaves the local generator intact while eliminating its defect. In both cases: the relevant local branching source persists; the generating 2 -cell changes from nontrivial elementary holonomy to trivial elementary holonomy; the local defect counts drop to zero; the explored system changes from nonconfluent to confluent.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L784-L793; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L784-L793",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P048-C0016",
+        "claim_type": "theorem",
+        "conclusion": "A rewriting system is elementarily flat if and only if it is locally confluent.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Elementary flatness iff local confluence: A rewriting system is elementarily flat if and only if it is locally confluent.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L382-L385; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L382-L385",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P012-C0011",
+        "claim_type": "theorem",
+        "conclusion": "For every interface i , the canonical map from histories to predictive classes, h [h]_ FutureEquiv_i , is future-sufficient: every future observable at i factors through the predictive quotient PredictiveQ_i .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "For every interface i , the canonical map from histories to predictive classes, h [h]_ FutureEquiv_i , is future-sufficient: every future observable at i factors through the predictive quotient PredictiveQ_i .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L348-L354; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L348-L354",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P012-C0004",
+        "claim_type": "definition",
+        "conclusion": "Histories h and h' are current-event equivalent at interface i , written h CurrentEquiv_i h', iff they agree on all current admissible events: h CurrentEquiv_i h' Longleftrightarrow e∈E_i, obs_i(h,e)=obs_i(h',e).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Current-event equivalence: Histories h and h' are current-event equivalent at interface i , written h CurrentEquiv_i h', iff they agree on all current admissible events: h CurrentEquiv_i h' Longleftrightarrow e∈E_i, obs_i(h,e)=obs_i(h',e).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L171-L184; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L171-L184",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P048-C0021",
+        "claim_type": "proposition",
+        "conclusion": "For the curated string examples E005 – E008 , the reachable critical pairs match the graph-extracted local peaks, and their defect signatures agree.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Reachable critical pairs capture the observed local obstruction set in the curated string examples: For the curated string examples E005 – E008 , the reachable critical pairs match the graph-extracted local peaks, and their defect signatures agree.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L511-L514; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L511-L514",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P016-C0005",
+        "claim_type": "theorem",
+        "conclusion": "they are branchwise-equivalent. Consequently the forgetful map _i : R_i → K_i is well defined",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Suppose branchwise summaries at interface i are detectable by a distinguished family of admissible observables. If two assemblages are recombination-equivalent"
+          }
+        ],
+        "nonclaims": [
+          "P016-C0002",
+          "P016-C0003",
+          "P016-C0010",
+          "P016-C0011"
+        ],
+        "normalized_claim": "Refinement under detectability: Suppose branchwise summaries at interface i are detectable by a distinguished family of admissible observables. If two assemblages are recombination-equivalent, then they are branchwise-equivalent. Consequently the forgetful map _i : R_i → K_i is well defined.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L403-L409; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L403-L409",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P012-C0009",
+        "claim_type": "theorem",
+        "conclusion": "Consequently, the identity on histories descends to a canonical comparison map pi_i : PredictiveQ_i → CurrentQ_i.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "For every interface i , future-predictive equivalence refines current-event equivalence: h FutureEquiv_i h' implies h CurrentEquiv_i h' (h,h'∈Histories_i)."
+          }
+        ],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "For every interface i , future-predictive equivalence refines current-event equivalence: h FutureEquiv_i h' implies h CurrentEquiv_i h' (h,h'∈Histories_i). Consequently, the identity on histories descends to a canonical comparison map pi_i : PredictiveQ_i → CurrentQ_i.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L298-L311; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L298-L311",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P025-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "When must an operator-valued obstruction associated with an involutive system vanish? This paper answers that question inside the Six Birds framework by naming Self-Dual Trace Confinement (SDTC) as the recognition source for formed closures with genuine involutive self-duality. The mechanism is the duality-confinement membrane theorem: for an involutive object ledger with separating anti-invariant readout, a sequence of positive domination records B_n with B_n 0 forces the anti-invariant ledger to vanish and confines visible mass to the fixed locus of the duality. The supporting apparatus develops the involutive object ledger, the anti-invariant ledger and trace identity, direct qualitative and quantitative confinement, completed-domination bridges, Douglas factorization in typed-cone form, exhaustive moving ledgers, and optimized scalar trace budgets. Operator-theoretic realization over trace-class operators is an open extension, as is a derivation of the AM–GM step inside a typed real-arithmetic structure. The development is formalized in Lean as a mathlib-free mechanization at the typed positive-cone level (Appendix ). Cross-substrate generalizations such as CPT symmetry, gauge invariance, quantum self-adjointness, and function-field RH are presented as structural predictions, not theorems; the paper develops the abstract apparatus layer and names the hypotheses any substrate-specific application must supply.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "When must an operator-valued obstruction associated with an involutive system vanish? This paper answers that question inside the Six Birds framework by naming Self-Dual Trace Confinement (SDTC) as the recognition source for formed closures with genuine involutive self-duality. The mechanism is the duality-confinement membrane theorem: for an involutive object ledger with separating anti-invariant readout, a sequence of positive domination records B_n with B_n 0 forces the anti-invariant ledger to vanish and confines visible mass to the fixed locus of the duality. The supporting apparatus develops the involutive object ledger, the anti-invariant ledger and trace identity, direct qualitative and quantitative confinement, completed-domination bridges, Douglas factorization in typed-cone form, exhaustive moving ledgers, and optimized scalar trace budgets. Operator-theoretic realization over trace-class operators is an open extension, as is a derivation of the AM–GM step inside a typed real-arithmetic structure. The development is formalized in Lean as a mathlib-free mechanization at the typed positive-cone level (Appendix ). Cross-substrate generalizations such as CPT symmetry, gauge invariance, quantum self-adjointness, and function-field RH are presented as structural predictions, not theorems; the paper develops the abstract apparatus layer and names the hypotheses any substrate-specific application must supply.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L117-L143; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L117-L143",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P049-C0011",
+        "claim_type": "result_summary",
+        "conclusion": "The contested program. A prominent line in quantum gravity (``it-from-qubit'', ER=EPR, entanglement-builds-geometry) holds that bulk spacetime is fully determined by boundary entanglement: given the complete entanglement data of the boundary state, the bulk geometry is reconstructible. The fork of §5.2 forces the opposite: the gravitational readout d_3 is a sibling of the entanglement modes, not a function of them, so some geometric data must be invisible to all entanglement measures.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P049-C0002",
+          "P049-C0003",
+          "P049-C0005",
+          "P049-C0006",
+          "P049-C0009",
+          "P049-C0012",
+          "P049-C0014",
+          "P049-C0016",
+          "P049-C0017",
+          "P049-C0018",
+          "P049-C0024"
+        ],
+        "normalized_claim": "Prediction 1 — Entanglement does not determine geometry (strong it-from-qubit fails): The contested program. A prominent line in quantum gravity (``it-from-qubit'', ER=EPR, entanglement-builds-geometry) holds that bulk spacetime is fully determined by boundary entanglement: given the complete entanglement data of the boundary state, the bulk geometry is reconstructible. The fork of §5.2 forces the opposite: the gravitational readout d_3 is a sibling of the entanglement modes, not a function of them, so some geometric data must be invisible to all entanglement measures.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L898-L996; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L898-L996",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P048-C0005",
+        "claim_type": "definition",
+        "conclusion": "For the purposes of this paper, a reduction 2-complex associated to a rewriting system R consists of the following data. A set of 0 -cells, namely the states, words, or terms under consideration. A set of directed 1 -cells, namely the one-step rewrites x → y . A set of generating 2 -cells, each attached to a local two-route branching pattern with common source. In the finite-ARS setting these are local peaks. In the string and term-rewriting settings used in this paper, these are reachable critical pairs relative to the chosen start states and exploration bounds.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P048-C0032"
+        ],
+        "normalized_claim": "Reduction 2-complex: For the purposes of this paper, a reduction 2-complex associated to a rewriting system R consists of the following data. A set of 0 -cells, namely the states, words, or terms under consideration. A set of directed 1 -cells, namely the one-step rewrites x → y . A set of generating 2 -cells, each attached to a local two-route branching pattern with common source. In the finite-ARS setting these are local peaks. In the string and term-rewriting settings used in this paper, these are reachable critical pairs relative to the chosen start states and exploration bounds.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L234-L242; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L234-L242",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P025-C0017",
+        "claim_type": "result_summary",
+        "conclusion": "Self-Dual Trace Confinement is named as a recognition source: structural content supplied by formed-layer closure per Foundations I, not derived from framework primitives alone. This paper does not present SDTC as a theorem derived from earlier Six Birds primitives. The duality-confinement membrane theorem of is the apparatus theorem proved here: it takes domination records as input and extracts fixed-locus confinement. The load-bearing structural-law content is the recognition source that supplies those records on a formed self-dual layer. The paper also establishes only the forward apparatus implication from domination records to confinement; no bidirectional equivalence between the SDTC structural claim and the existence of those records is established here.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "SDTC is a named structural law, not a derived theorem.: Self-Dual Trace Confinement is named as a recognition source: structural content supplied by formed-layer closure per Foundations I, not derived from framework primitives alone. This paper does not present SDTC as a theorem derived from earlier Six Birds primitives. The duality-confinement membrane theorem of is the apparatus theorem proved here: it takes domination records as input and extracts fixed-locus confinement. The load-bearing structural-law content is the recognition source that supplies those records on a formed self-dual layer. The paper also establishes only the forward apparatus implication from domination records to confinement; no bidirectional equivalence between the SDTC structural claim and the existence of those records is established here.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1134-L1149; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1134-L1149",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P049-C0013",
+        "claim_type": "result_summary",
+        "conclusion": "The contested program. The most anticipated near-term probe of quantum gravity is the BMV proposal (Bose et al.; Marletto–Vedral) : place two masses in spatial superpositions, let only gravity couple them, and test whether they become entangled. The widely-stated inference is that gravitationally-induced entanglement would witness a quantum (coherent) gravitational mediator — a graviton-like degree of freedom. The fork of §5.2 forces the opposite: the gravitational arm is a sibling readout that does not have access to the quantum phase mode and cannot carry it coherently between parties.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P049-C0002",
+          "P049-C0003",
+          "P049-C0005",
+          "P049-C0006",
+          "P049-C0009",
+          "P049-C0012",
+          "P049-C0014",
+          "P049-C0016",
+          "P049-C0017",
+          "P049-C0018",
+          "P049-C0024"
+        ],
+        "normalized_claim": "Prediction 2 — Gravity does not mediate entanglement (BMV-null): The contested program. The most anticipated near-term probe of quantum gravity is the BMV proposal (Bose et al.; Marletto–Vedral) : place two masses in spatial superpositions, let only gravity couple them, and test whether they become entangled. The widely-stated inference is that gravitationally-induced entanglement would witness a quantum (coherent) gravitational mediator — a graviton-like degree of freedom. The fork of §5.2 forces the opposite: the gravitational arm is a sibling readout that does not have access to the quantum phase mode and cannot carry it coherently between parties.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L996-L1084; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L996-L1084",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0012",
+        "claim_type": "theorem",
+        "conclusion": "A_ X =0 in the typed positive cone. Consequently, mu (X Fix(J) )=0",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X be an involutive object ledger with carrier X , involution J , measure mu , anti-invariant readout psi_ - , and anti-invariant ledger A_ X . Assume that psi_ - is qualitatively separating. Suppose there is a sequence of positive cone elements B_n such that A_ X B_n (n=1,2, ) and B_n→0 (n→∈fty)"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Duality-confinement membrane theorem Verified in the Lean formalization at the typed positive-cone level; see App .: Let X be an involutive object ledger with carrier X , involution J , measure mu , anti-invariant readout psi_ - , and anti-invariant ledger A_ X . Assume that psi_ - is qualitatively separating. Suppose there is a sequence of positive cone elements B_n such that A_ X B_n (n=1,2, ) and B_n→0 (n→∈fty). Then A_ X =0 in the typed positive cone. Consequently, mu (X Fix(J) )=0.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L874-L894; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L874-L894",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P025-C0003",
+        "claim_type": "definition",
+        "conclusion": "An involutive object ledger is a tuple X =(X,J,mu,psi,Y,J_ iso ) consisting of the following data: a visible carrier X ; an involution J:X→ X , so J(Jx)=x for every x∈ X ; a positive measure, or in the finite case a positive weight system, mu on X ; a real Hilbert response space Y ; a linear isometric involution J_ iso :Y→ Y ; a measurable readout psi:X→ Y satisfying the equivariance condition psi(Jx)=J_ iso psi(x) (x∈ X). The fixed locus of the ledger involution is Fix(J)=\\ x∈ X: Jx=x\\ .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Involutive object ledger Realized in the Lean formalization; see App .: An involutive object ledger is a tuple X =(X,J,mu,psi,Y,J_ iso ) consisting of the following data: a visible carrier X ; an involution J:X→ X , so J(Jx)=x for every x∈ X ; a positive measure, or in the finite case a positive weight system, mu on X ; a real Hilbert response space Y ; a linear isometric involution J_ iso :Y→ Y ; a measurable readout psi:X→ Y satisfying the equivariance condition psi(Jx)=J_ iso psi(x) (x∈ X). The fixed locus of the ledger involution is Fix(J)=\\ x∈ X: Jx=x\\ .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L387-L413; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L387-L413",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P012-C0003",
+        "claim_type": "definition",
+        "conclusion": "A route transport package is a typed object T= ( Sigma,I,\\ Histories_i\\ _ i∈I , \\ C_ i→ j \\ _ i,j∈I , \\ E_i\\ _ i∈I , id,comp,push,obs ) consisting of the following data: a fixed support object Sigma ; a family of interfaces I ; for each interface i∈I , a set Histories_i of admissible histories terminating at i ; for each ordered pair (i,j) , a set C_ i→ j of admissible continuations from i to j ; for each interface i , a set E_i of admissible events at i ; identity continuations 1_i∈C_ i→ i and typed composition of continuations where defined; a push operation sending (h,gamma)∈ Histories_i× C_ i→ j to a continued history push_ gamma h∈Histories_j ; an observation map assigning to each history-event pair (h,e)∈Histories_i×E_i an observation value obs_i(h,e) .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Route transport package: A route transport package is a typed object T= ( Sigma,I,\\ Histories_i\\ _ i∈I , \\ C_ i→ j \\ _ i,j∈I , \\ E_i\\ _ i∈I , id,comp,push,obs ) consisting of the following data: a fixed support object Sigma ; a family of interfaces I ; for each interface i∈I , a set Histories_i of admissible histories terminating at i ; for each ordered pair (i,j) , a set C_ i→ j of admissible continuations from i to j ; for each interface i , a set E_i of admissible events at i ; identity continuations 1_i∈C_ i→ i and typed composition of continuations where defined; a push operation sending (h,gamma)∈ Histories_i× C_ i→ j to a continued history push_ gamma h∈Histories_j ; an observation map assigning to each history-event pair (h,e)∈Histories_i×E_i an observation value obs_i(h,e) .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L142-L164; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L142-L164",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P012-C0020",
+        "claim_type": "result_summary",
+        "conclusion": "The principal Lean names used in this paper are the following. [leftmargin=*] Refinement: futurePredictiveEquiv_implies_currentEventEquiv Predictive transport: futurePredictiveEquiv_push",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Lean theorem map: The principal Lean names used in this paper are the following. [leftmargin=*] Refinement: futurePredictiveEquiv_implies_currentEventEquiv Predictive transport: futurePredictiveEquiv_push",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L828-L880; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L828-L880",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "PROSE_DEFINITION_SECTION",
+        "claim_id": "P012-C0019",
+        "claim_type": "prose_definition",
+        "conclusion": "The abstract route-transport package consists of a fixed support object, a family of interfaces, interface-indexed history sets, typed continuation sets, interface-indexed event sets, and the operations of identity continuation, continuation composition, representative push, and current observation, subject to identity and composition laws for push. The two fundamental equivalence relations are current-event equivalence and future-predictive equivalence. Their quotients define the current quotient Q and the predictive quotient M , with canonical comparison map pi : M → Q induced by refinement. The finite implementation of Section should be read as an exact model of this abstract package rather than as a separate semantics. In particular, the benchmark and discovery sections do not change the theorem layer; they instantiate it.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Definitions used by the theorem spine: The abstract route-transport package consists of a fixed support object, a family of interfaces, interface-indexed history sets, typed continuation sets, interface-indexed event sets, and the operations of identity continuation, continuation composition, representative push, and current observation, subject to identity and composition laws for push. The two fundamental equivalence relations are current-event equivalence and future-predictive equivalence. Their quotients define the current quotient Q and the predictive quotient M , with canonical comparison map pi : M → Q induced by refinement. The finite implementation of Section should be read as an exact model of this abstract package rather than as a separate semantics. In particular, the benchmark and discovery sections do not change the theorem layer; they instantiate it.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L800-L805; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L800-L805",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0007",
+        "claim_type": "theorem",
+        "conclusion": "mu (X Fix(J) )=0",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X be an involutive object ledger with anti-invariant ledger A_ X and qualitatively separating anti-invariant readout psi_ - . If A_ X =0 in the typed positive cone"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Separation–confinement Checked in the Lean formalization by typed-bridge composition over the measure-reading bridges; see App .: Let X be an involutive object ledger with anti-invariant ledger A_ X and qualitatively separating anti-invariant readout psi_ - . If A_ X =0 in the typed positive cone, then mu (X Fix(J) )=0.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L689-L697; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L689-L697",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P012-C0005",
+        "claim_type": "definition",
+        "conclusion": "Histories h and h' are future-predictively equivalent at interface i , written h FutureEquiv_i h', iff they agree on all later admissible event observations after all admissible continuations: h FutureEquiv_i h' Longleftrightarrow j∈I gamma∈C_ i→ j e∈E_j, obs_j(push_ gamma h,e) = obs_j(push_ gamma h',e).",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P012-C0002",
+          "P012-C0015",
+          "P012-C0016",
+          "P012-C0017",
+          "P012-C0021"
+        ],
+        "normalized_claim": "Future-predictive equivalence: Histories h and h' are future-predictively equivalent at interface i , written h FutureEquiv_i h', iff they agree on all later admissible event observations after all admissible continuations: h FutureEquiv_i h' Longleftrightarrow j∈I gamma∈C_ i→ j e∈E_j, obs_j(push_ gamma h,e) = obs_j(push_ gamma h',e).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L188-L203; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L188-L203",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P025-C0008",
+        "claim_type": "theorem",
+        "conclusion": "for every >0 , mu (\\ x∈ X: (x,Fix(J))≥ \\ ) ≤ _ X m( )^2",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let X be an involutive object ledger with anti-invariant ledger A_ X and quantitatively separating anti-invariant readout psi_ - with modulus m"
+          }
+        ],
+        "nonclaims": [
+          "P025-C0019"
+        ],
+        "normalized_claim": "Quantitative confinement Checked in the Lean formalization by typed-bridge composition with a Markov-step hypothesis; see App .: Let X be an involutive object ledger with anti-invariant ledger A_ X and quantitatively separating anti-invariant readout psi_ - with modulus m . Then, for every >0 , mu (\\ x∈ X: (x,Fix(J))≥ \\ ) ≤ _ X m( )^2 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L716-L727; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L716-L727",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P012-C0021",
+        "claim_type": "nonclaim",
+        "conclusion": "It does not assert generic current-quotient transport or a generic current-quotient loop action.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "It does not assert generic current-quotient transport or a generic current-quotient loop action.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L880-L881; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L880-L881",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P012-C0017",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim to subsume those frameworks.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim to subsume those frameworks.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L775; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L775",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P016-C0011",
+        "claim_type": "nonclaim",
+        "conclusion": "It does not provide a reconstruction of quantum theory, and it does not claim to be the first general treatment of interference beyond Hilbert-space formalisms It does not prove the paired erasure benchmark in full runtime detail, the full cyclic-family generalization, or the dissipative control.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "It does not provide a reconstruction of quantum theory, and it does not claim to be the first general treatment of interference beyond Hilbert-space formalisms It does not prove the paired erasure benchmark in full runtime detail, the full cyclic-family generalization, or the dissipative control.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L458; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L458",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P012-C0016",
+        "claim_type": "scope_boundary",
+        "conclusion": "Beyond the scope boundaries stated in Section , two further limitations deserve mention. The Lean formalization is intentionally partial: it covers the quotient comparison, predictive and mixed transport, the flatness characterization, sufficiency on the reachable image, witness/strict-refinement equivalence, representative-level loop asymmetry, and a finite non-vacuity instance, but does not yet formalize moved-class sets, cardinality-based nontriviality criteria, or richer action-level invariants. Those omissions do not undermine the present results, but they mark the current boundary of the formal development. The benchmark and discovery labels should also be read operationally rather than ontologically. In particular, coherent_candidate denotes a benchmark or discovered candidate that exhibits the loop asymmetry and witness structure targeted by the paper. It is not a claim that a stronger external state representation has been forced.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Limitations and non-claims: Beyond the scope boundaries stated in Section , two further limitations deserve mention. The Lean formalization is intentionally partial: it covers the quotient comparison, predictive and mixed transport, the flatness characterization, sufficiency on the reachable image, witness/strict-refinement equivalence, representative-level loop asymmetry, and a finite non-vacuity instance, but does not yet formalize moved-class sets, cardinality-based nontriviality criteria, or richer action-level invariants. Those omissions do not undermine the present results, but they mark the current boundary of the formal development. The benchmark and discovery labels should also be read operationally rather than ontologically. In particular, coherent_candidate denotes a benchmark or discovered candidate that exhibits the loop asymmetry and witness structure targeted by the paper. It is not a claim that a stronger external state representation has been forced.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L765-L770; derived/expanded/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex:L765-L770",
+        "source_paper": "P012",
+        "source_title": "Holonomy with Memory",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P016-C0010",
+        "claim_type": "scope_boundary",
+        "conclusion": "The paper establishes a substrate-level result. On a fixed-support Six Birds architecture, branchwise predictive structure and recombination-sensitive structure can be separated operationally, and that separation can be audited under exact finite controls. The benchmark suite shows that the same substrate supports a classical-mixture null regime, hidden predictive memory without additional recombination sensitivity, readable-route suppression, erased conditional recovery, bounded cyclic-family generalization, dissipative washout, and artifact controls based on protocol internalization and flattening/completion. The formal contribution is narrower. The Lean development proves an abstract refinement layer under detectability, a factorized no-interference regime in which the recombination quotient collapses to the branchwise quotient, and the corresponding obstruction result that strict refinement rules out global branchwise factorization. It also proves one theorem-backed concrete positive instance for an aligned Lean model of the promoted family n5_d1_w1of4_3of4 . These results support the interpretation of the benchmark suite but do not replace it.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Discussion and Limitations: The paper establishes a substrate-level result. On a fixed-support Six Birds architecture, branchwise predictive structure and recombination-sensitive structure can be separated operationally, and that separation can be audited under exact finite controls. The benchmark suite shows that the same substrate supports a classical-mixture null regime, hidden predictive memory without additional recombination sensitivity, readable-route suppression, erased conditional recovery, bounded cyclic-family generalization, dissipative washout, and artifact controls based on protocol internalization and flattening/completion. The formal contribution is narrower. The Lean development proves an abstract refinement layer under detectability, a factorized no-interference regime in which the recombination quotient collapses to the branchwise quotient, and the corresponding obstruction result that strict refinement rules out global branchwise factorization. It also proves one theorem-backed concrete positive instance for an aligned Lean model of the promoted family n5_d1_w1of4_3of4 . These results support the interpretation of the benchmark suite but do not replace it.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L452-L466; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L452-L466",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P025-C0019",
+        "claim_type": "nonclaim",
+        "conclusion": "This is a scope statement on the typed-scalar abstraction, not a math nonclaim about AM–GM itself.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This is a scope statement on the typed-scalar abstraction, not a math nonclaim about AM–GM itself.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1158-L1166; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1158-L1166",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P016-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim a general reconstruction of non-Hilbert interference or a formalization of the full benchmark runtime.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim a general reconstruction of non-Hilbert interference or a formalization of the full benchmark runtime.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P048-C0032",
+        "claim_type": "nonclaim",
+        "conclusion": "secures the paper's proved core while leaving the computational bridge, artifact layer, and full deferred TRS theorem package outside the scope of formalization",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The Lean layer"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "The Lean layer therefore secures the paper's proved core while leaving the computational bridge, artifact layer, and full deferred TRS theorem package outside the scope of formalization.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L939-L945; derived/expanded/Tsiokos_2026_To_Flatten_a_Stone_with_Six_Birds_Critical_Pairs_Holonomy_and_Confluence_in_Rewriting_Systems.tex:L939-L945",
+        "source_paper": "P048",
+        "source_title": "Critical Pairs, Holonomy, and Confluence",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P049-C0006",
+        "claim_type": "scope_boundary",
+        "conclusion": "Non-circularity has a computed control: a product parent satisfying the same bare requirement yields 3/23 , so the value 3/8 genuinely depends on the declared source rather than being baked in (GROUND, conditional on that source).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Non-circularity has a computed control: a product parent satisfying the same bare requirement yields 3/23 , so the value 3/8 genuinely depends on the declared source rather than being baked in (GROUND, conditional on that source).",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L591-L596; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L591-L596",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P049-C0024",
+        "claim_type": "nonclaim",
+        "conclusion": "the reviewer independently checked the framework source text and confirmed the subsumption claim is fair (``saying max-flow/min-cut/bit-thread RT instantiates the currency-constraint/shadow-price schema is fair''), with the stated non-claim boundary (recognizes/organizes RT",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the reviewer independently checked the framework source text and confirmed the subsumption claim is fair (``saying max-flow/min-cut/bit-thread RT instantiates the currency-constraint/shadow-price schema is fair''), with the stated non-claim boundary (recognizes/organizes RT",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L2339-L2344; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L2339-L2344",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P049-C0018",
+        "claim_type": "scope_boundary",
+        "conclusion": "the product control ( 3/23 ) failing to discriminate [t] 0.05 5 [t] 0.26 N_ gen -blindness, all N [t] 0.22 PROVE-BLIND (theorem) [t] 0.40 an N -sensitive gate in the frozen chain for an even-doublet anomaly-free unit [t] 0.05 6 [t] 0.26 QM–GR fork (no weak-RT ladder) [t] 0.22 COMPUTE (conditional on premise) [t] 0.40 a lawful factorization q_ GR =phi q_ QM on the carrier",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the product control ( 3/23 ) failing to discriminate [t] 0.05 5 [t] 0.26 N_ gen -blindness, all N [t] 0.22 PROVE-BLIND (theorem) [t] 0.40 an N -sensitive gate in the frozen chain for an even-doublet anomaly-free unit [t] 0.05 6 [t] 0.26 QM–GR fork (no weak-RT ladder) [t] 0.22 COMPUTE (conditional on premise) [t] 0.40 a lawful factorization q_ GR =phi q_ QM on the carrier",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1515-L1674; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1515-L1674",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P049-C0014",
+        "claim_type": "scope_boundary",
+        "conclusion": "conditional on the grounded premise of §5.3",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "conditional on the grounded premise of §5.3",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1077-L1082; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1077-L1082",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P049-C0012",
+        "claim_type": "scope_boundary",
+        "conclusion": "conditional on the grounded premise of §5.3",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "conditional on the grounded premise of §5.3",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L989-L992; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L989-L992",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P049-C0005",
+        "claim_type": "scope_boundary",
+        "conclusion": "SELECT — the machinery picks a structure out of a space, on declared conditions (e.g., the SM gauge algebra, conditional on clean-separation).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "SELECT — the machinery picks a structure out of a space, on declared conditions (e.g., the SM gauge algebra, conditional on clean-separation).",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L379-L401; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L379-L401",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P016-C0003",
+        "claim_type": "scope_boundary",
+        "conclusion": "The claim is narrower: these recombination phenomena arise on fixed support, can be audited exactly, and admit a partial formal backbone on the Six Birds substrate.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The claim is narrower: these recombination phenomena arise on fixed support, can be audited exactly, and admit a partial formal backbone on the Six Birds substrate.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93; derived/expanded/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex:L91-L93",
+        "source_paper": "P016",
+        "source_title": "Marking, Erasure, and Recombination on Fixed Support",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P049-C0020",
+        "claim_type": "open_problem",
+        "conclusion": "The program's open problems are not vague: each is a named lemma or audit with a stated success criterion. (i) The L60 → L64 lemma — mass-closure charge-linking forbids a second neutral record channel — upgrades Prediction 3 to an all-structures law. (ii) The F43 continuum audit — tower-coherence, cofinality, residual-vanishing, completion — either licenses the continuum Einstein limit of the discrete consistency condition or names the exact obstruction. (iii) Exact RT saturation in the large-bond limit (the 0.729→0.904→0.941 trend made a theorem with a rate). (iv) Uniqueness of the grounding: whether semiclassical co-sourcing is the only admissible warrant for the common carrier (warranted → forced). (v) A third substrate for the universality thesis — the atlas's remaining foreclosure edges (black-hole thermodynamics and singularities are the natural candidates) — turning n=2 into n=3 with the genre-expectation again stated in advance.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Nearest upgrades (precisely-typed open problems): The program's open problems are not vague: each is a named lemma or audit with a stated success criterion. (i) The L60 → L64 lemma — mass-closure charge-linking forbids a second neutral record channel — upgrades Prediction 3 to an all-structures law. (ii) The F43 continuum audit — tower-coherence, cofinality, residual-vanishing, completion — either licenses the continuum Einstein limit of the discrete consistency condition or names the exact obstruction. (iii) Exact RT saturation in the large-bond limit (the 0.729→0.904→0.941 trend made a theorem with a rate). (iv) Uniqueness of the grounding: whether semiclassical co-sourcing is the only admissible warrant for the common carrier (warranted → forced). (v) A third substrate for the universality thesis — the atlas's remaining foreclosure edges (black-hole thermodynamics and singularities are the natural candidates) — turning n=2 into n=3 with the genre-expectation again stated in advance.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1707-L1719; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1707-L1719",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0002",
+        "claim_type": "open_problem",
+        "conclusion": "Cross-substrate examples such as CPT symmetry, gauge invariance, particle–antiparticle duality, quantum self-adjointness, and function-field analogues are structural predictions and validation targets for future work, not theorems established here.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Cross-substrate examples such as CPT symmetry, gauge invariance, particle–antiparticle duality, quantum self-adjointness, and function-field analogues are structural predictions and validation targets for future work, not theorems established here.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L271-L274; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L271-L274",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0021",
+        "claim_type": "open_problem",
+        "conclusion": "The first extension target is an operator-theoretic realization of the typed cone. One would instantiate the cone with positive trace-class operators on a Hilbert space, prove the trace identity and positivity-to-zero inside that setting, and connect the Douglas factorization carrier used here to the usual range inclusion theorem for bounded Hilbert-space operators. The second extension target is scalar arithmetic. The optimized trace budget currently tracks the AM–GM step through a typed-scalar hypothesis. A stronger treatment would introduce enough typed real-arithmetic structure to express ( a - b )^2≥0 and derive AM–GM internally rather than using it as a supplied scalar fact.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work.: The first extension target is an operator-theoretic realization of the typed cone. One would instantiate the cone with positive trace-class operators on a Hilbert space, prove the trace identity and positivity-to-zero inside that setting, and connect the Douglas factorization carrier used here to the usual range inclusion theorem for bounded Hilbert-space operators. The second extension target is scalar arithmetic. The optimized trace budget currently tracks the AM–GM step through a typed-scalar hypothesis. A stronger treatment would introduce enough typed real-arithmetic structure to express ( a - b )^2≥0 and derive AM–GM internally rather than using it as a supplied scalar fact.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1332; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1332",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P049-C0019",
+        "claim_type": "open_problem",
+        "conclusion": "row 14 is its exposure to its own program. discussion-and-outlook Discussion and outlook",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "row 14 is its exposure to its own program. discussion-and-outlook Discussion and outlook",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1678-L1682; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L1678-L1682",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P049-C0007",
+        "claim_type": "open_problem",
+        "conclusion": "The all-structures theorem upgrade (lemma L60 → L64) remains open and is tracked as such.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The all-structures theorem upgrade (lemma L60 → L64) remains open and is tracked as such.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L609-L612; derived/expanded/Tsiokos_2026_To_Kill_Three_Stones_with_Six_Birds_A_Common_Grammar_for_the_SM_QM_and_GR.tex:L609-L612",
+        "source_paper": "P049",
+        "source_title": "A Common Grammar for the SM, QM, and GR",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C016",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P025-C0020",
+        "claim_type": "open_problem",
+        "conclusion": "Future work.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1302; derived/expanded/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex:L1296-L1302",
+        "source_paper": "P025",
+        "source_title": "Self-Dual Trace Confinement",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P012-C0010",
+      "P048-C0007",
+      "P025-C0009",
+      "P016-C0001",
+      "P016-C0012",
+      "P049-C0008",
+      "P016-C0008",
+      "P025-C0015",
+      "P012-C0006",
+      "P012-C0001",
+      "P048-C0012",
+      "P048-C0019",
+      "P048-C0018",
+      "P048-C0003",
+      "P025-C0016",
+      "P025-C0010",
+      "P048-C0013",
+      "P048-C0026",
+      "P048-C0016",
+      "P012-C0011",
+      "P012-C0004",
+      "P048-C0021",
+      "P016-C0005",
+      "P012-C0009",
+      "P025-C0001",
+      "P049-C0011",
+      "P048-C0005",
+      "P025-C0017",
+      "P049-C0013",
+      "P025-C0012",
+      "P025-C0003",
+      "P012-C0003",
+      "P012-C0020",
+      "P012-C0019",
+      "P025-C0007",
+      "P012-C0005",
+      "P025-C0008"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O09",
+    "VII-O10"
+  ],
+  "wishlist_atoms": [
+    "ARC-H19",
+    "ARC-H20",
+    "MM-LOCAL",
+    "MM-OP3",
+    "MED-D3",
+    "MED-T4"
+  ]
+}

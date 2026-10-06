@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foundations-vii-lab"
+version = "0.1.0"
+description = "Dependency-light finite reference world for Foundations VII"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["fvii_lab"]

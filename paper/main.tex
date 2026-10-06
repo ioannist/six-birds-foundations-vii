@@ -1,0 +1,142 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{mathtools}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[numbers]{natbib}
+\usepackage{doi}
+\usepackage{xurl}
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+\externaldocument{build/supplement}[supplement.pdf]
+\usepackage{cleveref}
+\usepackage{orcidlink}
+\usepackage{titling}
+\usepackage{aliascnt}
+
+\input{includes/paper_macros.tex}
+\input{includes/release_metadata.tex}
+
+% One shared counter, section-scoped (series convention).  Each sibling environment
+% gets an alias counter so that cleveref and hyperref name it by its own type
+% ("Definition 3.5", "Remark 2.1") instead of "Theorem"; numbering is unchanged.
+\newtheorem{theorem}{Theorem}[section]
+\newaliascnt{lemma}{theorem}\newtheorem{lemma}[lemma]{Lemma}\aliascntresetthe{lemma}
+\newaliascnt{proposition}{theorem}\newtheorem{proposition}[proposition]{Proposition}\aliascntresetthe{proposition}
+\newaliascnt{corollary}{theorem}\newtheorem{corollary}[corollary]{Corollary}\aliascntresetthe{corollary}
+\theoremstyle{definition}
+\newaliascnt{definition}{theorem}\newtheorem{definition}[definition]{Definition}\aliascntresetthe{definition}
+\newaliascnt{remark}{theorem}\newtheorem{remark}[remark]{Remark}\aliascntresetthe{remark}
+\theoremstyle{plain}\newtheorem*{headline}{Theorem}
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\floatname{algorithm}{Algorithm}
+
+\urlstyle{same}
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  labelsep=period
+}
+\captionsetup[table]{skip=6pt,position=top}
+\crefname{suppsection}{Supplement Section}{Supplement Sections}\Crefname{suppsection}{Supplement Section}{Supplement Sections}
+\newaliascnt{example}{theorem}\theoremstyle{definition}\newtheorem{example}[example]{Example}\aliascntresetthe{example}\theoremstyle{plain}
+\crefname{example}{Example}{Examples}\Crefname{example}{Example}{Examples}
+\crefname{algorithm}{algorithm}{algorithms}
+\Crefname{algorithm}{Algorithm}{Algorithms}
+\crefname{theorem}{theorem}{theorems}
+\Crefname{theorem}{Theorem}{Theorems}
+\crefname{lemma}{lemma}{lemmas}
+\Crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{proposition}{propositions}
+\Crefname{proposition}{Proposition}{Propositions}
+\crefname{corollary}{corollary}{corollaries}
+\Crefname{corollary}{Corollary}{Corollaries}
+\crefname{definition}{definition}{definitions}
+\Crefname{definition}{Definition}{Definitions}
+\crefname{remark}{remark}{remarks}
+\Crefname{remark}{Remark}{Remarks}
+\setlist[enumerate]{leftmargin=*, itemsep=2pt, topsep=4pt}
+\setlength{\droptitle}{-3.2em}
+\pretitle{\begin{center}\LARGE\bfseries}
+\posttitle{\par\end{center}\vspace{0.5em}}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\par\end{center}\vspace{-0.4em}}
+\predate{\begin{center}\small}
+\postdate{\par\end{center}\vspace{0.6em}}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+\allowdisplaybreaks[2]
+\fancypagestyle{firstpage}{\fancyhf{}
+  \fancyfoot[C]{\scriptsize Automorph Inc., Wilmington, DE, USA \quad \texttt{ioannis@automorph.io} \quad \textcopyright\ \manuscriptyear \quad CC-BY 4.0 \quad \manuscriptversion\ (\manuscriptdate)}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\title{Six Birds Foundations VII:\\
+Lawful Theory Interaction}
+\author{Ioannis Tsiokos\,\orcidlink{0009-0009-7659-5964}}
+\date{\manuscriptdate\ \textperiodcentered{} \manuscriptversion}
+\hypersetup{
+  pdftitle={Six Birds Foundations VII: Lawful Theory Interaction},
+  pdfauthor={Ioannis Tsiokos},
+  pdfsubject={Six Birds Theory, Foundations VII. \manuscriptversion, \manuscriptdate. DOI: \paperdoi.},
+  pdfkeywords={emergence calculus; lawful theory interaction; theory join; strict join; factorization; split pair; confluence; Newman's lemma; certificate language; enablement; access coordinates; Lean 4},
+  hidelinks
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{firstpage}
+\ifpaperhasdoi
+\begin{center}
+\small Archived draft DOI: \doi{\paperdoi}
+\end{center}
+\fi
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\medskip
+\noindent\textbf{Keywords.} emergence calculus; lawful theory interaction; join of theories; strict join;
+factorization; split pair; confluence; Newman's lemma; certificate language; enablement;
+access coordinates; Six Birds Theory.
+
+\input{sections/sec01_introduction}
+\input{sections/sec02_related}
+\input{sections/sec03_setting}
+\input{sections/sec04_strict_join}
+\input{sections/sec05_admission}
+\input{sections/sec06_certificates}
+\input{sections/sec07_separations}
+\input{sections/sec08_reference_world}
+\input{sections/sec09_scope}
+\input{sections/sec10_formalization}
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

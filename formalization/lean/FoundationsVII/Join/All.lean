@@ -1,0 +1,10 @@
+import FoundationsVII.Join.Entry
+import FoundationsVII.Join.Objecthood
+import FoundationsVII.Join.Status
+import FoundationsVII.Join.Strictness
+import FoundationsVII.Join.Source
+import FoundationsVII.Join.Budget
+import FoundationsVII.Join.Retention
+import FoundationsVII.Join.Categorical
+import FoundationsVII.Join.Degree
+import FoundationsVII.Join.NonInteraction

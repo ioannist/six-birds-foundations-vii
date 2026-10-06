@@ -1,0 +1,23 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsIII.HighStructure
+
+#check SixBirdsIII.descent_square_recovery
+
+namespace FoundationsVII.Prior
+
+/-- FT13: inherited descent-square recovery. -/
+def ft13Descent : AdapterContract :=
+  { adapterId := "ADAPTER-FT13-DESCENT"
+    formalizationTargetIds := ["FT13"]
+    sourceModule := "SixBirdsIII.HighStructure"
+    sourceDeclarations := ["SixBirdsIII.descent_square_recovery"]
+    sourceTypes := ["commuting descent/recovery square"]
+    targetTypes := ["future VII transmission and descent-fidelity records"]
+    preservedHypotheses := ["typed quotient/update maps", "commuting square assumptions"]
+    addedHypotheses := ["source ledger", "contact or enablement provenance", "VII audit grade"]
+    lostHypotheses := ["No enablement or causal interpretation is inherited from a commuting square."]
+    trustDependencies := []
+    nonclaims := ["Descent does not imply enablement, sufficiency, endogeny, or top-down fact creation."]
+    fidelity := .exactReusableCore }
+
+end FoundationsVII.Prior

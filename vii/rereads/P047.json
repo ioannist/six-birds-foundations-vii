@@ -1,0 +1,47 @@
+{
+  "all_claims_reconsidered": 7,
+  "anti_overread": [
+    "Thus the sensitivity pattern should be interpreted as conditional on the present pipeline rather than a universal ranking of cell importance.",
+    "Limitations and falsifiability: The following limitations are explicit constraints on what the present experiments can support, and they also define concrete falsifiers for the claims in the Results section.",
+    "Limitations and confounds (A6-consistent).: Finite-size scope and selective scaling. We evaluate only n∈\\ 32,64,128,256\\ , and the n=256 data are a selected scaling suite rather than the full 69-configuration ablation set. Asymptotic scaling trends are therefore not established, and any size-dependent statements should be interpreted as finite-size evidence within a manifest-defined experimental design. Lens dependence. The multiscale ladder uses a specific spectral sign-pattern partition construction; alternative lens families or alternative lifts Q_f could shift (or erase) observed regimes. This is a structural coarse-graining confound. Adaptive timescale coupling. The timescale tau is not held fixed across conditions. In particular, direct tau -matched comparisons between Baseline and Full-Action are not broadly available in the current dataset (see robustness checklist), which limits causal attribution of differences solely to closure cells. Macro thermodynamics is not micro thermodynamics. Sigma_ 10 (pi) and related cycle diagnostics are macro-level proxies; they do not, by themselves, quantify micro-level entropy production. Hidden dissipation under coarse-graining is a known pitfall . Numerical regularization. Several audits use numerical floors/caps (e.g., in - action; caps for near-zero reverse transitions). These stabilize computation but can bias extreme-tail behavior. Probe missingness. Geometry and diffusion probes can be undefined for certain rungs (embedding degeneracy). Missingness is explicitly tracked, but it reduces effective sample size for those probes at some scales. Partial ablation coverage. The LOO family does not include all Full-Action-enabled cells; two core spectral cells are not tested by single-removal LOO, so generator claims are conditional."
+  ],
+  "boundary_claim_ids": [
+    "P047-C0003",
+    "P047-C0004",
+    "P047-C0005"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 7 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P047-C0006",
+    "P047-C0007"
+  ],
+  "paper_id": "P047",
+  "reading_order": "56",
+  "relevant_claim_ids": [
+    "P047-C0001",
+    "P047-C0002",
+    "P047-C0003",
+    "P047-C0004",
+    "P047-C0005",
+    "P047-C0006",
+    "P047-C0007"
+  ],
+  "root_sha256": "155b52411fddaf30c683e37d7e1d00a57a8e99ae8281d3fb6ffc607002784855",
+  "source_path": "papers/Tsiokos_2026_To_Create_a_Stone_with_Six_Birds_Emergent_Geometric_and_Thermodynamic_Regimes_from_a_Minimal_Stochastic_Substrate.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "9b53611d771df0fcb58196de713469f6999036b588742c49130881996456daee",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Emergent Geometric and Thermodynamic Regimes",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

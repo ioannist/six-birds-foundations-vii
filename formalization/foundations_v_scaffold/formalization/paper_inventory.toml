@@ -1,0 +1,251 @@
+# Foundations V paper inventory.
+# Status vocabulary includes the FIV tracker values plus `unformalized` for
+# definitions/laws that have not yet begun.
+
+[[items]]
+law_id = "D1"
+title = "Repair join"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.RepairJoin"
+
+[[items]]
+law_id = "D2"
+title = "Predictive surplus, quantified"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.PredictiveSurplus"
+
+[[items]]
+law_id = "D3"
+title = "Carried record and carried instrument"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.CarriedRecord"
+
+[[items]]
+law_id = "D4"
+title = "Endogenous closure system, E-system"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.ESystem"
+
+[[items]]
+law_id = "D5"
+title = "Closed-loop scope"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.ClosedLoopScope"
+
+[[items]]
+law_id = "D6"
+title = "Exposure cost and probe economy"
+kind = "definition"
+axis = "definitional"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Definitional.ProbeEconomy"
+
+[[items]]
+law_id = "E1"
+title = "Internalization Law"
+kind = "law"
+axis = "A"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E1Internalization"
+
+[[items]]
+law_id = "E2"
+title = "Bounded Reflexivity Law"
+kind = "law"
+axis = "A"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E2BoundedReflexivity"
+
+[[items]]
+law_id = "E3"
+title = "Self-Maintaining Reclosure Law"
+kind = "law"
+axis = "A"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E3SelfMaintainingReclosure"
+
+[[items]]
+law_id = "E4"
+title = "Repair Compilation Law"
+kind = "law"
+axis = "A"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E4RepairCompilation"
+
+[[items]]
+law_id = "E5"
+title = "Reclosure Collapse Law"
+kind = "law"
+axis = "A"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E5ReclosureCollapse"
+
+[[items]]
+law_id = "E6"
+title = "Attention Law"
+kind = "law"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E6E9PricedAccess"
+
+[[items]]
+law_id = "E7"
+title = "Alarm Law"
+kind = "law"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E7Alarm"
+
+[[items]]
+law_id = "E7.1"
+title = "Alarm fatigue"
+kind = "corollary"
+axis = "B"
+intended_status = "unformalized"
+target_lean_module = "SixBirdsFoundationsV.Laws.E7Alarm"
+
+[[items]]
+law_id = "E8"
+title = "Control-Price Law"
+kind = "law"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E8ControlPrice"
+
+[[items]]
+law_id = "E8.1"
+title = "Audit capture / budget-inflation pathology"
+kind = "corollary"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E8ControlPrice"
+
+[[items]]
+law_id = "E9"
+title = "Curiosity Law"
+kind = "law"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E6E9PricedAccess"
+
+[[items]]
+law_id = "E10"
+title = "Cognitive Demarcation Law"
+kind = "law"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E10CognitiveDemarcation"
+
+[[items]]
+law_id = "E10.1"
+title = "Intention as audited support restriction"
+kind = "corollary"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E10CognitiveDemarcation"
+
+[[items]]
+law_id = "E10.2"
+title = "Goal as persistent target-quotient selection"
+kind = "corollary"
+axis = "B"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E10CognitiveDemarcation"
+
+[[items]]
+law_id = "E11"
+title = "Institutional Rewrite Law"
+kind = "law"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E11InstitutionalRewrite"
+
+[[items]]
+law_id = "E12"
+title = "Individuation Law"
+kind = "law"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E12Individuation"
+
+[[items]]
+law_id = "E12.1"
+title = "Operational selfhood"
+kind = "corollary"
+axis = "C"
+intended_status = "unformalized"
+target_lean_module = "SixBirdsFoundationsV.E12Individuation"
+
+[[items]]
+law_id = "E13"
+title = "Repair Transport Law"
+kind = "law"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E13RepairTransport"
+
+[[items]]
+law_id = "E13.1"
+title = "Communication as transported repair"
+kind = "corollary"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E13RepairTransport"
+
+[[items]]
+law_id = "E13.2"
+title = "Teaching as transported repair capacity"
+kind = "corollary"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E13RepairTransport"
+
+[[items]]
+law_id = "E13.3"
+title = "Coercion-null transport obstruction"
+kind = "corollary"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E13RepairTransport"
+
+[[items]]
+law_id = "E13.4"
+title = "Symbols as compressed repair handles"
+kind = "corollary"
+axis = "C"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E13RepairTransport"
+
+[[items]]
+law_id = "E14"
+title = "Reconsolidation Law"
+kind = "law"
+axis = "D"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E14Reconsolidation"
+
+[[items]]
+law_id = "E15"
+title = "Offline Reclosure Law"
+kind = "law"
+axis = "D"
+intended_status = "mechanize_now"
+target_lean_module = "SixBirdsFoundationsV.Laws.E15OfflineReclosure"
+
+[[items]]
+law_id = "E16"
+title = "Adaptability Law"
+kind = "law"
+axis = "D"
+intended_status = "unformalized"
+target_lean_module = "SixBirdsFoundationsV.E16Adaptability"

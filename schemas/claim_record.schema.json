@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SBT Claim Record",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "source_paper",
+    "source_location",
+    "normalized_claim",
+    "claim_type",
+    "claim_grade",
+    "hypotheses",
+    "conclusion",
+    "proof_status",
+    "nonclaims"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "source_paper": {
+      "type": "string",
+      "pattern": "^P[0-9]{3}$"
+    },
+    "source_location": {
+      "type": "string",
+      "minLength": 1
+    },
+    "normalized_claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_type": {
+      "type": "string"
+    },
+    "claim_grade": {
+      "type": "string"
+    },
+    "hypotheses": {
+      "type": "array"
+    },
+    "conclusion": {
+      "type": "string"
+    },
+    "proof_status": {
+      "type": "string"
+    },
+    "nonclaims": {
+      "type": "array"
+    },
+    "formalization": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "declarations": {
+          "type": "array"
+        },
+        "source_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exact_hypothesis_match": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "exact_conclusion_match": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "statement_delta": {
+          "type": "array"
+        },
+        "trust_base": {
+          "type": "array"
+        },
+        "elaboration_status": {
+          "type": "string"
+        },
+        "lab_or_test_evidence": {
+          "type": "array"
+        },
+        "caveats": {
+          "type": "array"
+        },
+        "paper_reported_declarations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

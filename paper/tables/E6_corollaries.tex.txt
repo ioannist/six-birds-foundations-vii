@@ -1,0 +1,34 @@
+\begin{landscape}
+\begin{table}[t]
+\centering
+\caption{Cross-family corollaries and their supporting candidates.}
+\label{tab:E6_corollaries}
+\begin{tabular}{lll}
+\toprule
+\textbf{Corollary} & \textbf{Declaration} & \textbf{Candidates} \\
+\midrule
+FVII-COR-001 & certified\_has\_temporal\_source\_join\_and\_payment & VII-C002,VII-C006,VII-C009,VII-C011 \\
+FVII-COR-002 & retrospective\_registration\_blocks\_prospective\_join\_credit & VII-C002,VII-C006,VII-C009,VII-C011 \\
+FVII-COR-003 & certified\_preserves\_declared\_source\_alignment & VII-C002,VII-C006,VII-C009,VII-C011 \\
+FVII-COR-004 & certified\_has\_independence\_payment\_and\_capacity\_bound & VII-C009,VII-C010,VII-C011,VII-C029 \\
+FVII-COR-005 & source\_and\_payment\_gates\_remain\_distinct & VII-C009,VII-C010,VII-C011,VII-C029 \\
+FVII-COR-006 & certified\_noninteraction\_excludes\_strict\_join & VII-C008,VII-C033 \\
+FVII-COR-007 & certified\_noninteraction\_retains\_escape\_routes & VII-C008,VII-C033 \\
+FVII-COR-008 & certified\_accumulates\_resources\_and\_preserves\_residuals & VII-C019,VII-C027,VII-C036 \\
+FVII-COR-009 & join\_created\_needle\_blocks\_zero\_residual\_reading & VII-C019,VII-C027,VII-C036 \\
+FVII-COR-010 & preserving\_refinement\_with\_valid\_descent\_preserves\_three\_gates & VII-C015,VII-C030,VII-C034 \\
+FVII-COR-011 & destroying\_refinement\_exhibits\_a\_failed\_join\_gate & VII-C015,VII-C030,VII-C034 \\
+FVII-COR-012 & valid\_descent\_does\_not\_erase\_refinement\_obstruction & VII-C015,VII-C030,VII-C034 \\
+FVII-COR-013 & no\_free\_first\_join\_two\_gate\_obstruction & VII-C003,VII-C011,VII-C035 \\
+FVII-COR-014 & seeded\_and\_paid\_first\_join\_escape & VII-C003,VII-C011,VII-C035 \\
+FVII-COR-015 & strict\_join\_and\_holonomy\_do\_not\_replace\_drive & VII-C009,VII-C017,VII-C032 \\
+FVII-COR-016 & holonomy\_with\_independent\_drive\_supports\_arrow & VII-C009,VII-C017,VII-C032 \\
+FVII-COR-017 & certified\_excludes\_contact\_and\_occurrence\_at\_declared\_scope & VII-C021,VII-C023,VII-C033 \\
+FVII-COR-018 & point\_null\_plus\_bounded\_horizon\_is\_not\_automatically\_global & VII-C021,VII-C023,VII-C033 \\
+FVII-COR-019 & certified\_requires\_pricing\_and\_internal\_execution & VII-C013,VII-C029 \\
+FVII-COR-020 & unpriced\_observer\_blocks\_joint\_native\_endogenous\_credit & VII-C013,VII-C029 \\
+FVII-COR-021 & zero\_occupancy\_escape\_preserves\_endogenous\_credit & VII-C013,VII-C029 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}

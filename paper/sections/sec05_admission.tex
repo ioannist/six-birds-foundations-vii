@@ -1,0 +1,162 @@
+\section{Admission orders and confluence}
+\label{sec:admission}
+
+This section proves Theorem~B. A theory is often extended by admitting items one at a
+time: definitions, axioms, components, each available once none of its prerequisites is still
+pending.
+Whether the result depends on the order of admission is a confluence question, and the
+classical tools answer it.
+
+\subsection{Rewriting and Newman's lemma}
+
+\begin{definition}[Rewriting notions]
+\label{def:rewriting}
+Let $\to$ be a relation on a set $S$ and $\to^{*}$ its reflexive and transitive closure.
+Two states $y,z$ are \emph{joinable} if $y\to^{*}w$ and $z\to^{*}w$ for some~$w$. The
+relation is \emph{locally confluent} if $x\to y$ and $x\to z$ imply that $y,z$ are
+joinable, and \emph{confluent} if $x\to^{*}y$ and $x\to^{*}z$ imply that $y,z$ are
+joinable. It \emph{terminates} if there is no infinite chain $x_0\to x_1\to\cdots$, that
+is, if the converse relation is well founded. A state $x$ is \emph{normal} if $x\to y$
+for no~$y$.
+\end{definition}
+
+\begin{theorem}[Newman's lemma]
+\label{thm:newman}
+A terminating, locally confluent relation is confluent.
+\end{theorem}
+
+\begin{proof}
+By well-founded induction on $x$ along the converse of $\to$, we show that any two paths
+$x\to^{*}y$ and $x\to^{*}z$ end in joinable states. If either path is empty the claim is
+immediate. Otherwise the paths begin $x\to a\to^{*}y$ and $x\to b\to^{*}z$. By local
+confluence $a\to^{*}w$ and $b\to^{*}w$ for some~$w$. The induction hypothesis at $a$
+joins $y$ and $w$ at some $v$, and at $b$ joins $z$ and $w$ at some $t$. Applied once more
+at $a$ to the paths $a\to^{*}w\to^{*}v$ and $a\to^{*}w\to^{*}t$, it joins $v$ and $t$ at
+some $u$, and $u$ joins $y$ and~$z$.
+\end{proof}
+
+\begin{corollary}[Unique normal forms]
+\label{cor:normal-forms}
+If $\to$ is confluent, any two normal states reachable from a common state are equal. If
+$\to$ also terminates, every state reaches exactly one normal state.
+\end{corollary}
+
+\begin{proof}
+Two normal states reachable from one state are joinable, and a path out of a normal state
+is empty, so they are equal. Under termination every state reaches some normal state, by
+well-founded induction: either it is normal, or it steps to a state that reaches one.
+\end{proof}
+
+For a finite system, local confluence can be decided mechanically.
+
+\begin{proposition}[Finite decision of local confluence]
+\label{prop:finite-peaks}
+Let $S$ be covered by a finite list, with decidable equality and a decidable one-step
+relation. Then reachability $x\to^{*}y$ holds exactly when $y$ lies in every subset of the
+list that contains $x$ and is closed under steps, and this can be checked by enumerating
+the subsets. Joinability is decided by searching the list for a common reachable state,
+and local confluence by checking every one-step peak.
+\end{proposition}
+
+\begin{proof}
+The set of states reachable from $x$ is itself closed under steps and contains $x$, so a
+state in every such subset is reachable. Conversely, a closed set containing $x$ contains
+everything reachable from $x$, by induction on the path. The rest is a finite search over
+the covering list.
+\end{proof}
+\begin{remark}[Efficient search]
+\label{rem:graph-search}
+The subset enumeration is exponential in the length of the list. It is the form the Lean
+proof checks, because the characterization by closed subsets makes its correctness easy
+to verify. In practice reachability is decided by graph search: a breadth-first or
+depth-first search from $x$ visits each state at most once and computes the set of states
+reachable from $x$ with at most $n^2$ tests of the step relation, for a list of length~$n$. Local
+confluence is then checked by one such search from each end of each one-step peak.
+\end{remark}
+
+\begin{example}[Termination is needed]
+\label{ex:four-state}
+On four states $a,b,c,d$ let the only steps be $b\to a$, $b\to c$, $c\to b$ and
+$c\to d$. Every one-step peak is joinable: the peak $b\to a$, $b\to c$ joins at $a$ via
+$c\to b\to a$, and the peak $c\to b$, $c\to d$ joins at $d$ via $b\to c\to d$. The relation
+is not confluent, since $b\to a$ and $b\to c\to d$ reach the distinct normal states $a$
+and~$d$. The relation does not terminate: $b\to c\to b\to\cdots$.
+\end{example}
+
+\subsection{Admission systems}
+
+\begin{definition}[Admission system]
+\label{def:admission-system}
+An \emph{admission system} over a set $I$ of items consists of a prerequisite relation
+$p\prec i$ on $I$ and an audit map from finite lists of items to a set of labels. A state
+is the list of items still pending. An item $i$ is \emph{enabled} in a state $s$ if $i$ is
+pending and no prerequisite of $i$ is pending, and the admission step removes an enabled
+item: $s\to s\ominus i$, where $s\ominus i$ deletes the first occurrence of $i$ from the
+list~$s$.
+\end{definition}
+
+The model tests only that no prerequisite is still pending. A prerequisite that was never
+in the initial list therefore counts as satisfied. When every prerequisite of every
+pending item lies in the initial list, ``no prerequisite of $i$ is pending'' means that
+every prerequisite of $i$ has been admitted. Removing an item never makes an item pending
+again. This monotonicity, that admission can only
+enable, is what the next theorem uses.
+
+\begin{theorem}[Admission order does not matter]
+\label{thm:admission}
+In every admission system:
+\begin{enumerate}[nosep]
+  \item every admission run terminates;
+  \item if $s\to y$ and $s\to z$, then $y=z$ or there is $w$ with $y\to w$ and $z\to w$;
+  \item the admission relation is confluent;
+  \item from any state $s$, every maximal admission order reaches the same terminal state,
+        and so the same audit value.
+\end{enumerate}
+If the initial list has no repetitions, neither does any state reached from it.
+\end{theorem}
+
+\begin{proof}
+Termination and one-step commutation give confluence by Newman's lemma, and uniqueness of the terminal state
+follows.
+(1) Each step shortens the pending list. (2) Let $y=s\ominus i$ and
+$z=s\ominus j$ with $i\neq j$. Removing $j$ keeps $i$ pending and pending no new
+item, so $i$ is still enabled in $z$; likewise $j$ is enabled in $y$. Both orders then
+reach $(s\ominus i)\ominus j=(s\ominus j)\ominus i$. (3) By (2) the relation is locally confluent, and by (1) and
+\Cref{thm:newman} it is confluent. (4) This is \Cref{cor:normal-forms}; equal terminal
+states have equal audit values. The last statement holds because removing an element
+preserves the absence of repetitions.
+\end{proof}
+
+The terminal state need not be empty. Items on a cycle of prerequisites, or depending on
+such items, are never enabled and remain pending. The theorem says they remain pending in
+every order.
+
+\begin{example}[One disabling guard]
+\label{ex:disabling}
+Take items $a$ and $b$ and a guarded step in which $a$ may always be admitted but $b$ may
+be admitted only while $a$ is still pending. From $\{a,b\}$ the relation terminates.
+Admitting $a$ first reaches $\{b\}$, which is terminal because $b$ is now blocked.
+Admitting $b$ first reaches $\{a\}$ and then $\varnothing$. The two terminal states differ,
+and so do their lengths. The relation is not locally confluent, since the peak
+$\{a,b\}\to\{b\}$, $\{a,b\}\to\{a\}$ cannot be joined.
+\end{example}
+
+\Cref{fig:admission} shows this example beside that of \Cref{ex:four-state}.
+
+\input{figures/fig_admission}
+The guard violates the monotonicity of admission: admitting $a$ disables~$b$.
+
+\begin{example}[Admission without constraints]
+\label{ex:free-admission}
+With two items and no prerequisites, both orders admit both items and reach the empty
+terminal state.
+\end{example}
+
+The catalog records a finite admission system as a list of critical-pair records, each
+marked legal or not, joinable or not and audit-equivalent or not, and states that a
+critical-pair criterion is equivalent to confluence at the declared scope. Both sides of
+that equivalence are predicates on the same list of records, so the statement is a
+reformulation rather than a confluence theorem (\Cref{sec:sep-definitional}).
+\Cref{thm:admission} is the corresponding semantic result, and \Cref{ex:disabling} proves
+that different orders from one initial state can reach different terminal states once an
+admission may disable another.

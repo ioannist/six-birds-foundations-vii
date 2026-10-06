@@ -1,0 +1,133 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 3,
+      "UNKNOWN_REQUIRES_PROOF": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0005",
+      "BR-CITE-0019",
+      "BR-CITE-0026",
+      "BR-CITE-0051",
+      "BR-CITE-0062",
+      "BR-CITE-0083",
+      "BR-CITE-0087",
+      "BR-CITE-0114",
+      "BR-CITE-0125",
+      "BR-CITE-0148",
+      "BR-CITE-0171"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0037",
+      "BR-CITE-0038",
+      "BR-CITE-0039",
+      "BR-CITE-0040"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 1,
+    "wishlist_request_ids": [
+      "ARC-H19",
+      "ARC-H20",
+      "ARC-H24",
+      "CLD-A2",
+      "CLD-B1",
+      "CLD-B3",
+      "MED-D3",
+      "MED-T4",
+      "MM-LOCAL",
+      "MM-OP3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P012.jsonl",
+  "claim_count": 21,
+  "claim_grade_counts": {
+    "DEFINITION": 4,
+    "EXPLICIT_NONCLAIM": 3,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 1,
+    "PROSE_DEFINITION_SECTION": 2,
+    "SCOPE_OR_LIMITATION_RECORD": 2,
+    "THEOREM_GRADE": 6
+  },
+  "claim_ids": [
+    "P012-C0001",
+    "P012-C0002",
+    "P012-C0003",
+    "P012-C0004",
+    "P012-C0005",
+    "P012-C0006",
+    "P012-C0007",
+    "P012-C0008",
+    "P012-C0009",
+    "P012-C0010",
+    "P012-C0011",
+    "P012-C0012",
+    "P012-C0013",
+    "P012-C0014",
+    "P012-C0015",
+    "P012-C0016",
+    "P012-C0017",
+    "P012-C0018",
+    "P012-C0019",
+    "P012-C0020",
+    "P012-C0021"
+  ],
+  "claim_type_counts": {
+    "definition": 4,
+    "nonclaim": 3,
+    "paper_thesis": 1,
+    "prose_definition": 2,
+    "result_summary": 3,
+    "scope_boundary": 2,
+    "theorem": 6
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P012-C0003",
+    "P012-C0004",
+    "P012-C0005",
+    "P012-C0006",
+    "P012-C0018",
+    "P012-C0019"
+  ],
+  "formal_claim_ids": [
+    "P012-C0009",
+    "P012-C0010",
+    "P012-C0011",
+    "P012-C0012",
+    "P012-C0013",
+    "P012-C0014"
+  ],
+  "formalization_status_counts": {
+    "NO_MATCH": 21
+  },
+  "foundations_vii_groups": [
+    "CG11",
+    "CG12",
+    "CG18"
+  ],
+  "foundations_vii_hook": "route transport, predictive refinements, witnesses, and memory repair",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P012.md",
+  "nonclaim_scope_ids": [
+    "P012-C0002",
+    "P012-C0015",
+    "P012-C0016",
+    "P012-C0017",
+    "P012-C0021"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P012",
+  "reading_order": 30,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex",
+  "source_root_sha256": "ee3fbf0d9877dcb973cf205ebcebfb042a8649bbe1844656fe8389e2f762cf9d",
+  "source_tree_sha256": "18e9895892221759e6c8ea833681c31b8c63b7dc0e4a9a35431b3dd7bf1054e2",
+  "status": "BRIDGED",
+  "title": "Holonomy with Memory"
+}

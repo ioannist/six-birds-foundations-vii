@@ -1,0 +1,14 @@
+{
+ "absent_at_head": [],
+ "by_phase": {
+  "1": 447,
+  "2": 237,
+  "3": 363,
+  "4": 268
+ },
+ "content_changed_since_phase": 158,
+ "line_moved_only": 610,
+ "rebound": 1315,
+ "rows": 1315,
+ "still_at_historical_coordinates": 547
+}

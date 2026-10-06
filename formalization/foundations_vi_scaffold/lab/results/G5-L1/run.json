@@ -1,0 +1,668 @@
+{
+  "cycles": 20,
+  "entry_binary": "10110100",
+  "final_binary": "101111111111111111111111010000000000000000000000",
+  "final_r": 22,
+  "max_bit_length": 48,
+  "phase_transitions": 80,
+  "pre_entry_steps": 4,
+  "pre_entry_strings": [
+    "10110",
+    "100011",
+    "1010100",
+    "1101001",
+    "10110100"
+  ],
+  "records": [
+    {
+      "binary": "10110100",
+      "index": 0,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 2,
+      "value": 180
+    },
+    {
+      "binary": "11100001",
+      "index": 1,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 2,
+      "value": 225
+    },
+    {
+      "binary": "101101000",
+      "index": 2,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 2,
+      "value": 360
+    },
+    {
+      "binary": "110010101",
+      "index": 3,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 2,
+      "value": 405
+    },
+    {
+      "binary": "1011101000",
+      "index": 4,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 3,
+      "value": 744
+    },
+    {
+      "binary": "1101000101",
+      "index": 5,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 3,
+      "value": 837
+    },
+    {
+      "binary": "10111010000",
+      "index": 6,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 3,
+      "value": 1488
+    },
+    {
+      "binary": "11000101101",
+      "index": 7,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 3,
+      "value": 1581
+    },
+    {
+      "binary": "101111010000",
+      "index": 8,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 4,
+      "value": 3024
+    },
+    {
+      "binary": "110010001101",
+      "index": 9,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 4,
+      "value": 3213
+    },
+    {
+      "binary": "1011110100000",
+      "index": 10,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 4,
+      "value": 6048
+    },
+    {
+      "binary": "1100001011101",
+      "index": 11,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 4,
+      "value": 6237
+    },
+    {
+      "binary": "10111110100000",
+      "index": 12,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 5,
+      "value": 12192
+    },
+    {
+      "binary": "11000100011101",
+      "index": 13,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 5,
+      "value": 12573
+    },
+    {
+      "binary": "101111101000000",
+      "index": 14,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 5,
+      "value": 24384
+    },
+    {
+      "binary": "110000010111101",
+      "index": 15,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 5,
+      "value": 24765
+    },
+    {
+      "binary": "1011111101000000",
+      "index": 16,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 6,
+      "value": 48960
+    },
+    {
+      "binary": "1100001000111101",
+      "index": 17,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 6,
+      "value": 49725
+    },
+    {
+      "binary": "10111111010000000",
+      "index": 18,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 6,
+      "value": 97920
+    },
+    {
+      "binary": "11000000101111101",
+      "index": 19,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 6,
+      "value": 98685
+    },
+    {
+      "binary": "101111111010000000",
+      "index": 20,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 7,
+      "value": 196224
+    },
+    {
+      "binary": "110000010001111101",
+      "index": 21,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 7,
+      "value": 197757
+    },
+    {
+      "binary": "1011111110100000000",
+      "index": 22,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 7,
+      "value": 392448
+    },
+    {
+      "binary": "1100000001011111101",
+      "index": 23,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 7,
+      "value": 393981
+    },
+    {
+      "binary": "10111111110100000000",
+      "index": 24,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 8,
+      "value": 785664
+    },
+    {
+      "binary": "11000000100011111101",
+      "index": 25,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 8,
+      "value": 788733
+    },
+    {
+      "binary": "101111111101000000000",
+      "index": 26,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 8,
+      "value": 1571328
+    },
+    {
+      "binary": "110000000010111111101",
+      "index": 27,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 8,
+      "value": 1574397
+    },
+    {
+      "binary": "1011111111101000000000",
+      "index": 28,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 9,
+      "value": 3144192
+    },
+    {
+      "binary": "1100000001000111111101",
+      "index": 29,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 9,
+      "value": 3150333
+    },
+    {
+      "binary": "10111111111010000000000",
+      "index": 30,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 9,
+      "value": 6288384
+    },
+    {
+      "binary": "11000000000101111111101",
+      "index": 31,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 9,
+      "value": 6294525
+    },
+    {
+      "binary": "101111111111010000000000",
+      "index": 32,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 10,
+      "value": 12579840
+    },
+    {
+      "binary": "110000000010001111111101",
+      "index": 33,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 10,
+      "value": 12592125
+    },
+    {
+      "binary": "1011111111110100000000000",
+      "index": 34,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 10,
+      "value": 25159680
+    },
+    {
+      "binary": "1100000000001011111111101",
+      "index": 35,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 10,
+      "value": 25171965
+    },
+    {
+      "binary": "10111111111110100000000000",
+      "index": 36,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 11,
+      "value": 50325504
+    },
+    {
+      "binary": "11000000000100011111111101",
+      "index": 37,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 11,
+      "value": 50350077
+    },
+    {
+      "binary": "101111111111101000000000000",
+      "index": 38,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 11,
+      "value": 100651008
+    },
+    {
+      "binary": "110000000000010111111111101",
+      "index": 39,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 11,
+      "value": 100675581
+    },
+    {
+      "binary": "1011111111111101000000000000",
+      "index": 40,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 12,
+      "value": 201314304
+    },
+    {
+      "binary": "1100000000001000111111111101",
+      "index": 41,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 12,
+      "value": 201363453
+    },
+    {
+      "binary": "10111111111111010000000000000",
+      "index": 42,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 12,
+      "value": 402628608
+    },
+    {
+      "binary": "11000000000000101111111111101",
+      "index": 43,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 12,
+      "value": 402677757
+    },
+    {
+      "binary": "101111111111111010000000000000",
+      "index": 44,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 13,
+      "value": 805281792
+    },
+    {
+      "binary": "110000000000010001111111111101",
+      "index": 45,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 13,
+      "value": 805380093
+    },
+    {
+      "binary": "1011111111111110100000000000000",
+      "index": 46,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 13,
+      "value": 1610563584
+    },
+    {
+      "binary": "1100000000000001011111111111101",
+      "index": 47,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 13,
+      "value": 1610661885
+    },
+    {
+      "binary": "10111111111111110100000000000000",
+      "index": 48,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 14,
+      "value": 3221176320
+    },
+    {
+      "binary": "11000000000000100011111111111101",
+      "index": 49,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 14,
+      "value": 3221372925
+    },
+    {
+      "binary": "101111111111111101000000000000000",
+      "index": 50,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 14,
+      "value": 6442352640
+    },
+    {
+      "binary": "110000000000000010111111111111101",
+      "index": 51,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 14,
+      "value": 6442549245
+    },
+    {
+      "binary": "1011111111111111101000000000000000",
+      "index": 52,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 15,
+      "value": 12884803584
+    },
+    {
+      "binary": "1100000000000001000111111111111101",
+      "index": 53,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 15,
+      "value": 12885196797
+    },
+    {
+      "binary": "10111111111111111010000000000000000",
+      "index": 54,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 15,
+      "value": 25769607168
+    },
+    {
+      "binary": "11000000000000000101111111111111101",
+      "index": 55,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 15,
+      "value": 25770000381
+    },
+    {
+      "binary": "101111111111111111010000000000000000",
+      "index": 56,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 16,
+      "value": 51539410944
+    },
+    {
+      "binary": "110000000000000010001111111111111101",
+      "index": 57,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 16,
+      "value": 51540197373
+    },
+    {
+      "binary": "1011111111111111110100000000000000000",
+      "index": 58,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 16,
+      "value": 103078821888
+    },
+    {
+      "binary": "1100000000000000001011111111111111101",
+      "index": 59,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 16,
+      "value": 103079608317
+    },
+    {
+      "binary": "10111111111111111110100000000000000000",
+      "index": 60,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 17,
+      "value": 206158036992
+    },
+    {
+      "binary": "11000000000000000100011111111111111101",
+      "index": 61,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 17,
+      "value": 206159609853
+    },
+    {
+      "binary": "101111111111111111101000000000000000000",
+      "index": 62,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 17,
+      "value": 412316073984
+    },
+    {
+      "binary": "110000000000000000010111111111111111101",
+      "index": 63,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 17,
+      "value": 412317646845
+    },
+    {
+      "binary": "1011111111111111111101000000000000000000",
+      "index": 64,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 18,
+      "value": 824632934400
+    },
+    {
+      "binary": "1100000000000000001000111111111111111101",
+      "index": 65,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 18,
+      "value": 824636080125
+    },
+    {
+      "binary": "10111111111111111111010000000000000000000",
+      "index": 66,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 18,
+      "value": 1649265868800
+    },
+    {
+      "binary": "11000000000000000000101111111111111111101",
+      "index": 67,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 18,
+      "value": 1649269014525
+    },
+    {
+      "binary": "101111111111111111111010000000000000000000",
+      "index": 68,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 19,
+      "value": 3298533310464
+    },
+    {
+      "binary": "110000000000000000010001111111111111111101",
+      "index": 69,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 19,
+      "value": 3298539601917
+    },
+    {
+      "binary": "1011111111111111111110100000000000000000000",
+      "index": 70,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 19,
+      "value": 6597066620928
+    },
+    {
+      "binary": "1100000000000000000001011111111111111111101",
+      "index": 71,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 19,
+      "value": 6597072912381
+    },
+    {
+      "binary": "10111111111111111111110100000000000000000000",
+      "index": 72,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 20,
+      "value": 13194136387584
+    },
+    {
+      "binary": "11000000000000000000100011111111111111111101",
+      "index": 73,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 20,
+      "value": 13194148970493
+    },
+    {
+      "binary": "101111111111111111111101000000000000000000000",
+      "index": 74,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 20,
+      "value": 26388272775168
+    },
+    {
+      "binary": "110000000000000000000010111111111111111111101",
+      "index": 75,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 20,
+      "value": 26388285358077
+    },
+    {
+      "binary": "1011111111111111111111101000000000000000000000",
+      "index": 76,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 21,
+      "value": 52776551841792
+    },
+    {
+      "binary": "1100000000000000000001000111111111111111111101",
+      "index": 77,
+      "palindrome": false,
+      "phase": "P1",
+      "r": 21,
+      "value": 52776577007613
+    },
+    {
+      "binary": "10111111111111111111111010000000000000000000000",
+      "index": 78,
+      "palindrome": false,
+      "phase": "P2",
+      "r": 21,
+      "value": 105553103683584
+    },
+    {
+      "binary": "11000000000000000000000101111111111111111111101",
+      "index": 79,
+      "palindrome": false,
+      "phase": "P3",
+      "r": 21,
+      "value": 105553128849405
+    },
+    {
+      "binary": "101111111111111111111111010000000000000000000000",
+      "index": 80,
+      "palindrome": false,
+      "phase": "P0",
+      "r": 22,
+      "value": 211106219950080
+    }
+  ],
+  "seed": 22,
+  "total_reverse_add_steps": 84
+}

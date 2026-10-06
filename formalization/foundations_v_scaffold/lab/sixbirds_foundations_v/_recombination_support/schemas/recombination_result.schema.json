@@ -1,0 +1,782 @@
+{
+  "$defs": {
+    "AuditStatus": {
+      "enum": [
+        "passed",
+        "failed",
+        "inconclusive",
+        "skipped"
+      ],
+      "title": "AuditStatus",
+      "type": "string"
+    },
+    "FactorizationCertificateSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "certificate_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Certificate Id"
+        },
+        "eta_surjective": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Eta Surjective"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "FactorizationCertificateSummary",
+      "type": "object"
+    },
+    "FlatteningAuditSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "completion_applied": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Completion Applied"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "flattening_detected": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Flattening Detected"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "FlatteningAuditSummary",
+      "type": "object"
+    },
+    "ProtocolAuditSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "protocol_internalized": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Protocol Internalized"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "ProtocolAuditSummary",
+      "type": "object"
+    },
+    "RecombinationClassLabel": {
+      "enum": [
+        "classical_mixture",
+        "memory_only",
+        "marked_suppression",
+        "erasure_recovery",
+        "dissipative",
+        "coherent_branch_candidate",
+        "artifact",
+        "unclassified"
+      ],
+      "title": "RecombinationClassLabel",
+      "type": "string"
+    },
+    "RecombinationGapMetricName": {
+      "enum": [
+        "exact_recombination_gap",
+        "exact_branchwise_l1_gap",
+        "exact_terminal_total_variation",
+        "exact_conditional_visibility_gap"
+      ],
+      "title": "RecombinationGapMetricName",
+      "type": "string"
+    },
+    "RecombinationInterfaceResultRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "benchmark_id": {
+          "title": "Benchmark Id",
+          "type": "string"
+        },
+        "branch_assemblage_count": {
+          "minimum": 0,
+          "title": "Branch Assemblage Count",
+          "type": "integer"
+        },
+        "branchwise_quotient_size": {
+          "minimum": 0,
+          "title": "Branchwise Quotient Size",
+          "type": "integer"
+        },
+        "class_label": {
+          "$ref": "#/$defs/RecombinationClassLabel"
+        },
+        "conditional_visibility": {
+          "minimum": 0,
+          "title": "Conditional Visibility",
+          "type": "number"
+        },
+        "current_quotient_size": {
+          "minimum": 0,
+          "title": "Current Quotient Size",
+          "type": "integer"
+        },
+        "erasure_status": {
+          "$ref": "#/$defs/AuditStatus"
+        },
+        "eta_max_fiber_size": {
+          "minimum": 0,
+          "title": "Eta Max Fiber Size",
+          "type": "integer"
+        },
+        "factorization_certificate": {
+          "$ref": "#/$defs/FactorizationCertificateSummary"
+        },
+        "factorization_status": {
+          "$ref": "#/$defs/AuditStatus"
+        },
+        "flattening_audit": {
+          "$ref": "#/$defs/FlatteningAuditSummary"
+        },
+        "flattening_status": {
+          "$ref": "#/$defs/AuditStatus"
+        },
+        "history_count": {
+          "minimum": 0,
+          "title": "History Count",
+          "type": "integer"
+        },
+        "interface_id": {
+          "title": "Interface Id",
+          "type": "string"
+        },
+        "internalization_status": {
+          "$ref": "#/$defs/AuditStatus"
+        },
+        "predictive_quotient_size": {
+          "minimum": 0,
+          "title": "Predictive Quotient Size",
+          "type": "integer"
+        },
+        "protocol_audit": {
+          "$ref": "#/$defs/ProtocolAuditSummary"
+        },
+        "recombination_gap_metric_name": {
+          "$ref": "#/$defs/RecombinationGapMetricName"
+        },
+        "recombination_gap_value": {
+          "title": "Recombination Gap Value",
+          "type": "number"
+        },
+        "recombination_quotient_size": {
+          "minimum": 0,
+          "title": "Recombination Quotient Size",
+          "type": "integer"
+        },
+        "robustness_fraction": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Robustness Fraction"
+        },
+        "robustness_status": {
+          "$ref": "#/$defs/RobustnessStatus",
+          "default": "untested"
+        },
+        "robustness_summary": {
+          "$ref": "#/$defs/RobustnessSummary"
+        },
+        "route_audit": {
+          "$ref": "#/$defs/RouteAuditSummary"
+        },
+        "route_readability_score": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Route Readability Score",
+          "type": "number"
+        },
+        "run_id": {
+          "title": "Run Id",
+          "type": "string"
+        },
+        "runtime_seconds": {
+          "minimum": 0,
+          "title": "Runtime Seconds",
+          "type": "number"
+        },
+        "same_support_certificate": {
+          "$ref": "#/$defs/SameSupportCertificateSummary"
+        },
+        "same_support_status": {
+          "$ref": "#/$defs/AuditStatus"
+        },
+        "seed": {
+          "title": "Seed",
+          "type": "integer"
+        },
+        "unconditional_visibility": {
+          "minimum": 0,
+          "title": "Unconditional Visibility",
+          "type": "number"
+        }
+      },
+      "required": [
+        "run_id",
+        "benchmark_id",
+        "interface_id",
+        "seed",
+        "history_count",
+        "current_quotient_size",
+        "predictive_quotient_size",
+        "branch_assemblage_count",
+        "branchwise_quotient_size",
+        "recombination_quotient_size",
+        "eta_max_fiber_size",
+        "recombination_gap_metric_name",
+        "recombination_gap_value",
+        "route_readability_score",
+        "unconditional_visibility",
+        "conditional_visibility",
+        "same_support_status",
+        "factorization_status",
+        "internalization_status",
+        "flattening_status",
+        "erasure_status",
+        "class_label",
+        "runtime_seconds",
+        "same_support_certificate",
+        "factorization_certificate",
+        "route_audit",
+        "protocol_audit",
+        "flattening_audit",
+        "robustness_summary"
+      ],
+      "title": "RecombinationInterfaceResultRecord",
+      "type": "object"
+    },
+    "RecombinationResultManifestVersion": {
+      "enum": [
+        "recombination-result-manifest.v1"
+      ],
+      "title": "RecombinationResultManifestVersion",
+      "type": "string"
+    },
+    "RobustnessStatus": {
+      "enum": [
+        "untested",
+        "passed",
+        "failed",
+        "mixed"
+      ],
+      "title": "RobustnessStatus",
+      "type": "string"
+    },
+    "RobustnessSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "robustness_fraction": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Robustness Fraction"
+        },
+        "status": {
+          "$ref": "#/$defs/RobustnessStatus"
+        },
+        "threshold": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Threshold"
+        },
+        "trial_count": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Trial Count"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "RobustnessSummary",
+      "type": "object"
+    },
+    "RouteAuditSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "route_labels_erased": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route Labels Erased"
+        },
+        "route_labels_marked": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route Labels Marked"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "RouteAuditSummary",
+      "type": "object"
+    },
+    "SameSupportCertificateSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Ref"
+        },
+        "certificate_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Certificate Id"
+        },
+        "evidence_summary": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Summary",
+          "type": "array"
+        },
+        "failure_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Code"
+        },
+        "failure_detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Failure Detail"
+        },
+        "same_support_required": {
+          "default": true,
+          "title": "Same Support Required",
+          "type": "boolean"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_summary"
+      ],
+      "title": "SameSupportCertificateSummary",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_id": {
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "derived_note_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Derived Note Path"
+    },
+    "manifest_id": {
+      "title": "Manifest Id",
+      "type": "string"
+    },
+    "raw_artifact_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Raw Artifact Path"
+    },
+    "records": {
+      "items": {
+        "$ref": "#/$defs/RecombinationInterfaceResultRecord"
+      },
+      "minItems": 1,
+      "title": "Records",
+      "type": "array"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "$ref": "#/$defs/RecombinationResultManifestVersion",
+      "default": "recombination-result-manifest.v1"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    }
+  },
+  "required": [
+    "manifest_id",
+    "run_id",
+    "benchmark_id",
+    "records"
+  ],
+  "title": "RecombinationResultManifest",
+  "type": "object"
+}

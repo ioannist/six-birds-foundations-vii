@@ -1,0 +1,30 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[font=\footnotesize,>=Stealth,
+  state/.style={draw=gray,rounded corners=2pt,minimum width=1.25cm,minimum height=0.65cm,inner sep=2pt}]
+  \node at (3.05,0.15) {(a) One disabling guard};
+  \node[state] (ab) at (3.05,-1.0) {$\{a,b\}$};
+  \node[state] (onlyb) at (1.2,-2.55) {$\{b\}$};
+  \node[state] (onlya) at (4.9,-2.55) {$\{a\}$};
+  \node[state] (empty) at (4.9,-4.05) {$\varnothing$};
+  \draw[->] (ab) -- node[above left] {admit $a$} (onlyb);
+  \draw[->] (ab) -- node[above right] {admit $b$} (onlya);
+  \draw[->] (onlya) -- node[right] {admit $a$} (empty);
+  \node[below=3pt of onlyb] {terminal};
+  \node[below=3pt of empty] {terminal};
+  \draw[gray] (6.5,0.55) -- (6.5,-4.7);
+  \node at (9.8,0.15) {(b) Nonterminating relation};
+  \node[state] (b) at (8.45,-1.7) {$b$};
+  \node[state] (c) at (11.15,-1.7) {$c$};
+  \node[state] (a) at (7.75,-3.55) {$a$};
+  \node[state] (d) at (11.85,-3.55) {$d$};
+  \draw[->] (b) to[bend left=20] (c);
+  \draw[->] (c) to[bend left=20] (b);
+  \draw[->] (b) -- (a);
+  \draw[->] (c) -- (d);
+  \node[below=3pt of a] {normal};
+  \node[below=3pt of d] {normal};
+\end{tikzpicture}
+\caption{(a) Admitting $a$ from $\{a,b\}$ leaves terminal $\{b\}$, while admitting $b$ first leads to terminal $\varnothing$. (b) The steps $b\to a$, $b\to c$, $c\to b$, and $c\to d$, with normal states $a$ and $d$.}
+\label{fig:admission}
+\end{figure}

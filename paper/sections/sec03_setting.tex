@@ -1,0 +1,104 @@
+\section{Setting}
+\label{sec:setting}
+
+\subsection{Theories, regimes and audits}
+
+A \emph{theory package} in the sense of Foundations~I is a carrier together with a lens
+that fixes which distinctions are kept, a completion endomap whose fixed points are the
+package's objects, and an audit \citep{TsiokosFoundationsI}. The semantic results of
+\Cref{sec:strict-join,sec:admission} need much less: a carrier with an observable map, a
+join given by maps to the parents, and a step relation on states. The certificate
+language of \Cref{sec:certificates} records claims about packages without modelling their
+internal structure.
+
+An \emph{admissibility regime} is the declared standard against which an interaction is
+judged: which operations are lawful, which sources may be drawn on, which costs must be
+paid and what the audit must record. Every existence, obstruction and cost claim below is
+relative to a declared regime, and none transfers to another regime without a record of
+what the change preserves.
+
+An \emph{audit} is an append-only list of entries, each with a subject, a disposition and
+a source location. Append-only matters: a failed, revoked or withdrawn entry remains in
+the record, so a later reader can see that something was tried and refused.
+
+\subsection{Certificates and theorems}
+\label{sec:setting-kinds}
+
+The catalog's objects are \emph{certificates}: typed records with Boolean and data fields,
+usually with an audit. A certificate comes with a validity predicate, usually a conjunction saying
+that the right fields are set and, where the record has one, that the audit is non-empty. Many statements about
+certificates are therefore immediate: that a valid certificate has a given field set, that
+a credit whose definition requires a field is refused when the field is absent, or that a
+criterion is equivalent to the definition it restates. The supplement states what each of the
+catalog's 36 entries establishes (\Cref{supp:register}).
+
+\paragraph{Status by mathematics.} Each result has one of three statuses, decided by the
+mathematics.
+\begin{itemize}[nosep]
+  \item A \emph{theorem with an instance} is a general statement together with a concrete
+        system, written in this paper, in which its hypotheses are proved, so that the
+        conclusion is established for that system.
+  \item A \emph{general theorem} is a statement whose hypotheses are ordinary data that can
+        be checked system by system; where it has classical instances, they rest on
+        cited results.
+  \item A \emph{certificate specification} fixes what a record must contain and when it is
+        valid, together with the consequences and refusals that follow from that
+        definition. Like a template, it says nothing about a particular system until the
+        record's fields have been established for that system; establishing them is the
+        \emph{open obligation} of the specification.
+\end{itemize}
+Which results are also checked in Lean is a separate question, recorded in the last column
+of \Cref{tab:status} and in \Cref{sec:lean}. The instances in this paper are small finite
+models; no instance drawn from a particular scientific theory is carried out.
+
+{\footnotesize
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{4.0cm}@{}}
+\caption{The results by status.}\label{tab:status}\\
+\toprule
+\textbf{Result} & \textbf{Status} & \textbf{Instance or open obligation} & \textbf{Checked in Lean} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Result} & \textbf{Status} & \textbf{Instance or open obligation} & \textbf{Checked in Lean} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Split-pair criterion (\Cref{thm:split-criterion}) & general theorem & classical; the three-bit join (\Cref{ex:cube}) & the criterion and the finite scan \\
+Strictness by split pairs (\Cref{thm:strict-split}) & theorem with an instance & the three-bit join (\Cref{ex:cube}) & the general statement and the example; not the remark on $a\oplus b$ \\
+Refinement (\Cref{prop:refinement}, \Cref{rem:refinement-limit}) & general theorem & the identity refinement of the three-bit join shows the converse fails & both \\
+Cheap constructions (\Cref{prop:strict-not-cheap}) & general theorem & none needed & relabelling and coarsening \\
+Soundness of the strictness certificate (\Cref{thm:bridge}) & theorem with an instance & the three-bit join with $q=\langle p_A,p_B\rangle$ and $s=p_A$ & the general statement and the example \\
+Newman's lemma and unique normal forms (\Cref{thm:newman}, \Cref{cor:normal-forms}) & general theorem & classical; termination is needed (\Cref{ex:four-state}) & both, and the four-state example \\
+Finite decision (\Cref{prop:finite-peaks}) & general theorem & none needed & reachability, joinability and peak checks \\
+Admission order (\Cref{thm:admission}) & theorem with an instance & admission without constraints (\Cref{ex:free-admission}); one disabling guard lies outside the hypothesis (\Cref{ex:disabling}) & all four parts and both examples \\
+Enablement without descent (\Cref{prop:enablement-model}) & theorem with an instance & a three-state model & both parts and the positive criterion \\
+No free join (\Cref{prop:no-free-join}) & general theorem & a one-event example with the capability supplied & the exclusion and the example \\
+Selection (\Cref{prop:selection}) & general theorem & insertion is not a selection step & both parts \\
+Bounded search (\Cref{prop:search}) & general theorem & a two-component rendezvous threshold & all parts \\
+The 36 catalog entries (\Cref{sec:certificates,sec:separations}) & certificate specifications & open obligation: the record's fields, for each system; the instances are records of the reference world (\Cref{sec:ttw}); two entries are refuted proposals and two are deferred questions & the validity predicates and their consequences, and the finite assays by evaluation \\
+\end{longtable}
+}
+
+\paragraph{Standing hypotheses.}
+Throughout, all records are well typed and carry source locations; no undeclared
+operation, source or observer resource is used; and results from earlier papers enter
+only through recorded bridges, which name the source and target and the hypotheses kept,
+added and lost. These three hypotheses are stated once here and apply to every
+certificate statement below.
+
+\paragraph{Finite evidence.}
+Many entries are accompanied by an exhaustive enumeration over a declared finite carrier.
+Such an enumeration establishes the status of every case inside that carrier and nothing
+about cases outside it. Where a statement is universal, its warrant is the proof.
+
+\subsection{Notation}
+
+We write $\tjoinof{\mathcal T_1}{\mathcal T_2}{\mathcal R}$ for a join of theory packages
+$\mathcal T_1,\mathcal T_2$ under a regime~$\mathcal R$. The symbol $\tjoin$ distinguishes
+this object from Foundations~V's repair join $\repairjoin$, which is a total lattice
+operation on quotients of one carrier; a join of theories relates two packages, need not
+exist, and when it exists must be paid for. In \Cref{sec:strict-join} a join is modelled
+by a carrier $J$ with maps $p_A:J\to A$ and $p_B:J\to B$; we write
+$\langle p_A,p_B\rangle:J\to A\times B$ for their pairing. For a relation $\to$ on states,
+$\to^{*}$ is its reflexive and transitive closure.

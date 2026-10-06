@@ -1,0 +1,66 @@
+{
+  "all_claims_reconsidered": 21,
+  "anti_overread": [
+    "Section discusses what has been established and what remains outside the scope of the paper, and Section concludes.",
+    "A final scope boundary concerns the optional relative-route recombination benchmark.",
+    "Limitations and non-claims: Beyond the scope boundaries stated in Section , two further limitations deserve mention. The Lean formalization is intentionally partial: it covers the quotient comparison, predictive and mixed transport, the flatness characterization, sufficiency on the reachable image, witness/strict-refinement equivalence, representative-level loop asymmetry, and a finite non-vacuity instance, but does not yet formalize moved-class sets, cardinality-based nontriviality criteria, or richer action-level invariants. Those omissions do not undermine the present results, but they mark the current boundary of the formal development. The benchmark and discovery labels should also be read operationally rather than ontologically. In particular, coherent_candidate denotes a benchmark or discovered candidate that exhibits the loop asymmetry and witness structure targeted by the paper. It is not a claim that a stronger external state representation has been forced.",
+    "The paper does not claim to subsume those frameworks.",
+    "It does not assert generic current-quotient transport or a generic current-quotient loop action."
+  ],
+  "boundary_claim_ids": [
+    "P012-C0002",
+    "P012-C0015",
+    "P012-C0016",
+    "P012-C0017",
+    "P012-C0021"
+  ],
+  "candidate_ids": [
+    "VII-C016",
+    "VII-C026",
+    "VII-C018"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 21 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P012",
+  "reading_order": "30",
+  "relevant_claim_ids": [
+    "P012-C0001",
+    "P012-C0002",
+    "P012-C0003",
+    "P012-C0004",
+    "P012-C0005",
+    "P012-C0006",
+    "P012-C0007",
+    "P012-C0008",
+    "P012-C0009",
+    "P012-C0010",
+    "P012-C0011",
+    "P012-C0012",
+    "P012-C0013",
+    "P012-C0014",
+    "P012-C0015",
+    "P012-C0016",
+    "P012-C0017",
+    "P012-C0018",
+    "P012-C0019",
+    "P012-C0020",
+    "P012-C0021"
+  ],
+  "root_sha256": "ee3fbf0d9877dcb973cf205ebcebfb042a8649bbe1844656fe8389e2f762cf9d",
+  "source_path": "papers/Tsiokos_2026_Holonomy_with_Memory_in_Six_Birds_Theory_Predictive_Quotients_Witnesses_and_Fixed_Support_Route_Transport.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "18e9895892221759e6c8ea833681c31b8c63b7dc0e4a9a35431b3dd7bf1054e2",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Holonomy with Memory",
+  "top_convergence_groups": [
+    "CG11",
+    "CG12",
+    "CG18"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

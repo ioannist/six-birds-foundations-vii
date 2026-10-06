@@ -1,0 +1,110 @@
+{
+  "step": "gt1_substrate_quotients",
+  "carrier_id": "gt1_full_memory1_reactive_v1",
+  "status": "frozen_before_witness_search",
+  "design_rationale": {
+    "catalog": "Use the complete deterministic memory-1 reactive catalog over local last joint action so that the named classic strategies are not cherry-picked and all response rules of this declared type are included.",
+    "horizon_L": "L=6 leaves enough room for histories with the same current empirical stage signature but different transition evidence, while keeping exhaustive exact enumeration small enough to audit directly.",
+    "continuations": "Play-on continuations with tau in {1,2,3} are the gt1 non-intervention catalog. They expose short future predictive laws without importing intervention loops reserved for later steps.",
+    "prior": "The prior is uniform over ordered automaton pairs from the shared catalog. It is exact and symmetric across players.",
+    "payoff_lenses": "Pi_2 includes cumulative payoff pair for economic readability. At a fixed game and interface t, this payoff pair is a deterministic function of Pi_1's joint-action counts and the declared payoff table, so Pi_2 is recorded as redundant rather than claimed as a strict lens refinement."
+  },
+  "actions": ["C", "D"],
+  "joint_profiles": ["CC", "CD", "DC", "DD"],
+  "local_memory_profiles": ["CC", "CD", "DC", "DD"],
+  "stage_games": {
+    "pd": {
+      "label": "PrisonersDilemma",
+      "payoffs": {
+        "CC": ["3", "3"],
+        "CD": ["0", "5"],
+        "DC": ["5", "0"],
+        "DD": ["1", "1"]
+      }
+    },
+    "stag_hunt": {
+      "label": "StagHunt",
+      "payoffs": {
+        "CC": ["4", "4"],
+        "CD": ["0", "3"],
+        "DC": ["3", "0"],
+        "DD": ["2", "2"]
+      }
+    }
+  },
+  "automaton_catalog": {
+    "generation_rule": "All 2 * 2^4 deterministic memory-1 reactive strategies. A strategy has one initial action in {C,D} and one response action for each local profile (own_last_action, opponent_last_action) in {CC,CD,DC,DD}.",
+    "catalog_size": 32,
+    "deduplication_key": ["initial_action", "response_CC", "response_CD", "response_DC", "response_DD"],
+    "named_classics": {
+      "AllC": {
+        "initial_action": "C",
+        "responses": {"CC": "C", "CD": "C", "DC": "C", "DD": "C"}
+      },
+      "AllD": {
+        "initial_action": "D",
+        "responses": {"CC": "D", "CD": "D", "DC": "D", "DD": "D"}
+      },
+      "TFT": {
+        "initial_action": "C",
+        "responses": {"CC": "C", "CD": "D", "DC": "C", "DD": "D"}
+      },
+      "Grim": {
+        "initial_action": "C",
+        "responses": {"CC": "C", "CD": "D", "DC": "D", "DD": "D"}
+      },
+      "WSLS": {
+        "initial_action": "C",
+        "responses": {"CC": "C", "CD": "D", "DC": "D", "DD": "C"}
+      }
+    }
+  },
+  "history_interfaces": {
+    "prefix_lengths": [1, 2, 3, 4, 5, 6],
+    "history_definition": "A history at interface t is a generated joint-action prefix of length t from at least one ordered automaton pair under the declared initial condition."
+  },
+  "micro_state": {
+    "fields": ["player1_automaton", "player2_automaton", "last_joint_profile_or_initial_sentinel", "full_play_prefix"],
+    "note": "For memory-1 reactive rules, the automaton internal state needed for play-on is the last joint profile, while the full prefix is retained as the history object used for conditioning the prior."
+  },
+  "prior": {
+    "type": "uniform_ordered_catalog_product",
+    "weight_per_pair": "1/1024",
+    "probability_arithmetic": "fractions.Fraction"
+  },
+  "admissible_continuations": [
+    {"id": "play_on_tau_1", "type": "play_on", "tau": 1},
+    {"id": "play_on_tau_2", "type": "play_on", "tau": 2},
+    {"id": "play_on_tau_3", "type": "play_on", "tau": 3}
+  ],
+  "stage_lens_hierarchy": {
+    "Pi_0": "Current last-round joint action profile.",
+    "Pi_1": "Pi_0 plus exact running empirical distribution of joint action profiles over the prefix, represented by counts with denominator t.",
+    "Pi_2": "Pi_1 plus cumulative payoff pair under the declared stage-game payoff table."
+  },
+  "predictive_signature": {
+    "conditioning": "Uniform prior restricted to ordered automaton pairs whose generated prefix equals the history.",
+    "observable": "For lens Pi_k and play-on tau, the future observable is the sequence of Pi_k readouts at interfaces t+1 through t+tau.",
+    "equivalence": "Two histories are predictively equivalent exactly when these exact conditional distributions match for every declared play-on continuation."
+  },
+  "null_control": {
+    "carrier_id": "gt1_memory0_constant_control_v1",
+    "restriction": "Automaton catalog restricted to the constant strategies AllC and AllD.",
+    "lens": "Pi_0",
+    "interfaces": [1, 2, 3, 4, 5, 6],
+    "expected_result": "M_equals_Q"
+  },
+  "forbidden_overclaim_phrases": [
+    "unconditionally",
+    "for all games",
+    "all finite games",
+    "all repeated games",
+    "resolves equilibrium selection",
+    "solves the selection problem",
+    "proves the institution theorem",
+    "establishes T3 in full",
+    "human behavior",
+    "human subjects",
+    "Nobel"
+  ]
+}

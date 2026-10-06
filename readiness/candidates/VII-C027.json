@@ -1,0 +1,638 @@
+{
+  "candidate_id": "VII-C027",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG16"
+  ],
+  "countermodels": [
+    "CM-07",
+    "CM-24"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Enablement-chain composition law.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Enablement-chain composition law record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Enablement relations compose only when source types, execution witnesses, budgets, and residual obligations compose; chain order may carry holonomy or accumulated debt.",
+  "formalization_targets": [
+    "FT11",
+    "FT15"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Enablement relations compose only when source types, execution witnesses, budgets, and residual obligations compose; chain order may carry holonomy or accumulated debt.",
+  "kind": "CANDIDATE_THEOREM",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Enablement-chain composition law",
+  "nonclaims": [
+    "Enablement is not assumed transitive without hypotheses.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S17"
+  ],
+  "positive_model": [
+    "TTW-S16"
+  ],
+  "priority": "P2",
+  "proof_obligations": [
+    "Define composability and accumulated ledgers.",
+    "Prove a finite associative special case and non-associative control.",
+    "Separate composed enablement from transitive causation."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Enablement relations compose only when source types, execution witnesses, budgets, and residual obligations compose; chain order may carry holonomy or accumulated debt.",
+  "recommended_chapter": "Ch07",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P044-C0004",
+      "P044-C0018",
+      "P005-C0066",
+      "P056-C0007",
+      "P056-C0005",
+      "P056-C0004",
+      "P056-C0002",
+      "P055-C0039"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0050",
+      "BR-CITE-0134",
+      "BR-CITE-0014",
+      "BR-CITE-0015",
+      "BR-CITE-0016",
+      "BR-LAW-0001",
+      "BR-LAW-0002",
+      "BR-LAW-0003"
+    ],
+    "law_or_no_go_ids": [
+      "F13a",
+      "F13b",
+      "F42"
+    ],
+    "open_problem_ids": [
+      "P013-C0033",
+      "P005-C0057",
+      "P044-C0019",
+      "P056-C0009",
+      "P056-C0008"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P005-C0037",
+        "claim_type": "theorem",
+        "conclusion": "[S] Grade: theorem-grade finite instantiation of imported strict-refinement machinery. Scope: the declared branch family and interfaces. Binding is certified by strict refinement R_ rec K_ bw : two assemblages in one branchwise class and distinct recombination classes. On the exact carrier: the coupled regime has K_ bw blocks (2) and R_ rec blocks (1,1) with witness (bound-diagonal, bound-crossed); marking a branch-identifying observable collapses the partitions to exact equality ( R_ rec = K_ bw , both (1,1) ); erasure of the mark restores the original witness; and the aggregation control, in which no joint observable is ever declared, has R_ rec = K_ bw from the start (a never-coupled product, not a marked collapse). Nonclaim: no derivation of phenomenal unity or of what unity feels like, and no attention cost: the law contains no budget, price, or scheduling variable, so it establishes marking-collapse, not a priced attention mechanism.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P005-C0002",
+          "P005-C0004",
+          "P005-C0005",
+          "P005-C0006",
+          "P005-C0007",
+          "P005-C0008",
+          "P005-C0015",
+          "P005-C0017",
+          "P005-C0018",
+          "P005-C0019",
+          "P005-C0034",
+          "P005-C0041",
+          "P005-C0043",
+          "P005-C0045",
+          "P005-C0046",
+          "P005-C0048",
+          "P005-C0050",
+          "P005-C0058",
+          "P005-C0066"
+        ],
+        "normalized_claim": "Binding witness with marking and erasure; T7: [S] Grade: theorem-grade finite instantiation of imported strict-refinement machinery. Scope: the declared branch family and interfaces. Binding is certified by strict refinement R_ rec K_ bw : two assemblages in one branchwise class and distinct recombination classes. On the exact carrier: the coupled regime has K_ bw blocks (2) and R_ rec blocks (1,1) with witness (bound-diagonal, bound-crossed); marking a branch-identifying observable collapses the partitions to exact equality ( R_ rec = K_ bw , both (1,1) ); erasure of the mark restores the original witness; and the aggregation control, in which no joint observable is ever declared, has R_ rec = K_ bw from the start (a never-coupled product, not a marked collapse). Nonclaim: no derivation of phenomenal unity or of what unity feels like, and no attention cost: the law contains no budget, price, or scheduling variable, so it establishes marking-collapse, not a priced attention mechanism.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1225-L1240; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1225-L1240",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P005-C0038",
+        "claim_type": "theorem",
+        "conclusion": "[S] Grade: theorem-grade finite instantiation of imported clock and protocol criteria. Scope: the declared three-phase clock carrier and protocol family. The experienced-present proxy is the package's stabilized (order, tick, arrow) triple, with width the closure timescale tau . The single mechanism advance = b/(b+1) at budget b=2 gives exact progress 2/3 and tick rate 2/9 ; the funded nine-step trace has six advances, two completed wraps, and a monotone ledger with Delta A = 2 > 0 ; the unfunded control ( b=0 ) stalls exactly ( 0 progress, 0 ticks, constant trace, no arrow). No single global ``now'' is guaranteed across sub-closures: the noncommuting protocol pair (rotation, swap) has holonomy defect 1 and the commuting control ( R , R^2 ) defect 0 , so path-dependent local time translations admit no global potential. Finally, felt-flow candidates route through the audit channel, never through holonomy alone: the holonomy-without-drive control derives an unbiased audit support with equal products ( 3/1000 each way) and is classified blocked. Nonclaim: no universal specious-present width, no physical time or spacetime, and holonomy is never a directionality certificate.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P005-C0002",
+          "P005-C0004",
+          "P005-C0005",
+          "P005-C0006",
+          "P005-C0007",
+          "P005-C0008",
+          "P005-C0015",
+          "P005-C0017",
+          "P005-C0018",
+          "P005-C0019",
+          "P005-C0034",
+          "P005-C0041",
+          "P005-C0043",
+          "P005-C0045",
+          "P005-C0046",
+          "P005-C0048",
+          "P005-C0050",
+          "P005-C0058",
+          "P005-C0066"
+        ],
+        "normalized_claim": "Purchased clock and no unified now; T8: [S] Grade: theorem-grade finite instantiation of imported clock and protocol criteria. Scope: the declared three-phase clock carrier and protocol family. The experienced-present proxy is the package's stabilized (order, tick, arrow) triple, with width the closure timescale tau . The single mechanism advance = b/(b+1) at budget b=2 gives exact progress 2/3 and tick rate 2/9 ; the funded nine-step trace has six advances, two completed wraps, and a monotone ledger with Delta A = 2 > 0 ; the unfunded control ( b=0 ) stalls exactly ( 0 progress, 0 ticks, constant trace, no arrow). No single global ``now'' is guaranteed across sub-closures: the noncommuting protocol pair (rotation, swap) has holonomy defect 1 and the commuting control ( R , R^2 ) defect 0 , so path-dependent local time translations admit no global potential. Finally, felt-flow candidates route through the audit channel, never through holonomy alone: the holonomy-without-drive control derives an unbiased audit support with equal products ( 3/1000 each way) and is classified blocked. Nonclaim: no universal specious-present width, no physical time or spacetime, and holonomy is never a directionality certificate.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1248-L1266; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1248-L1266",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P005-C0016",
+        "claim_type": "definition",
+        "conclusion": "The full C-package C is the eight-clause full-design and audit contract C1 – C8 , together with cross-clause coherence data and a full promotion-gate panel. A candidate consists of a carrier X , declared transition/action families, a public lens and exposure channels, a predictive self-lens, branch structure, a maintenance ledger, and protocol generators; the clauses constrain that data as follows. A declared multiscale exposure-closure family with robust fixed-point structure: closure operators E_tau at declared stagings tau , exact fixed-point and defect bookkeeping, and perturbation audits with declared retention thresholds. A strict promoted distinction across declared layers: Delta_ fact (pi_0,pi_1)≠∅ for the declared lower and promoted readouts, certified by a split pair. A recursively stable self-coordinate: refinement of the public self-lens by dynamical profiles terminates at a predictive quotient that carries the package's own continuation coordinate. The determining predictive state is not exposed relative to the declared public channel family: no admissible current observable factors through it non-constantly on the realized support. Hiddenness is channel-relative by construction. A declared audit of action credit: generator provenance routes computed directionality into self, other, or none, with scheduled and internalized controls that must not be credited as self. A maintained, funded order/tick/arrow structure: a staged phase carrier that persists and progresses under budget, with the arrow carried by the package's own audit channel rather than by external scheduling. Strict recombination refinement over the branchwise quotient: joint content over declared branches, witnessed by R_ rec K_ bw (Section ). Nonempty maintained viability: K_ viab ≠∅ under the declared maintenance ledger, with underfunding collapsing the kernel.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P005-C0002",
+          "P005-C0004",
+          "P005-C0005",
+          "P005-C0006",
+          "P005-C0007",
+          "P005-C0008",
+          "P005-C0015",
+          "P005-C0017",
+          "P005-C0018",
+          "P005-C0019",
+          "P005-C0034",
+          "P005-C0041",
+          "P005-C0043",
+          "P005-C0045",
+          "P005-C0046",
+          "P005-C0048",
+          "P005-C0050",
+          "P005-C0058",
+          "P005-C0066"
+        ],
+        "normalized_claim": "Full C-package target: The full C-package C is the eight-clause full-design and audit contract C1 – C8 , together with cross-clause coherence data and a full promotion-gate panel. A candidate consists of a carrier X , declared transition/action families, a public lens and exposure channels, a predictive self-lens, branch structure, a maintenance ledger, and protocol generators; the clauses constrain that data as follows. A declared multiscale exposure-closure family with robust fixed-point structure: closure operators E_tau at declared stagings tau , exact fixed-point and defect bookkeeping, and perturbation audits with declared retention thresholds. A strict promoted distinction across declared layers: Delta_ fact (pi_0,pi_1)≠∅ for the declared lower and promoted readouts, certified by a split pair. A recursively stable self-coordinate: refinement of the public self-lens by dynamical profiles terminates at a predictive quotient that carries the package's own continuation coordinate. The determining predictive state is not exposed relative to the declared public channel family: no admissible current observable factors through it non-constantly on the realized support. Hiddenness is channel-relative by construction. A declared audit of action credit: generator provenance routes computed directionality into self, other, or none, with scheduled and internalized controls that must not be credited as self. A maintained, funded order/tick/arrow structure: a staged phase carrier that persists and progresses under budget, with the arrow carried by the package's own audit channel rather than by external scheduling. Strict recombination refinement over the branchwise quotient: joint content over declared branches, witnessed by R_ rec K_ bw (Section ). Nonempty maintained viability: K_ viab ≠∅ under the declared maintenance ledger, with underfunding collapsing the kernel.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L500-L538; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L500-L538",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P055-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "We present a reproducible computational framework for defining and measuring agency in finite controlled Markov kernels without assuming goals, utilities, or homunculi. The framework operationalizes three complementary metrics: (i) viability kernels (greatest controlled-invariant safe sets under ledger-gated feasibility and successor-support semantics), (ii) feasible empowerment (channel capacity of the induced action-to-output channel restricted by budgets), and (iii) an empirical packaging endomap whose idempotence defect quantifies objecthood for coarse lenses. Building on Six Birds Theory (SBT, ), we propose that an agent is a theory object—a maintained package inside an induced layer with a ledger-gated interface—and we separate agenthood (enablement: the layer exists and persists) from agency (causation: interface interventions change outside futures). Throughout, ``theory'' is used in the SBT technical sense—a closure (lens + completion + audit)—not as a speculative hypothesis or manuscript-type category. Across matched-control ablations in a minimal ring-world substrate, we obtain four auditable separations: (1) calibrated null regimes prevent false positives (single-action: 0-bit empowerment; schedule trap: 1 bit under the wrong model, 0 under the correct one); (2) enabling repair collapses idempotence defect at =2 from 1 to 0; (3) enabling protocol holonomy leaves H=1 unchanged but increases empowerment for H 2 ; and (4) operator rewriting (skill ) monotonically increases median empowerment ( 0.73 1.34 bits). All experiments are driven by deterministic, hash-traceable scripts with a strict audit mode, and a Lean 4 anchor formalizes the viability-kernel fixed-point property. We are explicit that stronger claims about goals, consciousness, or real organisms are not established here; our conclusions rely on finite witnesses and operational proxies under explicit controls.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P055-C0002",
+          "P055-C0039"
+        ],
+        "normalized_claim": "We present a reproducible computational framework for defining and measuring agency in finite controlled Markov kernels without assuming goals, utilities, or homunculi. The framework operationalizes three complementary metrics: (i) viability kernels (greatest controlled-invariant safe sets under ledger-gated feasibility and successor-support semantics), (ii) feasible empowerment (channel capacity of the induced action-to-output channel restricted by budgets), and (iii) an empirical packaging endomap whose idempotence defect quantifies objecthood for coarse lenses. Building on Six Birds Theory (SBT, ), we propose that an agent is a theory object—a maintained package inside an induced layer with a ledger-gated interface—and we separate agenthood (enablement: the layer exists and persists) from agency (causation: interface interventions change outside futures). Throughout, ``theory'' is used in the SBT technical sense—a closure (lens + completion + audit)—not as a speculative hypothesis or manuscript-type category. Across matched-control ablations in a minimal ring-world substrate, we obtain four auditable separations: (1) calibrated null regimes prevent false positives (single-action: 0-bit empowerment; schedule trap: 1 bit under the wrong model, 0 under the correct one); (2) enabling repair collapses idempotence defect at =2 from 1 to 0; (3) enabling protocol holonomy leaves H=1 unchanged but increases empowerment for H 2 ; and (4) operator rewriting (skill ) monotonically increases median empowerment ( 0.73 1.34 bits). All experiments are driven by deterministic, hash-traceable scripts with a strict audit mode, and a Lean 4 anchor formalizes the viability-kernel fixed-point property. We are explicit that stronger claims about goals, consciousness, or real organisms are not established here; our conclusions rely on finite witnesses and operational proxies under explicit controls.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L58-L60; derived/expanded/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L58-L60",
+        "source_paper": "P055",
+        "source_title": "On Agents and Agenthood",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P005-C0059",
+        "claim_type": "result_summary",
+        "conclusion": "Each import is used under its own hypotheses; analogy is never theorem transport. The table names the source engine, the imported object, and the consuming law. p 0.23 p 0.42 p 0.24 →prule Source (corpus paper) Imported object Used by Foundations I counting lemma ( 2^K of 2^N predicates definable; strict-extension corollary) T1 genericity framing Foundations II channel-vs-activation discipline; recognition-hypothesis threat T1b recognition audit Foundations III nonfactorization dichotomy (Thms 12/13); promotion-gate soundness (Thm 19); strict promotion implies nonfactorization (Thm 20); no-overreading (Thm 23); same-level self-audit failure (Thm 24); finite rotating audit (Thm 25); gate/status vocabulary T3, T5, T6, T9, T16, T17-S ledger Foundations IV hiddenness normal form (F13a) and formed-closure law (F13b), substrate-pending/obligation grades; irreducibility as no-shorter-closed-description (F42) T2 framing, T3 Hiddenness paper (HIDD) core structural law (dissolution/preservation/degenerate/strength-independence); exposure predicate T2, T17-S C4 Route-transport paper (HOLMEM) Q / M quotients, comparison map, predictive transport, loop asymmetry, reachable-image factorization T1, T13, T14, T18e Recombination paper (MER) branchwise/recombination quotients K_ bw , R_ rec , forgetful map , strict-refinement witness criterion T7, T15, T17-S C7 Protocol-trap paper (PTRAP) autonomous two-component lift; zero-EPR trap; arrow decomposition T5 authorship, T8 Closure-deficit paper (CAST) closure deficit CD_tau ; budgeted randomness curve T5 residue Time paper (NOTCH) order/tick/arrow triple; purchased clock; anti-stall metrics; no-global-time holonomy; enablement- vs causation-time T8, T18a/b Geometry paper (PLOT) induced macro kernel P = U P^tau C ; path-cost metric; coherence audits T12 Currency paper (SPEND) currency roles; shadow-price duality; proxy discipline T11 Agents paper (THROW) viability kernel as greatest fixed point; agenthood/agency firewall; empowerment nulls T1, T10, T11, T14 Usefulness paper (WMEW) audited-utility certificate soundness: an accepted certificate licenses the audited lower answer, never literalization of the hidden object T9, T3 Quantum paper (QSB) empirical-indiscernibility principle; Leibniz-quotient factorization T4a, T13 No-go paper (NOGO) deterministic data-processing inequality for arrow audits (no fake arrow by coarse observation) T5, T8 nulls Reflexive paper (REFLEX) reflexive audit of packaging artifacts; open capacity-contraction conjecture (F3) T6 boundary Anti-reductionism primer no-shortcut law; within/between-layer discipline; factorization error T3, T5(vi), T16",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P005-C0002",
+          "P005-C0004",
+          "P005-C0005",
+          "P005-C0006",
+          "P005-C0007",
+          "P005-C0008",
+          "P005-C0015",
+          "P005-C0017",
+          "P005-C0018",
+          "P005-C0019",
+          "P005-C0034",
+          "P005-C0041",
+          "P005-C0043",
+          "P005-C0045",
+          "P005-C0046",
+          "P005-C0048",
+          "P005-C0050",
+          "P005-C0058",
+          "P005-C0066"
+        ],
+        "normalized_claim": "Imported theorem map: Each import is used under its own hypotheses; analogy is never theorem transport. The table names the source engine, the imported object, and the consuming law. p 0.23 p 0.42 p 0.24 →prule Source (corpus paper) Imported object Used by Foundations I counting lemma ( 2^K of 2^N predicates definable; strict-extension corollary) T1 genericity framing Foundations II channel-vs-activation discipline; recognition-hypothesis threat T1b recognition audit Foundations III nonfactorization dichotomy (Thms 12/13); promotion-gate soundness (Thm 19); strict promotion implies nonfactorization (Thm 20); no-overreading (Thm 23); same-level self-audit failure (Thm 24); finite rotating audit (Thm 25); gate/status vocabulary T3, T5, T6, T9, T16, T17-S ledger Foundations IV hiddenness normal form (F13a) and formed-closure law (F13b), substrate-pending/obligation grades; irreducibility as no-shorter-closed-description (F42) T2 framing, T3 Hiddenness paper (HIDD) core structural law (dissolution/preservation/degenerate/strength-independence); exposure predicate T2, T17-S C4 Route-transport paper (HOLMEM) Q / M quotients, comparison map, predictive transport, loop asymmetry, reachable-image factorization T1, T13, T14, T18e Recombination paper (MER) branchwise/recombination quotients K_ bw , R_ rec , forgetful map , strict-refinement witness criterion T7, T15, T17-S C7 Protocol-trap paper (PTRAP) autonomous two-component lift; zero-EPR trap; arrow decomposition T5 authorship, T8 Closure-deficit paper (CAST) closure deficit CD_tau ; budgeted randomness curve T5 residue Time paper (NOTCH) order/tick/arrow triple; purchased clock; anti-stall metrics; no-global-time holonomy; enablement- vs causation-time T8, T18a/b Geometry paper (PLOT) induced macro kernel P = U P^tau C ; path-cost metric; coherence audits T12 Currency paper (SPEND) currency roles; shadow-price duality; proxy discipline T11 Agents paper (THROW) viability kernel as greatest fixed point; agenthood/agency firewall; empowerment nulls T1, T10, T11, T14 Usefulness paper (WMEW) audited-utility certificate soundness: an accepted certificate licenses the audited lower answer, never literalization of the hidden object T9, T3 Quantum paper (QSB) empirical-indiscernibility principle; Leibniz-quotient factorization T4a, T13 No-go paper (NOGO) deterministic data-processing inequality for arrow audits (no fake arrow by coarse observation) T5, T8 nulls Reflexive paper (REFLEX) reflexive audit of packaging artifacts; open capacity-contraction conjecture (F3) T6 boundary Anti-reductionism primer no-shortcut law; within/between-layer discipline; factorization error T3, T5(vi), T16",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L2108-L2148; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L2108-L2148",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P055-C0033",
+        "claim_type": "result_summary",
+        "conclusion": "Figure shows the median feasible empowerment (bits) as a function of horizon H . At H=1 , the curves coincide. This is expected: a single step cannot exploit protocol holonomy because there is no order-of-composition effect in a one-element sequence. Formally, the channel inputs are single actions, so any holonomy that arises from noncommuting compositions is invisible.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P055-C0002",
+          "P055-C0039"
+        ],
+        "normalized_claim": "Result: equality at H=1 , divergence for H 2: Figure shows the median feasible empowerment (bits) as a function of horizon H . At H=1 , the curves coincide. This is expected: a single step cannot exploit protocol holonomy because there is no order-of-composition effect in a one-element sequence. Formally, the channel inputs are single actions, so any holonomy that arises from noncommuting compositions is invisible.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L439-L466; derived/expanded/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L439-L466",
+        "source_paper": "P055",
+        "source_title": "On Agents and Agenthood",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P013-C0009",
+        "claim_type": "proposition",
+        "conclusion": "H(Y^+_ t,tau X_t)=0 and CD Pi tau =H(Y^+_ t,tau Y_t^Pi)",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "On the declared carrier, the ordered rule pair and current public history determine all future play under the declared continuations"
+          }
+        ],
+        "nonclaims": [
+          "P013-C0002",
+          "P013-C0003",
+          "P013-C0016",
+          "P013-C0029",
+          "P013-C0031",
+          "P013-C0038",
+          "P013-C0039"
+        ],
+        "normalized_claim": "Deterministic-substrate identity: On the declared carrier, the ordered rule pair and current public history determine all future play under the declared continuations. Hence H(Y^+_ t,tau X_t)=0 and CD Pi tau =H(Y^+_ t,tau Y_t^Pi).",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L683-L692; derived/expanded/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L683-L692",
+        "source_paper": "P013",
+        "source_title": "Institutions Are Strict Extensions of the Game",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P013-C0022",
+        "claim_type": "proposition",
+        "conclusion": "Along the declared one-parameter path of coordination games crossing the self-dual point, exact carrier computations give a sign-switching selector: one convention is selected on one side of the payoff asymmetry, the other convention is selected on the other side, and no convention is selected at the self-dual point.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P013-C0002",
+          "P013-C0003",
+          "P013-C0016",
+          "P013-C0029",
+          "P013-C0031",
+          "P013-C0038",
+          "P013-C0039"
+        ],
+        "normalized_claim": "Same-layer selection away from self-duality: Along the declared one-parameter path of coordination games crossing the self-dual point, exact carrier computations give a sign-switching selector: one convention is selected on one side of the payoff asymmetry, the other convention is selected on the other side, and no convention is selected at the self-dual point.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L1026-L1033; derived/expanded/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L1026-L1033",
+        "source_paper": "P013",
+        "source_title": "Institutions Are Strict Extensions of the Game",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P013-C0010",
+        "claim_type": "proposition",
+        "conclusion": "Let K^ be the closed base law, the best autonomous stage-vocabulary kernel P(Y^+_ t,tau Y_t^Pi) , and let the canonical institution M refine the stage package. On the declared carrier, CD Pi tau =Gap Pi tau +ResidualEnt Pi tau , where Gap Pi tau = E is the expected Kullback–Leibler gain obtained by conditioning on the institution, and ResidualEnt Pi tau =H(Y^+_ t,tau M) is the residual future uncertainty left after conditioning on the institution.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P013-C0002",
+          "P013-C0003",
+          "P013-C0016",
+          "P013-C0029",
+          "P013-C0031",
+          "P013-C0038",
+          "P013-C0039"
+        ],
+        "normalized_claim": "Exact gap–residual decomposition: Let K^ be the closed base law, the best autonomous stage-vocabulary kernel P(Y^+_ t,tau Y_t^Pi) , and let the canonical institution M refine the stage package. On the declared carrier, CD Pi tau =Gap Pi tau +ResidualEnt Pi tau , where Gap Pi tau = E is the expected Kullback–Leibler gain obtained by conditioning on the institution, and ResidualEnt Pi tau =H(Y^+_ t,tau M) is the residual future uncertainty left after conditioning on the institution.",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L701-L725; derived/expanded/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L701-L725",
+        "source_paper": "P013",
+        "source_title": "Institutions Are Strict Extensions of the Game",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P044-C0022",
+        "claim_type": "definition",
+        "conclusion": "Given a layer Tlayer i and a declared lookahead tau , the closure-deficit statistic CD_ tau is the conditional-information residual measuring how much next- tau -token structure on Xspace i remains unresolved by the quotient map i . Schematically, for an observed current microstate X_0 and a future window X_ >0, tau , CD_ tau H (X_ >0, tau i (X_0) ) - H (X_ >0, tau X_0 ). Thus CD_ tau is the conditional-entropy gap between prediction from the layer quotient and prediction from the raw microstate, restricted to the declared lookahead window. The runtime estimates this quantity from finite samples and reports estimator-quality flags alongside the value .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P044-C0002",
+          "P044-C0004",
+          "P044-C0005",
+          "P044-C0006",
+          "P044-C0007",
+          "P044-C0014",
+          "P044-C0016",
+          "P044-C0018"
+        ],
+        "normalized_claim": "Closure-deficit statistic: Given a layer Tlayer i and a declared lookahead tau , the closure-deficit statistic CD_ tau is the conditional-information residual measuring how much next- tau -token structure on Xspace i remains unresolved by the quotient map i . Schematically, for an observed current microstate X_0 and a future window X_ >0, tau , CD_ tau H (X_ >0, tau i (X_0) ) - H (X_ >0, tau X_0 ). Thus CD_ tau is the conditional-entropy gap between prediction from the layer quotient and prediction from the raw microstate, restricted to the declared lookahead window. The runtime estimates this quantity from finite samples and reports estimator-quality flags alongside the value .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L285-L295; derived/expanded/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L285-L295",
+        "source_paper": "P044",
+        "source_title": "Language Theory Models",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P044-C0004",
+        "claim_type": "nonclaim",
+        "conclusion": "Its primitive objects are typed audited layers, explicit quotient maps, audit and nonclaim records, and promotion gates that determine whether a proposed extension can be claimed . In ML terms, the calculus specifies what counts as evidence, what must be logged, what must remain a nonclaim, and when a gate panel may certify that a candidate layer strictly refines the current quotient",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Its primitive objects are typed audited layers, explicit quotient maps, audit and nonclaim records, and promotion gates that determine whether a proposed extension can be claimed . In ML terms, the calculus specifies what counts as evidence, what must be logged, what must remain a nonclaim, and when a gate panel may certify that a candidate layer strictly refines the current quotient",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L70; derived/expanded/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L70",
+        "source_paper": "P044",
+        "source_title": "Language Theory Models",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P044-C0018",
+        "claim_type": "scope_boundary",
+        "conclusion": "The runtime models a frozen-parent regime: parent layers are committed once and not subsequently updated, and bidirectional inter-layer substrate flow is not modelled. Both halves are deferred to future work as a joint pair, because unfreezing parents without bidirectional flow models a half-loop no published characterization covers, with the underlying causation/enablement distinction following ; records the literal nonclaims and the maintenance-loop rationale. The runtime also relies on bounded-precision thresholds and a small set of finite hyperparameters (cadence, persistence streak, canonicalisation iteration cap), each reported as a runtime approximation in . The concrete trigger for reopening the deferred work would be persistent stagnation at intermediate chain depths despite long horizons and sustained pressure-source diversity; the locked run does not show this signal.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Discussion and Limitations: The runtime models a frozen-parent regime: parent layers are committed once and not subsequently updated, and bidirectional inter-layer substrate flow is not modelled. Both halves are deferred to future work as a joint pair, because unfreezing parents without bidirectional flow models a half-loop no published characterization covers, with the underlying causation/enablement distinction following ; records the literal nonclaims and the maintenance-loop rationale. The runtime also relies on bounded-precision thresholds and a small set of finite hyperparameters (cadence, persistence streak, canonicalisation iteration cap), each reported as a runtime approximation in . The concrete trigger for reopening the deferred work would be persistent stagnation at intermediate chain depths despite long horizons and sustained pressure-source diversity; the locked run does not show this signal.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L257-L260; derived/expanded/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L257-L260",
+        "source_paper": "P044",
+        "source_title": "Language Theory Models",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P005-C0066",
+        "claim_type": "scope_boundary",
+        "conclusion": "Trusted, inherited: vendored foundations Lean modules and their opacity-guarded axioms (Appendix ); the Lean toolchain; the Python interpreter and pytest. Known limitations, reported rather than resolved: the Lean manifest-level validator currently parses zero inventory/manifest rows due to a schema mismatch and must not be cited as catalog-wide mechanization evidence (release blocker); no immutable public artifact DOI or frozen release tag exists yet; release scaffolding (top-level README, license, citation file, dependency lock, one-command validation) is incomplete; continuous integration does not yet run the T17 audits or paper compilation; and the local audit ran on Python 3.10 while the package declares 3.11+ (to be repeated on a supported version at release). Prediction files entered version control in the same commits as implementations and are not preregistration evidence.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Trust base and known limitations: Trusted, inherited: vendored foundations Lean modules and their opacity-guarded axioms (Appendix ); the Lean toolchain; the Python interpreter and pytest. Known limitations, reported rather than resolved: the Lean manifest-level validator currently parses zero inventory/manifest rows due to a schema mismatch and must not be cited as catalog-wide mechanization evidence (release blocker); no immutable public artifact DOI or frozen release tag exists yet; release scaffolding (top-level README, license, citation file, dependency lock, one-command validation) is incomplete; continuous integration does not yet run the T17 audits or paper compilation; and the local audit ran on Python 3.10 while the package declares 3.11+ (to be repeated on a supported version at release). Prediction files entered version control in the same commits as implementations and are not preregistration evidence.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L2628-L2644; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L2628-L2644",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P056-C0007",
+        "claim_type": "nonclaim",
+        "conclusion": "a strict extension is licensed.'' A black hole's interior, read this way, is a nonclaim boundary drawn by nature.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "a strict extension is licensed.'' A black hole's interior, read this way, is a nonclaim boundary drawn by nature.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L367; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L367",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P056-C0005",
+        "claim_type": "nonclaim",
+        "conclusion": "The corpus does not derive physical spacetime, does not resolve the foundations of relativity, and does not claim its constructed times are the physicist's coordinate.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The corpus does not derive physical spacetime, does not resolve the foundations of relativity, and does not claim its constructed times are the physicist's coordinate.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L191; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L191",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P056-C0004",
+        "claim_type": "scope_boundary",
+        "conclusion": "Enumerating nearly twelve thousand chiral gauge structures token-blind, the closure chain forces a thin skeleton: the Standard Model's gauge algebra (conditional on one separation condition), ^2 _W = 3/8 at the embedding point, exact proton stability.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Enumerating nearly twelve thousand chiral gauge structures token-blind, the closure chain forces a thin skeleton: the Standard Model's gauge algebra (conditional on one separation condition), ^2 _W = 3/8 at the embedding point, exact proton stability.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L169; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L169",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P056-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "Load-bearing chapters end with a paragraph of nonclaims: things the chapter deliberately does not assert.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Load-bearing chapters end with a paragraph of nonclaims: things the chapter deliberately does not assert.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L91; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L91",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P055-C0039",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim thermodynamic optimality or a specific physical interpretation here",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim thermodynamic optimality or a specific physical interpretation here",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L705-L706; derived/expanded/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex:L705-L706",
+        "source_paper": "P055",
+        "source_title": "On Agents and Agenthood",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P013-C0033",
+        "claim_type": "open_problem",
+        "conclusion": "The most direct next construction is a within-agent learning or acquisition carrier, in which the individual agent is treated as a carrier object in the sense of the Six Birds treatment of agency . The failed crystallization bridge in shows that experience-as-composition selection makes the finite carrier more homogeneous and more stage-predictable, whereas the data show history-dependence growing with experience. A carrier in which individual agents acquire conditional rules over their own histories would test the mechanism that this contrast leaves open. A second direction is a broader family of noisy and dissipative carriers, to map route memory beyond the tested noise grid and to learn when currentizable traces become genuinely coherent. A third is to enlarge the strategic and payoff substrate: richer automata, larger action spaces, asymmetric games, and longer public signals would test which carrier facts persist and which are artifacts of the minimal catalog. The run layer also invites a bounded-rationality connection. The imitation dynamics used here contain a logit-style temperature parameter; in a maximum-entropy or shadow-price reading, such a parameter can be interpreted as the dual of a binding cognitive or informational budget rather than a free behavioral knob . That connection is only an opening in this paper, but it suggests how run-only constants might be tied to explicit resource constraints. On the empirical side, the immediate extension is broader pre-registered testing of the residue hypothesis and the timing reversal on other repeated-game datasets, with the same discipline: hypotheses, predictors, bands, folds, and amendments fixed before outcome analysis.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Outlook.: The most direct next construction is a within-agent learning or acquisition carrier, in which the individual agent is treated as a carrier object in the sense of the Six Birds treatment of agency . The failed crystallization bridge in shows that experience-as-composition selection makes the finite carrier more homogeneous and more stage-predictable, whereas the data show history-dependence growing with experience. A carrier in which individual agents acquire conditional rules over their own histories would test the mechanism that this contrast leaves open. A second direction is a broader family of noisy and dissipative carriers, to map route memory beyond the tested noise grid and to learn when currentizable traces become genuinely coherent. A third is to enlarge the strategic and payoff substrate: richer automata, larger action spaces, asymmetric games, and longer public signals would test which carrier facts persist and which are artifacts of the minimal catalog. The run layer also invites a bounded-rationality connection. The imitation dynamics used here contain a logit-style temperature parameter; in a maximum-entropy or shadow-price reading, such a parameter can be interpreted as the dual of a binding cognitive or informational budget rather than a free behavioral knob . That connection is only an opening in this paper, but it suggests how run-only constants might be tied to explicit resource constraints. On the empirical side, the immediate extension is broader pre-registered testing of the residue hypothesis and the timing reversal on other repeated-game datasets, with the same discipline: hypotheses, predictors, bands, folds, and amendments fixed before outcome analysis.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L1464-L1497; derived/expanded/Tsiokos_2026_Institutions_Are_Strict_Extensions_of_the_Game.tex:L1464-L1497",
+        "source_paper": "P013",
+        "source_title": "Institutions Are Strict Extensions of the Game",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P005-C0057",
+        "claim_type": "open_problem",
+        "conclusion": "These are obligations for future work, not results, and the rows are illustrative targets: every field must be frozen prospectively before any data contact.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "These are obligations for future work, not results, and the rows are illustrative targets: every field must be frozen prospectively before any data contact.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1774-L1795; derived/expanded/Tsiokos_2026_An_Audited_Closure_Architecture_for_Consciousness_Exact_Finite_Models_Structural_Theorems_and_Conditional_Realization.tex:L1774-L1795",
+        "source_paper": "P005",
+        "source_title": "An Audited Closure Architecture for Consciousness",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P044-C0019",
+        "claim_type": "open_problem",
+        "conclusion": "Both halves are deferred to future work as a joint pair, because unfreezing parents without bidirectional flow models a half-loop no published characterization covers, with the underlying causation/enablement distinction following",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Both halves are deferred to future work as a joint pair, because unfreezing parents without bidirectional flow models a half-loop no published characterization covers, with the underlying causation/enablement distinction following",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L259-L260; derived/expanded/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex:L259-L260",
+        "source_paper": "P044",
+        "source_title": "Language Theory Models",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P056-C0009",
+        "claim_type": "open_problem",
+        "conclusion": "What happens to a civilization after the crossing is an open question, the ninth of this book, and we will not pretend to close it.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "What happens to a civilization after the crossing is an open question, the ninth of this book, and we will not pretend to close it.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L407; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L407",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C027",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P056-C0008",
+        "claim_type": "open_problem",
+        "conclusion": "Read philosophically: why is there something rather than nothing is, in this grammar, a well-typed open problem.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Read philosophically: why is there something rather than nothing is, in this grammar, a well-typed open problem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L387; derived/expanded/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex:L387",
+        "source_paper": "P056",
+        "source_title": "Reality as Closure",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P005-C0037",
+      "P005-C0038",
+      "P005-C0016",
+      "P055-C0001",
+      "P005-C0059",
+      "P055-C0033",
+      "P013-C0009",
+      "P013-C0022",
+      "P013-C0010",
+      "P044-C0022"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O16"
+  ],
+  "wishlist_atoms": [
+    "CLD-C4"
+  ]
+}

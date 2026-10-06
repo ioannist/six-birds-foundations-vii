@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Global bounded-carrier census. Finite evidence is exhaustive only over these carriers.}
+\label{tab:E4_finite_census}
+\begin{tabular}{lr}
+\toprule
+\textbf{Carrier partition} & \textbf{Cases} \\
+\midrule
+Raw & 86912 \\
+Canonical & 84864 \\
+Accepted & 21081 \\
+Rejected & 63783 \\
+\bottomrule
+\end{tabular}
+\end{table}

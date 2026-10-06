@@ -1,0 +1,47 @@
+{
+  "admit_tokens": 0,
+  "axiom_declarations": 1,
+  "declaration_kinds": {
+    "abbrev": 27,
+    "axiom": 1,
+    "def": 507,
+    "inductive": 52,
+    "opaque": 5,
+    "structure": 49,
+    "theorem": 465
+  },
+  "foundations_iv_law_modules": 14,
+  "foundations_v_authored_declarations": 1261,
+  "foundations_v_authored_modules": 22,
+  "foundations_v_authored_theorems": 187,
+  "foundations_v_completed_manifest_rows": 1261,
+  "foundations_v_e_laws_in_shared_module": 2,
+  "foundations_v_e_laws_locally_covered": 16,
+  "foundations_v_e_laws_with_dedicated_modules": 14,
+  "foundations_v_total_lean_declarations_in_its_archive": 1758,
+  "foundations_v_total_lean_modules_in_its_archive": 70,
+  "foundations_v_upstream_manifest_rows": 1141,
+  "foundations_v_upstream_root_missing_modules": [
+    "SixBirdsFoundationsV.Laws.E16Adaptability"
+  ],
+  "foundations_vi_g_laws": 13,
+  "lean_files": 74,
+  "lean_import_edges": 125,
+  "lean_modules": 74,
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "lexically_indexed_declarations": 1106,
+  "module_layers": {
+    "FOUNDATIONS_II": 10,
+    "FOUNDATIONS_III": 24,
+    "FOUNDATIONS_IV": 14,
+    "FOUNDATIONS_I_CLOSURE": 5,
+    "FOUNDATIONS_I_COMPAT": 1,
+    "FOUNDATIONS_VI": 14,
+    "SHARED_META_MATH": 6
+  },
+  "opaque_declarations": 5,
+  "python_source_files": 70,
+  "python_test_files": 15,
+  "sorry_tokens": 0,
+  "unresolved_imports": 0
+}

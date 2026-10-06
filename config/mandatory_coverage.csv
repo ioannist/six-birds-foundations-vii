@@ -1,0 +1,8 @@
+coverage_class,expected_count,completion_rule
+papers,58,"One stable paper ID, immutable source path and checksum per root document."
+wishlists,4,Every request decomposed into atomic desiderata and adjudicated.
+primitive_roles,6,"P1–P6 definitions, typing, active/inactive status, and prohibited collapses."
+F_series_laws,52,"Complete Foundations IV registry with setup, hypotheses, status, bridge and nonclaims."
+E_series_laws,16,Complete Foundations V endogenous-law registry.
+G_series_laws,13,Complete Foundations VI dynamical-law registry.
+existing_no_go_theorems,8,"Exact carrier, theorem hypotheses, conclusion, proof status and escape routes."

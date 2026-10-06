@@ -1,0 +1,48 @@
+{
+  "all_claims_reconsidered": 9,
+  "anti_overread": [
+    "the paper does not claim a universal cross-domain cost unit."
+  ],
+  "boundary_claim_ids": [
+    "P043-C0007"
+  ],
+  "candidate_ids": [
+    "VII-C012",
+    "VII-C013",
+    "VII-C034",
+    "VII-C014"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 9 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P043-C0009"
+  ],
+  "paper_id": "P043",
+  "reading_order": "37",
+  "relevant_claim_ids": [
+    "P043-C0001",
+    "P043-C0002",
+    "P043-C0003",
+    "P043-C0004",
+    "P043-C0005",
+    "P043-C0006",
+    "P043-C0007",
+    "P043-C0008",
+    "P043-C0009"
+  ],
+  "root_sha256": "f4f0ffa662ad294323f459123544a099e2bd9df140d8ee331518f303a90e57ca",
+  "source_path": "papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "0dbfc2f8c055f0c9319c5319214529091603108fc2483c82076fee63b634ac43",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Emergence Phase Diagrams in Control Space",
+  "top_convergence_groups": [
+    "CG14",
+    "CG15"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

@@ -1,0 +1,30 @@
+Foundations VII Step 1 validation
+======================================
+PASS  required-artifacts: 38 present
+PASS  paper-manifest: 58 unique roots P001–P058
+PASS  cluster-partition: A_CANONICAL_SPINE=7, B_VII_NEAR_INTERACTION_ACCESS=24, C_PHILOSOPHY_METATHEORY=9, D_COGNITION_SOCIAL=4, E_DOMAIN_PRESSURE_TESTS=14
+PASS  coverage-state: 20 DEEP_READ + 38 SURVEYED
+PASS  survey-cards: 58 source-located cards with required sections
+PASS  deep-reads: 20 expected foundational/philosophy/cognition notes
+PASS  registry/primitive_roles.csv: 6 unique rows
+PASS  registry/F_laws.csv: 52 unique rows
+PASS  registry/E_laws.csv: 16 unique rows
+PASS  registry/G_laws.csv: 13 unique rows
+PASS  registry/no_go_theorems.csv: 8 unique rows
+PASS  F-identifiers: source numbering and split identifiers preserved
+PASS  primitive-role-ruling: Foundations-II typing + P3/P6-drive separation present
+PASS  wishlist-atoms: 130 atoms; all four lists and seven fronts covered
+PASS  wishlist-convergence: 130 atoms preserved across 30 provisional merge groups
+PASS  version-family: P040/P058 retained as one unresolved evidence family
+PASS  source-exceptions: P020 recovered; P039 18-file full-text block exposed
+PASS  source-freeze: 85 source files verify against SHA-256 ledger
+PASS  source-archive-provenance: repository-local archive checksum path and digest verify
+PASS  concept-graph: GraphML parses
+PASS  canonical-synthesis: three certificates, typed roles, no-gos, and VII red lines present
+PASS  correction-ledger: 7 controlled rulings/ambiguities
+PASS  canonical-glossary: 44 unique terms with status and noncollapse boundaries
+PASS  root-report: delivery tag, completion posture, and source limitation recorded
+PASS  step1-metrics: machine-readable delivery metrics are consistent
+PASS  dependency-closure: 58 recorded source trees; every recorded file exists
+
+VALIDATION: PASS (26 checks)

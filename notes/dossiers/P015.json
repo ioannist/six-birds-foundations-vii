@@ -1,0 +1,139 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 6
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0007",
+      "BR-CITE-0021",
+      "BR-CITE-0028",
+      "BR-CITE-0037",
+      "BR-CITE-0052",
+      "BR-CITE-0063",
+      "BR-CITE-0084",
+      "BR-CITE-0088",
+      "BR-CITE-0150"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0056",
+      "BR-CITE-0057",
+      "BR-CITE-0058",
+      "BR-CITE-0059",
+      "BR-CITE-0060",
+      "BR-CITE-0061"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H10",
+      "ARC-H21",
+      "ARC-H26",
+      "CLD-A1",
+      "CLD-E3",
+      "MED-D2",
+      "MED-N1",
+      "MED-N2",
+      "MED-N3",
+      "MED-N4",
+      "MED-T3",
+      "MED-T7"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P015.jsonl",
+  "claim_count": 22,
+  "claim_grade_counts": {
+    "DEFINITION": 6,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "NEGATIVE_RESULT_THEOREM": 6,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 2,
+    "THEOREM_GRADE": 4
+  },
+  "claim_ids": [
+    "P015-C0001",
+    "P015-C0002",
+    "P015-C0003",
+    "P015-C0004",
+    "P015-C0005",
+    "P015-C0006",
+    "P015-C0007",
+    "P015-C0008",
+    "P015-C0009",
+    "P015-C0010",
+    "P015-C0011",
+    "P015-C0012",
+    "P015-C0013",
+    "P015-C0014",
+    "P015-C0015",
+    "P015-C0016",
+    "P015-C0017",
+    "P015-C0018",
+    "P015-C0019",
+    "P015-C0020",
+    "P015-C0021",
+    "P015-C0022"
+  ],
+  "claim_type_counts": {
+    "corollary": 1,
+    "definition": 6,
+    "paper_thesis": 1,
+    "proposition": 5,
+    "prose_definition": 1,
+    "result_summary": 2,
+    "scope_boundary": 2,
+    "theorem": 4
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P015-C0002",
+    "P015-C0003",
+    "P015-C0004",
+    "P015-C0005",
+    "P015-C0006",
+    "P015-C0007",
+    "P015-C0021"
+  ],
+  "formal_claim_ids": [
+    "P015-C0009",
+    "P015-C0010",
+    "P015-C0011",
+    "P015-C0012",
+    "P015-C0014",
+    "P015-C0015",
+    "P015-C0016",
+    "P015-C0017",
+    "P015-C0018",
+    "P015-C0019"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 22
+  },
+  "foundations_vii_groups": [
+    "CG07",
+    "CG22"
+  ],
+  "foundations_vii_hook": "local-to-global gluing, event packages, and obstruction",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P015.md",
+  "nonclaim_scope_ids": [
+    "P015-C0020",
+    "P015-C0022"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P015",
+  "reading_order": 33,
+  "resolved_dependency_papers": [
+    "P032",
+    "P033"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex",
+  "source_root_sha256": "e479235bbdc64868090442755ed14c90ccb93f75a08701937fdf481a562be4ce",
+  "source_tree_sha256": "59915f8c92630f3a05c650fbaddda81bf7643bbb4150e820c404fd72b4817832",
+  "status": "BRIDGED",
+  "title": "Locally Boolean, Globally Obstructed"
+}

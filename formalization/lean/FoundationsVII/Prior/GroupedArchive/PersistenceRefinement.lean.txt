@@ -1,0 +1,27 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction
+import SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence
+
+#check SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction.financed_refinement_retains_access
+#check SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence.persistence_extension_retains_old
+
+namespace FoundationsVII.Prior
+
+/-- FT18 and FT19: financed refinement and object-persistence reuse. -/
+def ft18ft19PersistenceRefinement : AdapterContract :=
+  { adapterId := "ADAPTER-FT18-FT19-PERSISTENCE-REFINEMENT"
+    formalizationTargetIds := ["FT18", "FT19"]
+    sourceModule := "SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction; SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence"
+    sourceDeclarations := [
+      "SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction.financed_refinement_retains_access",
+      "SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence.persistence_extension_retains_old"]
+    sourceTypes := ["financed refinement access retention", "persistence extension retention"]
+    targetTypes := ["FoundationsVII.JoinCertificate", "FoundationsVII.BudgetLedger"]
+    preservedHypotheses := ["explicit refinement map", "financing witness", "old-object persistence conditions"]
+    addedHypotheses := ["both-parent retention", "joint contribution", "typed budget and audit"]
+    lostHypotheses := ["No monotonicity of strict join under arbitrary parent refinement is inherited."]
+    trustDependencies := []
+    nonclaims := ["Parent refinement may preserve, strengthen, weaken, or destroy a join unless separately proved."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

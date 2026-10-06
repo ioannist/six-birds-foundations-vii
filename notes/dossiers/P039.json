@@ -1,0 +1,77 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": {
+      "abstract_laws_invoked": [],
+      "audit_or_certificate": "abstract-level assertions only",
+      "bridge_classification": "BLOCKED_SOURCE",
+      "bridge_ids": [],
+      "concrete_carrier": "contingent-modulus dark-energy carrier described only in the supplied abstract",
+      "forbidden_back_transfer": "No theorem, proof, or detailed instantiation bridge is recoverable from the missing 18 included TeX files.",
+      "interface_or_lens": "missing in the supplied source package",
+      "missing_vii_primitive_or_pressure": "source completeness and contingent closure",
+      "nonclaims_or_open_boundaries": [
+        "P039-C0002"
+      ],
+      "paper_id": "P039",
+      "pressure_test_ruling": "ABSTRACT_ONLY; NO DETAILED INSTANTIATION CLAIMED",
+      "principal_claims": [
+        "P039-C0001"
+      ],
+      "source_completeness": "BLOCKED_MISSING_INCLUDED_FILES",
+      "title": "The Cosmological Constant as a Contingent Modulus",
+      "what_the_application_distinguishes_or_falsifies": "potential dependence of apparent acceleration on modulus closure"
+    },
+    "classification_counts": {},
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0222"
+    ],
+    "outbound_or_import_bridge_ids": [],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-S5",
+      "MM-NONGOAL"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P039.jsonl",
+  "claim_count": 2,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1
+  },
+  "claim_ids": [
+    "P039-C0001",
+    "P039-C0002"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 1,
+    "paper_thesis": 1
+  },
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 2
+  },
+  "foundations_vii_groups": [
+    "CG27"
+  ],
+  "foundations_vii_hook": "demarcation, contingent modulus, and dark-energy nonclaims",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P039.md",
+  "nonclaim_scope_ids": [
+    "P039-C0002"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P039",
+  "reading_order": 55,
+  "resolved_dependency_papers": [],
+  "source_completeness": "BLOCKED_MISSING_INCLUDED_FILES",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_The_Cosmological_Constant_as_a_Contingent_Modulus_A_Six_Birds_Demarcation_of_Dark_Energy.tex",
+  "source_root_sha256": "9fe50a0f748030ce0a7428531d79b986c4cc0c8a2677280c401f8ad13dbda337",
+  "source_tree_sha256": "60d77d5482459872181a21d25485324b54bacb296734bbddf56afde3b9f1c2f7",
+  "status": "BLOCKED_FULL_TEXT_WITH_ABSTRACT_BRIDGE_AUDIT",
+  "title": "The Cosmological Constant as a Contingent Modulus"
+}

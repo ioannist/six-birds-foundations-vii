@@ -1,0 +1,169 @@
+{
+  "binary": {
+    "all_amortized_exact_two": true,
+    "final_value": 45142,
+    "length": 1000,
+    "max_trailing_ones": 12,
+    "preview": [
+      {
+        "actual_cost": 1,
+        "after": "1010110001101111",
+        "amortized_cost": 2,
+        "before": "1010110001101110",
+        "index": 1,
+        "operation": "increment(r=0)",
+        "phi_after": 10,
+        "phi_before": 9
+      },
+      {
+        "actual_cost": 5,
+        "after": "1010110001110000",
+        "amortized_cost": 2,
+        "before": "1010110001101111",
+        "index": 2,
+        "operation": "increment(r=4)",
+        "phi_after": 7,
+        "phi_before": 10
+      },
+      {
+        "actual_cost": 1,
+        "after": "1010110001110001",
+        "amortized_cost": 2,
+        "before": "1010110001110000",
+        "index": 3,
+        "operation": "increment(r=0)",
+        "phi_after": 8,
+        "phi_before": 7
+      },
+      {
+        "actual_cost": 2,
+        "after": "1010110001110010",
+        "amortized_cost": 2,
+        "before": "1010110001110001",
+        "index": 4,
+        "operation": "increment(r=1)",
+        "phi_after": 8,
+        "phi_before": 8
+      },
+      {
+        "actual_cost": 1,
+        "after": "1010110001110011",
+        "amortized_cost": 2,
+        "before": "1010110001110010",
+        "index": 5,
+        "operation": "increment(r=0)",
+        "phi_after": 9,
+        "phi_before": 8
+      }
+    ],
+    "seed": 7301,
+    "start_value": 44142,
+    "telescoping": true,
+    "total_actual": 2002,
+    "total_amortized": 2000
+  },
+  "dynamic_array": {
+    "all_amortized_at_most_three": true,
+    "final_state": {
+      "capacity": 1024,
+      "size": 1003
+    },
+    "length": 1000,
+    "preview": [
+      {
+        "actual_cost": 1,
+        "after": "size=4,capacity=4",
+        "amortized_cost": 3,
+        "before": "size=3,capacity=4",
+        "index": 1,
+        "operation": "insert",
+        "phi_after": 4,
+        "phi_before": 2
+      },
+      {
+        "actual_cost": 5,
+        "after": "size=5,capacity=8",
+        "amortized_cost": 3,
+        "before": "size=4,capacity=4",
+        "index": 2,
+        "operation": "insert_resize",
+        "phi_after": 2,
+        "phi_before": 4
+      },
+      {
+        "actual_cost": 1,
+        "after": "size=6,capacity=8",
+        "amortized_cost": 3,
+        "before": "size=5,capacity=8",
+        "index": 3,
+        "operation": "insert",
+        "phi_after": 4,
+        "phi_before": 2
+      },
+      {
+        "actual_cost": 1,
+        "after": "size=7,capacity=8",
+        "amortized_cost": 3,
+        "before": "size=6,capacity=8",
+        "index": 4,
+        "operation": "insert",
+        "phi_after": 6,
+        "phi_before": 4
+      },
+      {
+        "actual_cost": 1,
+        "after": "size=8,capacity=8",
+        "amortized_cost": 3,
+        "before": "size=7,capacity=8",
+        "index": 5,
+        "operation": "insert",
+        "phi_after": 8,
+        "phi_before": 6
+      }
+    ],
+    "resize_count": 8,
+    "resize_steps_exact_three": true,
+    "seed": 7302,
+    "start_state": {
+      "capacity": 4,
+      "size": 3
+    },
+    "telescoping": true,
+    "total_actual": 2020,
+    "total_amortized": 3000,
+    "warmup_inserts": 3
+  },
+  "length": 1000,
+  "seed": 7300,
+  "worked_examples": {
+    "binary": {
+      "carry_0111_to_1000": {
+        "actual_cost": 4,
+        "after": "1000",
+        "amortized_cost": 2,
+        "before": "0111",
+        "phi_after": 1,
+        "phi_before": 3
+      },
+      "noncarry_0100_to_0101": {
+        "actual_cost": 1,
+        "after": "0101",
+        "amortized_cost": 2,
+        "before": "0100",
+        "phi_after": 2,
+        "phi_before": 1
+      }
+    },
+    "dynamic_resize": {
+      "actual_cost": 5,
+      "after": "size=5,capacity=8",
+      "amortized_cost": 3,
+      "before": "size=4,capacity=4",
+      "final_capacity": 8,
+      "final_size": 5,
+      "phi_after": 2,
+      "phi_before": 4,
+      "resized": true
+    }
+  }
+}

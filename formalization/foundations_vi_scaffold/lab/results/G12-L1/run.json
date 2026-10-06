@@ -1,0 +1,28 @@
+{
+  "cnf_clauses": 22874,
+  "cnf_path": "results/G12-L1/heule_826_4color.cnf",
+  "cnf_variables": 3304,
+  "declared_edges": 4273,
+  "declared_vertices": 826,
+  "edges": 4273,
+  "elapsed_seconds": 330.3703611710007,
+  "non_edge_samples": 2000,
+  "seed": 12,
+  "solve": {
+    "clauses": 22874,
+    "elapsed_seconds": 308.33543717900466,
+    "solver_name": "kissat404",
+    "status": "UNSAT",
+    "variables": 3304
+  },
+  "touched_vertices": 826,
+  "unit_distance": {
+    "edges_checked": 4273,
+    "non_edge_unit_examples": [],
+    "non_edge_unit_hits": 0,
+    "non_edges_sampled": 2000,
+    "numeric_failures": [],
+    "symbolic_failures": []
+  },
+  "vertices": 826
+}

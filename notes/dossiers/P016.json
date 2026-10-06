@@ -1,0 +1,126 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "UNKNOWN_REQUIRES_PROOF": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0008",
+      "BR-CITE-0022",
+      "BR-CITE-0029",
+      "BR-CITE-0053",
+      "BR-CITE-0085",
+      "BR-CITE-0089",
+      "BR-CITE-0151"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0062",
+      "BR-CITE-0063"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 2,
+    "wishlist_request_ids": [
+      "ARC-H10",
+      "ARC-H11",
+      "ARC-H19",
+      "ARC-H20",
+      "ARC-H21",
+      "CLD-A1",
+      "CLD-E3",
+      "CLD-O2",
+      "MED-D2",
+      "MED-D3",
+      "MED-I5",
+      "MED-NG1",
+      "MED-T1",
+      "MED-T2",
+      "MED-T3",
+      "MED-T4",
+      "MED-T6",
+      "MED-T7",
+      "MM-JOINNF",
+      "MM-LOCAL",
+      "MM-OP3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P016.jsonl",
+  "claim_count": 15,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION_SECTION": 2,
+    "SCOPE_OR_LIMITATION_RECORD": 2,
+    "THEOREM_GRADE": 5
+  },
+  "claim_ids": [
+    "P016-C0001",
+    "P016-C0002",
+    "P016-C0003",
+    "P016-C0004",
+    "P016-C0005",
+    "P016-C0006",
+    "P016-C0007",
+    "P016-C0008",
+    "P016-C0009",
+    "P016-C0010",
+    "P016-C0011",
+    "P016-C0012",
+    "P016-C0013",
+    "P016-C0014",
+    "P016-C0015"
+  ],
+  "claim_type_counts": {
+    "corollary": 1,
+    "nonclaim": 2,
+    "paper_thesis": 1,
+    "proposition": 1,
+    "prose_definition": 2,
+    "result_summary": 3,
+    "scope_boundary": 2,
+    "theorem": 3
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P016-C0012",
+    "P016-C0014"
+  ],
+  "formal_claim_ids": [
+    "P016-C0005",
+    "P016-C0006",
+    "P016-C0007",
+    "P016-C0008",
+    "P016-C0009"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 15
+  },
+  "foundations_vii_groups": [
+    "CG06",
+    "CG07",
+    "CG08",
+    "CG11",
+    "CG13"
+  ],
+  "foundations_vii_hook": "pairing, recombination, anti-product evidence, and controls",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P016.md",
+  "nonclaim_scope_ids": [
+    "P016-C0002",
+    "P016-C0003",
+    "P016-C0010",
+    "P016-C0011"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P016",
+  "reading_order": 27,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Marking_Erasure_and_Recombination_on_Fixed_Support_Exact_Finite_Evidence_from_Six_Birds_Theory.tex",
+  "source_root_sha256": "57bf45d9f903def51739d464985c7497022cd4ca06f800f3a35433b80ff021ca",
+  "source_tree_sha256": "2274c996906b981447fd890230ed7e9d3454344ebc878f51c33dd558178c244e",
+  "status": "BRIDGED",
+  "title": "Marking, Erasure, and Recombination on Fixed Support"
+}

@@ -1,0 +1,23 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsIII.Records
+
+#check SixBirdsIII.InstrumentClaimRecord
+
+namespace FoundationsVII.Prior
+
+/-- FT06: instrument record as a typed ingredient of contact evidence. -/
+def ft06InstrumentContact : AdapterContract :=
+  { adapterId := "ADAPTER-FT06-INSTRUMENT-CONTACT"
+    formalizationTargetIds := ["FT06"]
+    sourceModule := "SixBirdsIII.Records"
+    sourceDeclarations := ["SixBirdsIII.InstrumentClaimRecord"]
+    sourceTypes := ["Foundations III instrument claim record"]
+    targetTypes := ["FoundationsVII.ContactSurface", "FoundationsVII.ContactWitness", "FoundationsVII.ObserverOccupancyRecord"]
+    preservedHypotheses := ["typed instrument provenance"]
+    addedHypotheses := ["owned interfaces", "crossing relation", "occupancy and cost"]
+    lostHypotheses := ["Instrument declaration alone is not witnessed contact."]
+    trustDependencies := []
+    nonclaims := ["Compatibility or shared instrument does not imply contact."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

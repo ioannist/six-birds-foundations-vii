@@ -1,0 +1,180 @@
+{
+  "candidate_count": 36,
+  "check_count": 32,
+  "checks": [
+    {
+      "detail": "files=22",
+      "name": "final_release_surface_present",
+      "status": "PASS"
+    },
+    {
+      "detail": "FINAL_SCIENCE_RELEASE_LOCAL_LEAN_REPLAY_PASS",
+      "name": "science_plan_manifest_final",
+      "status": "PASS"
+    },
+    {
+      "detail": "23/23",
+      "name": "static_lean_source_audit",
+      "status": "PASS"
+    },
+    {
+      "detail": "count=36 dispositions={'FORMAL_SCHEMA': 15, 'CONDITIONAL_THEOREM': 15, 'LEAN_DECIDABLE_FINITE': 1, 'CLOSED_DEFERRAL': 2, 'REFUTED_CANDIDATE': 2, 'CONSTRUCTIVE_COUNTERMODEL': 1}",
+      "name": "all_candidates_terminal",
+      "status": "PASS"
+    },
+    {
+      "detail": "objects=18",
+      "name": "all_eighteen_objects_closed",
+      "status": "PASS"
+    },
+    {
+      "detail": "targets=20",
+      "name": "all_twenty_targets_closed_or_superseded",
+      "status": "PASS"
+    },
+    {
+      "detail": "declarations=1477",
+      "name": "public_declaration_census",
+      "status": "PASS"
+    },
+    {
+      "detail": "theorems=732",
+      "name": "public_theorem_census",
+      "status": "PASS"
+    },
+    {
+      "detail": "corollaries=21",
+      "name": "twenty_one_cross_family_corollaries",
+      "status": "PASS"
+    },
+    {
+      "detail": "no_gos=11",
+      "name": "eleven_terminal_no_gos",
+      "status": "PASS"
+    },
+    {
+      "detail": "decisions=15",
+      "name": "fifteen_decisions_terminal_or_nonblocking",
+      "status": "PASS"
+    },
+    {
+      "detail": "adapters=30",
+      "name": "thirty_inherited_adapter_contracts",
+      "status": "PASS"
+    },
+    {
+      "detail": "phase_counts={'PHASE2': 9, 'PHASE3': 11, 'PHASE4': 12, 'PHASE5': 11}",
+      "name": "forty_three_cumulative_finite_assays",
+      "status": "PASS"
+    },
+    {
+      "detail": "{\"accepted_cases\": 21081, \"bounded_witness_count\": 33, \"canonical_cases\": 84864, \"cross_family_control_count\": 12, \"raw_cases\": 86912, \"rejected_cases\": 63783}",
+      "name": "phase5_global_finite_census",
+      "status": "PASS"
+    },
+    {
+      "detail": "24/24 scenarios and 27/27 named countermodels",
+      "name": "complete_reference_fixture_replay",
+      "status": "PASS"
+    },
+    {
+      "detail": "kinds={'NAMED_REFERENCE_COUNTERMODEL': 27, 'MINIMIZED_BOUNDED_REJECTION_WITNESS': 11} hash_errors=[]",
+      "name": "countermodel_registry_complete",
+      "status": "PASS"
+    },
+    {
+      "detail": "returncode=0 tests=70",
+      "name": "all_python_tests",
+      "status": "PASS"
+    },
+    {
+      "detail": "hashes=732",
+      "name": "statement_hash_ledger_exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "theorems=732 edges=943",
+      "name": "theorem_dependency_registry_closed",
+      "status": "PASS"
+    },
+    {
+      "detail": "rows=732 trust_reachable=0",
+      "name": "theorem_trust_registry_closed",
+      "status": "PASS"
+    },
+    {
+      "detail": "modules=111",
+      "name": "public_api_registry",
+      "status": "PASS"
+    },
+    {
+      "detail": "counts=[(1477, 943), (165, 344)] errors=[]",
+      "name": "graphml_dependency_surfaces_parse",
+      "status": "PASS"
+    },
+    {
+      "detail": "status=FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS",
+      "name": "final_release_manifest_exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "entry_paths=5",
+      "name": "release_entry_points_resolve",
+      "status": "PASS"
+    },
+    {
+      "detail": "{\"adapter_count\": 30, \"candidate_count\": 36, \"candidate_dispositions\": {\"CLOSED_DEFERRAL\": 2, \"CONDITIONAL_THEOREM\": 15, \"CONSTRUCTIVE_COUNTERMODEL\": 1, \"FORMAL_SCHEMA\": 15, \"LEAN_DECIDABLE_FINITE\": 1, \"REFUTED_CANDIDATE\": 2}, \"corollary_count\": 21, \"countermodel_registry_count\": 38, \"decision_count\": 15, \"finite_assay_count\": 43, \"formalization_target_count\": 20, \"generated\": \"2026-07-26\", \"inherited_trust_declaration_count\": 6, \"kernel_status\": \"PASS_LOCAL_REPLAY\", \"minimized_final_countermodel_count\": 11, \"module_import_edge_count\": 344, \"named_countermodel_count\": 27, \"no_go_count\": 11, \"no_paper_work\": true, \"nonclaim\": \"Local Lean replay and #print axioms audit passed.\", \"object_count\": 18, \"public_declaration_count\": 1477, \"public_definition_count\": 745, \"public_module_count\": 111, \"public_theorem_count\": 732, \"stage\": \"FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS\", \"static_axiom_free_core_candidate_count\": 625, \"static_trust_reachable_theorem_count\": 0, \"theorem_dependency_edge_count\": 943}",
+      "name": "final_summary_exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "changed=[]",
+      "name": "inherited_formal_scaffolds_immutable",
+      "status": "PASS"
+    },
+    {
+      "detail": "paper=[] tex_outside_paper_dir=[]",
+      "name": "no_paper_or_paper_prep_changes",
+      "status": "PASS"
+    },
+    {
+      "detail": "bad_format=[] over_6000w=[]",
+      "name": "paper_prep_is_assets_not_manuscript",
+      "status": "PASS"
+    },
+    {
+      "detail": "FoundationsVII.lean -> All -> Release",
+      "name": "final_public_root_complete",
+      "status": "PASS"
+    },
+    {
+      "detail": "kernel=PASS",
+      "name": "strict_external_lean_replay",
+      "status": "PASS"
+    },
+    {
+      "detail": "rebuild=0 external=0",
+      "name": "shell_scripts_parse",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "name": "python_sources_compile",
+      "status": "PASS"
+    }
+  ],
+  "corollary_count": 21,
+  "errors": [],
+  "finite_assay_count": 43,
+  "kernel_status": "PASS",
+  "minimized_countermodel_count": 11,
+  "named_countermodel_count": 27,
+  "object_count": 18,
+  "pass_count": 32,
+  "phase": "FVII-SCI-05",
+  "public_declaration_count": 1477,
+  "public_theorem_count": 732,
+  "release_stage": "FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS",
+  "status": "PASS",
+  "strict_lean_required": true
+}

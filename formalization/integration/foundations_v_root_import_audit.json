@@ -1,0 +1,9 @@
+{
+  "expected_authored_submodules": 21,
+  "upstream_root_imported": 20,
+  "upstream_root_missing": [
+    "SixBirdsFoundationsV.Laws.E16Adaptability"
+  ],
+  "vii_wrapper": "formalization/lean/FoundationsVII/PriorFoundationsVComplete.lean",
+  "vii_wrapper_complete": true
+}

@@ -1,0 +1,35 @@
+{
+  "all_claims_reconsidered": 2,
+  "anti_overread": [
+    "A fundamental is not refuted and its value is not derived"
+  ],
+  "boundary_claim_ids": [
+    "P039-C0002"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 2 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P039",
+  "reading_order": "55",
+  "relevant_claim_ids": [
+    "P039-C0001",
+    "P039-C0002"
+  ],
+  "root_sha256": "9fe50a0f748030ce0a7428531d79b986c4cc0c8a2677280c401f8ad13dbda337",
+  "source_path": "papers/Tsiokos_2026_The_Cosmological_Constant_as_a_Contingent_Modulus_A_Six_Birds_Demarcation_of_Dark_Energy.tex",
+  "source_status": "BLOCKED_BODY_LEVEL_SOURCE; ABSTRACT_ONLY",
+  "source_tree_sha256": "60d77d5482459872181a21d25485324b54bacb296734bbddf56afde3b9f1c2f7",
+  "step3_role": "BLOCKED_SOURCE_ABSTRACT_ONLY",
+  "title": "The Cosmological Constant as a Contingent Modulus",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

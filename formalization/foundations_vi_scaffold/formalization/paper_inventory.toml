@@ -1,0 +1,58 @@
+# Foundations VI paper inventory.
+#
+# Lightweight per-law tracker. Like the formalization manifest, this records
+# the last completed recording step rather than live in-flight work. The
+# `landed_step8` status means the law has completed the per-law loop through
+# interaction-status recording; external review remains pending.
+
+[[laws]]
+law_id = "G1"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G2"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G3"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G4"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G5"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G6"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G7"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G8"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G9"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G10"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G11"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G12"
+intended_status = "landed_step8"
+
+[[laws]]
+law_id = "G13"
+intended_status = "landed_step8"

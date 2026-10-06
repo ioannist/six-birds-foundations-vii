@@ -1,0 +1,131 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0167",
+      "BR-CITE-0183",
+      "BR-CITE-0188"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0194"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H16",
+      "MED-B1",
+      "MED-B2",
+      "MED-I3",
+      "MM-NG3",
+      "MM-OBSERVER",
+      "MM-OP4"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P050.jsonl",
+  "claim_count": 28,
+  "claim_grade_counts": {
+    "DEFINITION": 12,
+    "EXPLICIT_NONCLAIM": 1,
+    "INTERPRETIVE_REMARK": 5,
+    "NAMED_RESULT_OR_GATE_SURFACE": 1,
+    "NEGATIVE_RESULT_THEOREM": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PROSE_DEFINITION": 1,
+    "PROSE_DEFINITION_SECTION": 2,
+    "THEOREM_GRADE": 4
+  },
+  "claim_ids": [
+    "P050-C0001",
+    "P050-C0002",
+    "P050-C0003",
+    "P050-C0004",
+    "P050-C0005",
+    "P050-C0006",
+    "P050-C0007",
+    "P050-C0008",
+    "P050-C0009",
+    "P050-C0010",
+    "P050-C0011",
+    "P050-C0012",
+    "P050-C0013",
+    "P050-C0014",
+    "P050-C0015",
+    "P050-C0016",
+    "P050-C0017",
+    "P050-C0018",
+    "P050-C0019",
+    "P050-C0020",
+    "P050-C0021",
+    "P050-C0022",
+    "P050-C0023",
+    "P050-C0024",
+    "P050-C0025",
+    "P050-C0026",
+    "P050-C0027",
+    "P050-C0028"
+  ],
+  "claim_type_counts": {
+    "definition": 12,
+    "lemma": 1,
+    "nonclaim": 1,
+    "paper_thesis": 1,
+    "proposition": 1,
+    "prose_definition": 3,
+    "remark": 5,
+    "result_summary": 1,
+    "theorem": 3
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P050-C0003",
+    "P050-C0004",
+    "P050-C0005",
+    "P050-C0006",
+    "P050-C0008",
+    "P050-C0009",
+    "P050-C0010",
+    "P050-C0011",
+    "P050-C0012",
+    "P050-C0013",
+    "P050-C0016",
+    "P050-C0017",
+    "P050-C0018",
+    "P050-C0021",
+    "P050-C0028"
+  ],
+  "formal_claim_ids": [
+    "P050-C0014",
+    "P050-C0019",
+    "P050-C0023",
+    "P050-C0025",
+    "P050-C0026"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 28
+  },
+  "foundations_vii_groups": [
+    "CG15",
+    "CG23"
+  ],
+  "foundations_vii_hook": "finite models, packaging, coarse graining, and directionality",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P050.md",
+  "nonclaim_scope_ids": [
+    "P050-C0002"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P050",
+  "reading_order": 38,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex",
+  "source_root_sha256": "e80408e4aac95948419e5516a90eadb27252ed26a375905c21914419f54ce972",
+  "source_tree_sha256": "7b896ced2085308448a13bb224108e2d2a4bc85dc3b8d2f5d071e3b3ce7e5a54",
+  "status": "BRIDGED",
+  "title": "Finite-State Semantics for Packaging and Directionality"
+}

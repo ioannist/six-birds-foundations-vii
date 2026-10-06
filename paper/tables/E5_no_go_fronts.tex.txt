@@ -1,0 +1,24 @@
+\begin{landscape}
+\begin{table}[t]
+\centering
+\caption{No-go fronts with their named escape routes. A front is never cited without these.}
+\label{tab:E5_no_go_fronts}
+\begin{tabular}{lll}
+\toprule
+\textbf{Front} & \textbf{Candidates} & \textbf{Named escape routes} \\
+\midrule
+FVII-SCI02-NGVII-01 & VII-C003 & NGVII\_01\_escape\_admitted\_seed, NGVII\_01\_escape\_reachable\_generator, NGVII\_01\_escape\_open\_external\_provision \\
+FVII-SCI03-NGVII-02 & VII-C010,VII-C035 & NGVII\_02\_escape\_witnessed\_independent\_contact \\
+FVII-SCI02-NGVII-03 & VII-C006 & NGVII\_03\_escape\_prospective\_certificate \\
+FVII-SCI02-NGVII-04 & VII-C005 & NGVII\_04\_escape\_certified\_adapter \\
+FVII-SCI02-NGVII-05 & VII-C029 & NGVII\_05\_escape\_external\_observer, NGVII\_05\_escape\_zero\_occupancy \\
+FVII-SCI03-NGVII-06 & VII-C007,VII-C009,VII-C035 & NGVII\_06\_escape\_complete\_strict\_join\_certificate \\
+FVII-SCI03-NGVII-07 & VII-C009,VII-C026,VII-C035 & NGVII\_07\_escape\_anti\_product\_witness \\
+FVII-SCI03-NGVII-08 & VII-C010,VII-C035 & NGVII\_08\_escape\_disjoint\_root\_certificate \\
+FVII-SCI03-NGVII-09 & VII-C011,VII-C035 & NGVII\_09\_escape\_paid\_channel, NGVII\_09\_escape\_certified\_zero\_cost\_channel \\
+FVII-SCI04-NGVII-10 & VII-C017,VII-C032 & NGVII\_10\_escape\_independent\_driven\_arrow \\
+FVII-SCI02-NGVII-11 & VII-C021 & NGVII\_11\_escape\_fired\_occurrence \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}

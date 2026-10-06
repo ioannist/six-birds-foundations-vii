@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://six-birds.local/schemas/vii_candidate.schema.json",
+  "title": "Foundations VII Step-3 Candidate Dossier",
+  "type": "object",
+  "required": [
+    "candidate_id", "name", "kind", "priority", "status_grade",
+    "proof_status", "step3_ruling", "typed_objects", "setup", "hypotheses",
+    "proposed_conclusion", "proof_obligations", "detector", "falsifier",
+    "positive_model", "null_models", "countermodels", "formalization_targets",
+    "recommended_chapter", "nonclaims", "source_trace"
+  ],
+  "properties": {
+    "candidate_id": {"type": "string", "pattern": "^VII-C[0-9]{3}$"},
+    "name": {"type": "string", "minLength": 3},
+    "kind": {"type": "string", "minLength": 3},
+    "priority": {"enum": ["P0", "P1", "P2"]},
+    "status_grade": {"type": "string", "minLength": 3},
+    "proof_status": {"type": "string", "minLength": 3},
+    "decision_status": {"type": "string"},
+    "step3_ruling": {"const": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED"},
+    "convergence_groups": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^CG[0-9]{2}$"}
+    },
+    "wishlist_atoms": {
+      "type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}
+    },
+    "typed_objects": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^VII-O[0-9]{2}$"}
+    },
+    "setup": {"$ref": "#/$defs/nonemptyStringArray"},
+    "hypotheses": {"$ref": "#/$defs/nonemptyStringArray"},
+    "informal_law": {"type": "string", "minLength": 3},
+    "proposed_conclusion": {"type": "string", "minLength": 3},
+    "condition_grade": {"type": "string", "minLength": 3},
+    "proof_obligations": {"$ref": "#/$defs/nonemptyStringArray"},
+    "detector": {
+      "type": "object",
+      "required": ["signal", "null", "falsifier"],
+      "properties": {
+        "signal": {"type": "string", "minLength": 3},
+        "null": {"type": "string", "minLength": 3},
+        "falsifier": {"type": "string", "minLength": 3}
+      },
+      "additionalProperties": false
+    },
+    "falsifier": {"type": "string", "minLength": 3},
+    "positive_model": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^TTW-S[0-9]{2}$"}
+    },
+    "null_models": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^TTW-S[0-9]{2}$"}
+    },
+    "countermodels": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^CM-[0-9]{2}$"}
+    },
+    "escape_routes": {"$ref": "#/$defs/nonemptyStringArray"},
+    "formalization_targets": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^FT[0-9]{2}$"}
+    },
+    "recommended_chapter": {"type": "string", "pattern": "^Ch[0-9]{2}$"},
+    "layer_instantiations": {"$ref": "#/$defs/nonemptyStringArray"},
+    "nonclaims": {"$ref": "#/$defs/nonemptyStringArray"},
+    "source_trace": {
+      "type": "object",
+      "required": ["resolved_source_locations", "bridge_ids", "law_or_no_go_ids"],
+      "properties": {
+        "resolved_source_locations": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["claim_id", "source_paper", "source_location", "claim_grade", "trace_role"],
+            "properties": {
+              "claim_id": {"type": "string", "pattern": "^P[0-9]{3}-C[0-9]{4}$"},
+              "source_paper": {"type": "string", "pattern": "^P[0-9]{3}$"},
+              "source_location": {"type": "string", "minLength": 1},
+              "claim_grade": {"type": "string", "minLength": 1},
+              "trace_role": {"enum": ["SUPPORT", "BOUNDARY", "OPEN"]}
+            },
+            "additionalProperties": true
+          }
+        },
+        "bridge_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^BR-"}},
+        "law_or_no_go_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "nonemptyStringArray": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "string", "minLength": 3}
+    }
+  },
+  "additionalProperties": true
+}

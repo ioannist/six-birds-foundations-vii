@@ -1,0 +1,138 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 1,
+      "UNKNOWN_REQUIRES_PROOF": 5,
+      "VALID_AFTER_ADDED_HYPOTHESES": 4
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0224"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0170",
+      "BR-CITE-0171",
+      "BR-CITE-0172",
+      "BR-CITE-0173",
+      "BR-CITE-0174",
+      "BR-CITE-0175",
+      "BR-CITE-0176",
+      "BR-CITE-0177",
+      "BR-CITE-0178",
+      "BR-CITE-0179"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 5,
+    "wishlist_request_ids": [
+      "ARC-H12",
+      "CLD-C4",
+      "MED-CIRC",
+      "MED-H3",
+      "MED-H4",
+      "MED-H5",
+      "MED-NG2",
+      "MM-INDEP"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P044.jsonl",
+  "claim_count": 24,
+  "claim_grade_counts": {
+    "DEFINITION": 4,
+    "EXPLICIT_NONCLAIM": 7,
+    "NAMED_RESULT_OR_GATE_SURFACE": 7,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 4,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 1
+  },
+  "claim_ids": [
+    "P044-C0001",
+    "P044-C0002",
+    "P044-C0003",
+    "P044-C0004",
+    "P044-C0005",
+    "P044-C0006",
+    "P044-C0007",
+    "P044-C0008",
+    "P044-C0009",
+    "P044-C0010",
+    "P044-C0011",
+    "P044-C0012",
+    "P044-C0013",
+    "P044-C0014",
+    "P044-C0015",
+    "P044-C0016",
+    "P044-C0017",
+    "P044-C0018",
+    "P044-C0019",
+    "P044-C0020",
+    "P044-C0021",
+    "P044-C0022",
+    "P044-C0023",
+    "P044-C0024"
+  ],
+  "claim_type_counts": {
+    "definition": 4,
+    "nonclaim": 7,
+    "open_problem": 4,
+    "paper_thesis": 1,
+    "result_summary": 7,
+    "scope_boundary": 1
+  },
+  "cluster": "D_COGNITION_SOCIAL",
+  "definition_claim_ids": [
+    "P044-C0021",
+    "P044-C0022",
+    "P044-C0023",
+    "P044-C0024"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 24
+  },
+  "foundations_vii_groups": [
+    "CG09",
+    "CG16",
+    "CG20",
+    "CG26"
+  ],
+  "foundations_vii_hook": "bounded interfaces, linguistic closure, models, and social/cognitive transfer",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P044.md",
+  "nonclaim_scope_ids": [
+    "P044-C0002",
+    "P044-C0004",
+    "P044-C0005",
+    "P044-C0006",
+    "P044-C0007",
+    "P044-C0014",
+    "P044-C0016",
+    "P044-C0018"
+  ],
+  "open_problem_ids": [
+    "P044-C0003",
+    "P044-C0011",
+    "P044-C0019",
+    "P044-C0020"
+  ],
+  "paper_id": "P044",
+  "reading_order": 43,
+  "resolved_dependency_papers": [
+    "P003",
+    "P021",
+    "P022",
+    "P026",
+    "P027",
+    "P031",
+    "P032",
+    "P038",
+    "P051"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex",
+  "source_root_sha256": "ebdf889325a7ccdb353d2245180612eb3cce7c0c7c6f4ee6e3ee5092e93101a6",
+  "source_tree_sha256": "eb76e341c0680ab1ecd59157bbd41bc00e73b59d93e8d3703f8a171f043b63c1",
+  "status": "BRIDGED",
+  "title": "Language Theory Models"
+}

@@ -1,0 +1,34 @@
+FVII-SCI-05 VALIDATION: PASS
+PASS 32/32
+PASS final_release_surface_present: files=22
+PASS science_plan_manifest_final: FINAL_SCIENCE_RELEASE_LOCAL_LEAN_REPLAY_PASS
+PASS static_lean_source_audit: 23/23
+PASS all_candidates_terminal: count=36 dispositions={'FORMAL_SCHEMA': 15, 'CONDITIONAL_THEOREM': 15, 'LEAN_DECIDABLE_FINITE': 1, 'CLOSED_DEFERRAL': 2, 'REFUTED_CANDIDATE': 2, 'CONSTRUCTIVE_COUNTERMODEL': 1}
+PASS all_eighteen_objects_closed: objects=18
+PASS all_twenty_targets_closed_or_superseded: targets=20
+PASS public_declaration_census: declarations=1477
+PASS public_theorem_census: theorems=732
+PASS twenty_one_cross_family_corollaries: corollaries=21
+PASS eleven_terminal_no_gos: no_gos=11
+PASS fifteen_decisions_terminal_or_nonblocking: decisions=15
+PASS thirty_inherited_adapter_contracts: adapters=30
+PASS forty_three_cumulative_finite_assays: phase_counts={'PHASE2': 9, 'PHASE3': 11, 'PHASE4': 12, 'PHASE5': 11}
+PASS phase5_global_finite_census: {"accepted_cases": 21081, "bounded_witness_count": 33, "canonical_cases": 84864, "cross_family_control_count": 12, "raw_cases": 86912, "rejected_cases": 63783}
+PASS complete_reference_fixture_replay: 24/24 scenarios and 27/27 named countermodels
+PASS countermodel_registry_complete: kinds={'NAMED_REFERENCE_COUNTERMODEL': 27, 'MINIMIZED_BOUNDED_REJECTION_WITNESS': 11} hash_errors=[]
+PASS all_python_tests: returncode=0 tests=70
+PASS statement_hash_ledger_exact: hashes=732
+PASS theorem_dependency_registry_closed: theorems=732 edges=943
+PASS theorem_trust_registry_closed: rows=732 trust_reachable=0
+PASS public_api_registry: modules=111
+PASS graphml_dependency_surfaces_parse: counts=[(1477, 943), (165, 344)] errors=[]
+PASS final_release_manifest_exact: status=FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS
+PASS release_entry_points_resolve: entry_paths=5
+PASS final_summary_exact: {"adapter_count": 30, "candidate_count": 36, "candidate_dispositions": {"CLOSED_DEFERRAL": 2, "CONDITIONAL_THEOREM": 15, "CONSTRUCTIVE_COUNTERMODEL": 1, "FORMAL_SCHEMA": 15, "LEAN_DECIDABLE_FINITE": 1, "REFUTED_CANDIDATE": 2}, "corollary_count": 21, "countermodel_registry_count": 38, "decision_count": 15, "finite_assay_count": 43, "formalization_target_count": 20, "generated": "2026-07-26", "inherited_trust_declaration_count": 6, "kernel_status": "PASS_LOCAL_REPLAY", "minimized_final_countermodel_count": 11, "module_import_edge_count": 344, "named_countermodel_count": 27, "no_go_count": 11, "no_paper_work": true, "nonclaim": "Local Lean replay and #print axioms audit passed.", "object_count": 18, "public_declaration_count": 1477, "public_definition_count": 745, "public_module_count": 111, "public_theorem_count": 732, "stage": "FVII_SCIENCE_FINAL_LOCAL_LEAN_REPLAY_PASS", "static_axiom_free_core_candidate_count": 625, "static_trust_reachable_theorem_count": 0, "theorem_dependency_edge_count": 943}
+PASS inherited_formal_scaffolds_immutable: changed=[]
+PASS no_paper_or_paper_prep_changes: paper=[] tex_outside_paper_dir=[]
+PASS paper_prep_is_assets_not_manuscript: bad_format=[] over_6000w=[]
+PASS final_public_root_complete: FoundationsVII.lean -> All -> Release
+PASS strict_external_lean_replay: kernel=PASS
+PASS shell_scripts_parse: rebuild=0 external=0
+PASS python_sources_compile:

@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "base_tag": "read-step-03",
+  "checks": [
+    {
+      "name": "required plan documents",
+      "ok": true,
+      "detail": "documents=11"
+    },
+    {
+      "name": "five execution phases",
+      "ok": true,
+      "detail": "phases=['FVII-SCI-01', 'FVII-SCI-02', 'FVII-SCI-03', 'FVII-SCI-04', 'FVII-SCI-05']"
+    },
+    {
+      "name": "unique phase tags and zips",
+      "ok": true,
+      "detail": "tags/zips unique"
+    },
+    {
+      "name": "exact coverage candidate_id",
+      "ok": true,
+      "detail": "source=36 mapped=36"
+    },
+    {
+      "name": "exact coverage target_id",
+      "ok": true,
+      "detail": "source=20 mapped=20"
+    },
+    {
+      "name": "exact coverage object_id",
+      "ok": true,
+      "detail": "source=18 mapped=18"
+    },
+    {
+      "name": "exact coverage no_go_id",
+      "ok": true,
+      "detail": "source=11 mapped=11"
+    },
+    {
+      "name": "exact coverage scenario_id",
+      "ok": true,
+      "detail": "source=24 mapped=24"
+    },
+    {
+      "name": "exact coverage countermodel_id",
+      "ok": true,
+      "detail": "source=27 mapped=27"
+    },
+    {
+      "name": "exact coverage decision_id",
+      "ok": true,
+      "detail": "source=15 mapped=15"
+    },
+    {
+      "name": "valid phase references candidate_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "valid phase references formalization_target_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "valid phase references no_go_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "valid phase references scenario_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "valid phase references countermodel_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "valid phase references decision_phase_map.csv",
+      "ok": true,
+      "detail": "bad=[]"
+    },
+    {
+      "name": "all candidates finalized by phase 4 then audited in phase 5",
+      "ok": true,
+      "detail": "terminal phases 1-4; final audit 5"
+    },
+    {
+      "name": "all no-gos assigned proof phase",
+      "ok": true,
+      "detail": "no-go proof phases are 2-4"
+    },
+    {
+      "name": "asset class contract",
+      "ok": true,
+      "detail": "classes=8"
+    },
+    {
+      "name": "proof grade contract",
+      "ok": true,
+      "detail": "grades=8"
+    },
+    {
+      "name": "explicit no-paper boundary",
+      "ok": true,
+      "detail": "boundary stated"
+    },
+    {
+      "name": "final archive named",
+      "ok": true,
+      "detail": "final archive present"
+    },
+    {
+      "name": "Lean build mandatory",
+      "ok": true,
+      "detail": "kernel gate present"
+    },
+    {
+      "name": "truthful false-candidate policy",
+      "ok": true,
+      "detail": "refutation path present"
+    },
+    {
+      "name": "base-tag diff available",
+      "ok": true,
+      "detail": "changed_paths=41"
+    },
+    {
+      "name": "no VII Lean implementation executed",
+      "ok": true,
+      "detail": "lean_paths=[]"
+    },
+    {
+      "name": "frozen subtree untouched: formalization/foundations_v_scaffold/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "frozen subtree untouched: formalization/foundations_vi_scaffold/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "frozen subtree untouched: vii/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "frozen subtree untouched: readiness/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "frozen subtree untouched: claims/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "frozen subtree untouched: bridges/",
+      "ok": true,
+      "detail": "touched=[]"
+    },
+    {
+      "name": "no toy-model or theorem implementation executed",
+      "ok": true,
+      "detail": "implementation_paths=[]"
+    }
+  ],
+  "passed": 33,
+  "total": 33
+}

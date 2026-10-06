@@ -1,0 +1,74 @@
+ordinal,level,p040_line,p040_heading,p058_line,p058_heading,heading_relation,body_five_word_shingle_jaccard,step1_ruling
+1,section,236,Introduction,234,Introduction: The Use of Impossible Objects,RENAMED_HEADING,0.000000,same structural slot; retain both member-specific source locations
+2,subsection,238,Useful objects outside the setting,236,Useful but illegal objects,RENAMED_HEADING,0.272040,same structural slot; retain both member-specific source locations
+3,subsection,275,From correspondence to descent,272,The question swap,RENAMED_HEADING,0.252492,same structural slot; retain both member-specific source locations
+4,subsection,302,Main claim and organization of results,298,Contribution preview,RENAMED_HEADING,0.100529,same structural slot; retain both member-specific source locations
+5,subsection,345,Scope,339,Scope and roadmap,RENAMED_HEADING,0.098266,same structural slot; retain both member-specific source locations
+6,section,367,Theory Layers and Promoted-Use Traces,367,Theory Layers and Promoted-Use Traces,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+7,subsection,369,Theory packages and instruments,369,Theory packages and instruments,IDENTICAL_HEADING,0.610063,same structural slot; retain both member-specific source locations
+8,subsection,418,Lower problem profiles and saturation,412,Lower problem profiles and saturation,IDENTICAL_HEADING,0.778870,same structural slot; retain both member-specific source locations
+9,subsection,478,Promotion bridges,473,Promotion bridges,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+10,subsection,527,"Descent, non-descent, and strictness",522,"Descent, non-descent, and strictness",IDENTICAL_HEADING,0.900000,same structural slot; retain both member-specific source locations
+11,subsection,581,The SAU certificate,576,The SAU certificate,IDENTICAL_HEADING,0.748401,same structural slot; retain both member-specific source locations
+12,section,667,Necessity and Normal Form,661,Necessity and Normal Form,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+13,subsection,669,Promoted-use traces,663,Promoted-use traces and the anti-tautology setup,RENAMED_HEADING,0.592308,same structural slot; retain both member-specific source locations
+14,subsection,849,Essential boundary necessity,780,Essential boundary necessity,IDENTICAL_HEADING,0.724782,same structural slot; retain both member-specific source locations
+15,subsection,962,SAU boundary normal form,879,SAU boundary normal form,IDENTICAL_HEADING,0.637731,same structural slot; retain both member-specific source locations
+16,subsection,1106,Partial converse and the tautology barrier,995,Partial converse and the tautology barrier,IDENTICAL_HEADING,0.596899,same structural slot; retain both member-specific source locations
+17,section,1202,SAU Soundness and Failure Modes,1101,SAU Soundness and Failure Modes,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+18,subsection,1204,Raw and validated proof packages,1103,Raw and validated proof packages,IDENTICAL_HEADING,0.686842,same structural slot; retain both member-specific source locations
+19,subsection,1258,SAU soundness,1160,SAU soundness,IDENTICAL_HEADING,0.634271,same structural slot; retain both member-specific source locations
+20,subsection,1377,Failure fields and the diagnostic classifier,1286,Failure fields and the diagnostic classifier,IDENTICAL_HEADING,0.853706,same structural slot; retain both member-specific source locations
+21,subsection,1659,No-overreading and lower-layer literalization,1579,No-overreading and lower-layer literalization,IDENTICAL_HEADING,0.585317,same structural slot; retain both member-specific source locations
+22,section,1723,Basic Profile Classification,1649,Basic Profile Classification,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+23,subsection,1725,Reduced boundary traces and the basic audit grammar,1651,Reduced boundary traces and the basic audit grammar,IDENTICAL_HEADING,0.866029,same structural slot; retain both member-specific source locations
+24,subsection,1890,Primitive head classification,1810,Primitive head classification,IDENTICAL_HEADING,0.815603,same structural slot; retain both member-specific source locations
+25,subsection,1999,Composite boundaries and classification soundness,1922,Composite boundaries and classification soundness,IDENTICAL_HEADING,0.601626,same structural slot; retain both member-specific source locations
+26,section,2103,Imaginary Numbers,2033,Imaginary Numbers,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+27,subsection,2105,The lower problem: same-layer half-step of real reversal,2035,The lower problem: same-layer half-step of real reversal,IDENTICAL_HEADING,0.561605,same structural slot; retain both member-specific source locations
+28,subsection,2192,The four-phase carrier and the quarter-turn,2123,The four-phase carrier and the quarter-turn,IDENTICAL_HEADING,0.609403,same structural slot; retain both member-specific source locations
+29,subsection,2330,Non-descent of G and descent of G^2,2252,Non-descent of G and descent of G^2,IDENTICAL_HEADING,0.737794,same structural slot; retain both member-specific source locations
+30,subsection,2488,"SAU certificate, real-linear completion, and no-overreading",2422,"SAU certificate, real-linear completion, and no-overreading",IDENTICAL_HEADING,0.682148,same structural slot; retain both member-specific source locations
+31,section,2618,Infinitesimals and Calculus,2557,Infinitesimals and Calculus,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+32,subsection,2620,Value-only differentiation and its defect,2559,Value-only differentiation and its defect,IDENTICAL_HEADING,0.669405,same structural slot; retain both member-specific source locations
+33,subsection,2730,The dual-number algebra and the first jet,2673,The dual-number algebra and the first jet,IDENTICAL_HEADING,0.821678,same structural slot; retain both member-specific source locations
+34,subsection,2891,Coefficient descent and the calculus rules,2839,Coefficient descent and the calculus rules,IDENTICAL_HEADING,0.685714,same structural slot; retain both member-specific source locations
+35,subsection,3022,Minimal square-zero promotion and SAU certificate,2979,Minimal square-zero promotion and SAU certificate,IDENTICAL_HEADING,0.670788,same structural slot; retain both member-specific source locations
+36,section,3142,Galois Theory,3105,Galois Theory,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+37,subsection,3144,Roots not in the base field,3107,Roots not in the base field,IDENTICAL_HEADING,0.712644,same structural slot; retain both member-specific source locations
+38,subsection,3229,Root adjoining and the splitting field,3193,Root adjoining and the splitting field,IDENTICAL_HEADING,0.577027,same structural slot; retain both member-specific source locations
+39,subsection,3363,"Symmetric invariants, traces, norms, and fixed-field descent",3333,"Symmetric invariants, traces, norms, and fixed-field descent",IDENTICAL_HEADING,0.605042,same structural slot; retain both member-specific source locations
+40,subsection,3518,SAU certificate and no-literalization,3498,SAU certificate and no-literalization,IDENTICAL_HEADING,0.539503,same structural slot; retain both member-specific source locations
+41,section,3565,Cohomology,3552,Cohomology,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+42,subsection,3567,"Edge data, periods, and the local-to-global question",3554,"Edge data, periods, and the local-to-global question",IDENTICAL_HEADING,0.655602,same structural slot; retain both member-specific source locations
+43,subsection,3711,The H^1 ledger and exactness,3697,The H^1 ledger and exactness,IDENTICAL_HEADING,0.531532,same structural slot; retain both member-specific source locations
+44,subsection,3806,Triangle and forest examples,3806,Triangle and forest examples,IDENTICAL_HEADING,0.931350,same structural slot; retain both member-specific source locations
+45,subsection,3917,Strictness and SAU certificate as obstruction profile,3918,Strictness and SAU certificate as obstruction profile,IDENTICAL_HEADING,0.650000,same structural slot; retain both member-specific source locations
+46,section,4003,Transfer and Cross-Case Synthesis,4012,Transfer and Cross-Case Synthesis,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+47,subsection,4005,The canonical witness vector W_4,4014,The canonical witness vector W_4,IDENTICAL_HEADING,0.866618,same structural slot; retain both member-specific source locations
+48,subsection,4273,Profile abstraction and substrate erasure,4294,Profile abstraction and substrate erasure,IDENTICAL_HEADING,0.829324,same structural slot; retain both member-specific source locations
+49,subsection,4416,Profile equivalence and transfer plan,4440,Profile equivalence and transfer plan,IDENTICAL_HEADING,0.881220,same structural slot; retain both member-specific source locations
+50,subsection,4537,Cross-case exact-six and synthesis,4562,Cross-case exact-six and synthesis,IDENTICAL_HEADING,0.722323,same structural slot; retain both member-specific source locations
+51,subsection,4618,Final synthesis statement,4651,Final synthesis statement,IDENTICAL_HEADING,0.564912,same structural slot; retain both member-specific source locations
+52,section,4692,Outlook,4734,Outlook and Contribution,RENAMED_HEADING,0.000000,same structural slot; retain both member-specific source locations
+53,subsection,4694,What follows from the results,4736,What the paper unlocks,RENAMED_HEADING,0.749392,same structural slot; retain both member-specific source locations
+54,subsection,4786,Summary and limits,4832,Contribution statement and limits,RENAMED_HEADING,0.304734,same structural slot; retain both member-specific source locations
+55,section,4822,Definition Bank,4864,Definition Bank,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+56,subsection,4824,Basic vocabulary,4866,Basic vocabulary,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+57,subsection,4896,Certificate grammar,4938,Certificate grammar,IDENTICAL_HEADING,0.901857,same structural slot; retain both member-specific source locations
+58,subsection,5027,Failure modes and counterfeits,5073,Failure modes and counterfeits,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+59,section,5088,Deferred Proof Details,5134,Deferred Proof Details,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+60,subsection,5090,Imaginary-case deferred details,5136,Imaginary-case deferred details,IDENTICAL_HEADING,0.557447,same structural slot; retain both member-specific source locations
+61,subsection,5283,Calculus-case deferred details,5306,Calculus-case deferred details,IDENTICAL_HEADING,0.427408,same structural slot; retain both member-specific source locations
+62,subsection,5389,Galois and cohomology deferred details,5391,Galois and cohomology deferred details,IDENTICAL_HEADING,0.574150,same structural slot; retain both member-specific source locations
+63,section,5519,Artifact and Source Map,5508,Artifact and Source Map,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+64,subsection,5521,Theorem-sheet to paper-section map,5510,Theorem-sheet to paper-section map,IDENTICAL_HEADING,0.965217,same structural slot; retain both member-specific source locations
+65,subsection,5587,Mechanization artifacts and rebinding pointer,5576,Mechanization artifacts and rebinding pointer,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+66,section,5608,Lean Formalization Notes,5597,Lean Formalization Notes,IDENTICAL_HEADING,0.406593,same structural slot; retain both member-specific source locations
+67,subsection,5622,Traceability counts,5605,Traceability counts,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+68,subsection,5663,Definition realization,5646,Definition realization,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+69,subsection,5684,Case-study evidence packs,5667,Case-study evidence packs,IDENTICAL_HEADING,0.898990,same structural slot; retain both member-specific source locations
+70,subsection,5703,Rebinding after drafting,5686,Rebinding after drafting,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+71,subsection,5713,Permitted wording,5696,Permitted wording,IDENTICAL_HEADING,1.000000,same structural slot; retain both member-specific source locations
+72,section,5729,Extended Material,5712,Extended Material,IDENTICAL_HEADING,0.000000,same structural slot; retain both member-specific source locations
+73,subsection,5731,Complete nonclaims ledger and extended tables,5714,Complete nonclaims ledger and extended tables,IDENTICAL_HEADING,0.821429,same structural slot; retain both member-specific source locations

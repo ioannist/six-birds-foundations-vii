@@ -1,0 +1,82 @@
+{
+  "all_claims_reconsidered": 26,
+  "anti_overread": [
+    "We do not claim an accepted test package, shared-event identity, proto-effect fragment, probability valuation, composition result, lawful public carrier, faithful public compression, cross-seed event package, or full-core event package.",
+    "[t] 4pt p 0.25 p 0.20 p 0.26 p 0.22 Inherited object Prior status Use here Nonclaim Refined same-branch witness (carrier side) Lawful refined carrier-side witness Carrier-side conditions in event bridge records Not public-shadow-native",
+    "[t] 4pt p 0.22 p 0.10 p 0.36 p 0.26 Source Count Typical proposed instrument and lift Candidate-stage nonclaim Quadratic levelsets 4 Quadratic-levelset instrument with quadratic-levelset lift Not probability",
+    "they do not assert that public signatures determine refined carrier conditions.",
+    "[t] 4pt p 0.26 p 0.28 p 0.24 p 0.16 Object or family Quadratic relation Role in this run Limitation Quadratic level-set event Direct alignment with the scoped q-levelset boundary using q_ L2 , q_ gap , and q_ coarse Accepted protocol-indexed event-level object",
+    "Every accepted claim must carry a complete P_1 – P_6 profile, every active role must have supporting evidence, and every residual limitation must be classified rather than left implicit.",
+    "It does not claim a lawful public carrier, faithful public compression, cross-seed event package, full-core event package, accepted test package, shared-event identity, proto-effect fragment, probability valuation, or composition result.",
+    "Discussion and limitations: The outcome is mixed but precise. The run is not empty at the event level: two scoped protocol-indexed positives survive the event gate, controls, layer placement, quadratic alignment, and exact-six profiling. At the same time, no accepted finite test family is produced. The result is therefore neither that the carrier has no event content nor that it has already become an event package, but an intermediate regime between the two. The positive part is the survival of scoped event-level structure. The event bridge discipline accepts the quadratic level-set event and the transition-stability test as protocol-indexed event-level objects. Their acceptance is not public-shadow-native and not unscoped. It depends on the declared carrier/public bridge, explicit instruments, selected lifts, suppression records, controls, and exact-six profiles. This is why the result is stronger than a diagnostic observation but weaker than a package-level structure."
+  ],
+  "boundary_claim_ids": [
+    "P008-C0002",
+    "P008-C0004",
+    "P008-C0005",
+    "P008-C0006",
+    "P008-C0007",
+    "P008-C0008",
+    "P008-C0021",
+    "P008-C0022",
+    "P008-C0024",
+    "P008-C0025",
+    "P008-C0026"
+  ],
+  "candidate_ids": [
+    "VII-C015",
+    "VII-C034",
+    "VII-C002",
+    "VII-C007",
+    "VII-C035"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 26 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P008",
+  "reading_order": "25",
+  "relevant_claim_ids": [
+    "P008-C0001",
+    "P008-C0002",
+    "P008-C0003",
+    "P008-C0004",
+    "P008-C0005",
+    "P008-C0006",
+    "P008-C0007",
+    "P008-C0008",
+    "P008-C0009",
+    "P008-C0010",
+    "P008-C0011",
+    "P008-C0012",
+    "P008-C0013",
+    "P008-C0014",
+    "P008-C0015",
+    "P008-C0016",
+    "P008-C0017",
+    "P008-C0018",
+    "P008-C0019",
+    "P008-C0020",
+    "P008-C0021",
+    "P008-C0022",
+    "P008-C0023",
+    "P008-C0024",
+    "P008-C0025",
+    "P008-C0026"
+  ],
+  "root_sha256": "d5aa0e6e16a56b35f96ca1f790becc852a57253e3c17bf72dceca5584aaf6b33",
+  "source_path": "papers/Tsiokos_2026_Carrier_to_Event_Admissibility_on_Fixed_Support_in_Six_Birds_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "f96e5e1f4361fdd27c83044ac7ec141d2b92235490b902733e3fe099c2305099",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Carrier-to-Event Admissibility",
+  "top_convergence_groups": [
+    "CG17",
+    "CG02",
+    "CG06"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

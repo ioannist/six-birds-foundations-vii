@@ -1,0 +1,131 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "UNKNOWN_REQUIRES_PROOF": 3
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0073",
+      "BR-CITE-0092",
+      "BR-CITE-0107"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0095",
+      "BR-CITE-0096",
+      "BR-CITE-0097"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 3,
+    "wishlist_request_ids": [
+      "ARC-H19",
+      "ARC-H20",
+      "ARC-H24",
+      "ARC-H26",
+      "ARC-H28",
+      "CLD-A2",
+      "CLD-B1",
+      "CLD-B3",
+      "MED-D3",
+      "MED-N1",
+      "MED-N2",
+      "MED-N3",
+      "MED-N4",
+      "MED-T4",
+      "MM-LOCAL",
+      "MM-OP3"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P025.jsonl",
+  "claim_count": 21,
+  "claim_grade_counts": {
+    "DEFINITION": 6,
+    "EXPLICIT_NONCLAIM": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 3,
+    "NEGATIVE_RESULT_THEOREM": 1,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "THEOREM_GRADE": 6
+  },
+  "claim_ids": [
+    "P025-C0001",
+    "P025-C0002",
+    "P025-C0003",
+    "P025-C0004",
+    "P025-C0005",
+    "P025-C0006",
+    "P025-C0007",
+    "P025-C0008",
+    "P025-C0009",
+    "P025-C0010",
+    "P025-C0011",
+    "P025-C0012",
+    "P025-C0013",
+    "P025-C0014",
+    "P025-C0015",
+    "P025-C0016",
+    "P025-C0017",
+    "P025-C0018",
+    "P025-C0019",
+    "P025-C0020",
+    "P025-C0021"
+  ],
+  "claim_type_counts": {
+    "definition": 6,
+    "lemma": 1,
+    "nonclaim": 1,
+    "open_problem": 3,
+    "paper_thesis": 1,
+    "proposition": 1,
+    "result_summary": 3,
+    "theorem": 5
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P025-C0003",
+    "P025-C0004",
+    "P025-C0005",
+    "P025-C0009",
+    "P025-C0013",
+    "P025-C0015"
+  ],
+  "formal_claim_ids": [
+    "P025-C0006",
+    "P025-C0007",
+    "P025-C0008",
+    "P025-C0010",
+    "P025-C0012",
+    "P025-C0014",
+    "P025-C0016"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 21
+  },
+  "foundations_vii_groups": [
+    "CG11",
+    "CG12",
+    "CG18",
+    "CG22"
+  ],
+  "foundations_vii_hook": "formed closures, involutive self-duality, and trace confinement",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P025.md",
+  "nonclaim_scope_ids": [
+    "P025-C0019"
+  ],
+  "open_problem_ids": [
+    "P025-C0002",
+    "P025-C0020",
+    "P025-C0021"
+  ],
+  "paper_id": "P025",
+  "reading_order": 34,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex",
+  "source_root_sha256": "9ebaf0495df2a8246e9038baa4443b0dc68906dcb45939eb1ccb1037d5abfe66",
+  "source_tree_sha256": "234373ac0f79f6e7caf1c40744bcc1ca36793384f1744adc21c1db9b16ec5ebb",
+  "status": "BRIDGED",
+  "title": "Self-Dual Trace Confinement"
+}

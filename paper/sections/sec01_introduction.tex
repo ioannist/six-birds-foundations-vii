@@ -1,0 +1,198 @@
+\section{Introduction}
+\label{sec:intro}
+
+Two theories are given, each internally lawful. When may they interact, and when does
+their interaction produce a new theory rather than a restatement of the two old ones?
+The question arises wherever theories are combined: two axiomatizations merged into one,
+two models of a system coupled through a shared instrument, two layers of description
+linked by an interface. It is easy to answer carelessly. Two theories that share an
+origin, a carrier or a vocabulary are said to interact; a combination that produces some
+new quantity is said to be a genuine joint theory; a combination that removes an old
+difficulty is said to have fewer problems. Each inference takes something real and
+observable and reads more into it than follows.
+
+This paper does two things about that situation. First, it gives a \emph{certificate
+language}: typed records in which a claim about interaction must be written down, with a
+separate field for each thing that is easily conflated. A record says, for instance,
+whether content is expressible, present, reachable or occurrent; whether two theories are
+merely in contact or have formed a composite; whether an enabling theory also determines
+what it enables; whether a dependence on order has been shown or an arrow of time. A
+finite reference world exhibits, for each separation, a configuration that has one
+property and lacks the other. Second, it proves where such certificates have mathematical
+content, by giving semantic models in which the key certificates are backed by theorems.
+
+\paragraph{The catalog.} The certificates are organized in a \emph{catalog}: a list of 36
+entries, each a claim about lawful interaction together with the certificate that must
+back it, the finite evidence attached to it and its counterpart in the Lean development.
+The entries fall into four clusters (access and admission, contact and join, enablement
+and descent, dynamics and residue) and are anchored by one finite reference world
+(\Cref{sec:ttw}). It is worth being plain about what the catalog contains. Most entries
+fix what a certificate must record and when it counts as valid; they are definitions, and
+the statements drawn from them are short consequences of those definitions or refusals of
+credit that a definition withholds. \Cref{tab:status} classifies every result by what it
+is. The mathematics lies in the semantic results of
+\Cref{sec:strict-join,sec:admission}, which the introduction leads with.
+
+\subsection{A worked example}
+\label{sec:intro-example}
+
+\paragraph{Two theories and a join.}
+Let theory~$A$ observe one bit $a$ and theory~$B$ observe one bit $b$. A candidate joint
+theory has states $j=(a,b,h)$ with a third bit~$h$, and maps $p_A(j)=a$ and $p_B(j)=b$
+back to the two parents. Which observables of the joint theory are genuinely new?
+
+The observable $f(j)=a$ is not new: it factors through $p_A$ on its image. The observable $f(j)=h$ is.
+The two states $(0,0,0)$ and $(0,0,1)$ have the same image under $p_A$, under $p_B$, and
+under the pair $(p_A,p_B)$, yet they differ in~$h$. No function of $a$, of $b$, or of
+$(a,b)$ can therefore return~$h$. We call such a pair of states a \emph{split pair}.
+\Cref{thm:split-criterion} shows that split pairs are exactly what stands in the way of
+factorization on the reached image, so that $h$ is \emph{strict} in the sense of \Cref{def:strict-observable}
+(\Cref{ex:cube}).
+
+The pairing matters. An observable such as $a\oplus b$ factors on its image through neither
+parent alone, since $a$ does not determine $a\oplus b$ and neither does~$b$, but it
+factors on its image through the pair $(a,b)$. It is information that the two theories already hold jointly,
+and a joint theory that only adds such observables adds nothing that the two parents do
+not jointly determine. This is why strictness is tested against the pairing as well as
+against each parent. What the test leaves open is stated in \Cref{rem:refinement-limit}.
+
+\paragraph{Admitting the pieces.}
+Suppose now that the joint theory is assembled by admitting items one at a time, where an
+item may be admitted once none of its prerequisites is still pending. Does the order of
+admission matter? If admitting an item can only enable further admissions, it does not:
+two admissions available at the same moment commute, every admission run terminates, and
+by Newman's lemma every maximal order ends in the same state (\Cref{thm:admission}). A
+single guard that lets one admission \emph{disable} another breaks this. With items $a$
+and $b$, where $b$ may be admitted only while $a$ is still pending, admitting $a$ first
+strands $b$, while admitting $b$ first admits both. The two orders end in different
+terminal states (\Cref{ex:disabling}).
+
+\subsection{Main results}
+\label{sec:intro-results}
+
+We state the headline results informally here; the precise statements carry all
+hypotheses.
+
+\begin{headline}[A: strictness is non-factorization]
+An observable $f$ of a join factors through a map $q$ on the image of~$q$ exactly when no
+split pair for $q$ and $f$ exists (\Cref{thm:split-criterion}). Consequently $f$ is strict,
+factoring on its image through neither parent nor their pairing, exactly when it has a split pair
+against each of the three maps (\Cref{thm:strict-split}). The third bit of the three-bit
+join is strict and the first is not (\Cref{ex:cube}). Strictness rules out relabelling and
+coarsening of a parent (\Cref{prop:strict-not-cheap}); \Cref{rem:refinement-limit} states its limit.
+\end{headline}
+
+\begin{headline}[B: admission order does not matter when admission only enables]
+In any system where an item may be admitted once none of its prerequisites is still pending, every run
+terminates, simultaneous admissions commute, and every maximal admission order from a
+given state reaches the same terminal state with the same audit value
+(\Cref{thm:admission}). The proof applies Newman's lemma (\Cref{thm:newman}); local
+confluence of a finite system is decidable by a finite search (\Cref{prop:finite-peaks}).
+Termination cannot be dropped (\Cref{ex:four-state}), and one disabling guard produces two
+terminal states (\Cref{ex:disabling}).
+\end{headline}
+
+\begin{headline}[C: a soundness check for the strictness certificate]
+Let $f$ be a strict observable of a semantic join, let $q$ be a declared common refinement
+and $s$ a declared schedule, and suppose it is proved that $f$ factors on its image through
+neither $q$ nor $s$. Then the anti-product witness whose flags are the truth values of the
+corresponding semantic predicates is valid (\Cref{thm:bridge}). Strictness does not supply
+the two extra hypotheses (\Cref{rem:refinement-limit}).
+\end{headline}
+
+\begin{headline}[D: what the certificate language separates]
+The certificate language keeps apart seven access coordinates, contact from join,
+composite formation from parent retention, enablement from descent (a recorded claim that
+an enabling theory also determines what it enables), reachability from
+occurrence, and order dependence from an arrow. Each separation is exhibited in the finite
+reference world by a named configuration with one property and not the other
+(\Cref{sec:separations}, \Cref{tab:separations}).
+\end{headline}
+
+Theorem~A is the mathematics behind the catalog's central object, the strict join.
+Theorem~B is the mathematics behind its confluence entry. Theorem~C is a soundness
+check between the two levels. Once its hypotheses are granted, each flag is settled in a
+line by the results behind Theorem~A or by a hypothesis, so the theorem is close to a restatement. What it
+checks is that the Boolean certificate asks for nothing a semantic model cannot supply:
+its validity predicate is satisfied by a genuine model, with each flag the truth value of
+a proved statement.
+
+\subsection{Map of results}
+\label{sec:intro-map}
+
+\Cref{tab:map} lists the numbered results. Each is proved where it is stated.
+
+{\footnotesize
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{11.1cm}@{}}
+\caption{Map of results.}\label{tab:map}\\
+\toprule
+\textbf{Result} & \textbf{What it establishes} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Result} & \textbf{What it establishes} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\Cref{thm:split-criterion} & A map factors through another on its image exactly when no split pair exists; for a finite list with decidable equality, a scan decides it. \\
+\Cref{thm:strict-split} & An observable of a join is strict exactly when it has split pairs against each parent and against the pairing. \\
+\Cref{prop:refinement} & An observable that factors globally through the pairing factors through every common refinement. \\
+\Cref{prop:strict-not-cheap} & A strict observable is neither relabelling-only nor coarsening-only. \\
+\Cref{thm:bridge} & For a strict observable that does not factor through the declared refinement and is not scheduling-only, setting each flag of an anti-product witness to its semantic truth value, with a nonempty description and an audit entry, gives a valid witness; the three-bit join is an instance. \\
+\Cref{thm:newman} & A terminating, locally confluent relation is confluent (classical). \\
+\Cref{cor:normal-forms} & Under confluence normal forms reachable from one state coincide, and with termination each state has exactly one. \\
+\Cref{prop:finite-peaks} & On a finite list with decidable equality and a decidable step relation, reachability and local confluence are decided by enumeration. \\
+\Cref{thm:admission} & In every admission system, admission runs terminate and every maximal admission order from a given state reaches the same terminal state. \\
+\Cref{prop:enablement-model} & An upper step can be enabled by the lower dynamics while an upper observable does not factor through a lower quotient. \\
+\Cref{prop:no-free-join} & A join that requires a capability not initially available, and alone produces it, never occurs in a lawful sequence. \\
+\Cref{prop:selection} & Selection by intersection creates no fact. \\
+\Cref{prop:search} & A bounded scan is exactly as strong as the coverage of its list and the closure of its horizon. \\
+\Cref{prop:bootstrap} & With no admitted seed, no reachable generator and no open provision, no first extension is authorized. \\
+\end{longtable}
+}
+
+\subsection{Relation to earlier work}
+\label{sec:intro-earlier}
+
+The factorization criterion of Theorem~A is the classical fact that a map is constant on
+the fibres of another exactly when it factors through that map on its image; this form on
+the reached image recurs throughout the Six Birds series \citep{TsiokosFoundationsIV}.
+Newman's lemma is classical \citep{Newman1942}, as is its standard counterexample without
+termination (\Cref{ex:four-state}) and the use of critical pairs to decide local
+confluence \citep{KnuthBendix1970,Huet1980}. The semantic package of
+\Cref{def:semantic-join} is the theory package of Foundations~I stripped to its observable
+\citep{TsiokosFoundationsI}. New here are the semantic join and its strictness
+characterization (\Cref{thm:strict-split}), which gives the catalog's anti-product
+condition a meaning; the admission model with \Cref{thm:admission}, the semantic content
+of the catalog's confluence entry, and its disabling counterexample; the finite decision
+procedure in this setting; and the soundness check of \Cref{thm:bridge}.
+
+The certificates sharpen records of the earlier papers. The access coordinates
+\exposed, \recoverable{} and \admissible{} sharpen Foundations~IV's access quotient and
+Foundations~II's admissible claims, and the split into \expressible, \present,
+\reachable{} and \occurrent{} is new \citep{TsiokosFoundationsIV,TsiokosFoundationsII}.
+Contact surfaces and join statuses sharpen the instrument-indexed records and status
+families of Foundations~III \citep{TsiokosFoundationsIII}. The strict-join certificate
+sharpens strict extension as non-factorization
+\citep{TsiokosFoundationsIV,TsiokosFoundationsIII,TsiokosStrictTest}. The enablement
+record sharpens the distinction between enablement and within-layer causation in the
+agenthood paper \citep{TsiokosAgents}. The drive certificate sharpens the protocol trap of
+Foundations~I and the no-go results on arrows from route residue
+\citep{TsiokosFoundationsI,TsiokosNoGo}. The bootstrap refusal sharpens the
+internalization law of Foundations~V and no-free-distinction of Foundations~IV
+\citep{TsiokosFoundationsV,TsiokosFoundationsIV}. \Cref{sec:related} places the
+certificate language among combination methods for logical theories, interface theories
+and provenance.
+
+\subsection{Roadmap}
+
+\Cref{sec:related} discusses related work and \Cref{sec:setting} fixes the setting and
+classifies the results by status.
+\Cref{sec:strict-join} proves Theorems~A and~C, and \Cref{sec:admission} proves
+Theorem~B. \Cref{sec:certificates} presents the certificate language and
+\Cref{sec:separations} what it separates and refuses. \Cref{sec:ttw} describes the finite
+reference world, \Cref{sec:scope} states the scope of the results, and \Cref{sec:lean}
+describes the Lean formalization. The companion supplement holds the source concordance,
+the full field lists of the certificates, the per-entry register, the no-go register, the
+finite evidence and the replay commands.

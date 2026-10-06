@@ -1,0 +1,115 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0140",
+      "BR-CITE-0160",
+      "BR-CITE-0187",
+      "BR-CITE-0197",
+      "BR-CITE-0225",
+      "BR-CITE-0236",
+      "BR-CITE-0240"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0184"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-S2",
+      "MM-HORIZON"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P046.jsonl",
+  "claim_count": 21,
+  "claim_grade_counts": {
+    "DEFINITION": 2,
+    "EXPLICIT_NONCLAIM": 5,
+    "INTERPRETIVE_REMARK": 5,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCHEMA": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 1,
+    "THEOREM_GRADE": 4
+  },
+  "claim_ids": [
+    "P046-C0001",
+    "P046-C0002",
+    "P046-C0003",
+    "P046-C0004",
+    "P046-C0005",
+    "P046-C0006",
+    "P046-C0007",
+    "P046-C0008",
+    "P046-C0009",
+    "P046-C0010",
+    "P046-C0011",
+    "P046-C0012",
+    "P046-C0013",
+    "P046-C0014",
+    "P046-C0015",
+    "P046-C0016",
+    "P046-C0017",
+    "P046-C0018",
+    "P046-C0019",
+    "P046-C0020",
+    "P046-C0021"
+  ],
+  "claim_type_counts": {
+    "definition": 2,
+    "lemma": 2,
+    "nonclaim": 5,
+    "paper_thesis": 1,
+    "remark": 5,
+    "result_summary": 2,
+    "schema": 1,
+    "scope_boundary": 1,
+    "theorem": 2
+  },
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "definition_claim_ids": [
+    "P046-C0005",
+    "P046-C0009"
+  ],
+  "formal_claim_ids": [
+    "P046-C0003",
+    "P046-C0004",
+    "P046-C0008",
+    "P046-C0011",
+    "P046-C0013"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 21
+  },
+  "foundations_vii_groups": [
+    "CG25"
+  ],
+  "foundations_vii_hook": "mathematical objecthood, purchased distinctions, and theory-relative existence",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P046.md",
+  "nonclaim_scope_ids": [
+    "P046-C0002",
+    "P046-C0006",
+    "P046-C0015",
+    "P046-C0017",
+    "P046-C0019",
+    "P046-C0021"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P046",
+  "reading_order": 12,
+  "resolved_dependency_papers": [
+    "P031"
+  ],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Count_a_Stone_with_Six_Birds_A_Mathematics_is_A_Theory.tex",
+  "source_root_sha256": "62164ce6eb627c9251d6ced9866529cc4e01fcf9b5fa30cfcd25157df1e7a95a",
+  "source_tree_sha256": "2513441ec96ecca02a5d62a607f5292dd7bca100e317bce4de8684c560af2062",
+  "status": "BRIDGED",
+  "title": "A Mathematics Is a Theory"
+}

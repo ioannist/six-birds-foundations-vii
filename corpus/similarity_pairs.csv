@@ -1,0 +1,31 @@
+paper_a,paper_b,five_word_shingle_jaccard,classification,note
+P040,P058,0.687845,version-family,near-duplicate architecture; filenames and internal titles are crossed
+P004,P009,0.040127,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P024,P025,0.033732,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P004,P017,0.021887,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P004,P039,0.021697,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P016,P039,0.021555,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P025,P039,0.020456,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P021,P039,0.020266,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P003,P037,0.018267,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P016,P022,0.017905,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P009,P017,0.017754,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P011,P039,0.017641,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P014,P039,0.017035,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P014,P021,0.015859,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P011,P019,0.015809,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P009,P039,0.015704,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P024,P039,0.015403,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P052,P055,0.014633,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P022,P039,0.014484,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P004,P006,0.014131,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P009,P025,0.013963,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P014,P022,0.013554,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P008,P039,0.013196,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P003,P039,0.013098,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P002,P041,0.013045,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P006,P017,0.013019,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P021,P022,0.012536,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P013,P039,0.012527,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P032,P039,0.012368,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence
+P012,P039,0.012337,thematically-related,shared vocabulary or source/application relation; not a version on Step-1 evidence

@@ -1,0 +1,45 @@
+FVII-SCI-01 VALIDATION: PASS
+mode=USER_AUTHORIZED_EXTERNAL_LEAN_REPLAY
+checks=38
+pass=38
+info=1
+fail=0
+PASS	object_registry	rows=18
+PASS	fifteen_vii_owned_types	O04-O18
+PASS	audit_anchor_and_local_representation	inherited audit role anchored separately from the VII append-only representation
+PASS	formalization_target_registry	rows=20
+PASS	adapter_ledger	rows=30
+PASS	adapter_target_coverage	FT01-FT20
+PASS	candidate_registry	rows=36
+PASS	terminal_candidate_partition	C020/C023/C024/C025
+PASS	later_candidate_nonexecution	support_rows=32
+PASS	terminal_declaration_trace	no missing terminal source declarations
+PASS	terminal_protocol_strength	missing=[]
+PASS	decision_registry	rows=15
+PASS	decision_non_silent_resolution	all decisions retain a terminal phase
+PASS	public_declaration_registry	rows=447
+PASS	stable_science_asset_ids	unique=447 rows=447
+PASS	vii_owned_trust_surface	no new VII axiom/opaque
+PASS	inherited_trust_explicit	one inherited axiom plus five opaque constants
+PASS	fixture_census	scenarios=24 countermodels=27
+PASS	fixture_ids	complete frozen IDs
+PASS	lossless_step3_migration	flags, expectations, assertions, traces
+PASS	typed_fixture_sections	15 VII-owned records plus append-only audit
+PASS	canonical_fixture_bytes	sorted compact UTF-8 plus trailing newline
+PASS	closed_fixture_schemas	root, flags, structural records, and countermodels reject undeclared fields
+PASS	fixture_manifest_hashes	rows=51
+PASS	countermodel_scenario_hashes	27/27
+PASS	python_unit_tests	25 tests
+PASS	python_reference_world	24/24 scenarios; 27/27 countermodels
+PASS	twenty_four_reached_statuses	distinct=24
+PASS	deterministic_generators	fingerprint=718e1dc48ea050b0
+PASS	lean_static_validation	imports, lexical structure, declarations, scope
+PASS	python_syntax	files=55 errors=[]
+PASS	shell_syntax	scripts/rebuild_fvii_sci01.sh, scripts/run_fvii_sci01_external_lean.sh
+PASS	imported_scaffolds_immutable	Foundations V/VI byte surfaces unchanged from plan tag
+PASS	no_paper_writing	no tracked or untracked TeX changed or added
+PASS	no_later_phase_modules	Phase 2-4 science not executed
+PASS	external_replay_instructions	directions and executable script
+PASS	transient_artifacts_absent	found=[]
+PASS	lean_environment_override	PENDING_EXTERNAL_LEAN_BUILD_AND_DIFFERENTIAL_REPLAY
+INFO	lean_execution_boundary	Lean kernel build, #print axioms replay, and 51-case Lean/Python differential remain pending external execution; this is nonblocking under the owner's explicit authorization.

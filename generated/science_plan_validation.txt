@@ -1,0 +1,34 @@
+SCIENCE PLAN VALIDATION: PASS (33/33 checks)
+[PASS] required plan documents: documents=11
+[PASS] five execution phases: phases=['FVII-SCI-01', 'FVII-SCI-02', 'FVII-SCI-03', 'FVII-SCI-04', 'FVII-SCI-05']
+[PASS] unique phase tags and zips: tags/zips unique
+[PASS] exact coverage candidate_id: source=36 mapped=36
+[PASS] exact coverage target_id: source=20 mapped=20
+[PASS] exact coverage object_id: source=18 mapped=18
+[PASS] exact coverage no_go_id: source=11 mapped=11
+[PASS] exact coverage scenario_id: source=24 mapped=24
+[PASS] exact coverage countermodel_id: source=27 mapped=27
+[PASS] exact coverage decision_id: source=15 mapped=15
+[PASS] valid phase references candidate_phase_map.csv: bad=[]
+[PASS] valid phase references formalization_target_phase_map.csv: bad=[]
+[PASS] valid phase references no_go_phase_map.csv: bad=[]
+[PASS] valid phase references scenario_phase_map.csv: bad=[]
+[PASS] valid phase references countermodel_phase_map.csv: bad=[]
+[PASS] valid phase references decision_phase_map.csv: bad=[]
+[PASS] all candidates finalized by phase 4 then audited in phase 5: terminal phases 1-4; final audit 5
+[PASS] all no-gos assigned proof phase: no-go proof phases are 2-4
+[PASS] asset class contract: classes=8
+[PASS] proof grade contract: grades=8
+[PASS] explicit no-paper boundary: boundary stated
+[PASS] final archive named: final archive present
+[PASS] Lean build mandatory: kernel gate present
+[PASS] truthful false-candidate policy: refutation path present
+[PASS] base-tag diff available: changed_paths=41
+[PASS] no VII Lean implementation executed: lean_paths=[]
+[PASS] frozen subtree untouched: formalization/foundations_v_scaffold/: touched=[]
+[PASS] frozen subtree untouched: formalization/foundations_vi_scaffold/: touched=[]
+[PASS] frozen subtree untouched: vii/: touched=[]
+[PASS] frozen subtree untouched: readiness/: touched=[]
+[PASS] frozen subtree untouched: claims/: touched=[]
+[PASS] frozen subtree untouched: bridges/: touched=[]
+[PASS] no toy-model or theorem implementation executed: implementation_paths=[]

@@ -1,0 +1,1097 @@
+{
+  "candidate_id": "VII-C014",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG15"
+  ],
+  "countermodels": [
+    "CM-02",
+    "CM-17"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Birth/contact-surface classification.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Birth/contact-surface classification record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to Layer birth is classified by who performs closure, what new object survives, whether participants are created or only related, and whether the birth occurs at or through a contact surface.",
+  "formalization_targets": [
+    "FT11",
+    "FT12"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "Layer birth is classified by who performs closure, what new object survives, whether participants are created or only related, and whether the birth occurs at or through a contact surface.",
+  "kind": "CANDIDATE_CLASSIFICATION_SCHEMA",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Birth/contact-surface classification",
+  "nonclaims": [
+    "Contact does not itself constitute birth.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S08"
+  ],
+  "positive_model": [
+    "TTW-S06"
+  ],
+  "priority": "P1",
+  "proof_obligations": [
+    "Reconcile inherited birth classes before adding cases.",
+    "Provide finite reachability requirements for each class.",
+    "Separate undergoing closure from performing it."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "Layer birth is classified by who performs closure, what new object survives, whether participants are created or only related, and whether the birth occurs at or through a contact surface.",
+  "recommended_chapter": "Ch07",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P045-C0004",
+      "P038-C0015",
+      "P045-C0011",
+      "P050-C0002",
+      "P045-C0008",
+      "P045-C0005",
+      "P045-C0002",
+      "P043-C0007",
+      "P038-C0034",
+      "P038-C0017",
+      "P038-C0016",
+      "P038-C0010",
+      "P038-C0022"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0139",
+      "BR-CITE-0180",
+      "BR-CITE-0181",
+      "BR-CITE-0182",
+      "BR-CITE-0183",
+      "BR-CITE-0156",
+      "BR-CITE-0188",
+      "BR-CITE-0138",
+      "BR-CITE-0061",
+      "BR-CITE-0178",
+      "BR-CITE-0194",
+      "BR-CITE-0165",
+      "BR-CITE-0166",
+      "BR-CITE-0167",
+      "BR-CITE-0169"
+    ],
+    "law_or_no_go_ids": [],
+    "open_problem_ids": [
+      "P038-C0027",
+      "P045-C0009",
+      "P045-C0006",
+      "P045-C0003",
+      "P043-C0009",
+      "P038-C0031",
+      "P038-C0032",
+      "P038-C0024",
+      "P038-C0033"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P045-C0007",
+        "claim_type": "result_summary",
+        "conclusion": "not merely taxonomic by declaration. It is enforced by a validated observable channel: affinity. The no-fake-arrow controls make that point especially important. Reversible controls do not get spuriously promoted into the driven class, while hidden-schedule protocol-trap constructions do produce the expected driven-positive signal under naive handling. This is precisely the kind of evidential discipline that a primitive taxonomy needs if it is to be more than nomenclature",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The main result of this paper is not a final exponent-level universality classification. It is a primitive taxonomy and observable separation of layer-birth classes. Within the Six-Birds framework, the experimentally accessible low-complexity births are organized by activation of P5 , P6_ drive , and P4 , and the four corresponding canonical classes can be instantiated and separated in a common measured observable space. That is the level at which the evidence is now strongest, and it is the level at which the paper should be read. The most mature part of that result is the Class-I / Class-II contrast. Both classes exhibit structural birth, but only Class-II carries a robust directed-circulation signal at structural birth. The empirical separation is"
+          }
+        ],
+        "nonclaims": [
+          "P045-C0002",
+          "P045-C0004",
+          "P045-C0005",
+          "P045-C0008",
+          "P045-C0011"
+        ],
+        "normalized_claim": "Discussion: The main result of this paper is not a final exponent-level universality classification. It is a primitive taxonomy and observable separation of layer-birth classes. Within the Six-Birds framework, the experimentally accessible low-complexity births are organized by activation of P5 , P6_ drive , and P4 , and the four corresponding canonical classes can be instantiated and separated in a common measured observable space. That is the level at which the evidence is now strongest, and it is the level at which the paper should be read. The most mature part of that result is the Class-I / Class-II contrast. Both classes exhibit structural birth, but only Class-II carries a robust directed-circulation signal at structural birth. The empirical separation is therefore not merely taxonomic by declaration. It is enforced by a validated observable channel: affinity. The no-fake-arrow controls make that point especially important. Reversible controls do not get spuriously promoted into the driven class, while hidden-schedule protocol-trap constructions do produce the expected driven-positive signal under naive handling. This is precisely the kind of evidential discipline that a primitive taxonomy needs if it is to be more than nomenclature.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L418-L439; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L418-L439",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P045-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "We ask not merely whether layer birth occurs, but how many primitive kinds of birth are experimentally accessible. Within the Six-Birds framework, birth events can be organized by activation of packaging ( P5 ), directed circulation ( P6_ drive ), and staging anomaly ( P4 ). We show that these primitives support a small canonical taxonomy of four layer-birth classes and that the corresponding classes can be operationally instantiated and separated in a common measured observable space. Class-I activates packaging without drive; Class-II activates packaging together with directed circulation; Class-III activates packaging together with a staging anomaly but without drive; and Class-IV activates all three. The strongest empirical separation is between Class-I and Class-II, where affinity at structural birth robustly discriminates drive-free from driven births and explicit no-fake-arrow controls rule out coarse-graining artifacts. We then place all four classes on a shared observable map using structural boundary location, affinity at boundary, and a strict-rule-aligned staging proxy. Capacity/depth behaves as a post-birth field rather than a primary classifier, and at least one upstream/PICA-style system can be embedded in the same coordinate system. We do not claim stabilized universality exponents. Instead, we provide a primitive taxonomy and observable separation of layer-birth classes that future universality work must respect.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P045-C0002",
+          "P045-C0004",
+          "P045-C0005",
+          "P045-C0008",
+          "P045-C0011"
+        ],
+        "normalized_claim": "We ask not merely whether layer birth occurs, but how many primitive kinds of birth are experimentally accessible. Within the Six-Birds framework, birth events can be organized by activation of packaging ( P5 ), directed circulation ( P6_ drive ), and staging anomaly ( P4 ). We show that these primitives support a small canonical taxonomy of four layer-birth classes and that the corresponding classes can be operationally instantiated and separated in a common measured observable space. Class-I activates packaging without drive; Class-II activates packaging together with directed circulation; Class-III activates packaging together with a staging anomaly but without drive; and Class-IV activates all three. The strongest empirical separation is between Class-I and Class-II, where affinity at structural birth robustly discriminates drive-free from driven births and explicit no-fake-arrow controls rule out coarse-graining artifacts. We then place all four classes on a shared observable map using structural boundary location, affinity at boundary, and a strict-rule-aligned staging proxy. Capacity/depth behaves as a post-birth field rather than a primary classifier, and at least one upstream/PICA-style system can be embedded in the same coordinate system. We do not claim stabilized universality exponents. Instead, we provide a primitive taxonomy and observable separation of layer-birth classes that future universality work must respect.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L72-L75; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L72-L75",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P050-C0005",
+        "claim_type": "definition",
+        "conclusion": "A realization of a primitive on S is a specification of internal operators and constraints on S that instantiate the primitive without introducing external oracles. Concretely, realizations may be given by endomaps on distributions or predicates, deterministically induced coarse-grainings, internal audit functionals, and internal composition rules.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Realization (informal): A realization of a primitive on S is a specification of internal operators and constraints on S that instantiate the primitive without introducing external oracles. Concretely, realizations may be given by endomaps on distributions or predicates, deterministically induced coarse-grainings, internal audit functionals, and internal composition rules.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L324-L328; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L324-L328",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P038-C0013",
+        "claim_type": "theorem",
+        "conclusion": "T_1 is a strict theory extension of T_0 on S_ aud . Equivalently, there is no factorization pi_1=phi pi_0 on S_ aud for any map phi:O_0→O_1",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let S_ aud be the audited shell-stable class, let pi_0:S_ aud → O_0 be the cocycle-level object map of the base theory T_0 , and let pi_1:S_ aud → O_1 be the packaged-object map defined by the completion theory T_1 . Assume: the cocycle-pressure theory T_0 is closed on S_ aud , the completion endomap is well-defined on S_ aud , saturation of the completion dynamics occurs on the audited shell, material P4 P5 forcing produces new packaged strata after saturation, and the cocycle-level theory exhibits macro-admissibility obstruction on the packaged future"
+          }
+        ],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Strict theory extension on the audited shell: Let S_ aud be the audited shell-stable class, let pi_0:S_ aud → O_0 be the cocycle-level object map of the base theory T_0 , and let pi_1:S_ aud → O_1 be the packaged-object map defined by the completion theory T_1 . Assume: the cocycle-pressure theory T_0 is closed on S_ aud , the completion endomap is well-defined on S_ aud , saturation of the completion dynamics occurs on the audited shell, material P4 P5 forcing produces new packaged strata after saturation, and the cocycle-level theory exhibits macro-admissibility obstruction on the packaged future. Then T_1 is a strict theory extension of T_0 on S_ aud . Equivalently, there is no factorization pi_1=phi pi_0 on S_ aud for any map phi:O_0→O_1 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L695-L718; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L695-L718",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P050-C0004",
+        "claim_type": "definition",
+        "conclusion": "A substrate S consists of: (i) a state carrier Z (finite in our canonical machine model), (ii) a composable dynamics primitive (autonomous in the canonical model), and (iii) an admissible family of deterministic observational maps (lenses) from Z to coarser description spaces. Additional internal structure may be present (e.g.\\ registers, ledgers, prototype selectors), but must be represented as part of state or as derived operators.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Substrate (informal): A substrate S consists of: (i) a state carrier Z (finite in our canonical machine model), (ii) a composable dynamics primitive (autonomous in the canonical model), and (iii) an admissible family of deterministic observational maps (lenses) from Z to coarser description spaces. Additional internal structure may be present (e.g.\\ registers, ledgers, prototype selectors), but must be represented as part of state or as derived operators.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L313-L320; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L313-L320",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "CONDITIONAL_THEOREM",
+        "claim_id": "P038-C0018",
+        "claim_type": "theorem",
+        "conclusion": "the weighted package-conditioned pressure gap is nontrivial on the audited shell. Equivalently, the cocycle-level pressure is not sufficient for the packaged future, and the thermodynamic consequence of the extension is a nontrivial conditional pressure disintegration",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let S_ aud be the audited shell-stable class, let P_ T_0 (s) be the closed cocycle pressure object of the base theory T_0 , and let F(x) be the persistent packaged strata of the extended theory T_1 with weights w_ Sigma (x) . Define Delta_ T_0→ T_1 (s) := P_ T_0 (s) - _ Sigma∈F(x) w_ Sigma (x) P_ Sigma (s). Assume: the cocycle pressure object of T_0 is closed on S_ aud , the packaged-object theory T_1 is well-defined on S_ aud , the strict theory-extension theoremlet holds on S_ aud , and the package-conditioned pressure profiles are well-defined on the audited shell"
+          }
+        ],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Conditional pressure disintegration on the audited shell: Let S_ aud be the audited shell-stable class, let P_ T_0 (s) be the closed cocycle pressure object of the base theory T_0 , and let F(x) be the persistent packaged strata of the extended theory T_1 with weights w_ Sigma (x) . Define Delta_ T_0→ T_1 (s) := P_ T_0 (s) - _ Sigma∈F(x) w_ Sigma (x) P_ Sigma (s). Assume: the cocycle pressure object of T_0 is closed on S_ aud , the packaged-object theory T_1 is well-defined on S_ aud , the strict theory-extension theoremlet holds on S_ aud , and the package-conditioned pressure profiles are well-defined on the audited shell. Then the weighted package-conditioned pressure gap is nontrivial on the audited shell. Equivalently, the cocycle-level pressure is not sufficient for the packaged future, and the thermodynamic consequence of the extension is a nontrivial conditional pressure disintegration.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L805-L822; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L805-L822",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P038-C0011",
+        "claim_type": "theorem",
+        "conclusion": "the cocycle-pressure object of the base theory T_0 is closed on the audited shell",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let S_ aud be the audited shell-stable class from Section , and let a_n(s;x) be the selector-weighted operator growth observable associated with the base cocycle theory T_0 . Define Phi_n(s):= _ x∈S_ aud a_n(s;x). Assume the shell-stable hypotheses of the lawfulness theoremlet, together with the shell-uniform cocycle bounds and bounded-error comparison estimates required by the Fekete-sup route. Then the following hold on the audited shell. The pressure object P_ T_0 (s)= _ n→∈fty 1 n Phi_n(s) exists on the relevant parameter window. P_ T_0 (s) is finite and nondegenerate on that window. P_ T_0 (s) is monotone in s . P_ T_0 (s) has enough regularity to support a later root-based thermodynamic theorem"
+          }
+        ],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Cocycle pressure closure on the audited shell: Let S_ aud be the audited shell-stable class from Section , and let a_n(s;x) be the selector-weighted operator growth observable associated with the base cocycle theory T_0 . Define Phi_n(s):= _ x∈S_ aud a_n(s;x). Assume the shell-stable hypotheses of the lawfulness theoremlet, together with the shell-uniform cocycle bounds and bounded-error comparison estimates required by the Fekete-sup route. Then the following hold on the audited shell. The pressure object P_ T_0 (s)= _ n→∈fty 1 n Phi_n(s) exists on the relevant parameter window. P_ T_0 (s) is finite and nondegenerate on that window. P_ T_0 (s) is monotone in s . P_ T_0 (s) has enough regularity to support a later root-based thermodynamic theorem. Therefore the cocycle-pressure object of the base theory T_0 is closed on the audited shell.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L580-L599; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L580-L599",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P038-C0008",
+        "claim_type": "theorem",
+        "conclusion": "the following hold on S_ aud . The update law is well-defined and remains inside the shell. Lens competition and packaging competition remain nondegenerate. Budget and timescale dynamics remain active and lawful. All six mechanisms P1 – P6 remain causally active in the resulting dynamics. The shell supports a nontrivial lawful exploratory regime rather than immediate collapse into a degenerate frozen state. In particular, S_ aud supports a continuous full-loop lawful regime",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let S_ aud be the audited shell-stable class of continuous substrate states described above. Assume that the full update law F satisfies the shell-stable hypotheses just listed: well-posed continuous operator dynamics, full six-mechanism causal closure, hysteresis-stable lens and packaging selection, lawful budget/timescale evolution, and absence of fast collapse on the shell"
+          }
+        ],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Continuous full-loop lawfulness on the audited shell: Let S_ aud be the audited shell-stable class of continuous substrate states described above. Assume that the full update law F satisfies the shell-stable hypotheses just listed: well-posed continuous operator dynamics, full six-mechanism causal closure, hysteresis-stable lens and packaging selection, lawful budget/timescale evolution, and absence of fast collapse on the shell. Then the following hold on S_ aud . The update law is well-defined and remains inside the shell. Lens competition and packaging competition remain nondegenerate. Budget and timescale dynamics remain active and lawful. All six mechanisms P1 – P6 remain causally active in the resulting dynamics. The shell supports a nontrivial lawful exploratory regime rather than immediate collapse into a degenerate frozen state. In particular, S_ aud supports a continuous full-loop lawful regime.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L435-L447; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L435-L447",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P050-C0026",
+        "claim_type": "theorem",
+        "conclusion": "route mismatch must be treated as its own certificate family and cannot be conflated with an arrow audit",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The following substrate features are necessary (up to equivalent internal encodings) to realize the corresponding primitives without smuggling: [leftmargin=*, itemsep=0.35em] Autonomy requires phase-in-state (P3). If a substrate permits staged protocols but does not represent protocol state internally, then stroboscopic composition can produce apparent arrows of time that vanish once the dynamics is made autonomous by lifting state. Therefore, any autonomous semantics for protocols must encode phase-in-state (or an equivalent internal mechanism). Genuine arrows require internal drive (P6 drive ). Autonomy plus staging does not imply directionality. In an autonomous lifted model with reversible internal phase dynamics, protocol-induced arrows can disappear ( Sigma_T 0 ). To obtain a genuine arrow in an autonomous substrate, one needs internal drive detectable by a nonzero affinity class (ACC cycle integrals). Audits must be monotone under coarse-graining (P6). There exist processes with real micro irreversibility but macro observations whose path law is reversal-invariant ( Sigma_T^ macro =0 ). Any audit that reports increased directionality after coarse-graining violates limited-access semantics and is therefore smuggled. Packaging must be an internal (approximate) idempotent endomap (P5). Without an internal endomap e (or closure operator) that induces packaging equivalence x _e y iff e(x)=e(y) , there is no internal notion of ``same packaged object'' and no internal fixed-point criterion for stability. Declaring macrostates by fiat is smuggling. Route mismatch is distinct from directionality (P3 vs.\\ P6). Packaging along different refinement routes can yield a measurable holonomy defect (route mismatch), even when directionality audits obey data processing"
+          }
+        ],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "No-smuggling separations: The following substrate features are necessary (up to equivalent internal encodings) to realize the corresponding primitives without smuggling: [leftmargin=*, itemsep=0.35em] Autonomy requires phase-in-state (P3). If a substrate permits staged protocols but does not represent protocol state internally, then stroboscopic composition can produce apparent arrows of time that vanish once the dynamics is made autonomous by lifting state. Therefore, any autonomous semantics for protocols must encode phase-in-state (or an equivalent internal mechanism). Genuine arrows require internal drive (P6 drive ). Autonomy plus staging does not imply directionality. In an autonomous lifted model with reversible internal phase dynamics, protocol-induced arrows can disappear ( Sigma_T 0 ). To obtain a genuine arrow in an autonomous substrate, one needs internal drive detectable by a nonzero affinity class (ACC cycle integrals). Audits must be monotone under coarse-graining (P6). There exist processes with real micro irreversibility but macro observations whose path law is reversal-invariant ( Sigma_T^ macro =0 ). Any audit that reports increased directionality after coarse-graining violates limited-access semantics and is therefore smuggled. Packaging must be an internal (approximate) idempotent endomap (P5). Without an internal endomap e (or closure operator) that induces packaging equivalence x _e y iff e(x)=e(y) , there is no internal notion of ``same packaged object'' and no internal fixed-point criterion for stability. Declaring macrostates by fiat is smuggling. Route mismatch is distinct from directionality (P3 vs.\\ P6). Packaging along different refinement routes can yield a measurable holonomy defect (route mismatch), even when directionality audits obey data processing. Therefore, route mismatch must be treated as its own certificate family and cannot be conflated with an arrow audit.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L748-L769; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L748-L769",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P038-C0005",
+        "claim_type": "result_summary",
+        "conclusion": "The continuous substrate evolves by the full six-mechanism update law x↦ F(x), x∈ S_ aud . This trajectory is the source of the mathematical structures we study, but it is not itself the theorem object. A theorem stated directly about raw trajectories would be too tied to the simulation-level presentation and would not distinguish between: the cocycle-level object visible through the base theory, the packaged fixed-point structure visible only after completion, and the extension relation between those two levels. What the paper needs is an object that remembers both the closed thermodynamic structure already present at the cocycle level and the new packaged strata created by completion.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Why the raw trajectory is not the theorem object: The continuous substrate evolves by the full six-mechanism update law x↦ F(x), x∈ S_ aud . This trajectory is the source of the mathematical structures we study, but it is not itself the theorem object. A theorem stated directly about raw trajectories would be too tied to the simulation-level presentation and would not distinguish between: the cocycle-level object visible through the base theory, the packaged fixed-point structure visible only after completion, and the extension relation between those two levels. What the paper needs is an object that remembers both the closed thermodynamic structure already present at the cocycle level and the new packaged strata created by completion.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L293-L307; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L293-L307",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P043-C0004",
+        "claim_type": "definition",
+        "conclusion": "Besides feasible-set atlases, one may chart scalar fields over the same control space. Two generic examples are the closure field CE^ _ Q (u) = ∈f Bigl\\ [t] CE(u;Pi,L) : (Pi,L)∈C(u), NT(u;Pi,L), AS(u;Pi,L), Cost(u;Pi,L) B(u), Q(u;Pi,L) Bigr\\ , and the budget frontier B^ _ Q (u) = ∈f Bigl\\ [t] Cost(u;Pi,L) : (Pi,L)∈C(u), CE(u;Pi,L) delta, NT(u;Pi,L), AS(u;Pi,L), Q(u;Pi,L) Bigr\\ . The paper will also use novelty, directionality, effective-information, and budget fields as additional slices of the same atlas object.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P043-C0007"
+        ],
+        "normalized_claim": "Atlas fields: Besides feasible-set atlases, one may chart scalar fields over the same control space. Two generic examples are the closure field CE^ _ Q (u) = ∈f Bigl\\ [t] CE(u;Pi,L) : (Pi,L)∈C(u), NT(u;Pi,L), AS(u;Pi,L), Cost(u;Pi,L) B(u), Q(u;Pi,L) Bigr\\ , and the budget frontier B^ _ Q (u) = ∈f Bigl\\ [t] Cost(u;Pi,L) : (Pi,L)∈C(u), CE(u;Pi,L) delta, NT(u;Pi,L), AS(u;Pi,L), Q(u;Pi,L) Bigr\\ . The paper will also use novelty, directionality, effective-information, and budget fields as additional slices of the same atlas object.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L166-L204; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L166-L204",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P043-C0002",
+        "claim_type": "definition",
+        "conclusion": "A control space U is any set of variables over which macro-law feasibility is to be charted. A control point u ∈ U may include a microscopic law parameter, a packaging or lens, a staging depth tau , a protocol or mechanism variable, and a budget coordinate. Different atlases in this paper use different choices of U : law-space atlases vary microscopic law parameters while holding packaging fixed, packaging-space atlases vary the packaging while holding the microscopic law fixed, and mechanism-space atlases vary protocol/mechanism choices over a fixed finite-state substrate. For a given control point u , let x_t ∈ X denote the microscopic state and let x_ t+1 K_u( x_t) denote the corresponding microscopic update law. Let tau(u) ∈ N be the staging depth at which the macro-description is assessed. An admissible macro-description at u is a pair (Pi,L) ∈ C(u) , where Pi : X → Y is a packaging map and L is a candidate macro update rule on Y . The family C(u) collects whichever package/law pairs are allowed at that control point.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P043-C0007"
+        ],
+        "normalized_claim": "Control space and admissible macro-descriptions: A control space U is any set of variables over which macro-law feasibility is to be charted. A control point u ∈ U may include a microscopic law parameter, a packaging or lens, a staging depth tau , a protocol or mechanism variable, and a budget coordinate. Different atlases in this paper use different choices of U : law-space atlases vary microscopic law parameters while holding packaging fixed, packaging-space atlases vary the packaging while holding the microscopic law fixed, and mechanism-space atlases vary protocol/mechanism choices over a fixed finite-state substrate. For a given control point u , let x_t ∈ X denote the microscopic state and let x_ t+1 K_u( x_t) denote the corresponding microscopic update law. Let tau(u) ∈ N be the staging depth at which the macro-description is assessed. An admissible macro-description at u is a pair (Pi,L) ∈ C(u) , where Pi : X → Y is a packaging map and L is a candidate macro update rule on Y . The family C(u) collects whichever package/law pairs are allowed at that control point.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L119-L127; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L119-L127",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P050-C0025",
+        "claim_type": "theorem",
+        "conclusion": "they are mutually simulable up to packaging equivalence via packaging-respecting maps in the sense of",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let S be a substrate that realizes P1–P6 without smuggling in the sense of . Assume further that the realized operators are finitary (state and registers can be encoded in a finite carrier) and autonomous once all protocol state is represented. Then there exists a substrate M∈ S_ and an encoding of S into M such that: [leftmargin=*, itemsep=0.25em] the lens/refinement structure of S is simulated by deterministic lenses on M , packaging in S is simulated by internal packaging endomaps on M up to packaging equivalence, and admissible audits in S are represented by intrinsic audits on M (in particular, directionality audits respect monotonicity under coarse-graining). Moreover, if two compilations choose the same canonical prototype-selection scheme for each lens (e.g.\\ uniform-on-fiber) and the same auditing conventions"
+          }
+        ],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Compilation to S_ up to packaging equivalence: Let S be a substrate that realizes P1–P6 without smuggling in the sense of . Assume further that the realized operators are finitary (state and registers can be encoded in a finite carrier) and autonomous once all protocol state is represented. Then there exists a substrate M∈ S_ and an encoding of S into M such that: [leftmargin=*, itemsep=0.25em] the lens/refinement structure of S is simulated by deterministic lenses on M , packaging in S is simulated by internal packaging endomaps on M up to packaging equivalence, and admissible audits in S are represented by intrinsic audits on M (in particular, directionality audits respect monotonicity under coarse-graining). Moreover, if two compilations choose the same canonical prototype-selection scheme for each lens (e.g.\\ uniform-on-fiber) and the same auditing conventions, then they are mutually simulable up to packaging equivalence via packaging-respecting maps in the sense of .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L720-L731; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L720-L731",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P038-C0029",
+        "claim_type": "result_summary",
+        "conclusion": "The present result does not prove that the audited-shell class can be replaced by a substantially wider parameter shell. That remains future work.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Wider parameter-shell results.: The present result does not prove that the audited-shell class can be replaced by a substantially wider parameter shell. That remains future work.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L932-L935; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L932-L935",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "PAPER_STATED_RESULT_SUMMARY",
+        "claim_id": "P038-C0014",
+        "claim_type": "result_summary",
+        "conclusion": "Theorem is the paper’s open-endedness theoremlet. It shows that the packaged-object theory is not merely a more elaborate visualization of the cocycle-pressure theory. It defines a deeper theory on the same audited shell.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P038-C0002",
+          "P038-C0003",
+          "P038-C0004",
+          "P038-C0007",
+          "P038-C0009",
+          "P038-C0010",
+          "P038-C0012",
+          "P038-C0015",
+          "P038-C0016",
+          "P038-C0017",
+          "P038-C0020",
+          "P038-C0021",
+          "P038-C0022",
+          "P038-C0025",
+          "P038-C0026",
+          "P038-C0030",
+          "P038-C0034"
+        ],
+        "normalized_claim": "Theorem is the paper’s open-endedness theoremlet. It shows that the packaged-object theory is not merely a more elaborate visualization of the cocycle-pressure theory. It defines a deeper theory on the same audited shell.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L766; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L766",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P050-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Work on multi-scale organization and audit-based directionality lacks a minimal-substrate theorem: key primitives are often realized only by smuggling in external schedules, ad hoc audits, or declared quotients, making results hard to verify and compare across substrates. We introduce a no-smuggling minimal-substrate semantics for SPT, operationalize it via matched-control audit tests on finite stochastic machines, and demonstrate separations between protocol artifacts, intrinsic drive, and route-dependent packaging defects. Operationally, we define a canonical machine class S_ of autonomous finite stochastic dynamics with phase-in-state, deterministic lenses, induced packaging endomaps E_ ,f , and intrinsic audits (path-reversal KL asymmetry _T and ACC affinities), and we implement exact computations together with a reproducible witness suite and a Lean-checked idempotent/closure backbone for packaging equivalence and saturation . Under calibrated controls, stroboscopic protocols can exhibit _T>0 while their autonomous lifts yield _T 0 (protocol trap), whereas turning on internal phase drive produces a clean null-vs-driven separation with _T(Z)>0 and a detectable projected macro arrow; moreover deterministic coarse-graining never increases _T and can erase it entirely, and packaging along refinement routes exhibits a prototype-driven holonomy defect that is large at moderate timescales while a uniform baseline is near zero and satisfies a gain-plus-mismatch bound. These results supply a machine semantics and separation witnesses for a minimal substrate theorem, reducing false positives and turning SPT from a language into a compilation target up to packaging equivalence. We are explicit that we do not establish a universal physical substrate or continuum limit: our conclusions are semantic and rest on exact finite-state audits and controlled constructions rather than empirical natural-system data.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Work on multi-scale organization and audit-based directionality lacks a minimal-substrate theorem: key primitives are often realized only by smuggling in external schedules, ad hoc audits, or declared quotients, making results hard to verify and compare across substrates. We introduce a no-smuggling minimal-substrate semantics for SPT, operationalize it via matched-control audit tests on finite stochastic machines, and demonstrate separations between protocol artifacts, intrinsic drive, and route-dependent packaging defects. Operationally, we define a canonical machine class S_ of autonomous finite stochastic dynamics with phase-in-state, deterministic lenses, induced packaging endomaps E_ ,f , and intrinsic audits (path-reversal KL asymmetry _T and ACC affinities), and we implement exact computations together with a reproducible witness suite and a Lean-checked idempotent/closure backbone for packaging equivalence and saturation . Under calibrated controls, stroboscopic protocols can exhibit _T>0 while their autonomous lifts yield _T 0 (protocol trap), whereas turning on internal phase drive produces a clean null-vs-driven separation with _T(Z)>0 and a detectable projected macro arrow; moreover deterministic coarse-graining never increases _T and can erase it entirely, and packaging along refinement routes exhibits a prototype-driven holonomy defect that is large at moderate timescales while a uniform baseline is near zero and satisfies a gain-plus-mismatch bound. These results supply a machine semantics and separation witnesses for a minimal substrate theorem, reducing false positives and turning SPT from a language into a compilation target up to packaging equivalence. We are explicit that we do not establish a universal physical substrate or continuum limit: our conclusions are semantic and rest on exact finite-state audits and controlled constructions rather than empirical natural-system data.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L111-L118; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L111-L118",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P050-C0019",
+        "claim_type": "proposition",
+        "conclusion": "Sigma_T(rho)=+∈fty",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let P be a time-homogeneous Markov kernel on a finite set Z , let rho∈Delta(Z) , and let (Z_0, ,Z_T) P_ rho,T . If P_ Z_ t+1 Z_t >0 whenever (Z_t,Z_ t+1 ) occurs with positive probability (in particular, if P has bidirected support), then Sigma_T(rho) = E + _ t=0 ^ T-1 E . If the event \\ P_ Z_ t+1 Z_t =0\\ occurs with positive probability for some t"
+          }
+        ],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Markov-chain expansion and finiteness of Sigma_T: Let P be a time-homogeneous Markov kernel on a finite set Z , let rho∈Delta(Z) , and let (Z_0, ,Z_T) P_ rho,T . If P_ Z_ t+1 Z_t >0 whenever (Z_t,Z_ t+1 ) occurs with positive probability (in particular, if P has bidirected support), then Sigma_T(rho) = E + _ t=0 ^ T-1 E . If the event \\ P_ Z_ t+1 Z_t =0\\ occurs with positive probability for some t , then Sigma_T(rho)=+∈fty .",
+        "proof_status": "STATEMENT_PRESENT_NO_SEPARATE_PROOF_DETECTED",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L570-L583; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L570-L583",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P043-C0003",
+        "claim_type": "definition",
+        "conclusion": "Fix a scientific predicate Q expressing the additional property one wishes to chart, such as boundedness, closure, geometry-compatibility, sustained directionality, or some other macro-level property. The emergence atlas associated with Q at tolerance delta 0 is A_ Q (delta) = Bigl\\ [t] u ∈ U : (Pi,L) ∈ C(u) such that CE(u;Pi,L) delta, NT(u;Pi,L), AS(u;Pi,L), Cost(u;Pi,L) B(u), Q(u;Pi,L) Bigr\\ , where B(u) is the budget coordinate or budget bound carried by the control point.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P043-C0007"
+        ],
+        "normalized_claim": "Emergence atlas: Fix a scientific predicate Q expressing the additional property one wishes to chart, such as boundedness, closure, geometry-compatibility, sustained directionality, or some other macro-level property. The emergence atlas associated with Q at tolerance delta 0 is A_ Q (delta) = Bigl\\ [t] u ∈ U : (Pi,L) ∈ C(u) such that CE(u;Pi,L) delta, NT(u;Pi,L), AS(u;Pi,L), Cost(u;Pi,L) B(u), Q(u;Pi,L) Bigr\\ , where B(u) is the budget coordinate or budget bound carried by the control point.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L141-L162; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L141-L162",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P050-C0006",
+        "claim_type": "definition",
+        "conclusion": "A construction smuggles a primitive if it requires information or structure not representable within the substrate state and its admitted operators. Equivalently, a primitive is realized without smuggling if it is definable using only: (i) the substrate state carrier, (ii) the admitted compositional dynamics, (iii) deterministic lenses and their induced constructions, and (iv) internal endomaps/audits constructed from the above. External schedules, externally declared equivalence relations, and externally imposed audits that are not induced by the substrate are disallowed.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "No smuggling: A construction smuggles a primitive if it requires information or structure not representable within the substrate state and its admitted operators. Equivalently, a primitive is realized without smuggling if it is definable using only: (i) the substrate state carrier, (ii) the admitted compositional dynamics, (iii) deterministic lenses and their induced constructions, and (iv) internal endomaps/audits constructed from the above. External schedules, externally declared equivalence relations, and externally imposed audits that are not induced by the substrate are disallowed.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L337-L346; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L337-L346",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P050-C0024",
+        "claim_type": "result_summary",
+        "conclusion": "they are mutually simulable up to packaging equivalence via packaging-respecting maps in the sense of",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Realizability alone does not turn a language into a machine: we also want a notion of normal form and mutual simulation. The appropriate equivalence notion is packaging equivalence induced by idempotent(-like) endomaps ( ). The Lean appendix mechanizes the corresponding algebra: idempotent splitting (fixed points, inclusion/retraction), packaging equivalence as an equivalence relation, and lens saturation as a closure operator ( ). [Compilation to S_ up to packaging equivalence] Let S be a substrate that realizes P1–P6 without smuggling in the sense of . Assume further that the realized operators are finitary (state and registers can be encoded in a finite carrier) and autonomous once all protocol state is represented. Then there exists a substrate M∈ S_ and an encoding of S into M such that: [leftmargin=*, itemsep=0.25em] the lens/refinement structure of S is simulated by deterministic lenses on M , packaging in S is simulated by internal packaging endomaps on M up to packaging equivalence, and admissible audits in S are represented by intrinsic audits on M (in particular, directionality audits respect monotonicity under coarse-graining). Moreover, if two compilations choose the same canonical prototype-selection scheme for each lens (e.g.\\ uniform-on-fiber) and the same auditing conventions"
+          }
+        ],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Normal form and compilation up to packaging: Realizability alone does not turn a language into a machine: we also want a notion of normal form and mutual simulation. The appropriate equivalence notion is packaging equivalence induced by idempotent(-like) endomaps ( ). The Lean appendix mechanizes the corresponding algebra: idempotent splitting (fixed points, inclusion/retraction), packaging equivalence as an equivalence relation, and lens saturation as a closure operator ( ). [Compilation to S_ up to packaging equivalence] Let S be a substrate that realizes P1–P6 without smuggling in the sense of . Assume further that the realized operators are finitary (state and registers can be encoded in a finite carrier) and autonomous once all protocol state is represented. Then there exists a substrate M∈ S_ and an encoding of S into M such that: [leftmargin=*, itemsep=0.25em] the lens/refinement structure of S is simulated by deterministic lenses on M , packaging in S is simulated by internal packaging endomaps on M up to packaging equivalence, and admissible audits in S are represented by intrinsic audits on M (in particular, directionality audits respect monotonicity under coarse-graining). Moreover, if two compilations choose the same canonical prototype-selection scheme for each lens (e.g.\\ uniform-on-fiber) and the same auditing conventions, then they are mutually simulable up to packaging equivalence via packaging-respecting maps in the sense of .",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L714-L743; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L714-L743",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P043-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Many sciences rely on maps of macroscopic behavior—phase diagrams, stability charts, bifurcation sets, and feasibility regions—but emergence itself is rarely treated as a mapping problem. We introduce emergence atlases: subsets and scalar fields on control space indicating where a macro-description is feasible. In the finite-state setting used here, feasibility means that a packaged description is simultaneously closed, nontrivial, audit-safe, and budget-feasible. We compute such atlases in three settings: analytic law families, full packaging spaces of small systems, and the PICA mechanism algebra. The resulting maps recover exact closure loci and reversible lines, expose multi-objective tradeoffs among closure, directionality, effective information, novelty slack, and budget, and identify mechanism-space regimes together with their sensitive ablations and conservative compact supports. These computations support a simple reframing: emergence is usefully treated as a phase-diagram problem for effective theories in control space. In that view, effective information, irreversibility, coarse-graining quality, and mechanism-space analyses appear not as rival definitions of emergence, but as slices of a larger atlas.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P043-C0007"
+        ],
+        "normalized_claim": "Many sciences rely on maps of macroscopic behavior—phase diagrams, stability charts, bifurcation sets, and feasibility regions—but emergence itself is rarely treated as a mapping problem. We introduce emergence atlases: subsets and scalar fields on control space indicating where a macro-description is feasible. In the finite-state setting used here, feasibility means that a packaged description is simultaneously closed, nontrivial, audit-safe, and budget-feasible. We compute such atlases in three settings: analytic law families, full packaging spaces of small systems, and the PICA mechanism algebra. The resulting maps recover exact closure loci and reversible lines, expose multi-objective tradeoffs among closure, directionality, effective information, novelty slack, and budget, and identify mechanism-space regimes together with their sensitive ablations and conservative compact supports. These computations support a simple reframing: emergence is usefully treated as a phase-diagram problem for effective theories in control space. In that view, effective information, irreversibility, coarse-graining quality, and mechanism-space analyses appear not as rival definitions of emergence, but as slices of a larger atlas.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L73-L75; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L73-L75",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P050-C0021",
+        "claim_type": "definition",
+        "conclusion": "A substrate belongs to S_ if it consists of: (i) a finite carrier Z , (ii) an autonomous time-homogeneous Markov kernel P on Z , (iii) an admissible family of deterministic lenses f:Z→ X closed under composition (refinement chains), (iv) a family of internal packaging endomaps E_ tau,f induced by (P,f,tau) and prototype choices ( ), and (v) intrinsic audits of directionality/drive induced by (rho,P) (e.g.\\ Sigma_T and ACC affinities) that are monotone under deterministic coarse-graining ( ).",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P050-C0002"
+        ],
+        "normalized_claim": "Canonical minimal machine class S_: A substrate belongs to S_ if it consists of: (i) a finite carrier Z , (ii) an autonomous time-homogeneous Markov kernel P on Z , (iii) an admissible family of deterministic lenses f:Z→ X closed under composition (refinement chains), (iv) a family of internal packaging endomaps E_ tau,f induced by (P,f,tau) and prototype choices ( ), and (v) intrinsic audits of directionality/drive induced by (rho,P) (e.g.\\ Sigma_T and ACC affinities) that are monotone under deterministic coarse-graining ( ).",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L676-L684; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L676-L684",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P045-C0004",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim that these observables exhaust every possible diagnosis of birth",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim that these observables exhaust every possible diagnosis of birth",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L152; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L152",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0015",
+        "claim_type": "nonclaim",
+        "conclusion": "We stress again what the theoremlet does not claim. It does not claim a broader theorem class beyond the audited shell. It does not claim a shell-general extension theorem. It does not claim an external/non-SFT breadth theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We stress again what the theoremlet does not claim. It does not claim a broader theorem class beyond the audited shell. It does not claim a shell-general extension theorem. It does not claim an external/non-SFT breadth theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L768-L769; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L768-L769",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P045-C0011",
+        "claim_type": "scope_boundary",
+        "conclusion": "restricted to the manual channel, and their non-manual-lens behavior is carried as a quantified caveat. This is a limitation, but it is also a substantive measurement result: staging-anomalous births appear to be empirically more fragile under lens changes than the two lower-complexity classes",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Their canonical confirmation is"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Their canonical confirmation is therefore restricted to the manual channel, and their non-manual-lens behavior is carried as a quantified caveat. This is a limitation, but it is also a substantive measurement result: staging-anomalous births appear to be empirically more fragile under lens changes than the two lower-complexity classes.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L503; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L503",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P050-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We are explicit that we do not establish a universal physical substrate or continuum limit: our conclusions are semantic and rest on exact finite-state audits and controlled constructions rather than empirical natural-system data.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We are explicit that we do not establish a universal physical substrate or continuum limit: our conclusions are semantic and rest on exact finite-state audits and controlled constructions rather than empirical natural-system data.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L111-L118; derived/expanded/Tsiokos_2026_To_Lay_a_Stone_with_Six_Birds_Finite_State_Semantics_for_Packaging_Directionality_and_Coarse_Graining.tex:L111-L118",
+        "source_paper": "P050",
+        "source_title": "Finite-State Semantics for Packaging and Directionality",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P045-C0008",
+        "claim_type": "scope_boundary",
+        "conclusion": "That limitation does not weaken the present paper.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "That limitation does not weaken the present paper.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L433; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L433",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P045-C0005",
+        "claim_type": "scope_boundary",
+        "conclusion": "the point is that the confirmed claim belongs specifically to the canonical manual channel, and that this limitation should be carried honestly into the paper.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the point is that the confirmed claim belongs specifically to the canonical manual channel, and that this limitation should be carried honestly into the paper.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L316; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L316",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P045-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim stabilized universality exponents.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim stabilized universality exponents.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L72-L75; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L72-L75",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P043-C0007",
+        "claim_type": "nonclaim",
+        "conclusion": "the paper does not claim a universal cross-domain cost unit.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the paper does not claim a universal cross-domain cost unit.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L954-L960; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L954-L960",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0034",
+        "claim_type": "nonclaim",
+        "conclusion": "In particular, the manuscript does not claim an exact KL-based closure-deficit theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "In particular, the manuscript does not claim an exact KL-based closure-deficit theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L992-L1012; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L992-L1012",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0017",
+        "claim_type": "nonclaim",
+        "conclusion": "The section does not claim an exact KL-based closure-deficit identity as a closed theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The section does not claim an exact KL-based closure-deficit identity as a closed theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L803; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L803",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0016",
+        "claim_type": "nonclaim",
+        "conclusion": "does not claim a direct stratumwise root-separation theorem",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The paper"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "The paper therefore does not claim a direct stratumwise root-separation theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L781; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L781",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0010",
+        "claim_type": "nonclaim",
+        "conclusion": "In particular, this section does not claim: a pressure theorem beyond the audited shell, a shell-general pressure theorem, a theorem about the packaged-object space O_1 , or any direct stratumwise thermodynamic distinction theorem.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "In particular, this section does not claim: a pressure theorem beyond the audited shell, a shell-general pressure theorem, a theorem about the packaged-object space O_1 , or any direct stratumwise thermodynamic distinction theorem.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L571-L578; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L571-L578",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P038-C0022",
+        "claim_type": "nonclaim",
+        "conclusion": "The continuous six-mechanism substrate machinery is adapted from prior six-birds/PICA-style work, and the paper does not claim that substrate-generation mechanism itself as its main novelty.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The continuous six-mechanism substrate machinery is adapted from prior six-birds/PICA-style work, and the paper does not claim that substrate-generation mechanism itself as its main novelty.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L883; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L883",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P038-C0027",
+        "claim_type": "open_problem",
+        "conclusion": "Whether the extension and disintegration theoremlets can be widened to a larger shell or a more canonical class remains open.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Whether the extension and disintegration theoremlets can be widened to a larger shell or a more canonical class remains open.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L929-L930; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L929-L930",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P045-C0009",
+        "claim_type": "open_problem",
+        "conclusion": "clear. The paper leaves the field with a controlled rubric, a confirmed set of low-complexity classes, and an observable map that future work will have to respect",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "What remains open is"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "What remains open is therefore clear. The paper leaves the field with a controlled rubric, a confirmed set of low-complexity classes, and an observable map that future work will have to respect.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L438-L440; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L438-L440",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P045-C0006",
+        "claim_type": "open_problem",
+        "conclusion": "That is why this paper presents the map as the main synthetic payoff and treats exponent-level universality as future work rather than as a completed result.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "That is why this paper presents the map as the main synthetic payoff and treats exponent-level universality as future work rather than as a completed result.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L397; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L397",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P045-C0003",
+        "claim_type": "open_problem",
+        "conclusion": "Section discusses scope, limitations, and what remains open.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Section discusses scope, limitations, and what remains open.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L98-L100; derived/expanded/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex:L98-L100",
+        "source_paper": "P045",
+        "source_title": "Primitive Activation and Layer-Birth Classes",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P043-C0009",
+        "claim_type": "open_problem",
+        "conclusion": "Nor does it treat optional future work as pending evidence.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Nor does it treat optional future work as pending evidence.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L998-L999; derived/expanded/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex:L998-L999",
+        "source_paper": "P043",
+        "source_title": "Emergence Phase Diagrams in Control Space",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P038-C0031",
+        "claim_type": "open_problem",
+        "conclusion": "Whether stronger package-conditioned or measure-theoretic consequences can be obtained remains open.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Whether stronger package-conditioned or measure-theoretic consequences can be obtained remains open.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L938-L939; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L938-L939",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P038-C0032",
+        "claim_type": "open_problem",
+        "conclusion": "There are four natural future directions. Broader shell stability. One can ask whether the audited shell can be widened while preserving all four theoremlets simultaneously.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Future work: There are four natural future directions. Broader shell stability. One can ask whether the audited shell can be widened while preserving all four theoremlets simultaneously.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L941-L959; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L941-L959",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P038-C0024",
+        "claim_type": "open_problem",
+        "conclusion": "a theorem of theory depth rather than a theorem of broad family coverage",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "The theorem package proved in this paper is intentionally narrow in scope and correspondingly strong in closure. The main result is not a broad theorem about all context-dependent Cantor systems, nor a shell-general theorem, nor a theorem of non-SFT breadth. It is a closed package on an audited shell-stable class for a canonical hybrid Cantor object. The mathematical novelty is"
+          }
+        ],
+        "nonclaims": [],
+        "normalized_claim": "Discussion and future work: The theorem package proved in this paper is intentionally narrow in scope and correspondingly strong in closure. The main result is not a broad theorem about all context-dependent Cantor systems, nor a shell-general theorem, nor a theorem of non-SFT breadth. It is a closed package on an audited shell-stable class for a canonical hybrid Cantor object. The mathematical novelty is therefore a theorem of theory depth rather than a theorem of broad family coverage.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L886-L890; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L886-L890",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C014",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P038-C0033",
+        "claim_type": "open_problem",
+        "conclusion": "If future work succeeds, the natural direction is not to abandon this object in favor of a broader but weaker statement, but to widen the class while preserving the same object-level architecture.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "If future work succeeds, the natural direction is not to abandon this object in favor of a broader but weaker statement, but to widen the class while preserving the same object-level architecture.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L961; derived/expanded/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex:L961",
+        "source_paper": "P038",
+        "source_title": "Strict Theory Extension on a Lawful Continuous Cantor Shell",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P045-C0007",
+      "P045-C0001",
+      "P050-C0005",
+      "P038-C0013",
+      "P050-C0004",
+      "P038-C0018",
+      "P038-C0011",
+      "P038-C0008",
+      "P050-C0026",
+      "P038-C0005",
+      "P043-C0004",
+      "P043-C0002",
+      "P050-C0025",
+      "P038-C0029",
+      "P038-C0014",
+      "P050-C0001",
+      "P050-C0019",
+      "P043-C0003",
+      "P050-C0006",
+      "P050-C0024",
+      "P043-C0001",
+      "P050-C0021"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O09",
+    "VII-O16"
+  ],
+  "wishlist_atoms": [
+    "ARC-H16",
+    "MM-OP4",
+    "MED-B1",
+    "MED-B2"
+  ]
+}

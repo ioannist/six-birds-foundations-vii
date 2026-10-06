@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-26",
+  "environment": "current artifact execution container",
+  "e16_adaptability_sweep": {
+    "command": [
+      "python",
+      "-m",
+      "sixbirds_foundations_v.sweeps.e16_adaptability_sweep"
+    ],
+    "cwd": "formalization/foundations_v_scaffold/lab",
+    "status": "PASS",
+    "observed_summary": "E16 adaptability sweep: 69/69 comparisons PASS",
+    "note": "Locally executed successfully; verbose output was not retained in the repository because the byte-exact upstream result table is already present."
+  },
+  "e15_pytest_module": {
+    "command": [
+      "python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_e15_offline_reclosure_sweep.py"
+    ],
+    "cwd": "formalization/foundations_v_scaffold/lab",
+    "tests_collected": 74,
+    "status": "TIMEOUT",
+    "timeout_seconds": 900,
+    "interpretation": "Replay limitation only; not a test failure and not a Lean proof failure. The upstream recorded E15 sweep result remains preserved."
+  }
+}

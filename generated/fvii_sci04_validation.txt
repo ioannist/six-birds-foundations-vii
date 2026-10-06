@@ -1,0 +1,31 @@
+PASS	release_surface_present	files=14
+PASS	science_plan_manifest_advanced	PHASE_04_EXECUTED_PHASE_05_PENDING
+PASS	phase4_declaration_census	declarations=268
+PASS	phase4_theorem_census	theorems=135
+PASS	theorem_catalog_subset	subset=135/135
+PASS	ten_terminal_candidate_assets	ids=['VII-C012', 'VII-C013', 'VII-C014', 'VII-C015', 'VII-C017', 'VII-C018', 'VII-C027', 'VII-C028', 'VII-C032', 'VII-C034']
+PASS	candidate_dossiers	10 theorem dossiers
+PASS	ngvii10_terminal_asset	ids=['NGVII-10']
+PASS	no_go_dossier	NGVII-10 dossier
+PASS	formalization_target_closure	ids=['FT11', 'FT12', 'FT13', 'FT14', 'FT15', 'FT16', 'FT19', 'FT20']
+PASS	five_terminal_decisions	ids=['DP07', 'DP08', 'DP09', 'DP11', 'DP12']
+PASS	decision_dossiers	files=6
+PASS	twelve_finite_envelopes	raw=canonical=55168 accepted=14832 rejected=40336
+PASS	finite_evidence_grades_and_nonclaims	bounded scopes retained
+PASS	thirty_two_canonical_witnesses	witnesses=32
+PASS	primary_fixture_python_replay	9 scenarios and 8 countermodels pass
+PASS	phase4_lab_summary	COMPLETE_SOURCE_LEVEL_EXTERNAL_LEAN_REPLAY_PENDING
+PASS	one_finite_no_go_control	rows=1
+PASS	phase4_registry_summary	COMPLETE_SOURCE_LEVEL_EXTERNAL_LEAN_REPLAY_PENDING
+PASS	asset_trace_closure	rows=476
+PASS	statement_hash_ledger	rows=135
+PASS	python_protocol_and_model_tests	tests=62 returncode=0
+PASS	static_lean_source_audit	STATIC_SOURCE_AUDIT_NOT_KERNEL_ELABORATION
+PASS	python_source_compilation	files=7
+PASS	shell_syntax	files=2
+PASS	deterministic_phase4_regeneration	sha256=1039aa886ef952345573a0d997a0f12509bf31ec3f48d5668c5181d7a8ff82fd
+PASS	owner_authorized_lean_boundary	NOT_RUN_LOCAL_ENVIRONMENT
+PASS	prior_science_and_imported_scaffolds_immutable	changed=[]
+PASS	no_paper_work	changed=[]
+PASS	phase5_not_started	paths=[]
+PASS	obsolete_duplicate_envelope_absent	single Phase-4 finite-envelope source

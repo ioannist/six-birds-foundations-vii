@@ -1,0 +1,5 @@
+{"escape_scenarios":["TTW-S02"],"failure_scenario":"TTW-S01","no_go_id":"NGVII-01","theorem_asset":"FoundationsVII.NoGo.NGVII_01_no_first_extension_without_seed_or_generator"}
+{"escape_scenarios":["TTW-S03"],"failure_scenario":"TTW-S04","no_go_id":"NGVII-03","theorem_asset":"FoundationsVII.NoGo.NGVII_03_no_retrospective_self_certification"}
+{"escape_scenarios":["TTW-S08"],"failure_scenario":"TTW-S23","no_go_id":"NGVII-04","theorem_asset":"FoundationsVII.NoGo.NGVII_04_no_automatic_total_lens_transfer"}
+{"escape_scenarios":["TTW-S02"],"failure_scenario":"TTW-S22","no_go_id":"NGVII-05","theorem_asset":"FoundationsVII.NoGo.NGVII_05_no_unpriced_observer_native_credit"}
+{"escape_scenarios":["TTW-S21"],"failure_scenario":"TTW-S20","no_go_id":"NGVII-11","theorem_asset":"FoundationsVII.NoGo.NGVII_11_no_occurrence_from_reachability_alone"}

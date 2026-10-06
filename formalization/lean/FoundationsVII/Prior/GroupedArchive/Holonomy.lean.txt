@@ -1,0 +1,25 @@
+import FoundationsVII.Prior.Contract
+import HolonomyMemory.Asymmetry
+import HolonomyMemory.Witnesses
+
+#check HolonomyMemory.LoopAsymmetry
+#check HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent
+
+namespace FoundationsVII.Prior
+
+/-- FT15: inherited loop asymmetry and holonomy witness. -/
+def ft15Holonomy : AdapterContract :=
+  { adapterId := "ADAPTER-FT15-HOLONOMY"
+    formalizationTargetIds := ["FT15"]
+    sourceModule := "HolonomyMemory.Asymmetry; HolonomyMemory.Witnesses"
+    sourceDeclarations := ["HolonomyMemory.LoopAsymmetry", "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent"]
+    sourceTypes := ["loop asymmetry and moved-predictive/fixed-current witness"]
+    targetTypes := ["future VII route residue and directionality records"]
+    preservedHypotheses := ["typed loop", "interface comparison", "asymmetry witness"]
+    addedHypotheses := ["separate drive certificate for any directionality claim"]
+    lostHypotheses := ["No P6 arrow is inherited from holonomy alone."]
+    trustDependencies := []
+    nonclaims := ["Holonomy does not imply directionality."]
+    fidelity := .exactReusableCore }
+
+end FoundationsVII.Prior

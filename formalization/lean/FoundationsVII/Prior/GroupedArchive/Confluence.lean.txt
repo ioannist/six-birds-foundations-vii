@@ -1,0 +1,26 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsVI.Laws.G8OdometerAbelianization
+
+#check SixBirdsFoundationsVI.Laws.G8OdometerAbelianization.caseB_confluent_runs_share_final
+#check SixBirdsFoundationsVI.Laws.G8OdometerAbelianization.caseD_nonconfluent_witness
+
+namespace FoundationsVII.Prior
+
+/-- FT14: confluence and explicit nonconfluence witnesses. -/
+def ft14Confluence : AdapterContract :=
+  { adapterId := "ADAPTER-FT14-CONFLUENCE"
+    formalizationTargetIds := ["FT14"]
+    sourceModule := "SixBirdsFoundationsVI.Laws.G8OdometerAbelianization"
+    sourceDeclarations := [
+      "SixBirdsFoundationsVI.Laws.G8OdometerAbelianization.caseB_confluent_runs_share_final",
+      "SixBirdsFoundationsVI.Laws.G8OdometerAbelianization.caseD_nonconfluent_witness"]
+    sourceTypes := ["finite legal runs, confluence theorem, and nonconfluence witness"]
+    targetTypes := ["future VII route/confluence records"]
+    preservedHypotheses := ["finite run", "legality", "declared move family"]
+    addedHypotheses := ["typed theory-domain transitions", "source and audit ledgers"]
+    lostHypotheses := ["No global confluence follows from one finite case."]
+    trustDependencies := []
+    nonclaims := ["One commuting square is not a global confluence theorem."]
+    fidelity := .exactReusableCore }
+
+end FoundationsVII.Prior

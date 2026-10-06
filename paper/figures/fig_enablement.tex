@@ -1,0 +1,29 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[font=\footnotesize,>=Stealth,
+  upper/.style={draw=gray,rounded corners=2pt,minimum width=2.55cm,minimum height=1.05cm,align=center,inner sep=3pt},
+  lower/.style={draw=gray,rounded corners=2pt,minimum width=0.8cm,minimum height=0.6cm}]
+  \node[anchor=east] at (0.65,0) {upper};
+  \node[anchor=east] at (0.65,-3.3) {lower};
+  \node[upper,very thick,draw=black] (u0) at (2.4,0)
+    {$(1,1,1)$\\$q=1,\ f=1$};
+  \node[upper,very thick,draw=black] (u1) at (6.5,0)
+    {$(0,1,1)$\\$q=1,\ f=0$};
+  \node[upper] (u2) at (10.6,0)
+    {$(0,0,1)$\\$q=0,\ f=0$};
+  \node[lower] (l0) at (2.4,-3.3) {$0$};
+  \node[lower] (l1) at (6.5,-3.3) {$1$};
+  \node[lower] (l2) at (10.6,-3.3) {$2$};
+  \draw[->] (u0) -- (u1);
+  \draw[->] (u1) -- (u2);
+  \draw[->] (u0.north) to[out=65,in=115] (u2.north);
+  \draw[->] (l0) -- (l1);
+  \draw[->] (l1) -- (l2);
+  \draw[->] (l0.south) to[out=-65,in=-115] (l2.south);
+  \draw[->,dashed,gray] (l0) -- (u0);
+  \draw[->,dashed,gray] (l1) -- (u1);
+  \draw[->,dashed,gray] (l2) -- (u2);
+\end{tikzpicture}
+\caption{Lower steps and their induced upper steps between formed reachability vectors. Dashed arrows map each lower state to its vector; the outlined vectors agree on $q$ (``$1$ reachable'') and differ on $f$ (``$0$ reachable'').}
+\label{fig:enablement}
+\end{figure}

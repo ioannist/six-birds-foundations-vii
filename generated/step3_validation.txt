@@ -1,0 +1,55 @@
+PASS — 54/54 checks passed
+[PASS] required Step-3 products exist: 51 products present
+[PASS] Step-2 claim corpus remains complete: claims=2821 unique=2821
+[PASS] Step-2 bridge atlas remains complete: bridges=374 unique=374
+[PASS] all 58 paper roots remain represented: catalog=58 claim_papers=58
+[PASS] expected scope-inheritance groups: actual=30 expected=30
+[PASS] expected minimal object records: actual=18 expected=18
+[PASS] expected candidate dossiers: actual=36 expected=36
+[PASS] expected wishlist adjudications: actual=130 expected=130
+[PASS] expected finite reference scenarios: actual=24 expected=24
+[PASS] expected countermodels: actual=27 expected=27
+[PASS] expected candidate no-go fronts: actual=11 expected=11
+[PASS] expected formalization targets: actual=20 expected=20
+[PASS] expected exact prior-declaration reuse links: actual=30 expected=30
+[PASS] expected chapter nodes: actual=12 expected=12
+[PASS] expected red lines: actual=30 expected=30
+[PASS] expected decision points: actual=15 expected=15
+[PASS] expected candidate/source trace rows: actual=3166 expected=3166
+[PASS] expected dependency graph nodes: actual=1851 expected=1851
+[PASS] expected dependency graph edges: actual=5969 expected=5969
+[PASS] candidate dossiers satisfy schema: no schema errors
+[PASS] object records satisfy schema: no schema errors
+[PASS] countermodels satisfy schema: no schema errors
+[PASS] wishlist adjudications satisfy schema: no schema errors
+[PASS] candidate IDs are complete and unique: unique=36 missing=[]
+[PASS] candidate references close over all typed registries: all references close
+[PASS] every candidate has typing, proof, detector, model, countermodel, formalization, and nonclaim obligations: all 36 complete
+[PASS] candidate/source traces resolve exactly to Step-2 claims, bridges, and laws: all source dependencies resolve
+[PASS] minimal object model is closed and acyclic: objects=18 definition_edges=27 bad=[]
+[PASS] all 130 wishlist atoms are adjudicated exactly once: rows=130 unique=130 source_atoms=130
+[PASS] wishlist adjudication uses all seven final dispositions: statuses={'CANDIDATE_VII_SCHEMA_OR_DEFINITION': 27, 'CANDIDATE_VII_THEOREM': 40, 'COROLLARY_WITH_EXPLICIT_BRIDGE': 11, 'COUNTERMODEL_OR_NO_GO_NEEDED': 24, 'DEFERRED_TO_LATER_FOUNDATION': 3, 'EXPERIMENTAL_OR_CALIBRATION_OBLIGATION': 19, 'INHERITED_RESULT': 6}
+[PASS] wishlist evidence and candidate references are closed: all references and rationales present
+[PASS] reference evaluator covers every declared scenario: results=24 scenarios=24
+[PASS] all scenario statuses and assertions pass: summary={'all_pass': True, 'assertion_count': 29, 'assertions_passing': 29, 'evidence_grade': 'FINITE_REFERENCE_ASSAY_NOT_UNIVERSAL_PROOF', 'scenario_count': 24, 'status_matches': 24}
+[PASS] finite assay includes all required positive, null, obstruction, arrow, observer, and reachability controls: statuses=24 missing=[]
+[PASS] countermodel atlas references close and covers all required non-implications: bad_refs=[] missing_topics=[]
+[PASS] candidate no-go program is scoped and has failure/escape assays: all 11 are scoped candidate no-gos
+[PASS] all Step-3 formal targets name exact inherited Lean declarations: exact_declarations=29 bad=[]
+[PASS] formal-target candidate references close: targets=20
+[PASS] inherited formal spine still contains zero Foundations VII declarations: foundations_vii_declarations=0
+[PASS] Step 3 adds or modifies no Lean source: tracked_diff=none untracked=none
+[PASS] Step 3 adds or modifies no paper TeX source: tracked_diff=none untracked=none
+[PASS] chapter dependency graph is closed and acyclic: chapters=12 edges=21
+[PASS] every candidate is assigned to exactly one later chapter: assignments=36 unique=36
+[PASS] red-line register preserves all required anti-overread boundaries: all required boundaries present
+[PASS] decision register exposes the remaining foundational choices: all decision classes present
+[PASS] all 58 paper rereads are source-local and candidate-linked: rereads=58 bad=[]
+[PASS] P039 remains abstract-only and body-level blocked: status=BLOCKED_BODY_LEVEL_SOURCE; ABSTRACT_ONLY claims=2
+[PASS] P040/P058 remain one unresolved non-independent family: P040=UNRESOLVED_NONINDEPENDENT_VF-SAU-01 P058=UNRESOLVED_NONINDEPENDENT_VF-SAU-01
+[PASS] candidate dependency graph IDs are unique and every edge closes: nodes=1851 unique=1851 bad_edges=0
+[PASS] canonical Step-2 claims, bridges, sources, synthesis, and inherited formalization are unchanged: tracked_diff=none untracked=none
+[PASS] Step-3 summary matches the rebuilt repositories: mismatches=none stage=STEP3_READINESS_COMPLETE_NO_PAPER_DRAFT blockers=[]
+[PASS] paper coverage closes at 57 CLOSED plus P039 BLOCKED: states={'CLOSED': 57, 'BLOCKED': 1}
+[PASS] repository explicitly marks Step 3 as readiness, not theorem proof or paper drafting: stage boundary statements present
+[PASS] all Step-3 Python programs compile: all compile

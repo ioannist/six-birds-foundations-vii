@@ -1,0 +1,2 @@
+Imported from the supplied six-birds-foundations-vii_v0.zip on 2026-07-26 (Europe/Athens context).
+The original archive is retained locally but is not distributed; archive.sha256 records its digest.

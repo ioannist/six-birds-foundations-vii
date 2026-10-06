@@ -1,0 +1,1281 @@
+{
+  "candidate_id": "VII-C017",
+  "condition_grade": "Candidate theorem/schema at the declared scope; necessity/sufficiency only where explicitly proved later.",
+  "convergence_groups": [
+    "CG19"
+  ],
+  "countermodels": [
+    "CM-10",
+    "CM-24"
+  ],
+  "decision_status": "READY_FOR_LATER_PROOF_OR_SCOPE_DECISION",
+  "detector": {
+    "falsifier": "A well-typed model satisfying the hypotheses but violating the proposed conclusion for Interaction-order residue and holonomy.",
+    "null": "A matched case with the principal witness removed while all unrelated fields are held fixed.",
+    "signal": "A source-typed witness satisfying the Interaction-order residue and holonomy record and its declared audit."
+  },
+  "escape_routes": [
+    "Narrow or change the declared carrier/interface family.",
+    "Add an explicit source, seed, bridge, budget, or drive witness omitted by the no-go hypotheses."
+  ],
+  "falsifier": "A valid declared-scope countermodel to For three or more admitted interactions, inequivalent legal orderings define a route residue relative to a declared predictive quotient; nonzero residue is interaction holonomy, not by itself directionality.",
+  "formalization_targets": [
+    "FT14",
+    "FT15"
+  ],
+  "hypotheses": [
+    "All records are well typed and source-located.",
+    "No undeclared operation, source, or observer resource is used.",
+    "Inherited results are transported only through accepted bridge/reuse records."
+  ],
+  "informal_law": "For three or more admitted interactions, inequivalent legal orderings define a route residue relative to a declared predictive quotient; nonzero residue is interaction holonomy, not by itself directionality.",
+  "kind": "CANDIDATE_THEOREM_AND_FINITE_ASSAY",
+  "layer_instantiations": [
+    "finite formal theory domains",
+    "cognitive/social access policies",
+    "instrument-limited scientific applications"
+  ],
+  "name": "Interaction-order residue and holonomy",
+  "nonclaims": [
+    "P3 holonomy does not imply a P6 arrow.",
+    "This Step-3 dossier is not a proof of the candidate.",
+    "Finite reference-world success does not universalize the statement."
+  ],
+  "null_models": [
+    "TTW-S17",
+    "TTW-S18"
+  ],
+  "positive_model": [
+    "TTW-S16"
+  ],
+  "priority": "P0",
+  "proof_obligations": [
+    "Define bracketing/order comparison on one typed target.",
+    "Prove finite examples and confluence controls.",
+    "Add a separate drive/null certificate for arrow claims."
+  ],
+  "proof_status": "SPECIFICATION_READY_NOT_PROVED",
+  "proposed_conclusion": "For three or more admitted interactions, inequivalent legal orderings define a route residue relative to a declared predictive quotient; nonzero residue is interaction holonomy, not by itself directionality.",
+  "recommended_chapter": "Ch09",
+  "setup": [
+    "Fix the inherited SBT theory package(s), carrier, interfaces, quotient/readout, and audit scope.",
+    "Declare all source, transition, budget, observer, and temporal records used by the candidate.",
+    "Restrict the conclusion to the stated finite or explicitly quantified carrier until a stronger proof is supplied."
+  ],
+  "source_trace": {
+    "boundary_claim_ids": [
+      "P042-C0002",
+      "P004-C0030",
+      "P054-C0004",
+      "P004-C0002",
+      "P004-C0031",
+      "P029-C0008",
+      "P004-C0032",
+      "P004-C0003",
+      "P029-C0033",
+      "P029-C0030",
+      "P029-C0021",
+      "P029-C0006",
+      "P029-C0005",
+      "P029-C0002",
+      "P004-C0033"
+    ],
+    "bridge_ids": [
+      "BR-CITE-0120",
+      "BR-LAW-0006",
+      "BR-CITE-0123",
+      "BR-LAW-0014",
+      "BR-LAW-0015",
+      "BR-LAW-0016",
+      "BR-LAW-0017",
+      "BR-LAW-0018",
+      "BR-LAW-0019",
+      "BR-LAW-0020",
+      "BR-LAW-0021",
+      "BR-LAW-0022",
+      "BR-LAW-0024",
+      "BR-LAW-0026",
+      "BR-LAW-0028",
+      "BR-LAW-0030",
+      "BR-LAW-0031",
+      "BR-LAW-0032",
+      "BR-LAW-0033",
+      "BR-CITE-0163",
+      "BR-LAW-0013",
+      "BR-LAW-0007",
+      "BR-LAW-0005",
+      "BR-LAW-0011",
+      "BR-LAW-0012",
+      "BR-CITE-0115",
+      "BR-CITE-0117",
+      "BR-CITE-0131",
+      "BR-LAW-0009",
+      "BR-LAW-0010",
+      "BR-CITE-0039",
+      "BR-LAW-0008",
+      "BR-CITE-0116",
+      "BR-CITE-0118",
+      "BR-CITE-0119",
+      "BR-CITE-0122",
+      "BR-CITE-0164"
+    ],
+    "law_or_no_go_ids": [
+      "E16",
+      "F10",
+      "F11",
+      "F12",
+      "F13a",
+      "F17",
+      "F19",
+      "F2",
+      "F20",
+      "F21",
+      "F25",
+      "F3",
+      "F31",
+      "F34",
+      "F4",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "G10",
+      "G13",
+      "G9",
+      "F40",
+      "G1",
+      "G11",
+      "G12",
+      "G2",
+      "F27",
+      "G3",
+      "G6",
+      "G7",
+      "G5"
+    ],
+    "open_problem_ids": [
+      "P029-C0032",
+      "P029-C0031",
+      "P029-C0029",
+      "P029-C0012",
+      "P029-C0003"
+    ],
+    "resolved_source_locations": [
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P029-C0022",
+        "claim_type": "theorem",
+        "conclusion": "the positive transport claim is blocked by the proliferation ledger itself. Equivalently, such a ledger is incompatible with [H-G9-census] , so the positive schema's census obligation cannot be discharged; no recurrence-with-displacement record may be inferred from finite local motion or holonomy language alone",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Let a run of an extended local system carry the setup data above. Positive schema. Assume: [H-G9-census] the run carries an exact defect ledger, and there is a finite N such that for all n N the unresolved defect measure is non-increasing after accounting for bound and absorbed defects: |unresolved_ n+1 | |unresolved_n| . [H-G9-absorb] there are finite constants N, T and a finite family of transporter records \\ R_j\\ such that every defect still unresolved for T steps after time N is annihilated, bound into a finite non-moving composite, or assigned by the ledger to exactly one transporter record. If the transporter-assigned persistent-defect set is nonempty and at least one assigned transporter has displacement d ≠ 0 , then the run enters a certified transport regime: there is a finite time t_0 and a finite nonempty family of transporter records covering every transporter-assigned persistent defect after t_0 , each record satisfying its recurrence-with-displacement equality on its declared support. Persistent defects bound into stationary residue may coexist; the transport certification rests on the moving subset. In the single-transporter or common-velocity case the conclusion is eventual spatio-temporal periodicity modulo translation: c_ t+tau |_ W+d = shift_d (c_t |_ W ) for all certified t t_0. If instead all defects are eventually annihilated or resolved, with no persistent transporter-assigned defect, the run is cleared or quiescent — not transport-certified. Negative schema. Separately, if the ledger exhibits unbounded unresolved creation — _n |unresolved_n| = ∈fty , or infinitely many creation events remain forever unmatched by annihilation, binding, or absorption —"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Defect-Evacuation-to-Transport: Let a run of an extended local system carry the setup data above. Positive schema. Assume: [H-G9-census] the run carries an exact defect ledger, and there is a finite N such that for all n N the unresolved defect measure is non-increasing after accounting for bound and absorbed defects: |unresolved_ n+1 | |unresolved_n| . [H-G9-absorb] there are finite constants N, T and a finite family of transporter records \\ R_j\\ such that every defect still unresolved for T steps after time N is annihilated, bound into a finite non-moving composite, or assigned by the ledger to exactly one transporter record. If the transporter-assigned persistent-defect set is nonempty and at least one assigned transporter has displacement d ≠ 0 , then the run enters a certified transport regime: there is a finite time t_0 and a finite nonempty family of transporter records covering every transporter-assigned persistent defect after t_0 , each record satisfying its recurrence-with-displacement equality on its declared support. Persistent defects bound into stationary residue may coexist; the transport certification rests on the moving subset. In the single-transporter or common-velocity case the conclusion is eventual spatio-temporal periodicity modulo translation: c_ t+tau |_ W+d = shift_d (c_t |_ W ) for all certified t t_0. If instead all defects are eventually annihilated or resolved, with no persistent transporter-assigned defect, the run is cleared or quiescent — not transport-certified. Negative schema. Separately, if the ledger exhibits unbounded unresolved creation — _n |unresolved_n| = ∈fty , or infinitely many creation events remain forever unmatched by annihilation, binding, or absorption — then the positive transport claim is blocked by the proliferation ledger itself. Equivalently, such a ledger is incompatible with [H-G9-census] , so the positive schema's census obligation cannot be discharged; no recurrence-with-displacement record may be inferred from finite local motion or holonomy language alone.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1609-L1643; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1609-L1643",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P030-C0003",
+        "claim_type": "result_summary",
+        "conclusion": "The repair generator and later proof spines use the six primitive roles from Foundations I–III. They are not six psychological faculties or six biological mechanisms; they are typed structural moves. 0.94 @ lX@ →prule Role Imported structural reading P1 descent or lower-operator rewrite P2 representability and support gating P3 route mismatch, rerouting, or holonomy reconciliation P4 staging, sectors, refinement, or gluing P5 packaging, completion, and formed-object support P6 audit and accounting, including the constraint surface that governs other moves D4 defines RepairSort=\\ P1, ,P5\\ : P6 is not emitted by R_S as a repair payload. An E7 alarm may rewrite the P6 accounting/constraint surface, but that rewrite remains typed as audit governance rather than being smuggled into the P1–P5 generator. The following imported results recur often enough that their exact role should be visible before the E-laws. A row records logical use, not necessarily a direct Lean import: where the corresponding Foundations IV surface is not vendored, the E-law owns an explicitly named certified host predicate. @ l> p 0.32 X@ →prule Surface Content used here Principal consumers F2 split-pair obstruction, descent iff emptiness, and source-refinement versus target-coarsening repair D1, E1, E4, E10, E13, E14 F3/F13a route residue and current-versus-predictive memory distinction E15 debt and E16 route capacity F7 sufficiency of a declared quotient for a declared family of future probes E12 boundary sufficiency F8 strict extension is more than a same-family relabel E4 compilation comparison F9 typed disposition/no unstatused residual discipline E4, E7, E14 F10 coarsest quotient carrying declared observations E12 boundary order F11 no overread beyond purchased or represented distinctions E6, E7 F12 no free distinction: a used distinction requires declared apparatus E1 and E8 redescription discipline F19 viability persistence and dissolution obstruction E1, E3, E5, E7, E10, E12 F20 formed record and record-coherence discipline E3 and E14 F21 and FIII T24/T25 same-level complete self-soundness obstruction and non-final rotating audit E2 and E3 FIII NC–TD structural downward path is insufficient; an accepted channel requires interventions, matched controls, and a registered effect E4, E10, E11",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P030-C0012",
+          "P030-C0020",
+          "P030-C0024",
+          "P030-C0028",
+          "P030-C0033",
+          "P030-C0038",
+          "P030-C0044",
+          "P030-C0055",
+          "P030-C0058",
+          "P030-C0063",
+          "P030-C0065",
+          "P030-C0074",
+          "P030-C0082",
+          "P030-C0090",
+          "P030-C0108",
+          "P030-C0109",
+          "P030-C0110",
+          "P030-C0111",
+          "P030-C0112",
+          "P030-C0114",
+          "P030-C0117",
+          "P030-C0121",
+          "P030-C0122",
+          "P030-C0123",
+          "P030-C0124",
+          "P030-C0126"
+        ],
+        "normalized_claim": "Imported primitive roles and theorem surfaces: The repair generator and later proof spines use the six primitive roles from Foundations I–III. They are not six psychological faculties or six biological mechanisms; they are typed structural moves. 0.94 @ lX@ →prule Role Imported structural reading P1 descent or lower-operator rewrite P2 representability and support gating P3 route mismatch, rerouting, or holonomy reconciliation P4 staging, sectors, refinement, or gluing P5 packaging, completion, and formed-object support P6 audit and accounting, including the constraint surface that governs other moves D4 defines RepairSort=\\ P1, ,P5\\ : P6 is not emitted by R_S as a repair payload. An E7 alarm may rewrite the P6 accounting/constraint surface, but that rewrite remains typed as audit governance rather than being smuggled into the P1–P5 generator. The following imported results recur often enough that their exact role should be visible before the E-laws. A row records logical use, not necessarily a direct Lean import: where the corresponding Foundations IV surface is not vendored, the E-law owns an explicitly named certified host predicate. @ l> p 0.32 X@ →prule Surface Content used here Principal consumers F2 split-pair obstruction, descent iff emptiness, and source-refinement versus target-coarsening repair D1, E1, E4, E10, E13, E14 F3/F13a route residue and current-versus-predictive memory distinction E15 debt and E16 route capacity F7 sufficiency of a declared quotient for a declared family of future probes E12 boundary sufficiency F8 strict extension is more than a same-family relabel E4 compilation comparison F9 typed disposition/no unstatused residual discipline E4, E7, E14 F10 coarsest quotient carrying declared observations E12 boundary order F11 no overread beyond purchased or represented distinctions E6, E7 F12 no free distinction: a used distinction requires declared apparatus E1 and E8 redescription discipline F19 viability persistence and dissolution obstruction E1, E3, E5, E7, E10, E12 F20 formed record and record-coherence discipline E3 and E14 F21 and FIII T24/T25 same-level complete self-soundness obstruction and non-final rotating audit E2 and E3 FIII NC–TD structural downward path is insufficient; an accepted channel requires interventions, matched controls, and a registered effect E4, E10, E11",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L364-L433; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L364-L433",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P030-C0101",
+        "claim_type": "proposition",
+        "conclusion": "For a complete classifier, raw dissipative evidence for implies ( ).",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P030-C0012",
+          "P030-C0020",
+          "P030-C0024",
+          "P030-C0028",
+          "P030-C0033",
+          "P030-C0038",
+          "P030-C0044",
+          "P030-C0055",
+          "P030-C0058",
+          "P030-C0063",
+          "P030-C0065",
+          "P030-C0074",
+          "P030-C0082",
+          "P030-C0090",
+          "P030-C0108",
+          "P030-C0109",
+          "P030-C0110",
+          "P030-C0111",
+          "P030-C0112",
+          "P030-C0114",
+          "P030-C0117",
+          "P030-C0121",
+          "P030-C0122",
+          "P030-C0123",
+          "P030-C0124",
+          "P030-C0126"
+        ],
+        "normalized_claim": "Dissipative residue is not coherent adaptability (E16_DissipativeNotAdaptability): For a complete classifier, raw dissipative evidence for implies ( ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L4855-L4862; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L4855-L4862",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P030-C0099",
+        "claim_type": "proposition",
+        "conclusion": "For a complete classifier, raw flattenable evidence for implies ( ).",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P030-C0012",
+          "P030-C0020",
+          "P030-C0024",
+          "P030-C0028",
+          "P030-C0033",
+          "P030-C0038",
+          "P030-C0044",
+          "P030-C0055",
+          "P030-C0058",
+          "P030-C0063",
+          "P030-C0065",
+          "P030-C0074",
+          "P030-C0082",
+          "P030-C0090",
+          "P030-C0108",
+          "P030-C0109",
+          "P030-C0110",
+          "P030-C0111",
+          "P030-C0112",
+          "P030-C0114",
+          "P030-C0117",
+          "P030-C0121",
+          "P030-C0122",
+          "P030-C0123",
+          "P030-C0124",
+          "P030-C0126"
+        ],
+        "normalized_claim": "Flattenable residue is not coherent adaptability (E16_FlattenableNotAdaptability): For a complete classifier, raw flattenable evidence for implies ( ).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L4817-L4824; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_V_Endogenous_Closure_A_Catalog_of_Structural_Laws_for_Living_Cognitive_and_Social_Systems.tex:L4817-L4824",
+        "source_paper": "P030",
+        "source_title": "Foundations V: Endogenous Closure",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P042-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "Randomness is often treated as either ontic indeterminacy or epistemic ignorance. We develop a third, operational account within Six Birds: layer-relative randomness is the predictive residue of non-closure under a chosen packaging and budget. For a micro process X_t and a packaging : X Y , we define the micro-closure deficit at scale by CD_ ( )=I(X_t; Y_ t+ Y_t) , the information about the next packaged state that remains hidden inside the current macro-object. This yields the exact decomposition H(Y_ t+ Y_t)=H(Y_ t+ X_t)+CD_ ( ) , separating intrinsic substrate uncertainty from randomness introduced by discarded distinctions. We connect this exact quantity to computable diagnostics native to earlier Six Birds work, including route mismatch for coarse-grained Markov dynamics and predictive log-loss gaps under limited-memory models. In controlled Markov benchmarks, closure deficit vanishes on exactly lumpable partitions and rises with within-fiber heterogeneity, while route mismatch tracks it closely. In budgeted prediction, increasing memory order buys back hidden distinctions and lowers held-out log loss. In toy hashing, one-wayness and random-lookingness emerge as the same packaging-and-budget phenomenon: high-entropy inputs obey q/2^n inversion scaling, while low-entropy inputs collapse the effect. The result is a measurable account of randomness that unifies coarse-graining, limited prediction, and feasible one-wayness without treating randomness as primitive.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Randomness is often treated as either ontic indeterminacy or epistemic ignorance. We develop a third, operational account within Six Birds: layer-relative randomness is the predictive residue of non-closure under a chosen packaging and budget. For a micro process X_t and a packaging : X Y , we define the micro-closure deficit at scale by CD_ ( )=I(X_t; Y_ t+ Y_t) , the information about the next packaged state that remains hidden inside the current macro-object. This yields the exact decomposition H(Y_ t+ Y_t)=H(Y_ t+ X_t)+CD_ ( ) , separating intrinsic substrate uncertainty from randomness introduced by discarded distinctions. We connect this exact quantity to computable diagnostics native to earlier Six Birds work, including route mismatch for coarse-grained Markov dynamics and predictive log-loss gaps under limited-memory models. In controlled Markov benchmarks, closure deficit vanishes on exactly lumpable partitions and rises with within-fiber heterogeneity, while route mismatch tracks it closely. In budgeted prediction, increasing memory order buys back hidden distinctions and lowers held-out log loss. In toy hashing, one-wayness and random-lookingness emerge as the same packaging-and-budget phenomenon: high-entropy inputs obey q/2^n inversion scaling, while low-entropy inputs collapse the effect. The result is a measurable account of randomness that unifies coarse-graining, limited prediction, and feasible one-wayness without treating randomness as primitive.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L88-L90; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L88-L90",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "CONDITIONAL_THEOREM",
+        "claim_id": "P029-C0024",
+        "claim_type": "theorem",
+        "conclusion": "for every n 0 : I(x_n) holds, and the boundary obeys the iterated protection law b(x_n) = rho^ n (b(x_0)), equivalently b(x_ n+1 ) = rho(b(x_n)) \\ at every step. The theorem is unconditional given the named hypotheses; it does not require D to be invertible and does not reconstruct lost interior information",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume: [lossful] D is not injective; [H-G10-protect] for every state x : I(x) b(D(x)) = rho(b(x)) — the exact functional relationship, with no unstated target value; [H-G10-regen] for every state x : I(x) I(D(x)) ; [initial invariant] I(x_0)"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Lossful Boundary Persistence: Assume: [lossful] D is not injective; [H-G10-protect] for every state x : I(x) b(D(x)) = rho(b(x)) — the exact functional relationship, with no unstated target value; [H-G10-regen] for every state x : I(x) I(D(x)) ; [initial invariant] I(x_0) . Then for every n 0 : I(x_n) holds, and the boundary obeys the iterated protection law b(x_n) = rho^ n (b(x_0)), equivalently b(x_ n+1 ) = rho(b(x_n)) \\ at every step. The theorem is unconditional given the named hypotheses; it does not require D to be invertible and does not reconstruct lost interior information.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1750-L1767; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1750-L1767",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P029-C0027",
+        "claim_type": "theorem",
+        "conclusion": "the finite-congruence local-global claim is false for the instance — without contradicting density-one saturation when R_ rec has density zero. The obstruction refines the residual taxonomy; it does not overturn the saturation",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "This is a schema with imported mathematical payload. Assume: [H-G13-thin] Lambda is Zariski dense in the relevant algebraic group with [G_ Z : Lambda] = ∈fty ; [H-G13-expansion] the congruence quotient family has a uniform spectral gap for the declared generators; [H-G13-congruence-audit] A is the finite union of residue classes modulo a declared Q_0 passing all declared local congruence obstructions — explicitly a local audit only; [H-G13-imported-saturation] an imported instance theorem proves # ((A pi(O)) [1, N] ) = O(N^ 1 - ) for some > 0 , or a stronger finite-exception bound. Then the projected orbit saturates the thick admissible target up to the declared exceptional-set bound, and in particular the relative density of missed admissible targets vanishes: # ((A pi(O)) [1, N] ) # (A [1, N] ) 0 . A finite-exception import gives full saturation beyond a threshold; a positive-density-only import licenses no density-one claim. If additionally [H-G13-reciprocity-record] a declared infinite family R_ rec ⊆ A is proved missed by pi(O) by a reciprocity argument not expressible as exclusion from the finite congruence audit"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Thin-Orbit Saturation: This is a schema with imported mathematical payload. Assume: [H-G13-thin] Lambda is Zariski dense in the relevant algebraic group with [G_ Z : Lambda] = ∈fty ; [H-G13-expansion] the congruence quotient family has a uniform spectral gap for the declared generators; [H-G13-congruence-audit] A is the finite union of residue classes modulo a declared Q_0 passing all declared local congruence obstructions — explicitly a local audit only; [H-G13-imported-saturation] an imported instance theorem proves # ((A pi(O)) [1, N] ) = O(N^ 1 - ) for some > 0 , or a stronger finite-exception bound. Then the projected orbit saturates the thick admissible target up to the declared exceptional-set bound, and in particular the relative density of missed admissible targets vanishes: # ((A pi(O)) [1, N] ) # (A [1, N] ) 0 . A finite-exception import gives full saturation beyond a threshold; a positive-density-only import licenses no density-one claim. If additionally [H-G13-reciprocity-record] a declared infinite family R_ rec ⊆ A is proved missed by pi(O) by a reciprocity argument not expressible as exclusion from the finite congruence audit, then the finite-congruence local-global claim is false for the instance — without contradicting density-one saturation when R_ rec has density zero. The obstruction refines the residual taxonomy; it does not overturn the saturation.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2089-L2119; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2089-L2119",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P042-C0008",
+        "claim_type": "proposition",
+        "conclusion": "CD_tau(Pi) 1 2 (RM_tau^ stat (Pi) )^2",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If the induced packaged rows coincide with the stationary-conditioned rows"
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Route mismatch lower bound: If the induced packaged rows coincide with the stationary-conditioned rows, then CD_tau(Pi) 1 2 (RM_tau^ stat (Pi) )^2.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L298-L306; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L298-L306",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P004-C0027",
+        "claim_type": "definition",
+        "conclusion": "A declared residual budget on Z is a positive semidefinite operator Omega 0 . The corresponding adequacy defect of D relative to L and Omega is the Hermitian operator Delta_Xi=Xi_C(D L)-Omega, where Xi_C(D L) is the adequacy residual of . The budget holds when Delta_Xi 0 ; a positive quadratic-form direction of Delta_Xi is a certificate that it does not.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Declared residual budget and adequacy defect: A declared residual budget on Z is a positive semidefinite operator Omega 0 . The corresponding adequacy defect of D relative to L and Omega is the Hermitian operator Delta_Xi=Xi_C(D L)-Omega, where Xi_C(D L) is the adequacy residual of . The budget holds when Delta_Xi 0 ; a positive quadratic-form direction of Delta_Xi is a certificate that it does not.",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1119-L1130; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1119-L1130",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P004-C0006",
+        "claim_type": "definition",
+        "conclusion": "A linear map F: E→ Y is a null-legal probe family when it vanishes on the zero-audit-cost directions: F|_ Ker C =0. For such an F , its restriction to the legal subspace is F_0=F|_ E_C : E_C→ Y. The native and dissolving probe families used throughout the paper are taken to be null-legal: their restrictions are written L_0 and D_0 .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Null-legal probe family: A linear map F: E→ Y is a null-legal probe family when it vanishes on the zero-audit-cost directions: F|_ Ker C =0. For such an F , its restriction to the legal subspace is F_0=F|_ E_C : E_C→ Y. The native and dissolving probe families used throughout the paper are taken to be null-legal: their restrictions are written L_0 and D_0 .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L275-L287; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L275-L287",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0026",
+        "claim_type": "theorem",
+        "conclusion": "for finite chromatic bounds the global chromatic number of (X, E) is the supremum of the chromatic numbers of its finite induced subgraphs: finite witnesses are complete, not merely sufficient, for finite lower-bound detection",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume [H-G12-finite-witness] some finite W ⊆ X has a valid cert_k(W) proving (G[W]) > k . Then X has no proper k -coloring: a global coloring would restrict to a proper k -coloring of G[W] , contradicting the certificate; hence (X, E) > k . Assume also [H-G12-homogeneity] Gamma acts transitively on X preserving E . Then every gamma W is an equally valid witness with the certificate transported by gamma — location-invariance of the witness, not a stronger bound. Assume further [H-G12-compactness] the metatheory includes the de Bruijn–ErdH o s compactness principle for graph coloring — a purchased set-theoretic commitment, needed for finite witnesses to exhaust finite global chromatic bounds, and not needed merely to infer a lower bound from a displayed subgraph"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Finite Witness Radiation: Assume [H-G12-finite-witness] some finite W ⊆ X has a valid cert_k(W) proving (G[W]) > k . Then X has no proper k -coloring: a global coloring would restrict to a proper k -coloring of G[W] , contradicting the certificate; hence (X, E) > k . Assume also [H-G12-homogeneity] Gamma acts transitively on X preserving E . Then every gamma W is an equally valid witness with the certificate transported by gamma — location-invariance of the witness, not a stronger bound. Assume further [H-G12-compactness] the metatheory includes the de Bruijn–ErdH o s compactness principle for graph coloring — a purchased set-theoretic commitment, needed for finite witnesses to exhaust finite global chromatic bounds, and not needed merely to infer a lower bound from a displayed subgraph. Then for finite chromatic bounds the global chromatic number of (X, E) is the supremum of the chromatic numbers of its finite induced subgraphs: finite witnesses are complete, not merely sufficient, for finite lower-bound detection.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1984-L2006; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1984-L2006",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0013",
+        "claim_type": "theorem",
+        "conclusion": "no infinite nonterminal run exists: every run reaches A in finitely many steps. When W carries an effective height extractor for the initial escrow value, the extractor yields a finite step-count certificate or bound; otherwise the descended certificate is the finite terminating trace itself. For declared problem families, the existence of a sound uniform escrow may carry a named minimum order strength. For Goodstein sequences that strength is _0 : the standard proof descends through ordinals cofinal below _0 , and by Kirby–Paris, Goodstein's theorem is not provable in Peano Arithmetic — equivalently, for this normal form, no PA-internal escrow whose well-foundedness is provable below the _0 strength can certify termination of all Goodstein sequences. The price is imported proof theory, recorded here, not reproved",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume: [H-G2-stage-coherence] for every nonterminal step of the run, e_ k+1 (pi_ k+1 (T_k(x_k)) ) < e_k (pi_k(x_k) ); (W, <) is well-founded"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Transfinite Escrow: Assume: [H-G2-stage-coherence] for every nonterminal step of the run, e_ k+1 (pi_ k+1 (T_k(x_k)) ) < e_k (pi_k(x_k) ); (W, <) is well-founded. Then no infinite nonterminal run exists: every run reaches A in finitely many steps. When W carries an effective height extractor for the initial escrow value, the extractor yields a finite step-count certificate or bound; otherwise the descended certificate is the finite terminating trace itself. For declared problem families, the existence of a sound uniform escrow may carry a named minimum order strength. For Goodstein sequences that strength is _0 : the standard proof descends through ordinals cofinal below _0 , and by Kirby–Paris, Goodstein's theorem is not provable in Peano Arithmetic — equivalently, for this normal form, no PA-internal escrow whose well-foundedness is provable below the _0 strength can certify termination of all Goodstein sequences. The price is imported proof theory, recorded here, not reproved.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L697-L717; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L697-L717",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P042-C0012",
+        "claim_type": "result_summary",
+        "conclusion": "evaluate the resulting packaged sequence by held-out first- and second-order predictive log loss and by the empirical conditional mutual information I(X_t;Y_ t+1 Y_t), computed from the joint sequence of hidden microstates and learned packaged labels. In this appendix we report the raw empirical conditional mutual information, not the normalized version used only for diagnostics during development",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "This appendix records the representation-learning result that we treat as auxiliary rather than core evidence . The experiment asks whether increasing representational budget, measured by the number of learned clusters k , automatically reduces predictive non-closure when packaging is learned from observations rather than supplied by construction. It does not. We generate observation sequences from the hidden-type process used earlier and learn k -means partitions on those observations for k ∈ \\ 2,4,8\\ . For each learned packaging we"
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Auxiliary Clustering Result: This appendix records the representation-learning result that we treat as auxiliary rather than core evidence . The experiment asks whether increasing representational budget, measured by the number of learned clusters k , automatically reduces predictive non-closure when packaging is learned from observations rather than supplied by construction. It does not. We generate observation sequences from the hidden-type process used earlier and learn k -means partitions on those observations for k ∈ \\ 2,4,8\\ . For each learned packaging we then evaluate the resulting packaged sequence by held-out first- and second-order predictive log loss and by the empirical conditional mutual information I(X_t;Y_ t+1 Y_t), computed from the joint sequence of hidden microstates and learned packaged labels. In this appendix we report the raw empirical conditional mutual information, not the normalized version used only for diagnostics during development.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L490-L519; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L490-L519",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0010",
+        "claim_type": "theorem",
+        "conclusion": "Pointwise liveness is equivalent to emptiness of the infinite bad-tail intersection: ( x ∈ X A ,\\ k 1 :\\ V_k(x) > 0 ) Longleftrightarrow _ k 1 N_k = . Points of A are terminally discharged before the membrane test.",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Hidden Amortized Solvency, Part (a): bad-tail reduction: Pointwise liveness is equivalent to emptiness of the infinite bad-tail intersection: ( x ∈ X A ,\\ k 1 :\\ V_k(x) > 0 ) Longleftrightarrow _ k 1 N_k = . Points of A are terminally discharged before the membrane test.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L553-L561; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L553-L561",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0011",
+        "claim_type": "theorem",
+        "conclusion": "_k N_k = ; by Part (a), every nonterminal native point is live, and for each fixed x the bad-tail predicate x ∈ N_k is eventually false. For Collatz both hypotheses are unproved: they are named obligations, not evidence that the conjecture has been settled",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume: [H-G1-ghost-convergence] for a computable neighborhood system U_h(Gamma) in X with _h U_h(Gamma) = Gamma : every infinite bad thread based at a nonterminal native point has a limit in X , every such limit lies in Gamma , and hence for every h the thread is eventually in U_h(Gamma) ; [H-G1-separation] for every nonterminal native point x there are computable h(x) and K(x) , established by native certificates only, with T^ t (x) U_ h(x) (Gamma) for every t K(x)"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Hidden Amortized Solvency, Part (b): ghost-discharge schema: Assume: [H-G1-ghost-convergence] for a computable neighborhood system U_h(Gamma) in X with _h U_h(Gamma) = Gamma : every infinite bad thread based at a nonterminal native point has a limit in X , every such limit lies in Gamma , and hence for every h the thread is eventually in U_h(Gamma) ; [H-G1-separation] for every nonterminal native point x there are computable h(x) and K(x) , established by native certificates only, with T^ t (x) U_ h(x) (Gamma) for every t K(x). Then _k N_k = ; by Part (a), every nonterminal native point is live, and for each fixed x the bad-tail predicate x ∈ N_k is eventually false. For Collatz both hypotheses are unproved: they are named obligations, not evidence that the conjecture has been settled.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L574-L590; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L574-L590",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P029-C0025",
+        "claim_type": "theorem",
+        "conclusion": "every admissible configuration is aperiodic",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Assume: [H-G11-hierarchy] every globally admissible C -configuration carries the declared hierarchy uniquely at every scale; the hierarchy is locally forced by the rules of C ; and for every nonzero period vector p some scale k has forced marker or block structure that cannot be invariant under translation by p ; [H-G11-nonempty] at least one global configuration satisfies all local rules of C . Then admissible configurations exist; for every nonzero p the hierarchy supplies a scale whose forced structure is incompatible with p -periodicity; because the forcing is local, the incompatibility is witnessed on a finite region R_p , yielding a per-period defect certificate; and"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Local-Rule Global-Anti-Symmetry: Assume: [H-G11-hierarchy] every globally admissible C -configuration carries the declared hierarchy uniquely at every scale; the hierarchy is locally forced by the rules of C ; and for every nonzero period vector p some scale k has forced marker or block structure that cannot be invariant under translation by p ; [H-G11-nonempty] at least one global configuration satisfies all local rules of C . Then admissible configurations exist; for every nonzero p the hierarchy supplies a scale whose forced structure is incompatible with p -periodicity; because the forcing is local, the incompatibility is witnessed on a finite region R_p , yielding a per-period defect certificate; and therefore every admissible configuration is aperiodic.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1886-L1899; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1886-L1899",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "DEFINITION",
+        "claim_id": "P004-C0005",
+        "claim_type": "definition",
+        "conclusion": "The legal energy quotient of (E,C) is the orthogonal complement E_C=(Ker C)^ ⊆ E, together with the restricted audit form C_0=C|_ E_C >0 which is strictly positive on E_C . The Moore–Penrose pseudoinverse C^ , following , acts as C_0^ -1 on E_C and as zero on Ker C .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Legal energy quotient: The legal energy quotient of (E,C) is the orthogonal complement E_C=(Ker C)^ ⊆ E, together with the restricted audit form C_0=C|_ E_C >0 which is strictly positive on E_C . The Moore–Penrose pseudoinverse C^ , following , acts as C_0^ -1 on E_C and as zero on Ker C .",
+        "proof_status": "NOT_APPLICABLE_DEFINITION",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L255-L268; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L255-L268",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P029-C0004",
+        "claim_type": "result_summary",
+        "conclusion": "Promotion is passage to a richer layer — C from R , ordinals from N , the 2 -adics from the odd integers — via a recorded bridge. The SAU pattern (Strict Audited Utility): a promoted object U that does not descend may still legally solve a lower-layer problem, provided a selected boundary expression C(U) does descend to a lower-layer answer; the audit never licenses treating U itself as a lower-layer object . Throughout this paper we call that descended, natively checkable assertion the boundary certificate — the term is this paper's own, introduced here once (the F-series papers use per-role certificate vocabulary instead), and it is used in a fixed sense: the native inequality, equality, or finite record that promoted support is allowed to purchase. Every Cluster A law is a SAU specialization in which the promoted object is temporal — a future-valuation ledger, an ordinal escrow, a potential — and the boundary certificate is a descent or termination statement; the 2 -adic ghost -1 of is the canonical non-descending promoted object.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Promotion, SAU, and the boundary certificate.: Promotion is passage to a richer layer — C from R , ordinals from N , the 2 -adics from the odd integers — via a recorded bridge. The SAU pattern (Strict Audited Utility): a promoted object U that does not descend may still legally solve a lower-layer problem, provided a selected boundary expression C(U) does descend to a lower-layer answer; the audit never licenses treating U itself as a lower-layer object . Throughout this paper we call that descended, natively checkable assertion the boundary certificate — the term is this paper's own, introduced here once (the F-series papers use per-role certificate vocabulary instead), and it is used in a fixed sense: the native inequality, equality, or finite record that promoted support is allowed to purchase. Every Cluster A law is a SAU specialization in which the promoted object is temporal — a future-valuation ledger, an ordinal escrow, a potential — and the boundary certificate is a descent or termination statement; the 2 -adic ghost -1 of is the canonical non-descending promoted object.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L300-L314; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L300-L314",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0019",
+        "claim_type": "theorem",
+        "conclusion": "[H-G7-confinement-strategy] a declared devil strategy sigma_D from finite visible histories to at most b legal deletions, with a wall, cut, ranking, or amortization proof that against every legal angel strategy, sigma_D forces a finite turn N with no legal angel move. Exactly these certificate statuses are admissible: if [H-G7-escape-strategy] is discharged, the angel wins — every play consistent with sigma_A is infinite; if [H-G7-confinement-strategy] is discharged, the devil wins — every play against sigma_D is trapped in finitely many turns; if neither is supplied, the parameter lies in the declared ruleset's open band. The two certificates are mutually exclusive for a fixed declared game: playing the two strategies against each other would produce a single play both infinite and finitely trapped. For the classical game on Z^2 with b = 1 the threshold is fully known: the power- 1 angel loses, and every power- p angel with p 2 wins; no open band remains for the standard two-dimensional one-devil game.",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "LEADING_SETUP_CLAUSE",
+            "text": "Fix a board, mobility rule, and devil budget, and consider: [H-G7-escape-strategy] a declared angel strategy sigma_A from finite visible histories to legal moves, with an invariant I_n(H_n) and a proof that against every legal devil strategy, sigma_A preserves I_n and leaves a legal undeleted move at every finite turn;"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Adversarial Mobility Confinement: Fix a board, mobility rule, and devil budget, and consider: [H-G7-escape-strategy] a declared angel strategy sigma_A from finite visible histories to legal moves, with an invariant I_n(H_n) and a proof that against every legal devil strategy, sigma_A preserves I_n and leaves a legal undeleted move at every finite turn; [H-G7-confinement-strategy] a declared devil strategy sigma_D from finite visible histories to at most b legal deletions, with a wall, cut, ranking, or amortization proof that against every legal angel strategy, sigma_D forces a finite turn N with no legal angel move. Exactly these certificate statuses are admissible: if [H-G7-escape-strategy] is discharged, the angel wins — every play consistent with sigma_A is infinite; if [H-G7-confinement-strategy] is discharged, the devil wins — every play against sigma_D is trapped in finitely many turns; if neither is supplied, the parameter lies in the declared ruleset's open band. The two certificates are mutually exclusive for a fixed declared game: playing the two strategies against each other would produce a single play both infinite and finitely trapped. For the classical game on Z^2 with b = 1 the threshold is fully known: the power- 1 angel loses, and every power- p angel with p 2 wins; no open band remains for the standard two-dimensional one-devil game.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1300-L1324; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1300-L1324",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P029-C0018",
+        "claim_type": "theorem",
+        "conclusion": "y is a permanent hole: y V_n for all n N . Both directions are schemas: no concrete system satisfies either hypothesis until its rate ledger and witness cuts are supplied, and the two hypotheses can only conflict on a single target if the audit record itself is inconsistent",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "Covering schema. Assume [H-G6-dominant-pressure] there are a finite exception set E ⊆ X , a cofinal exhaustion W_1 ⊆ W_2 ⊆ with _M W_M = X E , and for each M a finite block decomposition of times after some N_M such that whenever H_n(W_M) is nonempty at the start of a block I , the audited inequality _ i ∈ I rho_i(W_M) 1 + _ i ∈ I gamma_i(W_M) holds and the excess is charged to at least one distinct first visit in H_n(W_M) during I . Then every point of X E is eventually visited: the orbit is cofinite-covering relative to E . Hole-forming schema. Assume [H-G6-dominant-obstruction] there are a target y ∈ X , a time N with y V_N , and a declared sequence of separating cuts C_n(y) such that for every n N every legal path from (x_n, S_n) to y crosses S_n or a certified blocked cut, with the quantitative excess _ i ∈ I gamma_i(C_i(y)) > _ i ∈ I rho_i(C_i(y)) on every later audit block, tied to the displayed cut rather than inferred from density"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Endogenous Needle Generation: Covering schema. Assume [H-G6-dominant-pressure] there are a finite exception set E ⊆ X , a cofinal exhaustion W_1 ⊆ W_2 ⊆ with _M W_M = X E , and for each M a finite block decomposition of times after some N_M such that whenever H_n(W_M) is nonempty at the start of a block I , the audited inequality _ i ∈ I rho_i(W_M) 1 + _ i ∈ I gamma_i(W_M) holds and the excess is charged to at least one distinct first visit in H_n(W_M) during I . Then every point of X E is eventually visited: the orbit is cofinite-covering relative to E . Hole-forming schema. Assume [H-G6-dominant-obstruction] there are a target y ∈ X , a time N with y V_N , and a declared sequence of separating cuts C_n(y) such that for every n N every legal path from (x_n, S_n) to y crosses S_n or a certified blocked cut, with the quantitative excess _ i ∈ I gamma_i(C_i(y)) > _ i ∈ I rho_i(C_i(y)) on every later audit block, tied to the displayed cut rather than inferred from density. Then y is a permanent hole: y V_n for all n N . Both directions are schemas: no concrete system satisfies either hypothesis until its rate ledger and witness cuts are supplied, and the two hypotheses can only conflict on a single target if the audit record itself is inconsistent.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1190-L1218; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1190-L1218",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "PAPER_STATED_COMPOSITE_RESULT",
+        "claim_id": "P029-C0001",
+        "claim_type": "paper_thesis",
+        "conclusion": "The Six Birds corpus through certifies states: each of its laws fixes a single map, quotient, package, or declared finite family and proves a static classification about it. Nothing in the corpus certifies runs — liveness (every orbit eventually earns a certificate), amortized or transfinite cost over unbounded time, covers that must move with their targets, obstructions that grow, react, or are manufactured by the system's own history, route defects that integrate into potentials, transport that emerges from substrate dynamics, or content that persists through repeated loss. This paper is the catalog of exactly those laws: dynamical structural laws (G1–G13), organized in clusters, each stated in the six-part normal form inherited verbatim from and each carrying a temporal quantifier that no static row possesses. The laws were mined from eccentric mathematical problems — Collatz, Goodstein, Egyptian fractions, reverse-and-add, Recam\\'an, the angel problem, sandpiles, rule 184, Ducci, aperiodic tilings, Hadwiger–Nelson, Apollonian packings — treated as theorem detectors: each problem's folklore almost-proof names a promoted object, the object's lawful descended certificate fixes a boundary expression, and the residual surviving comparison against every existing law is the law seed. All thirteen laws are mechanized in Mathlib-free Lean 4 with per-declaration kernel-axiom audits; six laws are full theorem-grade rows and one splits into an unconditional theorem and a schema, four are schema-grade with named boxed hypotheses, and three are calibration-anchored schemas discharged end-to-end by solved classical instances. The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "COMPONENT_CLAIMS_CONTROL",
+            "text": "Composite abstract; component claim records govern exact hypotheses."
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "The Six Birds corpus through certifies states: each of its laws fixes a single map, quotient, package, or declared finite family and proves a static classification about it. Nothing in the corpus certifies runs — liveness (every orbit eventually earns a certificate), amortized or transfinite cost over unbounded time, covers that must move with their targets, obstructions that grow, react, or are manufactured by the system's own history, route defects that integrate into potentials, transport that emerges from substrate dynamics, or content that persists through repeated loss. This paper is the catalog of exactly those laws: dynamical structural laws (G1–G13), organized in clusters, each stated in the six-part normal form inherited verbatim from and each carrying a temporal quantifier that no static row possesses. The laws were mined from eccentric mathematical problems — Collatz, Goodstein, Egyptian fractions, reverse-and-add, Recam\\'an, the angel problem, sandpiles, rule 184, Ducci, aperiodic tilings, Hadwiger–Nelson, Apollonian packings — treated as theorem detectors: each problem's folklore almost-proof names a promoted object, the object's lawful descended certificate fixes a boundary expression, and the residual surviving comparison against every existing law is the law seed. All thirteen laws are mechanized in Mathlib-free Lean 4 with per-declaration kernel-axiom audits; six laws are full theorem-grade rows and one splits into an unconditional theorem and a schema, four are schema-grade with named boxed hypotheses, and three are calibration-anchored schemas discharged end-to-end by solved classical instances. The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "proof_status": "MIXED_SEE_COMPONENT_CLAIMS",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P042-C0005",
+        "claim_type": "proposition",
+        "conclusion": "The micro-closure deficit can be written as CD_tau(Pi) = _ x ∈ X pi(x) D_ KL ( p_x^ (tau) \\| p_ Pi(x) ^ (tau) ), where, in the finite case, D_ KL (p\\|q) := _ y' ∈ Y p(y') p(y') q(y') , with the convention 0 (0/q)=0 .",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [
+          {
+            "extraction": "SOURCE_STATEMENT_CONTROLS",
+            "text": "No independent hypothesis block was mechanically separable; all quantifiers and conditions in source_wording_tex govern."
+          }
+        ],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Expected KL form: The micro-closure deficit can be written as CD_tau(Pi) = _ x ∈ X pi(x) D_ KL ( p_x^ (tau) \\| p_ Pi(x) ^ (tau) ), where, in the finite case, D_ KL (p\\|q) := _ y' ∈ Y p(y') p(y') q(y') , with the convention 0 (0/q)=0 .",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L217-L236; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L217-L236",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P029-C0014",
+        "claim_type": "theorem",
+        "conclusion": "every length- n prefix satisfies _ i=1 ^ n a_i n B + Phi(s_0)",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "For every finite run prefix s_0 → → s_n , _ i=1 ^ n a_i = _ i=1 ^ n a_i + Phi(s_0) - Phi(s_n) _ i=1 ^ n a_i + Phi(s_0), the inequality because Phi(s_n) 0 . Consequently, if a declared class of runs has a_i B for every step"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Amortized Potential Currency: For every finite run prefix s_0 → → s_n , _ i=1 ^ n a_i = _ i=1 ^ n a_i + Phi(s_0) - Phi(s_n) _ i=1 ^ n a_i + Phi(s_0), the inequality because Phi(s_n) 0 . Consequently, if a declared class of runs has a_i B for every step, then every length- n prefix satisfies _ i=1 ^ n a_i n B + Phi(s_0).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L819-L831; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L819-L831",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NAMED_RESULT_OR_GATE_SURFACE",
+        "claim_id": "P042-C0010",
+        "claim_type": "result_summary",
+        "conclusion": "The controlled Markov benchmark established what unresolved closure is. The complementary question is what it costs to buy the missing distinctions back once the current package has already failed to stabilize them. To expose that accounting side directly, we fix the strongest hidden-type benchmark and measure the budgeted randomness curve Rand_B empirically using packaged predictors of increasing memory order. The empirical curve is reported in the feasible-class sense of : at budget B=L , we plot the best held-out log loss available among predictors of order at most L . This matters because sparse higher-order contexts can make the raw loss of a particular order- L fit fluctuate upward in finite data, whereas the feasible-class quantity itself should never worsen when the admissible predictor class strictly expands.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [
+          "P042-C0002"
+        ],
+        "normalized_claim": "Budgeted Prediction: The controlled Markov benchmark established what unresolved closure is. The complementary question is what it costs to buy the missing distinctions back once the current package has already failed to stabilize them. To expose that accounting side directly, we fix the strongest hidden-type benchmark and measure the budgeted randomness curve Rand_B empirically using packaged predictors of increasing memory order. The empirical curve is reported in the feasible-class sense of : at budget B=L , we plot the best held-out log loss available among predictors of order at most L . This matters because sparse higher-order contexts can make the raw loss of a particular order- L fit fluctuate upward in finite data, whereas the feasible-class quantity itself should never worsen when the admissible predictor class strictly expands.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L416-L433; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L416-L433",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "THEOREM_GRADE",
+        "claim_id": "P004-C0021",
+        "claim_type": "corollary",
+        "conclusion": "Xi_C(D [L;M])=Xi_C(D L)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "If M=BL for some linear map B: Y→ W"
+          }
+        ],
+        "nonclaims": [
+          "P004-C0002",
+          "P004-C0003",
+          "P004-C0029",
+          "P004-C0030",
+          "P004-C0031",
+          "P004-C0032",
+          "P004-C0033"
+        ],
+        "normalized_claim": "Same-family saturation: If M=BL for some linear map B: Y→ W , then Xi_C(D [L;M])=Xi_C(D L).",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L846-L851; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L846-L851",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "NEGATIVE_RESULT_THEOREM",
+        "claim_id": "P029-C0016",
+        "claim_type": "theorem",
+        "conclusion": "if some iterate R_b^ N (x) lies in P , no later iterate satisfies the target: closure gives R_b^ N+t (x) ∈ P for every t 0 , and target-freeness gives Pal_b(R_b^ N+t (x)) for every t 0 . Both halves are conditional: the no-go does not by itself prove escape from the target, and the confinement applies only after a concrete target-free closed language has been verified",
+        "formalization_status": "MATCHED_IMPORTED_LAW_DECLARATION",
+        "hypotheses": [
+          {
+            "extraction": "EXPLICIT_CONCLUSION_BOUNDARY",
+            "text": "No-go schema. Assume [H-G5-unbounded-horizon] for every fixed depth m there are a step j and states y, z in the declared carrier with q_m(y) = q_m(z) but different declared future probe values — a nonempty step-indexed split-pair obstruction Delta(q_m, R_b^ j , r_j) ≠ . Then no fixed-depth quotient q_m is future-sufficient for the declared unbounded run: for every m , the future probe fails to factor through q_m . Confinement schema. Assume [H-G5-closed-pattern] a declared regular or automatic language P satisfies R_b(P) ⊆ P (cyclically R_b(P_i) ⊆ P_ i+1 when phase-indexed, with P = _i P_i ), and no member of P satisfies the target predicate"
+          }
+        ],
+        "nonclaims": [
+          "P029-C0002",
+          "P029-C0005",
+          "P029-C0006",
+          "P029-C0008",
+          "P029-C0021",
+          "P029-C0030",
+          "P029-C0033"
+        ],
+        "normalized_claim": "Carry-Horizon Confinement: No-go schema. Assume [H-G5-unbounded-horizon] for every fixed depth m there are a step j and states y, z in the declared carrier with q_m(y) = q_m(z) but different declared future probe values — a nonempty step-indexed split-pair obstruction Delta(q_m, R_b^ j , r_j) ≠ . Then no fixed-depth quotient q_m is future-sufficient for the declared unbounded run: for every m , the future probe fails to factor through q_m . Confinement schema. Assume [H-G5-closed-pattern] a declared regular or automatic language P satisfies R_b(P) ⊆ P (cyclically R_b(P_i) ⊆ P_ i+1 when phase-indexed, with P = _i P_i ), and no member of P satisfies the target predicate. Then if some iterate R_b^ N (x) lies in P , no later iterate satisfies the target: closure gives R_b^ N+t (x) ∈ P for every t 0 , and target-freeness gives Pal_b(R_b^ N+t (x)) for every t 0 . Both halves are conditional: the no-go does not by itself prove escape from the target, and the confinement applies only after a concrete target-free closed language has been verified.",
+        "proof_status": "PROOF_PRESENT_IN_SOURCE",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1065-L1088; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1065-L1088",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "SUPPORT"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P042-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "We do not claim that all randomness is reducible to hidden microstructure, nor do we identify route mismatch with genuine irreversibility.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "We do not claim that all randomness is reducible to hidden microstructure, nor do we identify route mismatch with genuine irreversibility.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L118; derived/expanded/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex:L118",
+        "source_paper": "P042",
+        "source_title": "Randomness under Packaging and Budget",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0030",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim novelty for those operator-theoretic ingredients.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim novelty for those operator-theoretic ingredients.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1234-L1247; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1234-L1247",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P054-C0004",
+        "claim_type": "nonclaim",
+        "conclusion": "and it does not prove that every higher-layer shadow price arises from every lower-layer ledger.",
+        "formalization_status": "PAPER_DISCLOSED_ASSET_NOT_IMPORTED",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "and it does not prove that every higher-layer shadow price arises from every lower-layer ledger.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L508; derived/expanded/Tsiokos_2026_To_Spend_a_Stone_with_Six_Birds_Currency_Constraint_Duality_and_Shadow_Prices_Across_Closure_Layers.tex:L508",
+        "source_paper": "P054",
+        "source_title": "Currency, Constraint Duality, and Shadow Prices",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim exact adequacy generically, does not classify all probe-family pairs, and does not claim novelty for the classical operator-theoretic constructions it packages.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim exact adequacy generically, does not classify all probe-family pairs, and does not claim novelty for the classical operator-theoretic constructions it packages.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L105-L125; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L105-L125",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0031",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not assert that every raw substrate sees every dissolving probe, and it does not assert that Xi_C(D L)=0 generically Finally, it does not claim novelty for Schur complements, pseudoinverses, projection identities, or Douglas-style factorization.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not assert that every raw substrate sees every dissolving probe, and it does not assert that Xi_C(D L)=0 generically Finally, it does not claim novelty for Schur complements, pseudoinverses, projection identities, or Douglas-style factorization.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1277-L1285; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1277-L1285",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P029-C0008",
+        "claim_type": "nonclaim",
+        "conclusion": "Run the candidate against the full Foundations IV catalog (exact statements, not summaries), the Foundations V laws, the nonclaim register, and the AOR status list. nonclaim compatibility (a law that needs an unconditional version of a forbidden inference is dead)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Run the candidate against the full Foundations IV catalog (exact statements, not summaries), the Foundations V laws, the nonclaim register, and the AOR status list. nonclaim compatibility (a law that needs an unconditional version of a forbidden inference is dead)",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L365-L392; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L365-L392",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0032",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not classify all possible probe-family pairs (L,D) , does not claim exact adequacy generically, does not claim novelty for the classical operator-theoretic constructions it uses, and does not depend on any particular application instance.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not classify all possible probe-family pairs (L,D) , does not claim exact adequacy generically, does not claim novelty for the classical operator-theoretic constructions it uses, and does not depend on any particular application instance.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1316-L1320; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1316-L1320",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P004-C0003",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper does not claim that every raw substrate sees every dissolving probe, nor that the residual vanishes generically Finally, the paper does not claim novelty for the classical constructions it uses, such as Schur complements, Moore–Penrose pseudoinverses, projection identities, and Douglas-style factorization.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper does not claim that every raw substrate sees every dissolving probe, nor that the residual vanishes generically Finally, the paper does not claim novelty for the classical constructions it uses, such as Schur complements, Moore–Penrose pseudoinverses, projection identities, and Douglas-style factorization.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L210-L222; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L210-L222",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P029-C0033",
+        "claim_type": "nonclaim",
+        "conclusion": "Each law is exactly as conditional as the corpus's nonclaim register requires, and several hypotheses are load-bearing by design.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Each law is exactly as conditional as the corpus's nonclaim register requires, and several hypotheses are load-bearing by design.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2464-L2486; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2464-L2486",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P029-C0030",
+        "claim_type": "scope_boundary",
+        "conclusion": "Nonclaims are load-bearing in this series: a law's value depends on what it declines to assert as much as on what it proves. The individual law sections keep their prose focused on setup, statement, and proof; this section consolidates the caveats, in four registers, and closes with the two objections we expect and accept the burden of answering.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Nonclaims and caveats: Nonclaims are load-bearing in this series: a law's value depends on what it declines to assert as much as on what it proves. The individual law sections keep their prose focused on setup, statement, and proof; this section consolidates the caveats, in four registers, and closes with the two objections we expect and accept the burden of answering.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2427-L2434; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2427-L2434",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P029-C0021",
+        "claim_type": "scope_boundary",
+        "conclusion": "The claim is conditional on that gate and on termination",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The claim is conditional on that gate and on termination",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1532-L1541; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L1532-L1541",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P029-C0006",
+        "claim_type": "nonclaim",
+        "conclusion": "Residual accounting uses the AOR status vocabulary , including the four asymptotic statuses recalled in , and the corpus nonclaim register is in force throughout — most prominently: route mismatch never implies drive content (G8's bridge is conditional on its named hypotheses, which is legal)",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Residual accounting uses the AOR status vocabulary , including the four asymptotic statuses recalled in , and the corpus nonclaim register is in force throughout — most prominently: route mismatch never implies drive content (G8's bridge is conditional on its named hypotheses, which is legal)",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L331-L350; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L331-L350",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P029-C0005",
+        "claim_type": "nonclaim",
+        "conclusion": "A membrane is a budget condition holding at every accepted stage, and its failure is a critical pair with exactly five lawful repairs (declared nonclaim, raised budget, rewritten carrier/audit, genuinely new probes, completed transport family) — same-package repetition is not a repair.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "A membrane is a budget condition holding at every accepted stage, and its failure is a critical pair with exactly five lawful repairs (declared nonclaim, raised budget, rewritten carrier/audit, genuinely new probes, completed transport family) — same-package repetition is not a repair.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L321-L329; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L321-L329",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "EXPLICIT_NONCLAIM",
+        "claim_id": "P029-C0002",
+        "claim_type": "nonclaim",
+        "conclusion": "The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "SCOPE_OR_LIMITATION_RECORD",
+        "claim_id": "P004-C0033",
+        "claim_type": "scope_boundary",
+        "conclusion": "the full identity proof is paper-side. thm:xi:exact-adequacy partial needs-strengthening Lean proves the easy implication chain and records hard directions as hypotheses. thm:xi:adequacy-promotion partial narrowed-surrogate Lean proves promotion conditional on the upstream adequacy-interface algebraic hypotheses. thm:xi:chain-rule partial needs-strengthening Lean proves the Loewner consequence under an elevated Schur chain-rule identity. cor:xi:same-family-saturation partial narrowed-surrogate Lean proves saturation under the chain-rule identity and an elevated zero cross-currency hypothesis. thm:xi:dissolving-post-processing theorem faithful Lean proves the faithful finite data-processing identity. thm:xi:native-coarsening partial narrowed-surrogate Lean proves the Schur-complement difference under the explicit Moore–Penrose comparison hypothesis. thm:xi:exact-reducing-bridge partial narrowed-surrogate Lean proves the final residual equality from transported block and Schur-correction identities. thm:xi:defective-bridge partial narrowed-surrogate Lean proves the bound from a residual decomposition plus PSD hypotheses for source and defect residuals. thm:xi:blind-spot-witness partial needs-strengthening Lean proves the Loewner-violation witness equivalence",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "the full identity proof is paper-side. thm:xi:exact-adequacy partial needs-strengthening Lean proves the easy implication chain and records hard directions as hypotheses. thm:xi:adequacy-promotion partial narrowed-surrogate Lean proves promotion conditional on the upstream adequacy-interface algebraic hypotheses. thm:xi:chain-rule partial needs-strengthening Lean proves the Loewner consequence under an elevated Schur chain-rule identity. cor:xi:same-family-saturation partial narrowed-surrogate Lean proves saturation under the chain-rule identity and an elevated zero cross-currency hypothesis. thm:xi:dissolving-post-processing theorem faithful Lean proves the faithful finite data-processing identity. thm:xi:native-coarsening partial narrowed-surrogate Lean proves the Schur-complement difference under the explicit Moore–Penrose comparison hypothesis. thm:xi:exact-reducing-bridge partial narrowed-surrogate Lean proves the final residual equality from transported block and Schur-correction identities. thm:xi:defective-bridge partial narrowed-surrogate Lean proves the bound from a residual decomposition plus PSD hypotheses for source and defect residuals. thm:xi:blind-spot-witness partial needs-strengthening Lean proves the Loewner-violation witness equivalence",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1411-L1437; derived/expanded/Tsiokos_2026_Adequacy_Residuals_and_Blind_Spot_Currency.tex:L1411-L1437",
+        "source_paper": "P004",
+        "source_title": "Adequacy Residuals and Blind-Spot Currency",
+        "trace_role": "BOUNDARY"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0032",
+        "claim_type": "open_problem",
+        "conclusion": "This paper solves no open problem and reports no progress on one. Specifically: the Collatz conjecture remains open (G1's Part (b) hypotheses [H-G1-ghost-convergence] and [H-G1-separation] are named obligations, and the 2^L - 1 shadowing family is evidence against fixed-depth strategies, not evidence about the conjecture) The ErdH o s–Straus conjecture remains open (Mordell-style residue coverage and the quadratic-residue obstruction are sub-results about identity families No base-10 Lychrel candidate is decided — 196 remains open, and deep finite searches stay bounded evidence. Recam\\'an coverage remains open ( 852655 is a bounded-census fact, not a permanent-hole proof). The Langton's-ant highway conjecture remains open (trajectory unboundedness is proved, by Bunimovich–Troubetzkoy, and is cited in a nonclaim-scoped role only). Gilbreath's conjecture remains open (the gap-smallness reframing is heuristic). The exact chromatic number of the plane remains open (the bracket is 5 – 7 ). The Catalan–Dickson question for aliquot sequences remains open.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "This paper solves no open problem and reports no progress on one. Specifically: the Collatz conjecture remains open (G1's Part (b) hypotheses [H-G1-ghost-convergence] and [H-G1-separation] are named obligations, and the 2^L - 1 shadowing family is evidence against fixed-depth strategies, not evidence about the conjecture) The ErdH o s–Straus conjecture remains open (Mordell-style residue coverage and the quadratic-residue obstruction are sub-results about identity families No base-10 Lychrel candidate is decided — 196 remains open, and deep finite searches stay bounded evidence. Recam\\'an coverage remains open ( 852655 is a bounded-census fact, not a permanent-hole proof). The Langton's-ant highway conjecture remains open (trajectory unboundedness is proved, by Bunimovich–Troubetzkoy, and is cited in a nonclaim-scoped role only). Gilbreath's conjecture remains open (the gap-smallness reframing is heuristic). The exact chromatic number of the plane remains open (the bracket is 5 – 7 ). The Catalan–Dickson question for aliquot sequences remains open.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2434-L2449; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2434-L2449",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0031",
+        "claim_type": "open_problem",
+        "conclusion": "This paper solves no open problem and reports no progress on one. Specifically: the Collatz conjecture remains open (G1's Part (b) hypotheses [H-G1-ghost-convergence] and [H-G1-separation] are named obligations, and the 2^L - 1 shadowing family is evidence against fixed-depth strategies, not evidence about the conjecture); Tao's almost-all result retains status probabilistic relative to G1's pointwise target and discharges neither hypothesis. The ErdH o s–Straus conjecture remains open (Mordell-style residue coverage and the quadratic-residue obstruction are sub-results about identity families; density evidence is never upgraded to pointwise closure). No base-10 Lychrel candidate is decided — 196 remains open, and deep finite searches stay bounded evidence. Recam\\'an coverage remains open ( 852655 is a bounded-census fact, not a permanent-hole proof). The Langton's-ant highway conjecture remains open (trajectory unboundedness is proved, by Bunimovich–Troubetzkoy, and is cited in a nonclaim-scoped role only). Gilbreath's conjecture remains open (the gap-smallness reframing is heuristic). The exact chromatic number of the plane remains open (the bracket is 5 – 7 ). The Catalan–Dickson question for aliquot sequences remains open. Where a law names a conjectural flagship, the law organizes the problem's structure; it never claims progress on the problem itself.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Open problems, left open.: This paper solves no open problem and reports no progress on one. Specifically: the Collatz conjecture remains open (G1's Part (b) hypotheses [H-G1-ghost-convergence] and [H-G1-separation] are named obligations, and the 2^L - 1 shadowing family is evidence against fixed-depth strategies, not evidence about the conjecture); Tao's almost-all result retains status probabilistic relative to G1's pointwise target and discharges neither hypothesis. The ErdH o s–Straus conjecture remains open (Mordell-style residue coverage and the quadratic-residue obstruction are sub-results about identity families; density evidence is never upgraded to pointwise closure). No base-10 Lychrel candidate is decided — 196 remains open, and deep finite searches stay bounded evidence. Recam\\'an coverage remains open ( 852655 is a bounded-census fact, not a permanent-hole proof). The Langton's-ant highway conjecture remains open (trajectory unboundedness is proved, by Bunimovich–Troubetzkoy, and is cited in a nonclaim-scoped role only). Gilbreath's conjecture remains open (the gap-smallness reframing is heuristic). The exact chromatic number of the plane remains open (the bracket is 5 – 7 ). The Catalan–Dickson question for aliquot sequences remains open. Where a law names a conjectural flagship, the law organizes the problem's structure; it never claims progress on the problem itself.",
+        "proof_status": "NAMED_SOURCE_SECTION_ARGUMENT",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2434-L2451; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2434-L2451",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0029",
+        "claim_type": "open_problem",
+        "conclusion": "Nothing is deferred here — the disposition is final unless a genuinely temporal residual is someday exhibited.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "Nothing is deferred here — the disposition is final unless a genuinely temporal residual is someday exhibited.",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2397-L2403; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L2397-L2403",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0012",
+        "claim_type": "open_problem",
+        "conclusion": "liveness remains open because both boxed hypotheses are unproved .",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "liveness remains open because both boxed hypotheses are unproved .",
+        "proof_status": "PROSE_STATUS_OR_ARGUMENT_RECORD",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L655-L676; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L655-L676",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      },
+      {
+        "candidate_id": "VII-C017",
+        "claim_grade": "OPEN_PROBLEM_OR_DEFERRED_WORK",
+        "claim_id": "P029-C0003",
+        "claim_type": "open_problem",
+        "conclusion": "The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "formalization_status": "NO_MATCH",
+        "hypotheses": [],
+        "nonclaims": [],
+        "normalized_claim": "The paper solves no open problem and claims none: Collatz, Erd o s–Straus, Lychrel, Recam\\'an, the Langton's-ant highway, Gilbreath, and the exact chromatic number of the plane all remain open, and each law's nonclaims say so explicitly.",
+        "proof_status": "ABSTRACT_STATUS_BOUNDARY",
+        "source_location": "source/papers/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152; derived/expanded/Tsiokos_2026_Six_Birds_Foundations_VI_A_Catalog_of_Dynamical_Structural_Laws.tex:L130-L152",
+        "source_paper": "P029",
+        "source_title": "Foundations VI: Dynamical Structural Laws",
+        "trace_role": "OPEN"
+      }
+    ],
+    "supporting_claim_ids": [
+      "P029-C0022",
+      "P030-C0003",
+      "P030-C0101",
+      "P030-C0099",
+      "P042-C0001",
+      "P029-C0024",
+      "P029-C0027",
+      "P042-C0008",
+      "P004-C0027",
+      "P004-C0006",
+      "P029-C0026",
+      "P029-C0013",
+      "P042-C0012",
+      "P029-C0010",
+      "P029-C0011",
+      "P029-C0025",
+      "P004-C0005",
+      "P029-C0004",
+      "P029-C0019",
+      "P029-C0018",
+      "P029-C0001",
+      "P042-C0005",
+      "P029-C0014",
+      "P042-C0010",
+      "P004-C0021",
+      "P029-C0016"
+    ],
+    "trace_basis": "Complete union of Step-2 evidence attached to the candidate's convergence groups, deduplicated per candidate with SUPPORT > BOUNDARY > OPEN role precedence."
+  },
+  "status_grade": "UNPROVED_FOUNDATIONS_VII_CANDIDATE",
+  "step3_ruling": "READINESS_ONLY_NO_NEW_THEOREM_ASSERTED",
+  "typed_objects": [
+    "VII-O03",
+    "VII-O11"
+  ],
+  "wishlist_atoms": [
+    "ARC-H23",
+    "ARC-H25",
+    "CLD-A5",
+    "CLD-E4",
+    "MM-OP2",
+    "MED-H1",
+    "MED-H2"
+  ]
+}

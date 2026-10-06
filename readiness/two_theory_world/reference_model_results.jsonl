@@ -1,0 +1,24 @@
+{"all_pass": true, "assertion_results": {"first_extension": true}, "expected_status": "BOOTSTRAP_BLOCKED", "observed_status": "BOOTSTRAP_BLOCKED", "scenario_id": "TTW-S01", "status_pass": true}
+{"all_pass": true, "assertion_results": {"endogenous": true, "first_extension": true}, "expected_status": "LAWFUL_FIRST_EXTENSION", "observed_status": "LAWFUL_FIRST_EXTENSION", "scenario_id": "TTW-S02", "status_pass": true}
+{"all_pass": true, "assertion_results": {"prospective_credit": true}, "expected_status": "PROSPECTIVE_ADMISSION", "observed_status": "PROSPECTIVE_ADMISSION", "scenario_id": "TTW-S03", "status_pass": true}
+{"all_pass": true, "assertion_results": {"prospective_credit": true}, "expected_status": "RETROSPECTIVE_SELF_CERTIFICATION_REJECTED", "observed_status": "RETROSPECTIVE_SELF_CERTIFICATION_REJECTED", "scenario_id": "TTW-S04", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "INDEPENDENCE_GATE_FAILED", "observed_status": "INDEPENDENCE_GATE_FAILED", "scenario_id": "TTW-S05", "status_pass": true}
+{"all_pass": true, "assertion_results": {"contact": true, "strict_join": true}, "expected_status": "CONTACT_WITHOUT_JOIN", "observed_status": "CONTACT_WITHOUT_JOIN", "scenario_id": "TTW-S06", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "COMMON_REFINEMENT_NONSTRICT", "observed_status": "COMMON_REFINEMENT_NONSTRICT", "scenario_id": "TTW-S07", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "STRICT_JOIN", "observed_status": "STRICT_JOIN", "scenario_id": "TTW-S08", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "RETENTION_OBSTRUCTION", "observed_status": "RETENTION_OBSTRUCTION", "scenario_id": "TTW-S09", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "BUDGET_OBSTRUCTION", "observed_status": "BUDGET_OBSTRUCTION", "scenario_id": "TTW-S10", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "SOURCE_OBSTRUCTION", "observed_status": "SOURCE_OBSTRUCTION", "scenario_id": "TTW-S11", "status_pass": true}
+{"all_pass": true, "assertion_results": {"contact": true}, "expected_status": "NO_EVIDENCED_CONTACT", "observed_status": "NO_EVIDENCED_CONTACT", "scenario_id": "TTW-S12", "status_pass": true}
+{"all_pass": true, "assertion_results": {"certified_noninteraction": true}, "expected_status": "CERTIFIED_NONINTERACTION", "observed_status": "CERTIFIED_NONINTERACTION", "scenario_id": "TTW-S13", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "FAKE_JOIN_SCHEDULING", "observed_status": "FAKE_JOIN_SCHEDULING", "scenario_id": "TTW-S14", "status_pass": true}
+{"all_pass": true, "assertion_results": {"strict_join": true}, "expected_status": "FAKE_JOIN_RELABELING", "observed_status": "FAKE_JOIN_RELABELING", "scenario_id": "TTW-S15", "status_pass": true}
+{"all_pass": true, "assertion_results": {"holonomy": true}, "expected_status": "ORDER_RESIDUE", "observed_status": "ORDER_RESIDUE", "scenario_id": "TTW-S16", "status_pass": true}
+{"all_pass": true, "assertion_results": {"directionality": true}, "expected_status": "HOLONOMY_ZERO_ARROW", "observed_status": "HOLONOMY_ZERO_ARROW", "scenario_id": "TTW-S17", "status_pass": true}
+{"all_pass": true, "assertion_results": {"directionality": true}, "expected_status": "DRIVEN_ARROW", "observed_status": "DRIVEN_ARROW", "scenario_id": "TTW-S18", "status_pass": true}
+{"all_pass": true, "assertion_results": {"occurred": true, "reachable": true}, "expected_status": "SOUND_UNREACHABLE", "observed_status": "SOUND_UNREACHABLE", "scenario_id": "TTW-S19", "status_pass": true}
+{"all_pass": true, "assertion_results": {"occurred": true, "reachable": true}, "expected_status": "REACHABLE_NONOCCURRENT", "observed_status": "REACHABLE_NONOCCURRENT", "scenario_id": "TTW-S20", "status_pass": true}
+{"all_pass": true, "assertion_results": {"occurred": true}, "expected_status": "OCCURRENT_EVENT", "observed_status": "OCCURRENT_EVENT", "scenario_id": "TTW-S21", "status_pass": true}
+{"all_pass": true, "assertion_results": {"endogenous": true}, "expected_status": "UNPRICED_OBSERVER", "observed_status": "UNPRICED_OBSERVER", "scenario_id": "TTW-S22", "status_pass": true}
+{"all_pass": true, "assertion_results": {"bridge_valid": true}, "expected_status": "UNLICENSED_TOTALITY_TRANSFER", "observed_status": "UNLICENSED_TOTALITY_TRANSFER", "scenario_id": "TTW-S23", "status_pass": true}
+{"all_pass": true, "assertion_results": {"new_residual": true, "strict_join": true}, "expected_status": "REFINEMENT_DESTROYS_JOIN", "observed_status": "REFINEMENT_DESTROYS_JOIN", "scenario_id": "TTW-S24", "status_pass": true}

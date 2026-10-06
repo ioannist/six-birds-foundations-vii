@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="layer" for="node" attr.name="layer" attr.type="string" />
+  <key id="file" for="node" attr.name="file" attr.type="string" />
+  <graph edgedefault="directed" id="lean-imports">
+    <node id="ClosureLadder">
+      <data key="layer">FOUNDATIONS_I_CLOSURE</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal/ClosureLadder.lean</data>
+    </node>
+    <node id="ClosureLadder.Basic">
+      <data key="layer">FOUNDATIONS_I_CLOSURE</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal/ClosureLadder/Basic.lean</data>
+    </node>
+    <node id="ClosureLadder.IdempotentEndo">
+      <data key="layer">FOUNDATIONS_I_CLOSURE</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal/ClosureLadder/IdempotentEndo.lean</data>
+    </node>
+    <node id="ClosureLadder.MetaPackaging">
+      <data key="layer">FOUNDATIONS_I_CLOSURE</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal/ClosureLadder/MetaPackaging.lean</data>
+    </node>
+    <node id="ClosureLadder.Packaging">
+      <data key="layer">FOUNDATIONS_I_CLOSURE</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-theory/formal/ClosureLadder/Packaging.lean</data>
+    </node>
+    <node id="SixBirds">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds.lean</data>
+    </node>
+    <node id="SixBirds.Admissibility">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/Admissibility.lean</data>
+    </node>
+    <node id="SixBirds.Decomposition">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/Decomposition.lean</data>
+    </node>
+    <node id="SixBirds.FATCD">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/FATCD.lean</data>
+    </node>
+    <node id="SixBirds.IntegratedStress">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/IntegratedStress.lean</data>
+    </node>
+    <node id="SixBirds.LowerBounds">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/LowerBounds.lean</data>
+    </node>
+    <node id="SixBirds.Roles">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/Roles.lean</data>
+    </node>
+    <node id="SixBirds.ScopedExactSix">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/ScopedExactSix.lean</data>
+    </node>
+    <node id="SixBirds.SemanticTests">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/SemanticTests.lean</data>
+    </node>
+    <node id="SixBirds.UpperBound">
+      <data key="layer">FOUNDATIONS_II</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-ii/lean/full/SixBirds/UpperBound.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G10LossfulPersistence">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G10LossfulPersistence.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G11GlobalAntiSymmetry">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G11GlobalAntiSymmetry.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G12FiniteWitnessRadiation">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G12FiniteWitnessRadiation.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G13ThinOrbitSaturation">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G13ThinOrbitSaturation.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G1HiddenAmortizedSolvency">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G1HiddenAmortizedSolvency.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G2TransfiniteEscrow">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G2TransfiniteEscrow.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G3AmortizedCurrency">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G3AmortizedCurrency.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G4MovingCoverExhaustion">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G4MovingCoverExhaustion.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G5CarryHorizonConfinement">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G5CarryHorizonConfinement.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G6EndogenousNeedleGeneration">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G6EndogenousNeedleGeneration.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G7AdversarialMobilityConfinement">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G7AdversarialMobilityConfinement.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G8OdometerAbelianization">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G8OdometerAbelianization.lean</data>
+    </node>
+    <node id="SixBirdsFoundationsVI.Laws.G9DefectEvacuationTransport">
+      <data key="layer">FOUNDATIONS_VI</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/SixBirdsFoundationsVI/Laws/G9DefectEvacuationTransport.lean</data>
+    </node>
+    <node id="SixBirdsIII">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII.lean</data>
+    </node>
+    <node id="SixBirdsIII.AbstractInterpretation">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/AbstractInterpretation.lean</data>
+    </node>
+    <node id="SixBirdsIII.Basic">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Basic.lean</data>
+    </node>
+    <node id="SixBirdsIII.Completion">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Completion.lean</data>
+    </node>
+    <node id="SixBirdsIII.CompletionExamples">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/CompletionExamples.lean</data>
+    </node>
+    <node id="SixBirdsIII.CoreInteraction">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/CoreInteraction.lean</data>
+    </node>
+    <node id="SixBirdsIII.Defects">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Defects.lean</data>
+    </node>
+    <node id="SixBirdsIII.Definability">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Definability.lean</data>
+    </node>
+    <node id="SixBirdsIII.Domain">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Domain.lean</data>
+    </node>
+    <node id="SixBirdsIII.FiniteMaps">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/FiniteMaps.lean</data>
+    </node>
+    <node id="SixBirdsIII.FiniteProbability">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/FiniteProbability.lean</data>
+    </node>
+    <node id="SixBirdsIII.GraphCohomology">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/GraphCohomology.lean</data>
+    </node>
+    <node id="SixBirdsIII.HighStructure">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/HighStructure.lean</data>
+    </node>
+    <node id="SixBirdsIII.InstrumentClaims">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/InstrumentClaims.lean</data>
+    </node>
+    <node id="SixBirdsIII.Mech0">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Mech0.lean</data>
+    </node>
+    <node id="SixBirdsIII.MechanizationFeasibility">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/MechanizationFeasibility.lean</data>
+    </node>
+    <node id="SixBirdsIII.ModelRealizations">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/ModelRealizations.lean</data>
+    </node>
+    <node id="SixBirdsIII.Promotion">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Promotion.lean</data>
+    </node>
+    <node id="SixBirdsIII.Records">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Records.lean</data>
+    </node>
+    <node id="SixBirdsIII.RotatingAudit">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/RotatingAudit.lean</data>
+    </node>
+    <node id="SixBirdsIII.SemanticTests">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/SemanticTests.lean</data>
+    </node>
+    <node id="SixBirdsIII.Status">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Status.lean</data>
+    </node>
+    <node id="SixBirdsIII.Strictness">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/Strictness.lean</data>
+    </node>
+    <node id="SixBirdsIII.TopDownChannel">
+      <data key="layer">FOUNDATIONS_III</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-foundations-iii/lean/full/SixBirdsIII/TopDownChannel.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsICompat">
+      <data key="layer">FOUNDATIONS_I_COMPAT</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsICompat.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.Adequacy">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Access/Adequacy.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Access/HiddennessNormalForm.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Access/NoFreeDistinction.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Access.Quotientality">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Access/Quotientality.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.CommonSourceNonlocal">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/SelfReferenceLimits/CommonSourceNonlocal.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.InformationLoss">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/SelfReferenceLimits/InformationLoss.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Stability.NoNeedles">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Stability/NoNeedles.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Stability/SufficiencyClosure.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ConservationAsOrbitDescent">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/StatusRecordsCoherence/ConservationAsOrbitDescent.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/StatusRecordsCoherence/ObjectPersistence.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Symmetry.Anomaly">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Symmetry/Anomaly.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/DescentRepair.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Transport.HolonomyMemoryRepair">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/HolonomyMemoryRepair.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.FoundationsIV.Transport.LocalGlobalObstruction">
+      <data key="layer">FOUNDATIONS_IV</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/LocalGlobalObstruction.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.ImportedFoundations">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/ImportedFoundations.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.Main.LayerDissolving">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/Main/LayerDissolving.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.Main.LegalQuotient">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/Main/LegalQuotient.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.Main.XiInterface">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/Main/XiInterface.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.Terminology">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/Terminology.lean</data>
+    </node>
+    <node id="SixBirdsMetaMath.Xi.AdequacyResidual">
+      <data key="layer">SHARED_META_MATH</data>
+      <data key="file">formalization/foundations_vi_scaffold/lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/Xi/AdequacyResidual.lean</data>
+    </node>
+    <edge id="e1" source="ClosureLadder" target="ClosureLadder.Basic" />
+    <edge id="e2" source="ClosureLadder" target="ClosureLadder.IdempotentEndo" />
+    <edge id="e3" source="ClosureLadder" target="ClosureLadder.Packaging" />
+    <edge id="e4" source="ClosureLadder" target="ClosureLadder.MetaPackaging" />
+    <edge id="e5" source="ClosureLadder.IdempotentEndo" target="ClosureLadder.Basic" />
+    <edge id="e6" source="ClosureLadder.Packaging" target="ClosureLadder.Basic" />
+    <edge id="e7" source="SixBirds" target="SixBirds.Roles" />
+    <edge id="e8" source="SixBirds" target="SixBirds.FATCD" />
+    <edge id="e9" source="SixBirds" target="SixBirds.Admissibility" />
+    <edge id="e10" source="SixBirds" target="SixBirds.LowerBounds" />
+    <edge id="e11" source="SixBirds" target="SixBirds.UpperBound" />
+    <edge id="e12" source="SixBirds" target="SixBirds.Decomposition" />
+    <edge id="e13" source="SixBirds" target="SixBirds.IntegratedStress" />
+    <edge id="e14" source="SixBirds" target="SixBirds.ScopedExactSix" />
+    <edge id="e15" source="SixBirds" target="SixBirds.SemanticTests" />
+    <edge id="e16" source="SixBirds.Admissibility" target="SixBirds.FATCD" />
+    <edge id="e17" source="SixBirds.Decomposition" target="SixBirds.UpperBound" />
+    <edge id="e18" source="SixBirds.FATCD" target="SixBirds.Roles" />
+    <edge id="e19" source="SixBirds.IntegratedStress" target="SixBirds.Decomposition" />
+    <edge id="e20" source="SixBirds.LowerBounds" target="SixBirds.Admissibility" />
+    <edge id="e21" source="SixBirds.ScopedExactSix" target="SixBirds.IntegratedStress" />
+    <edge id="e22" source="SixBirds.SemanticTests" target="SixBirds.ScopedExactSix" />
+    <edge id="e23" source="SixBirds.UpperBound" target="SixBirds.LowerBounds" />
+    <edge id="e24" source="SixBirdsFoundationsVI" target="SixBirdsIII" />
+    <edge id="e25" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e26" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Transport.HolonomyMemoryRepair" />
+    <edge id="e27" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Transport.LocalGlobalObstruction" />
+    <edge id="e28" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Stability.NoNeedles" />
+    <edge id="e29" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm" />
+    <edge id="e30" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence" />
+    <edge id="e31" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ConservationAsOrbitDescent" />
+    <edge id="e32" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.InformationLoss" />
+    <edge id="e33" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.Symmetry.Anomaly" />
+    <edge id="e34" source="SixBirdsFoundationsVI" target="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.CommonSourceNonlocal" />
+    <edge id="e35" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G1HiddenAmortizedSolvency" />
+    <edge id="e36" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G2TransfiniteEscrow" />
+    <edge id="e37" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G3AmortizedCurrency" />
+    <edge id="e38" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G4MovingCoverExhaustion" />
+    <edge id="e39" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G5CarryHorizonConfinement" />
+    <edge id="e40" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G6EndogenousNeedleGeneration" />
+    <edge id="e41" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G7AdversarialMobilityConfinement" />
+    <edge id="e42" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G9DefectEvacuationTransport" />
+    <edge id="e43" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G10LossfulPersistence" />
+    <edge id="e44" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G11GlobalAntiSymmetry" />
+    <edge id="e45" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G12FiniteWitnessRadiation" />
+    <edge id="e46" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G13ThinOrbitSaturation" />
+    <edge id="e47" source="SixBirdsFoundationsVI" target="SixBirdsFoundationsVI.Laws.G8OdometerAbelianization" />
+    <edge id="e48" source="SixBirdsIII" target="SixBirdsIII.Basic" />
+    <edge id="e49" source="SixBirdsIII" target="SixBirdsIII.Status" />
+    <edge id="e50" source="SixBirdsIII" target="SixBirdsIII.Domain" />
+    <edge id="e51" source="SixBirdsIII" target="SixBirdsIII.Records" />
+    <edge id="e52" source="SixBirdsIII" target="SixBirdsIII.Mech0" />
+    <edge id="e53" source="SixBirdsIII" target="SixBirdsIII.CoreInteraction" />
+    <edge id="e54" source="SixBirdsIII" target="SixBirdsIII.FiniteMaps" />
+    <edge id="e55" source="SixBirdsIII" target="SixBirdsIII.Completion" />
+    <edge id="e56" source="SixBirdsIII" target="SixBirdsIII.Strictness" />
+    <edge id="e57" source="SixBirdsIII" target="SixBirdsIII.Defects" />
+    <edge id="e58" source="SixBirdsIII" target="SixBirdsIII.CompletionExamples" />
+    <edge id="e59" source="SixBirdsIII" target="SixBirdsIII.Definability" />
+    <edge id="e60" source="SixBirdsIII" target="SixBirdsIII.FiniteProbability" />
+    <edge id="e61" source="SixBirdsIII" target="SixBirdsIII.GraphCohomology" />
+    <edge id="e62" source="SixBirdsIII" target="SixBirdsIII.TopDownChannel" />
+    <edge id="e63" source="SixBirdsIII" target="SixBirdsIII.Promotion" />
+    <edge id="e64" source="SixBirdsIII" target="SixBirdsIII.InstrumentClaims" />
+    <edge id="e65" source="SixBirdsIII" target="SixBirdsIII.RotatingAudit" />
+    <edge id="e66" source="SixBirdsIII" target="SixBirdsIII.AbstractInterpretation" />
+    <edge id="e67" source="SixBirdsIII" target="SixBirdsIII.HighStructure" />
+    <edge id="e68" source="SixBirdsIII" target="SixBirdsIII.ModelRealizations" />
+    <edge id="e69" source="SixBirdsIII" target="SixBirdsIII.MechanizationFeasibility" />
+    <edge id="e70" source="SixBirdsIII" target="SixBirdsIII.SemanticTests" />
+    <edge id="e71" source="SixBirdsIII.CoreInteraction" target="SixBirdsIII.Records" />
+    <edge id="e72" source="SixBirdsIII.Defects" target="SixBirdsIII.FiniteMaps" />
+    <edge id="e73" source="SixBirdsIII.Defects" target="SixBirdsIII.Strictness" />
+    <edge id="e74" source="SixBirdsIII.Definability" target="SixBirdsIII.FiniteMaps" />
+    <edge id="e75" source="SixBirdsIII.Domain" target="SixBirdsIII.Status" />
+    <edge id="e76" source="SixBirdsIII.HighStructure" target="SixBirdsIII.FiniteMaps" />
+    <edge id="e77" source="SixBirdsIII.HighStructure" target="SixBirdsIII.CompletionExamples" />
+    <edge id="e78" source="SixBirdsIII.HighStructure" target="SixBirdsIII.Defects" />
+    <edge id="e79" source="SixBirdsIII.InstrumentClaims" target="SixBirdsIII.Status" />
+    <edge id="e80" source="SixBirdsIII.Mech0" target="SixBirdsIII.Records" />
+    <edge id="e81" source="SixBirdsIII.ModelRealizations" target="SixBirdsIII.Promotion" />
+    <edge id="e82" source="SixBirdsIII.Promotion" target="SixBirdsIII.Defects" />
+    <edge id="e83" source="SixBirdsIII.Promotion" target="SixBirdsIII.Status" />
+    <edge id="e84" source="SixBirdsIII.Records" target="SixBirdsIII.Domain" />
+    <edge id="e85" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.CoreInteraction" />
+    <edge id="e86" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.Defects" />
+    <edge id="e87" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.CompletionExamples" />
+    <edge id="e88" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.Definability" />
+    <edge id="e89" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.FiniteProbability" />
+    <edge id="e90" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.GraphCohomology" />
+    <edge id="e91" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.Promotion" />
+    <edge id="e92" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.InstrumentClaims" />
+    <edge id="e93" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.RotatingAudit" />
+    <edge id="e94" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.AbstractInterpretation" />
+    <edge id="e95" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.HighStructure" />
+    <edge id="e96" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.ModelRealizations" />
+    <edge id="e97" source="SixBirdsIII.SemanticTests" target="SixBirdsIII.MechanizationFeasibility" />
+    <edge id="e98" source="SixBirdsIII.Status" target="SixBirdsIII.Basic" />
+    <edge id="e99" source="SixBirdsIII.Strictness" target="SixBirdsIII.FiniteMaps" />
+    <edge id="e100" source="SixBirdsIII.TopDownChannel" target="SixBirdsIII.Records" />
+    <edge id="e101" source="SixBirdsMetaMath.FoundationsICompat" target="ClosureLadder" />
+    <edge id="e102" source="SixBirdsMetaMath.FoundationsIV.Access.Adequacy" target="SixBirdsMetaMath.FoundationsIV.Access.Quotientality" />
+    <edge id="e103" source="SixBirdsMetaMath.FoundationsIV.Access.HiddennessNormalForm" target="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction" />
+    <edge id="e104" source="SixBirdsMetaMath.FoundationsIV.Access.NoFreeDistinction" target="SixBirdsMetaMath.FoundationsIV.Access.Adequacy" />
+    <edge id="e105" source="SixBirdsMetaMath.FoundationsIV.Access.Quotientality" target="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure" />
+    <edge id="e106" source="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.CommonSourceNonlocal" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e107" source="SixBirdsMetaMath.FoundationsIV.SelfReferenceLimits.InformationLoss" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e108" source="SixBirdsMetaMath.FoundationsIV.Stability.NoNeedles" target="SixBirdsMetaMath.Main.LayerDissolving" />
+    <edge id="e109" source="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e110" source="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ConservationAsOrbitDescent" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e111" source="SixBirdsMetaMath.FoundationsIV.StatusRecordsCoherence.ObjectPersistence" target="SixBirdsMetaMath.FoundationsIV.Transport.DescentRepair" />
+    <edge id="e112" source="SixBirdsMetaMath.FoundationsIV.Symmetry.Anomaly" target="SixBirdsMetaMath.FoundationsIV.Stability.SufficiencyClosure" />
+    <edge id="e113" source="SixBirdsMetaMath.FoundationsIV.Symmetry.Anomaly" target="SixBirdsMetaMath.FoundationsIV.Transport.LocalGlobalObstruction" />
+    <edge id="e114" source="SixBirdsMetaMath.ImportedFoundations" target="ClosureLadder" />
+    <edge id="e115" source="SixBirdsMetaMath.ImportedFoundations" target="SixBirds" />
+    <edge id="e116" source="SixBirdsMetaMath.ImportedFoundations" target="SixBirdsIII" />
+    <edge id="e117" source="SixBirdsMetaMath.Main.LayerDissolving" target="SixBirdsMetaMath.Main.LegalQuotient" />
+    <edge id="e118" source="SixBirdsMetaMath.Main.LayerDissolving" target="SixBirdsMetaMath.Main.XiInterface" />
+    <edge id="e119" source="SixBirdsMetaMath.Main.LayerDissolving" target="SixBirdsMetaMath.Xi.AdequacyResidual" />
+    <edge id="e120" source="SixBirdsMetaMath.Main.LegalQuotient" target="SixBirdsMetaMath.Terminology" />
+    <edge id="e121" source="SixBirdsMetaMath.Main.XiInterface" target="SixBirdsMetaMath.Main.LegalQuotient" />
+    <edge id="e122" source="SixBirdsMetaMath.Main.XiInterface" target="SixBirdsMetaMath.Xi.AdequacyResidual" />
+    <edge id="e123" source="SixBirdsMetaMath.Terminology" target="SixBirdsMetaMath.ImportedFoundations" />
+    <edge id="e124" source="SixBirdsMetaMath.Terminology" target="SixBirdsMetaMath.FoundationsICompat" />
+    <edge id="e125" source="SixBirdsMetaMath.Xi.AdequacyResidual" target="SixBirdsMetaMath.Main.LegalQuotient" />
+  </graph>
+</graphml>

@@ -1,0 +1,79 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "VALID_AFTER_ADDED_HYPOTHESES": 1
+    },
+    "inbound_reuse_bridge_ids": [],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0161"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-S2",
+      "MED-S6",
+      "MM-HORIZON"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P041.jsonl",
+  "claim_count": 9,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 3
+  },
+  "claim_ids": [
+    "P041-C0001",
+    "P041-C0002",
+    "P041-C0003",
+    "P041-C0004",
+    "P041-C0005",
+    "P041-C0006",
+    "P041-C0007",
+    "P041-C0008",
+    "P041-C0009"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 2,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "result_summary": 2,
+    "scope_boundary": 3
+  },
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 9
+  },
+  "foundations_vii_groups": [
+    "CG25"
+  ],
+  "foundations_vii_hook": "theory relativity, physical objecthood, and closure ontology",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P041.md",
+  "nonclaim_scope_ids": [
+    "P041-C0002",
+    "P041-C0005",
+    "P041-C0006",
+    "P041-C0007",
+    "P041-C0008"
+  ],
+  "open_problem_ids": [
+    "P041-C0009"
+  ],
+  "paper_id": "P041",
+  "reading_order": 13,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Become_a_Stone_with_Six_Birds_A_Physics_is_A_Theory.tex",
+  "source_root_sha256": "0e7f0a26760eabd794ad6f0c38ff5d2925b2c4f9afaedc15a56f9900324eb4ca",
+  "source_tree_sha256": "a5eb76a48edd6e85621e0e4f74070b721e76ba15644e527472e9be7d273331a2",
+  "status": "BRIDGED",
+  "title": "A Physics Is a Theory"
+}

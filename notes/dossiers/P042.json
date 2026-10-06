@@ -1,0 +1,113 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 3
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0039",
+      "BR-CITE-0048",
+      "BR-CITE-0156"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0162",
+      "BR-CITE-0163",
+      "BR-CITE-0164"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H13",
+      "ARC-H22",
+      "ARC-H23",
+      "ARC-H25",
+      "ARC-H27",
+      "ARC-H6",
+      "ARC-NG3",
+      "CLD-A3",
+      "CLD-A5",
+      "CLD-E1",
+      "CLD-E4",
+      "MED-D5",
+      "MED-H1",
+      "MED-H2",
+      "MED-M1",
+      "MED-M2",
+      "MED-M3",
+      "MED-NG4",
+      "MED-NG5",
+      "MM-BRIDGE",
+      "MM-OP1",
+      "MM-OP2",
+      "MM-WITHDRAW"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P042.jsonl",
+  "claim_count": 12,
+  "claim_grade_counts": {
+    "DEFINITION": 2,
+    "EXPLICIT_NONCLAIM": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 4,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "THEOREM_GRADE": 4
+  },
+  "claim_ids": [
+    "P042-C0001",
+    "P042-C0002",
+    "P042-C0003",
+    "P042-C0004",
+    "P042-C0005",
+    "P042-C0006",
+    "P042-C0007",
+    "P042-C0008",
+    "P042-C0009",
+    "P042-C0010",
+    "P042-C0011",
+    "P042-C0012"
+  ],
+  "claim_type_counts": {
+    "definition": 2,
+    "nonclaim": 1,
+    "paper_thesis": 1,
+    "proposition": 4,
+    "result_summary": 4
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P042-C0003",
+    "P042-C0006"
+  ],
+  "formal_claim_ids": [
+    "P042-C0004",
+    "P042-C0005",
+    "P042-C0007",
+    "P042-C0008"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 12
+  },
+  "foundations_vii_groups": [
+    "CG04",
+    "CG10",
+    "CG19",
+    "CG24"
+  ],
+  "foundations_vii_hook": "closure deficit, budget, uncertainty, and exposure limits",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P042.md",
+  "nonclaim_scope_ids": [
+    "P042-C0002"
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P042",
+  "reading_order": 40,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Cast_a_Stone_with_Six_Birds_A_Closure_Deficit_Account_of_Randomness_under_Packaging_and_Budget.tex",
+  "source_root_sha256": "a44677097ba1600d1dba9e6cb423d5c9896b00ab79f8c5b5d8f0a750b6f0e139",
+  "source_tree_sha256": "9f91408548be6758726b88db801f2c40e7e62777cb00020ced7e4f8d23bacc3c",
+  "status": "BRIDGED",
+  "title": "Randomness under Packaging and Budget"
+}

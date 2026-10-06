@@ -1,0 +1,95 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "UNKNOWN_REQUIRES_PROOF": 5
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0138"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0165",
+      "BR-CITE-0166",
+      "BR-CITE-0167",
+      "BR-CITE-0168",
+      "BR-CITE-0169"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 5,
+    "wishlist_request_ids": [
+      "ARC-H14",
+      "ARC-H15",
+      "ARC-H16",
+      "CLD-C1",
+      "CLD-C2",
+      "CLD-C3",
+      "CLD-O3",
+      "MED-B1",
+      "MED-B2",
+      "MM-OP4"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P043.jsonl",
+  "claim_count": 9,
+  "claim_grade_counts": {
+    "DEFINITION": 4,
+    "EXPLICIT_NONCLAIM": 1,
+    "NAMED_RESULT_OR_GATE_SURFACE": 1,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "PAPER_STATED_RESULT_SUMMARY": 1
+  },
+  "claim_ids": [
+    "P043-C0001",
+    "P043-C0002",
+    "P043-C0003",
+    "P043-C0004",
+    "P043-C0005",
+    "P043-C0006",
+    "P043-C0007",
+    "P043-C0008",
+    "P043-C0009"
+  ],
+  "claim_type_counts": {
+    "definition": 4,
+    "nonclaim": 1,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "result_summary": 2
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [
+    "P043-C0002",
+    "P043-C0003",
+    "P043-C0004",
+    "P043-C0005"
+  ],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 9
+  },
+  "foundations_vii_groups": [
+    "CG14",
+    "CG15"
+  ],
+  "foundations_vii_hook": "birth regimes, control parameters, transitions, and scope",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P043.md",
+  "nonclaim_scope_ids": [
+    "P043-C0007"
+  ],
+  "open_problem_ids": [
+    "P043-C0009"
+  ],
+  "paper_id": "P043",
+  "reading_order": 37,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Chart_a_Stone_with_Six_Birds_Emergence_Phase_Diagrams_for_Effective_Theories_in_Control_Space.tex",
+  "source_root_sha256": "f4f0ffa662ad294323f459123544a099e2bd9df140d8ee331518f303a90e57ca",
+  "source_tree_sha256": "0dbfc2f8c055f0c9319c5319214529091603108fc2483c82076fee63b634ac43",
+  "status": "BRIDGED",
+  "title": "Emergence Phase Diagrams in Control Space"
+}

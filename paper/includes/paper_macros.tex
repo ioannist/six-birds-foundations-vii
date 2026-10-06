@@ -1,0 +1,89 @@
+% Shared manuscript macros for Six Birds Foundations VII.
+% Vocabulary frozen by paper_prep/PP-04_TERMINOLOGY_FREEZE.md.
+% Never redefine locally; amend PP-04 first, then this file.
+
+%--- the join of theories ----------------------------------------------------
+% PP-05 §3: \vee is committed to Foundations V's repair join (a lattice join on a
+% COMMON carrier).  VII's join is between distinct theory packages under a declared
+% admissibility regime: not a lattice upper bound, existence conditional and costed.
+% \bowtie has zero uses across the 78-paper corpus, so it inherits no prior meaning.
+\newcommand{\tjoin}{\bowtie}
+\newcommand{\tjoinof}[3]{#1 \mathbin{\bowtie_{#3}} #2}
+\newcommand{\repairjoin}{\vee}                        % Foundations V, D1 -- cite, never reuse
+
+%--- theory packages and regimes ---------------------------------------------
+\newcommand{\Th}{\mathcal{T}}
+\newcommand{\Reg}{\mathcal{R}}
+\newcommand{\Aud}{\mathcal{A}}
+
+%--- access coordinates (VII's four-way split, PP-04 §1) ---------------------
+\newcommand{\expressible}{\textsf{expressible}}
+\newcommand{\present}{\textsf{present}}
+\newcommand{\exposed}{\textsf{exposed}}
+\newcommand{\recoverable}{\textsf{recoverable}}
+\newcommand{\admissible}{\textsf{admissible}}
+\newcommand{\reachable}{\textsf{reachable}}
+\newcommand{\occurrent}{\textsf{occurrent}}
+
+%--- claim grades (PP-04 §3) -------------------------------------------------
+% The disposition axis.  Rendered in small caps so a grade is never mistaken for
+% ordinary prose emphasis.  LEAN_KERNEL_PROVED is deliberately absent: no result
+% carries it (PP-01 D3), and defining a macro would invite its use.
+\newcommand{\gradeschema}{{\normalfont\scshape formal schema}}
+\newcommand{\gradecond}{{\normalfont\scshape conditional theorem}}
+\newcommand{\graderefuted}{{\normalfont\scshape refuted candidate}}
+\newcommand{\gradedeferral}{{\normalfont\scshape closed deferral}}
+\newcommand{\gradecounter}{{\normalfont\scshape constructive countermodel}}
+\newcommand{\gradefinite}{{\normalfont\scshape lean decidable finite}}
+
+%--- verification axis (never merged with the grade axis) --------------------
+\newcommand{\kernelverified}{kernel-verified}
+
+%--- identifiers -------------------------------------------------------------
+% Internal locators.  Permitted in tables and parentheticals; they carry no
+% argumentative weight in prose (PP-04 §6).
+\newcommand{\cand}[1]{\textup{\texttt{VII-C#1}}}
+\newcommand{\obj}[1]{\textup{\texttt{VII-O#1}}}
+\newcommand{\target}[1]{\textup{\texttt{FT#1}}}
+\newcommand{\nogo}[1]{\textup{\texttt{NGVII-#1}}}
+\newcommand{\cor}[1]{\textup{\texttt{FVII-COR-#1}}}
+\newcommand{\assay}[1]{\textup{\texttt{#1}}}
+% xurl's \path lets long module names break at dots instead of overflowing.
+\newcommand{\leandecl}[1]{{\small\path{#1}}}
+
+%--- bounded-carrier census (PP-04 §4: a finite figure never travels alone) ---
+% Phase-5 census (the figures the release validation checks) ...
+\newcommand{\pfiverawcases}{86{,}912}
+\newcommand{\pfivecanonicalcases}{84{,}864}
+\newcommand{\pfiveacceptedcases}{21{,}081}
+\newcommand{\pfiverejectedcases}{63{,}783}
+% ... and the true totals summed over all 43 assays.  These are NOT the same
+% numbers, and calling the Phase-5 figures "global" was an error caught in review.
+\newcommand{\rawcases}{284{,}524}
+\newcommand{\canonicalcases}{214{,}636}
+\newcommand{\acceptedcases}{70{,}915}
+\newcommand{\rejectedcases}{143{,}721}
+
+%--- Lean surface (PP-07) ----------------------------------------------------
+\newcommand{\publicdecls}{1{,}477}
+\newcommand{\publicthms}{732}
+\newcommand{\axiomfreethms}{625}
+\newcommand{\propextthms}{97}
+\newcommand{\quotthms}{10}
+\newcommand{\leantoolchain}{\texttt{leanprover/lean4:v4.28.0}}
+
+%--- sibling papers ----------------------------------------------------------
+\newcommand{\FI}{Foundations~I}
+\newcommand{\FII}{Foundations~II}
+\newcommand{\FIII}{Foundations~III}
+\newcommand{\FIV}{Foundations~IV}
+\newcommand{\FV}{Foundations~V}
+\newcommand{\FVI}{Foundations~VI}
+\newcommand{\FVII}{Foundations~VII}
+
+%--- provenance lines (pre-ship audit, PRESHIP_AUDIT.md) --------------------
+% Five labels: Recovered standard / Recovered SBT / Elementary / Sharpened / New.
+% A provenance line follows every theorem, definition, refuted remark, deferral,
+% no-go front, corollary and countermodel.  Small caps, like the grade macros.
+\newcommand{\provlabel}[1]{{\normalfont\scshape #1}}
+\newcommand{\provenance}[1]{\par\smallskip\noindent{\small\textit{Provenance.} #1\par}\smallskip}

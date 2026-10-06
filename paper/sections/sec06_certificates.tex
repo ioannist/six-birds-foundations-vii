@@ -1,0 +1,112 @@
+\section{The certificate language}
+\label{sec:certificates}
+
+A claim about interaction is admitted into the catalog only as a certificate: a record
+with one field for each thing the claim asserts, usually with an audit. The catalog has
+twenty-three kinds of certificate, in four clusters. In every cluster validity has the
+same shape: the fields the claim names are present, the Boolean flags it needs are set,
+the stated implications between flags hold, and, where the record has one, the audit has
+an entry. The supplement gives the validity predicate and the Lean fields of
+every certificate (\Cref{supp:fields}).
+
+\paragraph{Access and admission.} An access record gives a content seven Boolean
+coordinates (\Cref{def:access}). An admission step is a typed transition of one of five
+kinds; an admission regime records the routes by which a first extension may be
+authorized. Neutral provisioning and prospective commitment records certify a source from
+outside the system and a registration made before its evidence. A bridge contract records
+what a transport between theories keeps, adds and loses; transport is licensed only by an
+accepted, well-formed bridge, never by a citation.
+
+\paragraph{Contact and join.} A contact surface and a contact witness record that two
+theories touched (\Cref{def:contact}). A join entry records a candidate joint theory with
+its parents, ledgers and one of seven statuses (\Cref{def:join-status}). The strict-join
+certificate records the claim that a join is more than its parents
+(\Cref{def:strict-certificate}). Three further records carry provenance and price. The
+source-independence gate compares the ancestries of the two sides: each source traces
+back to a root source, and the sides have \emph{disjoint roots} when their roots differ.
+The cost ledger records what the join paid. An observer-occupancy record states how much
+of an observer's or instrument's bounded capacity the interaction uses, its
+\emph{occupancy}, and how much of that is charged to the ledger.
+
+\paragraph{Enablement and descent.} An enablement record states that one theory makes an
+operation available to another (\Cref{def:enablement}). A transmission record carries a
+payload between layers. An operational profile and a negative-evidence record fix what a
+rule's reachability and a failed search establish, and a coverage certificate is what a
+claim of non-interaction must carry.
+
+\paragraph{Dynamics and residue.} A route comparison records two orders of the same
+members (\Cref{def:route}), a drive certificate is what an arrow claim needs
+(\Cref{def:drive}), a residual ledger records what an interaction leaves undischarged, and a
+contact-quantity record states what a claimed conservation includes.
+
+The simplest record shows what a certificate looks like.
+
+\begin{definition}[Access record]
+\label{def:access}
+An \emph{access record} for a content assigns seven Boolean coordinates: whether it is
+\expressible, \present, \exposed, \recoverable, \admissible, \reachable{} and
+\occurrent. The record is \emph{coherent} when
+\[
+  \occurrent\Rightarrow\reachable\Rightarrow\admissible\Rightarrow\present\Rightarrow
+  \expressible,
+  \qquad
+  \recoverable\Rightarrow\exposed\Rightarrow\present,
+\]
+and its audit is non-empty.
+\end{definition}
+
+The implications run one way only, and the reference world contains a coherent record for
+each failed converse (\Cref{sec:separations}). Of the $2^7=128$ assignments of the seven
+coordinates, exactly 14 satisfy these two chains of implications, the
+\emph{implication spine} of the record. A single record already distinguishes readings that ordinary usage runs
+together. Consider a content that is \expressible, \present{} and \admissible{} but not
+\exposed, \recoverable, \reachable{} or \occurrent. The record is coherent. It is not
+latent in a way that makes it available on demand, because it is not \reachable. It is not
+hidden in a way that looking harder would uncover, because exposure is a property of the
+interface, not of the observer. It is not merely unobserved, because \occurrent{} records
+what happened in the system. And it is not forbidden, because it is \admissible.
+
+The other records are defined in \Cref{supp:certificates}, except the strict-join certificate,
+which carries most of the weight of the catalog; we give it in full, filled in for the three-bit
+join of \Cref{ex:cube}.
+
+\subsection{The strict-join certificate}
+\label{sec:strict-certificate}
+
+\begin{definition}[Strict-join certificate]
+\label{def:strict-certificate}
+A \emph{strict-join certificate} records a join candidate, composite objecthood,
+recoverability of each parent, an anti-product witness, source independence, a settled
+budget, a directionality flag and an audit. The
+\emph{anti-product witness} has a flag for a joint distinction; flags for factorization on the image
+through the left parent, the right parent, the declared product and a declared common
+refinement; flags for relabelling-only, scheduling-only and coarsening-only
+constructions; a description; and an audit. The witness is valid when the joint-distinction
+flag is set, the seven other flags are clear, the description is non-empty and the audit
+has an entry. The certificate is valid when the candidate is well formed, the objecthood, retention,
+independence and budget flags are set, the witness is valid and the audit has an entry.
+Directionality is not required: a strict join does not carry an arrow.
+\end{definition}
+
+As a record, the anti-product witness is an assertion of non-factorization: its flags are
+entered, not derived. What makes it more than an assertion is \Cref{thm:bridge}: a
+semantic strict join that is also proved not to factor, on its image, through a declared
+common refinement
+and a declared schedule produces a valid witness, with each flag equal to the truth value
+of its semantic predicate. Strictness alone does not supply those two proofs
+(\Cref{rem:refinement-limit}). The other fields of the certificate (objecthood,
+parent retention, source independence and budget) have no semantic model here and remain
+recorded assertions.
+
+\begin{example}[The certificate of the three-bit join]
+\label{ex:cube-certificate}
+For the three-bit join of \Cref{ex:cube} with the observable $f(a,b,h)=h$, take the pairing
+$\langle p_A,p_B\rangle$ as the declared common refinement and $p_A$ as the declared schedule.
+\Cref{thm:bridge} fills the anti-product witness: the joint-distinction flag is set by the split
+pair $(0,0,0)$, $(0,0,1)$, and the seven other flags are clear. A well-formed join candidate,
+objecthood of the composite, recoverability of $a$ and $b$, disjoint source roots, a settled
+budget and a non-empty certificate audit must then be supplied as recorded assertions; once they are, the certificate is valid by \Cref{def:strict-certificate},
+and the directionality flag may stay clear. Only the anti-product witness is derived; the rest is
+what a user of the certificate must supply.
+\end{example}
+

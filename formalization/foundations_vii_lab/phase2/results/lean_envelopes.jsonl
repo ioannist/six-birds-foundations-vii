@@ -1,0 +1,9 @@
+{"family_id":"P2-E01","raw_cardinality":128,"canonical_cardinality":128,"accepted_cardinality":14,"rejected_cardinality":114}
+{"family_id":"P2-E02","raw_cardinality":128,"canonical_cardinality":128,"accepted_cardinality":12,"rejected_cardinality":116}
+{"family_id":"P2-E03","raw_cardinality":32,"canonical_cardinality":32,"accepted_cardinality":29,"rejected_cardinality":3}
+{"family_id":"P2-E04","raw_cardinality":256,"canonical_cardinality":256,"accepted_cardinality":129,"rejected_cardinality":127}
+{"family_id":"P2-E05","raw_cardinality":512,"canonical_cardinality":256,"accepted_cardinality":128,"rejected_cardinality":128}
+{"family_id":"P2-E06","raw_cardinality":32,"canonical_cardinality":32,"accepted_cardinality":19,"rejected_cardinality":13}
+{"family_id":"P2-E07","raw_cardinality":64,"canonical_cardinality":64,"accepted_cardinality":33,"rejected_cardinality":31}
+{"family_id":"P2-E08","raw_cardinality":18,"canonical_cardinality":18,"accepted_cardinality":15,"rejected_cardinality":3}
+{"family_id":"P2-E09","raw_cardinality":162,"canonical_cardinality":162,"accepted_cardinality":91,"rejected_cardinality":71}

@@ -1,0 +1,32 @@
+# Red-line and nonclaim register
+
+- **RL01** — Do not redefine P1–P6, closure/objecthood, the F/E/G laws, or the eight existing no-gos as VII novelties.
+- **RL02** — Do not infer shared access from common source, carrier, ancestry, vocabulary, or instrument.
+- **RL03** — Do not infer witnessed contact from interface compatibility.
+- **RL04** — Do not infer a join from contact.
+- **RL05** — Do not infer strict join from product, common refinement, co-presentation, or relabeling.
+- **RL06** — Do not infer objecthood from strictness/nonfactorization.
+- **RL07** — Do not infer directionality from strictness, contact, order sensitivity, or holonomy.
+- **RL08** — Do not infer occurrence from soundness, admissibility, executability, or reachability.
+- **RL09** — Do not infer reachability from rule text or mathematical soundness.
+- **RL10** — Do not equate enablement with descent, containment, sufficiency, causation, or endogeny.
+- **RL11** — Do not label theorist-triggered or hidden-observer execution endogenous.
+- **RL12** — Do not infer top-down creation of lower facts from structural selection or constraint.
+- **RL13** — Do not relabel bridged records native or erase source lineage.
+- **RL14** — Do not apply total-lens results to partial self-owned domains without a bridge theorem.
+- **RL15** — Do not credit prospective commitment to a predicate fixed after observing the target evidence.
+- **RL16** — Do not claim zero-cost interaction while omitting observer/instrument occupancy.
+- **RL17** — Do not universalize a finite, pointwise, horizon-limited, or open-family negative.
+- **RL18** — Do not call no evidenced contact certified non-interaction without coverage and detector-power witnesses.
+- **RL19** — Do not claim a complete taxonomy of admission, contact, joins, or obstruction without a completeness proof.
+- **RL20** — Do not claim necessary-and-sufficient join conditions unless both directions are proved on the declared carrier.
+- **RL21** — Do not claim categorical reduction before defining the category and universal property.
+- **RL22** — Do not claim a full generators-and-relations algebra before primitive operations and equivalences are fixed.
+- **RL23** — Do not posit a conserved contact degree or one scalar interaction currency without an invariance theorem.
+- **RL24** — Do not treat Two-Theory World success as a universal proof.
+- **RL25** — Do not alter imported Foundations V/VI Lean sources; use VII-owned wrappers and exact bridge records.
+- **RL26** — Do not claim fresh Lean kernel verification when Lean 4.28.0 has not been replayed locally.
+- **RL27** — Do not reconstruct P039 body theorems from its abstract; eighteen includes and the bibliography are missing.
+- **RL28** — Do not count P040 and P058 as independent evidence or choose a canonical version without a later ruling.
+- **RL29** — Do not silently erase failed bridges, retractions, refunds, or negative runs from append-only ledgers.
+- **RL30** — Do not present this readiness dossier as a Foundations VII proof or paper draft.

@@ -1,0 +1,64 @@
+{
+  "all_claims_reconsidered": 19,
+  "anti_overread": [
+    "We do not claim to derive the Born rule or resolve Bell's theorem",
+    "We do not claim to derive the Born rule or resolve Bell's theorem",
+    "We do not claim to ``solve Bell'' or to provide a new hidden-variable model.",
+    "Limitation: not a Bell solution.: We do not claim to ``solve Bell'' or to provide a new hidden-variable model. Our aim is narrower: to localize a recurring category error. Many no-go arguments are naturally read as ruling out a single globally compatible packaging that simultaneously supports all contexts with unrestricted composition assumptions. SBT rejects that global-packaging demand on principled grounds (layer-relative records and incompatible closures), while remaining fully compatible with the operational constraints (no-signalling, reproducible statistics) that experiments actually certify.",
+    "Limitations and non-claims: To avoid overinterpretation, we emphasize what this paper does not claim. No new microdynamics. We do not propose a replacement for unitary or open quantum evolution. The core move is a reorganization of roles: causation versus packaging. No Born-rule derivation. This paper is not a derivation of the Born rule from deeper principles. We treat the standard operational predictions as given and clarify how those predictions can be read without surplus layer ontology. Not a Bell solution. We do not provide a hidden-variable completion or a proof that all Bell-type tensions disappear. Our claim concerns where a common category mistake enters: by demanding a single globally compatible packaging (or record language) across incompatible contexts. No claim of uniqueness. Dephasing is a canonical packaging map for a fixed record basis, but SBT allows other completion/packaging choices depending on the layer's certified record interface. No selection rule derived. We do not derive pointer-basis selection or single-outcome selection; we treat record algebras as given interfaces and treat conditioning as an inferential refinement.",
+    "To avoid overinterpretation, we emphasize what this paper does not claim."
+  ],
+  "boundary_claim_ids": [
+    "P002-C0002",
+    "P002-C0003",
+    "P002-C0014",
+    "P002-C0015",
+    "P002-C0016",
+    "P002-C0017"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 19 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P002-C0018"
+  ],
+  "paper_id": "P002",
+  "reading_order": "52",
+  "relevant_claim_ids": [
+    "P002-C0001",
+    "P002-C0002",
+    "P002-C0003",
+    "P002-C0004",
+    "P002-C0005",
+    "P002-C0006",
+    "P002-C0007",
+    "P002-C0008",
+    "P002-C0009",
+    "P002-C0010",
+    "P002-C0011",
+    "P002-C0012",
+    "P002-C0013",
+    "P002-C0014",
+    "P002-C0015",
+    "P002-C0016",
+    "P002-C0017",
+    "P002-C0018",
+    "P002-C0019"
+  ],
+  "root_sha256": "67c1e4de307db8c534a228a98ed72be4e6c25d124029100ff463eae21a93efc9",
+  "source_path": "papers/Tsiokos_2026_A_Six_Birds_Eye_View_of_Quantum_Theory_Operational_Closure_Semantics_for_Measurement_Contextuality_and_Record_Stability.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "38a8ae88dc89955671a03e86e52b51fd12e10df9a79ebe125aa74108bb6208b8",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "A Six Birds Eye View of Quantum Theory",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

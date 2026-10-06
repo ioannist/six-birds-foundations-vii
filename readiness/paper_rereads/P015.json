@@ -1,0 +1,61 @@
+{
+  "all_claims_reconsidered": 22,
+  "anti_overread": [
+    "This limitation does not downgrade the accepted lens and packaging obstructions to mere suggestions.",
+    "The theorem is conditional on the admissibility and Boolean-stability of the shared-event relation on the relevant fixed comparison object."
+  ],
+  "boundary_claim_ids": [
+    "P015-C0020",
+    "P015-C0022"
+  ],
+  "candidate_ids": [
+    "VII-C008",
+    "VII-C033",
+    "VII-C019",
+    "VII-C036"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 22 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P015",
+  "reading_order": "33",
+  "relevant_claim_ids": [
+    "P015-C0001",
+    "P015-C0002",
+    "P015-C0003",
+    "P015-C0004",
+    "P015-C0005",
+    "P015-C0006",
+    "P015-C0007",
+    "P015-C0008",
+    "P015-C0009",
+    "P015-C0010",
+    "P015-C0011",
+    "P015-C0012",
+    "P015-C0013",
+    "P015-C0014",
+    "P015-C0015",
+    "P015-C0016",
+    "P015-C0017",
+    "P015-C0018",
+    "P015-C0019",
+    "P015-C0020",
+    "P015-C0021",
+    "P015-C0022"
+  ],
+  "root_sha256": "e479235bbdc64868090442755ed14c90ccb93f75a08701937fdf481a562be4ce",
+  "source_path": "papers/Tsiokos_2026_Locally_Boolean_Globally_Obstructed_Event_Packages_and_Admissible_Global_Packaging_in_Six_Birds_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "59915f8c92630f3a05c650fbaddda81bf7643bbb4150e820c404fd72b4817832",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Locally Boolean, Globally Obstructed",
+  "top_convergence_groups": [
+    "CG07",
+    "CG22"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

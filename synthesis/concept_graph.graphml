@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="status" for="node" attr.name="status" attr.type="string"/>
+  <key id="relation" for="edge" attr.name="relation" attr.type="string"/>
+  <graph id="SBT-Step1" edgedefault="directed">
+    <node id="carrier"><data key="label">Carrier Z</data><data key="status">existing</data></node>
+    <node id="lens"><data key="label">Lens/interface f</data><data key="status">existing</data></node>
+    <node id="definability"><data key="label">Definability Σ_f</data><data key="status">existing</data></node>
+    <node id="completion"><data key="label">Packaging/completion E</data><data key="status">existing</data></node>
+    <node id="audit"><data key="label">Audit/provenance A</data><data key="status">existing</data></node>
+    <node id="formed"><data key="label">Formed object</data><data key="status">existing</data></node>
+    <node id="objecthood"><data key="label">Objecthood certificate</data><data key="status">existing</data></node>
+    <node id="strictness"><data key="label">Strictness certificate</data><data key="status">existing</data></node>
+    <node id="directionality"><data key="label">Directionality certificate</data><data key="status">existing</data></node>
+    <node id="p1"><data key="label">P1 descent</data><data key="status">existing</data></node>
+    <node id="p2"><data key="label">P2 representability</data><data key="status">existing</data></node>
+    <node id="p3"><data key="label">P3 route mismatch</data><data key="status">existing</data></node>
+    <node id="p4"><data key="label">P4 stage/refinement</data><data key="status">existing</data></node>
+    <node id="p5"><data key="label">P5 packaging</data><data key="status">existing</data></node>
+    <node id="p6"><data key="label">P6 audit</data><data key="status">existing</data></node>
+    <node id="p6drive"><data key="label">P6_drive</data><data key="status">existing</data></node>
+    <node id="birdint"><data key="label">BirdInt_fin^aud</data><data key="status">existing</data></node>
+    <node id="F"><data key="label">F laws</data><data key="status">existing</data></node>
+    <node id="E"><data key="label">E laws</data><data key="status">existing</data></node>
+    <node id="G"><data key="label">G laws</data><data key="status">existing</data></node>
+    <node id="NG"><data key="label">No-go theorems</data><data key="status">existing</data></node>
+    <node id="accessq"><data key="label">Access quotient</data><data key="status">existing</data></node>
+    <node id="carried"><data key="label">Carried instrument/ledger</data><data key="status">existing</data></node>
+    <node id="run"><data key="label">Run semantics</data><data key="status">existing</data></node>
+    <node id="bridge"><data key="label">Applicability bridge</data><data key="status">existing</data></node>
+    <node id="residual"><data key="label">Residual/currency</data><data key="status">existing</data></node>
+    <node id="partialdomain"><data key="label">Partial accessible domain</data><data key="status">VII-gap</data></node>
+    <node id="admission"><data key="label">Admission/bootstrap</data><data key="status">VII-gap</data></node>
+    <node id="status"><data key="label">Expressible/present/reachable/occurrent</data><data key="status">VII-gap</data></node>
+    <node id="contact"><data key="label">Witnessed contact</data><data key="status">VII-gap</data></node>
+    <node id="join"><data key="label">Strict theory join</data><data key="status">VII-gap</data></node>
+    <node id="enablement"><data key="label">Enablement</data><data key="status">VII-gap</data></node>
+    <node id="observer"><data key="label">Observer occupancy</data><data key="status">VII-gap</data></node>
+    <node id="holonomy"><data key="label">Interaction holonomy</data><data key="status">VII-gap</data></node>
+    <node id="occurrence"><data key="label">Joint occurrence</data><data key="status">VII-gap</data></node>
+    <edge id="e1" source="carrier" target="lens"><data key="relation">observed-through</data></edge>
+    <edge id="e2" source="lens" target="definability"><data key="relation">induces</data></edge>
+    <edge id="e3" source="definability" target="accessq"><data key="relation">packages-as</data></edge>
+    <edge id="e4" source="completion" target="formed"><data key="relation">forms</data></edge>
+    <edge id="e5" source="audit" target="formed"><data key="relation">admits</data></edge>
+    <edge id="e6" source="formed" target="objecthood"><data key="relation">requires</data></edge>
+    <edge id="e7" source="formed" target="strictness"><data key="relation">does-not-imply</data></edge>
+    <edge id="e8" source="strictness" target="directionality"><data key="relation">does-not-imply</data></edge>
+    <edge id="e9" source="p3" target="directionality"><data key="relation">does-not-imply</data></edge>
+    <edge id="e10" source="p6drive" target="directionality"><data key="relation">supports</data></edge>
+    <edge id="e11" source="p1" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e12" source="p2" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e13" source="p3" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e14" source="p4" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e15" source="p5" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e16" source="p6" target="F"><data key="relation">typed-by</data></edge>
+    <edge id="e17" source="birdint" target="bridge"><data key="relation">records</data></edge>
+    <edge id="e18" source="birdint" target="contact"><data key="relation">bookkeeping-precursor</data></edge>
+    <edge id="e19" source="F" target="partialdomain"><data key="relation">constrains</data></edge>
+    <edge id="e20" source="E" target="enablement"><data key="relation">constrains</data></edge>
+    <edge id="e21" source="G" target="status"><data key="relation">constrains</data></edge>
+    <edge id="e22" source="NG" target="admission"><data key="relation">constrains</data></edge>
+    <edge id="e23" source="carried" target="E"><data key="relation">supports</data></edge>
+    <edge id="e24" source="run" target="G"><data key="relation">supports</data></edge>
+    <edge id="e25" source="residual" target="admission"><data key="relation">prices</data></edge>
+    <edge id="e26" source="residual" target="join"><data key="relation">prices</data></edge>
+    <edge id="e27" source="bridge" target="join"><data key="relation">required-for-import</data></edge>
+    <edge id="e28" source="partialdomain" target="admission"><data key="relation">changed-by</data></edge>
+    <edge id="e29" source="admission" target="status"><data key="relation">moves</data></edge>
+    <edge id="e30" source="status" target="contact"><data key="relation">precondition-for</data></edge>
+    <edge id="e31" source="contact" target="join"><data key="relation">may-produce</data></edge>
+    <edge id="e32" source="contact" target="occurrence"><data key="relation">witnesses</data></edge>
+    <edge id="e33" source="join" target="occurrence"><data key="relation">does-not-imply</data></edge>
+    <edge id="e34" source="enablement" target="join"><data key="relation">distinct-from</data></edge>
+    <edge id="e35" source="holonomy" target="directionality"><data key="relation">does-not-imply</data></edge>
+    <edge id="e36" source="observer" target="contact"><data key="relation">detects-at-cost</data></edge>
+    <edge id="e37" source="observer" target="join"><data key="relation">certifies-at-cost</data></edge>
+    <edge id="e38" source="accessq" target="partialdomain"><data key="relation">precursor-not-equivalent</data></edge>
+  </graph>
+</graphml>

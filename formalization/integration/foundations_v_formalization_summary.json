@@ -1,0 +1,40 @@
+{
+  "admit_tokens": 0,
+  "authored_declaration_kinds": {
+    "abbrev": 6,
+    "def": 550,
+    "inductive": 42,
+    "structure": 476,
+    "theorem": 187
+  },
+  "authored_foundations_v_declarations": 1261,
+  "authored_foundations_v_theorems": 187,
+  "axiom_declarations": 0,
+  "declaration_kinds": {
+    "abbrev": 11,
+    "def": 737,
+    "inductive": 71,
+    "structure": 507,
+    "theorem": 432
+  },
+  "foundations_v_definition_modules": 6,
+  "foundations_v_e_laws_covered": 16,
+  "foundations_v_law_modules": 15,
+  "lean_files": 70,
+  "lean_import_edges": 196,
+  "lean_modules": 70,
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "lexically_indexed_declarations": 1758,
+  "module_layers": {
+    "FOUNDATIONS_III": 24,
+    "FOUNDATIONS_V": 22,
+    "HOLONOMY_SUPPORT": 10,
+    "XI_SUPPORT": 14
+  },
+  "opaque_declarations": 0,
+  "sorry_tokens": 0,
+  "unresolved_imports": 0,
+  "upstream_root_missing_modules": [
+    "SixBirdsFoundationsV.Laws.E16Adaptability"
+  ]
+}

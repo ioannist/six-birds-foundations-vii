@@ -1,0 +1,26 @@
+import FoundationsVII.Prior.Contract
+import SixBirdsFoundationsV.Definitional.RepairJoin
+import SixBirdsFoundationsV.Laws.E1Internalization
+
+#check SixBirdsFoundationsV.repairJoin
+#check SixBirdsFoundationsV.join_well_defined
+#check SixBirdsFoundationsV.StrictSelfExtension
+
+namespace FoundationsVII.Prior
+
+/-- FT07 and FT08: inherited repair join and strict self-extension. -/
+def ft07ft08RepairJoinStrictness : AdapterContract :=
+  { adapterId := "ADAPTER-FT07-FT08-REPAIR-JOIN-STRICTNESS"
+    formalizationTargetIds := ["FT07", "FT08"]
+    sourceModule := "SixBirdsFoundationsV.Definitional.RepairJoin; SixBirdsFoundationsV.Laws.E1Internalization"
+    sourceDeclarations := ["SixBirdsFoundationsV.repairJoin", "SixBirdsFoundationsV.join_well_defined", "SixBirdsFoundationsV.StrictSelfExtension"]
+    sourceTypes := ["common repair refinement", "fiber-equivalence well-definedness", "strict self-extension witness"]
+    targetTypes := ["FoundationsVII.JoinCandidate", "FoundationsVII.JoinCertificate"]
+    preservedHypotheses := ["typed quotient maps", "fiber equivalence", "strict nonfactorization witness"]
+    addedHypotheses := ["contact witness", "parent retention", "source and budget ledgers", "objecthood audit"]
+    lostHypotheses := ["Repair join is not automatically a strict VII join."]
+    trustDependencies := []
+    nonclaims := ["Common refinement and strict extension do not by themselves establish objecthood or directionality."]
+    fidelity := .conditionalReuse }
+
+end FoundationsVII.Prior

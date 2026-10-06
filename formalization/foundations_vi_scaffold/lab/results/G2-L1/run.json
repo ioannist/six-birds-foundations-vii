@@ -1,0 +1,22 @@
+{
+  "checked_steps": 116,
+  "max_integer_bits": 120605,
+  "max_reached_base": 6,
+  "max_start": 30,
+  "step_budget": 4,
+  "terminated_starts": [
+    1,
+    2
+  ],
+  "worked_example": {
+    "G_2_4": 26,
+    "O_2_4": "omega^omega",
+    "O_3_26": "omega^2*2 + omega*2 + 2",
+    "O_3_27": "omega^omega",
+    "descent": true,
+    "hereditary_2_4": "2^(2^1)",
+    "hereditary_3_26": "2*3^2 + 2*3^1 + 2",
+    "rebase_2_to_3_4": 27,
+    "zero": true
+  }
+}

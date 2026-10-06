@@ -1,0 +1,40 @@
+{
+  "bad_cycle_count": 1,
+  "bad_cycle_start_count": 1,
+  "bad_cycles": [
+    [
+      1
+    ]
+  ],
+  "descended_count": 32765,
+  "elapsed_seconds": 0.15665687500222703,
+  "gamma_nonterminal_residues": [
+    14563,
+    21845
+  ],
+  "gamma_residues": [
+    1,
+    14563,
+    21845
+  ],
+  "genuine_bad_cycle_count": 0,
+  "genuine_bad_cycle_start_count": 0,
+  "genuine_bad_cycles": [],
+  "ghost_bound_count": 2,
+  "ghost_bound_residues": [
+    14563,
+    21845
+  ],
+  "ghost_convergence_verified": true,
+  "ghost_residue": 21845,
+  "ghost_residue_formula": "(2^16 - 1) / 3",
+  "m": 16,
+  "max_descent_start": 27,
+  "max_descent_step": 37,
+  "modulus": 65536,
+  "native_separation_verified": true,
+  "nonterminal_residue_count": 32767,
+  "odd_residue_count": 32768,
+  "terminal_residue": 1,
+  "unclassified_count": 0
+}

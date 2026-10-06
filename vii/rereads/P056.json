@@ -1,0 +1,60 @@
+{
+  "all_claims_reconsidered": 10,
+  "anti_overread": [
+    "Load-bearing chapters end with a paragraph of nonclaims: things the chapter deliberately does not assert.",
+    "Enumerating nearly twelve thousand chiral gauge structures token-blind, the closure chain forces a thin skeleton: the Standard Model's gauge algebra (conditional on one separation condition), ^2 _W = 3/8 at the embedding point, exact proton stability.",
+    "The corpus does not derive physical spacetime, does not resolve the foundations of relativity, and does not claim its constructed times are the physicist's coordinate.",
+    "a strict extension is licensed.'' A black hole's interior, read this way, is a nonclaim boundary drawn by nature."
+  ],
+  "boundary_claim_ids": [
+    "P056-C0002",
+    "P056-C0004",
+    "P056-C0005",
+    "P056-C0007"
+  ],
+  "candidate_ids": [
+    "VII-C023",
+    "VII-C033",
+    "VII-C027",
+    "VII-C002",
+    "VII-C021"
+  ],
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "findings": [
+    "All 10 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P056-C0003",
+    "P056-C0008",
+    "P056-C0009",
+    "P056-C0010"
+  ],
+  "paper_id": "P056",
+  "reading_order": "16",
+  "relevant_claim_ids": [
+    "P056-C0001",
+    "P056-C0002",
+    "P056-C0003",
+    "P056-C0004",
+    "P056-C0005",
+    "P056-C0006",
+    "P056-C0007",
+    "P056-C0008",
+    "P056-C0009",
+    "P056-C0010"
+  ],
+  "root_sha256": "10cd0fcf24f8674892a92d547478619acc2ec3089a10316a7d83906d4cebf4c7",
+  "source_path": "papers/Tsiokos_2026_To_Worship_a_Stone_with_Six_Birds_Reality_as_Closure.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "056ca113aebb55c570a26523028fbef1f34b577aa25c4ff0dfd163592693634f",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Reality as Closure",
+  "top_convergence_groups": [
+    "CG26",
+    "CG16",
+    "CG25"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

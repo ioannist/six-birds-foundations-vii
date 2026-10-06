@@ -1,0 +1,30 @@
+{
+  "archive": "formalization/_provenance/six-birds-collatz_v19.zip",
+  "archive_sha256": "a595687d1ebccac4407aa5131f6ee03df349131c0cace236f1ae91f6d6a86ad4",
+  "excluded_top_level": [
+    ".codex/",
+    "collatz_idea.md",
+    "ideas.md",
+    "review_requests/",
+    "scripts/make_review_zip.sh",
+    "scripts/package_repo_snapshot.sh"
+  ],
+  "policy": "Imported files are immutable upstream baseline assets; VII-authored extensions live outside this subtree.",
+  "selected_bytes": 2926555,
+  "selected_exact_files": [
+    ".github/workflows/ci.yml",
+    ".gitignore",
+    "THEOREMS.md",
+    "scripts/audit_foundations_dependencies.py"
+  ],
+  "selected_file_count": 282,
+  "selected_prefixes": [
+    "design/",
+    "formalization/",
+    "lab/",
+    "lean/",
+    "paper/"
+  ],
+  "target": "formalization/foundations_vi_scaffold",
+  "upstream_commit_from_zip_comment": "220b45879d8e63f1a75573145e0be6bb3f52567c"
+}

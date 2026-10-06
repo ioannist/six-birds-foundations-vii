@@ -1,0 +1,37 @@
+{
+  "candidate_dependency_edges": 5969,
+  "candidate_dependency_nodes": 1851,
+  "candidate_dossiers": 36,
+  "candidate_no_gos": 11,
+  "candidate_source_trace_rows": 3166,
+  "chapters": 12,
+  "countermodels": 27,
+  "critical_blockers": [],
+  "date": "2026-07-26",
+  "decision_points": 15,
+  "finite_scenarios": 24,
+  "formalization_targets": 20,
+  "new_foundations_vii_lean_declarations": 0,
+  "noncritical_limitations": [
+    "P039 remains abstract-only because eighteen included TeX files and the bibliography are absent.",
+    "Lean 4.28.0 is unavailable locally; no fresh kernel replay is claimed.",
+    "P040/P058 remain one unresolved non-independent evidence family.",
+    "Universal categorical join reduction, a full generators-and-relations algebra, and a conserved contact degree are deferred."
+  ],
+  "object_model_records": 18,
+  "papers_reread": 58,
+  "prior_lean_declaration_reuse_links": 30,
+  "red_lines": 30,
+  "scope_groups": 30,
+  "stage": "STEP3_READINESS_COMPLETE_NO_PAPER_DRAFT",
+  "wishlist_atoms_adjudicated": 130,
+  "wishlist_status_counts": {
+    "CANDIDATE_VII_SCHEMA_OR_DEFINITION": 27,
+    "CANDIDATE_VII_THEOREM": 40,
+    "COROLLARY_WITH_EXPLICIT_BRIDGE": 11,
+    "COUNTERMODEL_OR_NO_GO_NEEDED": 24,
+    "DEFERRED_TO_LATER_FOUNDATION": 3,
+    "EXPERIMENTAL_OR_CALIBRATION_OBLIGATION": 19,
+    "INHERITED_RESULT": 6
+  }
+}

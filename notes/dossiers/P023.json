@@ -1,0 +1,120 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 1
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0127"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0090"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 0,
+    "wishlist_request_ids": [
+      "ARC-H26",
+      "ARC-H28",
+      "ARC-H5",
+      "ARC-NG4",
+      "MED-N1",
+      "MED-N2",
+      "MED-N3",
+      "MED-N4"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P023.jsonl",
+  "claim_count": 23,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 4,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 1,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "THEOREM_GRADE": 15
+  },
+  "claim_ids": [
+    "P023-C0001",
+    "P023-C0002",
+    "P023-C0003",
+    "P023-C0004",
+    "P023-C0005",
+    "P023-C0006",
+    "P023-C0007",
+    "P023-C0008",
+    "P023-C0009",
+    "P023-C0010",
+    "P023-C0011",
+    "P023-C0012",
+    "P023-C0013",
+    "P023-C0014",
+    "P023-C0015",
+    "P023-C0016",
+    "P023-C0017",
+    "P023-C0018",
+    "P023-C0019",
+    "P023-C0020",
+    "P023-C0021",
+    "P023-C0022",
+    "P023-C0023"
+  ],
+  "claim_type_counts": {
+    "corollary": 2,
+    "lemma": 6,
+    "nonclaim": 4,
+    "open_problem": 1,
+    "paper_thesis": 1,
+    "proposition": 1,
+    "result_summary": 2,
+    "theorem": 6
+  },
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [
+    "P023-C0004",
+    "P023-C0005",
+    "P023-C0006",
+    "P023-C0007",
+    "P023-C0008",
+    "P023-C0009",
+    "P023-C0010",
+    "P023-C0011",
+    "P023-C0013",
+    "P023-C0014",
+    "P023-C0015",
+    "P023-C0016",
+    "P023-C0017",
+    "P023-C0019",
+    "P023-C0022"
+  ],
+  "formalization_status_counts": {
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 23
+  },
+  "foundations_vii_groups": [
+    "CG05",
+    "CG22",
+    "CG29"
+  ],
+  "foundations_vii_hook": "bounded self-reference, anti-localization, and reflexive scope",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P023.md",
+  "nonclaim_scope_ids": [
+    "P023-C0002",
+    "P023-C0003",
+    "P023-C0012",
+    "P023-C0018"
+  ],
+  "open_problem_ids": [
+    "P023-C0023"
+  ],
+  "paper_id": "P023",
+  "reading_order": 9,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_Reflexive_SBT_and_Anti_Localization.tex",
+  "source_root_sha256": "ae9878f2887b0bfcc19a63b510505b37be9c4627468d114865aa5a716b8f9c10",
+  "source_tree_sha256": "5f26edf3aa25f0e56ceae7bca751fc47a10591952123f62e776e30a485218c99",
+  "status": "BRIDGED",
+  "title": "Reflexive SBT and Anti-Localization"
+}

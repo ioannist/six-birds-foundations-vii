@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SBT Bridge Record",
+  "type": "object",
+  "required": [
+    "bridge_id",
+    "source_claim",
+    "target_claim_or_context",
+    "source_object",
+    "target_object",
+    "map_or_interface",
+    "inherited_hypotheses",
+    "added_hypotheses",
+    "lost_hypotheses",
+    "licensed_conclusion",
+    "classification",
+    "nonclaims"
+  ],
+  "properties": {
+    "bridge_id": {
+      "type": "string"
+    },
+    "source_claim": {
+      "type": "string"
+    },
+    "target_claim_or_context": {
+      "type": "string"
+    },
+    "source_object": {
+      "type": "string"
+    },
+    "target_object": {
+      "type": "string"
+    },
+    "map_or_interface": {
+      "type": "string"
+    },
+    "inherited_hypotheses": {
+      "type": "array"
+    },
+    "added_hypotheses": {
+      "type": "array"
+    },
+    "lost_hypotheses": {
+      "type": "array"
+    },
+    "source_of_truth": {
+      "type": "string"
+    },
+    "audit_path": {
+      "type": "array"
+    },
+    "formalization": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "source_declarations": {
+          "type": "array"
+        },
+        "target_declarations": {
+          "type": "array"
+        },
+        "adapter_declarations": {
+          "type": "array"
+        },
+        "statement_delta": {
+          "type": "array"
+        },
+        "inherited_trust_base": {
+          "type": "array"
+        },
+        "added_trust_base": {
+          "type": "array"
+        },
+        "machine_check_status": {
+          "type": "string"
+        },
+        "source_modules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "paper_reported_declarations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_match_status": {
+          "type": "string"
+        },
+        "exact_hypothesis_match": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "exact_conclusion_match": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "caveats": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    },
+    "licensed_conclusion": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "nonclaims": {
+      "type": "array"
+    },
+    "nearest_countermodel": {},
+    "review_status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

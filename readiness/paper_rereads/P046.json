@@ -1,0 +1,65 @@
+{
+  "all_claims_reconsidered": 21,
+  "anti_overread": [
+    "We emphasize that this paper does not establish new theorems about or zero distributions",
+    "We show, in a self-dual toy family with a positivity constraint, that tightening feasibility can confine zeros to a symmetry locus—a pattern that motivates (but does not prove) ``passivity ledger'' interpretations of zero confinement.",
+    "It does not claim that Sym is ``the right'' packaging, nor that the observed blow-up has direct implications for the zero set of .",
+    "Interpretation and scope This toy is not a theorem and does not claim to reproduce the full hypotheses of classical zero-confinement results.",
+    "Limitations and guardrails: Several limitations are deliberate and should be understood as guardrails rather than omissions.",
+    "The passivity toy illustrates a pattern—tightening a positivity constraint can confine zeros to a symmetry locus—but it does not claim generality."
+  ],
+  "boundary_claim_ids": [
+    "P046-C0002",
+    "P046-C0006",
+    "P046-C0015",
+    "P046-C0017",
+    "P046-C0019",
+    "P046-C0021"
+  ],
+  "candidate_ids": [
+    "VII-C002",
+    "VII-C021"
+  ],
+  "cluster": "C_PHILOSOPHY_METATHEORY",
+  "findings": [
+    "All 21 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P046",
+  "reading_order": "12",
+  "relevant_claim_ids": [
+    "P046-C0001",
+    "P046-C0002",
+    "P046-C0003",
+    "P046-C0004",
+    "P046-C0005",
+    "P046-C0006",
+    "P046-C0007",
+    "P046-C0008",
+    "P046-C0009",
+    "P046-C0010",
+    "P046-C0011",
+    "P046-C0012",
+    "P046-C0013",
+    "P046-C0014",
+    "P046-C0015",
+    "P046-C0016",
+    "P046-C0017",
+    "P046-C0018",
+    "P046-C0019",
+    "P046-C0020",
+    "P046-C0021"
+  ],
+  "root_sha256": "62164ce6eb627c9251d6ced9866529cc4e01fcf9b5fa30cfcd25157df1e7a95a",
+  "source_path": "papers/Tsiokos_2026_To_Count_a_Stone_with_Six_Birds_A_Mathematics_is_A_Theory.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "2513441ec96ecca02a5d62a607f5292dd7bca100e317bce4de8684c560af2062",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "A Mathematics Is a Theory",
+  "top_convergence_groups": [
+    "CG25"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

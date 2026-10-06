@@ -1,0 +1,89 @@
+{
+  "all_claims_reconsidered": 42,
+  "anti_overread": [
+    "We are explicit that stronger claims about goals, consciousness, or real organisms are not established here",
+    "We do not claim thermodynamic optimality or a specific physical interpretation here"
+  ],
+  "boundary_claim_ids": [
+    "P055-C0002",
+    "P055-C0039"
+  ],
+  "candidate_ids": [
+    "VII-C012",
+    "VII-C013",
+    "VII-C034",
+    "VII-C027",
+    "VII-C032",
+    "VII-C023",
+    "VII-C033"
+  ],
+  "cluster": "D_COGNITION_SOCIAL",
+  "findings": [
+    "All 42 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P055-C0040",
+    "P055-C0041"
+  ],
+  "paper_id": "P055",
+  "reading_order": "42",
+  "relevant_claim_ids": [
+    "P055-C0001",
+    "P055-C0002",
+    "P055-C0003",
+    "P055-C0004",
+    "P055-C0005",
+    "P055-C0006",
+    "P055-C0007",
+    "P055-C0008",
+    "P055-C0009",
+    "P055-C0010",
+    "P055-C0011",
+    "P055-C0012",
+    "P055-C0013",
+    "P055-C0014",
+    "P055-C0015",
+    "P055-C0016",
+    "P055-C0017",
+    "P055-C0018",
+    "P055-C0019",
+    "P055-C0020",
+    "P055-C0021",
+    "P055-C0022",
+    "P055-C0023",
+    "P055-C0024",
+    "P055-C0025",
+    "P055-C0026",
+    "P055-C0027",
+    "P055-C0028",
+    "P055-C0029",
+    "P055-C0030",
+    "P055-C0031",
+    "P055-C0032",
+    "P055-C0033",
+    "P055-C0034",
+    "P055-C0035",
+    "P055-C0036",
+    "P055-C0037",
+    "P055-C0038",
+    "P055-C0039",
+    "P055-C0040",
+    "P055-C0041",
+    "P055-C0042"
+  ],
+  "root_sha256": "f1124e09d4ce8b0d7ab3e0013c8c388b8abd3a6fa806ffe14d7381770503ffc3",
+  "source_path": "papers/Tsiokos_2026_To_Throw_a_Stone_with_Six_Birds_On_Agents_and_Agenthood.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "ebb1b094d21ef407863e5f05e231e905fdbc755f10ddd64cb8f3327acb6ee68c",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "On Agents and Agenthood",
+  "top_convergence_groups": [
+    "CG14",
+    "CG16",
+    "CG20",
+    "CG26"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

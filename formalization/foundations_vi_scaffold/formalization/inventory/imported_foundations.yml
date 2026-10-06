@@ -1,0 +1,254 @@
+# Foundations VI imported Foundations IV audit.
+#
+# Each entry compares `THEOREMS.md` prose about a cited F-row with the
+# corresponding vendored Lean file. Discrepancies are recorded here; any
+# resulting `THEOREMS.md` prose fix is a separate, explicit manager decision,
+# recorded per-entry in that entry's `manager_resolution:` field rather than
+# applied silently.
+
+- object: "F2"
+  cited_by: ["G2"]
+  theorems_md_claim: >-
+    F2 fixes one source quotient q:X->Q, one upstairs map F:X->Y, and one
+    target readout r:Y->R; descent through q is equivalent to an empty
+    split-pair obstruction, with source-refinement and target-coarsening
+    repairs.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/DescentRepair.lean"
+  identifiers:
+    - "descent_repair_normal_form"
+  lean_statement: >-
+    Defines splitPairObstruction, Descends, SourceRefinement, TargetCoarsening,
+    sourceRepairQuotient, target repair quotient, and proves
+    descent_repair_normal_form: Descends q F r iff the split-pair obstruction
+    is empty, assuming q is surjective; also proves source and target repair
+    closure theorems.
+  status: "verified_correct"
+  audit_note: >-
+    The prose matches the Lean row. The Lean theorem makes quotient
+    surjectivity explicit, which is compatible with the prose's quotient-map
+    framing.
+
+- object: "F3"
+  cited_by: ["G5", "G8"]
+  theorems_md_claim: >-
+    F3 compares two route outcomes at one fixed interface: they are invisible
+    to current quotient probes but distinguished by predictive/future probes,
+    so the output is a memory/predictive residue record rather than a global
+    scalar or odometer.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/HolonomyMemoryRepair.lean"
+  identifiers:
+    - "holonomy_memory_repair_normal_form"
+  lean_statement: >-
+    Defines CurrentQInvisible, FutureMVisible, HiddenRouteResidue,
+    MemoryWitness, and PredictiveRepairWitness. The theorem
+    holonomy_memory_repair_normal_form proves that a route has a memory witness
+    iff there exist two routes, one the given route, with a predictive repair
+    witness through pi:M->Q.
+  status: "verified_correct"
+  audit_note: >-
+    The prose's two-route/current-vs-predictive-memory framing matches the Lean
+    normal form. The Lean statement is existential around a chosen route rather
+    than a named pair comparison, but it is the same interface.
+
+- object: "F4"
+  cited_by: ["G4", "G11", "G13"]
+  theorems_md_claim: >-
+    F4 starts with a declared finite patch system or finite local-family setup,
+    overlap compatibility, and a restriction map from global objects; it
+    classifies compatible local data by whether they globalize, are ambiguous,
+    exact, or incompatible.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Transport/LocalGlobalObstruction.lean"
+  identifiers:
+    - "local_global_obstruction_normal_form"
+  lean_statement: >-
+    Defines arbitrary types Global and LocalFamily, a compatibility predicate,
+    and a restriction map R:Global->LocalFamily. The theorem
+    local_global_obstruction_normal_form proves compatible a globalizes iff it
+    lies in the declared image of R, and that exactly one of four statuses
+    holds: overlapInconsistent, compatibleNonGlobal, globalAmbiguous,
+    globalExact.
+  status: "discrepancy_found"
+  audit_note: >-
+    The status classification matches. The discrepancy is that `THEOREMS.md`
+    repeatedly says F4's setup is a finite patch system, while the Lean theorem
+    does not encode finiteness or a finite index set; it abstracts the local
+    family as an arbitrary type. This may be a legitimate prose/docstring
+    compression from the paper version, but it is stronger than the mechanized
+    statement.
+  manager_resolution: >-
+    Confirmed by direct read of LocalGlobalObstruction.lean: no Fintype/Finite
+    constraint anywhere in the definitions or in local_global_obstruction_normal_form.
+    No action on THEOREMS.md. G4/G11/G13's novelty arguments against F4 are not
+    load-bearing on finiteness -- the actual differentiating axis in all three
+    (verified against THEOREMS.md lines 608, 1391, 1600) is single-fixed-object
+    static classification (one `a`, one `R`) vs. stage-indexed/forall-p/asymptotic
+    structure over a growing or unbounded family. That axis holds regardless of
+    whether Global/LocalFamily are finite. The "finite patch system" language in
+    THEOREMS.md describes F4's published paper Setup (independently verified
+    against the .tex source earlier in this project), not the Lean formalization,
+    so it remains accurate as a paper-vs-paper rebadge claim. Net: Lean is more
+    general than the paper's stated scope; this is a legitimate formalizer choice,
+    not an error in either the paper or THEOREMS.md.
+
+- object: "F6"
+  cited_by: ["G6", "G7", "G12"]
+  theorems_md_claim: >-
+    F6 No-Needles Stability declares a formed stability package with currency,
+    layer-bridge/dissolving blocks, residual budgets, and a transport selector,
+    then proves no unpriced layer-dissolving needle survives the package.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Stability/NoNeedles.lean"
+  identifiers:
+    - "no_needles_stability"
+  lean_statement: >-
+    The theorem no_needles_stability imports Main.LayerDissolving and takes
+    matrices C,L,D,KLLdagger, budgets ThetaY/OmegaZ/ThetaD, transport S, and
+    symmetry/projection/budget hypotheses. It concludes the transported
+    dissolving block satisfies the Loewner endpoint budget by invoking
+    layerDissolvingMaster.
+  status: "verified_correct"
+  audit_note: >-
+    The prose matches the Lean theorem's endpoint-budget interpretation. The
+    Lean file encodes the formed package as explicit matrix and budget
+    arguments rather than a single package structure.
+
+- object: "F13a"
+  cited_by: ["G1", "G5"]
+  theorems_md_claim: >-
+    F13a fixes one hiddenness/current-predictive interface: a carrier/current
+    quotient, a predictive quotient refining it, and a single-instant test for
+    exposure, collapse, or surviving predictive surplus.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Access/HiddennessNormalForm.lean"
+  identifiers:
+    - "hiddenness_normal_form"
+  lean_statement: >-
+    Defines HiddennessInterface with Hist, Current, Predictive, Upstream,
+    current, predictive, upstream, forgetPredictive, refinement proof, and
+    exposure predicates. Defines QuotientExposed, HiddenFromCurrent,
+    PredictiveCollapse, PredictiveSurplus, and HiddennessNormalForm. The theorem
+    hiddenness_normal_form applies the inherited axiom hiddenness_pending to
+    Paper7SaturatedSATInstance.
+  status: "verified_correct"
+  audit_note: >-
+    The prose matches the quotient/currentizer normal form. The Lean row is
+    explicitly substrate-pending for the Paper 7 saturated-SAT instance; this
+    limitation is already reflected in the trust-base ledger.
+
+- object: "F19"
+  cited_by: ["G9"]
+  theorems_md_claim: >-
+    F19 Object Persistence starts with source/later carriers, object quotients,
+    and an already-declared transport gamma:Hi->Hj; it checks whether an
+    already-posited object identity persists through that transport.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/StatusRecordsCoherence/ObjectPersistence.lean"
+  identifiers:
+    - "object_persistence"
+  lean_statement: >-
+    Defines Persists qi gamma qj as Descends qi gamma qj, split and merge
+    obstructions, dissolution, relation-valued persistence, identity holonomy,
+    and persistenceExtension. The theorem object_persistence proves persistence
+    iff no persistence obstruction, split-empty iff persists, a split/merge
+    status partition, and additional dissolution/relation/holonomy gates.
+  status: "verified_correct"
+  audit_note: >-
+    The prose is a compressed but correct description of the Lean persistence
+    core; the Lean row is broader and includes several auxiliary status gates.
+
+- object: "F27"
+  cited_by: ["G3", "G8"]
+  theorems_md_claim: >-
+    F27 Conservation as Orbit Descent presumes a declared quantity and
+    characterizes conservation as constancy on route-orbit classes/descent
+    through the orbit quotient; it does not construct a potential.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/StatusRecordsCoherence/ConservationAsOrbitDescent.lean"
+  identifiers:
+    - "conservation_as_orbit_descent"
+  lean_statement: >-
+    Defines OrbitQuotientCompatible, ConservedAlongOrbit,
+    ConservationObstruction, OrbitReadoutDescends, route-descent predicates,
+    complete/coarse invariant predicates, and conservation statuses. The theorem
+    conservation_as_orbit_descent proves conservation iff no conservation
+    obstruction and iff orbit-readout descent through a compatible surjective
+    orbit quotient, plus related layer and generator checks.
+  status: "verified_correct"
+  audit_note: >-
+    The prose matches the mechanized conservation-as-descent claim. Lean makes
+    orbit quotient compatibility and surjectivity explicit.
+
+- object: "F34"
+  cited_by: ["G10"]
+  theorems_md_claim: >-
+    F34 Information Loss Normal Form starts with source and later carriers and
+    one declared transport tau/transport; it characterizes when a single lossy
+    step is legitimate because later identifications are invisible to declared
+    source information.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/SelfReferenceLimits/InformationLoss.lean"
+  identifiers:
+    - "information_loss_normal_form"
+  lean_statement: >-
+    Defines recoverability of sourceInfo from a later recovery quotient after
+    transport, information-loss obstruction, forward split and merge
+    obstructions, reversible preservation, hidden/boundary/coarse preservation,
+    and recovery repair. The theorem information_loss_normal_form proves
+    recoverability iff no loss obstruction and iff factorization through the
+    later accessible quotient; loss iff nonrecoverability; and separate forward,
+    merge, reversible, and target-family checks.
+  status: "verified_correct"
+  audit_note: >-
+    The prose matches the Lean row's single-transport/later-quotient loss
+    normal form. The Lean statement is more detailed but not contradictory.
+
+- object: "F40"
+  cited_by: ["G11"]
+  theorems_md_claim: >-
+    F40 Anomaly / Symmetry Obstruction diagnoses whether one candidate symmetry
+    action descends through a quotient/readout package; G11 contrasts this with
+    forcing all periodic symmetries to fail.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/Symmetry/Anomaly.lean"
+  identifiers:
+    - "anomaly_symmetry_obstruction"
+  lean_statement: >-
+    Defines symmetry descent, domain descent, group-law, readout, audit, and
+    local-global gluing obstructions, plus SymmetryGateProfile and Anomaly. The
+    theorem anomaly_symmetry_obstruction proves each gate is equivalent to an
+    empty obstruction and that anomaly means a claimed symmetry source, no
+    explicit breaking, and failed lawful-layer-symmetry gates.
+  status: "verified_correct"
+  audit_note: >-
+    The prose is compressed but compatible: Lean is broader than just quotient
+    descent/readout, adding domain, group-law, audit, and local-global gates.
+    This is a legitimate framing difference, not a contradiction.
+
+- object: "F49"
+  cited_by: ["G13"]
+  theorems_md_claim: >-
+    F49 Common-Source / Nonlocal Correlation is described as testing a fixed
+    common-source/interface/direct-route factorization of readouts, not an
+    asymptotic orbit-density law.
+  lean_source: "lean/vendor/foundations/six-birds-meta-math/lean/SixBirdsMetaMath/FoundationsIV/SelfReferenceLimits/CommonSourceNonlocal.lean"
+  identifiers:
+    - "common_source_nonlocal_correlation"
+  lean_statement: >-
+    Defines common-source, interface-mediated, and direct-route explanations,
+    their split-pair obstructions, accepted explanations as source OR route OR
+    interface, correlation residuals, and nonlocal residuals relative to a
+    failed locality package. The theorem common_source_nonlocal_correlation
+    proves the corresponding obstruction/factorization and residual
+    equivalences.
+  status: "verified_correct"
+  audit_note: >-
+    The original G13 aside omitted direct-route explanations and was recorded
+    here as a discrepancy. That discrepancy was caught by this citation audit,
+    and `THEOREMS.md` was fixed on 2026-07-06 to read
+    "common-source/interface/direct-route factorization." The prose now matches
+    the Lean row's three-way AcceptedCorrelationExplanation disjunction.
+  manager_resolution: >-
+    Historical resolution: confirmed by direct read of CommonSourceNonlocal.lean:
+    AcceptedCorrelationExplanation is commonSource OR directRoute OR
+    sharedInterface, a three-way disjunction. F49 is cited only once in
+    THEOREMS.md (line 1600, G13's cousin aside) and is not load-bearing for any
+    novelty argument -- it is a one-sentence dismissal establishing F49 as a
+    weaker cousin than F4. `THEOREMS.md` was fixed to read
+    "common-source/interface/direct-route factorization" so the aside lists all
+    three accepted-explanation cases. The underlying differentiating claim
+    (fixed single-readout classification vs. asymptotic orbit density over an
+    unbounded family) is unaffected by the omitted third case either way.

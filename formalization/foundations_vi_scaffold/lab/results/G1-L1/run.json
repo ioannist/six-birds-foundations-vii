@@ -1,0 +1,16 @@
+{
+  "capped_count": 0,
+  "descended_count": 499999,
+  "elapsed_seconds": 10.243299270001444,
+  "limit": 1000000,
+  "max_A_k": 176,
+  "max_B_bits": 178,
+  "max_descent_start": 626331,
+  "max_descent_step": 111,
+  "max_n_k_bits": 35,
+  "max_steps": 1000,
+  "nonterminal_count": 499999,
+  "terminal_fixed_count": 1,
+  "tested_odd_count": 500000,
+  "total_checkpoints": 2241405
+}

@@ -1,0 +1,49 @@
+\begin{landscape}
+\begin{table}[t]
+\centering
+\caption{Candidate closure: disposition, landed phase, and evidence.}
+\label{tab:E2_candidate_catalog}
+\begin{tabular}{llllrr}
+\toprule
+\textbf{ID} & \textbf{Name} & \textbf{Disposition} & \textbf{Phase} & \textbf{Lean decls} & \textbf{Assays} \\
+\midrule
+VII-C001 & Accessible-domain state normal form & Formal Schema & FVII-SCI-02 & 48 & 1 \\
+VII-C002 & Lawful admission transition system & Formal Schema & FVII-SCI-02 & 41 & 1 \\
+VII-C003 & Bootstrap obstruction theorem & Conditional Theorem & FVII-SCI-02 & 31 & 1 \\
+VII-C004 & Neutral seed and provisioning certificate & Formal Schema & FVII-SCI-02 & 44 & 0 \\
+VII-C005 & Common-origin non-transfer law & Conditional Theorem & FVII-SCI-02 & 34 & 0 \\
+VII-C006 & Prospective commitment certificate & Formal Schema & FVII-SCI-02 & 26 & 1 \\
+VII-C007 & Join-entry record normal form & Formal Schema & FVII-SCI-03 & 32 & 2 \\
+VII-C008 & Join existence and obstruction status calculus & Formal Schema & FVII-SCI-03 & 40 & 3 \\
+VII-C009 & Strict join certificate and anti-product witness & Conditional Theorem & FVII-SCI-03 & 44 & 5 \\
+VII-C010 & Source-independence gate & Formal Schema & FVII-SCI-03 & 28 & 2 \\
+VII-C011 & Join budget and payment ledger & Formal Schema & FVII-SCI-03 & 32 & 5 \\
+VII-C012 & Enablement record and attribution calculus & Formal Schema & FVII-SCI-04 & 39 & 2 \\
+VII-C013 & Endogenous enablement criterion & Conditional Theorem & FVII-SCI-04 & 35 & 2 \\
+VII-C014 & Birth/contact-surface classification & Formal Schema & FVII-SCI-04 & 42 & 1 \\
+VII-C015 & Typed transmission and descent-fidelity law & Conditional Theorem & FVII-SCI-04 & 46 & 2 \\
+VII-C016 & Peer contact and transport without join & Conditional Theorem & FVII-SCI-03 & 42 & 1 \\
+VII-C017 & Interaction-order residue and holonomy & Conditional Theorem & FVII-SCI-04 & 46 & 4 \\
+VII-C018 & Admission confluence and seed-dependence law & Conditional Theorem & FVII-SCI-04 & 39 & 3 \\
+VII-C019 & Access/join residual and obstruction-dissolution led & Formal Schema & FVII-SCI-03 & 25 & 3 \\
+VII-C020 & Bridge and semantic-withdrawal discipline & Formal Schema & FVII-SCI-01 & 10 & 0 \\
+VII-C021 & Reachability, guard activity, and horizon law & Conditional Theorem & FVII-SCI-02 & 45 & 1 \\
+VII-C022 & Exposure, recoverability, admissibility, and rigidit & Formal Schema & FVII-SCI-02 & 48 & 0 \\
+VII-C023 & Negative-result quantifier discipline & Formal Schema & FVII-SCI-01 & 5 & 1 \\
+VII-C024 & Claim-grade and normative-specification discipline & Formal Schema & FVII-SCI-01 & 10 & 0 \\
+VII-C025 & Two-Theory World detector contract & Lean Decidable Finite & FVII-SCI-01 & 6 & 1 \\
+VII-C026 & Categorical reduction decision & Closed Deferral & FVII-SCI-03 & 21 & 1 \\
+VII-C027 & Enablement-chain composition law & Conditional Theorem & FVII-SCI-04 & 45 & 2 \\
+VII-C028 & Primitive-operation algebra readiness criterion & Closed Deferral & FVII-SCI-04 & 26 & 1 \\
+VII-C029 & Observer and instrument occupancy law & Conditional Theorem & FVII-SCI-02 & 29 & 2 \\
+VII-C030 & Parent refinement, retention, and join descent & Refuted Candidate & FVII-SCI-03 & 29 & 2 \\
+VII-C031 & Contact-degree conservation decision & Refuted Candidate & FVII-SCI-03 & 22 & 1 \\
+VII-C032 & Interaction arrow, irreversibility, and cross-time c & Conditional Theorem & FVII-SCI-04 & 58 & 4 \\
+VII-C033 & Coverage-qualified certified non-interaction & Conditional Theorem & FVII-SCI-03 & 39 & 2 \\
+VII-C034 & Enablement without descent separation theorem & Constructive Countermodel & FVII-SCI-04 & 25 & 2 \\
+VII-C035 & No-free-join and self-bootstrap no-go family & Conditional Theorem & FVII-SCI-03 & 53 & 2 \\
+VII-C036 & Join-created obstruction and needle law & Conditional Theorem & FVII-SCI-03 & 25 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}

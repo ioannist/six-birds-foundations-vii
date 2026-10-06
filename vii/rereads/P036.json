@@ -1,0 +1,45 @@
+{
+  "all_claims_reconsidered": 8,
+  "anti_overread": [
+    "we do not claim novelty for proposing it.",
+    "Interpretation for m_nu under lens swaps This toy model does not claim that any specific real-data run must exhibit a boundary mode, and indeed our baseline+DESI production runs have near-zero boundary fraction for m_nu ( ).",
+    "Limitations: This note is deliberately scoped and has several limitations: [leftmargin=*, itemsep=2pt] Completion/nuisance choices. Our production m_nu chains use a minimal nuisance sampling set for computational tractability, and our profiled audits optimize only a runtime-capped subset of nuisance parameters ( ). Broader nuisance freedom and alternative priors can shift tight sub-0.1 eV bounds. Likelihood and baseline implementation details. While we match the Planck-subset+PR4-lensing structure described in , small implementation choices (e.g.\\ the low- EE variant available in a given likelihood wrapper) can propagate into tight derived bounds. Finite compute and crude diagnostics. Some of our MCMC diagnostics for m_nu (ESS and split- R proxies ) are necessarily crude given the expense of CMB+Boltzmann runs. Our aim is to reproduce qualitative behavior and provide audit localization, not to provide definitive converged limits beyond what is needed for the lens-swap comparison. Audits over likelihood objects, not raw maps. Our analyses operate on released likelihood objects. As such, the audits identify where the packaged summaries disagree, but they do not by themselves pinpoint whether the origin is calibration, beam/transfer functions, foreground modeling, mapmaking, or other pipeline components."
+  ],
+  "boundary_claim_ids": [
+    "P036-C0002",
+    "P036-C0007",
+    "P036-C0008"
+  ],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 8 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P036",
+  "reading_order": "53",
+  "relevant_claim_ids": [
+    "P036-C0001",
+    "P036-C0002",
+    "P036-C0003",
+    "P036-C0004",
+    "P036-C0005",
+    "P036-C0006",
+    "P036-C0007",
+    "P036-C0008"
+  ],
+  "root_sha256": "d6b775f32ac68eb285296a07b0e6888b73a265f3e67d7d7798712994eaaf48b0",
+  "source_path": "papers/Tsiokos_2026_Six_Birds_for_Neutrino_Mass_Lens_Swap_Stability_and_Packaging_Audits.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "adfc0ae1cee123dad74a9e7bdfab1ec6adb4d8b8da31251b37fc2ce8766230ab",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Six Birds for Neutrino Mass",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

@@ -1,0 +1,39 @@
+{
+  "all_claims_reconsidered": 10,
+  "anti_overread": [],
+  "boundary_claim_ids": [],
+  "candidate_ids": [
+    "VII-C024"
+  ],
+  "cluster": "E_DOMAIN_PRESSURE_TESTS",
+  "findings": [
+    "All 10 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [],
+  "paper_id": "P057",
+  "reading_order": "50",
+  "relevant_claim_ids": [
+    "P057-C0001",
+    "P057-C0002",
+    "P057-C0003",
+    "P057-C0004",
+    "P057-C0005",
+    "P057-C0006",
+    "P057-C0007",
+    "P057-C0008",
+    "P057-C0009",
+    "P057-C0010"
+  ],
+  "root_sha256": "e6978e4ddf83e9653296c5bb2057417c9824fac67fc963ebca346c83990fc065",
+  "source_path": "papers/Tsiokos_2026_To_XOR_a_Stone_with_Six_Birds_Closure_Diagnostics_for_Emergent_Bits_Gates_and_Booleanity.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "cc8cbc1c4ef5b575054cd60c9dcea7b877bc4c755cc0be9b6cec3932b0813367",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Closure Diagnostics for Emergent Bits, Gates, and Booleanity",
+  "top_convergence_groups": [
+    "CG27"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

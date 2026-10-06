@@ -1,0 +1,81 @@
+name: Foundations VII release validation
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Rebuild and validate the FVII-SCI-05 release
+        run: bash scripts/rebuild_fvii_sci05.sh
+
+  lean-build-and-differential-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the repository-selected Lean toolchain
+        run: |
+          curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          toolchain="$(cat formalization/lean/lean-toolchain)"
+          "$HOME/.elan/bin/elan" toolchain install "$toolchain"
+          "$HOME/.elan/bin/elan" default "$toolchain"
+      - name: Structural kernel build on constrained private-repository runners
+        if: github.event.repository.private
+        working-directory: formalization/lean
+        run: lake build +FoundationsVII.NoGo.All
+      - name: Cumulative kernel build, axiom replay, and five-phase Lean/Python comparison
+        if: ${{ !github.event.repository.private }}
+        env:
+          FVII_LEAN_LOW_MEMORY: "1"
+          FVII_LEAN_HEARTBEAT_SECONDS: "30"
+        run: bash scripts/run_fvii_sci05_external_lean.sh
+      - name: Require deterministic committed products
+        if: ${{ !github.event.repository.private }}
+        run: git diff --exit-code
+      - name: Preserve replay evidence
+        if: ${{ !github.event.repository.private }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: fvii-sci05-lean-replay
+          path: |
+            formalization/lean/BUILD_STATUS_FINAL.json
+            formalization/foundations_vii_lab/phase5/results/lean_execution_status.json
+            formalization/foundations_vii_lab/phase5/results/lean_results.jsonl
+            formalization/foundations_vii_lab/phase5/results/lean_axioms.txt
+            formalization/foundations_vii_lab/phase5/results/cross_implementation_status.json
+            reports/FVII_SCI_05_VALIDATION.json
+            generated/fvii_sci05_validation.*
+
+  imported-foundations-vi-lab:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install imported lab dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e "formalization/foundations_vi_scaffold/lab[dev]"
+      - name: Run complete imported lab suite
+        run: python -m pytest -q formalization/foundations_vi_scaffold/lab/tests
+      - name: Run imported-foundations audit
+        working-directory: formalization/foundations_vi_scaffold
+        run: python scripts/audit_foundations_dependencies.py

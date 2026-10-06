@@ -1,0 +1,60 @@
+{
+  "blocked_papers": [
+    "P039"
+  ],
+  "claim_grades": {
+    "CALIBRATION_ANCHORED_SCHEMA": 1,
+    "CONDITIONAL_THEOREM": 26,
+    "DECLARED_ASSUMPTION": 2,
+    "DECLARED_METHOD_PRINCIPLE": 1,
+    "DEFINITION": 467,
+    "DEFINITIONAL_CONSTRUCTION": 3,
+    "EXPLICIT_NONCLAIM": 555,
+    "INTERPRETIVE_REMARK": 158,
+    "NAMED_RESULT_OR_GATE_SURFACE": 337,
+    "NEGATIVE_RESULT_THEOREM": 108,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 166,
+    "PAPER_STATED_COMPOSITE_RESULT": 58,
+    "PAPER_STATED_RESULT_SUMMARY": 65,
+    "PROSE_DEFINITION": 36,
+    "PROSE_DEFINITION_SECTION": 65,
+    "SCHEMA": 23,
+    "SCOPE_OR_LIMITATION_RECORD": 170,
+    "THEOREM_GRADE": 580
+  },
+  "claim_types": {
+    "construction": 1,
+    "convention": 2,
+    "corollary": 83,
+    "definition": 467,
+    "lemma": 107,
+    "nonclaim": 555,
+    "open_problem": 166,
+    "paper_thesis": 58,
+    "postulate": 2,
+    "principle": 1,
+    "proposition": 157,
+    "prose_definition": 101,
+    "remark": 158,
+    "result_summary": 402,
+    "schema": 24,
+    "scope_boundary": 170,
+    "theorem": 367
+  },
+  "claims": 2821,
+  "formalization_statuses": {
+    "MATCHED_IMPORTED_ABSTRACT_CORE_DECLARATION": 1,
+    "MATCHED_IMPORTED_LAW_DECLARATION": 80,
+    "NO_MATCH": 1269,
+    "PAPER_DISCLOSED_ASSET_NOT_IMPORTED": 1415,
+    "PLAUSIBLE_IMPORTED_MATCH_REQUIRES_STATEMENT_REVIEW": 52,
+    "PRIOR_SCAFFOLD_CORE_CORRESPONDENCE_REQUIRES_STATEMENT_AUDIT": 4
+  },
+  "law_claims": {
+    "E": 51,
+    "F": 52,
+    "G": 15
+  },
+  "no_go_claims": 8,
+  "papers": 58
+}

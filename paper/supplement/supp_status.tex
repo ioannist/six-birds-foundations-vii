@@ -1,0 +1,63 @@
+\section{Formal status}
+\label{supp:status}
+
+\subsection{The certificate library}
+
+The certificate library has \publicdecls{} public declarations: \publicthms{} theorems and
+745 definitions, structures, inductive types and abbreviations. For every theorem an
+executed \texttt{\#print axioms} report was recorded.
+
+\begin{center}\small
+\begin{tabular}{lrr}
+\toprule
+\textbf{Axioms} & \textbf{Theorems} & \textbf{Share} \\
+\midrule
+none & \axiomfreethms & 85.4\% \\
+\texttt{propext} & \propextthms & 13.3\% \\
+\texttt{propext}, \texttt{Quot.sound} & \quotthms & 1.4\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+No theorem depends on \texttt{Classical.choice} or on \texttt{sorryAx}. The library is
+built on \leantoolchain{} with no external library, together with byte-identical copies
+of the Foundations~V and~VI libraries and of the earlier series' formal cores. The
+structure used for commuting descent squares takes its four carriers in Lean's lowest
+universe \texttt{Type}; every other general construction is universe-polymorphic.
+
+\subsection{The semantic modules}
+
+The three semantic modules have 45 theorems, including four private helpers. Their axiom
+reports are listed in \Cref{tab:semantic-axioms}. Nine use no axioms, five use
+\texttt{propext} only, four use \texttt{propext} and \texttt{Quot.sound}, and twenty-seven
+use \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}. The modules
+contain no \texttt{sorry}, no added axiom, no \texttt{admit} and no
+\texttt{native\_decide}. The finite reachability search enumerates all sublists of a
+covering list and is exponential in its length.
+
+{\scriptsize
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{8.4cm}>{\raggedright\arraybackslash}p{5.6cm}@{}}
+\caption{Axiom reports of the semantic modules.}\label{tab:semantic-axioms}\\
+\toprule
+\textbf{Theorem} & \textbf{Axioms} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Theorem} & \textbf{Axioms} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{supplement/semantic_axiom_rows}
+\end{longtable}
+}
+
+\subsection{What the formal development does not establish}
+
+The kernel checks that each encoded statement follows from its encoded hypotheses. It does
+not check that a certificate is the right record of an interaction, that a declared finite
+carrier is the relevant one, or that a result is significant. Many theorems of the
+certificate library are short consequences of the definitions of their records (main
+paper, \Cref{sec:sep-definitional}). Two statements of the main paper are argued on paper
+only: the elementary remark on $a\oplus b$ and the first clause of the no-free-join
+refusal (main paper, \Cref{sec:lean}).

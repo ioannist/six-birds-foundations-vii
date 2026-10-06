@@ -1,0 +1,85 @@
+{
+  "all_claims_reconsidered": 24,
+  "anti_overread": [
+    "Six Birds Theory (SBT) supplies the admissibility calculus for that ledger: typed audited layers of the language model (called closure-package layers when formalized in ), explicit quotient maps, audit and nonclaim records, and promotion gates for deciding when a proposed layer is a strict extension rather than an unaudited readout .",
+    "Its primitive objects are typed audited layers, explicit quotient maps, audit and nonclaim records, and promotion gates that determine whether a proposed extension can be claimed . In ML terms, the calculus specifies what counts as evidence, what must be logged, what must remain a nonclaim, and when a gate panel may certify that a candidate layer strictly refines the current quotient",
+    "and relative to symbolic, neurosymbolic, and program-induction approaches , it is adjacent in seeking typed structural objects but treats them as recoveries from a fixed corpus with explicit nonclaim records rather than as programs from a search engine.",
+    "In SBT terms this is an inverse-emergence regime, but the ML claim is narrower: fixed-corpus structural recovery under explicit nonclaim discipline, with runtime mechanics described in .",
+    "The bootstrap layer carries an explicit nonclaim that its strict-extension status was not audited, so downstream reports can separate the scoped starting surface from committed native layers",
+    "The readout path is capped by the same nonclaim discipline as layer promotion . Each verdict is paired with required nonclaim references that state what is and is not in scope",
+    "records this runtime-approximation nonclaim.",
+    "Discussion and Limitations: The runtime models a frozen-parent regime: parent layers are committed once and not subsequently updated, and bidirectional inter-layer substrate flow is not modelled. Both halves are deferred to future work as a joint pair, because unfreezing parents without bidirectional flow models a half-loop no published characterization covers, with the underlying causation/enablement distinction following ; records the literal nonclaims and the maintenance-loop rationale. The runtime also relies on bounded-precision thresholds and a small set of finite hyperparameters (cadence, persistence streak, canonicalisation iteration cap), each reported as a runtime approximation in . The concrete trigger for reopening the deferred work would be persistent stagnation at intermediate chain depths despite long horizons and sustained pressure-source diversity; the locked run does not show this signal."
+  ],
+  "boundary_claim_ids": [
+    "P044-C0002",
+    "P044-C0004",
+    "P044-C0005",
+    "P044-C0006",
+    "P044-C0007",
+    "P044-C0014",
+    "P044-C0016",
+    "P044-C0018"
+  ],
+  "candidate_ids": [
+    "VII-C004",
+    "VII-C005",
+    "VII-C010",
+    "VII-C032",
+    "VII-C027",
+    "VII-C023",
+    "VII-C033"
+  ],
+  "cluster": "D_COGNITION_SOCIAL",
+  "findings": [
+    "All 24 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P044-C0003",
+    "P044-C0011",
+    "P044-C0019",
+    "P044-C0020"
+  ],
+  "paper_id": "P044",
+  "reading_order": "43",
+  "relevant_claim_ids": [
+    "P044-C0001",
+    "P044-C0002",
+    "P044-C0003",
+    "P044-C0004",
+    "P044-C0005",
+    "P044-C0006",
+    "P044-C0007",
+    "P044-C0008",
+    "P044-C0009",
+    "P044-C0010",
+    "P044-C0011",
+    "P044-C0012",
+    "P044-C0013",
+    "P044-C0014",
+    "P044-C0015",
+    "P044-C0016",
+    "P044-C0017",
+    "P044-C0018",
+    "P044-C0019",
+    "P044-C0020",
+    "P044-C0021",
+    "P044-C0022",
+    "P044-C0023",
+    "P044-C0024"
+  ],
+  "root_sha256": "ebdf889325a7ccdb353d2245180612eb3cce7c0c7c6f4ee6e3ee5092e93101a6",
+  "source_path": "papers/Tsiokos_2026_To_Chat_a_Stone_with_Six_Birds_Language_Theory_Models.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "eb76e341c0680ab1ecd59157bbd41bc00e73b59d93e8d3703f8a171f043b63c1",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Language Theory Models",
+  "top_convergence_groups": [
+    "CG09",
+    "CG20",
+    "CG16",
+    "CG26"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

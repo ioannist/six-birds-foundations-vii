@@ -1,0 +1,1 @@
+{"authorization":"USER_AUTHORIZED_EXTERNAL_REPLAY_DEFERRAL","blocking":false,"phase":"FVII-SCI-02","reason":"Lean/Lake unavailable locally; source, static checks, bounded Python enumeration, and external replay automation are complete.","status":"PENDING_EXTERNAL_LEAN_BUILD_AXIOM_AND_DIFFERENTIAL_REPLAY","toolchain":"leanprover/lean4:v4.28.0"}

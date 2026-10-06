@@ -1,0 +1,6 @@
+name = "SixBirdsIII"
+version = "0.1.0"
+defaultTargets = ["SixBirdsIII"]
+
+[[lean_lib]]
+name = "SixBirdsIII"

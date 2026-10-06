@@ -1,0 +1,100 @@
+{
+  "bridge_completion": {
+    "application_pressure_test": null,
+    "classification_counts": {
+      "PARTIAL_BRIDGE_SCOPE_INHERITANCE_REQUIRED": 2,
+      "UNKNOWN_REQUIRES_PROOF": 2
+    },
+    "inbound_reuse_bridge_ids": [
+      "BR-CITE-0139"
+    ],
+    "outbound_or_import_bridge_ids": [
+      "BR-CITE-0180",
+      "BR-CITE-0181",
+      "BR-CITE-0182",
+      "BR-CITE-0183"
+    ],
+    "source_reuse_contract_ids": [],
+    "undischarged_or_blocked_count": 2,
+    "wishlist_request_ids": [
+      "ARC-H14",
+      "ARC-H15",
+      "ARC-H16",
+      "ARC-H7",
+      "CLD-C1",
+      "CLD-C2",
+      "CLD-C3",
+      "CLD-D3",
+      "CLD-O3",
+      "MED-B1",
+      "MED-B2",
+      "MM-OP4"
+    ]
+  },
+  "canonical_claim_file": "claims/by_paper/P045.jsonl",
+  "claim_count": 11,
+  "claim_grade_counts": {
+    "EXPLICIT_NONCLAIM": 2,
+    "NAMED_RESULT_OR_GATE_SURFACE": 2,
+    "OPEN_PROBLEM_OR_DEFERRED_WORK": 3,
+    "PAPER_STATED_COMPOSITE_RESULT": 1,
+    "SCOPE_OR_LIMITATION_RECORD": 3
+  },
+  "claim_ids": [
+    "P045-C0001",
+    "P045-C0002",
+    "P045-C0003",
+    "P045-C0004",
+    "P045-C0005",
+    "P045-C0006",
+    "P045-C0007",
+    "P045-C0008",
+    "P045-C0009",
+    "P045-C0010",
+    "P045-C0011"
+  ],
+  "claim_type_counts": {
+    "nonclaim": 2,
+    "open_problem": 3,
+    "paper_thesis": 1,
+    "result_summary": 2,
+    "scope_boundary": 3
+  },
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "definition_claim_ids": [],
+  "formal_claim_ids": [],
+  "formalization_status_counts": {
+    "NO_MATCH": 11
+  },
+  "foundations_vii_groups": [
+    "CG02",
+    "CG14",
+    "CG15"
+  ],
+  "foundations_vii_hook": "birth taxonomy, primitive activation, and observable separation",
+  "lexical_prior_law_candidates": [],
+  "markdown_dossier": "notes/dossiers/P045.md",
+  "nonclaim_scope_ids": [
+    "P045-C0002",
+    "P045-C0004",
+    "P045-C0005",
+    "P045-C0008",
+    "P045-C0011"
+  ],
+  "open_problem_ids": [
+    "P045-C0003",
+    "P045-C0006",
+    "P045-C0009"
+  ],
+  "paper_id": "P045",
+  "reading_order": 35,
+  "resolved_dependency_papers": [],
+  "source_completeness": "AVAILABLE_SUPPLIED_SOURCE_TREE",
+  "source_law_ids": [],
+  "source_no_go_ids": [],
+  "source_root": "source/papers/Tsiokos_2026_To_Classify_a_Stone_with_Six_Birds_Primitive_Activation_and_Observable_Separation_of_Layer_Birth_Classes.tex",
+  "source_root_sha256": "af2f3febe80942b103551286a34d684667ca3bad4ed3e64ee1b5aaa6d6b9d537",
+  "source_tree_sha256": "984b3d2456eda266d89d6c06ddcfa10c6c0e2062db8a214e9915f2bc77e8b4e6",
+  "status": "BRIDGED",
+  "title": "Primitive Activation and Layer-Birth Classes"
+}

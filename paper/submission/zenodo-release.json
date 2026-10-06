@@ -1,0 +1,60 @@
+{
+  "artifact": {
+    "bytes": 630182,
+    "filename": "Tsiokos_2026_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf",
+    "pages": 81,
+    "path": "paper/submission/artifacts/Tsiokos_2026_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf",
+    "sha256": "2abe279f72dbbd0b9c07cdd24711515278a3490336eae2841856740165d0637b",
+    "source_git_commit": "699fe5ebb4b800551491ae854ae474cd24100af5",
+    "validated_values": {
+      "copyright": "© 2026",
+      "license": "CC-BY 4.0",
+      "paper version": "Preprint v1.0",
+      "publication date": "2 September 2026",
+      "reserved DOI": "10.5281/zenodo.22254857"
+    }
+  },
+  "assembled_at_utc": "2026-09-02T12:43:12.076119+00:00",
+  "dashboard_url": "https://zenodo.org/deposit/22254857",
+  "deposition_id": 22254857,
+  "doi_reservation": {
+    "client": "datacite",
+    "identifier": "10.5281/zenodo.22254857",
+    "provider": "datacite",
+    "verified_via": "rdm_pid_table"
+  },
+  "draft_source": "created",
+  "manual_dashboard_publication_only": true,
+  "metadata": {
+    "citation_count": 39,
+    "path": "paper/submission/zenodo-metadata.json",
+    "sha256": "9f6cdb61dd5aa1b2f60c35d0d17eda401ff562943ff2d695fce370e9ca0880b2",
+    "skipped_citations": [
+      {
+        "bib_key": "TsiokosHolonomy",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "TsiokosStrictTest",
+        "reason": "no supported identifier field"
+      }
+    ]
+  },
+  "paper_release_include": "paper/includes/release_metadata.tex",
+  "publication_date": "2026-09-02",
+  "remote_file": {
+    "bytes": 630070,
+    "filename": "Tsiokos_2026_Six_Birds_Foundations_VII_Lawful_Theory_Interaction.pdf",
+    "md5": "0b0a2b32879da9e2ea10846937c2f20d",
+    "sha256": "06b95e589356bfced7c332dc352a50259c5c1ccff082c4bc2924c496aa5f3ce1",
+    "verified": true
+  },
+  "remote_metadata": {
+    "desired_sha256": "87dc23065298eef6dc3777c87c995cdf618f157657f7a9a6670d92dae982258f",
+    "modified": "2026-09-02T15:38:56.550472+00:00",
+    "sha256": "37dcca22b603b19ad0fd5416bdce27cbb1ac3e6ae0c3be18a1225e8948ac37f1"
+  },
+  "reserved_doi": "10.5281/zenodo.22254857",
+  "schema_version": 1,
+  "stage": "file_uploaded"
+}

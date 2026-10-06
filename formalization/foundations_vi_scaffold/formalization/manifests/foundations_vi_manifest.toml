@@ -1,0 +1,113 @@
+# Foundations VI formalization manifest.
+#
+# This file is updated at step 10 of the per-law landing loop in
+# `design/06_FORMALIZATION.md`. It records the last completed recording step,
+# not live in-flight work. At scaffold time no Foundations-VI-authored G-law
+# Lean declarations exist, so each law is listed as unformalized. A row marked
+# `landed_step8` has completed Lean mechanization, toy-lab probe, gate panel,
+# and interaction-status recording through `design/06_FORMALIZATION.md` §2 step
+# 8; external review remains a separate later gate.
+
+[[laws]]
+law_id = "G1"
+name = "Hidden Amortized Solvency"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G1HiddenAmortizedSolvency.lean"
+
+[[laws]]
+law_id = "G2"
+name = "Transfinite Escrow"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G2TransfiniteEscrow.lean"
+
+[[laws]]
+law_id = "G3"
+name = "Amortized Potential Currency"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G3AmortizedCurrency.lean"
+
+[[laws]]
+law_id = "G4"
+name = "Moving-Cover Exhaustion"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G4MovingCoverExhaustion.lean"
+
+[[laws]]
+law_id = "G5"
+name = "Carry-Horizon Confinement"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G5CarryHorizonConfinement.lean"
+
+[[laws]]
+law_id = "G6"
+name = "Endogenous Needle Generation"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G6EndogenousNeedleGeneration.lean"
+
+[[laws]]
+law_id = "G7"
+name = "Adversarial Mobility Confinement"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G7AdversarialMobilityConfinement.lean"
+
+[[laws]]
+law_id = "G8"
+name = "Odometer Abelianization"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G8OdometerAbelianization.lean"
+
+[[laws]]
+law_id = "G9"
+name = "Defect-Evacuation-to-Transport"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G9DefectEvacuationTransport.lean"
+
+[[laws]]
+law_id = "G10"
+name = "Lossful Boundary Persistence"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G10LossfulPersistence.lean"
+
+[[laws]]
+law_id = "G11"
+name = "Local-Rule Global-Anti-Symmetry"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G11GlobalAntiSymmetry.lean"
+
+[[laws]]
+law_id = "G12"
+name = "Finite Witness Radiation"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G12FiniteWitnessRadiation.lean"
+
+[[laws]]
+law_id = "G13"
+name = "Thin-Orbit Saturation"
+kind = "landed_step8"
+intended_status = "landed_step8"
+source_file = "THEOREMS.md"
+lean_file = "lean/SixBirdsFoundationsVI/Laws/G13ThinOrbitSaturation.lean"

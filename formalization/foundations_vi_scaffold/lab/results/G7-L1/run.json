@@ -1,0 +1,500 @@
+{
+  "board_geometry": [
+    {
+      "max_torus_chebyshev_distance": 1,
+      "n": 3
+    },
+    {
+      "max_torus_chebyshev_distance": 2,
+      "n": 4
+    }
+  ],
+  "parameter_count": 8,
+  "results": [
+    {
+      "budget": 1,
+      "cache_hits": 14367,
+      "elapsed_seconds": 0.05546626100112917,
+      "guaranteed_turns": 8,
+      "horizon": 9,
+      "n": 3,
+      "power": 1,
+      "states_evaluated": 4664,
+      "survived_to_horizon": false,
+      "trapped_within": 9
+    },
+    {
+      "budget": 2,
+      "cache_hits": 24008,
+      "elapsed_seconds": 0.04326124599901959,
+      "guaranteed_turns": 4,
+      "horizon": 9,
+      "n": 3,
+      "power": 1,
+      "states_evaluated": 3087,
+      "survived_to_horizon": false,
+      "trapped_within": 5
+    },
+    {
+      "budget": 1,
+      "cache_hits": 14367,
+      "elapsed_seconds": 0.05530943199846661,
+      "guaranteed_turns": 8,
+      "horizon": 9,
+      "n": 3,
+      "power": 2,
+      "states_evaluated": 4664,
+      "survived_to_horizon": false,
+      "trapped_within": 9
+    },
+    {
+      "budget": 2,
+      "cache_hits": 24008,
+      "elapsed_seconds": 0.043153406000783434,
+      "guaranteed_turns": 4,
+      "horizon": 9,
+      "n": 3,
+      "power": 2,
+      "states_evaluated": 3087,
+      "survived_to_horizon": false,
+      "trapped_within": 5
+    },
+    {
+      "budget": 1,
+      "cache_hits": 698846,
+      "elapsed_seconds": 2.3805346970002574,
+      "guaranteed_turns": 8,
+      "horizon": 8,
+      "n": 4,
+      "power": 1,
+      "states_evaluated": 147939,
+      "survived_to_horizon": true,
+      "trapped_within": null
+    },
+    {
+      "budget": 2,
+      "cache_hits": 11212782,
+      "elapsed_seconds": 14.498063738999917,
+      "guaranteed_turns": 5,
+      "horizon": 8,
+      "n": 4,
+      "power": 1,
+      "states_evaluated": 460692,
+      "survived_to_horizon": false,
+      "trapped_within": 6
+    },
+    {
+      "budget": 1,
+      "cache_hits": 708029,
+      "elapsed_seconds": 2.424475588999485,
+      "guaranteed_turns": 8,
+      "horizon": 8,
+      "n": 4,
+      "power": 2,
+      "states_evaluated": 148596,
+      "survived_to_horizon": true,
+      "trapped_within": null
+    },
+    {
+      "budget": 2,
+      "cache_hits": 14964236,
+      "elapsed_seconds": 19.617532215997926,
+      "guaranteed_turns": 8,
+      "horizon": 8,
+      "n": 4,
+      "power": 2,
+      "states_evaluated": 572807,
+      "survived_to_horizon": true,
+      "trapped_within": null
+    }
+  ],
+  "sweep": [
+    {
+      "horizon": 9,
+      "n": 3
+    },
+    {
+      "horizon": 8,
+      "n": 4
+    }
+  ],
+  "total_elapsed_seconds": 39.12021974200252,
+  "wall_rank_testbed": [
+    {
+      "n": 4,
+      "start": 0,
+      "steps": [
+        {
+          "angel_after": 1,
+          "angel_before": 0,
+          "deleted_cell": 0,
+          "rank_after": 14,
+          "rank_before": 15,
+          "turn": 0
+        },
+        {
+          "angel_after": 2,
+          "angel_before": 1,
+          "deleted_cell": 1,
+          "rank_after": 13,
+          "rank_before": 14,
+          "turn": 1
+        },
+        {
+          "angel_after": 3,
+          "angel_before": 2,
+          "deleted_cell": 2,
+          "rank_after": 12,
+          "rank_before": 13,
+          "turn": 2
+        },
+        {
+          "angel_after": 4,
+          "angel_before": 3,
+          "deleted_cell": 3,
+          "rank_after": 11,
+          "rank_before": 12,
+          "turn": 3
+        },
+        {
+          "angel_after": 5,
+          "angel_before": 4,
+          "deleted_cell": 4,
+          "rank_after": 10,
+          "rank_before": 11,
+          "turn": 4
+        },
+        {
+          "angel_after": 6,
+          "angel_before": 5,
+          "deleted_cell": 5,
+          "rank_after": 9,
+          "rank_before": 10,
+          "turn": 5
+        },
+        {
+          "angel_after": 7,
+          "angel_before": 6,
+          "deleted_cell": 6,
+          "rank_after": 8,
+          "rank_before": 9,
+          "turn": 6
+        },
+        {
+          "angel_after": 8,
+          "angel_before": 7,
+          "deleted_cell": 7,
+          "rank_after": 7,
+          "rank_before": 8,
+          "turn": 7
+        },
+        {
+          "angel_after": 9,
+          "angel_before": 8,
+          "deleted_cell": 8,
+          "rank_after": 6,
+          "rank_before": 7,
+          "turn": 8
+        },
+        {
+          "angel_after": 10,
+          "angel_before": 9,
+          "deleted_cell": 9,
+          "rank_after": 5,
+          "rank_before": 6,
+          "turn": 9
+        },
+        {
+          "angel_after": 11,
+          "angel_before": 10,
+          "deleted_cell": 10,
+          "rank_after": 4,
+          "rank_before": 5,
+          "turn": 10
+        },
+        {
+          "angel_after": 12,
+          "angel_before": 11,
+          "deleted_cell": 11,
+          "rank_after": 3,
+          "rank_before": 4,
+          "turn": 11
+        },
+        {
+          "angel_after": 13,
+          "angel_before": 12,
+          "deleted_cell": 12,
+          "rank_after": 2,
+          "rank_before": 3,
+          "turn": 12
+        },
+        {
+          "angel_after": 14,
+          "angel_before": 13,
+          "deleted_cell": 13,
+          "rank_after": 1,
+          "rank_before": 2,
+          "turn": 13
+        },
+        {
+          "angel_after": 15,
+          "angel_before": 14,
+          "deleted_cell": 14,
+          "rank_after": 0,
+          "rank_before": 1,
+          "turn": 14
+        }
+      ],
+      "trapped": true,
+      "turns": 15
+    },
+    {
+      "n": 4,
+      "start": 5,
+      "steps": [
+        {
+          "angel_after": 0,
+          "angel_before": 5,
+          "deleted_cell": 1,
+          "rank_after": 14,
+          "rank_before": 15,
+          "turn": 0
+        },
+        {
+          "angel_after": 3,
+          "angel_before": 0,
+          "deleted_cell": 0,
+          "rank_after": 13,
+          "rank_before": 14,
+          "turn": 1
+        },
+        {
+          "angel_after": 2,
+          "angel_before": 3,
+          "deleted_cell": 3,
+          "rank_after": 12,
+          "rank_before": 13,
+          "turn": 2
+        },
+        {
+          "angel_after": 5,
+          "angel_before": 2,
+          "deleted_cell": 2,
+          "rank_after": 11,
+          "rank_before": 12,
+          "turn": 3
+        },
+        {
+          "angel_after": 4,
+          "angel_before": 5,
+          "deleted_cell": 5,
+          "rank_after": 10,
+          "rank_before": 11,
+          "turn": 4
+        },
+        {
+          "angel_after": 7,
+          "angel_before": 4,
+          "deleted_cell": 4,
+          "rank_after": 9,
+          "rank_before": 10,
+          "turn": 5
+        },
+        {
+          "angel_after": 6,
+          "angel_before": 7,
+          "deleted_cell": 7,
+          "rank_after": 8,
+          "rank_before": 9,
+          "turn": 6
+        },
+        {
+          "angel_after": 9,
+          "angel_before": 6,
+          "deleted_cell": 6,
+          "rank_after": 7,
+          "rank_before": 8,
+          "turn": 7
+        },
+        {
+          "angel_after": 8,
+          "angel_before": 9,
+          "deleted_cell": 9,
+          "rank_after": 6,
+          "rank_before": 7,
+          "turn": 8
+        },
+        {
+          "angel_after": 11,
+          "angel_before": 8,
+          "deleted_cell": 8,
+          "rank_after": 5,
+          "rank_before": 6,
+          "turn": 9
+        },
+        {
+          "angel_after": 10,
+          "angel_before": 11,
+          "deleted_cell": 11,
+          "rank_after": 4,
+          "rank_before": 5,
+          "turn": 10
+        },
+        {
+          "angel_after": 13,
+          "angel_before": 10,
+          "deleted_cell": 10,
+          "rank_after": 3,
+          "rank_before": 4,
+          "turn": 11
+        },
+        {
+          "angel_after": 12,
+          "angel_before": 13,
+          "deleted_cell": 13,
+          "rank_after": 2,
+          "rank_before": 3,
+          "turn": 12
+        },
+        {
+          "angel_after": 15,
+          "angel_before": 12,
+          "deleted_cell": 12,
+          "rank_after": 1,
+          "rank_before": 2,
+          "turn": 13
+        },
+        {
+          "angel_after": 14,
+          "angel_before": 15,
+          "deleted_cell": 15,
+          "rank_after": 0,
+          "rank_before": 1,
+          "turn": 14
+        }
+      ],
+      "trapped": true,
+      "turns": 15
+    },
+    {
+      "n": 4,
+      "start": 10,
+      "steps": [
+        {
+          "angel_after": 5,
+          "angel_before": 10,
+          "deleted_cell": 0,
+          "rank_after": 14,
+          "rank_before": 15,
+          "turn": 0
+        },
+        {
+          "angel_after": 1,
+          "angel_before": 5,
+          "deleted_cell": 2,
+          "rank_after": 13,
+          "rank_before": 14,
+          "turn": 1
+        },
+        {
+          "angel_after": 4,
+          "angel_before": 1,
+          "deleted_cell": 1,
+          "rank_after": 12,
+          "rank_before": 13,
+          "turn": 2
+        },
+        {
+          "angel_after": 3,
+          "angel_before": 4,
+          "deleted_cell": 4,
+          "rank_after": 11,
+          "rank_before": 12,
+          "turn": 3
+        },
+        {
+          "angel_after": 6,
+          "angel_before": 3,
+          "deleted_cell": 3,
+          "rank_after": 10,
+          "rank_before": 11,
+          "turn": 4
+        },
+        {
+          "angel_after": 5,
+          "angel_before": 6,
+          "deleted_cell": 6,
+          "rank_after": 9,
+          "rank_before": 10,
+          "turn": 5
+        },
+        {
+          "angel_after": 8,
+          "angel_before": 5,
+          "deleted_cell": 5,
+          "rank_after": 8,
+          "rank_before": 9,
+          "turn": 6
+        },
+        {
+          "angel_after": 7,
+          "angel_before": 8,
+          "deleted_cell": 8,
+          "rank_after": 7,
+          "rank_before": 8,
+          "turn": 7
+        },
+        {
+          "angel_after": 10,
+          "angel_before": 7,
+          "deleted_cell": 7,
+          "rank_after": 6,
+          "rank_before": 7,
+          "turn": 8
+        },
+        {
+          "angel_after": 9,
+          "angel_before": 10,
+          "deleted_cell": 10,
+          "rank_after": 5,
+          "rank_before": 6,
+          "turn": 9
+        },
+        {
+          "angel_after": 12,
+          "angel_before": 9,
+          "deleted_cell": 9,
+          "rank_after": 4,
+          "rank_before": 5,
+          "turn": 10
+        },
+        {
+          "angel_after": 11,
+          "angel_before": 12,
+          "deleted_cell": 12,
+          "rank_after": 3,
+          "rank_before": 4,
+          "turn": 11
+        },
+        {
+          "angel_after": 14,
+          "angel_before": 11,
+          "deleted_cell": 11,
+          "rank_after": 2,
+          "rank_before": 3,
+          "turn": 12
+        },
+        {
+          "angel_after": 13,
+          "angel_before": 14,
+          "deleted_cell": 14,
+          "rank_after": 1,
+          "rank_before": 2,
+          "turn": 13
+        }
+      ],
+      "trapped": true,
+      "turns": 14
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "all_claims_reconsidered": 21,
+  "anti_overread": [
+    "This is a scope statement on the typed-scalar abstraction, not a math nonclaim about AM–GM itself."
+  ],
+  "boundary_claim_ids": [
+    "P025-C0019"
+  ],
+  "candidate_ids": [
+    "VII-C016",
+    "VII-C026",
+    "VII-C018",
+    "VII-C019",
+    "VII-C036"
+  ],
+  "cluster": "B_VII_NEAR_INTERACTION_ACCESS",
+  "findings": [
+    "All 21 canonical Step-2 claims were reconsidered against the candidate graph.",
+    "Exact source statements and grades remain controlling; this record is a dependency index.",
+    "Application-specific success cannot be promoted back into an abstract VII theorem without a bridge."
+  ],
+  "open_problem_ids": [
+    "P025-C0002",
+    "P025-C0020",
+    "P025-C0021"
+  ],
+  "paper_id": "P025",
+  "reading_order": "34",
+  "relevant_claim_ids": [
+    "P025-C0001",
+    "P025-C0002",
+    "P025-C0003",
+    "P025-C0004",
+    "P025-C0005",
+    "P025-C0006",
+    "P025-C0007",
+    "P025-C0008",
+    "P025-C0009",
+    "P025-C0010",
+    "P025-C0011",
+    "P025-C0012",
+    "P025-C0013",
+    "P025-C0014",
+    "P025-C0015",
+    "P025-C0016",
+    "P025-C0017",
+    "P025-C0018",
+    "P025-C0019",
+    "P025-C0020",
+    "P025-C0021"
+  ],
+  "root_sha256": "9ebaf0495df2a8246e9038baa4443b0dc68906dcb45939eb1ccb1037d5abfe66",
+  "source_path": "papers/Tsiokos_2026_Self_Dual_Trace_Confinement_A_Six_Birds_Structural_Law_for_Formed_Closures_Under_Involutive_Self_Duality.tex",
+  "source_status": "COMPLETE_SUPPLIED_SOURCE_TREE",
+  "source_tree_sha256": "234373ac0f79f6e7caf1c40744bcc1ca36793384f1744adc21c1db9b16ec5ebb",
+  "step3_role": "DEPENDENCY_CLOSURE_REREAD",
+  "title": "Self-Dual Trace Confinement",
+  "top_convergence_groups": [
+    "CG11",
+    "CG12",
+    "CG18",
+    "CG22"
+  ],
+  "version_family_ruling": "NOT_APPLICABLE"
+}

@@ -1,0 +1,51 @@
+\section{Related work}
+\label{sec:related}
+
+\paragraph{Combining and comparing theories.}
+Several mature literatures address neighbouring, more specialized problems. Nelson--Oppen
+combination gives conditions under which decision procedures for quantifier-free
+fragments of suitably separated first-order theories cooperate \citep{NelsonOppen1979}.
+Institution theory and algebraic specification study signatures, sentences, models,
+satisfaction and morphisms across logical systems, and build structured specifications
+from them \citep{GoguenBurstall1992,SannellaTarlecki2012}. Interface automata and
+contract-based design make compatibility, refinement, environment assumptions and
+composition explicit \citep{DeAlfaroHenzinger2001,AbadiLamport1993,BenvenisteEtAl2018}.
+Theories can also be compared without being composed: Morita and categorical equivalence
+give criteria for when two formulations are the same theory, and show how much structure
+a criterion preserves \citep{BarrettHalvorson2016,Weatherall2021}. These are the nearest
+comparison classes. None of them is used here as a representation theorem for the join
+of \Cref{sec:strict-join}, whose content is the elementary statement on factorization over the reached image in
+Theorem~A.
+
+\paragraph{Rewriting.}
+Newman's lemma \citep{Newman1942} and the critical-pair method \citep{KnuthBendix1970,
+Huet1980} are the classical tools for proving that the order of rewriting steps does not
+matter. \Cref{sec:admission} applies them to admission orders.
+
+\paragraph{Provenance, causation and enablement.}
+Database provenance tracks how outputs depend on source data; causal models separate
+common causes from stronger causal claims; organizational-closure work treats constraints
+as acting on processes while depending on one another for their maintenance
+\citep{GreenEtAl2007,Pearl2009,MontevilMossio2015}. The certificate language keeps these
+apart: its source-independence field is a record of distinct ancestry, not statistical
+independence, and its enablement record is not a causal or biological closure model. The
+reachability and horizon fields are informed by the distinction between safety and
+liveness and by bounded model checking \citep{AlpernSchneider1985,ClarkeEtAl2018,
+BiereEtAl1999}, in particular by the warning that a bounded search establishes a bounded
+result. Preregistration in scientific method motivates the prospective-commitment record
+\citep{NosekEtAl2018}.
+
+\paragraph{The Six Birds series.}
+Foundations~I supplies the notion of a theory package: a carrier with a lens, a
+completion endomap and an audit \citep{TsiokosFoundationsI}. Foundations~II supplies the
+vocabulary of admissible claims, of which the admission records here are a
+specialization \citep{TsiokosFoundationsII}. Foundations~III supplies an audited
+interaction calculus within a fixed setting \citep{TsiokosFoundationsIII}; this paper asks
+the prior question of when interaction across a boundary is lawful at all.
+Foundations~IV supplies the catalog form and the access quotient
+\citep{TsiokosFoundationsIV}. Foundations~V uses the word \emph{join} for the repair join,
+a lattice operation on quotients of one carrier \citep{TsiokosFoundationsV}; the join of
+theories here is a different object and gets a different symbol, $\tjoin$ rather than
+$\repairjoin$. Foundations~V and~VI provide formal libraries that the Lean development
+builds on \citep{TsiokosFoundationsV,TsiokosFoundationsVI}. Individual certificates
+sharpen results of earlier papers in the series.

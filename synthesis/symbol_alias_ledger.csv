@@ -1,0 +1,11 @@
+preferred_term,alias_or_older_usage,relation,source_paper,source_line,ruling
+P1,Foundations I: operator rewrite,historical operational realization,P031,1175,Use the Foundations II descent-compatibility meaning as canonical.
+P2,Foundations I: gating / constraints,historical operational realization,P031,1181,Use macro-specification representability as canonical; gating is an instance.
+P3,Foundations I: autonomous protocol holonomy,historical operational realization,P031,1187,Use enriched route/coherence mismatch as canonical; holonomy is an instance and not arrow.
+P4,Foundations I: sectors / invariants,historical operational realization,P031,1195,Use stage/order/transition/refinement as canonical; sectors are an instance.
+P5,Foundations I: packaging,compatible shorthand,P031,1201,Use quotient packaging/quotienting; generic path or derivation is excluded.
+P6,Foundations I: accounting / audit,compatible shorthand,P031,1207,Use audit/bookkeeping/provenance/replay/checkability; reserve P6_drive for arrow.
+join,Foundations V repair join,distinct established operation,P030,458-467,Coarsest common refinement of quotients on one carrier; not yet a theory-interaction join.
+interaction,Foundations III directed cell/pair observables,existing intra-calculus notion,P026,1538-1666,"VII horizontal theory interaction must be expressed through, not substituted for, BirdInt."
+closure,fixed point / idempotent packaging,canonical core,P031,350-590,"Do not use as synonym for strictness, endogeny, or completeness of reality."
+top-down,structural downward path,restricted existing notion,P026,1790ff,"A structural path is not an accepted causal channel without interventions, controls, and registered effect."
